@@ -5,6 +5,9 @@
 
 # deploy data — uncomment to exclude from git (when using R2/S3)
 # /data
+
+# local uploads (dev)
+/storage
 /.pnp
 .pnp.*
 .yarn/*

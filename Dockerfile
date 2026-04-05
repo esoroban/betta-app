@@ -41,6 +41,9 @@ COPY --from=builder /app/node_modules/.prisma ./node_modules/.prisma
 COPY --chown=nextjs:nodejs data/SERVER ./data/SERVER
 COPY --chown=nextjs:nodejs data/ASSETS ./data/ASSETS
 
+# Storage dir for persistent disk (Render mounts here)
+RUN mkdir -p /app/storage/candidates /app/storage/published && chown -R nextjs:nodejs /app/storage
+
 # Seed + entrypoint
 COPY seed-docker.js ./
 COPY docker-entrypoint.sh ./
