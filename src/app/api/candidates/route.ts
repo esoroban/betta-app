@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
     return Response.json({ error: "Invalid JSON body" }, { status: 400 });
   }
 
-  const { lessonId, sceneId, stepId, field, candidateType, originalValue, proposedValue, languageCode } = body;
+  const { lessonId, sceneId, stepId, field, candidateType, originalValue, proposedValue, languageCode, sourceLanguage } = body;
 
   if (!lessonId || !field || !candidateType) {
     return Response.json(
@@ -81,6 +81,7 @@ export async function POST(request: NextRequest) {
       originalValue: originalValue || "",
       proposedValue,
       languageCode: languageCode || null,
+      sourceLanguage: sourceLanguage || languageCode || null,
       status: "pending",
       authorUserId: session.userId,
     },

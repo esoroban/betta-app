@@ -61,6 +61,8 @@ model EditCandidate {
   originalValue    String    @db.Text
   proposedValue    String    @db.Text
   languageCode     String?
+  sourceLanguage   String?
+  translatedValues Json?
   status           String    @default("pending")
   authorUserId     String
   createdAt        DateTime  @default(now())

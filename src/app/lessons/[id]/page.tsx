@@ -51,6 +51,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const [saving, setSaving] = useState(false);
   const [candidates, setCandidates] = useState<any[]>([]);
   const [showCandidates, setShowCandidates] = useState(false);
+  const [sourceLang, setSourceLang] = useState("en");
   const router = useRouter();
 
   useEffect(() => {
@@ -138,6 +139,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   function openEditor(type: EditorType) {
     if (!canEdit) return;
     setSaveMsg("");
+    setSourceLang(lang);
     if (type === "teacher") {
       setEditorDraft(step ? t(step.prompt) : "");
     } else if (type === "poll") {
@@ -183,6 +185,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
           originalValue,
           proposedValue: editorDraft,
           languageCode: lang,
+          sourceLanguage: sourceLang,
         }),
       });
       const data = await res.json();
@@ -316,7 +319,23 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
               </div>
               <div style={{ fontSize: 11, color: "rgba(240,242,245,0.4)", marginTop: 2 }}>
                 {c.candidateType} · {c.sceneId || "—"} · {new Date(c.createdAt).toLocaleString()}
+                {c.sourceLanguage && <> · src: <strong>{c.sourceLanguage.toUpperCase()}</strong></>}
               </div>
+              {c.status === "accepted" && c.translatedValues && (
+                <div style={{ fontSize: 11, marginTop: 4, display: "flex", gap: 4, flexWrap: "wrap" as const }}>
+                  {Object.entries(c.translatedValues as Record<string, any>)
+                    .filter(([k]) => k !== "_error")
+                    .map(([langCode, val]: [string, any]) => (
+                      <span key={langCode} style={{
+                        padding: "1px 6px", borderRadius: 4, fontSize: 10, fontWeight: 700,
+                        background: val?.success ? "rgba(46,125,50,0.2)" : "rgba(200,40,40,0.2)",
+                        color: val?.success ? "#66bb6a" : "#ef5350",
+                      }} title={val?.text || val?.error || ""}>
+                        {langCode.toUpperCase()} {val?.success ? "\u2713" : "\u2717"}
+                      </span>
+                    ))}
+                </div>
+              )}
               {c.reviewNote && (
                 <div style={{ fontSize: 11, color: "#ef5350", marginTop: 4 }}>
                   Note: {c.reviewNote}
@@ -378,12 +397,32 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
               <button style={S.xBtn} onClick={closeEditor}>×</button>
             </div>
 
+            {/* ── Source Language Selector ── */}
+            {(editor === "teacher" || editor === "poll" || editor === "brief" || editor === "overlay") && (
+              <div style={S.sourceLangRow} data-testid="source-lang-selector">
+                <span style={S.fieldLabel}>Source of truth language</span>
+                <div style={S.sourceLangBtns}>
+                  {["en", "ru", "uk"].map(l => (
+                    <button key={l}
+                      style={sourceLang === l ? S.sourceLangActive : S.sourceLangBtn}
+                      onClick={() => setSourceLang(l)}
+                      data-testid={`source-lang-${l}`}>
+                      {l.toUpperCase()}
+                    </button>
+                  ))}
+                </div>
+                <span style={S.sourceLangHint}>
+                  On approve, this text will be translated to all other languages
+                </span>
+              </div>
+            )}
+
             {/* ── Teacher Text Editor ── */}
             {editor === "teacher" && step && (
               <div style={S.editorBody}>
                 <div style={S.fieldLabel}>Current</div>
                 <div style={S.oldText}>{t(step.prompt)}</div>
-                <div style={S.fieldLabel}>New text</div>
+                <div style={S.fieldLabel}>New text ({sourceLang.toUpperCase()})</div>
                 <textarea style={S.textarea} rows={6} value={editorDraft}
                   onChange={e => setEditorDraft(e.target.value)} data-testid="editor-textarea" />
               </div>
@@ -585,4 +624,11 @@ const S: Record<string, React.CSSProperties> = {
   candidatesPanelHead: { display: "flex", justifyContent: "space-between", alignItems: "center", padding: "14px 16px", borderBottom: "1px solid rgba(255,255,255,0.06)" },
   candidateRow: { padding: "10px 16px", borderBottom: "1px solid rgba(255,255,255,0.04)" },
   statusBadge: { padding: "2px 8px", borderRadius: 999, fontSize: 10, fontWeight: 700 },
+
+  // Source language selector
+  sourceLangRow: { display: "flex", alignItems: "center", gap: 10, padding: "8px 0", flexWrap: "wrap" as const },
+  sourceLangBtns: { display: "flex", gap: 3 },
+  sourceLangBtn: { padding: "3px 8px", borderRadius: 4, border: "1px solid rgba(255,255,255,0.12)", background: "transparent", color: "rgba(240,242,245,0.4)", fontSize: 10, fontWeight: 800, cursor: "pointer" },
+  sourceLangActive: { padding: "3px 8px", borderRadius: 4, border: "1px solid #ff9800", background: "rgba(255,152,0,0.15)", color: "#ff9800", fontSize: 10, fontWeight: 800, cursor: "pointer" },
+  sourceLangHint: { fontSize: 10, color: "rgba(240,242,245,0.25)", width: "100%" },
 };

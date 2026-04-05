@@ -3,7 +3,8 @@ import { prisma } from "@/lib/prisma";
 import { requireAuth } from "@/lib/auth";
 import { canReview } from "@/lib/roles";
 import { createAuditEvent } from "@/lib/audit";
-import { Role } from "@prisma/client";
+import { translateToAllLangs } from "@/lib/translation";
+import { Role, Prisma } from "@prisma/client";
 
 // GET /api/candidates/:id
 export async function GET(
@@ -61,6 +62,28 @@ export async function PATCH(
       return Response.json({ error: `Cannot approve candidate with status '${candidate.status}'` }, { status: 409 });
     }
 
+    // Translation fan-out for text candidates with a source language
+    let translatedValues: Record<string, unknown> | null = null;
+    if (candidate.candidateType === "text" && candidate.sourceLanguage && candidate.proposedValue) {
+      try {
+        const translations = await translateToAllLangs(
+          candidate.proposedValue,
+          candidate.sourceLanguage
+        );
+        translatedValues = translations as Record<string, unknown>;
+      } catch (err) {
+        // Translation failure is non-blocking; approve still proceeds
+        translatedValues = {
+          _error: `Translation failed: ${err instanceof Error ? err.message : "unknown"}`,
+          [candidate.sourceLanguage]: {
+            lang: candidate.sourceLanguage,
+            text: candidate.proposedValue,
+            success: true,
+          },
+        };
+      }
+    }
+
     const updated = await prisma.editCandidate.update({
       where: { id },
       data: {
@@ -68,15 +91,22 @@ export async function PATCH(
         reviewedBy: session.userId,
         reviewedAt: new Date(),
         reviewNote: body.note || null,
+        ...(translatedValues ? { translatedValues: translatedValues as Prisma.InputJsonValue } : {}),
       },
       include: { author: { select: { id: true, displayName: true, email: true } } },
     });
 
     await createAuditEvent(session.userId, "candidate.approved", "EditCandidate", id, {
-      lessonId: candidate.lessonId, field: candidate.field,
+      lessonId: candidate.lessonId,
+      field: candidate.field,
+      sourceLanguage: candidate.sourceLanguage,
+      translationSuccess: translatedValues ? !("_error" in translatedValues) : false,
+      translatedLangs: translatedValues
+        ? Object.keys(translatedValues).filter(k => k !== "_error")
+        : [],
     });
 
-    return Response.json({ candidate: updated });
+    return Response.json({ candidate: updated, translatedValues });
   }
 
   // ═══ REJECT ═══
