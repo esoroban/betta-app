@@ -1,0 +1,3024 @@
+{
+  "lesson_id": "4A",
+  "title": {
+    "ru": "Язык тела и голос",
+    "uk": "Мова тіла і голос",
+    "en": "Body Language and Voice"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "Разминка",
+        "uk": "Розминка",
+        "en": "Warm-up"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_5",
+        "sc1_7",
+        "sc1_9",
+        "sc1_10",
+        "sc1_12",
+        "sc1_14",
+        "sc1_16",
+        "sc1_18",
+        "sc1_20",
+        "sc1_22"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "Повторение: солдат и разведчик",
+        "uk": "Повторение: солдат и разведчик",
+        "en": "Repetition: soldier and scout"
+      },
+      "step_ids": [
+        "sc2_23",
+        "sc2_24",
+        "sc2_25",
+        "sc2_26",
+        "sc2_28",
+        "sc2_30",
+        "sc2_32",
+        "sc2_33",
+        "sc2_34",
+        "sc2_36",
+        "sc2_37",
+        "sc2_38",
+        "sc2_39"
+      ],
+      "first_step_index": 13
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Повторение: формула высказывания",
+        "uk": "Повторение: формула высказывания",
+        "en": "Repetition: utterance formula"
+      },
+      "step_ids": [
+        "sc3_41",
+        "sc3_42",
+        "sc3_44",
+        "sc3_45",
+        "sc3_47",
+        "sc3_48",
+        "sc3_49",
+        "sc3_50",
+        "sc3_51",
+        "sc3_52",
+        "sc3_53",
+        "sc3_55",
+        "sc3_57",
+        "sc3_59"
+      ],
+      "first_step_index": 26
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "Открытие",
+        "uk": "Відкриття",
+        "en": "Discovery"
+      },
+      "step_ids": [
+        "sc4_61",
+        "sc4_62",
+        "sc4_63",
+        "sc4_64",
+        "sc4_65",
+        "sc4_66",
+        "sc4_67",
+        "sc4_68",
+        "sc4_69",
+        "sc4_70",
+        "sc4_71",
+        "sc4_72"
+      ],
+      "first_step_index": 40
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "ИСТОРИЯ — ДМИТРИК И ЯЗЫК ТЕЛА",
+        "uk": "ИСТОРИЯ — ДМИТРИК И ЯЗЫК ТЕЛА",
+        "en": "HISTORY – DMITRIK AND BODY LANGUAGE"
+      },
+      "step_ids": [
+        "sc5_73",
+        "sc5_74",
+        "sc5_75",
+        "sc5_76",
+        "sc5_77",
+        "sc5_79",
+        "sc5_80",
+        "sc5_81",
+        "sc5_82",
+        "sc5_83"
+      ],
+      "first_step_index": 52
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Зрительный контакт и поза",
+        "uk": "Зрительный контакт и поза",
+        "en": "Eye contact and posture"
+      },
+      "step_ids": [
+        "sc6_84",
+        "sc6_85",
+        "sc6_86",
+        "sc6_87",
+        "sc6_88",
+        "sc6_89",
+        "sc6_90",
+        "sc6_91",
+        "sc6_92",
+        "sc6_93",
+        "sc6_94",
+        "sc6_95",
+        "sc6_96",
+        "sc6_97",
+        "sc6_99",
+        "sc6_101",
+        "sc6_103",
+        "sc6_105"
+      ],
+      "first_step_index": 62
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "Жесты и мимика",
+        "uk": "Жесты и мимика",
+        "en": "Gestures and facial expressions"
+      },
+      "step_ids": [
+        "sc7_106",
+        "sc7_107",
+        "sc7_108",
+        "sc7_109",
+        "sc7_110",
+        "sc7_111",
+        "sc7_112",
+        "sc7_113",
+        "sc7_114",
+        "sc7_116",
+        "sc7_118",
+        "sc7_120",
+        "sc7_122",
+        "sc7_124",
+        "sc7_126",
+        "sc7_127",
+        "sc7_128"
+      ],
+      "first_step_index": 80
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "Голос и интонация",
+        "uk": "Голос и интонация",
+        "en": "Voice and intonation"
+      },
+      "step_ids": [
+        "sc8_129",
+        "sc8_130",
+        "sc8_131",
+        "sc8_132",
+        "sc8_133",
+        "sc8_134",
+        "sc8_135",
+        "sc8_136",
+        "sc8_137",
+        "sc8_138",
+        "sc8_139",
+        "sc8_140",
+        "sc8_141",
+        "sc8_142",
+        "sc8_143",
+        "sc8_144",
+        "sc8_145",
+        "sc8_146",
+        "sc8_148",
+        "sc8_150",
+        "sc8_152",
+        "sc8_154",
+        "sc8_156"
+      ],
+      "first_step_index": 97
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "Закрытие",
+        "uk": "Закрытие",
+        "en": "Closing"
+      },
+      "step_ids": [
+        "sc9_157",
+        "sc9_158",
+        "sc9_159",
+        "sc9_160",
+        "sc9_161",
+        "sc9_162",
+        "sc9_163",
+        "sc9_164"
+      ],
+      "first_step_index": 120
+    },
+    "sc10": {
+      "scene_id": "sc10",
+      "title": {
+        "ru": "Экстра-практика: тон и ударения",
+        "uk": "Экстра-практика: тон и ударения",
+        "en": "Extra Practice: Tone and Accents"
+      },
+      "step_ids": [
+        "sc10_165",
+        "sc10_166",
+        "sc10_167",
+        "sc10_169",
+        "sc10_171",
+        "sc10_173",
+        "sc10_175",
+        "sc10_177",
+        "sc10_179",
+        "sc10_180",
+        "sc10_181",
+        "sc10_183",
+        "sc10_185"
+      ],
+      "first_step_index": 128
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Привет! Четвёртое занятие — а значит, мы уже многое знаем. Быстрая разминка — проверим, что осталось в голове!\n",
+        "uk": "Привіт! Четверте заняття — а значить, ми вже багато знаємо. Швидка розминка — перевіримо, що залишилося в голові!",
+        "en": "Hi! Fourth lesson—so we already know a lot. Quick warm-up—let's check what's stuck in our heads!"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Помним правила! Факт — проверили, и это правда. Мнение — личное ощущение, не проверишь. Неправда — проверили, и это не так.\n",
+        "uk": "Пам'ятаємо правила! Факт — перевірили, і це правда. Думка — особисте відчуття, не перевіриш. Неправда — перевірили, і це не так.",
+        "en": "Remember the rules! A fact—we checked it, and it's true. An opinion—a personal feeling you can't check. A falsehood—we checked it, and it's not true."
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В минуте шестьдесят секунд.»\n",
+        "uk": "«В минуте шестьдесят секунд.»",
+        "en": "\"There are sixty seconds in a minute.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! The clock ticked exactly sixty. Checked, confirmed."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Засеки на часах — ровно шестьдесят. Проверено, подтверждено.\n",
+        "uk": "Факт! Засеки на часах — ровно шестьдесят. Проверено, подтверждено.",
+        "en": "“Pizza tastes better than sushi.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! “Tastier” - everyone has their own taste. There is no device that can measure “deliciousness.” Although it would be convenient!"
+      }
+    },
+    {
+      "step_id": "sc1_7",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Пицца вкуснее суши.»\n",
+        "uk": "«Пицца вкуснее суши.»",
+        "en": "\"Dolphins are fish.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Not true! Dolphins are mammals. They breathe air and feed their young with milk. Scientists checked - definitely not fish. They even get offended if they are called fish."
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мнение! «Вкуснее» — у каждого свой вкус. Нет прибора, который измерит «вкусность». Хотя было бы удобно!\n",
+        "uk": "Мнение! «Вкуснее» — у каждого свой вкус. Нет прибора, который измерит «вкусность». Хотя было бы удобно!",
+        "en": "Now - reason or coincidence? The reason is that the first actually caused the second. Coincidence - it just happened nearby in time."
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Дельфины — это рыбы.»\n",
+        "uk": "«Дельфины — это рыбы.»",
+        "en": "“I watered the flower every day and the flower grew.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Cause! Without water, the flower will wither. Water is the real reason for growth."
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Дельфины — млекопитающие. Дышат воздухом, кормят детёнышей молоком. Учёные проверили — точно не рыбы. Даже обижаются, если их рыбами называют.\n",
+        "uk": "Неправда! Дельфины — млекопитающие. Дышат воздухом, кормят детёнышей молоком. Учёные проверили — точно не рыбы. Даже обижаются, если их рыбами называют.",
+        "en": "“I put on a new hat and got an excellent grade at school.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Совпадение",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! The hat does not affect the ratings. The brain sees “one thing after another” - and wants to connect. But this is a trap."
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Теперь — причина или совпадение? Причина — первое действительно вызвало второе. Совпадение — просто произошло рядом по времени.\n",
+        "uk": "Теперь — причина или совпадение? Причина — первое действительно вызвало второе. Совпадение — просто произошло рядом по времени.",
+        "en": "“I turned on the light and the room became bright.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Совпадение",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Cause! The switch lights the lamp. Direct connection."
+      }
+    },
+    {
+      "step_id": "sc1_16",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Полил цветок каждый день — цветок вырос.»\n",
+        "uk": "«Полил цветок каждый день — цветок вырос.»",
+        "en": "“I sneezed and the bus arrived.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Совпадение",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! A sneeze does not call the bus. Otherwise, everyone would sneeze at bus stops - and there would be no need for a schedule."
+      }
+    },
+    {
+      "step_id": "sc1_18",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Причина! Без воды цветок завянет. Вода — настоящая причина роста.\n",
+        "uk": "Причина! Без воды цветок завянет. Вода — настоящая причина роста.",
+        "en": "“I learned the verse and got an excellent grade for the verse.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Совпадение",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Cause! Knowledge of the verse is a direct reason for an excellent grade. There is a real connection here."
+      }
+    },
+    {
+      "step_id": "sc1_20",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Надел новую шапку — в школе получил отличную оценку.»\n",
+        "uk": "«Надел новую шапку — в школе получил отличную оценку.»",
+        "en": "“The cat climbed onto the table and the phone rang.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Совпадение",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! The cat doesn't know how to make calls. Although some cats think they can do everything."
+      }
+    },
+    {
+      "step_id": "sc1_22",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Совпадение! Шапка не влияет на оценки. Мозг видит «одно за другим» — и хочет связать. Но это ловушка.\n",
+        "uk": "Совпадение! Шапка не влияет на оценки. Мозг видит «одно за другим» — и хочет связать. Но это ловушка.",
+        "en": "Great! Fact, opinion, untruth - we remember. Reason and coincidence are not to be confused. And now - to what we taught in the last lesson."
+      }
+    },
+    {
+      "step_id": "sc2_23",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На прошлом занятии мы разбирали культуру спора. У спора бывает три цели. Кто помнит?\n",
+        "uk": "На прошлом занятии мы разбирали культуру спора. У спора бывает три цели. Кто помнит?",
+        "en": "In the last lesson we looked at the culture of argument. Argument has three purposes. Who remembers?"
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первая — ПОБЕДИТЬ. «Я прав, и точка!» Вторая — ПОНЯТЬ. «Давай разберёмся вместе!» Третья — ОБИДЕТЬ. «Хочу сделать тебе больно.» Какая цель у разведчика? Правильно — понять.\n",
+        "uk": "Первая — ПОБЕДИТЬ. «Я прав, и точка!» Вторая — ПОНЯТЬ. «Давай разберёмся вместе!» Третья — ОБИДЕТЬ. «Хочу сделать тебе больно.» Какая цель у разведчика? Правильно — понять.",
+        "en": "The first is to WIN. “I’m right, period!” The second is to UNDERSTAND. “Let's figure it out together!” The third is to OFFEND. “I want to hurt you.” What is the scout's goal? That's right - understand."
+      }
+    },
+    {
+      "step_id": "sc2_25",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверим на новой ситуации. Микола и Маша спорят, куда поехать на экскурсию. Микола хочет в зоопарк, Маша — в музей космонавтики.\n",
+        "uk": "Проверим на новой ситуации. Микола и Маша спорят, куда поехать на экскурсию. Микола хочет в зоопарк, Маша — в музей космонавтики.",
+        "en": "Let's check it out in a new situation. Mikola and Masha are arguing about where to go on an excursion. Mikola wants to go to the zoo, Masha wants to go to the cosmonautics museum."
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Микола: «В зоопарке круче! Кто хочет в музей — тот скучный!»\n",
+        "uk": "Микола: «В зоопарке круче! Кто хочет в музей — тот скучный!»",
+        "en": "Mikola: “It’s cooler at the zoo!” Anyone who wants to go to a museum is boring!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Победить",
+            "uk": "Победить",
+            "en": "Win"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Понять",
+            "uk": "Понять",
+            "en": "Understand"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обидеть",
+            "uk": "Обидеть",
+            "en": "Offend"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Offend! “Whoever wants to go to a museum is boring” - a blow to the person, and not about the excursion."
+      }
+    },
+    {
+      "step_id": "sc2_28",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Обидеть! «Кто хочет в музей — тот скучный» — удар по человеку, а не про экскурсию.\n",
+        "uk": "Обидеть! «Кто хочет в музей — тот скучный» — удар по человеку, а не про экскурсию.",
+        "en": "Mikola: “Zoo - and no talking! I've already decided. And period.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Победить",
+            "uk": "Победить",
+            "en": "Win"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Понять",
+            "uk": "Понять",
+            "en": "Understand"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обидеть",
+            "uk": "Обидеть",
+            "en": "Offend"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Win! Mikola doesn't listen. He doesn't care what Masha thinks. The main thing is that it should be according to him."
+      }
+    },
+    {
+      "step_id": "sc2_30",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Микола: «Зоопарк — и никаких разговоров! Я уже решил. И точка.»\n",
+        "uk": "Микола: «Зоопарк — и никаких разговоров! Я уже решил. И точка.»",
+        "en": "Mikola: “I want to go to the zoo, and you want to go to the museum. Tell me, what's interesting there? Maybe we can both find something cool.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Победить",
+            "uk": "Победить",
+            "en": "Win"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Понять",
+            "uk": "Понять",
+            "en": "Understand"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обидеть",
+            "uk": "Обидеть",
+            "en": "Offend"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Understand! Mikola does not give up his opinion, but wants to hear Masha. A real scout."
+      }
+    },
+    {
+      "step_id": "sc2_32",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Победить! Микола не слушает. Ему не важно, что думает Маша. Главное — чтобы было по его.\n",
+        "uk": "Победить! Микола не слушает. Ему не важно, что думает Маша. Главное — чтобы было по его.",
+        "en": "Soldier - stands behind the wall of the fortress, protects the territory. “My opinion is the only correct one!” Scout - takes binoculars and a notebook. “I wonder what the other person sees?”"
+      }
+    },
+    {
+      "step_id": "sc2_33",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Микола: «Я хочу в зоопарк, а ты — в музей. Расскажи, что там интересного? Может, мы оба найдём что-то клёвое.»\n",
+        "uk": "Микола: «Я хочу в зоопарк, а ты — в музей. Расскажи, что там интересного? Может, мы оба найдём что-то клёвое.»",
+        "en": "New situation. Dmitry and Mikola are arguing about who will be the goalkeeper. Both want it. Dmitry: “I always stand at the gate! This is MY place! Everyone knows.\""
+      }
+    },
+    {
+      "step_id": "sc2_34",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Понять! Микола не отказывается от своего мнения, но хочет услышать Машу. Настоящий разведчик.\n",
+        "uk": "Понять! Микола не отказывается от своего мнения, но хочет услышать Машу. Настоящий разведчик.",
+        "en": "Who is Dmitry?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Солдат",
+            "uk": "Солдат",
+            "en": "Soldier"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Разведчик",
+            "uk": "Разведчик",
+            "en": "Scout"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Soldier! “MY place”, “everyone knows” - a castle on lock. Doesn't listen and doesn't want to listen."
+      }
+    },
+    {
+      "step_id": "sc2_36",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Солдат — стоит за стеной крепости, защищает территорию. «Моё мнение — единственно правильное!» Разведчик — берёт бинокль и блокнот. «Интересно, а что видит другой человек?»\n",
+        "uk": "Солдат — стоит за стеной крепости, защищает территорию. «Моё мнение — единственно правильное!» Разведчик — берёт бинокль и блокнот. «Интересно, а что видит другой человек?»",
+        "en": "What if Dmitrik was a scout? “I love being on goal. Do you want it too? Let’s be honest - first half you, second half me?” The same argument - but without a quarrel."
+      }
+    },
+    {
+      "step_id": "sc2_37",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Новая ситуация. Дмитрик и Микола спорят, кто будет вратарём. Оба хотят. Дмитрик: «Я всегда стою на воротах! Это МОЁ место! Все знают.»\n",
+        "uk": "Новая ситуация. Дмитрик и Микола спорят, кто будет вратарём. Оба хотят. Дмитрик: «Я всегда стою на воротах! Это МОЁ место! Все знают.»",
+        "en": "The soldier is a wall. Scout - bridge. And the scout has three tools. We analyzed them in detail."
+      }
+    },
+    {
+      "step_id": "sc2_38",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Кто Дмитрик?\n",
+        "uk": "Кто Дмитрик?",
+        "en": "Empathy is a BRAKE. Active listening is a MIRROR. The formula of the statement is MAP. Let's check it out with new examples!"
+      }
+    },
+    {
+      "step_id": "sc2_39",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Солдат! «МОЁ место», «все знают» — крепость на замке. Не слушает и не хочет слушать.\n",
+        "uk": "Солдат! «МОЁ место», «все знают» — крепость на замке. Не слушает и не хочет слушать.",
+        "en": "Dmitry sees that Mikola is upset after the test: “I see that it’s not easy for you. Do you want us to sort out the mistakes together?”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сопереживание",
+            "uk": "Сопереживание",
+            "en": "Empathy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Активное слушание",
+            "uk": "Активное слушание",
+            "en": "Active listening"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Формула высказывания",
+            "uk": "Формула высказывания",
+            "en": "Statement formula"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Empathy! Dmitry saw the feeling and offered to help. The brake worked."
+      }
+    },
+    {
+      "step_id": "sc3_41",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Микола упал на физкультуре. Маша: «Не реви, это не больно!» Есть сопереживание?\n",
+        "uk": "Микола упал на физкультуре. Маша: «Не реви, это не больно!» Есть сопереживание?",
+        "en": "Mikola fell during physical education. Masha: “Don’t cry, it doesn’t hurt!” Any empathy?"
+      }
+    },
+    {
+      "step_id": "sc3_42",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Маша: «Не реви, это не больно!»\n",
+        "uk": "Маша: «Не реви, это не больно!»",
+        "en": "Masha: “Don’t cry, it doesn’t hurt!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть сопереживание",
+            "uk": "Есть сопереживание",
+            "en": "There is empathy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет",
+            "uk": "Нет",
+            "en": "Нет"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No! Masha decided for Mikola whether it hurt him or not. The brake didn't work."
+      }
+    },
+    {
+      "step_id": "sc3_44",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! Маша решила за Миколу, больно ему или нет. Тормоз не сработал.\n",
+        "uk": "Нет! Маша решила за Миколу, больно ему или нет. Тормоз не сработал.",
+        "en": "Masha tells Mikola: “I don’t like it when everyone pushes. I’ve already dropped my briefcase.” Mikola: “Uh-huh, okay.”"
+      }
+    },
+    {
+      "step_id": "sc3_45",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Маша говорит Миколе: «Мне не нравится, когда все толкаются. Я уже роняла портфель.» Микола: «Угу, ладно.»\n",
+        "uk": "Маша говорит Миколе: «Мне не нравится, когда все толкаются. Я уже роняла портфель.» Микола: «Угу, ладно.»",
+        "en": "Mikola: “Uh-huh, okay.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "en": "There is a retelling"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "en": "Нет"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No! “Uh-huh” is not a mirror. Masha doesn’t know whether Mikola understood or just nodded. A statement, not proof."
+      }
+    },
+    {
+      "step_id": "sc3_47",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Микола: «Угу, ладно.»\n",
+        "uk": "Микола: «Угу, ладно.»",
+        "en": "And now - the formula. Three steps: observation - feeling - suggestion. “I see that...”, “I...”, “Come on...” Scout card."
+      }
+    },
+    {
+      "step_id": "sc3_48",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! «Угу» — это не зеркало. Маша не знает, понял Микола или просто кивнул. Заявление, а не доказательство.\n",
+        "uk": "Нет! «Угу» — это не зеркало. Маша не знает, понял Микола или просто кивнул. Заявление, а не доказательство.",
+        "en": "Masha and Dmitrik are doing a joint project. Masha wrote her part, but Dmitrik did not. Submit tomorrow."
+      }
+    },
+    {
+      "step_id": "sc3_49",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — формула. Три шага: наблюдение — чувство — предложение. «Я вижу, что…», «Мне…», «Давай…» Карта разведчика.\n",
+        "uk": "А теперь — формула. Три шага: наблюдение — чувство — предложение. «Я вижу, что…», «Мне…», «Давай…» Карта разведчика.",
+        "en": "Soldier Masha: “You always ruin everything! We'll get a bad grade because of you! You are irresponsible! Three charges: “forever”, “because of you”, “irresponsible”."
+      }
+    },
+    {
+      "step_id": "sc3_50",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша и Дмитрик делают совместный проект. Маша написала свою часть, а Дмитрик — нет. Завтра сдавать.\n",
+        "uk": "Маша и Дмитрик делают совместный проект. Маша написала свою часть, а Дмитрик — нет. Завтра сдавать.",
+        "en": "Scout Masha: “I see that your unit is not ready yet. I'm worried because I have to take it tomorrow. Let’s call you this evening and you can finish it?”"
+      }
+    },
+    {
+      "step_id": "sc3_51",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Солдат-Маша: «Ты вечно всё портишь! Из-за тебя мы получим плохую оценку! Ты безответственный!» Три обвинения — «вечно», «из-за тебя», «безответственный».\n",
+        "uk": "Солдат-Маша: «Ты вечно всё портишь! Из-за тебя мы получим плохую оценку! Ты безответственный!» Три обвинения — «вечно», «из-за тебя», «безответственный».",
+        "en": "Observation - “part is not ready.” The feeling is “I’m worried.” Sentence: “We’ll call you in the evening.” Same situation, zero charges, there is a solution."
+      }
+    },
+    {
+      "step_id": "sc3_52",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Разведчик-Маша: «Я вижу, что твоя часть ещё не готова. Мне тревожно, потому что завтра сдавать. Давай сегодня вечером созвонимся и ты доделаешь?»\n",
+        "uk": "Разведчик-Маша: «Я вижу, что твоя часть ещё не готова. Мне тревожно, потому что завтра сдавать. Давай сегодня вечером созвонимся и ты доделаешь?»",
+        "en": "Description or accusation? Let's check!"
+      }
+    },
+    {
+      "step_id": "sc3_53",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Наблюдение — «часть не готова». Чувство — «мне тревожно». Предложение — «созвонимся вечером». Та же ситуация, ноль обвинений, есть решение.\n",
+        "uk": "Наблюдение — «часть не готова». Чувство — «мне тревожно». Предложение — «созвонимся вечером». Та же ситуация, ноль обвинений, есть решение.",
+        "en": "“You didn’t clean up after yourself again!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Описание",
+            "uk": "Описание",
+            "en": "Description"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "Обвинение",
+            "en": "Accusation"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Accusation! The word “again” is a marker. The scout would say, “I noticed the dishes were left on the table.”"
+      }
+    },
+    {
+      "step_id": "sc3_55",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Описание или обвинение? Проверяем!\n",
+        "uk": "Описание или обвинение? Проверяем!",
+        "en": "“I noticed that you came later than usual today.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Описание",
+            "uk": "Описание",
+            "en": "Description"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "Обвинение",
+            "en": "Accusation"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Description! Fact: today, later than usual. Without attack, without “forever” and “always”."
+      }
+    },
+    {
+      "step_id": "sc3_57",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты опять не убрал за собой!»\n",
+        "uk": "«Ты опять не убрал за собой!»",
+        "en": "Mikola: “I see that you have taken my place. I feel bad. Let's sit next to you?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Описание",
+            "uk": "Описание",
+            "en": "Empathy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "Обвинение",
+            "en": "Active listening"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Statement formula"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Formula! Observation + feeling + suggestion. All three steps of the map."
+      }
+    },
+    {
+      "step_id": "sc3_59",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Обвинение! Слово «опять» — маркер. Разведчик сказал бы: «Я заметил, что посуда осталась на столе.»\n",
+        "uk": "Обвинение! Слово «опять» — маркер. Разведчик сказал бы: «Я заметил, что посуда осталась на столе.»",
+        "en": "Mikola: “If I understand correctly, do you want us to play in turns, and not all at once?”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сопереживание",
+            "uk": "Сопереживание",
+            "en": "Empathy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Активное слушание",
+            "uk": "Активное слушание",
+            "en": "Active listening"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Формула высказывания",
+            "uk": "Формула высказывания",
+            "en": "Statement formula"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Active listening! He retold it specifically and asked again. Clean mirror. Three tools in place - ready for a new discovery!"
+      }
+    },
+    {
+      "step_id": "sc4_61",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "У разведчика три инструмента: тормоз, зеркало и карта. Все три — про СЛОВА. Мы чувствуем, пересказываем, говорим — словами. А если человек… молчит?\n",
+        "uk": "У разведчика три инструмента: тормоз, зеркало и карта. Все три — про СЛОВА. Мы чувствуем, пересказываем, говорим — словами. А если человек… молчит?",
+        "en": "The scout has three tools: brake, mirror and map. All three are about WORDS. We feel, we retell, we speak - in words. What if a person... is silent?"
+      }
+    },
+    {
+      "step_id": "sc4_62",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или ещё хитрее — говорит одно, а чувствует другое? Говорит «да», а внутри — «нет». Мама спрашивает: «Тебе понравился суп?» А вы: «Да-а-а… вкусно…» — и тихонько отодвигаете тарелку.\n",
+        "uk": "Или ещё хитрее — говорит одно, а чувствует другое? Говорит «да», а внутри — «нет». Мама спрашивает: «Тебе понравился суп?» А вы: «Да-а-а… вкусно…» — и тихонько отодвигаете тарелку.",
+        "en": "Or is it even more cunning - he says one thing, but feels another? He says “yes”, but inside he says “no”. Mom asks: “Did you like the soup?” And you: “Yessss... delicious...” and quietly push the plate away."
+      }
+    },
+    {
+      "step_id": "sc4_63",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Рот сказал «вкусно», а руки сказали «заберите это от меня». Кому верить — рту или рукам?\n",
+        "uk": "Рот сказал «вкусно», а руки сказали «заберите это от меня». Кому верить — рту или рукам?",
+        "en": "The mouth said “delicious” and the hands said “take this away from me.” Who to trust - your mouth or your hands?"
+      }
+    },
+    {
+      "step_id": "sc4_64",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Друг говорит: «Всё хорошо!» Но хмурится, скрестил руки и отвернулся. Слова — «хорошо». А всё остальное кричит — «мне плохо!»\n",
+        "uk": "Друг говорит: «Всё хорошо!» Но хмурится, скрестил руки и отвернулся. Слова — «хорошо». А всё остальное кричит — «мне плохо!»",
+        "en": "A friend says: “Everything is fine!” But he frowns, crosses his arms and turns away. The words are “good.” And everything else screams - “I feel bad!”"
+      }
+    },
+    {
+      "step_id": "sc4_65",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Учитель спрашивает: «Все поняли?» Класс кивает. А один человек нахмурился, грызёт ручку, смотрит в парту. Он тоже кивнул. Но его лицо говорит: «Я вообще ничего не понял».\n",
+        "uk": "Учитель спрашивает: «Все поняли?» Класс кивает. А один человек нахмурился, грызёт ручку, смотрит в парту. Он тоже кивнул. Но его лицо говорит: «Я вообще ничего не понял».",
+        "en": "The teacher asks: “Do you understand everything?” The class nods. And one person frowned, chewed on his pen, and looked at his desk. He nodded too. But his face says: “I didn’t understand anything at all.”"
+      }
+    },
+    {
+      "step_id": "sc4_66",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Получается, мы говорим не только ртом! У нас есть второй язык — язык ТЕЛА. Руки говорят. Лицо говорит. Даже спина говорит! Мама стоит руки в боки — она ещё ни слова не сказала, а вы уже всё поняли.\n",
+        "uk": "Получается, мы говорим не только ртом! У нас есть второй язык — язык ТЕЛА. Руки говорят. Лицо говорит. Даже спина говорит! Мама стоит руки в боки — она ещё ни слова не сказала, а вы уже всё поняли.",
+        "en": "It turns out that we speak not only with our mouths! We have a second language - BODY language. Hands speak. The face speaks. Even your back speaks! Mom stands with her hands on her hips - she hasn’t said a word yet, but you already understand everything."
+      }
+    },
+    {
+      "step_id": "sc4_67",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "У учёных для этого есть длиннющее слово. Не-вер-баль-на-я ком-му-ни-ка-ци-я. Десять слогов! Язык сломаешь.\n",
+        "uk": "У учёных для этого есть длиннющее слово. Не-вер-баль-на-я ком-му-ни-ка-ци-я. Десять слогов! Язык сломаешь.",
+        "en": "Scientists have a long word for this. Not-ver-bal-na-kom-mu-ni-ka-tsi-ya. Ten syllables! You'll break your tongue."
+      }
+    },
+    {
+      "step_id": "sc4_68",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Но смысл простой. «Вербальная» — словами. «Не-вербальная» — БЕЗ слов. Невербальная коммуникация — это когда ты передаёшь информацию лицом, руками, позой, голосом.\n",
+        "uk": "Но смысл простой. «Вербальная» — словами. «Не-вербальная» — БЕЗ слов. Невербальная коммуникация — это когда ты передаёшь информацию лицом, руками, позой, голосом.",
+        "en": "But the meaning is simple. “Verbal” - in words. “Non-verbal” - WITHOUT words. Nonverbal communication is when you convey information with your face, hands, posture, and voice."
+      }
+    },
+    {
+      "step_id": "sc4_69",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мама руки в боки — невербальная коммуникация. Друг отвернулся — невербальная коммуникация. Кот прижал уши — тоже она! Даже коты этим пользуются.\n",
+        "uk": "Мама руки в боки — невербальная коммуникация. Друг отвернулся — невербальная коммуникация. Кот прижал уши — тоже она! Даже коты этим пользуются.",
+        "en": "Mom hands on hips - nonverbal communication. The friend turned away - nonverbal communication. The cat covered his ears - she did too! Even cats use it."
+      }
+    },
+    {
+      "step_id": "sc4_70",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Зачем это разведчику? Все наши инструменты работают со словами. Но иногда слова врут. А тело — почти никогда. Тело — честный болтун, оно не умеет молчать.\n",
+        "uk": "Зачем это разведчику? Все наши инструменты работают со словами. Но иногда слова врут. А тело — почти никогда. Тело — честный болтун, оно не умеет молчать.",
+        "en": "Why does a scout need this? All our tools work with words. But sometimes words lie. And the body - almost never. The body is an honest talker; it cannot remain silent."
+      }
+    },
+    {
+      "step_id": "sc4_71",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Поэтому сегодня мы добавим разведчику четвёртый инструмент — ГЛАЗ. Тормоз, зеркало, карта — и теперь глаз. Умение видеть то, что слова прячут.\n",
+        "uk": "Поэтому сегодня мы добавим разведчику четвёртый инструмент — ГЛАЗ. Тормоз, зеркало, карта — и теперь глаз. Умение видеть то, что слова прячут.",
+        "en": "Therefore, today we will add a fourth tool to the scout - the EYE. Brake, mirror, map - and now the eye. The ability to see what words hide."
+      }
+    },
+    {
+      "step_id": "sc4_72",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь послушайте интересную историю о том, как слова говорили одно, а тело — совсем другое.",
+        "uk": "А теперь послушайте интересную историю о том, как слова говорили одно, а тело — совсем другое.",
+        "en": "Now listen to an interesting story about how the words said one thing, but the body said something completely different."
+      }
+    },
+    {
+      "step_id": "sc5_73",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ребята позвали Дмитрика играть в мяч. «Да, конечно, хочу!» — сказал Дмитрик. Но руки скрестил, глаза отвёл в сторону, а голос стал тихий и скучный.",
+        "uk": "Ребята позвали Дмитрика играть в мяч. «Да, конечно, хочу!» — сказал Дмитрик. Но руки скрестил, глаза отвёл в сторону, а голос стал тихий и скучный.",
+        "en": "The guys invited Dmitry to play ball. “Yes, of course I want to!” - said Dmitry. But he crossed his arms, looked away, and his voice became quiet and boring."
+      }
+    },
+    {
+      "step_id": "sc5_74",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Витя присмотрелся. Рот говорит «да» — а тело кричит «нет!» Скрещённые руки — закрылся, как крепость. Взгляд в сторону — не хочет смотреть. Голос без энергии.",
+        "uk": "Витя присмотрелся. Рот говорит «да» — а тело кричит «нет!» Скрещённые руки — закрылся, как крепость. Взгляд в сторону — не хочет смотреть. Голос без энергии.",
+        "en": "Vitya took a closer look. The mouth says “yes” - but the body screams “no!” Crossed arms - closed like a fortress. Looking to the side - doesn’t want to look. Voice without energy."
+      }
+    },
+    {
+      "step_id": "sc5_75",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Витя тихо спросил: «Дмитрик, ты расстроен, что тебя вчера не позвали?» Дмитрик опустил глаза: «Ну… да.» Вот оно — настоящая причина.",
+        "uk": "Витя тихо спросил: «Дмитрик, ты расстроен, что тебя вчера не позвали?» Дмитрик опустил глаза: «Ну… да.» Вот оно — настоящая причина.",
+        "en": "Vitya quietly asked: “Dmitrik, are you upset that you weren’t invited yesterday?” Dmitrik lowered his eyes: “Well... yes.” This is the real reason."
+      }
+    },
+    {
+      "step_id": "sc5_76",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Витя не поверил словам — он посмотрел на тело. Три подсказки — руки, глаза, голос — и все без единого слова. Настоящий разведчик!",
+        "uk": "Витя не поверил словам — он посмотрел на тело. Три подсказки — руки, глаза, голос — и все без единого слова. Настоящий разведчик!",
+        "en": "Vitya did not believe the words - he looked at the body. Three clues - hands, eyes, voice - and all without a single word. A real scout!"
+      }
+    },
+    {
+      "step_id": "sc5_77",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В начале Дмитрик говорил «да, хочу играть». Но его ТЕЛО говорило что?\n",
+        "uk": "В начале Дмитрик говорил «да, хочу играть». Но его ТЕЛО говорило что?",
+        "en": "At the beginning, Dmitry said “yes, I want to play.” But his BODY said what?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Да, хочу»",
+            "uk": "«Да, хочу»",
+            "en": "\"Yes, I want\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Нет, не хочу»",
+            "uk": "«Нет, не хочу»",
+            "en": "\"No, I don't want to\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Непонятно",
+            "uk": "Непонятно",
+            "en": "Not clear"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "“No, I don’t want to”! The mouth said yes, but the body said no. Like with soup!"
+      }
+    },
+    {
+      "step_id": "sc5_79",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Нет, не хочу»! Рот сказал «да», а тело — «нет». Как с супом!\n",
+        "uk": "«Нет, не хочу»! Рот сказал «да», а тело — «нет». Как с супом!",
+        "en": "What exactly gave Dmitry away? Arms crossed - closed like a fortress. Eyes look to the side - does not want contact. The voice is boring - like a robot talking."
+      }
+    },
+    {
+      "step_id": "sc5_80",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Что именно выдавало Дмитрика? Руки скрещены — закрылся, как крепость. Глаза смотрят в сторону — не хочет контакта. Голос скучный — будто робот говорит.\n",
+        "uk": "Что именно выдавало Дмитрика? Руки скрещены — закрылся, как крепость. Глаза смотрят в сторону — не хочет контакта. Голос скучный — будто робот говорит.",
+        "en": "Three clues - and all without a single word!"
+      }
+    },
+    {
+      "step_id": "sc5_81",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три подсказки — и все без единого слова!\n",
+        "uk": "Три подсказки — и все без единого слова!",
+        "en": "And Vitya is a real intelligence officer. He turned on his EYE - he didn’t believe the words, but looked at the body. And he helped Dmitry understand his feelings."
+      }
+    },
+    {
+      "step_id": "sc5_82",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А Витя — настоящий разведчик. Он включил ГЛАЗ — не поверил словам, а посмотрел на тело. И помог Дмитрику разобраться в своих чувствах.\n",
+        "uk": "А Витя — настоящий разведчик. Он включил ГЛАЗ — не поверил словам, а посмотрел на тело. И помог Дмитрику разобраться в своих чувствах.",
+        "en": "Today we will learn the same thing. Let's look at three parts of body language: eye contact and posture, gestures and facial expressions, voice and intonation."
+      }
+    },
+    {
+      "step_id": "sc5_83",
+      "scene_id": "sc5",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сегодня мы научимся так же. Разберём три части языка тела: зрительный контакт и поза, жесты и мимика, голос и интонация.\n",
+        "uk": "Сегодня мы научимся так же. Разберём три части языка тела: зрительный контакт и поза, жесты и мимика, голос и интонация.",
+        "en": "Let's go!"
+      }
+    },
+    {
+      "step_id": "sc6_84",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Часть первая — зрительный контакт и поза.\n",
+        "uk": "Часть первая — зрительный контакт и поза.",
+        "en": "Part one is eye contact and posture."
+      }
+    },
+    {
+      "step_id": "sc6_85",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Зрительный контакт — это когда ты смотришь человеку в глаза. Казалось бы — мелочь. Но это мощный сигнал! Как фонарик — направил на человека, и он сразу чувствует: я тут, я слушаю.\n",
+        "uk": "Зрительный контакт — это когда ты смотришь человеку в глаза. Казалось бы — мелочь. Но это мощный сигнал! Как фонарик — направил на человека, и он сразу чувствует: я тут, я слушаю.",
+        "en": "Eye contact is when you look a person in the eyes. It would seem like a trifle. But this is a powerful signal! Like a flashlight, it’s pointed at a person, and he immediately feels: I’m here, I’m listening."
+      }
+    },
+    {
+      "step_id": "sc6_86",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Когда ты смотришь в глаза — ты говоришь без слов три вещи: «Я тебя слушаю», «Мне важно то, что ты говоришь» и «Я не боюсь». Внимание, интерес, уверенность — одним взглядом!\n",
+        "uk": "Когда ты смотришь в глаза — ты говоришь без слов три вещи: «Я тебя слушаю», «Мне важно то, что ты говоришь» и «Я не боюсь». Внимание, интерес, уверенность — одним взглядом!",
+        "en": "When you look into your eyes, you say three things without words: “I’m listening to you,” “What you say is important to me,” and “I’m not afraid.” Attention, interest, confidence - at a glance!"
+      }
+    },
+    {
+      "step_id": "sc6_87",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А если человек смотрит в сторону или в пол? Может, ему неловко. Или он расстроен. Или просто не хочет разговаривать. Глаза — это окно. Куда смотрят глаза — там и внимание.\n",
+        "uk": "А если человек смотрит в сторону или в пол? Может, ему неловко. Или он расстроен. Или просто не хочет разговаривать. Глаза — это окно. Куда смотрят глаза — там и внимание.",
+        "en": "What if a person looks to the side or at the floor? Maybe he's embarrassed. Or he's upset. Or he just doesn't want to talk. The eyes are a window. Where the eyes look, there is attention."
+      }
+    },
+    {
+      "step_id": "sc6_88",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша рассказывает Дмитрику, что было на каникулах. Дмитрик смотрит ей в глаза, кивает. Маша чувствует — её слушают! Ей хочется рассказывать дальше.\n",
+        "uk": "Маша рассказывает Дмитрику, что было на каникулах. Дмитрик смотрит ей в глаза, кивает. Маша чувствует — её слушают! Ей хочется рассказывать дальше.",
+        "en": "Masha tells Dmitrik what happened during the holidays. Dmitry looks into her eyes and nods. Masha feels that she is being listened to! She wants to talk further."
+      }
+    },
+    {
+      "step_id": "sc6_89",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь другой Дмитрик. Та же Маша, тот же рассказ. Но Дмитрик уткнулся в телефон. Маша замолкает. Зачем рассказывать, если никто не смотрит? Хотя, может, он и слушает! Но Маша-то этого не ВИДИТ.\n",
+        "uk": "А теперь другой Дмитрик. Та же Маша, тот же рассказ. Но Дмитрик уткнулся в телефон. Маша замолкает. Зачем рассказывать, если никто не смотрит? Хотя, может, он и слушает! Но Маша-то этого не ВИДИТ.",
+        "en": "And now another Dmitry. Same Masha, same story. But Dmitrik turned his attention to the phone. Masha falls silent. Why tell if no one is watching? Although maybe he is listening! But Masha doesn’t SEE this."
+      }
+    },
+    {
+      "step_id": "sc6_90",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — поза. Поза — это как расположено твоё тело. И тут есть два варианта.\n",
+        "uk": "Теперь — поза. Поза — это как расположено твоё тело. И тут есть два варианта.",
+        "en": "Now - the pose. Posture is how your body is positioned. And there are two options."
+      }
+    },
+    {
+      "step_id": "sc6_91",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Открытая поза — руки свободны, тело повёрнуто к человеку. Как будто говоришь: «Заходи! Я рад! Давай поговорим!» Представьте, что вы — дверь. Открытая поза — дверь нараспашку.\n",
+        "uk": "Открытая поза — руки свободны, тело повёрнуто к человеку. Как будто говоришь: «Заходи! Я рад! Давай поговорим!» Представьте, что вы — дверь. Открытая поза — дверь нараспашку.",
+        "en": "Open pose - hands free, body turned towards the person. It’s as if you’re saying, “Come in! I'm glad! Let's talk! \" Imagine that you are a door. Open pose - the door is wide open."
+      }
+    },
+    {
+      "step_id": "sc6_92",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Закрытая поза — руки скрещены на груди, тело отвёрнуто. «Мне некомфортно. Не подходи. Я защищаюсь.» Та же дверь — но захлопнулась и ещё на замок.\n",
+        "uk": "Закрытая поза — руки скрещены на груди, тело отвёрнуто. «Мне некомфортно. Не подходи. Я защищаюсь.» Та же дверь — но захлопнулась и ещё на замок.",
+        "en": "Closed pose - arms crossed on the chest, body turned away. “I feel uncomfortable. Don't come near. I'm defending myself.\" The same door - but slammed and locked."
+      }
+    },
+    {
+      "step_id": "sc6_93",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Микола подходит к Маше на перемене — хочет вместе порисовать. Маша сидит, руки на столе, повернулась к нему, улыбается. Микола чувствует — можно подойти! Дверь открыта.\n",
+        "uk": "Микола подходит к Маше на перемене — хочет вместе порисовать. Маша сидит, руки на столе, повернулась к нему, улыбается. Микола чувствует — можно подойти! Дверь открыта.",
+        "en": "Mikola approaches Masha during recess and wants to draw together. Masha sits, hands on the table, turned to him, smiling. Mikola feels - you can come over! The door is open."
+      }
+    },
+    {
+      "step_id": "sc6_94",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А если Маша сидит, скрестив руки, отвернулась к стене и не смотрит? Микола подумает: что-то не так, лучше сейчас не подходить. И будет прав — дверь закрыта.\n",
+        "uk": "А если Маша сидит, скрестив руки, отвернулась к стене и не смотрит? Микола подумает: что-то не так, лучше сейчас не подходить. И будет прав — дверь закрыта.",
+        "en": "What if Masha sits with her arms crossed, turned to the wall and doesn’t look? Mikola will think: something is wrong, it’s better not to approach now. And he will be right - the door is closed."
+      }
+    },
+    {
+      "step_id": "sc6_95",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Открытая поза — приглашение. Закрытая — стена. Разведчик видит эту разницу и знает: когда подойти, а когда — подождать.\n",
+        "uk": "Открытая поза — приглашение. Закрытая — стена. Разведчик видит эту разницу и знает: когда подойти, а когда — подождать.",
+        "en": "An open pose is an invitation. Closed - wall. The scout sees this difference and knows when to approach and when to wait."
+      }
+    },
+    {
+      "step_id": "sc6_96",
+      "scene_id": "sc6",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверим! Описываю поведение — определяем: открытость или закрытость?\n",
+        "uk": "Проверим! Описываю поведение — определяем: открытость или закрытость?",
+        "en": "Let's check! I describe behavior and determine: openness or closedness?"
+      }
+    },
+    {
+      "step_id": "sc6_97",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Человек смотрит в глаза и улыбается.\n",
+        "uk": "Человек смотрит в глаза и улыбается.",
+        "en": "The man looks into the eyes and smiles."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Открытость",
+            "uk": "Открытость",
+            "en": "Openness"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Закрытость",
+            "uk": "Закрытость",
+            "en": "Closedness"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Openness! Eyes + smile = “Nice to see you, come in!”"
+      }
+    },
+    {
+      "step_id": "sc6_99",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Открытость! Глаза + улыбка = «Рад тебя видеть, заходи!»\n",
+        "uk": "Открытость! Глаза + улыбка = «Рад тебя видеть, заходи!»",
+        "en": "The man has his arms crossed and looks at the floor."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Открытость",
+            "uk": "Открытость",
+            "en": "Openness"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Закрытость",
+            "uk": "Закрытость",
+            "en": "Closedness"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Closedness! Hands closed + looking down = door locked."
+      }
+    },
+    {
+      "step_id": "sc6_101",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Человек скрестил руки и смотрит в пол.\n",
+        "uk": "Человек скрестил руки и смотрит в пол.",
+        "en": "The man turns his whole body towards you and nods."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Открытость",
+            "uk": "Открытость",
+            "en": "Openness"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Закрытость",
+            "uk": "Закрытость",
+            "en": "Closedness"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Openness! The whole body says: “I am with you, I am listening.”"
+      }
+    },
+    {
+      "step_id": "sc6_103",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Закрытость! Руки закрыты + взгляд вниз = дверь на замке.\n",
+        "uk": "Закрытость! Руки закрыты + взгляд вниз = дверь на замке.",
+        "en": "The man turned his back and is silent."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Открытость",
+            "uk": "Открытость",
+            "en": "Openness"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Закрытость",
+            "uk": "Закрытость",
+            "en": "Closedness"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Closedness! The back is the most closed pose. The door is not just closed - it has been bricked up!"
+      }
+    },
+    {
+      "step_id": "sc6_105",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Человек повернулся к тебе всем телом и кивает.\n",
+        "uk": "Человек повернулся к тебе всем телом и кивает.",
+        "en": "The body can't lie like words can. A person will say “everything is fine,” but if he crossed his arms and turned away, the body has already told everything. Honest talker!"
+      }
+    },
+    {
+      "step_id": "sc7_106",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Часть вторая — жесты и мимика.\n",
+        "uk": "Часть вторая — жесты и мимика.",
+        "en": "Part two - gestures and facial expressions."
+      }
+    },
+    {
+      "step_id": "sc7_107",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Жесты — это движения руками. Мы ими пользуемся каждый день, даже не замечаем! Попробуйте сказать «вон там» без руки. Не получается, правда? Рука сама летит.\n",
+        "uk": "Жесты — это движения руками. Мы ими пользуемся каждый день, даже не замечаем! Попробуйте сказать «вон там» без руки. Не получается, правда? Рука сама летит.",
+        "en": "Gestures are movements of the hands. We use them every day, without even noticing! Try saying “over there” without your hand. It doesn't work out, does it? The hand flies by itself."
+      }
+    },
+    {
+      "step_id": "sc7_108",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Жесты бывают разные. Указательные — показывают направление: «Вон там!» — и палец летит. Выразительные — усиливают слова: «Вот такая огромная рыба!» — и руки расходятся на метр. Успокаивающие — помогают поддержать: положить руку на плечо — значит «я рядом».\n",
+        "uk": "Жесты бывают разные. Указательные — показывают направление: «Вон там!» — и палец летит. Выразительные — усиливают слова: «Вот такая огромная рыба!» — и руки расходятся на метр. Успокаивающие — помогают поддержать: положить руку на плечо — значит «я рядом».",
+        "en": "There are different gestures. Index fingers - show the direction: “Over there!” - and the finger flies. Expressive - reinforce the words: “This is such a huge fish!” - and the hands move a meter apart. Calming - they help to support: putting your hand on your shoulder means “I’m nearby.”"
+      }
+    },
+    {
+      "step_id": "sc7_109",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А мимика — это выражение лица. Лицо — как экран телефона: на нём всё видно! Радость, грусть, злость, удивление, страх — лицо показывает всё это за доли секунды.\n",
+        "uk": "А мимика — это выражение лица. Лицо — как экран телефона: на нём всё видно! Радость, грусть, злость, удивление, страх — лицо показывает всё это за доли секунды.",
+        "en": "And facial expressions are facial expressions. The face is like a phone screen: everything is visible on it! Joy, sadness, anger, surprise, fear - the face shows all this in a split second."
+      }
+    },
+    {
+      "step_id": "sc7_110",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Микола получил плохую оценку. Подходит к Маше. Ничего не говорит. Но Маша видит: плечи опущены, глаза смотрят в пол, уголки рта вниз.\n",
+        "uk": "Микола получил плохую оценку. Подходит к Маше. Ничего не говорит. Но Маша видит: плечи опущены, глаза смотрят в пол, уголки рта вниз.",
+        "en": "Mikola received a bad grade. Approaches Masha. He doesn't say anything. But Masha sees: the shoulders are lowered, the eyes are looking at the floor, the corners of the mouth are down."
+      }
+    },
+    {
+      "step_id": "sc7_111",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Что поняла Маша? Что ему плохо. Микола ни слова не сказал — а Маша уже всё прочитала. Лицо и тело — открытая книга.\n",
+        "uk": "Что поняла Маша? Что ему плохо. Микола ни слова не сказал — а Маша уже всё прочитала. Лицо и тело — открытая книга.",
+        "en": "What did Masha understand? That he feels bad. Mikola didn’t say a word, but Masha had already read everything. The face and body are an open book."
+      }
+    },
+    {
+      "step_id": "sc7_112",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот Дмитрик забегает в класс. Глаза горят, улыбка до ушей, машет руками: «Ребята! Ребята!» Ещё ничего не сказал — а все уже знают: случилось что-то классное!\n",
+        "uk": "А вот Дмитрик забегает в класс. Глаза горят, улыбка до ушей, машет руками: «Ребята! Ребята!» Ещё ничего не сказал — а все уже знают: случилось что-то классное!",
+        "en": "But Dmitry runs into the classroom. Eyes sparkling, smile from ear to ear, waving his hands: “Guys! Guys!\" I haven’t said anything yet, but everyone already knows: something cool happened!"
+      }
+    },
+    {
+      "step_id": "sc7_113",
+      "scene_id": "sc7",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверим, как вы читаете мимику! Описываю выражение — определяем эмоцию.\n",
+        "uk": "Проверим, как вы читаете мимику! Описываю выражение — определяем эмоцию.",
+        "en": "Let's check how you read facial expressions! I describe the expression and define the emotion."
+      }
+    },
+    {
+      "step_id": "sc7_114",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Широкая улыбка, глаза сияют.\n",
+        "uk": "Широкая улыбка, глаза сияют.",
+        "en": "Wide smile, eyes shining."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грусть",
+            "uk": "Грусть",
+            "en": "Sadness"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Joy! Smile + sparkling eyes = happiness. The body doesn't pretend."
+      }
+    },
+    {
+      "step_id": "sc7_116",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Радость! Улыбка + сияющие глаза = счастье. Тело не притворяется.\n",
+        "uk": "Радость! Улыбка + сияющие глаза = счастье. Тело не притворяется.",
+        "en": "Eyebrows knitted, lips pursed."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грусть",
+            "uk": "Грусть",
+            "en": "Sadness"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Anger! Furrowed eyebrows + pursed lips = “I’m angry.” The face itself screams."
+      }
+    },
+    {
+      "step_id": "sc7_118",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Брови сдвинуты, губы сжаты.\n",
+        "uk": "Брови сдвинуты, губы сжаты.",
+        "en": "The corners of the mouth are downcast, the eyes are sad."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грусть",
+            "uk": "Грусть",
+            "en": "Sadness"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Sadness. Drooping corners of the mouth are the surest sign. Even a clown can't hide it."
+      }
+    },
+    {
+      "step_id": "sc7_120",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Злость! Сдвинутые брови + сжатые губы = «Я злюсь». Лицо само кричит.\n",
+        "uk": "Злость! Сдвинутые брови + сжатые губы = «Я злюсь». Лицо само кричит.",
+        "en": "Laughs and claps his hands."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грусть",
+            "uk": "Грусть",
+            "en": "Sadness"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Joy! Laughter + clapping = pure delight. There is no need for a scout here - everything is obvious."
+      }
+    },
+    {
+      "step_id": "sc7_122",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Уголки рта опущены, глаза грустные.\n",
+        "uk": "Уголки рта опущены, глаза грустные.",
+        "en": "Fists are clenched, face is red."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грусть",
+            "uk": "Грусть",
+            "en": "Sadness"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Anger! Fists + red face = anger. The body does not hide this emotion - even if the person is silent."
+      }
+    },
+    {
+      "step_id": "sc7_124",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Грусть. Опущенные уголки рта — самый верный знак. Даже клоун не скроет.\n",
+        "uk": "Грусть. Опущенные уголки рта — самый верный знак. Даже клоун не скроет.",
+        "en": "The head is lowered, the shoulders are raised, as if it wants to hide."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грусть",
+            "uk": "Грусть",
+            "en": "Sadness"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Sadness. Or even fear. A person wants to become smaller, more inconspicuous. The body curled up like a hedgehog."
+      }
+    },
+    {
+      "step_id": "sc7_126",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смеётся и хлопает в ладоши.\n",
+        "uk": "Смеётся и хлопает в ладоши.",
+        "en": "Try practicing at home in front of the mirror! Show your face joy, sadness, surprise, fear, anger - and see how it looks from the outside. A true detective studies himself first."
+      }
+    },
+    {
+      "step_id": "sc7_127",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Радость! Смех + хлопки = чистый восторг. Тут и разведчик не нужен — всё очевидно.\n",
+        "uk": "Радость! Смех + хлопки = чистый восторг. Тут и разведчик не нужен — всё очевидно.",
+        "en": "We read emotions in the face instantly - in a second! This is a superpower that everyone has. But the intelligence officer uses it consciously—he doesn’t just see, but notices and understands."
+      }
+    },
+    {
+      "step_id": "sc7_128",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Кулаки сжаты, лицо красное.\n",
+        "uk": "Кулаки сжаты, лицо красное.",
+        "en": "Now comes the tricky part. Voice and intonation!"
+      }
+    },
+    {
+      "step_id": "sc8_129",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Часть третья — голос и интонация. Самая хитрая часть!\n",
+        "uk": "Часть третья — голос и интонация. Самая хитрая часть!",
+        "en": "Part three - voice and intonation. The trickiest part!"
+      }
+    },
+    {
+      "step_id": "sc8_130",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "У голоса есть четыре настройки — как на пульте управления. Громкость — тихо или громко. Темп — быстро или медленно. Высота — низкий голос или высокий. И паузы — остановки между словами.\n",
+        "uk": "У голоса есть четыре настройки — как на пульте управления. Громкость — тихо или громко. Темп — быстро или медленно. Высота — низкий голос или высокий. И паузы — остановки между словами.",
+        "en": "The voice has four settings - just like on the remote control. Volume - quiet or loud. Pace - fast or slow. Pitch - low voice or high voice. And pauses - stops between words."
+      }
+    },
+    {
+      "step_id": "sc8_131",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А ещё есть интонация — это КАК ты говоришь. Можно сказать одно и то же слово — а смысл будет совсем разный!\n",
+        "uk": "А ещё есть интонация — это КАК ты говоришь. Можно сказать одно и то же слово — а смысл будет совсем разный!",
+        "en": "And there is also intonation - this is HOW you speak. You can say the same word - but the meaning will be completely different!"
+      }
+    },
+    {
+      "step_id": "sc8_132",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Слово «Отлично». Если сказать радостно, высоким голосом: «Отли-и-ично!» — это значит «ура, здорово!»\n",
+        "uk": "Слово «Отлично». Если сказать радостно, высоким голосом: «Отли-и-ично!» — это значит «ура, здорово!»",
+        "en": "The word \"Excellent\". If you say joyfully, in a high voice: “Excellent!” - this means “hurray, great!”"
+      }
+    },
+    {
+      "step_id": "sc8_133",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А если сказать медленно, низким голосом: «Отлично…» — это сарказм. Человек на самом деле думает: «Ну вообще не отлично».\n",
+        "uk": "А если сказать медленно, низким голосом: «Отлично…» — это сарказм. Человек на самом деле думает: «Ну вообще не отлично».",
+        "en": "And if you say slowly, in a low voice: “Great...” - this is sarcasm. The person actually thinks: “Well, not great at all.”"
+      }
+    },
+    {
+      "step_id": "sc8_134",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Стоп. Что такое сарказм? Это когда ты говоришь одно, а имеешь в виду противоположное. И специально делаешь так, чтобы другому было неприятно. «Ну ты молодец…» — а на самом деле: «Ты всё испортил».\n",
+        "uk": "Стоп. Что такое сарказм? Это когда ты говоришь одно, а имеешь в виду противоположное. И специально делаешь так, чтобы другому было неприятно. «Ну ты молодец…» — а на самом деле: «Ты всё испортил».",
+        "en": "Stop. What is sarcasm? This is when you say one thing but mean the opposite. And you deliberately do it so that the other person feels unpleasant. “Well, you’re great...” - but in reality: “You ruined everything.”"
+      }
+    },
+    {
+      "step_id": "sc8_135",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сарказм — это оружие. Причём подлое. Человек вроде ничего плохого не сказал — попробуй обидься на «молодец»! Но все слышат: он издевается.\n",
+        "uk": "Сарказм — это оружие. Причём подлое. Человек вроде ничего плохого не сказал — попробуй обидься на «молодец»! Но все слышат: он издевается.",
+        "en": "Sarcasm is a weapon. And it’s vile. The person didn’t seem to say anything bad - try to be offended by “well done”! But everyone hears: he is mocking."
+      }
+    },
+    {
+      "step_id": "sc8_136",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Разведчик сарказмом не пользуется. Почему? Потому что сарказм — оружие солдата, который хочет обидеть, но боится сказать прямо. Разведчик говорит честно: «Мне это не нравится» — а не прячется за кривой улыбочкой.\n",
+        "uk": "Разведчик сарказмом не пользуется. Почему? Потому что сарказм — оружие солдата, который хочет обидеть, но боится сказать прямо. Разведчик говорит честно: «Мне это не нравится» — а не прячется за кривой улыбочкой.",
+        "en": "The scout does not use sarcasm. Why? Because sarcasm is the weapon of a soldier who wants to offend, but is afraid to say it directly. The scout says honestly: “I don’t like this” - and does not hide behind a crooked smile."
+      }
+    },
+    {
+      "step_id": "sc8_137",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А если громко и резко: «ОТЛИЧНО!» — это злость. Как будто хлопнул дверью. Одно слово — три разных смысла! И разница — только в голосе.\n",
+        "uk": "А если громко и резко: «ОТЛИЧНО!» — это злость. Как будто хлопнул дверью. Одно слово — три разных смысла! И разница — только в голосе.",
+        "en": "And if loud and sharp: “EXCELLENT!” - this is anger. It was like slamming a door. One word - three different meanings! And the difference is only in the voice."
+      }
+    },
+    {
+      "step_id": "sc8_138",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ещё один хитрый приём — ударение. Какое слово выделишь голосом — такой и смысл.\n",
+        "uk": "Ещё один хитрый приём — ударение. Какое слово выделишь голосом — такой и смысл.",
+        "en": "Another tricky trick is emphasis. Whichever word you highlight with your voice, that’s the meaning."
+      }
+    },
+    {
+      "step_id": "sc8_139",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Фраза: «Я не брал твой карандаш.» Если выделить «Я» — «Я НЕ брал» — значит не я, а кто-то другой!\n",
+        "uk": "Фраза: «Я не брал твой карандаш.» Если выделить «Я» — «Я НЕ брал» — значит не я, а кто-то другой!",
+        "en": "Phrase: “I didn’t take your pencil.” If you highlight “I” - “I DIDN’T take” - that means it’s not me, but someone else!"
+      }
+    },
+    {
+      "step_id": "sc8_140",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Если выделить «брал» — «Я не БРАЛ» — значит не брал, может нашёл или мне дали.\n",
+        "uk": "Если выделить «брал» — «Я не БРАЛ» — значит не брал, может нашёл или мне дали.",
+        "en": "If you highlight “took” - “I didn’t TAKE” - it means I didn’t take it, maybe I found it or they gave it to me."
+      }
+    },
+    {
+      "step_id": "sc8_141",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Если выделить «твой» — «Я не брал ТВОЙ» — значит не твой, а чей-то другой. Одна фраза — три разных оправдания! Вот это магия голоса.\n",
+        "uk": "Если выделить «твой» — «Я не брал ТВОЙ» — значит не твой, а чей-то другой. Одна фраза — три разных оправдания! Вот это магия голоса.",
+        "en": "If you highlight “yours” - “I didn’t take YOURS” - it means not yours, but someone else’s. One phrase - three different excuses! This is the magic of the voice."
+      }
+    },
+    {
+      "step_id": "sc8_142",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша приходит домой. Мама: «Как дела в школе?» Маша весело, быстро: «Отлично! У нас была экскурсия!» Что слышит мама? Радость. Маша довольна.\n",
+        "uk": "Маша приходит домой. Мама: «Как дела в школе?» Маша весело, быстро: «Отлично! У нас была экскурсия!» Что слышит мама? Радость. Маша довольна.",
+        "en": "Masha comes home. Mom: “How are things at school?” Masha cheerfully, quickly: “Great! We had a tour!” What does mom hear? Joy. Masha is happy."
+      }
+    },
+    {
+      "step_id": "sc8_143",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь другая Маша. Мама спрашивает то же самое. Маша тихо, медленно: «Нормально…» Что слышит мама? Что-то случилось. Хотя слово «нормально» вроде бы хорошее!\n",
+        "uk": "А теперь другая Маша. Мама спрашивает то же самое. Маша тихо, медленно: «Нормально…» Что слышит мама? Что-то случилось. Хотя слово «нормально» вроде бы хорошее!",
+        "en": "And now another Masha. Mom asks the same thing. Masha quietly, slowly: “It’s normal...” What does mom hear? Something happened. Although the word “normal” seems to be good!"
+      }
+    },
+    {
+      "step_id": "sc8_144",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Не ЧТО сказано, а КАК — вот где правда. Голос, как и тело, — честный болтун.\n",
+        "uk": "Не ЧТО сказано, а КАК — вот где правда. Голос, как и тело, — честный болтун.",
+        "en": "Not WHAT is said, but HOW - that’s where the truth is. The voice, like the body, is an honest talker."
+      }
+    },
+    {
+      "step_id": "sc8_145",
+      "scene_id": "sc8",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверим! Определяем настроение по интонации.\n",
+        "uk": "Проверим! Определяем настроение по интонации.",
+        "en": "Let's check! We determine the mood by intonation."
+      }
+    },
+    {
+      "step_id": "sc8_146",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ура, мы идём гулять!» — весело, высоким голосом.\n",
+        "uk": "«Ура, мы идём гулять!» — весело, высоким голосом.",
+        "en": "“Hurray, we’re going for a walk!” - cheerfully, in a high voice."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радостно",
+            "uk": "Радостно",
+            "en": "Joyfully"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грустно",
+            "uk": "Грустно",
+            "en": "Sad"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Сердито",
+            "uk": "Сердито",
+            "en": "Angrily"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Joyful! High voice, fast pace, smile in his voice."
+      }
+    },
+    {
+      "step_id": "sc8_148",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Радостно! Высокий голос, быстрый темп, улыбка в голосе.\n",
+        "uk": "Радостно! Высокий голос, быстрый темп, улыбка в голосе.",
+        "en": "“Okay, let's go...” - quietly, slowly."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радостно",
+            "uk": "Радостно",
+            "en": "Joyfully"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грустно",
+            "uk": "Грустно",
+            "en": "Sad"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Сердито",
+            "uk": "Сердито",
+            "en": "Angrily"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Sad. Quiet voice, slow tempo, down intonation."
+      }
+    },
+    {
+      "step_id": "sc8_150",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Хорошо, пойдём…» — тихо, медленно.\n",
+        "uk": "«Хорошо, пойдём…» — тихо, медленно.",
+        "en": "“I said no!” - loudly, sharply."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радостно",
+            "uk": "Радостно",
+            "en": "Joyfully"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грустно",
+            "uk": "Грустно",
+            "en": "Sad"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Сердито",
+            "uk": "Сердито",
+            "en": "Angrily"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Angrily! Loud, harsh voice = anger. Remote control to maximum."
+      }
+    },
+    {
+      "step_id": "sc8_152",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Грустно. Тихий голос, медленный темп, интонация вниз.\n",
+        "uk": "Грустно. Тихий голос, медленный темп, интонация вниз.",
+        "en": "“Okay, as you wish...” - quietly, offended."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радостно",
+            "uk": "Радостно",
+            "en": "Joyfully"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грустно",
+            "uk": "Грустно",
+            "en": "Sad"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Сердито",
+            "uk": "Сердито",
+            "en": "Angrily"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Sad. An offended voice, quiet - the intonation falls. The words seem neutral, but the voice gives it away."
+      }
+    },
+    {
+      "step_id": "sc8_154",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я сказал — нет!» — громко, резко.\n",
+        "uk": "«Я сказал — нет!» — громко, резко.",
+        "en": "“Well, of course, it’s very interesting...” - sarcastically, dissatisfied."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радостно",
+            "uk": "Радостно",
+            "en": "Joyfully"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Грустно",
+            "uk": "Грустно",
+            "en": "Sad"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Сердито",
+            "uk": "Сердито",
+            "en": "Sarcasm"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Sarcasm! The words are “interesting”, but the voice is not interesting at all. A soldier's vile weapon. A scout doesn't do that."
+      }
+    },
+    {
+      "step_id": "sc8_156",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сердито! Громкий, резкий голос = злость. Пульт на максимум.\n",
+        "uk": "Сердито! Громкий, резкий голос = злость. Пульт на максимум.",
+        "en": "The voice consists of four settings: volume, tempo, pitch, pauses. And intonation is how all the settings come together. One word, pronounced differently, can mean joy, sadness or anger."
+      }
+    },
+    {
+      "step_id": "sc9_157",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сегодня мы узнали, что тело — честный болтун. Оно выдаёт правду, даже когда рот говорит другое. И мы научились его слушать!\n",
+        "uk": "Сегодня мы узнали, что тело — честный болтун. Оно выдаёт правду, даже когда рот говорит другое. И мы научились его слушать!",
+        "en": "Today we learned that the body is an honest talker. It reveals the truth, even when the mouth says otherwise. And we learned to listen to him!"
+      }
+    },
+    {
+      "step_id": "sc9_158",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Зрительный контакт — наш фонарик. Смотришь в глаза — светишь вниманием. А поза — как дверь: открытая — заходи, закрытая — не подходи.\n",
+        "uk": "Зрительный контакт — наш фонарик. Смотришь в глаза — светишь вниманием. А поза — как дверь: открытая — заходи, закрытая — не подходи.",
+        "en": "Eye contact is our flashlight. You look into the eyes and you shine with attention. And the posture is like a door: open - come in, closed - don’t come."
+      }
+    },
+    {
+      "step_id": "sc9_159",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Жесты помогают словам — как руки помогают рассказу. А лицо — экран телефона: все уведомления видны сразу. Радость, злость, удивление — всё написано!\n",
+        "uk": "Жесты помогают словам — как руки помогают рассказу. А лицо — экран телефона: все уведомления видны сразу. Радость, злость, удивление — всё написано!",
+        "en": "Gestures help words, just as hands help stories. And the face is the phone screen: all notifications are visible at once. Joy, anger, surprise - everything is written!"
+      }
+    },
+    {
+      "step_id": "sc9_160",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И голос — пульт управления с четырьмя настройками: громкость, темп, высота, паузы. Меняешь одну настройку — и смысл полностью другой!\n",
+        "uk": "И голос — пульт управления с четырьмя настройками: громкость, темп, высота, паузы. Меняешь одну настройку — и смысл полностью другой!",
+        "en": "And the voice is a control panel with four settings: volume, tempo, pitch, pauses. You change one setting and the meaning is completely different!"
+      }
+    },
+    {
+      "step_id": "sc9_161",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Полный набор инструментов разведчика! Первый — ТОРМОЗ: сопереживание. Второй — ЗЕРКАЛО: активное слушание. Третий — КАРТА: формула высказывания. И четвёртый, новый — ГЛАЗ: язык тела!\n",
+        "uk": "Полный набор инструментов разведчика! Первый — ТОРМОЗ: сопереживание. Второй — ЗЕРКАЛО: активное слушание. Третий — КАРТА: формула высказывания. И четвёртый, новый — ГЛАЗ: язык тела!",
+        "en": "A complete set of scout tools! The first is the BRAKE: empathy. The second is MIRROR: active listening. The third is the MAP: the formula of the statement. And the fourth, new one - EYE: body language!"
+      }
+    },
+    {
+      "step_id": "sc9_162",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Задачка напоследок. Маша говорит: «Мне всё равно, делайте что хотите.» Но руки скрещены, губы сжаты, и она отвернулась. Ей правда всё равно?\n",
+        "uk": "Задачка напоследок. Маша говорит: «Мне всё равно, делайте что хотите.» Но руки скрещены, губы сжаты, и она отвернулась. Ей правда всё равно?",
+        "en": "One last task. Masha says: “I don’t care, do what you want.” But her arms were crossed, her lips pursed, and she turned away. Does she really care?"
+      }
+    },
+    {
+      "step_id": "sc9_163",
+      "scene_id": "sc9",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что тело Маши говорит на самом деле?\n",
+        "uk": "Что тело Маши говорит на самом деле?",
+        "en": "What is Masha's body really saying?"
+      }
+    },
+    {
+      "step_id": "sc9_164",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Конечно, ей НЕ всё равно! Тело кричит: «Мне обидно!» А слова прячут правду. Вот зачем нужен ГЛАЗ — видеть то, что слова не говорят.\n",
+        "uk": "Конечно, ей НЕ всё равно! Тело кричит: «Мне обидно!» А слова прячут правду. Вот зачем нужен ГЛАЗ — видеть то, что слова не говорят.",
+        "en": "Of course she doesn't care! The body screams: “I’m offended!” But words hide the truth. This is why the EYE is needed - to see what words do not say."
+      }
+    },
+    {
+      "step_id": "sc10_165",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — игра! Учитель произносит фразу с определённой интонацией. Ваша задача — угадать, что на самом деле имеется в виду.\n",
+        "uk": "А теперь — игра! Учитель произносит фразу с определённой интонацией. Ваша задача — угадать, что на самом деле имеется в виду.",
+        "en": "And now - the game! The teacher pronounces the phrase with a certain intonation. Your task is to guess what is actually meant."
+      }
+    },
+    {
+      "step_id": "sc10_166",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Раунд первый — тон! Одно слово, разное настроение.\n",
+        "uk": "Раунд первый — тон! Одно слово, разное настроение.",
+        "en": "Round one - tone! One word, different mood."
+      }
+    },
+    {
+      "step_id": "sc10_167",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Замечательно!» — весело, с улыбкой в голосе.\n",
+        "uk": "«Замечательно!» — весело, с улыбкой в голосе.",
+        "en": "\"Amazing!\" - cheerfully, with a smile in his voice."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сарказм",
+            "uk": "Сарказм",
+            "en": "Sarcasm"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Joy! The voice is high, fast - the person is really happy."
+      }
+    },
+    {
+      "step_id": "sc10_169",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Радость! Голос высокий, быстрый — человек правда доволен.\n",
+        "uk": "Радость! Голос высокий, быстрый — человек правда доволен.",
+        "en": "“Wonderful...” - slowly, with a heavy exhalation."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сарказм",
+            "uk": "Сарказм",
+            "en": "Sarcasm"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Anger"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Sarcasm! The same letters - but the meaning is the opposite. The person thinks: “Well, not great at all.” Vile weapon."
+      }
+    },
+    {
+      "step_id": "sc10_171",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Замечательно…» — медленно, с тяжёлым выдохом.\n",
+        "uk": "«Замечательно…» — медленно, с тяжёлым выдохом.",
+        "en": "“Okay,” - calmly, with a nod."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Agreement"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сарказм",
+            "uk": "Сарказм",
+            "en": "Resentment"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Злость",
+            "uk": "Злость",
+            "en": "Irritation"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Agreement! Calm voice, even intonation - the man made a decision."
+      }
+    },
+    {
+      "step_id": "sc10_173",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сарказм! Те же буквы — а смысл наоборот. Человек думает: «Ну вообще не замечательно». Подлое оружие.\n",
+        "uk": "Сарказм! Те же буквы — а смысл наоборот. Человек думает: «Ну вообще не замечательно». Подлое оружие.",
+        "en": "“Okay...” - quietly, the voice falls down."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Согласие",
+            "uk": "Согласие",
+            "en": "Agreement"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обида",
+            "uk": "Обида",
+            "en": "Resentment"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Раздражение",
+            "uk": "Раздражение",
+            "en": "Irritation"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Offense! The words are the same, but the voice has gone to the floor. “Okay, since you don’t care...”"
+      }
+    },
+    {
+      "step_id": "sc10_175",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ну ладно» — спокойно, с кивком.\n",
+        "uk": "«Ну ладно» — спокойно, с кивком.",
+        "en": "\"Thank you!\" - warmly, sincerely."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Согласие",
+            "uk": "Согласие",
+            "en": "Gratitude"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обида",
+            "uk": "Обида",
+            "en": "Sarcasm"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Gratitude! A warm voice, soft intonation - a person is really pleased."
+      }
+    },
+    {
+      "step_id": "sc10_177",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Согласие! Спокойный голос, ровная интонация — человек принял решение.\n",
+        "uk": "Согласие! Спокойный голос, ровная интонация — человек принял решение.",
+        "en": "“Thank you...” - coldly, with pressure."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Благодарность",
+            "uk": "Благодарность",
+            "en": "Gratitude"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сарказм",
+            "uk": "Сарказм",
+            "en": "Sarcasm"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Sarcasm! \"Thanks for ruining my day.\" The word is good, but the voice is evil. The scout hears the difference."
+      }
+    },
+    {
+      "step_id": "sc10_179",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Ну ладно…» — тихо, голос падает вниз.\n",
+        "uk": "«Ну ладно…» — тихо, голос падает вниз.",
+        "en": "Round two - emphasis! One phrase, but we highlight different words - and the meaning completely changes."
+      }
+    },
+    {
+      "step_id": "sc10_180",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Обида! Слова те же, а голос ушёл в пол. «Ладно, раз вам всё равно…»\n",
+        "uk": "Обида! Слова те же, а голос ушёл в пол. «Ладно, раз вам всё равно…»",
+        "en": "Phrase: “I didn’t tell this to Masha.” We listen to which word is highlighted and vote on what it means."
+      }
+    },
+    {
+      "step_id": "sc10_181",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Спасибо!» — тепло, искренне.\n",
+        "uk": "«Спасибо!» — тепло, искренне.",
+        "en": "“I didn’t tell this to Masha” - emphasis on “I”."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Благодарность",
+            "uk": "Благодарность",
+            "en": "Not me, but someone else"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сарказм",
+            "uk": "Сарказм",
+            "en": "Didn't speak, but wrote"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Not Masha, but someone else"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Not me! Someone else said it. I have nothing to do with it!"
+      }
+    },
+    {
+      "step_id": "sc10_183",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Благодарность! Тёплый голос, мягкая интонация — человеку правда приятно.\n",
+        "uk": "Благодарность! Тёплый голос, мягкая интонация — человеку правда приятно.",
+        "en": "“I didn’t tell this to Masha” - emphasis on “said.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Не я, а кто-то другой",
+            "uk": "Не я, а кто-то другой",
+            "en": "Not me, but someone else"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не говорил, а написал",
+            "uk": "Не говорил, а написал",
+            "en": "Didn't speak, but wrote"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Не Маше, а кому-то другому",
+            "uk": "Не Маше, а кому-то другому",
+            "en": "Not Masha, but someone else"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Didn't say! Maybe he wrote it. Or he showed it with a gesture. The mouth was silent, but the information got through."
+      }
+    },
+    {
+      "step_id": "sc10_185",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Спасибо…» — холодно, с нажимом.\n",
+        "uk": "«Спасибо…» — холодно, с нажимом.",
+        "en": "“I didn’t tell this to Masha” - emphasis on “Masha”."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Благодарность",
+            "uk": "Благодарность",
+            "en": "Not me, but someone else"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сарказм",
+            "uk": "Сарказм",
+            "en": "Didn't speak, but wrote"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Not Masha, but someone else"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Not Masha! To someone else. One phrase - three excuses. This is the magic of emphasis! During the break, try it yourself - take any phrase and move the emphasis. Be surprised how many meanings are hidden!"
+      }
+    }
+  ]
+}

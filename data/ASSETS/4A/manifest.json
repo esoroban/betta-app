@@ -1,0 +1,76 @@
+{
+  "generated": {
+    "4a_sc1_bg": {
+      "filename": "4a_sc1_bg.png",
+      "status": "exists"
+    },
+    "4a_sc3_bg": {
+      "filename": "4a_sc3_bg.png",
+      "path": "ASSETS/4A/4a_sc3_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "prompt_key": "4a_sc3_bg"
+    },
+    "4a_sc5_bg": {
+      "filename": "4a_sc5_bg.png",
+      "path": "ASSETS/4A/4a_sc5_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T18:37:23.291534+00:00",
+      "prompt_key": "4a_sc5_bg"
+    },
+    "4a_sc7_bg": {
+      "filename": "4a_sc7_bg.png",
+      "path": "ASSETS/4A/4a_sc7_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "prompt_key": "4a_sc7_bg"
+    },
+    "4a_sc8_bg": {
+      "filename": "4a_sc8_bg.png",
+      "path": "ASSETS/4A/4a_sc8_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "prompt_key": "4a_sc8_bg"
+    },
+    "4a_sc9_bg": {
+      "filename": "4a_sc9_bg.png",
+      "path": "ASSETS/4A/4a_sc9_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "prompt_key": "4a_sc9_bg"
+    },
+    "4a_sc10_bg": {
+      "filename": "4a_sc10_bg.png",
+      "path": "ASSETS/4A/4a_sc10_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "prompt_key": "4a_sc10_bg"
+    },
+    "4a_sc2_bg": {
+      "filename": "4a_sc2_bg.png",
+      "path": "ASSETS/4A/4a_sc2_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T19:00:17.637505+00:00",
+      "prompt_key": "4a_sc2_bg"
+    },
+    "4a_sc4_bg": {
+      "filename": "4a_sc4_bg.png",
+      "path": "ASSETS/4A/4a_sc4_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T19:00:25.881465+00:00",
+      "prompt_key": "4a_sc4_bg"
+    },
+    "4a_sc6_bg": {
+      "filename": "4a_sc6_bg.png",
+      "path": "ASSETS/4A/4a_sc6_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T19:00:37.233455+00:00",
+      "prompt_key": "4a_sc6_bg"
+    }
+  },
+  "errors": {}
+}

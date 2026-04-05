@@ -1,0 +1,2136 @@
+{
+  "lesson_id": "2A",
+  "title": {
+    "ru": "Как проверять утверждения",
+    "uk": "Як перевіряти твердження",
+    "en": "How to Check Statements"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "ПОВТОРЕНИЕ",
+        "uk": "ПОВТОРЕННЯ",
+        "en": "REVIEW"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_4",
+        "sc1_6",
+        "sc1_8",
+        "sc1_10",
+        "sc1_11",
+        "sc1_12",
+        "sc1_13",
+        "sc1_14",
+        "sc1_15",
+        "sc1_16",
+        "sc1_17",
+        "sc1_18",
+        "sc1_19",
+        "sc1_21",
+        "sc1_23",
+        "sc1_25",
+        "sc1_27",
+        "sc1_29",
+        "sc1_31",
+        "sc1_32"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "ИСТОРИЯ — КТО БЕГАЕТ БЫСТРЕЕ?",
+        "uk": "ІСТОРІЯ — ХТО БІГАЄ ШВИДШЕ?",
+        "en": "STORY — WHO RUNS FASTER?"
+      },
+      "step_ids": [
+        "sc2_33",
+        "sc2_34",
+        "sc2_35",
+        "sc2_36",
+        "sc2_37",
+        "sc2_38",
+        "sc2_39",
+        "sc2_40",
+        "sc2_42",
+        "sc2_43",
+        "sc2_44",
+        "sc2_45",
+        "sc2_46",
+        "sc2_47",
+        "sc2_49",
+        "sc2_50"
+      ],
+      "first_step_index": 23
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Повторяемость: закономерность и совпадение",
+        "uk": "Повторюваність: закономірність і збіг",
+        "en": "Repeatability: Pattern and Coincidence"
+      },
+      "step_ids": [
+        "sc3_51",
+        "sc3_52",
+        "sc3_53",
+        "sc3_54",
+        "sc3_55",
+        "sc3_56",
+        "sc3_57",
+        "sc3_58",
+        "sc3_59",
+        "sc3_60",
+        "sc3_61",
+        "sc3_62",
+        "sc3_63",
+        "sc3_65",
+        "sc3_67",
+        "sc3_69",
+        "sc3_71",
+        "sc3_73",
+        "sc3_75",
+        "sc3_76"
+      ],
+      "first_step_index": 39
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "Светофор повторений",
+        "uk": "Світлофор повторень",
+        "en": "Repeatability Traffic Light"
+      },
+      "step_ids": [
+        "sc4_77",
+        "sc4_78",
+        "sc4_79",
+        "sc4_80",
+        "sc4_81",
+        "sc4_82",
+        "sc4_83",
+        "sc4_84",
+        "sc4_85",
+        "sc4_87",
+        "sc4_89"
+      ],
+      "first_step_index": 59
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "Практика: закономерность или совпадение?",
+        "uk": "Практика: закономірність або збіг?",
+        "en": "Practice: Pattern or Coincidence?"
+      },
+      "step_ids": [
+        "sc5_90",
+        "sc5_91",
+        "sc5_92",
+        "sc5_94",
+        "sc5_96",
+        "sc5_98",
+        "sc5_100",
+        "sc5_102",
+        "sc5_104",
+        "sc5_106",
+        "sc5_108",
+        "sc5_110",
+        "sc5_112",
+        "sc5_114",
+        "sc5_116",
+        "sc5_118",
+        "sc5_120",
+        "sc5_122"
+      ],
+      "first_step_index": 70
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Зачем нам всё это?",
+        "uk": "Навіщо нам все це?",
+        "en": "Why Do We Need This?"
+      },
+      "step_ids": [
+        "sc6_123",
+        "sc6_124",
+        "sc6_125",
+        "sc6_126",
+        "sc6_127",
+        "sc6_128",
+        "sc6_129",
+        "sc6_130",
+        "sc6_131",
+        "sc6_132",
+        "sc6_133",
+        "sc6_134",
+        "sc6_135",
+        "sc6_136"
+      ],
+      "first_step_index": 88
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Привет! Сегодня второе занятие. Между прошлым разом и сегодня прошло время — проверим, что осталось в голове. Готовы?\n",
+        "uk": "Привіт! Сьогодні друге заняття. Між минулим разом і сьогодні пройшло час — перевіримо, що залишилось у голові. Готові?",
+        "en": "Hello! Today is our second lesson. Time has passed since last time — let's check what you remember. Ready?"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На прошлом занятии мы выучили три главных слова. Кто помнит хотя бы одно?\n",
+        "uk": "На минулому занятті ми вивчили три головних слова. Хто пам'ятає хоча б одне?",
+        "en": "Last lesson we learned three main words. Who remembers at least one?"
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Факт, мнение, неправда! Давайте вспомним, чем они отличаются. Факт — утверждение, которое можно проверить, и проверка подтвердила: правда. Мнение — проверить нельзя, это личное ощущение. Неправда — проверить можно, но оказалось, что это не так.\n",
+        "uk": "Факт, думка, неправда! Давайте згадаємо, чим вони відрізняються. Факт — твердження, яке можна перевірити, і перевірка підтвердила: правда. Думка — перевірити не можна, це особисте відчуття. Неправда — перевірити можна, але вийшло, що це не так.",
+        "en": "Fact, opinion, falsehood! Let's remember what makes them different. A fact is a statement you can check, and the check proved it's true. An opinion can't be checked — it's a personal feeling. A falsehood can be checked, but it turned out to be false."
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В нашем классе есть окна.»\n",
+        "uk": "«У нашому класі є вікна.»",
+        "en": "\"There are windows in our classroom.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Turn your head — you can see them. Checked and confirmed."
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Повернули голову — увидели. Проверено, подтвердилось.\n",
+        "uk": "Факт! Повернули голову — побачили. Перевірено, підтверджено.",
+        "en": "\"Vacation is the best time.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Some people like vacation, others miss their friends. There's no way to test what's \"best.\""
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Каникулы — самое лучшее время.»\n",
+        "uk": "«Канікули — найкращий час.»",
+        "en": "\"Cats can fly.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Falsehood! You can check — look at any cat. We checked — they don't fly."
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мнение! Кому-то нравятся каникулы, кому-то скучно без друзей. Нет инструмента проверить «лучшее».\n",
+        "uk": "Думка! Комусь подобаються канікули, комусь нудно без друзів. Немає способу перевірити «найкращий».",
+        "en": "Three out of three! Last lesson we learned HOW to check properly. Not by guessing, not \"I think\" — but with tools that give you NUMBERS. Who remembers our five tools?"
+      }
+    },
+    {
+      "step_id": "sc1_11",
+      "scene_id": "sc1",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Кошки умеют летать.»\n",
+        "uk": "«Коти вміють літати.»",
+        "en": "Call them out! Who remembers at least two?"
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Неправда! Проверить можно — посмотри на любую кошку. Проверили — не летают.\n",
+        "uk": "Неправда! Перевірити можна — подивись на будь-якого кота. Перевірили — не літають.",
+        "en": "Scales check weight. A ruler or measuring tape checks length, height, and distance. A clock or stopwatch checks time and speed. A thermometer checks temperature. And counting — just count how many."
+      }
+    },
+    {
+      "step_id": "sc1_13",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три из трёх! На прошлом уроке мы узнали: КАК именно проверять. Не на глаз, не «мне кажется» — а инструментами, которые дают ЧИСЛО. Кто помнит наши пять инструментов?\n",
+        "uk": "Три з трьох! На минулому уроці ми дізналися: ЯК саме перевіряти. Не на око, не «мені здається» — а приладами, які дають ЧИСЛО. Хто пам'ятає наші п'ять приладів?",
+        "en": "The rule: if there's a tool that gives you a number, you can check it. No tool — then it's probably an opinion."
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Называйте! Кто помнит хотя бы два?\n",
+        "uk": "Називайте! Хто пам'ятає хоча б два?",
+        "en": "We also learned about tricky claims. Remember the story about Vitya and the magic stone?"
+      }
+    },
+    {
+      "step_id": "sc1_15",
+      "scene_id": "sc1",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Весы — проверяют вес. Линейка или рулетка — длину, высоту, расстояние. Часы или секундомер — время и скорость. Термометр — температуру. И счёт — просто посчитать: сколько штук.\n",
+        "uk": "Ваги — перевіряють вагу. Лінійка або рулетка — довжину, висоту, відстань. Годинник або секундомір — час і швидкість. Термометр — температуру. І лічба — просто порахувати: скільки штук.",
+        "en": "What makes a tricky claim different from a regular one? What did Vitya do every time someone tried to test him?"
+      }
+    },
+    {
+      "step_id": "sc1_16",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Правило: если для утверждения есть инструмент, который даст число — его можно проверить. Нет инструмента — скорее всего, мнение.\n",
+        "uk": "Правило: якщо для твердження є прилад, який дасть число — його можна перевірити. Немає приладу — скоріш за все, це думка.",
+        "en": "He had an excuse for every check! \"The stone was resting,\" \"The wish was too big,\" \"It only works when nobody's watching.\" A tricky claim is when there's supposedly a way to check it, but the person always has a reason why you can't check it right now."
+      }
+    },
+    {
+      "step_id": "sc1_17",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А ещё мы узнали про хитрые утверждения. Помните историю про Витю и волшебный камень?\n",
+        "uk": "А ще ми дізналися про хитрі твердження. Пам'ятаєте історію про Віту та чарівний камінь?",
+        "en": "And finally — three questions for the truth detective. First: is there a tool to check? Second: is the person willing to be tested — or do they have excuses? Third: we checked — what happened?"
+      }
+    },
+    {
+      "step_id": "sc1_18",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Чем хитрое утверждение отличается от обычного? Что Витя делал каждый раз, когда его проверяли?\n",
+        "uk": "Чим хитре твердження відрізняється від звичайного? Що Вітя робив щоразу, коли його перевіряли?",
+        "en": "Complete check! Three categories: verifiable, opinion, tricky."
+      }
+    },
+    {
+      "step_id": "sc1_19",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "На каждую проверку у него была отговорка! «Камень отдыхал», «Желание слишком большое», «Работает только когда никто не смотрит». Хитрое утверждение — когда вроде инструмент есть, но человек всегда придумает причину, почему сейчас проверить нельзя.\n",
+        "uk": "На кожну перевірку у нього була отговірка! «Камінь відпочивав», «Бажання занадто велике», «Працює тільки коли ніхто не дивиться». Хитре твердження — коли ніби прилад є, але людина завжди придумає причину, чому зараз перевірити не можна.",
+        "en": "\"This chair weighs three kilograms.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "uk": "Перевіряєме",
+            "en": "Verifiable"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "uk": "Хитре твердження",
+            "en": "Tricky claim"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Verifiable! Tool — scales. Put it on, check the number."
+      }
+    },
+    {
+      "step_id": "sc1_21",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "И наконец — три вопроса детектива правды. Первый: есть ли инструмент для проверки? Второй: человек согласен проверить — или у него отговорки? Третий: проверили — что получилось?\n",
+        "uk": "І нарешті — три питання детектива правди. Перше: чи є прилад для перевірки? Друге: людина згідна перевіряти — чи у неї отговірки? Третє: перевірили — що вийшло?",
+        "en": "\"This chair is comfortable.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "uk": "Перевіряєме",
+            "en": "Verifiable"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "uk": "Хитре твердження",
+            "en": "Tricky claim"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! There's no device that measures comfort. It's different for everyone."
+      }
+    },
+    {
+      "step_id": "sc1_23",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Полная проверка! Три категории: проверяемое, мнение, хитрое.\n",
+        "uk": "Повна перевірка! Три категорії: перевіряєме, думка, хитре.",
+        "en": "\"My cat can count to ten, but only when I'm sleeping.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "uk": "Перевіряєме",
+            "en": "Verifiable"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "uk": "Хитре твердження",
+            "en": "Tricky claim"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Tricky claim! It seems checkable — ask the cat to count. But the excuse is \"only when I'm sleeping\" — impossible to verify."
+      }
+    },
+    {
+      "step_id": "sc1_25",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот стул весит три килограмма.»\n",
+        "uk": "«Цей стілець важить три кілограми.»",
+        "en": "\"It's raining outside.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "uk": "Перевіряєме",
+            "en": "Verifiable"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "uk": "Хитре твердження",
+            "en": "Tricky claim"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Verifiable! Turn your head and look out the window. You can check right now."
+      }
+    },
+    {
+      "step_id": "sc1_27",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Проверяемое! Инструмент — весы. Ставим на весы, смотрим число.\n",
+        "uk": "Перевіряєме! Прилад — ваги. Ставимо на ваги, дивимось число.",
+        "en": "\"Red is the most beautiful color.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "uk": "Перевіряєме",
+            "en": "Verifiable"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "uk": "Хитре твердження",
+            "en": "Tricky claim"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Beautiful\" is a personal feeling. There's no device for measuring beauty."
+      }
+    },
+    {
+      "step_id": "sc1_29",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот стул удобный.»\n",
+        "uk": "«Цей стілець зручний.»",
+        "en": "\"My invisible friend lives under my bed, but disappears if I look.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "uk": "Перевіряєме",
+            "en": "Verifiable"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "uk": "Хитре твердження",
+            "en": "Tricky claim"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Tricky! Look — he's gone. Don't look — \"see, he's there.\" An excuse for every test."
+      }
+    },
+    {
+      "step_id": "sc1_31",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мнение! Нет прибора, который покажет «удобность». Кому-то удобно, кому-то нет.\n",
+        "uk": "Думка! Немає приладу, який покаже «зручність». Комусь зручно, комусь ні.",
+        "en": "Excellent! You remember everything. Three words, five tools, three detective questions. Now — new topic!"
+      }
+    },
+    {
+      "step_id": "sc1_32",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мой кот умеет считать до десяти, но только когда я сплю.»\n",
+        "uk": "«Мій кіт вміє рахувати до десяти, але тільки коли я сплю.»",
+        "en": "Now listen to a cool story about an argument that a stopwatch solved."
+      }
+    },
+    {
+      "step_id": "sc2_33",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик заявил на весь школьный двор: «Я самый быстрый в школе! Никто меня не обгонит!» Сашко усмехнулся: «Правда? А давай проверим!»",
+        "uk": "Дмитрик оголосив на весь шкільний подвір'я: «Я найшвидший у школі! Ніхто мене не обжене!» Сашко посміхнувся: «Справді? А давай перевіримо!»",
+        "en": "Dmitrik announced to the whole school yard: \"I'm the fastest in school! Nobody can catch me!\" Sashko smiled: \"Really? Let's test it!\""
+      }
+    },
+    {
+      "step_id": "sc2_34",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Договорились: сто метров, секундомер, честный забег. Побежали — и Сашко финишировал первым! Дмитрик не поверил своим глазам.",
+        "uk": "Договорилися: сто метрів, секундомір, чесний забіг. Побігли — і Сашко фініш першим! Дмитрик не повірив своїм очам.",
+        "en": "They agreed: a hundred meters, stopwatch, fair race. They ran — and Sashko finished first! Dmitrik couldn't believe his eyes."
+      }
+    },
+    {
+      "step_id": "sc2_35",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Нечестно! У меня шнурок развязался!» — крикнул Дмитрик. Перебежали. Сашко снова быстрее. «Ну я просто не выспался!» — не сдаётся Дмитрик.",
+        "uk": "«Нечесно! У мене шнурок розв'язався!» — крикнув Дмитрик. Перебігли. Сашко знову швидше. «Ну я просто не виспався!» — не здається Дмитрик.",
+        "en": "\"That's not fair! My shoelace came undone!\" shouted Dmitrik. They ran again. Sashko was faster again. \"I just didn't sleep well!\" Dmitrik wouldn't give up."
+      }
+    },
+    {
+      "step_id": "sc2_36",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка покачала головой: «Дмитрик, секундомер показал числа. Два раза. Может, стоит просто потренироваться?»",
+        "uk": "Оленка покачала головою: «Дмитрик, секундомір показав числа. Два рази. Може, варто просто потренуватися?»",
+        "en": "Olenka shook her head: \"Dmitrik, the stopwatch showed numbers. Twice. Maybe you should just practice?\""
+      }
+    },
+    {
+      "step_id": "sc2_37",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Дмитрик сказал: «Я самый быстрый в школе!» А Сашко что предложил?\n",
+        "uk": "Дмитрик сказав: «Я найшвидший у школі!» А Сашко що запропонував?",
+        "en": "Dmitrik said: \"I'm the fastest in school!\" What did Sashko suggest?"
+      }
+    },
+    {
+      "step_id": "sc2_38",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверить! Пробежать сто метров и засечь время. Какой инструмент они использовали?\n",
+        "uk": "Перевірити! Пробігти сто метрів і засекти час. Який прилад вони використовували?",
+        "en": "Test it! Run a hundred meters and time it. What tool did they use?"
+      }
+    },
+    {
+      "step_id": "sc2_39",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Секундомер! Один из наших пяти инструментов.\n",
+        "uk": "Секундомір! Один з наших п'яти приладів.",
+        "en": "A stopwatch! One of our five tools."
+      }
+    },
+    {
+      "step_id": "sc2_40",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я самый быстрый в школе!» — сказал Дмитрик. Сашко оказался быстрее. Значит утверждение Дмитрика — это…\n",
+        "uk": "«Я найшвидший у школі!» — сказав Дмитрик. Сашко виявився швидше. Значить твердження Дмитрика — це…",
+        "en": "\"I'm the fastest in school!\" said Dmitrik. But Sashko was faster. So Dmitrik's statement is..."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Falsehood! We have the tool — a stopwatch. We checked — it wasn't true."
+      }
+    },
+    {
+      "step_id": "sc2_42",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Инструмент есть — секундомер. Проверили — не подтвердилось.\n",
+        "uk": "Неправда! Прилад є — секундомір. Перевірили — не підтвердилось.",
+        "en": "But wait. Is Dmitrik a liar? Was he trying to trick us?"
+      }
+    },
+    {
+      "step_id": "sc2_43",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Но подождите. Дмитрик — врун? Он специально обманывал?\n",
+        "uk": "Але зупинись. Дмитрик — брехун? Він спеціально обманював?",
+        "en": "No! He really thought he was the fastest. It SEEMED like that to him. He felt: \"I'm running, wind in my face, I'm fast!\" But feelings aren't facts."
+      }
+    },
+    {
+      "step_id": "sc2_44",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! Он правда верил, что бегает быстрее всех. Ему так КАЗАЛОСЬ. Он чувствовал: «Я бегу, ветер в лицо, я быстрый!» Но ощущение — это ещё не факт.\n",
+        "uk": "Ні! Він правда вважав, що бігає швидше за всіх. Йому так ЗДАВАЛОСЯ. Він відчув: «Я біжу, вітер у обличчя, я швидкий!» Але відчуття — це ще не факт.",
+        "en": "That's why we need tools. Feelings tell one story, but the tool shows another. A stopwatch doesn't get offended, doesn't brag, doesn't make mistakes — it just shows the number."
+      }
+    },
+    {
+      "step_id": "sc2_45",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот для чего нужны инструменты. Ощущения говорят одно, а прибор показывает другое. Секундомер не обижается, не хвастается, не ошибается — он просто показывает число.\n",
+        "uk": "Ось для чого потрібні прилади. Відчуття говорять одне, а прилад показує друге. Секундомір не образляється, не хвалиться, не помиляється — він просто показує число.",
+        "en": "Remember: \"it seems to me\" is not a test. A real test is when a tool gives you a number."
+      }
+    },
+    {
+      "step_id": "sc2_46",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Запомните: «мне кажется» — это ещё не проверка. Проверка — это когда инструмент дал число.\n",
+        "uk": "Запам'ятайте: «мені здається» — це ще не перевірка. Перевірка — це коли прилад дав число.",
+        "en": "Now a tricky question. Dmitrik lost the race. He was upset. And he says: \"That's not fair! My shoelace came undone! Let's run again!\" They ran again — Sashko was still faster. \"I just didn't sleep well!\""
+      }
+    },
+    {
+      "step_id": "sc2_47",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "А теперь хитрый вопрос. Дмитрик проиграл забег. Расстроился. И говорит: «Нечестно! У меня шнурок развязался! Давай перебежим!» Перебежали — Сашко опять быстрее. «Ну я просто не выспался!»\n",
+        "uk": "А тепер хитрий вопрос. Дмитрик програв забіг. Розстроївся. І говорить: «Нечесно! У мене шнурок розв'язався! Давай перебігнемо!» Перебігли — Сашко опять швидше. «Ну я просто не виспався!»",
+        "en": "Is Dmitrik acting like Vitya with the magic stone?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, как Витя",
+            "uk": "Так, як Вітя",
+            "en": "Yes, like Vitya"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, по-другому",
+            "uk": "Ні, по-іншому",
+            "en": "No, differently"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Yes! It's the same story we know — excuses. Shoelace, didn't sleep, unfair — a new reason for every result."
+      }
+    },
+    {
+      "step_id": "sc2_49",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик после забега ведёт себя как Витя с волшебным камнем?\n",
+        "uk": "Дмитрик після забігу поводить себе як Вітя з чарівним камінем?",
+        "en": "But here's what's interesting. What if Dmitrik says: \"Okay, today Sashko was faster. But maybe tomorrow I'll be faster?\" Is that an excuse?"
+      }
+    },
+    {
+      "step_id": "sc2_50",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Да! Это знакомая нам история — отговорки. Шнурок, недосып, нечестно — на каждый результат новая причина.\n",
+        "uk": "Так! Це знайома нам історія — отговірки. Шнурок, недосип, нечесно — на кожен результат нова причина.",
+        "en": "No! That's a good question. Maybe Dmitrik really was tired today. One test isn't everything. What if we test again? And again? That's what we'll talk about next!"
+      }
+    },
+    {
+      "step_id": "sc3_51",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Стоп! Кто думает, что Дмитрику просто не повезло? Может, он реально быстрее, просто сегодня плохой день?\n",
+        "uk": "Стоп! Хто думає, що Дмитрику просто не пощастило? Може, він реально швидше, просто сьогодні поганий день?",
+        "en": "Stop! Who thinks Dmitrik was just unlucky? Maybe he really is faster, just had a bad day?"
+      }
+    },
+    {
+      "step_id": "sc3_52",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ага, есть такие! И знаете что — вы, может быть, правы. Одна проверка — это НЕ ПРИГОВОР. Один забег — и всё, ты проиграл навсегда? Нет!\n",
+        "uk": "Ага, є такі! І знаєте що — ви, може, правильно. Одна перевірка — це НЕ ВИРОК. Один забіг — і все, ти програв навік? Ні!",
+        "en": "Aha! Some of you think so. And you know what — you might be right. One test isn't a death sentence. One race — and you've lost forever? No!"
+      }
+    },
+    {
+      "step_id": "sc3_53",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Но тогда вопрос: СКОЛЬКО раз нужно проверить, чтобы быть уверенным? Один? Два? Десять? Сто?\n",
+        "uk": "Але тоді питання: СКІЛЬКИ разів потрібно перевірити, щоб бути впевненим? Один? Два? Десять? Сто?",
+        "en": "But then the question is: HOW MANY TIMES do we need to test to be sure? Once? Twice? Ten times? A hundred?"
+      }
+    },
+    {
+      "step_id": "sc3_54",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смотрите. Я бросаю мяч — он падает. Бросаю ещё — падает. Ещё — падает. Сто раз бросил — сто раз упал. Думаете, на сто первый раз он полетит вверх?\n",
+        "uk": "Дивись. Я кидаю м'яч — він падає. Кидаю ще — падає. Ще — падає. Сто разів кинув — сто разів упав. Думаєш, на сто перший раз він полетить вгору?",
+        "en": "Look. I throw a ball — it falls. I throw again — it falls. Again — it falls. I threw a hundred times — it fell a hundred times. Think on the hundred-and-first throw it'll fly up?"
+      }
+    },
+    {
+      "step_id": "sc3_55",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! Потому что это ЗАКОНОМЕРНОСТЬ. Так работает каждый раз. А вот другой пример. Я загадал желание — и оно сбылось! Ура! Загадал ещё — не сбылось. Ещё — тоже нет. Так что, первый раз — магия? Нет. Это СОВПАДЕНИЕ.\n",
+        "uk": "Ні! Тому що це ЗАКОНОМІРНІСТЬ. Так працює кожен раз. А ось інший приклад. Я загадав бажання — і воно збулось! Ура! Загадав ще — не збулось. Ще — теж ні. Так що, перший раз — магія? Ні. Це ЗБІГ.",
+        "en": "No! Because that's a PATTERN. It works every time. But here's another example. I made a wish — and it came true! Yay! I made another wish — it didn't come true. Another — nope. So the first time was magic? No. That was a COINCIDENCE."
+      }
+    },
+    {
+      "step_id": "sc3_56",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Новое слово: ПОВТОРЯЕМОСТЬ. Если результат получается КАЖДЫЙ РАЗ — это надёжно. Если один раз да, один раз нет — совпадение.\n",
+        "uk": "Нове слово: ПОВТОРЮВАНІСТЬ. Якщо результат виходить КОЖЕН РАЗ — це надійно. Якщо один раз так, один раз ні — це збіг.",
+        "en": "New word: REPEATABILITY. If the result happens EVERY TIME — it's reliable. If one time yes, one time no — that's a coincidence."
+      }
+    },
+    {
+      "step_id": "sc3_57",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вернёмся к Дмитрику. Как по-честному решить, кто быстрее?\n",
+        "uk": "Повернімось до Дмитрика. Як по-чесному вирішити, хто швидше?",
+        "en": "Back to Dmitrik. How can we fairly figure out who's faster?"
+      }
+    },
+    {
+      "step_id": "sc3_58",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Побежать несколько раз! Если Сашко быстрее пять раз из пяти — всё, точно быстрее. А если три на два — тут уже спорно.\n",
+        "uk": "Пробігти кілька разів! Якщо Сашко швидше п'ять разів з п'яти — все, точно швидше. А якщо три на два — тут уже спірно.",
+        "en": "Run several times! If Sashko is faster five out of five times — definitely faster. But if it's three to two — it's debatable."
+      }
+    },
+    {
+      "step_id": "sc3_59",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — внимание — ловушка! Дмитрик говорит: «Когда я надеваю красную футболку, наша команда ВСЕГДА выигрывает!» Звучит круто. Кто верит?\n",
+        "uk": "А тепер — увага — пастка! Дмитрик говорить: «Коли я надягаю червону футболку, наша команда ЗАВЖДИ виграває!» Звучить круто. Хто вірить?",
+        "en": "And now — attention — a trap! Dmitrik says: \"When I wear my red shirt, our team ALWAYS wins!\" Sounds cool. Who believes it?"
+      }
+    },
+    {
+      "step_id": "sc3_60",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Так-так. А давайте проверим. Надел красную — выиграли. Надел синюю — тоже выиграли. Надел красную — проиграли. Так дело в футболке? Или в том, как команда играла?\n",
+        "uk": "Так-так. А давай перевіримо. Надів червону — виграли. Надів синю — теж виграли. Надів червону — програли. Так справа в футболці? Або в тому, як команда грала?",
+        "en": "Hmm. Let's check it. Wore red — won. Wore blue — also won. Wore red — lost. Is it the shirt? Or how the team played?"
+      }
+    },
+    {
+      "step_id": "sc3_61",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Совпадение! Дмитрик запомнил один раз, когда совпало, и решил — это правило. А все разы, когда НЕ совпало, — забыл. Хитрый мозг!\n",
+        "uk": "Збіг! Дмитрик запам'ятав один раз, коли совпало, і вирішив — це правило. А всі разі, коли НЕ совпало, — забув. Хитрий мозок!",
+        "en": "Coincidence! Dmitrik remembered one time when it matched and decided it was a rule. But all the times it didn't match — he forgot. Tricky brain!"
+      }
+    },
+    {
+      "step_id": "sc3_62",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Голосуем! Закономерность — повторяется ВСЕГДА. Совпадение — бывает по-разному. Поехали!\n",
+        "uk": "Голосуємо! Закономірність — повторюється ЗАВЖДИ. Збіг — буває по-різному. Поїхали!",
+        "en": "Vote! Pattern — repeats ALWAYS. Coincidence — varies. Let's go!"
+      }
+    },
+    {
+      "step_id": "sc3_63",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Если отпустить камень, он упадёт.»\n",
+        "uk": "«Якщо відпустити камінь, він упаде.»",
+        "en": "\"If you release a stone, it will fall.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Throw it a thousand times — it'll fall. Never fly up."
+      }
+    },
+    {
+      "step_id": "sc3_65",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Закономерность! Хоть тысячу раз бросай — упадёт. Никогда не полетит вверх.\n",
+        "uk": "Закономірність! Хоч тисячу разів кидай — упаде. Ніколи не полетить вгору.",
+        "en": "\"I made a wish on a falling star — and it came true.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! And how many times it didn't come true — we don't count for some reason. The star has nothing to do with it."
+      }
+    },
+    {
+      "step_id": "sc3_67",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я загадал желание на падающую звезду — и оно сбылось.»\n",
+        "uk": "«Я загадав бажання на падаючу зірку — і воно збулось.»",
+        "en": "\"Water boils at a hundred degrees.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Tested a million times. Thermometer shows a hundred — water boils. Always."
+      }
+    },
+    {
+      "step_id": "sc3_69",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! А сколько раз не сбылось — мы почему-то не считаем. Звезда тут ни при чём.\n",
+        "uk": "Збіг! А скільки разів не збулось — ми чомусь не рахуємо. Зірка тут ні при чому.",
+        "en": "\"If I sit at the front desk — I'll get an excellent grade.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! What if you sit at the front — and get a bad grade? Grades depend on knowledge, not on desks."
+      }
+    },
+    {
+      "step_id": "sc3_71",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Вода закипает при ста градусах.»\n",
+        "uk": "«Вода кипить при ста градусах.»",
+        "en": "\"The sun rises in the east.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Every day, billions of years. Can't be more reliable."
+      }
+    },
+    {
+      "step_id": "sc3_73",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Закономерность! Миллион раз проверено. Термометр показывает сто — вода кипит. Всегда.\n",
+        "uk": "Закономірність! Мільйон разів перевірено. Термометр показує сто — вода кипить. Завжди.",
+        "en": "\"I wore lucky socks — and the test went great!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! Socks don't solve problems. You just studied. And the socks don't care."
+      }
+    },
+    {
+      "step_id": "sc3_75",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Если я сяду на первую парту — получу отличную оценку.»\n",
+        "uk": "«Якщо я сяду на першу парту — отримаю відмінну оцінку.»",
+        "en": "Notice the trick? Patterns — stone falls, water boils, sun rises — work WITHOUT us. But coincidences — shirt, socks, desk, star — WE made up the connection. The brain loves finding connections, even where they don't exist!"
+      }
+    },
+    {
+      "step_id": "sc3_76",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Совпадение! А вдруг сел на первую — и плохая оценка? Оценка зависит от знаний, а не от парты.\n",
+        "uk": "Збіг! А раптом сів на першу — і погана оцінка? Оцінка залежить від знань, а не від парти.",
+        "en": "Fourth detective question: \"Does it happen again?\" If yes — reliable. If just once — could be a coincidence."
+      }
+    },
+    {
+      "step_id": "sc4_77",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы сказали: если повторяется — закономерность. Но подождите. СКОЛЬКО раз нужно повторить, чтобы быть уверенным?\n",
+        "uk": "Ми сказали: якщо повторюється — закономірність. Але зупинись. СКІЛЬКИ разів потрібно повторити, щоб бути впевненим?",
+        "en": "We said: if it repeats — it's a pattern. But wait. HOW MANY TIMES do you need to repeat to be sure?"
+      }
+    },
+    {
+      "step_id": "sc4_78",
+      "scene_id": "sc4",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сашко один раз обогнал Дмитрика. Этого хватит, чтобы сказать: Сашко быстрее?\n",
+        "uk": "Сашко один раз обігнав Дмитрика. Цього хватить, щоб сказати: Сашко швидше?",
+        "en": "Sashko beat Dmitrik once. Is that enough to say Sashko is faster?"
+      }
+    },
+    {
+      "step_id": "sc4_79",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! Один раз — это красный свет. Стоп! Не делай вывод. Может, совпадение.\n",
+        "uk": "Ні! Один раз — це червоне світло. Стоп! Не роби висновок. Може, збіг.",
+        "en": "No! Once — that's red light. Stop! Don't decide yet. Could be a coincidence."
+      }
+    },
+    {
+      "step_id": "sc4_80",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А если Сашко обогнал два-три раза? Уже интереснее — жёлтый свет. Проверяй дальше!\n",
+        "uk": "А якщо Сашко обігнав два-три рази? Уже цікавіше — жовте світло. Проверяй далі!",
+        "en": "What if Sashko beat him two or three times? That's more interesting — yellow light. Keep testing!"
+      }
+    },
+    {
+      "step_id": "sc4_81",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А если пять из пяти? Зелёный свет! Похоже на закономерность.\n",
+        "uk": "А якщо п'ять з п'яти? Зелене світло! Схоже на закономірність.",
+        "en": "What if five out of five? Green light! Looks like a pattern."
+      }
+    },
+    {
+      "step_id": "sc4_82",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример с монеткой. Бросил один раз — выпал орёл. Монетка всегда орёл? Бросил десять раз — пять орлов, пять решек. Ага, примерно поровну. Вот для этого и нужны повторения.\n",
+        "uk": "Приклад з монеткою. Кинув один раз — випав орел. Монетка завжди орел? Кинув десять разів — п'ять орлів, п'ять решок. Ага, приблизно порівну. Ось для чого потрібні повторення.",
+        "en": "Example with a coin. Flipped once — heads. Does the coin always give heads? Flipped ten times — five heads, five tails. Aha, about fifty-fifty. That's why we need repeats."
+      }
+    },
+    {
+      "step_id": "sc4_83",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или вот: доктор дал таблетку одному человеку — помогло. Значит, лекарство работает? Нет! Нужно проверить на многих. Вдруг первому просто повезло.\n",
+        "uk": "Або ось: лікар дав таблетку одній людині — допомогло. Значить, ліки працюють? Ні! Потрібно перевірити на багатьох. Раптом першому просто повезло.",
+        "en": "Or this: a doctor gave a pill to one person — it worked. Does the medicine work? No! You need to test on many people. Maybe that person was just lucky."
+      }
+    },
+    {
+      "step_id": "sc4_84",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И ещё важное правило: условия должны быть похожие. Если Сашко первый раз бежал по стадиону, а второй — в гору, это нечестное сравнение. Проверка должна быть одинаковой.\n",
+        "uk": "І ще важливе правило: умови повинні бути подібні. Якщо Сашко перший раз бігав по стадіону, а другий — в гору, це нечесне порівняння. Перевірка повинна бути однаковою.",
+        "en": "And one more important rule: conditions need to be similar. If Sashko ran on the track the first time and uphill the second time, that's not a fair comparison. The test needs to be the same."
+      }
+    },
+    {
+      "step_id": "sc4_85",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Петя один раз прыгнул дальше Миши. Петя лучший прыгун?»\n",
+        "uk": "«Петя один раз прострибав далі за Мишу. Петя кращий стрибун?»",
+        "en": "\"Petya jumped farther than Misha once. Is Petya a better jumper?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, одного раза хватит",
+            "uk": "Так, одного разу хватить",
+            "en": "Yes, once is enough"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, нужно больше проверок",
+            "uk": "Ні, потрібно більше перевірок",
+            "en": "No, we need more tests"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Once — red light. Maybe Misha had wind in his way. Maybe Petya got lucky. We need more tries."
+      }
+    },
+    {
+      "step_id": "sc4_87",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Один раз — красный свет. Может, Мише мешал ветер. Может, Петя просто удачно прыгнул. Нужно больше попыток.\n",
+        "uk": "Один раз — червоне світло. Може, Миші заважав вітер. Може, Петя просто удало прострибав. Потрібно більше спроб.",
+        "en": "\"The light turned on 100 times out of 100 when the switch was pressed.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Green light! 100 out of 100 is reliable. Electricity works every time."
+      }
+    },
+    {
+      "step_id": "sc4_89",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Лампочка загорелась сто раз из ста при нажатии выключателя.»\n",
+        "uk": "«Лампочка засвітилась сто разів із ста при натисненні вимикача.»",
+        "en": "Remember the light: once — red, stop. Two or three — yellow, keep testing. Five or more same results — green, looks like a pattern. More tests — more reliable."
+      }
+    },
+    {
+      "step_id": "sc5_90",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "У нас теперь целый арсенал! Три слова, пять инструментов, четыре вопроса детектива плюс светофор повторений. Хватит учиться — пора работать! Мозг размяли — теперь проверим.\n",
+        "uk": "У нас тепер цілий арсенал! Три слова, п'ять приладів, чотири питання детектива плюс світлофор повторень. Хватит вчитись — пора працювати! Мозок розминули — тепер перевіримо.",
+        "en": "We have a whole arsenal now! Three words, five tools, four detective questions plus the repeatability light. Enough learning — time to work! We warmed up the brain — now let's test it."
+      }
+    },
+    {
+      "step_id": "sc5_91",
+      "scene_id": "sc5",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Я говорю ситуацию — вы решаете: закономерность или совпадение? Тут нужна скорость! Поехали!\n",
+        "uk": "Я кажу ситуацію — ви вирішуєте: закономірність або збіг? Тут потрібна швидкість! Поїхали!",
+        "en": "I describe a situation — you decide: pattern or coincidence? We need speed! Let's go!"
+      }
+    },
+    {
+      "step_id": "sc5_92",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мороженое на солнце тает.»\n",
+        "uk": "«Морозиво на сонці танцить.»",
+        "en": "\"Ice cream melts in the sun.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Ice cream always melts in the sun — chocolate, vanilla, expensive — sun doesn't care how much it cost. It just melts."
+      }
+    },
+    {
+      "step_id": "sc5_94",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Закономерность! Мороженое на солнце тает всегда — хоть шоколадное, хоть ванильное, хоть за сто гривен. Солнцу всё равно, сколько оно стоило. Оно просто плавит.\n",
+        "uk": "Закономірність! Морозиво на сонці танцить завжди — хоч шоколадне, хоч ванільне, хоч за сто гривень. Сонцю все одно, скільки воно коштувало. Воно просто плавить.",
+        "en": "\"You washed Dad's car — and it rained.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! Rain doesn't sit on a cloud waiting: \"Oh, Petya's washing his car! Let's go!\" Rain has its own plans. Just bad luck."
+      }
+    },
+    {
+      "step_id": "sc5_96",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты помыл папину машину — и пошёл дождь.»\n",
+        "uk": "«Ти помив папину машину — і пішов дощ.»",
+        "en": "\"I wore a new cap — and the team won.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! The cap can't play soccer. It can't even kick the ball — it has no legs. The team won because they played well."
+      }
+    },
+    {
+      "step_id": "sc5_98",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! Дождь не сидит на облаке и не ждёт: «О, Петя моет машину! Ребята, поехали!» У дождя свои планы. Просто не повезло.\n",
+        "uk": "Збіг! Дощ не сидить на хмарці і не чекає: «О, Петя моє машину! Хлопці, рушаємо!» У дощу свої плани. Просто не пощастило.",
+        "en": "\"Grandma sneezed — someone must be thinking about her.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! If that were true, all people with allergies would be the most popular on Earth. Sneezing is from dust, colds, or pepper. Not people thinking of you."
+      }
+    },
+    {
+      "step_id": "sc5_100",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я надел новую кепку — и команда выиграла.»\n",
+        "uk": "«Я надів нову кепку — і команда виграла.»",
+        "en": "\"Sugar was dropped in hot tea — it dissolved.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Sugar always dissolves in hot tea. It can't refuse: \"No thanks, I'll stay a cube.\" Physics doesn't ask."
+      }
+    },
+    {
+      "step_id": "sc5_102",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! Кепка не умеет играть в футбол. Она даже мяч пнуть не может — у неё нет ног. Команда выиграла, потому что хорошо играла.\n",
+        "uk": "Збіг! Кепка не вміє грати у футбол. Вона навіть м'яч пнути не може — у неї немає ніг. Команда виграла, тому що добре грала.",
+        "en": "\"I thought about my friend — and they called me.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! You think about your friend twenty times a day. Sometimes they call, sometimes not. The times it matched — you remember. When it didn't — you forget. Tricky brain!"
+      }
+    },
+    {
+      "step_id": "sc5_104",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Бабушка чихнула — значит, кто-то её вспоминает.»\n",
+        "uk": "«Бабуся чихнула — значить, хтось її згадує.»",
+        "en": "\"Paper was put in water — it got wet.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Paper and water are like magnets and fridges. They meet — paper's wet. Doesn't matter if you ask or not."
+      }
+    },
+    {
+      "step_id": "sc5_106",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! Если бы это работало, все аллергики были бы самыми популярными людьми на планете. Чихание — от пыли, простуды или перца. А не от чьих-то мыслей.\n",
+        "uk": "Збіг! Якби це працювало, всі астматики були б найпопулярнішими людьми на планеті. Чхання — від пилу, простуди або перцю. А не від чиїхось думок.",
+        "en": "\"I complimented the plant — and it grew faster.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! Plants need water, light, and soil. Compliments aren't on the list. Nice, sure — but the plant won't grow from kind words."
+      }
+    },
+    {
+      "step_id": "sc5_108",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Сахар бросили в горячий чай — он растворился.»\n",
+        "uk": "«Цукор кинули в гарячий чай — він розчинився.»",
+        "en": "\"A black cat crossed the road — and you were late for school.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! The cat was doing cat things — maybe heading for food. You were late because you spent ten minutes looking for your other sock. The cat has nothing to do with it."
+      }
+    },
+    {
+      "step_id": "sc5_110",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Закономерность! Сахар в горячем чае растворяется всегда. Он не может отказаться: «Нет, спасибо, я тут посижу кусочком.» Физика не спрашивает.\n",
+        "uk": "Закономірність! Цукор у гарячому чаї розчиняється завжди. Він не може відмовитись: «Ні, дякую, я тут посиджу кусочком.» Фізика не питає.",
+        "en": "\"Ice was put on the radiator — it melted.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Ice can't say: \"I'm hot but I'll hold on!\" No. Heat melts ice — that's physics. It melts. Every time. No argument."
+      }
+    },
+    {
+      "step_id": "sc5_112",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я подумал о друге — и он мне позвонил.»\n",
+        "uk": "«Я подумав про друга — і він мені позвонив.»",
+        "en": "\"I smiled at a stranger — and the sun came out a minute later.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! The sun is a giant ball of fire a hundred fifty million kilometers away. It doesn't see your smile. Even if it's beautiful."
+      }
+    },
+    {
+      "step_id": "sc5_114",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! Ты думаешь о друге раз двадцать в день. Иногда он звонит, иногда нет. Те разы, когда совпало — запомнил. Когда не совпало — забыл. Хитрый мозг!\n",
+        "uk": "Збіг! Ти думаєш про друга раз двадцять у день. Іноді він звонить, іноді ні. Ті разі, коли совпало — запам'ятав. Коли не совпало — забув. Хитрий мозок!",
+        "en": "\"A glass was dropped on the floor — it broke.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Glass and floor aren't friends. Every time they meet, glass loses. No exceptions."
+      }
+    },
+    {
+      "step_id": "sc5_116",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Бумагу бросили в воду — она намокла.»\n",
+        "uk": "«Папір кинули у воду — він намок.»",
+        "en": "\"I clapped my hands — and a dog barked outside.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! The dog outside barks at everything — pigeons, wind, its own thoughts. Your hands have nothing to do with it. The dog has its own things to do."
+      }
+    },
+    {
+      "step_id": "sc5_118",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Закономерность! Бумага и вода — как магнит и холодильник. Встретились — всё, бумага мокрая. Хоть проси, хоть не проси.\n",
+        "uk": "Закономірність! Папір і вода — як магніт і холодильник. Зустрілись — все, папір мокрий. Хоч проси, хоч не проси.",
+        "en": "\"Opened the freezer — it's cold inside.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Pattern! Freezer's job is to be cold. It can't take a day off: \"Today I'm warm!\" Nope, always frozen inside. Professional."
+      }
+    },
+    {
+      "step_id": "sc5_120",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я похвалил растение — и оно выросло быстрее.»\n",
+        "uk": "«Я похвалив рослину — і вона виросла швидше.»",
+        "en": "\"I thought about the test — and I got cold.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Закономерность",
+            "uk": "Закономірність",
+            "en": "Pattern"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! Wait... no, actually. When you think about the test, EVERYONE gets chills. Just kidding — it's a coincidence. Thoughts don't control temperature. But we know the feeling!"
+      }
+    },
+    {
+      "step_id": "sc5_122",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Совпадение! Растению нужны вода, свет и земля. Комплименты в этот список не входят. Хотя, конечно, приятно — но расти от этого оно не станет.\n",
+        "uk": "Збіг! Рослині потрібна вода, світло і земля. Компліменти в цей список не входять. Хоча, звісно, приємно — але расти від цього вона не буде.",
+        "en": "15 out of 15! See the pattern? Patterns — ice melts, sugar dissolves, glass breaks — these are nature, physics, science. They work without us. But coincidences — caps, cats, smiles, claps — we made up the connection. Brain's a great inventor! It loves finding connections, even where they don't exist."
+      }
+    },
+    {
+      "step_id": "sc6_123",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Давайте остановимся и подумаем: а зачем нам всё это? Закономерности, совпадения, светофор... Это же не школьный предмет. Это — суперсила. Сейчас объясню.\n",
+        "uk": "Давайте зупинимось і подумаємо: а навіщо нам все це? Закономірності, збіги, світлофор... Це ж не шкільний предмет. Це — суперсила. Зараз поясню.",
+        "en": "Let's stop and think: why do we need this? Patterns, coincidences, traffic light... This isn't a school subject. It's a superpower. Let me explain."
+      }
+    },
+    {
+      "step_id": "sc6_124",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Представьте: друг говорит — «Каждый раз, когда я надеваю свой браслет, я пишу контрольную на отличную оценку!» Раньше вы бы подумали: «Ого, классный браслет!» А теперь? Теперь вы — детектив. Сколько раз? Два? Красный свет! А может, он просто готовился к этим контрольным? Браслет не решает задачи. Мозг решает.\n",
+        "uk": "Представ: друг каже — «Щоразу, коли я надягаю свій браслет, я пишу контрольну на відмінну оцінку!» Раніше ви б подумали: «Ого, класний браслет!» А тепер? Тепер ви — детектив. Скільки разів? Два? Червоне світло! А може, він просто готувався до цих контрольних? Браслет не розв'язує завдання. Мозок розв'язує.",
+        "en": "Imagine: a friend says — \"Every time I wear my lucky bracelet, I get excellent grades!\" You'd think: \"Wow, cool bracelet!\" But now? Now you're a detective. How many times? Twice? Red light! Maybe he just studied for those tests? The bracelet doesn't solve problems. The brain does."
+      }
+    },
+    {
+      "step_id": "sc6_125",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или вот: старший брат говорит — «Я всегда выигрываю, когда играю дома!» Звучит убедительно. Но вы спрашиваете: сколько раз играл дома? А сколько раз проиграл — не забыл посчитать? Может, он просто запомнил победы и забыл поражения? Мозг обожает так делать — запоминать совпадения и забывать всё остальное.\n",
+        "uk": "Або ось: старший брат каже — «Я завжди виграю, коли граю вдома!» Звучить переконливо. Але ви питаєте: скільки разів грав вдома? А скільки разів програв — не забув порахувати? Може, він просто запам'ятав перемоги і забув поразки? Мозок обожає так робити — запам'ятовувати збіги і забувати все решту.",
+        "en": "Or this: your older brother says — \"I always win when I play at home!\" Sounds convincing. But you ask: how many times did you win at home? How many times did you lose — did you count that? Maybe you just remember the wins and forgot the losses? The brain loves to do that — remember coincidences, forget everything else."
+      }
+    },
+    {
+      "step_id": "sc6_126",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот ситуация посерьёзнее. Кто-то говорит: «Я выпил эту таблетку — и мне стало лучше!» Один раз. Это зелёный свет? Нет! Красный. Может, организм сам справился. Может, помог сон. Врачи проверяют лекарства на тысячах людей — потому что один раз не считается. Даже в медицине работает наш светофор!\n",
+        "uk": "А ось ситуація посерйознішा. Хтось каже: «Я випив цю таблетку — і мені стало краще!» Один раз. Це зелене світло? Ні! Червоне. Може, організм сам впорався. Може, допомогав сон. Лікарі перевіряють ліки на тисячах людей — тому що один раз не рахується. Навіть в медицині працює наш світлофор!",
+        "en": "Here's a more serious situation. Someone says: \"I took this pill — and I felt better!\" Once. Is that green light? No! Red. Maybe the body handled it. Maybe sleep helped. Doctors test medicine on thousands of people — because once doesn't count. Even in medicine, our traffic light works!"
+      }
+    },
+    {
+      "step_id": "sc6_127",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или вот что бывает в школе. Кто-то говорит: «Я два раза сел на последнюю парту — и оба раза вызвали к доске! Последняя парта проклята!» А вы теперь знаете: два раза — это жёлтый свет. Проверяй дальше. И кстати — может, учитель просто видит, кто отвлекается? Парта тут ни при чём. Парта вообще ни в чём не виновата.\n",
+        "uk": "Або ось що буває в школі. Хтось каже: «Я два рази сів на останню парту — і обидва рази викликали до дошки! Остання парта проклята!» А ви тепер знаєте: два рази — це жовте світло. Проверяй далі. І кстаті — може, учитель просто бачить, хто відвлякається? Парта тут ні при чому. Парта вообще ні в чому не винна.",
+        "en": "Or here's what happens in school. Someone says: \"I sat at the back desk twice — and both times I was called on! The back desk is cursed!\" But you know now: twice is yellow light. Keep testing. And by the way — maybe the teacher just sees who's distracted? The desk has nothing to do with it. Desks aren't guilty of anything."
+      }
+    },
+    {
+      "step_id": "sc6_128",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Видите, что происходит? Вы больше не ведётесь на «один раз сработало — значит, всегда работает». Вы задаёте вопросы. Вы проверяете. Вы — детективы, которых не обмануть совпадением.\n",
+        "uk": "Бачите, що происходит? Ви більше не ведетеся на «один раз спрацював — значить, завжди працює». Ви задаєте питання. Ви перевіряєте. Ви — детективи, яких не обдурити збігом.",
+        "en": "See what's happening? You're not fooled by \"worked once — so it always works.\" You ask questions. You test. You're detectives who can't be tricked by coincidence."
+      }
+    },
+    {
+      "step_id": "sc6_129",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь соберём всё вместе. На прошлом уроке мы научились ПРОВЕРЯТЬ — инструментами, которые дают числа. Сегодня мы узнали: одной проверки мало. Нужна ПОВТОРЯЕМОСТЬ.\n",
+        "uk": "А тепер соберемо все разом. На минулому уроці ми навчилися ПЕРЕВІРЯТИ — приладами, які дають числа. Сьогодні ми дізналися: однієї перевірки мало. Потрібна ПОВТОРЮВАНІСТЬ.",
+        "en": "Now let's put it all together. Last lesson we learned to CHECK — with tools that give numbers. Today we learned: one test isn't enough. We need REPEATABILITY."
+      }
+    },
+    {
+      "step_id": "sc6_130",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Закономерность — это когда результат один и тот же каждый раз. Лёд тает, мяч падает, сахар растворяется. Природе всё равно, кто смотрит — она работает всегда.\n",
+        "uk": "Закономірність — це коли результат один і той же кожен раз. Лід танцить, м'яч падає, цукор розчиняється. Природі все одно, хто дивиться — вона працює завжди.",
+        "en": "A pattern is when the result is the same every time. Ice melts, balls fall, sugar dissolves. Nature doesn't care who's watching — it works always."
+      }
+    },
+    {
+      "step_id": "sc6_131",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Совпадение — это когда мозг придумал связь, которой нет. Кепка и победа. Кошка и опоздание. Улыбка и солнце. Красиво звучит — но не проходит проверку светофором.\n",
+        "uk": "Збіг — це коли мозок придумав зв'язок, якого немає. Кепка і перемога. Кішка і запізнення. Посмішка і сонце. Гарно звучить — але не проходить перевірку світлофором.",
+        "en": "A coincidence is when the brain made up a connection that doesn't exist. Cap and victory. Cat and being late. Smile and sun. Sounds nice — but doesn't pass the light test."
+      }
+    },
+    {
+      "step_id": "sc6_132",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Светофор повторений: один раз — красный, стоп. Два-три — жёлтый, проверяй. Пять и больше — зелёный, похоже на закономерность.\n",
+        "uk": "Світлофор повторень: один раз — червоне, стоп. Два-три — жовте, проверяй. П'ять і більше — зелене, схоже на закономірність.",
+        "en": "Repeatability light: once — red, stop. Two or three — yellow, keep testing. Five or more — green, looks like a pattern."
+      }
+    },
+    {
+      "step_id": "sc6_133",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И условия! Проверка честная, только когда условия одинаковые. Бегаешь по стадиону оба раза — честно. Один раз по стадиону, другой — в гору — нечестно.\n",
+        "uk": "І умови! Перевірка чесна, тільки коли умови однакові. Бігаєш по стадіону обидва рази — чесно. Один раз по стадіону, інший — в гору — нечесно.",
+        "en": "And conditions! Testing is fair only when conditions are the same. Run on the track both times — fair. Once on track, once uphill — unfair."
+      }
+    },
+    {
+      "step_id": "sc6_134",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "У детектива правды теперь четыре вопроса. Есть инструмент? Нет отговорок? Что показала проверка? И — повторяется ли? Четыре вопроса — и никакое хитрое утверждение не пройдёт.\n",
+        "uk": "У детектива правди тепер чотири питання. Є прилад? Немає отговорок? Що показала перевірка? І — повторюється ли? Чотири питання — і ніяке хитре твердження не пройде.",
+        "en": "The truth detective now has four questions. Is there a tool? Are there no excuses? What did the test show? And — does it repeat? Four questions — and no tricky claim will get through."
+      }
+    },
+    {
+      "step_id": "sc6_135",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И знаете, что самое крутое? Эти вопросы работают не только на уроке. Они работают в жизни — когда друг хвастается, когда реклама обещает чудо, когда кто-то говорит «это точно так, я один раз проверил». Теперь у вас есть инструменты, чтобы думать самим.\n",
+        "uk": "І знаєте, що найкруче? Ці питання працюють не тільки на уроці. Вони працюють у житті — коли друг хвалиться, коли реклама обіцяє чудо, коли хтось каже «це точно так, я один раз перевірив». Тепер у вас є прилади, щоб думати самим.",
+        "en": "And you know what's coolest? These questions work not just in class. They work in life — when a friend brags, when ads promise miracles, when someone says \"it's definitely true, I tested it once.\" Now you have tools to think for yourself."
+      }
+    },
+    {
+      "step_id": "sc6_136",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Перерыв пять минут!\n",
+        "uk": "Перерва п'ять хвилин!",
+        "en": "Five minute break!"
+      }
+    }
+  ]
+}

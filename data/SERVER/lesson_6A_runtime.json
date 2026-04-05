@@ -1,0 +1,2542 @@
+{
+  "lesson_id": "6A",
+  "title": {
+    "ru": "Уклонение от ответа",
+    "uk": "Ухиляння від відповіді",
+    "en": "Dodging the Answer"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "Разминка: блиц по курсу",
+        "uk": "Розминка: блискавична вікторина по курсу",
+        "en": "Warm-up: Speed quiz from the course"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_4",
+        "sc1_6",
+        "sc1_8",
+        "sc1_10",
+        "sc1_12",
+        "sc1_14"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "Повторение 5А–5Б",
+        "uk": "Відповів!",
+        "en": "Answered!"
+      },
+      "step_ids": [
+        "sc2_15",
+        "sc2_16",
+        "sc2_18",
+        "sc2_20",
+        "sc2_22",
+        "sc2_24",
+        "sc2_26",
+        "sc2_28",
+        "sc2_30",
+        "sc2_32"
+      ],
+      "first_step_index": 8
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Открытие",
+        "uk": "Волшебна фраза: «Це цікаво, але я спрашивал про інше...»",
+        "en": "Magic phrase: \"That's interesting, but I asked about something else...\""
+      },
+      "step_ids": [
+        "sc3_33",
+        "sc3_34",
+        "sc3_35",
+        "sc3_36",
+        "sc3_37",
+        "sc3_38",
+        "sc3_39",
+        "sc3_40"
+      ],
+      "first_step_index": 18
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "ИСТОРИЯ — КТО СЪЕЛ КОНФЕТЫ?",
+        "uk": "Це волшебна фраза! Ти спокійно повертаєш розмову на коліс.",
+        "en": "That's the magic phrase! You calmly bring the conversation back on track."
+      },
+      "step_ids": [
+        "sc4_41",
+        "sc4_42",
+        "sc4_43",
+        "sc4_44",
+        "sc4_45",
+        "sc4_46"
+      ],
+      "first_step_index": 26
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "Три способа уклонения",
+        "uk": "Це добре питання, тому що воно дає тільки два варіанти: так або ні.",
+        "en": "This is a good question because it gives only two options: yes or no."
+      },
+      "step_ids": [
+        "sc5_47",
+        "sc5_48",
+        "sc5_49",
+        "sc5_50",
+        "sc5_51",
+        "sc5_52",
+        "sc5_53",
+        "sc5_54",
+        "sc5_55",
+        "sc5_56",
+        "sc5_57",
+        "sc5_58",
+        "sc5_59",
+        "sc5_60",
+        "sc5_61",
+        "sc5_62"
+      ],
+      "first_step_index": 32
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Практика: определи способ",
+        "uk": "Брат: «Мені подобається піти в парк, там класно! Мої друзі завжди ходять туди.» Але він не відповідав на твоє питання.",
+        "en": "Brother: \"I like going to the park, it's cool! My friends always go there.\" But he didn't answer your question."
+      },
+      "step_ids": [
+        "sc6_63",
+        "sc6_64",
+        "sc6_66",
+        "sc6_68",
+        "sc6_70",
+        "sc6_72",
+        "sc6_74"
+      ],
+      "first_step_index": 48
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "Вопрос-детектор",
+        "uk": "А твоє питання про те, чи він придеться вдома, залишилось без відповіді.",
+        "en": "And your question about whether he'll come home unanswered."
+      },
+      "step_ids": [
+        "sc7_76",
+        "sc7_77",
+        "sc7_78",
+        "sc7_79",
+        "sc7_80",
+        "sc7_81",
+        "sc7_83",
+        "sc7_84",
+        "sc7_85",
+        "sc7_87",
+        "sc7_88",
+        "sc7_89",
+        "sc7_91",
+        "sc7_92",
+        "sc7_93",
+        "sc7_95",
+        "sc7_96",
+        "sc7_97"
+      ],
+      "first_step_index": 55
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "Тренировка: придумай поворотник",
+        "uk": "Вправа 2: Повернення розмови",
+        "en": "Exercise 2: Returning the Conversation"
+      },
+      "step_ids": [
+        "sc8_99",
+        "sc8_100",
+        "sc8_101",
+        "sc8_102",
+        "sc8_103",
+        "sc8_104",
+        "sc8_105",
+        "sc8_106",
+        "sc8_107",
+        "sc8_108",
+        "sc8_109",
+        "sc8_110",
+        "sc8_111",
+        "sc8_112",
+        "sc8_113",
+        "sc8_114",
+        "sc8_115"
+      ],
+      "first_step_index": 73
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "Возврат к вопросу",
+        "uk": "Можливо, твої друзі або сім'я не знають про три типи поворотників. Як ти їм розповідаєш?",
+        "en": "Maybe your friends or family don't know about the three types of redirectors. How do you tell them?"
+      },
+      "step_ids": [
+        "sc9_116",
+        "sc9_117",
+        "sc9_118",
+        "sc9_119",
+        "sc9_120",
+        "sc9_122",
+        "sc9_124",
+        "sc9_126",
+        "sc9_128"
+      ],
+      "first_step_index": 90
+    },
+    "sc10": {
+      "scene_id": "sc10",
+      "title": {
+        "ru": "Финальная проверка",
+        "uk": "Це відповідь",
+        "en": "That's an answer"
+      },
+      "step_ids": [
+        "sc10_130",
+        "sc10_131",
+        "sc10_133",
+        "sc10_135",
+        "sc10_137",
+        "sc10_139"
+      ],
+      "first_step_index": 99
+    },
+    "sc11": {
+      "scene_id": "sc11",
+      "title": {
+        "ru": "Закрытие урока",
+        "uk": "Давайте вспомним. Сьогодні ми стали розвідниками розмов. Три поворотники: змінити тему, змінити тональність розмови і відповісти на інше питання. І волшебна фраза: «Це цікаво, але я спрашивал про інше...»",
+        "en": "Let's remember. Today we became detectives of conversations. Three redirectors: change the subject, change the tone of conversation, and answer a different question. And the magic phrase: \"That's interesting, but I asked about something else...\""
+      },
+      "step_ids": [
+        "sc11_141",
+        "sc11_142",
+        "sc11_143",
+        "sc11_144",
+        "sc11_145",
+        "sc11_146"
+      ],
+      "first_step_index": 105
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Привет, разведчики! Перед новой темой — быстрая разминка. Вспомним всё, чему научились за предыдущие уроки. Отвечаем быстро!\n",
+        "uk": "Привіт, розвідники! Перед новою темою — швидка розминка. Згадаємо все, чого навчилися на попередніх уроках. Відповідаємо швидко!",
+        "en": "Hello, detectives! Before the new topic — a quick warm-up. Let's remember everything we learned in previous lessons. Answer quickly!"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Шоколад — самая вкусная еда на планете.»\n",
+        "uk": "«Шоколад — найсмачніша їжа на планеті.»",
+        "en": "\"Chocolate is the most delicious food on the planet.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "False"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Most delicious\" is a judgment. Some people like chocolate, others like salty cucumbers. Both are right. Both are weird."
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! «Самая вкусная» — это оценка. Кто-то любит шоколад, а кто-то — солёные огурцы. И оба правы. И оба странные.\n",
+        "uk": "Думка! «Найсмачніша» — це оцінка. Комусь подобається шоколад, а комусь — солоні огірки. І обидва праві. І обидва дивні.",
+        "en": "A friend says: \"I put on yellow socks and got an excellent grade! Yellow socks bring good luck!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! Socks don't affect grades. Otherwise, those who study well would wear yellow socks. And those who struggle would go barefoot."
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Друг говорит: «Я надел жёлтые носки — и получил отличную оценку! Жёлтые носки приносят удачу!»\n",
+        "uk": "Друг говорить: «Я надів жовті шкарпетки — і отримав виблискувачну оцінку! Жовті шкарпетки приносять удачу!»",
+        "en": "In summer, people eat more ice cream. In summer, people get sunburned more often. So does ice cream cause sunburns?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Yes, it's the cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "No, common cause is summer"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "No, just coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Common cause is summer! Both ice cream and sunburns appear because of the heat. Ice cream is not to blame. It was unfairly accused."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! Носки не влияют на оценки. Иначе те, кто учится на отлично ходили бы в жёлтых носках. А те, кто плохо учится — босиком.\n",
+        "uk": "Збіг! Шкарпетки не впливають на оцінки. Інакше ті, хто добре навчається, ходили б у жовтих шкарпетках. А ті, хто погано навчається, — босоніж.",
+        "en": "An advertisement says: \"Doctors recommend this yogurt!\" Which persuasion technique?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Логос (факты и логика)",
+            "uk": "Логос (факти та логіка)",
+            "en": "Logos (facts and logic)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Этос (доверие к авторитету)",
+            "uk": "Етос (довіра до авторитету)",
+            "en": "Ethos (trust in authority)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Пафос (эмоции)",
+            "uk": "Патос (емоції)",
+            "en": "Pathos (emotions)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Ethos! Doctors are authorities. We trust their opinion. Advertisers know this and use it."
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Летом люди едят больше мороженого. Летом люди чаще обгорают на солнце. Значит, мороженое вызывает ожоги?\n",
+        "uk": "Влітку люди їдять більше морозива. Влітку люди частіше обгоряють на сонці. Значить, морозиво викликає опіки?",
+        "en": "Scene 1: First Spotted"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, причина",
+            "uk": "Так, причина",
+            "en": "Help, detectives! I asked my friends for a ride, but they're asking me weird questions."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, общая причина — лето",
+            "uk": "Ні, спільна причина — літо",
+            "en": "First scene. Your friend asked: \"Where are you going?\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Нет, просто совпадение",
+            "uk": "Ні, просто збіг",
+            "en": "And you answered: \"Oh, look at those beautiful clouds!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Pathos! Pressure from the crowd: “everyone has already bought it, but you haven’t, which means you’re crazy.” This is not an argument, but a manipulation. Who is “everyone” anyway? Two people from advertising?"
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Общая причина — лето! И мороженое, и ожоги появляются из-за жары. Мороженое ни в чём не виновато. Его вообще несправедливо обвинили.\n",
+        "uk": "Спільна причина — літо! І морозиво, і опіки з'являються через спеку. Морозиво ні в чому не винне. Його взагалі несправедливо звинувачили.",
+        "en": "Dispute about school uniform. Someone says: “Uniforms are necessary because without them children will show off their clothes.” This..."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Центральная идея (ствол)",
+            "uk": "Поворотник",
+            "en": "Redirector"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Аргумент (ветка)",
+            "uk": "Поворотник! Змінив тему. Питали про місце, а ти — про погоду. Класичний хід.",
+            "en": "Redirector! Changed the subject. Asked where, you talked about weather. Classic move."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Деталь (листок)",
+            "uk": "Друг спитав: «Навіщо тобі така посадка?»",
+            "en": "Friend asked: \"Why do you need a ride?\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "And you said: \"My bike is broken, unfortunately.\""
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама говорит: «Этот йогурт рекомендуют врачи!» Какой способ убеждения?\n",
+        "uk": "Реклама говорить: «Цей йогурт рекомендують лікарі!» Який спосіб переконання?",
+        "en": "Отлично, память работает! А сейчас — новая тема. И она вам точно знакома из жизни."
+      }
+    },
+    {
+      "step_id": "sc2_15",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь вспомним, что было на прошлых уроках! Мы говорили про источники и про споры. Проверяем!\n",
+        "uk": "Найкраще навіть невелике пояснення — ясний стоп. Друг розуміє, чому ти просиш.",
+        "en": "Even a brief explanation is a clear answer. Your friend understands why you're asking."
+      }
+    },
+    {
+      "step_id": "sc2_16",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Друг говорит: «Мой старший брат сказал, что в школе отменили контрольную.» Это какой источник?\n",
+        "uk": "«Хочеш, давай грати в теніс замість цього?»",
+        "en": "\"Want to play tennis instead?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Своими глазами",
+            "uk": "«Мені подобається теніс, мої друзі — чудові гравці!»",
+            "en": "\"I like tennis, my friends are great players!\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Услышал от кого-то",
+            "uk": "Що тут?",
+            "en": "What's here?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "I heard from someone! The friend didn’t see it himself - he conveys the words of his brother. And my brother could joke."
+      }
+    },
+    {
+      "step_id": "sc2_18",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Услышал от кого-то! Друг сам не видел — передаёт слова брата. А брат мог пошутить.\n",
+        "uk": "Поворотник",
+        "en": "Redirector! Asked for permission, but you talk about tennis. Changed the tone of conversation from their topic to yours."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Надёжный",
+            "uk": "Давайте дізнаємось більше про три поворотники.",
+            "en": "Let's learn more about three redirectors."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ненадёжный",
+            "uk": "Сцена 2: «Розмова» про знаходження часу",
+            "en": "Scene 2: A \"Chat\" About Finding Time"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "You ask: \"Can I come on Saturday?\""
+      }
+    },
+    {
+      "step_id": "sc2_20",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сайт «superpravda-100percent.com» пишет: «Учёные доказали, что коты умеют летать.» Надёжный источник?\n",
+        "uk": "Поворотник! Питали про дозвіл, а ти говориш про теніс. Змінив тон розмови — з запропонованої теми на свою.",
+        "en": "Mom says: \"Oh, I would be so happy! But you know, I'm always so busy...\" And she starts talking about work, about household chores. Tells you how she doesn't even have time for dinner."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Надёжный",
+            "uk": "Давайте дізнаємось більше про три поворотники.",
+            "en": "And your question about Saturday is never answered."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ненадёжный",
+            "uk": "Сцена 2: «Розмова» про знаходження часу",
+            "en": "What is mom doing?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Worth checking out! The video may be real, but the caption may be fictitious. AI is now making such videos that even the cat will be surprised."
+      }
+    },
+    {
+      "step_id": "sc2_22",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ненадёжный! Название уже подозрительное. А «учёные доказали» без ссылки — любимый приём сомнительных сайтов.\n",
+        "uk": "Ти запитуєш: «Чи я можу прийти у субота?»",
+        "en": "Changing the tone of conversation"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Поверить первой",
+            "uk": "Розповідає про щось інше",
+            "en": "Talking about something else"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поверить второй",
+            "uk": "Змінює тему! Ти спитав про суботу, а вона про свою зайнятість. Все це спеціальне — щоб ти забув про своє питання і почав жалкувати матусю.",
+            "en": "Changing the subject! You asked about Saturday, but she talks about being busy. All to make you forget your question and start feeling sorry for her."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Проверить у учителя",
+            "uk": "Сцена 3: «Піднесення голосу»",
+            "en": "Scene 3: \"Raising Your Voice\""
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "You ask: \"Why did you take my money yesterday without asking?\""
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Видео в интернете: кот играет на пианино. Подпись: «Кот-музыкант даёт концерты по всему миру!»\n",
+        "uk": "Мати говорить: «О, я була б така щаслива! Але знаєш, я завжди так зайнята...» І починає розповідати про роботу, про завдання по дому. Розповідає їй про те, як вона навіть не має часу на вечерю.",
+        "en": "Your brother says angrily: \"HOW DARE YOU SPEAK TO ME LIKE THAT! I did a lot for you!\" Raises his voice, starts attacking you."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Можно доверять",
+            "uk": "А твоє питання про суботу ніяк не розв'язується.",
+            "en": "Now you're on the defensive again, and your question about the money is lost."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Стоит проверить",
+            "uk": "Що матуся робить?",
+            "en": "What is brother doing?"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Независимые! Один узнал от учителя, другой — из чата. Разные каналы — значит, можно верить больше."
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стоит проверить! Видео может быть настоящим, а подпись — выдумкой. ИИ сейчас делает такие видео, что и кот удивится.\n",
+        "uk": "Змінює тему",
+        "en": "Changing the tone of conversation"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Центральная идея (ствол)",
+            "uk": "Поворотник",
+            "en": "Redirector"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Аргумент (ветка)",
+            "uk": "Змінює тон розмови! Ти спокійно спитав — а він почав кричати. Атакує тебе, замість того щоб відповісти на питання. Гнів замість відповіді.",
+            "en": "Changing the tone! You asked calmly, but he started yelling. Attacks you instead of answering the question. Anger instead of answer."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Деталь (листок)",
+            "uk": "Сцена 4: «Питання замість відповіді»",
+            "en": "Scene 4: \"Question Instead of Answer\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "You ask: \"Were you at the party when they asked you about someone?\""
+      }
+    },
+    {
+      "step_id": "sc2_28",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Одна подруга говорит: «Завтра экскурсия!» Вторая: «Нет, мне мама сказала, что экскурсия в пятницу.» Что делать?\n",
+        "uk": "Змінює тон розмови",
+        "en": "Your friend asks back: \"Why do you care? Are you spying on me?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Поверить первой",
+            "uk": "Розповідає про щось інше",
+            "en": "Your question disappeared. Now you're worried that your friend is accusing you."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поверить второй",
+            "uk": "Змінює тему! Ти спитав про суботу, а вона про свою зайнятість. Все це спеціальне — щоб ти забув про своє питання і почав жалкувати матусю.",
+            "en": "What is he doing?"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Проверить у учителя",
+            "uk": "Сцена 3: «Піднесення голосу»",
+            "en": "Answered the question"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Asked a counter-question"
+      }
+    },
+    {
+      "step_id": "sc2_30",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Проверить! Правило двух источников: если источники противоречат — ищем третий. Учитель знает точно.\n",
+        "uk": "Ти запитуєш: «Чому ти вчора брав мої гроші без дозволу?»",
+        "en": "That's the third redirector! Question instead of answer. Instead of answering directly, he asks. Switches you to defense mode."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Центральная идея (ствол)",
+            "uk": "Добре, а тепер ми знаємо три поворотники.",
+            "en": "Good, now we know the three redirectors."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Аргумент (ветка)",
+            "uk": "Три поворотники: змінити тему, змінити тон розмови, або відповісти на те, що не запитували.",
+            "en": "Three redirectors: change the subject, change the tone of conversation, or answer a question that wasn't asked."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Деталь (листок)",
+            "uk": "Сцена 5: «Волшебное слово»",
+            "en": "Scene 5: \"Magic Word\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Often people then activate the redirector. Usually, the answer seems dishonest."
+      }
+    },
+    {
+      "step_id": "sc2_32",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Два друга говорят, что физкультуру перенесли на завтра. Один услышал от учителя, другой — прочитал в школьном чате. Это независимые источники?\n",
+        "uk": "Брат говорить гнівно: «ЯК ТИ СМІЄШ РОЗМОВЛЯТИ ЗМІНОЮ! Я для тебе много робив!» Підняв голос, почав нападати на тебе.",
+        "en": "So how should mom answer properly?"
+      }
+    },
+    {
+      "step_id": "sc3_33",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Случалось ли с вами, что вы задаёте вопрос, а человек отвечает совсем о другом? Например, спрашиваете: «Ты сделал домашку?» — а вам говорят: «А ты видел, какая погода на улице?» Погода прекрасная. А домашка — неизвестно.\n",
+        "uk": "Це волшебна фраза. Вона вас повертає в розмову.",
+        "en": "This is a magic phrase. It brings you back to the conversation."
+      }
+    },
+    {
+      "step_id": "sc3_34",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вспомните — было такое?\n",
+        "uk": "Сцена 6: «Практика»",
+        "en": "Scene 6: \"Practice\""
+      }
+    },
+    {
+      "step_id": "sc3_35",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или вот: «Кто съел последнюю конфету?» — «А ты знаешь, что конфеты изобрели в Древнем Египте?» Спасибо за историческую справку, но конфета-то где?!\n",
+        "uk": "Тепер давайте потренуємося.Ось приклад розмови, де людина намагається включити поворотник.",
+        "en": "Now let's practice. Here's an example of a conversation where someone tries to activate the redirector."
+      }
+    },
+    {
+      "step_id": "sc3_36",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Знаете, кто в этом настоящие чемпионы? Политики! Журналист спрашивает: «Какой у вас план?» А политик отвечает: «Знаете, я скажу вам — у нас будет потрясающе. Лучше, чем когда-либо. Все говорят — это будет невероятно.» Красиво сказано. Но план-то какой?\n",
+        "uk": "Ти запитуєш батька: «Батьку, чи ти дозволиш мені піти в похід?»",
+        "en": "You ask dad: \"Dad, will you let me go on a hiking trip?\""
+      }
+    },
+    {
+      "step_id": "sc3_37",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или вот: «Почему вы не выполнили обещание?» — «А вы посмотрите, что делают другие! Вот ОНИ вообще ничего не делают!» Вопрос был про ваше обещание, а ответ — про чужие ошибки. Как фокусник — смотрите сюда, а не туда!\n",
+        "uk": "Батько говорить: «Хм, гарно! Мойй колега хотів піти в похід, але забув взяти карту. Він заблудився! Був в лісі 5 годин! Страшна історія!»",
+        "en": "Dad says: \"Hm, nice! My colleague wanted to go hiking but forgot to take a map. He got lost! Was in the forest for 5 hours! Scary story!\""
+      }
+    },
+    {
+      "step_id": "sc3_38",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Это называется уклонением от ответа. Человек вроде бы говорит что-то разумное, но на ваш вопрос не отвечает. Как машина — включил поворотник и уехал в другую сторону.\n",
+        "uk": "Батько намагається змінити тему з похідного дозволу на страшну історію.",
+        "en": "Dad is trying to change the subject from hiking permission to a scary story."
+      }
+    },
+    {
+      "step_id": "sc3_39",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Иногда люди делают это случайно — просто отвлеклись. А иногда — специально, чтобы не отвечать на неудобный вопрос. И вот это уже хитрость. Мы будем называть таких людей — поворотники.\n",
+        "uk": "Як правильно переробити?",
+        "en": "Sometimes people do this by accident—they're just distracted. And sometimes - on purpose, so as not to answer an uncomfortable question. And now this is a trick. We will call such people turn signals."
+      }
+    },
+    {
+      "step_id": "sc3_40",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сегодня мы научимся замечать поворотников и вежливо возвращать разговор к вопросу. Поехали!\n",
+        "uk": "Ти: «Це цікаво, але я спрашивал про дозвіл на похід...»",
+        "en": "You: \"That's interesting, but I asked about permission for the hike...\""
+      }
+    },
+    {
+      "step_id": "sc4_41",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь послушайте интересную историю о мальчике, который ни разу не ответил на простой вопрос. Считайте поворотники!",
+        "uk": "Сцена 7: «Прямий тиск»",
+        "en": "А теперь послушайте интересную историю о мальчике, который ни разу не ответил на простой вопрос. Считайте поворотники!"
+      }
+    },
+    {
+      "step_id": "sc4_42",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мама заходит на кухню: «Витя, кто съел конфеты из вазы?» Витя мгновенно отвечает: «А ты знаешь, что у нас кот опять на стол залез?»",
+        "uk": "Сцена 8: Как це працює",
+        "en": "Mom comes into the kitchen: “Vitya, who ate the sweets from the vase?” Vitya instantly replies: “Do you know that our cat climbed onto the table again?”"
+      }
+    },
+    {
+      "step_id": "sc4_43",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мама повторяет: «Витя. Конфеты. Кто съел?» Витя вздыхает: «Мам, я же весь день уроки делал! Между прочим, контрольную написал на отлично!»",
+        "uk": "Вже розібралися. Дякую за терпіння.",
+        "en": "Мама повторяет: «Витя. Конфеты. Кто съел?» Витя вздыхает: «Мам, я же весь день уроки делал! Между прочим, контрольную написал на отлично!»"
+      }
+    },
+    {
+      "step_id": "sc4_44",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мама не сдаётся: «Витя, я спрашиваю про конфеты.» Витя: «А почему сразу я? Может, это Оленка! Она вчера тоже тут была!» Витя вертится как уж на сковородке — а ответа так и нет.",
+        "uk": "Сцена 9: Які питання запитувати",
+        "en": "Mom doesn’t give up: “Vitya, I’m asking about candy.” Vitya: “Why me right away? Maybe it's Olenka! She was here yesterday too!” Vitya is spinning around like he’s in a frying pan, but there’s still no answer."
+      }
+    },
+    {
+      "step_id": "sc4_45",
+      "scene_id": "sc4",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сколько раз Витя включил поворотник? Какие приёмы он использовал?\n",
+        "uk": "Деякі питання дуже вузькі і дають можливість для поворотника. Давайте подивимося на примери.",
+        "en": "Some questions are very narrow and allow room for redirecting. Let's look at examples."
+      }
+    },
+    {
+      "step_id": "sc4_46",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили? Мама — настоящий разведчик. Каждый раз, когда Витя пытался свернуть, она спокойно возвращала его обратно. Никакого крика, никакой злости — просто повторяла вопрос. И в итоге Витя сдался. Поворотники не работают, когда собеседник внимательный!\n",
+        "uk": "«Чи ти хочеш піти в кіно на суботу?»",
+        "en": "Did you notice? Mom is a real intelligence officer. Every time Vitya tried to turn away, she calmly brought him back. No screaming, no anger - she just repeated the question. And in the end, Vitya gave up. Turn signals do not work when the interlocutor is attentive!"
+      }
+    },
+    {
+      "step_id": "sc5_47",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Есть три главных способа включить поворотник. Три приёма, которыми пользуются все — от младших братьев до президентов. Запоминаем!\n",
+        "uk": "«Чим ти був занятий вчора?»",
+        "en": "Есть три главных способа включить поворотник. Три приёма, которыми пользуются все — от младших братьев до президентов. Запоминаем!"
+      }
+    },
+    {
+      "step_id": "sc5_48",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первый — СМЕНА ТЕМЫ. Человек просто начинает говорить о чём-то совсем другом. Вопрос: «Ты прибрал комнату?» Ответ: «А давай посмотрим мультик!» Комната? Какая комната? Тут мультики показывают! Человек надеется, что вы забудете, о чём спрашивали.\n",
+        "uk": "І тут є більш місце для переносу — один може сказати про те, що робив, але можливо також почне говорити про погоду та інші речі.",
+        "en": "And here there's more room to redirect — one can talk about what they were doing, but might also start talking about weather and other things."
+      }
+    },
+    {
+      "step_id": "sc5_49",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Это как если бы учитель спросил: «Сколько будет семь умножить на восемь?», а вы ответили: «А вы знали, что дельфины спят с одним открытым глазом?» Дельфины — молодцы. Но семью восемь — по-прежнему загадка.\n",
+        "uk": "«Ти згоден 3 людьми кілька разів останнім часом, чи я помилився?»",
+        "en": "\"You've been meeting with 3 people a few times recently, haven't I seen that?\""
+      }
+    },
+    {
+      "step_id": "sc5_50",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь попробуйте сами! Вопрос: «Ты съел суп?» Придумайте смену темы — но хитрую, максимально близкую к еде, чтобы мама не сразу заметила поворотник.\n",
+        "uk": "Цей тип питання - конкретна спостереження з запитом. Воно дає мало місця для переносу.",
+        "en": "This type of question is a specific observation with a query. It leaves little room for redirection."
+      }
+    },
+    {
+      "step_id": "sc5_51",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какую смену темы вы придумали?\n",
+        "uk": "Давайте зупинимось тут і повернемось до того, яким чином спробує відповідати твій опонент на ці питання.",
+        "en": "Let's stop here and return to how your opponent will try to answer these questions."
+      }
+    },
+    {
+      "step_id": "sc5_52",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот мой вариант: «Мам, а ты знаешь, что в Японии суп едят на завтрак? Представляешь — утром, вместо каши!» Вроде про суп, вроде по теме — но вопрос «ты съел?» так и остался без ответа. Красивый поворотник!\n",
+        "uk": "Сцена 10: Що думаєш ти?",
+        "en": "Here’s my version: “Mom, do you know that in Japan they eat soup for breakfast? Imagine - in the morning, instead of porridge!” It seems to be about soup, it seems to be on topic - but the question “did you eat it?” remained unanswered. Nice turn signal!"
+      }
+    },
+    {
+      "step_id": "sc5_53",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй — СМЕНА ТОНАЛЬНОСТИ. Человек шутит или показывает сильные эмоции, чтобы отвлечь. Вопрос: «Почему ты опоздал?» Ответ-шутка: «Ха-ха, представляешь, я видел такую смешную собаку по дороге!» Все смеются — а вопрос забыт. Или ответ-эмоция: «Почему ты ВСЕГДА меня ругаешь?!» И вот уже вы оправдываетесь вместо того, чтобы получить ответ.\n",
+        "uk": "Сцена 11: Як впевнитися, що ми розуміємо?",
+        "en": "The second is a CHANGE OF TONALITY. The person makes jokes or shows strong emotions to distract. Question: “Why are you late?” The answer is a joke: “Ha ha, can you imagine, I saw such a funny dog ​​on the way!” Everyone laughs, but the question is forgotten. Or the answer is an emotion: “Why do you ALWAYS scold me?!” And now you are making excuses instead of getting an answer."
+      }
+    },
+    {
+      "step_id": "sc5_54",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Эмоция — мощное оружие. Когда человек кричит или плачет, нам неловко продолжать спрашивать. И поворотник это знает. Хитро, правда?\n",
+        "uk": "Зараз давайте подивимось на найчастіші способи ухилення від відповіді.",
+        "en": "Now let's look at the most common ways of dodging the answer."
+      }
+    },
+    {
+      "step_id": "sc5_55",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ваша очередь! Вопрос: «Почему ты не сделал домашку?» Придумайте смену тональности — шутку или эмоцию, чтобы собеседник забыл, о чём спрашивал.\n",
+        "uk": "Способ 1: Змінити тему",
+        "en": "It's your turn! Question: “Why didn’t you do your homework?” Come up with a change of tone - a joke or emotion so that the interlocutor forgets what he asked."
+      }
+    },
+    {
+      "step_id": "sc5_56",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что придумали? Шутку или эмоцию?\n",
+        "uk": "Ти запитуєш матусю: «Мамо, чи будеш тулити це завтра?»",
+        "en": "You ask mom: \"Mom, will you fix this tomorrow?\""
+      }
+    },
+    {
+      "step_id": "sc5_57",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой вариант-шутка: «Домашку?! Я пытался, но ручка сломалась, тетрадь улетела в окно, а собака съела учебник! Это был худший вечер в моей жизни!» Так смешно, что учитель уже забыл вопрос. А можно эмоцией: «Ты что, думаешь я специально?! Мне и так тяжело!» — и вот уже все жалеют, а не спрашивают.\n",
+        "uk": "Матуся говорить: «О, подивись, скільки нових речей в магазині!» Абсолютно змінила тему.",
+        "en": "Mom says: \"Oh, look at all the new things in the store!\" Completely changed the subject."
+      }
+    },
+    {
+      "step_id": "sc5_58",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий — ОТВЕТ НА ДРУГОЙ ВОПРОС. Самый коварный приём! Человек вроде бы отвечает — но не на тот вопрос. Вопрос: «Ты сделал домашку по математике?» Ответ: «Я сегодня много читал!» Читал — молодец. Но математика где? Задачки сами себя не решат.\n",
+        "uk": "Способ 2: Змінити тональність розмови",
+        "en": "The third is ANSWER TO ANOTHER QUESTION. The most insidious trick! The person seems to be answering, but to the wrong question. Question: “Have you done your math homework?” Answer: “I read a lot today!” I read it - well done. But where is the mathematics? Problems will not solve themselves."
+      }
+    },
+    {
+      "step_id": "sc5_59",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Этот приём коварный, потому что похож на настоящий ответ. Человек не молчит, не шутит, не кричит — он говорит что-то по делу. Просто по другому делу. Поворотник без мигалки — незаметный, но всё равно поворотник.\n",
+        "uk": "Ти: «Батьку, чому ти смутний?»",
+        "en": "This trick is tricky because it looks like the real answer. A person is not silent, does not joke, does not shout - he says something to the point. Just on a different matter. A turn signal without a flasher is invisible, but still a turn signal."
+      }
+    },
+    {
+      "step_id": "sc5_60",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последний раунд! Вопрос: «Ты убрал свою комнату?» Придумайте ответ на другой вопрос — чтобы звучало похоже на ответ, но им не было.\n",
+        "uk": "Батько: «ЧИ Я ВИГЛЯДАЮ СМУТНИМ?! Це дуже образливо! Я найщасливіша людина в світі!» (але це неправда, він точно смутний).",
+        "en": "Dad: \"DO I LOOK SAD?! That's offensive! I'm the happiest person in the world!\" (but that's not true, he's definitely sad)."
+      }
+    },
+    {
+      "step_id": "sc5_61",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой «почти-ответ» получился?\n",
+        "uk": "Способ 3: Відповісти на інше питання",
+        "en": "Way 3: Answer a Different Question"
+      }
+    },
+    {
+      "step_id": "sc5_62",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот мой: «Я сегодня помыл посуду и вынес мусор!» Звучит прекрасно — ответственный ребёнок, трудяга. Но комната? Комната стоит нетронутая и тихо плачет. Посуда помыта, мусор вынесен — а вопрос всё ещё ждёт ответа.\n",
+        "uk": "Ти: «Куди ти хочеш піти в субота?»",
+        "en": "А вот мой: «Я сегодня помыл посуду и вынес мусор!» Звучит прекрасно — ответственный ребёнок, трудяга. Но комната? Комната стоит нетронутая и тихо плачет. Посуда помыта, мусор вынесен — а вопрос всё ещё ждёт ответа."
+      }
+    },
+    {
+      "step_id": "sc6_63",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь проверяем! Я читаю вопрос и ответ, а вы определяете — какой поворотник включили. Или, может, это честный ответ?\n",
+        "uk": "Цей способ - найтонший. Звучить як відповідь, але насправді - це відповідь на те, що ти не запитував.",
+        "en": "This method is the most subtle. It sounds like an answer, but it's actually answering a question you didn't ask."
+      }
+    },
+    {
+      "step_id": "sc6_64",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты помыл руки перед едой?» — «Смотри, какая птичка за окном!»\n",
+        "uk": "Тепер розберемось, що робити, якщо інша людина включила поворотник.",
+        "en": "Now let's figure out what to do if the other person activated the redirector."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Смена темы",
+            "uk": "Магічна фраза",
+            "en": "Magic Phrase"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Смена тональности",
+            "uk": "Якщо людина включила поворотник, ти можеш сказати:",
+            "en": "If the person activated the redirector, you can say:"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ответ на другой вопрос",
+            "uk": "«Це цікаво, але я спрашивав про [те, що ти насправді спитав].»",
+            "en": "\"That's interesting, but I asked about [what you actually asked].\""
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Честный ответ",
+            "uk": "Це напомин про твоє оригінальне питання.",
+            "en": "This reminds them of your original question."
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Смена темы! Руки не помыты, зато птичка красивая. Птичка, кстати, тоже руки не моет — но она птичка, ей можно. А вам — марш к раковине."
+      }
+    },
+    {
+      "step_id": "sc6_66",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Смена темы! Руки не помыты, зато птичка красивая. Птичка, кстати, тоже руки не моет — но она птичка, ей можно. А вам — марш к раковине.\n",
+        "uk": "Давайте потренуємося розпізнавати поворотники.",
+        "en": "«Почему ты не пришёл на тренировку?» — «Ха-ха, я пошёл, но перепутал двери и попал на кружок вязания! Связал шарф! Хочешь покажу?»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Смена темы",
+            "uk": "Нижче наведені приклади розмов. Для кожної розмови вкажіть: це была відповідь чи поворотник?",
+            "en": "Below are examples of conversations. For each conversation, indicate: was it an answer or a redirector?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Смена тональности",
+            "uk": "«Чи ти ходив на вечірку?»",
+            "en": "\"Did you go to the party?\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ответ на другой вопрос",
+            "uk": "«Ні, я був вдома, готував домашнє завдання.»",
+            "en": "\"No, I was home doing homework.\""
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Честный ответ",
+            "uk": "Це відповідь",
+            "en": "That's an answer"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Changing the key is a joke! Funny story instead of an answer. The scarf may be beautiful, but you weren’t at the training session. And the coach won’t appreciate the scarf."
+      }
+    },
+    {
+      "step_id": "sc6_68",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Почему ты не пришёл на тренировку?» — «Ха-ха, я пошёл, но перепутал двери и попал на кружок вязания! Связал шарф! Хочешь покажу?»\n",
+        "uk": "Сцена 10: Практика розпізнавання поворотників",
+        "en": "Answer! Brief, clear, on point. Beautiful."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Смена темы",
+            "uk": "Нижче наведені приклади розмов. Для кожної розмови вкажіть: це была відповідь чи поворотник?",
+            "en": "\"And who else do you go out with?\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Смена тональности",
+            "uk": "«Чи ти ходив на вечірку?»",
+            "en": "Redirector"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ответ на другой вопрос",
+            "uk": "«Ні, я був вдома, готував домашнє завдання.»",
+            "en": "Redirector! Asked not \"who else\", but \"do YOU want to\". Counter-question instead of answer is a classic."
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Честный ответ",
+            "uk": "Це відповідь",
+            "en": "\"No, I have training.\""
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Answer to another question! Mathematics is great, but they asked about a poem. The poem is offended and waits in the corner. It thought that they would remember about it, but no - again mathematics."
+      }
+    },
+    {
+      "step_id": "sc6_70",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Смена тональности — шутка! Смешная история вместо ответа. Шарф, может, и красивый — но на тренировке тебя не было. И тренер шарф не оценит.\n",
+        "uk": "Це поворотник",
+        "en": "“Who broke the vase?” - “Why do you always blame me?! It's not fair!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Смена темы",
+            "uk": "Відповідь! «Ні» + причина. Можливо, кому-то образливо — але хоча б ясно.",
+            "en": "Answer! \"No\" + reason. Someone might be offended, but at least it's clear."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Смена тональности",
+            "uk": "«Кіно — це так весело! Обожаю попкорн!»",
+            "en": "\"Movies are so fun! I love popcorn!\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ответ на другой вопрос",
+            "uk": "Відповідь",
+            "en": "Answer"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Честный ответ",
+            "uk": "Поворотник",
+            "en": "Redirector"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Redirector! Loves popcorn but not a word about Saturday."
+      }
+    },
+    {
+      "step_id": "sc6_72",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты выучил стихотворение?» — «Я сегодня решил пять примеров по математике!»\n",
+        "uk": "Відповідь! Коротко, ясно, про справу. Красиво.",
+        "en": "«Ты сделал уроки?» — «Да, сделал математику и английский.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Смена темы",
+            "uk": "«А ти з ким ще ходиш?»",
+            "en": "Let's remember. Today we became detectives of conversations. Three redirectors: change the subject, change the tone of conversation, and answer a different question. And the magic phrase: \"That's interesting, but I asked about something else...\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Смена тональности",
+            "uk": "Поворотник",
+            "en": "I'll tell you a story. A boy asked his grandfather: \"Grandpa, have you ever lied?\" Grandpa smiled and said: \"Oh, let me tell you how I once caught a fish the size of a boat!\" The boy laughed and forgot his question. A year later he remembered and understood: Grandpa activated the redirector."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ответ на другой вопрос",
+            "uk": "Поворотник! Запитали не «з ким ще», а «хочеш ли ТИ». Контр-питання замість відповіді — класика.",
+            "en": "And the boy asked again. And Grandpa quietly answered: \"Yes, sometimes.\" Just two words. But it was an honest answer. And the boy respected his grandfather even more—not because he never lied, but because he could admit it."
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Честный ответ",
+            "uk": "«Ні, у мене тренування.»",
+            "en": "That's what our superpower gives us. We don't catch people to accuse them. We ask questions because we want real answers. And real answers, even uncomfortable ones, bring people closer together."
+          }
+        }
+      ],
+      "correct_answer": "opt_4",
+      "explanation": {
+        "en": "And remember: repeating your question is not rudeness. It's respect for yourself and for the conversation. Calmly, politely, but persistently—like GPS: route recalculated, returning to the question."
+      }
+    },
+    {
+      "step_id": "sc6_74",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ на другой вопрос! Математика — это прекрасно, но спрашивали про стихотворение. Стихотворение обижено и ждёт в углу. Оно думало, что про него вспомнят, но нет — опять математика.\n",
+        "uk": "Відповідь",
+        "en": "And during the break, try this: ask someone a question and see—will they answer directly or activate the redirector? See you after the break!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Смена темы",
+            "uk": "Це прямий натиск на питання.",
+            "en": "This is direct pressure on the question."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Смена тональности",
+            "uk": "Порада: якщо людина включила 3-й тип поворотника, можна сказати: «Це может бути правдою, але я спитав інше...»",
+            "en": "Tip: If someone activates the 3rd type of redirector, you can say: \"That may be true, but I asked something else...\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ответ на другой вопрос",
+            "uk": "Способ 1: Змінення теми",
+            "en": "Method 1: Changing the Topic"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Честный ответ",
+            "uk": "Ти запитав батька: «Батько, ти сьогодні придеш вдома?»",
+            "en": "You asked dad: \"Dad, will you come home today?\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Dad talks: \"Oh, don't forget, we have shopping tomorrow! I need milk, eggs, and bread. Do you need anything too?\" Completely changed the subject."
+      }
+    },
+    {
+      "step_id": "sc7_76",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь учимся главному. Есть один вопрос-детектор, который работает всегда: «Ответил ли человек на ТОТ вопрос, который я задал?» Если нет — он включил поворотник. Всё просто.\n",
+        "uk": "Способ 2: Змінення тональності",
+        "en": "Now let's learn the main thing. There is one detector question that always works: “Did the person answer THAT question I asked?” If not, he turned on the turn signal. It's simple."
+      }
+    },
+    {
+      "step_id": "sc7_77",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Это как проверка на контрольной: если спросили «Сколько будет 2+2?», а вы написали «Я люблю математику» — это не ответ, даже если предложение красивое. Учитель поставит «неверно». И разведчик тоже заметит подвох.\n",
+        "uk": "Ти спитав сестру: «Сесро, чому ти роз злив прикрасу, яка мені подобалась?»",
+        "en": "You asked your sister: \"Sister, why did you give away the decoration I liked?\""
+      }
+    },
+    {
+      "step_id": "sc7_78",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Запоминаем формулу: «Это ответ на МОЙ вопрос или на ДРУГОЙ?» Сейчас потренируемся — на каждый вопрос будет два ответа. Один честный, один — поворотник.\n",
+        "uk": "Сестра кричить: «КАК ТЫ СМЕЕШЬ ТАК ГОВОРИТЬ! Я ДЛЯ ТЕБЯ МНОГОЕ ДЕЛАЮ! Такая неблагодарность!» Кричить замість того щоб відповісти.",
+        "en": "Sister yells: \"HOW DARE YOU SPEAK TO ME LIKE THAT! I DO SO MUCH FOR YOU! Such ingratitude!\" Yells instead of answering."
+      }
+    },
+    {
+      "step_id": "sc7_79",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Ты брал мой ластик?»\n",
+        "uk": "А твоє питання про прикрасу загубилось.",
+        "en": "And your question about the decoration is lost."
+      }
+    },
+    {
+      "step_id": "sc7_80",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ: «Я тебе потом верну.»\n",
+        "uk": "Способ 3: Відповідь на інше питання",
+        "en": "Method 3: Answer a Different Question"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Ти запитав подругу: «Ти завтра буде в школі?»",
+            "en": "You asked your friend: \"Will you be at school tomorrow?\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Подруга відповідає: «О, школа така цікава! Мене дуже подобаються наші учителя і мої друзі. У мене там так багато друзів!» Звучить як відповідь, але вона насправді не відповіла на твоє питання.",
+            "en": "Friend answers: \"Oh, school is so interesting! I really like our teachers and my friends. I have so many friends there!\" It sounds like an answer, but she didn't actually answer your question."
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc7_81",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ: «Да, брал, вот он.»\n",
+        "uk": "Тепер ти знаєш три методи ухилення. Коли хтось включає поворотник, ти можеш повернути розмову назад, використовуючи магічну фразу.",
+        "en": "Now you know three dodging methods. When someone activates the redirector, you can bring the conversation back using the magic phrase."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Сцена 8: Як це працює на практиці",
+            "en": "Scene 8: How It Works in Practice"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Приклад 1: Мати і син",
+            "en": "Example 1: Mother and Son"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Son asks: \"Mom, can I go for a walk?\""
+      }
+    },
+    {
+      "step_id": "sc7_83",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Потом верну» — хитрый поворотник! Звучит как ответ, но «да» или «нет» не сказал. А «да, брал, вот он» — честно и по делу.\n",
+        "uk": "Син запитує: «Мамо, я можу піти гуляти?»",
+        "en": "Mom answers by changing the subject: \"Oh, look how nice it is outside! The sun is shining, beautiful weather. I want to sit on a bench...\""
+      }
+    },
+    {
+      "step_id": "sc7_84",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вопрос: «Тебе понравился фильм?»\n",
+        "uk": "Мати відповідає змінюючи тему: «О, подивись, як гарно на вулиці! Світить сонце, гарна погода. Мені хочеться сидіти на лавці...»",
+        "en": "Son says: \"That's interesting, but I asked about permission to go for a walk...\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Мати: «Гаразд, можеш. Але бути обережним.»",
+            "en": "Mom: \"Okay, you can. But be careful.\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Приклад 2: Батько і донька",
+            "en": "Example 2: Father and Daughter"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc7_85",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ: «Да, особенно финал!»\n",
+        "uk": "Син говорить: «Це цікаво, але я спрашивал про дозвіл гуляти...»",
+        "en": "Daughter asks: \"Dad, why didn't you come to my concert?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Мати: «Гаразд, можеш. Але бути обережним.»",
+            "en": "Dad yells: \"HOW CAN YOU SAY THIS TO ME! I DO EVERYTHING FOR YOU!\" Activated the second type of redirector."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Приклад 2: Батько і донька",
+            "en": "Daughter says: \"That's offensive, but I asked about the concert...\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Dad tries to yell again, but then says: \"Had an important meeting at work. Sorry.\""
+      }
+    },
+    {
+      "step_id": "sc7_87",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ответ: «А тебе?»\n",
+        "uk": "Донька запитує: «Батьку, чому ти не прийшов на мій концерт?»",
+        "en": "Example 3: Two Friends"
+      }
+    },
+    {
+      "step_id": "sc7_88",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«А тебе?» — классический поворотник! Вернул вопрос обратно, и вот уже вы отвечаете на свой же вопрос. А «да, особенно финал» — прямой ответ.\n",
+        "uk": "Батько намагається знову крикнути, але потім кажет: «Мав важливу зустріч на роботі. Вибачай.»",
+        "en": "Friend A asks: \"What happened at the party? Your friend seems a little mad at you.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Друг B відповідає: «О, вечірка була класна! Можна було грати в ігри, танцювати, їсти пиццу...» Але він не відповідав на питання.",
+            "en": "Friend B answers: \"Oh, the party was cool! We could play games, dance, eat pizza...\" But he didn't answer the question."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Друг А говорить: «Це может бути правдою, але я спитав про вечеринку...»",
+            "en": "Friend A says: \"That may be true, but I asked about the party...\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc7_89",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вопрос: «Ты съел последнее печенье?»\n",
+        "uk": "Приклад 3: Два друга",
+        "en": "Friend B: \"Okay... We argued, but then made up. Everything's good now.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Магічна фраза дозволила Другу А отримати чесну відповідь.",
+            "en": "The magic phrase allowed Friend A to get an honest answer."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Найважливіші поради:",
+            "en": "Most Important Tips:"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "1. Know the three redirector methods. They will help you recognize dodging."
+      }
+    },
+    {
+      "step_id": "sc7_91",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ответ: «Печенье было очень вкусное!»\n",
+        "uk": "Друг А спитує: «Що трапилось на вечіринці? Твоя подруга здається маліньку тобою вибачається.»",
+        "en": "2. Use the magic phrase: \"That's interesting, but I asked about [original question]...\""
+      }
+    },
+    {
+      "step_id": "sc7_92",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ: «Нет, это Саша.»\n",
+        "uk": "Друг B: «Гаразд... Ми посварилися, але потім помирилися. Все добре тепер.»",
+        "en": "3. Be polite and persistent. Don't yell, don't attack. Just bring the conversation back."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Магічна фраза дозволила Другу А отримати чесну відповідь.",
+            "en": "4. Remember: an honest answer, even uncomfortable, is better than dodging."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Найважливіші поради:",
+            "en": "5. People often find it hard to answer directly. They may be scared or unsure. Be patient."
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc7_93",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Печенье вкусное» — поворотник! Качество оценил, а кто съел — тайна. «Нет, это Саша» — честный ответ. Саша, правда, не рад.\n",
+        "uk": "1. Знай три методи поворотника. Вони допоможуть тобі розпізнати ухилення.",
+        "en": "Scene 9: What Questions to Ask"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Гарна стратегія — задавати питання, які не дають людям простого простору для поворотника.",
+            "en": "A good strategy is to ask questions that don't give people easy room for redirecting."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Погане питання: «Що ти робив вчора?» Тут багато місця для ухилення.",
+            "en": "Bad question: \"What did you do yesterday?\" There's a lot of room to dodge here."
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Good question: \"Did you arrive at school at 9 o'clock, like you said?\" Specific, clear."
+      }
+    },
+    {
+      "step_id": "sc7_95",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Почему ты не позвонил?»\n",
+        "uk": "2. Використовуй магічну фразу: «Це цікаво, але я спрашивал про [оригінальне питання]...»",
+        "en": "Good question: \"Will you go for a walk on Saturday like we agreed?\" Reminds them of previous agreement."
+      }
+    },
+    {
+      "step_id": "sc7_96",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ: «Ты вообще знаешь, какой у меня был день?!»\n",
+        "uk": "3. Будь ввічливим та наполегливим. Не кричи, не атакуй. Просто повертай розмову назад.",
+        "en": "Good question: \"When exactly did this happen? What time?\" Ask for details to make dodging harder."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "4. Пам'ятай: честна відповідь, навіть незручна, краще за ухилення.",
+            "en": "Scene 10: Working Practice"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "5. Людям часто важко відповідати прямо. Вони можуть бути лякані або невпевнені. Будь терпеливим.",
+            "en": "Exercise 1: Recognizing Redirector"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc7_97",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответ: «Телефон разрядился, извини.»\n",
+        "uk": "Сцена 9: Які питання запитувати",
+        "en": "Which is a redirector? Choose one:"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Гарна стратегія — задавати питання, які не дають людям простого простору для поворотника.",
+            "en": "A. \"Did you fish yesterday?\" — \"Fish is very healthy, and I like different fish dishes.\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Погане питання: «Що ти робив вчора?» Тут багато місця для ухилення.",
+            "en": "B. \"Did you fish yesterday?\" — \"Yes, I caught crucian carp in the lake.\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "C. \"Did you fish yesterday?\" — \"Why are you asking me? Are you spying on me?\""
+      }
+    },
+    {
+      "step_id": "sc8_99",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — вы сами побудете поворотниками! Я задаю вопрос, а вы придумываете уклонение. Попробуйте использовать каждый из трёх способов!\n",
+        "uk": "Друг спитав: «Ти мені допоможеш з домашньою роботою?»",
+        "en": "Friend asked: \"Will you help me with homework?\""
+      }
+    },
+    {
+      "step_id": "sc8_100",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Ты выгулял собаку?»\n",
+        "uk": "А ти відповів: «О, домашня робота важка! Мені дуже важко по математиці. Рідко розумію квадратні рівняння...» Це поворотник. Твоя відповідь?",
+        "en": "You answered: \"Oh, homework is hard! I struggle with math. I rarely understand quadratic equations...\" This is a redirector. Your answer?"
+      }
+    },
+    {
+      "step_id": "sc8_101",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Придумайте смену темы, смену тональности и ответ на другой вопрос. Какой способ получился самый хитрый?\n",
+        "uk": "Правильна відповідь: «Це цікаво, але я спитав, чи ти мені допоможеш?»",
+        "en": "Correct answer: \"That's interesting, but I asked if you'll help me.\""
+      }
+    },
+    {
+      "step_id": "sc8_102",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот мои варианты. Смена темы: «А ты знаешь, что хаски могут пробежать 150 километров в день?» Смена тональности: «Ты что, думаешь мне легко?! У меня контрольная завтра!» Ответ на другой вопрос: «Я налил ей свежей воды!» Вода — молодец. Но прогулка где?\n",
+        "uk": "Сцена 11: Як впевнитися, що ми розуміємо",
+        "en": "Here are my options. Change of subject: “Did you know that huskies can run 150 kilometers a day?” Change of tone: “Do you think it’s easy for me?! I have a test tomorrow!” Answer to another question: “I poured her fresh water!” Water is great. But where is the walk?"
+      }
+    },
+    {
+      "step_id": "sc8_103",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Ты почистил зубы?»\n",
+        "uk": "Якщо людина вже дала першу відповідь, але ти все ще не впевнений, ти можеш запитати ще раз. Але чітко, спокійно, без гніву.",
+        "en": "If the person already gave their first answer, but you're still not sure, you can ask again. But clearly, calmly, without anger."
+      }
+    },
+    {
+      "step_id": "sc8_104",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Три способа — какие варианты?\n",
+        "uk": "Приклад 1: Будь точним в другому питанні",
+        "en": "Example 1: Be Specific in Your Second Question"
+      }
+    },
+    {
+      "step_id": "sc8_105",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смена темы: «Мам, а правда что у акул зубы растут всю жизнь?» Смена тональности: «Ха-ха, ты каждый вечер это спрашиваешь, мы как в фильме \"День сурка\"!» Ответ на другой вопрос: «Я уже умылся и переоделся в пижаму!» Всё сделал, кроме зубов. Зубы в шоке.\n",
+        "uk": "Перше питання: «Ти був на вечіринці?»",
+        "en": "Changing the subject: “Mom, is it true that sharks grow teeth throughout their lives?” Change of tone: “Ha-ha, you ask this every evening, we’re like in the movie “Groundhog Day”!” Answer to another question: “I’ve already washed my face and changed into my pajamas!” I did everything except the teeth. Teeth are in shock."
+      }
+    },
+    {
+      "step_id": "sc8_106",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Ты сделал уроки на завтра?»\n",
+        "uk": "Перша відповідь: «О, вечірка була прекрасна! Там були смішні ігри, музика, танці...»",
+        "en": "First answer: \"Oh, the party was great! There were funny games, music, dancing...\""
+      }
+    },
+    {
+      "step_id": "sc8_107",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Три поворотника — давайте!\n",
+        "uk": "Це поворотник. Закажи: «Це цікаво, але я спитав, чи ТИ був на вечіринці. Ти там був чи ні?»",
+        "en": "That's a redirector. Say: \"That's interesting, but I asked if YOU were at the party. Were you there or not?\""
+      }
+    },
+    {
+      "step_id": "sc8_108",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смена темы: «А знаешь, в Финляндии детям вообще не задают домашку, и они самые умные в мире!» Смена тональности: «Уроки?! У меня сегодня был ТАКОЙ тяжёлый день, ты себе не представляешь!» Ответ на другой вопрос: «Я собрал портфель и приготовил форму!» Портфель готов, форма глажена — а в тетрадке пусто.\n",
+        "uk": "Друга відповідь: «Так, я був там. Але мене злила з однією подругою, тому половину часу я сиділ окремо.»",
+        "en": "Second answer: \"Yes, I was. But I had a falling out with one friend, so I sat apart half the time.\""
+      }
+    },
+    {
+      "step_id": "sc8_109",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Ты убрал телефон перед сном?»\n",
+        "uk": "Приклад 2: Запитай про деталі",
+        "en": "Example 2: Ask for Details"
+      }
+    },
+    {
+      "step_id": "sc8_110",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Три способа — удивите!\n",
+        "uk": "Перше питання: «Ти об'їв мою печиво?»",
+        "en": "First question: \"Did you eat my cookies?\""
+      }
+    },
+    {
+      "step_id": "sc8_111",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смена темы: «Пап, а правда что синий свет от экрана портит зрение? Я тут статью читал...» Смена тональности: «Ну ещё пять минуточек, пожааалуйста! Там такой смешной ролик!» Ответ на другой вопрос: «Я уже поставил будильник на завтра!» Будильник стоит, а телефон по-прежнему в руках.\n",
+        "uk": "Перша відповідь: «Печиво було неймовірно смачним! Хто їх готував? Вони були свіжі, гарячі і дуже добрі!»",
+        "en": "First answer: \"The cookies were incredibly tasty! Who made them? They were fresh, warm, and very good!\""
+      }
+    },
+    {
+      "step_id": "sc8_112",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос: «Ты поел суп на обед?»\n",
+        "uk": "Це третій тип поворотника. Скажи: «Це цікаво, але я спитав, чи ТИ їх об'їв. Ти це робив чи ні?»",
+        "en": "That's the third type of redirector. Say: \"That's interesting, but I asked if YOU ate them. Did you do it or not?\""
+      }
+    },
+    {
+      "step_id": "sc8_113",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Последний раунд — самые хитрые варианты!\n",
+        "uk": "Друга відповідь: «Так, я їх трохи спробував. Вибачай, вони були дуже смачні.»",
+        "en": "Second answer: \"Yes, I tried some. Sorry, they were very tasty.\""
+      }
+    },
+    {
+      "step_id": "sc8_114",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смена темы: «Мам, а давай завтра сварим борщ? Бабушка говорит, её рецепт — лучший в мире!» Смена тональности: «Суп?! Он был такой горячий, я чуть язык не обжёг! Это опасно для здоровья!» Ответ на другой вопрос: «Я съел салат и два куска хлеба!» Салат съеден, хлеб тоже, а суп стоит нетронутый и остывает.\n",
+        "uk": "Висновок: Магічна фраза допомагає тобі отримувати чесні, пряму відповідь.",
+        "en": "Смена темы: «Мам, а давай завтра сварим борщ? Бабушка говорит, её рецепт — лучший в мире!» Смена тональности: «Суп?! Он был такой горячий, я чуть язык не обжёг! Это опасно для здоровья!» Ответ на другой вопрос: «Я съел салат и два куска хлеба!» Салат съеден, хлеб тоже, а суп стоит нетронутый и остывает."
+      }
+    },
+    {
+      "step_id": "sc8_115",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили? Самый опасный — ответ на другой вопрос. Потому что звучит как настоящий ответ. Родители часто даже не замечают. Но мы-то теперь разведчики!\n",
+        "uk": "Сцена 12: Як розповідати іншим про поворотники",
+        "en": "Scene 12: How to Tell Others About Redirectors"
+      }
+    },
+    {
+      "step_id": "sc9_116",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы научились замечать поворотники. Но что с ними делать? Не кричать же: «Ты поворотник!» Нет, есть способ лучше. Есть волшебная фраза.\n",
+        "uk": "Робись просто і спокійно. Не звинувачуй. Просто покажи приклади.",
+        "en": "Be simple and calm. Don't accuse. Just show examples."
+      }
+    },
+    {
+      "step_id": "sc9_117",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Это интересно, но я спрашивал о другом...» Сначала признаём сказанное — а потом спокойно возвращаемся к своему вопросу. Не грубо, не злобно — просто и чётко.\n",
+        "uk": "Приклад розмови:",
+        "en": "“This is interesting, but I asked about something else...” First, we admit what was said - and then calmly return to our question. Not rude, not angry - simple and clear."
+      }
+    },
+    {
+      "step_id": "sc9_118",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Другие варианты: «Подожди, я спросил о...» / «Давай вернёмся к моему вопросу...» / «Ты не ответил — я спрашивал: ...» Все работают. Главное — вежливо.\n",
+        "uk": "Ти: «Мамо, я дізнався про три способи ухилення від ответа. Можна я дам тобі приклад?» Мати: «Звичайно, розповідай.» Ти: «Коли я спитав, чи я могу піти гуляти, ти розповідала про погоду. Це називається змінення теми. Це один из способов ухилення.»",
+        "en": "You: \"Mom, I learned about three ways people dodge answers. Can I give you an example?\" Mom: \"Sure, go ahead.\" You: \"When I asked if I could go for a walk, you talked about the weather. That's called changing the subject. It's one way of dodging.\""
+      }
+    },
+    {
+      "step_id": "sc9_119",
+      "scene_id": "sc9",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Важно: мы не нападаем, не обвиняем, не злимся. Мы просто возвращаемся к теме. Как GPS: «Маршрут перестроен. Через 50 метров — ваш вопрос.»\n",
+        "uk": "Мати може здиватися або посміятися. Це нормально! Це просто спостереження, не звинувачення.",
+        "en": "Mom might be surprised or laugh. That's normal! It's just an observation, not an accusation."
+      }
+    },
+    {
+      "step_id": "sc9_120",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ваш вопрос: «Вы поставите мне отличную оценку?» Ответ учителя: «О, смотрите, какое красивое небо сегодня!» Как вернуть к теме?\n",
+        "uk": "Пам'ятай: ти не ловиш людей. Ти просто розпізнаєш патерни розмов.",
+        "en": "Remember: you're not catching people. You're just recognizing conversation patterns."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Небо и правда красивое!»",
+            "uk": "Сцена 13: Закріплення знань",
+            "en": "Scene 13: Reinforcement"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Это красиво, но я спрашивал об оценке...»",
+            "uk": "Тепер ми знаємо:",
+            "en": "Now we know:"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Вы всегда уходите от темы!»",
+            "uk": "1. Три поворотники: змінити тему, змінити тон, відповісти на інше питання.",
+            "en": "1. Three redirectors: change subject, change tone, answer different question."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "2. Magic phrase: \"That's interesting, but I asked about [original question]...\""
+      }
+    },
+    {
+      "step_id": "sc9_122",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вежливый возврат! Признаём небо — и спокойно повторяем вопрос. Без обиды, без драмы. Небо красивое, а отличная оценка всё ещё нужна.\n",
+        "uk": "2. Магічна фраза: «Це цікаво, але я спрашивал про [оригінальне питання]...»",
+        "en": "3. How to ask to avoid redirectors."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Ладно, подожду»",
+            "uk": "4. Як виправляти другу відповідь, якщо перша була ухиленням.",
+            "en": "4. How to get a second answer if the first was dodging."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Да, но я спросил, можно ли выйти сейчас?»",
+            "uk": "5. Як розповідати іншим, не звинувачуючи.",
+            "en": "5. How to tell others without accusing."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Вы не отвечаете!»",
+            "uk": "Це наша суперсила! Мы не ловимо людей. Мы отримуємо чесні відповіді, які робиать людей ближче.",
+            "en": "This is our superpower! We don't catch people. We get honest answers that bring people together."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Until the next lesson, detectives! Practice recognizing redirectors in real conversations!"
+      }
+    },
+    {
+      "step_id": "sc9_124",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ваш вопрос: «Можно мне выйти?» Ответ: «А вы знаете, что перемена через 10 минут?» Как вернуть?\n",
+        "uk": "3. Як запитувати, щоб уникнути поворотників.",
+        "en": "Question: “Why don’t we go on an excursion?” Answer: “Excursions are so wonderful! I remember last year...” How to return?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Ладно, подожду»",
+            "uk": "4. Як виправляти другу відповідь, якщо перша була ухиленням.",
+            "en": "If you're a parent, you'll be interested: how can you use these skills in your family?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Да, но я спросил, можно ли выйти сейчас?»",
+            "uk": "5. Як розповідати іншим, не звинувачуючи.",
+            "en": "1. Try asking your children more specifically. Instead of \"How's school?\" ask \"What made you happy at school today?\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Вы не отвечаете!»",
+            "uk": "Це наша суперсила! Мы не ловимо людей. Мы отримуємо чесні відповіді, які робиать людей ближче.",
+            "en": "2. When your child gives an answer that doesn't match your question, just say the magic phrase."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "3. Be a role model. When asked something, try to answer directly. Children learn by example."
+      }
+    },
+    {
+      "step_id": "sc9_126",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Да, но я спросил...» — принимаем информацию и возвращаемся к своему вопросу. Перемена через 10 минут — спасибо, но можно выйти?\n",
+        "uk": "До наступного уроку, розвідники! Практикуйтесь розпізнавати поворотники в реальних розмовах!",
+        "en": "4. Praise children when they give honest answers, even if it's hard for you to hear."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Согласен, но будет ли ЭТО на контрольной?»",
+            "uk": "5. Розповідайте історії, як у дідуся і хлопчика. Діти запам'ятовують уроки через історії.",
+            "en": "5. Tell stories like the grandfather and boy. Children remember lessons through stories."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Ненавижу контрольные!»",
+            "uk": "І саме головне: не тисніть. Діти будуть критикувати вас в твоєму голосі, якщо ви будете занадто вимогливі.",
+            "en": "And most importantly: don't be pushy. Children will mimic your tone, so be gentle."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ладно, забудьте»",
+            "uk": "До побачення! Практикуйте, спостерігайте, розвивайтесь!",
+            "en": "Goodbye! Practice, observe, grow!"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "«Согласен, но...» — сначала соглашаемся, потом уточняем. Идеальная формула. Работает с учителями, родителями и даже с президентами."
+      }
+    },
+    {
+      "step_id": "sc9_128",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вопрос: «Почему мы не едем на экскурсию?» Ответ: «Экскурсии — это так чудесно! Помню, в прошлом году...» Как вернуть?\n",
+        "uk": "Екстра: Поради для батьків",
+        "en": "In the next lesson, we'll talk about how people are motivated. Why does someone do what they do? What motivation do you need?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Расскажите про прошлый год!»",
+            "uk": "Якщо ви батько або мати, вам буде цікаво: як ви можете використовувати ці навички в своїй сім'ї?",
+            "en": "This will be interesting! Be ready to talk about yourself."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Это интересно, но я спрашивал, почему МЫ не едем?»",
+            "uk": "1. Спробуйте запитувати дітей більш конкретно. Замість «Як справи в школі?» спитайте «Що тебе розвеселило в школі?»",
+            "en": "Scene 10 practice: recognition"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Вы поворотник!»",
+            "uk": "2. Коли дитина дає відповідь, яка не відповідає на твоє питання, просто скажи магічну фразу.",
+            "en": "Below are conversations. For each conversation: is it an answer or a redirector?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"Did you go to the party?\" — \"No, I was home doing homework.\""
+      }
+    },
+    {
+      "step_id": "sc10_130",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Финальный раунд! Один вопрос: «Ты хочешь пойти со мной в кино в субботу?» И пять ответов — определяем: ответил или поворотник.\n",
+        "uk": "Це поворотник",
+        "en": "Final round! One question: “Do you want to go to the movies with me on Saturday?” And five answers - we determine: answered or turn signal."
+      }
+    },
+    {
+      "step_id": "sc10_131",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В кино сейчас идёт классный фильм!»\n",
+        "uk": "Правильно! Це коротка, чітка відповідь.",
+        "en": "Correct! That's a short, clear answer."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "«Ти можеш піти в кіно на суботу?»",
+            "en": "\"Can you go to the movies on Saturday?\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "«Я не впевнена, але в мене є інші плани. Можемо піти в інший день?» Це відповідь чи поворотник?",
+            "en": "\"I'm not sure, but I have other plans. Can we go another day?\" Is this an answer or a redirector?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Turn signal! He praised the film, but he didn’t say whether it would work or not. The film is great - will you come?"
+      }
+    },
+    {
+      "step_id": "sc10_133",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Поворотник! Фильм похвалил — но пойдёт или нет, так и не сказал. Фильм классный — а ты придёшь?\n",
+        "uk": "Це відповідь",
+        "en": "That's a redirector"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Це відповідь! Хоч і не просто «так» або «ні», вона пояснює ситуацію і пропонує альтернативу.",
+            "en": "That's an answer! While not just \"yes\" or \"no\", it explains the situation and offers an alternative."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "«А ти з ким ще ходиш?»",
+            "en": "\"And who else do you hang out with?\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Ответил! Коротко, чётко, по делу. Красота."
+      }
+    },
+    {
+      "step_id": "sc10_135",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Да, хочу!»\n",
+        "uk": "Це поворотник",
+        "en": "\"And who else do you hang out with?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Це відповідь! Хоч і не просто «так» або «ні», вона пояснює ситуацію і пропонує альтернативу.",
+            "en": "Redirector"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "«А ти з ким ще ходиш?»",
+            "en": "Redirector! Asked not \"who else\", but \"do YOU want to\". Counter-question instead of answer is classic."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Поворотник! Спрашивали не «с кем ещё», а «хочешь ли ТЫ». Встречный вопрос вместо ответа — классика."
+      }
+    },
+    {
+      "step_id": "sc10_137",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ответил! Коротко, чётко, по делу. Красота.\n",
+        "uk": "Відповідь!",
+        "en": "Answer"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Поворотник",
+            "en": "Redirector"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Відповідь! «Ні» + причина. Може, образливо — але хоча б ясно.",
+            "en": "Answer! \"No\" + reason. Someone might feel hurt, but at least it's clear."
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "\"Movies are so fun! I love popcorn!\""
+      }
+    },
+    {
+      "step_id": "sc10_139",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«А ты с кем ещё ходишь?»\n",
+        "uk": "«А ти з кім ще ходиш?»",
+        "en": "“Movies are so much fun! I love popcorn!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил",
+            "uk": "Поворотник",
+            "en": "Redirector"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Поворотник",
+            "uk": "Поворотник! Запитали не «з кім ще», а «хочеш ли ТИ». Контр-питання замість відповіді — класика.",
+            "en": "Redirector! Loves popcorn but not a word about Saturday."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Поворотник! Попкорн обожает — а про субботу ни слова."
+      }
+    },
+    {
+      "step_id": "sc11_141",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Давайте вспомним. Сегодня мы стали разведчиками разговоров. Три поворотника: смена темы, смена тональности и ответ на другой вопрос. И волшебная фраза: «Это интересно, но я спрашивал о другом...»\n",
+        "uk": "Розповім вам одну історію. Один хлопчик запитав дідуся: «Дідусю, ти коли-небудь брехав?» Дідусь посміхнувся і сказав: «О, розповім тобі тепер, як я коли-то спіймав рибу розміром з човен!» Хлопчик засміявся і забув своє питання. А через рік пригадав — і зрозумів: дідусь включив поворотник.",
+        "en": "I'll tell you a story. A boy asked his grandfather: \"Grandpa, have you ever lied?\" Grandpa smiled and said: \"Oh, let me tell you how I once caught a fish the size of a boat!\" The boy laughed and forgot his question. A year later he remembered and understood: Grandpa activated the redirector."
+      }
+    },
+    {
+      "step_id": "sc11_142",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Расскажу вам одну историю. Один мальчик спросил дедушку: «Деда, ты когда-нибудь врал?» Дедушка улыбнулся и сказал: «О, я тебе сейчас расскажу, как однажды поймал рыбу размером с лодку!» Мальчик засмеялся и забыл свой вопрос. А через год вспомнил — и понял: дедушка включил поворотник.\n",
+        "uk": "І хлопчик знову запитав. А дідусь тихо відповів: «Так, бувало.» Всього два слова. Але це була честна відповідь. І хлопчик поважав дідуся ще більше — не тому, що той ніколи не брехав, а тому, що зміг признатися.",
+        "en": "And the boy asked again. And Grandpa quietly answered: \"Yes, sometimes.\" Just two words. But it was an honest answer. And the boy respected his grandfather even more—not because he never lied, but because he could admit it."
+      }
+    },
+    {
+      "step_id": "sc11_143",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И мальчик снова спросил. А дедушка тихо ответил: «Да, бывало.» Всего два слова. Но это был честный ответ. И мальчик уважал дедушку ещё больше — не за то, что тот никогда не врал, а за то, что смог признаться.\n",
+        "uk": "Ось що дає наша суперсила. Ми не ловимо людей, щоб звинуватити. Ми задаємо питання, тому що хочемо справжніх відповідей. А справжні відповіді — навіть незручні — приводять людей ближче.",
+        "en": "That's what our superpower gives us. We don't catch people to accuse them. We ask questions because we want real answers. And real answers, even uncomfortable ones, bring people closer together."
+      }
+    },
+    {
+      "step_id": "sc11_144",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот что даёт наша суперсила. Мы не ловим людей, чтобы обвинить. Мы задаём вопросы, потому что хотим настоящих ответов. А настоящие ответы — даже неудобные — делают людей ближе.\n",
+        "uk": "І запам'ятайте: повторити своє питання — це не грубість. Це повага до себе та до розмови. Спокійно, вічно, але наполегливо — як GPS: маршрут перебудований, повертаємось до питання.",
+        "en": "And remember: repeating your question is not rudeness. It's respect for yourself and for the conversation. Calmly, politely, but persistently—like GPS: route recalculated, returning to the question."
+      }
+    },
+    {
+      "step_id": "sc11_145",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И помните: повторить свой вопрос — это не грубость. Это уважение к себе и к разговору. Спокойно, вежливо, но настойчиво — как GPS: маршрут перестроен, возвращаемся к вопросу.\n",
+        "uk": "А на перерві спробуйте: задайте кому-небудь питання і подивіться — відповідять прямо або включать поворотник? Побачимось після перерви!",
+        "en": "And during the break, try this: ask someone a question and see—will they answer directly or activate the redirector? See you after the break!"
+      }
+    },
+    {
+      "step_id": "sc11_146",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А на перемене попробуйте: задайте кому-нибудь вопрос и посмотрите — ответят прямо или включат поворотник? Увидимся после перерыва!\n",
+        "uk": "До побачення, розвідники! Практикуйтесь разпізнавання поворотників!",
+        "en": "А на перемене попробуйте: задайте кому-нибудь вопрос и посмотрите — ответят прямо или включат поворотник? Увидимся после перерыва!"
+      }
+    }
+  ]
+}

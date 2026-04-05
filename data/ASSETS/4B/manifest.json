@@ -1,0 +1,173 @@
+{
+  "generated": {
+    "4b_sc1_bg": {
+      "filename": "4b_sc1_bg.png",
+      "path": "ASSETS/4B/4b_sc1_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T18:39:09.655619+00:00",
+      "prompt_key": "4b_sc1_bg"
+    },
+    "4b_sc2_bg": {
+      "filename": "4b_sc2_bg.png",
+      "path": "ASSETS/4B/4b_sc2_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T18:37:40.108778+00:00",
+      "prompt_key": "4b_sc2_bg"
+    },
+    "4b_sc3_bg": {
+      "filename": "4b_sc3_bg.png",
+      "path": "ASSETS/4B/4b_sc3_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:51:55.122013+00:00",
+      "prompt_key": "4b_sc3_bg"
+    },
+    "4b_sc4_bg": {
+      "filename": "4b_sc4_bg.png",
+      "path": "ASSETS/4B/4b_sc4_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:52:04.734563+00:00",
+      "prompt_key": "4b_sc4_bg"
+    },
+    "4b_sc5_bg": {
+      "filename": "4b_sc5_bg.png",
+      "path": "ASSETS/4B/4b_sc5_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:52:17.129814+00:00",
+      "prompt_key": "4b_sc5_bg"
+    },
+    "4b_sc6_bg": {
+      "filename": "4b_sc6_bg.png",
+      "path": "ASSETS/4B/4b_sc6_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:52:25.001693+00:00",
+      "prompt_key": "4b_sc6_bg"
+    },
+    "4b_sc7_bg": {
+      "filename": "4b_sc7_bg.png",
+      "path": "ASSETS/4B/4b_sc7_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T05:52:37.033367+00:00",
+      "prompt_key": "4b_sc7_bg"
+    },
+    "4b_sc8_bg": {
+      "filename": "4b_sc8_bg.png",
+      "path": "ASSETS/4B/4b_sc8_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:52:46.121994+00:00",
+      "prompt_key": "4b_sc8_bg"
+    },
+    "4b_sc9_bg": {
+      "filename": "4b_sc9_bg.png",
+      "path": "ASSETS/4B/4b_sc9_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:52:54.431932+00:00",
+      "prompt_key": "4b_sc9_bg"
+    },
+    "4b_sc10_bg": {
+      "filename": "4b_sc10_bg.png",
+      "path": "ASSETS/4B/4b_sc10_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:53:03.202496+00:00",
+      "prompt_key": "4b_sc10_bg"
+    },
+    "4b_sc11_bg": {
+      "filename": "4b_sc11_bg.png",
+      "path": "ASSETS/4B/4b_sc11_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-26T05:53:13.242277+00:00",
+      "prompt_key": "4b_sc11_bg"
+    },
+    "4b_obj_trust_icon": {
+      "filename": "4b_obj_trust_icon.png",
+      "raw_filename": "4b_obj_trust_icon_raw.png",
+      "path": "ASSETS/4B/4b_obj_trust_icon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:53:25.551585+00:00",
+      "prompt_key": "4b_obj_trust_icon"
+    },
+    "4b_obj_feelings_icon": {
+      "filename": "4b_obj_feelings_icon.png",
+      "raw_filename": "4b_obj_feelings_icon_raw.png",
+      "path": "ASSETS/4B/4b_obj_feelings_icon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:53:36.388736+00:00",
+      "prompt_key": "4b_obj_feelings_icon"
+    },
+    "4b_obj_evidence_icon": {
+      "filename": "4b_obj_evidence_icon.png",
+      "raw_filename": "4b_obj_evidence_icon_raw.png",
+      "path": "ASSETS/4B/4b_obj_evidence_icon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:53:43.368238+00:00",
+      "prompt_key": "4b_obj_evidence_icon"
+    },
+    "4b_sc2_obj_masha": {
+      "filename": "4b_sc2_obj_masha.png",
+      "raw_filename": "4b_sc2_obj_masha_raw.png",
+      "path": "ASSETS/4B/4b_sc2_obj_masha.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:53:51.746877+00:00",
+      "prompt_key": "4b_sc2_obj_masha"
+    },
+    "4b_sc2_obj_dmitrik": {
+      "filename": "4b_sc2_obj_dmitrik.png",
+      "raw_filename": "4b_sc2_obj_dmitrik_raw.png",
+      "path": "ASSETS/4B/4b_sc2_obj_dmitrik.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:54:00.313004+00:00",
+      "prompt_key": "4b_sc2_obj_dmitrik"
+    },
+    "4b_sc2_obj_oleg": {
+      "filename": "4b_sc2_obj_oleg.png",
+      "raw_filename": "4b_sc2_obj_oleg_raw.png",
+      "path": "ASSETS/4B/4b_sc2_obj_oleg.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:54:09.180706+00:00",
+      "prompt_key": "4b_sc2_obj_oleg"
+    },
+    "4b_obj_balanced_stool": {
+      "filename": "4b_obj_balanced_stool.png",
+      "raw_filename": "4b_obj_balanced_stool_raw.png",
+      "path": "ASSETS/4B/4b_obj_balanced_stool.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:54:18.993826+00:00",
+      "prompt_key": "4b_obj_balanced_stool"
+    },
+    "4b_obj_wobbly_stool": {
+      "filename": "4b_obj_wobbly_stool.png",
+      "raw_filename": "4b_obj_wobbly_stool_raw.png",
+      "path": "ASSETS/4B/4b_obj_wobbly_stool.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-26T05:54:28.323376+00:00",
+      "prompt_key": "4b_obj_wobbly_stool"
+    }
+  },
+  "errors": {}
+}

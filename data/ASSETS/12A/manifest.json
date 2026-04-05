@@ -1,0 +1,61 @@
+{
+  "generated": {
+    "12a_sc1_bg": {
+      "filename": "12a_sc1_bg.png",
+      "path": "ASSETS/12A/12a_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:43:36.645078+00:00",
+      "prompt_key": "12a_sc1_bg"
+    },
+    "12a_sc2_bg": {
+      "filename": "12a_sc2_bg.png",
+      "path": "ASSETS/12A/12a_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:43:46.308622+00:00",
+      "prompt_key": "12a_sc2_bg"
+    },
+    "12a_sc3_bg": {
+      "filename": "12a_sc3_bg.png",
+      "path": "ASSETS/12A/12a_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:43:57.168024+00:00",
+      "prompt_key": "12a_sc3_bg"
+    },
+    "12a_sc4_bg": {
+      "filename": "12a_sc4_bg.png",
+      "path": "ASSETS/12A/12a_sc4_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T16:44:08.494153+00:00",
+      "prompt_key": "12a_sc4_bg"
+    },
+    "12a_sc5_bg": {
+      "filename": "12a_sc5_bg.png",
+      "path": "ASSETS/12A/12a_sc5_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T16:44:17.282111+00:00",
+      "prompt_key": "12a_sc5_bg"
+    },
+    "12a_sc6_bg": {
+      "filename": "12a_sc6_bg.png",
+      "path": "ASSETS/12A/12a_sc6_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T16:44:26.266728+00:00",
+      "prompt_key": "12a_sc6_bg"
+    },
+    "12a_sc7_bg": {
+      "filename": "12a_sc7_bg.png",
+      "path": "ASSETS/12A/12a_sc7_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T16:44:38.923220+00:00",
+      "prompt_key": "12a_sc7_bg"
+    }
+  },
+  "errors": {}
+}

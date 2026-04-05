@@ -1,0 +1,77 @@
+{
+  "generated": {
+    "8a_sc1_bg": {
+      "filename": "8a_sc1_bg.png",
+      "path": "ASSETS/8A/8a_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:18:53.740430+00:00",
+      "prompt_key": "8a_sc1_bg"
+    },
+    "8a_sc2_bg": {
+      "filename": "8a_sc2_bg.png",
+      "path": "ASSETS/8A/8a_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:19:04.483038+00:00",
+      "prompt_key": "8a_sc2_bg"
+    },
+    "8a_sc3_bg": {
+      "filename": "8a_sc3_bg.png",
+      "path": "ASSETS/8A/8a_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:19:14.829800+00:00",
+      "prompt_key": "8a_sc3_bg"
+    },
+    "8a_sc4_bg": {
+      "filename": "8a_sc4_bg.png",
+      "path": "ASSETS/8A/8a_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:19:26.826369+00:00",
+      "prompt_key": "8a_sc4_bg"
+    },
+    "8a_sc5_bg": {
+      "filename": "8a_sc5_bg.png",
+      "path": "ASSETS/8A/8a_sc5_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:19:38.971232+00:00",
+      "prompt_key": "8a_sc5_bg"
+    },
+    "8a_sc6_bg": {
+      "filename": "8a_sc6_bg.png",
+      "path": "ASSETS/8A/8a_sc6_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:19:50.802109+00:00",
+      "prompt_key": "8a_sc6_bg"
+    },
+    "8a_sc7_bg": {
+      "filename": "8a_sc7_bg.png",
+      "path": "ASSETS/8A/8a_sc7_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:20:02.093715+00:00",
+      "prompt_key": "8a_sc7_bg"
+    },
+    "8a_sc8_bg": {
+      "filename": "8a_sc8_bg.png",
+      "path": "ASSETS/8A/8a_sc8_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:20:13.804991+00:00",
+      "prompt_key": "8a_sc8_bg"
+    },
+    "8a_sc9_bg": {
+      "filename": "8a_sc9_bg.png",
+      "path": "ASSETS/8A/8a_sc9_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T16:20:24.126130+00:00",
+      "prompt_key": "8a_sc9_bg"
+    }
+  },
+  "errors": {}
+}

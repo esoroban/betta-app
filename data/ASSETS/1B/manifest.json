@@ -1,0 +1,163 @@
+{
+  "generated": {
+    "1b_sc1_bg": {
+      "filename": "1b_sc1_bg.png",
+      "path": "ASSETS/1B/1b_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T16:49:21.503327+00:00",
+      "prompt_key": "1b_sc1_bg"
+    },
+    "1b_sc2_bg": {
+      "filename": "1b_sc2_bg.png",
+      "path": "ASSETS/1B/1b_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T16:49:33.617987+00:00",
+      "prompt_key": "1b_sc2_bg"
+    },
+    "1b_sc3_bg": {
+      "filename": "1b_sc3_bg.png",
+      "path": "ASSETS/1B/1b_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T16:49:44.028572+00:00",
+      "prompt_key": "1b_sc3_bg"
+    },
+    "1b_sc4_bg": {
+      "filename": "1b_sc4_bg.png",
+      "path": "ASSETS/1B/1b_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T16:49:55.408839+00:00",
+      "prompt_key": "1b_sc4_bg"
+    },
+    "1b_sc5_bg": {
+      "filename": "1b_sc5_bg.png",
+      "path": "ASSETS/1B/1b_sc5_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T16:50:07.990124+00:00",
+      "prompt_key": "1b_sc5_bg"
+    },
+    "1b_sc7_bg": {
+      "filename": "1b_sc7_bg.png",
+      "path": "ASSETS/1B/1b_sc7_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T16:50:20.545848+00:00",
+      "prompt_key": "1b_sc7_bg"
+    },
+    "1b_sc2_obj_wish_bubble": {
+      "filename": "1b_sc2_obj_wish_bubble.png",
+      "raw_filename": "1b_sc2_obj_wish_bubble_raw.png",
+      "path": "ASSETS/1B/1b_sc2_obj_wish_bubble.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:50:31.629336+00:00",
+      "prompt_key": "1b_sc2_obj_wish_bubble"
+    },
+    "1b_sc2_obj_excuse_bubble": {
+      "filename": "1b_sc2_obj_excuse_bubble.png",
+      "raw_filename": "1b_sc2_obj_excuse_bubble_raw.png",
+      "path": "ASSETS/1B/1b_sc2_obj_excuse_bubble.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:50:45.615820+00:00",
+      "prompt_key": "1b_sc2_obj_excuse_bubble"
+    },
+    "1b_shared_obj_tool_scales": {
+      "filename": "1b_shared_obj_tool_scales.png",
+      "raw_filename": "1b_shared_obj_tool_scales_raw.png",
+      "path": "ASSETS/1B/1b_shared_obj_tool_scales.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:51:04.092844+00:00",
+      "prompt_key": "1b_shared_obj_tool_scales"
+    },
+    "1b_shared_obj_tool_ruler": {
+      "filename": "1b_shared_obj_tool_ruler.png",
+      "raw_filename": "1b_shared_obj_tool_ruler_raw.png",
+      "path": "ASSETS/1B/1b_shared_obj_tool_ruler.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:51:14.986651+00:00",
+      "prompt_key": "1b_shared_obj_tool_ruler"
+    },
+    "1b_shared_obj_tool_stopwatch": {
+      "filename": "1b_shared_obj_tool_stopwatch.png",
+      "raw_filename": "1b_shared_obj_tool_stopwatch_raw.png",
+      "path": "ASSETS/1B/1b_shared_obj_tool_stopwatch.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:51:25.699619+00:00",
+      "prompt_key": "1b_shared_obj_tool_stopwatch"
+    },
+    "1b_shared_obj_tool_thermometer": {
+      "filename": "1b_shared_obj_tool_thermometer.png",
+      "raw_filename": "1b_shared_obj_tool_thermometer_raw.png",
+      "path": "ASSETS/1B/1b_shared_obj_tool_thermometer.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:51:37.155048+00:00",
+      "prompt_key": "1b_shared_obj_tool_thermometer"
+    },
+    "1b_shared_obj_tool_counting": {
+      "filename": "1b_shared_obj_tool_counting.png",
+      "raw_filename": "1b_shared_obj_tool_counting_raw.png",
+      "path": "ASSETS/1B/1b_shared_obj_tool_counting.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:51:48.091919+00:00",
+      "prompt_key": "1b_shared_obj_tool_counting"
+    },
+    "1b_shared_obj_magnifier": {
+      "filename": "1b_shared_obj_magnifier.png",
+      "raw_filename": "1b_shared_obj_magnifier_raw.png",
+      "path": "ASSETS/1B/1b_shared_obj_magnifier.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:51:58.830899+00:00",
+      "prompt_key": "1b_shared_obj_magnifier"
+    },
+    "1b_sc5_obj_stamp_verified": {
+      "filename": "1b_sc5_obj_stamp_verified.png",
+      "raw_filename": "1b_sc5_obj_stamp_verified_raw.png",
+      "path": "ASSETS/1B/1b_sc5_obj_stamp_verified.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:52:12.103994+00:00",
+      "prompt_key": "1b_sc5_obj_stamp_verified"
+    },
+    "1b_sc5_obj_stamp_opinion": {
+      "filename": "1b_sc5_obj_stamp_opinion.png",
+      "raw_filename": "1b_sc5_obj_stamp_opinion_raw.png",
+      "path": "ASSETS/1B/1b_sc5_obj_stamp_opinion.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:52:27.438247+00:00",
+      "prompt_key": "1b_sc5_obj_stamp_opinion"
+    },
+    "1b_sc5_obj_stamp_tricky": {
+      "filename": "1b_sc5_obj_stamp_tricky.png",
+      "raw_filename": "1b_sc5_obj_stamp_tricky_raw.png",
+      "path": "ASSETS/1B/1b_sc5_obj_stamp_tricky.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T16:52:39.194492+00:00",
+      "prompt_key": "1b_sc5_obj_stamp_tricky"
+    }
+  },
+  "errors": {}
+}

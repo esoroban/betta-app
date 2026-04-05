@@ -1,0 +1,3566 @@
+{
+  "lesson_id": "4B",
+  "title": {
+    "ru": "Три способа убедить",
+    "uk": "Три способи переконати",
+    "en": "Three Ways to Convince"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "Открытие",
+        "uk": "Відкриття",
+        "en": "Discovery"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_4",
+        "sc1_5",
+        "sc1_6",
+        "sc1_7",
+        "sc1_8",
+        "sc1_9",
+        "sc1_10",
+        "sc1_11",
+        "sc1_12",
+        "sc1_13",
+        "sc1_14"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "ИСТОРИЯ — КТО ПОЕДЕТ НА ЭКСКУРСИЮ?",
+        "uk": "ИСТОРИЯ — КТО ПОЕДЕТ НА ЭКСКУРСИЮ?",
+        "en": "HISTORY - WHO WILL GO ON THE EXCURSION?"
+      },
+      "step_ids": [
+        "sc2_15",
+        "sc2_16",
+        "sc2_17",
+        "sc2_18",
+        "sc2_20",
+        "sc2_21",
+        "sc2_22",
+        "sc2_23",
+        "sc2_24",
+        "sc2_25",
+        "sc2_26",
+        "sc2_28",
+        "sc2_30",
+        "sc2_32"
+      ],
+      "first_step_index": 14
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Три способа убеждения — теория",
+        "uk": "Три способа убеждения — теория",
+        "en": "Three Ways of Persuasion - Theory"
+      },
+      "step_ids": [
+        "sc3_33",
+        "sc3_34",
+        "sc3_35",
+        "sc3_36",
+        "sc3_37",
+        "sc3_39",
+        "sc3_40",
+        "sc3_41",
+        "sc3_42",
+        "sc3_43",
+        "sc3_45",
+        "sc3_46",
+        "sc3_47",
+        "sc3_48",
+        "sc3_49",
+        "sc3_51",
+        "sc3_52"
+      ],
+      "first_step_index": 28
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "Игра: на что тебя цепляют?",
+        "uk": "Игра: на что тебя цепляют?",
+        "en": "Game: what are they hooking you on?"
+      },
+      "step_ids": [
+        "sc4_53",
+        "sc4_54",
+        "sc4_55",
+        "sc4_57",
+        "sc4_59",
+        "sc4_61",
+        "sc4_63",
+        "sc4_65",
+        "sc4_67",
+        "sc4_69",
+        "sc4_71",
+        "sc4_73"
+      ],
+      "first_step_index": 45
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "Разбери рекламу",
+        "uk": "Разбери рекламу",
+        "en": "Disassemble the advertisement"
+      },
+      "step_ids": [
+        "sc5_75",
+        "sc5_76",
+        "sc5_77",
+        "sc5_79",
+        "sc5_81",
+        "sc5_83",
+        "sc5_85",
+        "sc5_87",
+        "sc5_89",
+        "sc5_91",
+        "sc5_93",
+        "sc5_95"
+      ],
+      "first_step_index": 57
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Баланс способов",
+        "uk": "Баланс способов",
+        "en": "Balance of methods"
+      },
+      "step_ids": [
+        "sc6_97",
+        "sc6_98",
+        "sc6_99",
+        "sc6_100",
+        "sc6_101",
+        "sc6_102",
+        "sc6_103",
+        "sc6_104",
+        "sc6_105",
+        "sc6_107",
+        "sc6_109",
+        "sc6_111",
+        "sc6_113",
+        "sc6_115",
+        "sc6_117",
+        "sc6_119",
+        "sc6_121"
+      ],
+      "first_step_index": 69
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "Составь свою рекламу",
+        "uk": "Составь свою рекламу",
+        "en": "Create your own advertisement"
+      },
+      "step_ids": [
+        "sc7_123",
+        "sc7_124",
+        "sc7_125",
+        "sc7_126",
+        "sc7_127",
+        "sc7_129",
+        "sc7_131",
+        "sc7_133",
+        "sc7_135",
+        "sc7_137",
+        "sc7_139",
+        "sc7_140"
+      ],
+      "first_step_index": 86
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "Кто убедительнее?",
+        "uk": "Кто убедительнее?",
+        "en": "Who is more convincing?"
+      },
+      "step_ids": [
+        "sc8_141",
+        "sc8_142",
+        "sc8_143",
+        "sc8_145",
+        "sc8_146",
+        "sc8_148",
+        "sc8_149",
+        "sc8_151",
+        "sc8_152",
+        "sc8_154",
+        "sc8_155",
+        "sc8_157"
+      ],
+      "first_step_index": 98
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "Детектив в жизни",
+        "uk": "Детектив в жизни",
+        "en": "Detective in life"
+      },
+      "step_ids": [
+        "sc9_158",
+        "sc9_159",
+        "sc9_160",
+        "sc9_162",
+        "sc9_164",
+        "sc9_166",
+        "sc9_168",
+        "sc9_170",
+        "sc9_172",
+        "sc9_174",
+        "sc9_176"
+      ],
+      "first_step_index": 110
+    },
+    "sc10": {
+      "scene_id": "sc10",
+      "title": {
+        "ru": "Переверни фразу",
+        "uk": "Переверни фразу",
+        "en": "Turn the phrase around"
+      },
+      "step_ids": [
+        "sc10_177",
+        "sc10_178",
+        "sc10_179",
+        "sc10_180",
+        "sc10_182",
+        "sc10_183",
+        "sc10_185",
+        "sc10_186",
+        "sc10_188",
+        "sc10_189",
+        "sc10_191",
+        "sc10_192",
+        "sc10_194"
+      ],
+      "first_step_index": 121
+    },
+    "sc11": {
+      "scene_id": "sc11",
+      "title": {
+        "ru": "Закрытие",
+        "uk": "Закрытие",
+        "en": "Closing"
+      },
+      "step_ids": [
+        "sc11_195",
+        "sc11_196",
+        "sc11_197",
+        "sc11_198",
+        "sc11_199",
+        "sc11_200",
+        "sc11_201",
+        "sc11_202",
+        "sc11_203"
+      ],
+      "first_step_index": 134
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Представьте: вы хотите убедить маму купить большого паука. Настоящего, мохнатого, с восемью лапами. Что вы ей скажете?\n",
+        "uk": "Уявіть: ви хочете переконати маму купити великого павука. Справжнього, мохнатого, з восьмома лапками. Що ви їй скажете?",
+        "en": "Imagine: you want to convince your mom to buy a big spider. A real, hairy one with eight legs. What would you tell her?"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Подумайте — какие слова вы бы выбрали?\n",
+        "uk": "Подумайте — які слова ви б обрали?",
+        "en": "Think—what words would you choose?"
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Один может сказать: «Мама, я буду за ним ухаживать, честное слово!» Другой: «Мама, мне так одиноко без питомца!» Третий: «Мама, исследования показывают, что дети с пауком-птицеедом смелее!»\n",
+        "uk": "Один может сказать: «Мама, я буду за ним ухаживать, честное слово!» Другой: «Мама, мне так одиноко без питомца!» Третий: «Мама, исследования показывают, что дети с пауком-птицеедом смелее!»",
+        "en": "One may say: “Mom, I will take care of him, honestly!” Another: “Mom, I’m so lonely without a pet!” Third: “Mom, research shows that children with tarantula spiders are braver!”"
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три разных способа! Один давит на обещание, другой — на жалость, третий — на науку. И сегодня мы узнаем, как они называются.\n",
+        "uk": "Три разных способа! Один давит на обещание, другой — на жалость, третий — на науку. И сегодня мы узнаем, как они называются.",
+        "en": "Three different ways! One puts pressure on the promise, the other on pity, the third on science. And today we will find out what they are called."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ещё пример. Реклама: «Этот йогурт самый вкусный! Его ест известный спортсмен! И в нём много витаминов!»\n",
+        "uk": "Ещё пример. Реклама: «Этот йогурт самый вкусный! Его ест известный спортсмен! И в нём много витаминов!»",
+        "en": "Another example. Advertisement: “This yogurt is the most delicious! A famous athlete eats it! And it contains a lot of vitamins!”"
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тут тоже три приёма. «Самый вкусный» — бьёт по чувствам. «Известный спортсмен» — мы ему доверяем. «Много витаминов» — это факт. Три способа в одной рекламе!\n",
+        "uk": "Тут тоже три приёма. «Самый вкусный» — бьёт по чувствам. «Известный спортсмен» — мы ему доверяем. «Много витаминов» — это факт. Три способа в одной рекламе!",
+        "en": "There are also three techniques here. “The most delicious” - hits the senses. “Famous athlete” - we trust him. “Lots of vitamins” is a fact. Three ways in one advertisement!"
+      }
+    },
+    {
+      "step_id": "sc1_7",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот антипример. «Купи эту игрушку! Все дети мечтают! Ты будешь самым счастливым!» Чувствуете? Тут только эмоции. Ни одного факта. Ни одного эксперта. Только «хочу-хочу-хочу».\n",
+        "uk": "А вот антипример. «Купи эту игрушку! Все дети мечтают! Ты будешь самым счастливым!» Чувствуете? Тут только эмоции. Ни одного факта. Ни одного эксперта. Только «хочу-хочу-хочу».",
+        "en": "Here's an anti-example. “Buy this toy! All children dream! You will be the happiest!” Do you feel it? There are only emotions here. Not a single fact. Not a single expert. Just “I want, I want, I want.”"
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Когда вас убеждают только через «хочу» — это сигнал: что-то тут нечисто. Разведчик это замечает.\n",
+        "uk": "Когда вас убеждают только через «хочу» — это сигнал: что-то тут нечисто. Разведчик это замечает.",
+        "en": "When you are convinced only through “I want”, this is a signal: something is unclean here. The scout notices this."
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А бывает наоборот. «Этот телефон весит 185 граммов, экран 6.1 дюймов, батарея 4000 миллиампер-часов.» Сплошные факты! Но… скучно. Не цепляет. Хочется зевнуть.\n",
+        "uk": "А бывает наоборот. «Этот телефон весит 185 граммов, экран 6.1 дюймов, батарея 4000 миллиампер-часов.» Сплошные факты! Но… скучно. Не цепляет. Хочется зевнуть.",
+        "en": "But it happens the other way around. “This phone weighs 185 grams, has a 6.1-inch screen, and has a 4000 milliamp-hour battery.” Solid facts! But... it's boring. Doesn't catch on. I want to yawn."
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Получается, одних фактов тоже мало. Нужно что-то ещё — чтобы человек не просто понял, а ЗАХОТЕЛ.\n",
+        "uk": "Получается, одних фактов тоже мало. Нужно что-то ещё — чтобы человек не просто понял, а ЗАХОТЕЛ.",
+        "en": "It turns out that facts alone are not enough. Something else is needed - so that a person not only understands, but WANTS it."
+      }
+    },
+    {
+      "step_id": "sc1_11",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И третий случай. Друг говорит: «Поверь мне, эта игра крутая!» Вы верите — потому что это друг. Но если незнакомец на улице скажет то же самое? Уже не так убедительно.\n",
+        "uk": "И третий случай. Друг говорит: «Поверь мне, эта игра крутая!» Вы верите — потому что это друг. Но если незнакомец на улице скажет то же самое? Уже не так убедительно.",
+        "en": "And the third case. A friend says: “Trust me, this game is cool!” You believe because it is a friend. But what if a stranger on the street says the same thing? Not so convincing anymore."
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Значит, важно КТО говорит, а не только ЧТО. Доверие к человеку — тоже способ убеждения.\n",
+        "uk": "Значит, важно КТО говорит, а не только ЧТО. Доверие к человеку — тоже способ убеждения.",
+        "en": "This means that it is important WHO says, and not just WHAT. Trust in a person is also a way of persuasion."
+      }
+    },
+    {
+      "step_id": "sc1_13",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три способа. Три инструмента убеждения. А теперь послушайте интересную историю о том, как трое детей убеждали учителя — каждый по-своему!",
+        "uk": "Три способа. Три инструмента убеждения. А теперь послушайте интересную историю о том, как трое детей убеждали учителя — каждый по-своему!",
+        "en": "Three ways. Three tools of persuasion. Now listen to an interesting story about how three children convinced the teacher - each in their own way!"
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смотрите внимательно — замечайте, КАК каждый герой пытается убедить.",
+        "uk": "Смотрите внимательно — замечайте, КАК каждый герой пытается убедить.",
+        "en": "Look carefully - notice HOW each character is trying to convince."
+      }
+    },
+    {
+      "step_id": "sc2_15",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Учительница объявила: на экскурсию поедут только трое — те, кто лучше всех объяснит, почему именно их нужно взять. Первой вышла Маша: «Вы же меня знаете! Я всегда выполняю обещания, на меня можно положиться!»",
+        "uk": "Учительница объявила: на экскурсию поедут только трое — те, кто лучше всех объяснит, почему именно их нужно взять. Первой вышла Маша: «Вы же меня знаете! Я всегда выполняю обещания, на меня можно положиться!»",
+        "en": "The teacher announced that only three people would go on the excursion - those who could best explain why they should be taken. Masha came out first: “You know me! I always keep my promises, you can rely on me!”"
+      }
+    },
+    {
+      "step_id": "sc2_16",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вторым выскочил Дмитрик: «Мне ТАК хочется! Если я не поеду, я буду грустить целую неделю! Пожалуйста!» Глаза у него стали огромные и печальные, как у котёнка под дождём.",
+        "uk": "Вторым выскочил Дмитрик: «Мне ТАК хочется! Если я не поеду, я буду грустить целую неделю! Пожалуйста!» Глаза у него стали огромные и печальные, как у котёнка под дождём.",
+        "en": "Dmitrik was the second to jump out: “I want it SO bad!” If I don't go, I'll be sad for a whole week! Please!\" His eyes became huge and sad, like a kitten’s in the rain."
+      }
+    },
+    {
+      "step_id": "sc2_17",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последней вышла Оленка. Она развернула листок: «У меня лучшие оценки за четверть. Вот список нужных вещей. А вот маршрут — я уже всё посчитала.» Учительница удивлённо подняла брови.",
+        "uk": "Последней вышла Оленка. Она развернула листок: «У меня лучшие оценки за четверть. Вот список нужных вещей. А вот маршрут — я уже всё посчитала.» Учительница удивлённо подняла брови.",
+        "en": "Olenka was the last to leave. She unfolded the piece of paper: “I have the best grades for the quarter. Here is a list of things you need. But the route – I’ve already calculated everything.” The teacher raised her eyebrows in surprise."
+      }
+    },
+    {
+      "step_id": "sc2_18",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Кто из троих привёл конкретные факты?\n",
+        "uk": "Кто из троих привёл конкретные факты?",
+        "en": "Which of the three provided specific facts?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Маша",
+            "uk": "Маша",
+            "en": "Masha"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Дмитрик",
+            "uk": "Дмитрик",
+            "en": "Dmitry"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Оленка",
+            "uk": "Оленка",
+            "en": "Olenka"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Olenka! Ratings, list, route - everything can be checked. But Masha and Dmitrik convinced differently. How exactly?"
+      }
+    },
+    {
+      "step_id": "sc2_20",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка! Оценки, список, маршрут — всё можно проверить. А Маша и Дмитрик убеждали по-другому. Как именно?\n",
+        "uk": "Оленка! Оценки, список, маршрут — всё можно проверить. А Маша и Дмитрик убеждали по-другому. Как именно?",
+        "en": "Masha convinced through TRUST in herself. “I am reliable, you can rely on me.” She did not cite facts and did not press for pity - she said: believe ME."
+      }
+    },
+    {
+      "step_id": "sc2_21",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша убеждала через ДОВЕРИЕ к себе. «Я надёжная, на меня можно положиться.» Она не приводила факты и не давила на жалость — она говорила: поверьте МНЕ.\n",
+        "uk": "Маша убеждала через ДОВЕРИЕ к себе. «Я надёжная, на меня можно положиться.» Она не приводила факты и не давила на жалость — она говорила: поверьте МНЕ.",
+        "en": "It's like when mom says, \"I know what's best.\" We believe - because this is mom. She has earned our trust."
+      }
+    },
+    {
+      "step_id": "sc2_22",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Это как когда мама говорит: «Я знаю, что лучше.» Мы верим — потому что это мама. Она заслужила наше доверие.\n",
+        "uk": "Это как когда мама говорит: «Я знаю, что лучше.» Мы верим — потому что это мама. Она заслужила наше доверие.",
+        "en": "Dmitry convinced through FEELINGS. “I want it so bad! I will be sad! He didn’t show a single fact, but he touched a nerve. We feel sorry for him."
+      }
+    },
+    {
+      "step_id": "sc2_23",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик убеждал через ЧУВСТВА. «Мне так хочется! Я буду грустить!» Он не показал ни одного факта — зато задел за живое. Нам его жалко.\n",
+        "uk": "Дмитрик убеждал через ЧУВСТВА. «Мне так хочется! Я буду грустить!» Он не показал ни одного факта — зато задел за живое. Нам его жалко.",
+        "en": "Advertising does this all the time. A sad kitten in a shelter - and you are already reaching for your wallet. It was not the facts that convinced me, but the feelings."
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама так делает постоянно. Грустный котёнок в приюте — и вы уже тянетесь за кошельком. Не факты убедили, а чувства.\n",
+        "uk": "Реклама так делает постоянно. Грустный котёнок в приюте — и вы уже тянетесь за кошельком. Не факты убедили, а чувства.",
+        "en": "Olenka convinced through EVIDENCE. “Best grades, packing list, route.” She came prepared. The facts are on the table."
+      }
+    },
+    {
+      "step_id": "sc2_25",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка убеждала через ДОКАЗАТЕЛЬСТВА. «Лучшие оценки, список вещей, маршрут.» Она пришла подготовленная. Факты на столе.\n",
+        "uk": "Оленка убеждала через ДОКАЗАТЕЛЬСТВА. «Лучшие оценки, список вещей, маршрут.» Она пришла подготовленная. Факты на столе.",
+        "en": "It’s like a scientist at a conference: “Here is the data, here is the experiment, here is the result.” Not “trust me” - but “check it yourself.”"
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Это как учёный на конференции: «Вот данные, вот эксперимент, вот результат.» Не «поверьте мне» — а «проверьте сами».\n",
+        "uk": "Это как учёный на конференции: «Вот данные, вот эксперимент, вот результат.» Не «поверьте мне» — а «проверьте сами».",
+        "en": "Masha: “You know, I always do everything on time!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trust! Masha refers to her reputation. “Trust me—that’s who I am.”"
+      }
+    },
+    {
+      "step_id": "sc2_28",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Маша: «Вы же знаете, я всегда всё делаю вовремя!»\n",
+        "uk": "Маша: «Вы же знаете, я всегда всё делаю вовремя!»",
+        "en": "Dmitry: “If I don’t go, I’ll cry all week!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Feelings! Dmitry strikes for pity. No facts - just “I’ll be sad.”"
+      }
+    },
+    {
+      "step_id": "sc2_30",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Доверие! Маша ссылается на свою репутацию. «Поверьте мне — я такая.»\n",
+        "uk": "Доверие! Маша ссылается на свою репутацию. «Поверьте мне — я такая.»",
+        "en": "Olenka: “I did the math—tickets cost 200 hryvnia, but the class budget includes 500.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! Numbers, calculation, fact. Olenka is a pure intelligence officer."
+      }
+    },
+    {
+      "step_id": "sc2_32",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик: «Если я не поеду, я буду плакать всю неделю!»\n",
+        "uk": "Дмитрик: «Если я не поеду, я буду плакать всю неделю!»",
+        "en": "Three ways - three tools of persuasion. Let's look at each in more detail!"
+      }
+    },
+    {
+      "step_id": "sc3_33",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак, три способа убеждения. Запоминаем! Кстати, ещё древние греки их придумали и дали им красивые имена. Первый — ДОВЕРИЕ (Этос). Когда мы верим ЧЕЛОВЕКУ, а не словам.\n",
+        "uk": "Итак, три способа убеждения. Запоминаем! Кстати, ещё древние греки их придумали и дали им красивые имена. Первый — ДОВЕРИЕ (Этос). Когда мы верим ЧЕЛОВЕКУ, а не словам.",
+        "en": "So, three ways of persuasion. Let's remember! By the way, the ancient Greeks invented them and gave them beautiful names. The first is TRUST (Ethos). When we believe a PERSON, not words."
+      }
+    },
+    {
+      "step_id": "sc3_34",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Я врач, и я говорю — это полезно.» Мы верим не потому что проверили — а потому что врач! Он учился, он знает.\n",
+        "uk": "«Я врач, и я говорю — это полезно.» Мы верим не потому что проверили — а потому что врач! Он учился, он знает.",
+        "en": "“I’m a doctor, and I say it’s useful.” We believe not because we checked - but because we are a doctor! He studied, he knows."
+      }
+    },
+    {
+      "step_id": "sc3_35",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Я твой друг, ты же меня знаешь.» Опять — не факты, а отношения. Мы доверяем человеку, и поэтому верим его словам.\n",
+        "uk": "«Я твой друг, ты же меня знаешь.» Опять — не факты, а отношения. Мы доверяем человеку, и поэтому верим его словам.",
+        "en": "“I’m your friend, you know me.” Again, not facts, but relationships. We trust a person, and therefore we believe his words."
+      }
+    },
+    {
+      "step_id": "sc3_36",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Но есть ловушка! Не каждый, кто говорит «поверь мне» — заслуживает доверия. Если незнакомец на улице скажет «я эксперт, поверь!» — это ещё не причина верить.\n",
+        "uk": "Но есть ловушка! Не каждый, кто говорит «поверь мне» — заслуживает доверия. Если незнакомец на улице скажет «я эксперт, поверь!» — это ещё не причина верить.",
+        "en": "But there is a trap! Not everyone who says “trust me” is trustworthy. If a stranger on the street says “I’m an expert, believe me!” - this is not yet a reason to believe."
+      }
+    },
+    {
+      "step_id": "sc3_37",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Блогер с миллионом подписчиков говорит: «Эти витамины лучшие!» Он врач?\n",
+        "uk": "Блогер с миллионом подписчиков говорит: «Эти витамины лучшие!» Он врач?",
+        "en": "A blogger with a million subscribers says: “These vitamins are the best!” Is he a doctor?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, он эксперт",
+            "uk": "Да, он эксперт",
+            "en": "Yes, he's an expert"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, популярность ≠ экспертиза",
+            "uk": "Нет, популярность ≠ экспертиза",
+            "en": "No, popularity ≠ expertise"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Popularity is not expertise! A million subscribers is not a substitute for a medical degree. The scout checks: WHY should I believe?"
+      }
+    },
+    {
+      "step_id": "sc3_39",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Популярность — не экспертиза! Миллион подписчиков не заменяют медицинский диплом. Разведчик проверяет: а ПОЧЕМУ я должен верить?\n",
+        "uk": "Популярность — не экспертиза! Миллион подписчиков не заменяют медицинский диплом. Разведчик проверяет: а ПОЧЕМУ я должен верить?",
+        "en": "The second method is FEELINGS (Pathos). When we are convinced through emotions: pity, joy, fear, shame."
+      }
+    },
+    {
+      "step_id": "sc3_40",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй способ — ЧУВСТВА (Пафос). Когда нас убеждают через эмоции: жалость, радость, страх, стыд.\n",
+        "uk": "Второй способ — ЧУВСТВА (Пафос). Когда нас убеждают через эмоции: жалость, радость, страх, стыд.",
+        "en": "Shelter advertisement: “Look at this sad kitten! He's shivering from the cold! Help him! You feel sorry and you are ready to help. Not because it’s logical, but because my heart sank."
+      }
+    },
+    {
+      "step_id": "sc3_41",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама приюта: «Посмотри на этого грустного котёнка! Он дрожит от холода! Помоги ему!» Вам жалко — и вы готовы помочь. Не потому что это логично — а потому что сердце сжалось.\n",
+        "uk": "Реклама приюта: «Посмотри на этого грустного котёнка! Он дрожит от холода! Помоги ему!» Вам жалко — и вы готовы помочь. Не потому что это логично — а потому что сердце сжалось.",
+        "en": "Briefcase ad: “Buy this backpack and you’ll be the coolest guy in the class!” You are pleased - and you already want it. Not because the backpack is durable - but because it's nice to be cool."
+      }
+    },
+    {
+      "step_id": "sc3_42",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама портфеля: «Купи этот рюкзак — и ты будешь самым крутым в классе!» Вам приятно — и вы уже хотите. Не потому что рюкзак прочный — а потому что приятно быть крутым.\n",
+        "uk": "Реклама портфеля: «Купи этот рюкзак — и ты будешь самым крутым в классе!» Вам приятно — и вы уже хотите. Не потому что рюкзак прочный — а потому что приятно быть крутым.",
+        "en": "Mom says: “If you don’t clean the room, I’ll be upset, and we won’t go anywhere!” You are scared - and you clean. Not because you figured it out - but because you are afraid of the consequences."
+      }
+    },
+    {
+      "step_id": "sc3_43",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мама говорит: «Если не уберёшь комнату — я расстроюсь, и мы никуда не пойдём!» Вам страшно — и вы убираете. Не потому что разобрались — а потому что боитесь последствий.\n",
+        "uk": "Мама говорит: «Если не уберёшь комнату — я расстроюсь, и мы никуда не пойдём!» Вам страшно — и вы убираете. Не потому что разобрались — а потому что боитесь последствий.",
+        "en": "“Last chance! 2 pieces left! Don’t miss it - you’ll regret it later!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Радость",
+            "uk": "Радость",
+            "en": "Joy"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Жалость",
+            "uk": "Жалость",
+            "en": "Pity"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fear! Fear of missing out. Advertising loves this technique - to create the feeling that if you don’t buy NOW, it will be too late."
+      }
+    },
+    {
+      "step_id": "sc3_45",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Последний шанс! Осталось 2 штуки! Не упусти — потом будешь жалеть!»\n",
+        "uk": "«Последний шанс! Осталось 2 штуки! Не упусти — потом будешь жалеть!»",
+        "en": "The third method is EVIDENCE (Logos). When they show facts, figures, examples."
+      }
+    },
+    {
+      "step_id": "sc3_46",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Страх! Страх упустить. Реклама обожает этот приём — создать ощущение, что если не купишь СЕЙЧАС, будет поздно.\n",
+        "uk": "Страх! Страх упустить. Реклама обожает этот приём — создать ощущение, что если не купишь СЕЙЧАС, будет поздно.",
+        "en": "“Children who read every day know 3,000 more words.” You can check this! There is a study, there is a figure."
+      }
+    },
+    {
+      "step_id": "sc3_47",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий способ — ДОКАЗАТЕЛЬСТВА (Логос). Когда показывают факты, цифры, примеры.\n",
+        "uk": "Третий способ — ДОКАЗАТЕЛЬСТВА (Логос). Когда показывают факты, цифры, примеры.",
+        "en": "“This juice contains 50% of the daily value of vitamin C.” Fact. It is written on the packaging and can be tested in the laboratory."
+      }
+    },
+    {
+      "step_id": "sc3_48",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Дети, которые читают каждый день, знают на 3000 слов больше.» Это можно проверить! Есть исследование, есть цифра.\n",
+        "uk": "«Дети, которые читают каждый день, знают на 3000 слов больше.» Это можно проверить! Есть исследование, есть цифра.",
+        "en": "Evidence is the most honest way. But also the most boring if you use ONLY it. Therefore, the best belief is all three together."
+      }
+    },
+    {
+      "step_id": "sc3_49",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В этом соке 50% витамина C от дневной нормы.» Факт. Написано на упаковке, можно проверить в лаборатории.\n",
+        "uk": "«В этом соке 50% витамина C от дневной нормы.» Факт. Написано на упаковке, можно проверить в лаборатории.",
+        "en": "“Scientists have proven that chocolate improves your mood.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! “Scientists have proven” + specific effect. Although... there is a pinch of trust here - we trust scientists."
+      }
+    },
+    {
+      "step_id": "sc3_51",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Доказательства — самый честный способ. Но и самый скучный, если использовать ТОЛЬКО его. Поэтому лучшее убеждение — все три вместе.\n",
+        "uk": "Доказательства — самый честный способ. Но и самый скучный, если использовать ТОЛЬКО его. Поэтому лучшее убеждение — все три вместе.",
+        "en": "Did you notice? Sometimes the methods get mixed up! “Scientists have proven” means both trust (scientists) and evidence (proved). Often in one phrase there are two ways at once."
+      }
+    },
+    {
+      "step_id": "sc3_52",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Учёные доказали, что шоколад улучшает настроение.»\n",
+        "uk": "«Учёные доказали, что шоколад улучшает настроение.»",
+        "en": "Do you remember? TRUST (Ethos) - we trust the person. FEELINGS (Pathos) - affects emotions. EVIDENCE (Logos) - shows facts. Three pillars of conviction. Let's check!"
+      }
+    },
+    {
+      "step_id": "sc4_53",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Время игры! Я читаю рекламу — вы определяете, на что она давит: чувства, страх или доказательства.\n",
+        "uk": "Время игры! Я читаю рекламу — вы определяете, на что она давит: чувства, страх или доказательства.",
+        "en": "Game time! I read an advertisement - you determine what it presses on: feelings, fear or evidence."
+      }
+    },
+    {
+      "step_id": "sc4_54",
+      "scene_id": "sc4",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Слушаем внимательно — иногда разница тонкая!\n",
+        "uk": "Слушаем внимательно — иногда разница тонкая!",
+        "en": "Listen carefully - sometimes the difference is subtle!"
+      }
+    },
+    {
+      "step_id": "sc4_55",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот конструктор развивает мышление на 37% быстрее обычных игрушек. Это подтверждено тестами в трёх школах.»\n",
+        "uk": "«Этот конструктор развивает мышление на 37% быстрее обычных игрушек. Это подтверждено тестами в трёх школах.»",
+        "en": "“This construction set develops thinking 37% faster than conventional toys. This was confirmed by tests in three schools.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! 37%, three schools, tests - all numbers and facts. Check and make sure."
+      }
+    },
+    {
+      "step_id": "sc4_57",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Доказательства! 37%, три школы, тесты — сплошные цифры и факты. Проверяй и убеждайся.\n",
+        "uk": "Доказательства! 37%, три школы, тесты — сплошные цифры и факты. Проверяй и убеждайся.",
+        "en": "“If you don’t have this backpack, you’ll be the only one in your class without a new collection...”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fear! Fear of being “different from everyone else.” Not a single fact about the backpack - only “you will be the only one like this.” Classic trap."
+      }
+    },
+    {
+      "step_id": "sc4_59",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Если у тебя не будет этого рюкзака, ты будешь единственным в классе без новой коллекции…»\n",
+        "uk": "«Если у тебя не будет этого рюкзака, ты будешь единственным в классе без новой коллекции…»",
+        "en": "“Look how happily the children laugh on our playground! Give joy to your child!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Feelings! Happiness, laughter, joy - everything hits the emotions. Is the site good? Durable? Safe? Not a word about this."
+      }
+    },
+    {
+      "step_id": "sc4_61",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Страх! Страх быть «не таким как все». Ни одного факта про рюкзак — только «ты будешь один такой». Классическая ловушка.\n",
+        "uk": "Страх! Страх быть «не таким как все». Ни одного факта про рюкзак — только «ты будешь один такой». Классическая ловушка.",
+        "en": "“Our baby shampoo does not sting the eyes. Dermatologist tested.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! “Does not sting” is a specific property. Dermatologist Tested - Confirmed by Experts. Fact + verification."
+      }
+    },
+    {
+      "step_id": "sc4_63",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Посмотри, как счастливо смеются дети на нашей детской площадке! Подари радость своему ребёнку!»\n",
+        "uk": "«Посмотри, как счастливо смеются дети на нашей детской площадке! Подари радость своему ребёнку!»",
+        "en": "“Last 3 sets! Tomorrow they will no longer be there! Don't miss the chance!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fear! “The last ones,” “there won’t be a tomorrow,” “don’t miss out”—three blows of fear in a row. They rush you so that you don't have time to think."
+      }
+    },
+    {
+      "step_id": "sc4_65",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Чувства! Счастье, смех, радость — всё бьёт по эмоциям. А площадка-то хорошая? Прочная? Безопасная? Про это — ни слова.\n",
+        "uk": "Чувства! Счастье, смех, радость — всё бьёт по эмоциям. А площадка-то хорошая? Прочная? Безопасная? Про это — ни слова.",
+        "en": "“This tablet can withstand a drop of 1.5 meters. We checked it 50 times.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! 1.5 meters, 50 times - specific numbers. You can check it, you can repeat it. Honest approach."
+      }
+    },
+    {
+      "step_id": "sc4_67",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Наш детский шампунь не щиплет глаза. Проверено дерматологами.»\n",
+        "uk": "«Наш детский шампунь не щиплет глаза. Проверено дерматологами.»",
+        "en": "“With this skateboard you will be the coolest guy in the yard!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Feelings! “The coolest” is a pure emotion. Is the skateboard quality? Are the wheels good? Unknown. But it's nice!"
+      }
+    },
+    {
+      "step_id": "sc4_69",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Доказательства! «Не щиплет» — конкретное свойство. «Проверено дерматологами» — подтверждение экспертов. Факт + проверка.\n",
+        "uk": "Доказательства! «Не щиплет» — конкретное свойство. «Проверено дерматологами» — подтверждение экспертов. Факт + проверка.",
+        "en": "“If you don’t start studying English now, then it will be too late.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fear! “It’s too late” - they scare the future. Why is it late? When exactly? No evidence - just pressure."
+      }
+    },
+    {
+      "step_id": "sc4_71",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Последние 3 набора! Завтра их уже не будет! Не упусти шанс!»\n",
+        "uk": "«Последние 3 набора! Завтра их уже не будет! Не упусти шанс!»",
+        "en": "“90% of parents chose this board game to develop logic.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! 90% is a number. Although... where is she from? Who counted? The scout will ask: “Where is the research?” Even the evidence is worth checking!"
+      }
+    },
+    {
+      "step_id": "sc4_73",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Страх! «Последние», «завтра не будет», «не упусти» — три удара страхом подряд. Тебя торопят, чтобы ты не успел подумать.\n",
+        "uk": "Страх! «Последние», «завтра не будет», «не упусти» — три удара страхом подряд. Тебя торопят, чтобы ты не успел подумать.",
+        "en": "“Look at this sad puppy. He has been waiting for his owner for 3 months...\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Feelings! Sad puppy, three months of waiting - my heart aches. Although “3 months” seems like a fact, the main device here is pity. Advertising wants you to FEEL, not think."
+      }
+    },
+    {
+      "step_id": "sc5_75",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы уже хорошо ловите ОДИН приём. Но реклама хитрее! Часто в одной фразе прячутся ДВА или даже ТРИ способа сразу. Теперь выбираем ВСЕ, что находим.\n",
+        "uk": "Вы уже хорошо ловите ОДИН приём. Но реклама хитрее! Часто в одной фразе прячутся ДВА или даже ТРИ способа сразу. Теперь выбираем ВСЕ, что находим.",
+        "en": "You are already good at catching ONE trick. But advertising is trickier! Often TWO or even THREE methods are hidden in one phrase at once. Now we select EVERYTHING we find."
+      }
+    },
+    {
+      "step_id": "sc5_76",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Отмечаем все приёмы, которые видим. Может быть два или три правильных ответа!\n",
+        "uk": "Отмечаем все приёмы, которые видим. Может быть два или три правильных ответа!",
+        "en": "We note all the techniques that we see. There may be two or three correct answers!"
+      }
+    },
+    {
+      "step_id": "sc5_77",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«95% родителей рекомендуют этот конструктор. Пусть ваш ребёнок будет таким же счастливым!»\n",
+        "uk": "«95% родителей рекомендуют этот конструктор. Пусть ваш ребёнок будет таким же счастливым!»",
+        "en": "“95% of parents recommend this construction set. May your child be just as happy!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "Feelings + evidence! 95% is a number, this is proof. “He will be happy” hits the emotions. Two hooks in one phrase."
+      }
+    },
+    {
+      "step_id": "sc5_79",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Чувства + доказательства! 95% — цифра, это доказательство. «Будет счастливым» — бьёт по эмоциям. Два крючка в одной фразе.\n",
+        "uk": "Чувства + доказательства! 95% — цифра, это доказательство. «Будет счастливым» — бьёт по эмоциям. Два крючка в одной фразе.",
+        "en": "“Today only 40% discount! Tomorrow the price will rise and you will regret it.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_2"
+      ],
+      "explanation": {
+        "en": "Feelings + fear! “You will regret” is the emotion of regret. “Only today, tomorrow it will grow” - fear of missing out. And 40% is not proof of quality, it’s just time pressure."
+      }
+    },
+    {
+      "step_id": "sc5_81",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Только сегодня скидка 40%! Завтра цена вырастет, и вы будете жалеть.»\n",
+        "uk": "«Только сегодня скидка 40%! Завтра цена вырастет, и вы будете жалеть.»",
+        "en": "“This bike can withstand 100 kg load and has passed 500 tests. Ride calmly and without worries.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_2",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "All three! 100 kg and 500 tests are proof. “No worries” - a feeling of calm. And “calmly” is a hint: if you DO NOT buy, you will worry. Triple strike!"
+      }
+    },
+    {
+      "step_id": "sc5_83",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Чувства + страх! «Будете жалеть» — эмоция сожаления. «Только сегодня, завтра вырастет» — страх упустить. А 40% — это не доказательство качества, это просто давление временем.\n",
+        "uk": "Чувства + страх! «Будете жалеть» — эмоция сожаления. «Только сегодня, завтра вырастет» — страх упустить. А 40% — это не доказательство качества, это просто давление временем.",
+        "en": "“If the child doesn’t start studying now, it will be more difficult later. Research confirms this.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_2",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "Fear + evidence! “Then it will be more difficult” - they scare the future. “Research confirms” is a reference to facts. Fear backed by science is a compelling combination."
+      }
+    },
+    {
+      "step_id": "sc5_85",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот велосипед выдерживает 100 кг нагрузки и прошёл 500 тестов. Катайтесь спокойно и без волнений.»\n",
+        "uk": "«Этот велосипед выдерживает 100 кг нагрузки и прошёл 500 тестов. Катайтесь спокойно и без волнений.»",
+        "en": "“More than 1 million children have already chosen this board game. Join us too!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "Feelings + evidence! A million is a number. “Join” is the emotion of “being part of a team.” I want to be like everyone else, a million - this is a feeling."
+      }
+    },
+    {
+      "step_id": "sc5_87",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Все три! 100 кг и 500 тестов — доказательства. «Без волнений» — чувство спокойствия. А «спокойно» — намёк: если НЕ купите, будете волноваться. Тройной удар!\n",
+        "uk": "Все три! 100 кг и 500 тестов — доказательства. «Без волнений» — чувство спокойствия. А «спокойно» — намёк: если НЕ купите, будете волноваться. Тройной удар!",
+        "en": "“This juice contains 60% of the daily value of vitamin C. Take care of your child’s health today.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "Feelings + evidence! 60% vitamin is a fact. “Take care of your health” is an emotion of parental love. Number + tenderness = powerful advertising."
+      }
+    },
+    {
+      "step_id": "sc5_89",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Если ребёнок не начнёт заниматься сейчас, потом будет сложнее. Исследования это подтверждают.»\n",
+        "uk": "«Если ребёнок не начнёт заниматься сейчас, потом будет сложнее. Исследования это подтверждают.»",
+        "en": "“All my friends are already going to this camp. Don't stay away!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_2"
+      ],
+      "explanation": {
+        "en": "Feelings + fear! “All my friends are already on their way” - I want to be together. “Don't be left out” - fear of being excluded. Not a single fact about the camp!"
+      }
+    },
+    {
+      "step_id": "sc5_91",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Страх + доказательства! «Потом будет сложнее» — пугают будущим. «Исследования подтверждают» — ссылка на факты. Страх подкреплён наукой — убедительная комбинация.\n",
+        "uk": "Страх + доказательства! «Потом будет сложнее» — пугают будущим. «Исследования подтверждают» — ссылка на факты. Страх подкреплён наукой — убедительная комбинация.",
+        "en": "“Our tablet has survived 50 drops from a height of 1.5 meters. Don't risk your child's safety.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_2",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "Fear + evidence! 50 falls, 1.5 meters - numbers. “Don’t risk your safety” - fear for the child. Facts are backed by anxiety."
+      }
+    },
+    {
+      "step_id": "sc5_93",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Более 1 миллиона детей уже выбрали эту настольную игру. Присоединяйтесь и вы!»\n",
+        "uk": "«Более 1 миллиона детей уже выбрали эту настольную игру. Присоединяйтесь и вы!»",
+        "en": "“Scientists have proven that children who read 20 minutes a day show better grades. Give the child an advantage!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_3"
+      ],
+      "explanation": {
+        "en": "Feelings + evidence! 20 minutes, the best assessments are facts. “Give an advantage” is an emotion: every parent wants the best for the child."
+      }
+    },
+    {
+      "step_id": "sc5_95",
+      "scene_id": "sc5",
+      "step_type": "multi_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Чувства + доказательства! Миллион — цифра. «Присоединяйтесь» — эмоция «быть частью команды». Хочется быть как все миллион — это чувство.\n",
+        "uk": "Чувства + доказательства! Миллион — цифра. «Присоединяйтесь» — эмоция «быть частью команды». Хочется быть как все миллион — это чувство.",
+        "en": "“Last 3 sets! Everything has already been sold out. Hurry up to buy now!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страх",
+            "uk": "Страх",
+            "en": "Fear"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answers": [
+        "opt_1",
+        "opt_2"
+      ],
+      "explanation": {
+        "en": "Feelings + fear! “Last 3” – urgency. “Everything has already been sold out” - you are falling behind. \"Hurry up!\" - panic. Two hooks, zero facts about the product. When you see the “last chance” - turn on the scout!"
+      }
+    },
+    {
+      "step_id": "sc6_97",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы уже умеете определять способы убеждения. Но вот важный секрет: настоящее убеждение — это когда работают ВСЕ ТРИ способа вместе. Как табуретка на трёх ножках — убери одну, и всё рухнет.\n",
+        "uk": "Вы уже умеете определять способы убеждения. Но вот важный секрет: настоящее убеждение — это когда работают ВСЕ ТРИ способа вместе. Как табуретка на трёх ножках — убери одну, и всё рухнет.",
+        "en": "You already know how to identify methods of persuasion. But here's an important secret: real persuasion is when ALL THREE methods work together. Like a stool with three legs - remove one and everything will collapse."
+      }
+    },
+    {
+      "step_id": "sc6_98",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Представьте рекламу нового сока. «Его рекомендуют диетологи» — ДОВЕРИЕ. «Вкус детства, счастье в каждом глотке!» — ЧУВСТВА. «Содержит витамин C и без сахара» — ДОКАЗАТЕЛЬСТВА.\n",
+        "uk": "Представьте рекламу нового сока. «Его рекомендуют диетологи» — ДОВЕРИЕ. «Вкус детства, счастье в каждом глотке!» — ЧУВСТВА. «Содержит витамин C и без сахара» — ДОКАЗАТЕЛЬСТВА.",
+        "en": "Imagine an advertisement for a new juice. “It is recommended by nutritionists” - TRUST. “Taste of childhood, happiness in every sip!” - FEELINGS. “Contains vitamin C and no sugar” - EVIDENCE."
+      }
+    },
+    {
+      "step_id": "sc6_99",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три ножки — табуретка стоит. Три способа — убеждение работает. А теперь посмотрим, что бывает, когда ножек не хватает.\n",
+        "uk": "Три ножки — табуретка стоит. Три способа — убеждение работает. А теперь посмотрим, что бывает, когда ножек не хватает.",
+        "en": "Three legs - the stool stands. Three ways - persuasion works. Now let's see what happens when there are not enough legs."
+      }
+    },
+    {
+      "step_id": "sc6_100",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Купи эту куртку! Все дети мечтают! Ты будешь самым модным! Не отставай от друзей!» Что тут? Только чувства и страх. А куртка тёплая? Прочная? Из чего сделана? Ни слова. Табуретка на одной ножке — шатается!\n",
+        "uk": "«Купи эту куртку! Все дети мечтают! Ты будешь самым модным! Не отставай от друзей!» Что тут? Только чувства и страх. А куртка тёплая? Прочная? Из чего сделана? Ни слова. Табуретка на одной ножке — шатается!",
+        "en": "“Buy this jacket! All children dream! You will be the most fashionable! Don't lag behind your friends! What's here? Only feelings and fear. Is the jacket warm? Durable? What is it made of? Not a word. A stool on one leg is wobbly!"
+      }
+    },
+    {
+      "step_id": "sc6_101",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот наоборот: «Эта куртка сделана из мембраны Gore-Tex, не промокает при давлении 28 000 мм водного столба, весит 400 граммов.» Сплошные факты! Но… скучно. Не цепляет. Хочется зевнуть и пойти дальше. Табуретка на одной ножке — только другой.\n",
+        "uk": "А вот наоборот: «Эта куртка сделана из мембраны Gore-Tex, не промокает при давлении 28 000 мм водного столба, весит 400 граммов.» Сплошные факты! Но… скучно. Не цепляет. Хочется зевнуть и пойти дальше. Табуретка на одной ножке — только другой.",
+        "en": "But on the contrary: “This jacket is made of a Gore-Tex membrane, does not get wet at a pressure of 28,000 mm of water, weighs 400 grams.” Solid facts! But... it's boring. Doesn't catch on. I want to yawn and move on. A stool on one leg - only the other."
+      }
+    },
+    {
+      "step_id": "sc6_102",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А идеально? «Эту куртку рекомендуют спасатели МЧС (доверие). В ней тепло даже в минус 20 (доказательство). И ты будешь чувствовать себя настоящим полярником! (чувства)» Три ножки — стоит!\n",
+        "uk": "А идеально? «Эту куртку рекомендуют спасатели МЧС (доверие). В ней тепло даже в минус 20 (доказательство). И ты будешь чувствовать себя настоящим полярником! (чувства)» Три ножки — стоит!",
+        "en": "Is it ideal? “This jacket is recommended by rescuers of the Ministry of Emergency Situations (trust). It's warm even at minus 20 (proof). And you will feel like a real polar explorer! (feelings)” Three legs - worth it!"
+      }
+    },
+    {
+      "step_id": "sc6_103",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Правило разведчика: когда тебя убеждают ТОЛЬКО через чувства — спроси: «А где факты?» Когда только через факты — спроси: «А кто это проверил?» Нет баланса — включай подозрение.\n",
+        "uk": "Правило разведчика: когда тебя убеждают ТОЛЬКО через чувства — спроси: «А где факты?» Когда только через факты — спроси: «А кто это проверил?» Нет баланса — включай подозрение.",
+        "en": "Scout rule: when you are convinced ONLY through feelings, ask: “Where are the facts?” When only through facts, ask: “Who checked this?” There is no balance - turn on suspicion."
+      }
+    },
+    {
+      "step_id": "sc6_104",
+      "scene_id": "sc6",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверяем! Я читаю фразу — вы определяете: сбалансировано или нет?\n",
+        "uk": "Проверяем! Я читаю фразу — вы определяете: сбалансировано или нет?",
+        "en": "Let's check! I read the phrase - you determine: balanced or not?"
+      }
+    },
+    {
+      "step_id": "sc6_105",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот сок советует врач, в нём много витаминов, и ты будешь здоров!»\n",
+        "uk": "«Этот сок советует врач, в нём много витаминов, и ты будешь здоров!»",
+        "en": "“The doctor recommends this juice, it contains a lot of vitamins, and you will be healthy!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Balanced! Trust (doctor), evidence (vitamins), feelings (health). Three legs - the stool stands. Even a doctor would approve."
+      }
+    },
+    {
+      "step_id": "sc6_107",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сбалансировано! Доверие (врач), доказательства (витамины), чувства (здоровье). Три ножки — табуретка стоит. Даже врач бы одобрил.\n",
+        "uk": "Сбалансировано! Доверие (врач), доказательства (витамины), чувства (здоровье). Три ножки — табуретка стоит. Даже врач бы одобрил.",
+        "en": "“Buy it! Everyone is buying! Be like everyone else! Don't fall behind!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Not balanced! Only feelings - fear of not being like that. Not a single fact. Not a single expert. A stool on one leg - boom, fell."
+      }
+    },
+    {
+      "step_id": "sc6_109",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Купи! Все покупают! Будь как все! Не отставай!»\n",
+        "uk": "«Купи! Все покупают! Будь как все! Не отставай!»",
+        "en": "“Teachers read this book, and there are 100 interesting stories in it.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Balanced! Trust (teachers read) and evidence (100 stories). Two legs is not bad. Add “it’s impossible to tear yourself away from her!” - and there will be three."
+      }
+    },
+    {
+      "step_id": "sc6_111",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Не сбалансировано! Только чувства — страх быть не таким. Ни одного факта. Ни одного эксперта. Табуретка на одной ножке — бум, упала.\n",
+        "uk": "Не сбалансировано! Только чувства — страх быть не таким. Ни одного факта. Ни одного эксперта. Табуретка на одной ножке — бум, упала.",
+        "en": "“If you don’t buy this, you’ll regret it! This is the last chance!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Not balanced! Fear, fear and more fear. “You’ll regret it,” “last chance”—double pressure. What kind of product? What properties? Silence. The stool fell and broke."
+      }
+    },
+    {
+      "step_id": "sc6_113",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Эту книжку читают учителя, и в ней 100 интересных историй.»\n",
+        "uk": "«Эту книжку читают учителя, и в ней 100 интересных историй.»",
+        "en": "“I’ve been working here for 15 years, and all the customers praise this product.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Balanced! Trust (15 years of experience) and evidence (customer reviews). The seller supported his authority with facts - this is a reasonable approach."
+      }
+    },
+    {
+      "step_id": "sc6_115",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сбалансировано! Доверие (учителя читают) и доказательства (100 историй). Две ножки — уже неплохо. Добавь «от неё невозможно оторваться!» — и будет три.\n",
+        "uk": "Сбалансировано! Доверие (учителя читают) и доказательства (100 историй). Две ножки — уже неплохо. Добавь «от неё невозможно оторваться!» — и будет три.",
+        "en": "“Without this cream, your skin will be terrible! Everyone will be watching!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Not balanced! Fear + shame. Not a single fact about the cream, not a single expert. They're just scary. The scout says: “Show me a dermatologist and tests!”"
+      }
+    },
+    {
+      "step_id": "sc6_117",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Если не купишь это, пожалеешь! Это последний шанс!»\n",
+        "uk": "«Если не купишь это, пожалеешь! Это последний шанс!»",
+        "en": "“Dentists recommend this paste. 9 out of 10 patients confirmed that their teeth are whiter in 2 weeks.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Balanced! Trust (dentists), evidence (9 out of 10, 2 weeks). Sturdy stool. Add “smile with confidence!” - and there will be all three."
+      }
+    },
+    {
+      "step_id": "sc6_119",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Не сбалансировано! Страх, страх и ещё раз страх. «Пожалеешь», «последний шанс» — двойное давление. А что за товар? Какие свойства? Молчание. Табуретка упала и разбилась.\n",
+        "uk": "Не сбалансировано! Страх, страх и ещё раз страх. «Пожалеешь», «последний шанс» — двойное давление. А что за товар? Какие свойства? Молчание. Табуретка упала и разбилась.",
+        "en": "“Hurry up! Discount only until the end of the day! Don't miss your dream!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Not balanced! Fear + feelings. “Dream” is an emotion, “hurry” is pressure. Not a single fact about the product. Being in a hurry is almost always a trap. The scout is in no hurry."
+      }
+    },
+    {
+      "step_id": "sc6_121",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я здесь работаю 15 лет, и этот товар хвалят все покупатели.»\n",
+        "uk": "«Я здесь работаю 15 лет, и этот товар хвалят все покупатели.»",
+        "en": "“This backpack weighs only 300 grams, has 5 pockets, and was chosen by 200 schoolchildren in our city.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Сбалансировано (несколько способов)",
+            "uk": "Сбалансировано (несколько способов)",
+            "en": "Balanced (several ways)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не сбалансировано (один способ)",
+            "uk": "Не сбалансировано (один способ)",
+            "en": "Not balanced (one way)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Balanced! Solid evidence - grams, pockets, number of schoolchildren. Trust through mass participation (200 schoolchildren). There are no feelings - but the facts are so convincing that it works even without emotions. Although “the perfect backpack for adventure!” - it wouldn't hurt."
+      }
+    },
+    {
+      "step_id": "sc7_123",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы научились ловить чужие приёмы. А теперь — самое интересное. Попробуем САМИ составить убеждение! Задача: в одной фразе — все три способа.\n",
+        "uk": "Вы научились ловить чужие приёмы. А теперь — самое интересное. Попробуем САМИ составить убеждение! Задача: в одной фразе — все три способа.",
+        "en": "You have learned to catch other people's tricks. And now - the most interesting part. Let's try to formulate a conviction ourselves! Task: in one phrase - all three methods."
+      }
+    },
+    {
+      "step_id": "sc7_124",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример. Вам нужно убедить маму купить мороженое. Как? «Мам, я весь день делал уроки (доверие — я заслужил), мороженое поднимает настроение (чувства), и в нём кальций для костей (доказательства)!»\n",
+        "uk": "Пример. Вам нужно убедить маму купить мороженое. Как? «Мам, я весь день делал уроки (доверие — я заслужил), мороженое поднимает настроение (чувства), и в нём кальций для костей (доказательства)!»",
+        "en": "Example. You need to convince your mom to buy ice cream. How? “Mom, I did my homework all day (trust – I earned it), ice cream lifts my spirits (feelings), and it contains calcium for bones (proof)!”"
+      }
+    },
+    {
+      "step_id": "sc7_125",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три ножки! Мама впечатлена. Хотя… кальций в мороженом — спорный аргумент. Но сама конструкция — идеальная.\n",
+        "uk": "Три ножки! Мама впечатлена. Хотя… кальций в мороженом — спорный аргумент. Но сама конструкция — идеальная.",
+        "en": "Three legs! Mom is impressed. Although... calcium in ice cream is a controversial argument. But the design itself is perfect."
+      }
+    },
+    {
+      "step_id": "sc7_126",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь проверим ваш глаз разведчика. В каждой фразе есть два способа, а третьего не хватает. Ваша задача — определить: чего не хватает?\n",
+        "uk": "А теперь проверим ваш глаз разведчика. В каждой фразе есть два способа, а третьего не хватает. Ваша задача — определить: чего не хватает?",
+        "en": "Now let's test your scout's eye. Each phrase has two ways, and the third is missing. Your task is to determine: what is missing?"
+      }
+    },
+    {
+      "step_id": "sc7_127",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот телефон стоит 5000 гривен и имеет камеру 50 мегапикселей. Все блогеры его используют.» Чего не хватает?\n",
+        "uk": "«Этот телефон стоит 5000 гривен и имеет камеру 50 мегапикселей. Все блогеры его используют.» Чего не хватает?",
+        "en": "“This phone costs 5,000 hryvnia and has a 50 megapixel camera. All bloggers use it.” What's missing?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверия",
+            "uk": "Доверия",
+            "en": "Trust"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувств",
+            "uk": "Чувств",
+            "en": "Feelings"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательств",
+            "uk": "Доказательств",
+            "en": "Evidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Not enough feelings! There is trust (bloggers) and evidence (price, megapixels). But there are zero emotions. Add “capture moments you’ll remember forever!” - and the stool will rise."
+      }
+    },
+    {
+      "step_id": "sc7_129",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Не хватает чувств! Есть доверие (блогеры) и доказательства (цена, мегапиксели). Но эмоций ноль. Добавь «снимай моменты, которые запомнишь навсегда!» — и табуретка встанет.\n",
+        "uk": "Не хватает чувств! Есть доверие (блогеры) и доказательства (цена, мегапиксели). Но эмоций ноль. Добавь «снимай моменты, которые запомнишь навсегда!» — и табуретка встанет.",
+        "en": "“My trainer said these shoes are the best. They are so comfortable - your feet are like in the clouds!” What's missing?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверия",
+            "uk": "Доверия",
+            "en": "Trust"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувств",
+            "uk": "Чувств",
+            "en": "Feelings"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательств",
+            "uk": "Доказательств",
+            "en": "Evidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Not enough evidence! There is trust (coach) and feelings (“like in the clouds”). But how much do they weigh? What kind of sole? Add “30% more cushioning” and the kit is complete."
+      }
+    },
+    {
+      "step_id": "sc7_131",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мой тренер сказал, что эти кроссовки лучшие. Они такие удобные — ноги как в облаках!» Чего не хватает?\n",
+        "uk": "«Мой тренер сказал, что эти кроссовки лучшие. Они такие удобные — ноги как в облаках!» Чего не хватает?",
+        "en": "“Studies have shown that this juice contains 60% of your daily value of vitamin C. Feel energized!” What's missing?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверия",
+            "uk": "Доверия",
+            "en": "Trust"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувств",
+            "uk": "Чувств",
+            "en": "Feelings"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательств",
+            "uk": "Доказательств",
+            "en": "Evidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Lack of trust! There is evidence (60%, research) and feelings (“charge of energy”). But who did the research? Add “recommended by pediatricians” and a third leg appears."
+      }
+    },
+    {
+      "step_id": "sc7_133",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Не хватает доказательств! Есть доверие (тренер) и чувства («как в облаках»). Но сколько весят? Какая подошва? Добавь «амортизация на 30% выше» — и комплект собран.\n",
+        "uk": "Не хватает доказательств! Есть доверие (тренер) и чувства («как в облаках»). Но сколько весят? Какая подошва? Добавь «амортизация на 30% выше» — и комплект собран.",
+        "en": "“Our physical education teacher recommends these balls. They passed 200 strength tests.\" What's missing?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверия",
+            "uk": "Доверия",
+            "en": "Trust"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувств",
+            "uk": "Чувств",
+            "en": "Feelings"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательств",
+            "uk": "Доказательств",
+            "en": "Evidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Not enough feelings! There is trust (teacher) and evidence (200 tests). Reliable, but boring. Add “play with friends and win!” - and it will become inspiring."
+      }
+    },
+    {
+      "step_id": "sc7_135",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Исследования показали: этот сок содержит 60% дневной нормы витамина C. Почувствуй заряд энергии!» Чего не хватает?\n",
+        "uk": "«Исследования показали: этот сок содержит 60% дневной нормы витамина C. Почувствуй заряд энергии!» Чего не хватает?",
+        "en": "“This board game is an explosion of emotions! The whole family laughed for three hours! It was invented by a famous child psychologist.” What's missing?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверия",
+            "uk": "Доверия",
+            "en": "Trust"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувств",
+            "uk": "Чувств",
+            "en": "Feelings"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательств",
+            "uk": "Доказательств",
+            "en": "Evidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Not enough evidence! There are feelings (“explosion of emotions,” “laughed”) and trust (psychologist). But how many cards? For what age? Add “120 tasks, from 6 to 12 years” - and the facts are in place."
+      }
+    },
+    {
+      "step_id": "sc7_137",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Не хватает доверия! Есть доказательства (60%, исследования) и чувства («заряд энергии»). Но кто проводил исследования? Добавь «рекомендуют педиатры» — и появится третья ножка.\n",
+        "uk": "Не хватает доверия! Есть доказательства (60%, исследования) и чувства («заряд энергии»). Но кто проводил исследования? Добавь «рекомендуют педиатры» — и появится третья ножка.",
+        "en": "“This backpack weighs 290 grams and is made of waterproof material. Every trip with him is an adventure!” What's missing?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверия",
+            "uk": "Доверия",
+            "en": "Trust"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувств",
+            "uk": "Чувств",
+            "en": "Feelings"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательств",
+            "uk": "Доказательств",
+            "en": "Evidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Lack of trust! There is evidence (290 grams, material) and feelings (“adventure”). But who checked it? Add “the choice of professional tourists” - and the third leg stood up."
+      }
+    },
+    {
+      "step_id": "sc7_139",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Наш учитель физкультуры советует эти мячи. Они прошли 200 тестов на прочность.» Чего не хватает?\n",
+        "uk": "«Наш учитель физкультуры советует эти мячи. Они прошли 200 тестов на прочность.» Чего не хватает?",
+        "en": "Do you see? Every time something is missing. When there are no feelings, it’s boring. When there is no evidence, it’s empty. When there is no trust, it is not clear who to trust. The ideal belief is all three together!"
+      }
+    },
+    {
+      "step_id": "sc7_140",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Не хватает чувств! Есть доверие (учитель) и доказательства (200 тестов). Надёжно, но скучно. Добавь «играй с друзьями и побеждай!» — и станет вдохновляюще.\n",
+        "uk": "Не хватает чувств! Есть доверие (учитель) и доказательства (200 тестов). Надёжно, но скучно. Добавь «играй с друзьями и побеждай!» — и станет вдохновляюще.",
+        "en": "Now you know the secret of any advertising, any belief, any argument. Three ways: trust, feelings, evidence. It's best when they work together, like three legs of a stool."
+      }
+    },
+    {
+      "step_id": "sc8_141",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Новая игра! Я описываю ситуацию и два варианта убеждения. Один слабый, другой сильный. Ваша задача — выбрать того, кто убедит лучше.\n",
+        "uk": "Новая игра! Я описываю ситуацию и два варианта убеждения. Один слабый, другой сильный. Ваша задача — выбрать того, кто убедит лучше.",
+        "en": "New game! I describe the situation and two options for persuasion. One is weak, the other is strong. Your task is to choose the one who will convince you better."
+      }
+    },
+    {
+      "step_id": "sc8_142",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ситуация первая. Нужно убедить маму отпустить на ночёвку к другу.\n",
+        "uk": "Ситуация первая. Нужно убедить маму отпустить на ночёвку к другу.",
+        "en": "Situation one. We need to convince mom to let her spend the night with a friend."
+      }
+    },
+    {
+      "step_id": "sc8_143",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вариант А: «Мам, ну пожааалуйста! Мне так хочется! Я буду грустить весь вечер!» Вариант Б: «Мам, ты знаешь Сашину маму, мы ляжем спать к десяти, и это будет лучший вечер в моей жизни!»\n",
+        "uk": "Вариант А: «Мам, ну пожааалуйста! Мне так хочется! Я буду грустить весь вечер!» Вариант Б: «Мам, ты знаешь Сашину маму, мы ляжем спать к десяти, и это будет лучший вечер в моей жизни!»",
+        "en": "Option A: “Mom, please! I want it so bad! I’ll be sad all evening!” Option B: “Mom, you know Sasha’s mother, we will go to bed by ten, and this will be the best evening of my life!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Вариант А",
+            "uk": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вариант Б",
+            "uk": "Вариант Б",
+            "en": "Option B"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Option B! Sasha has trust (you know his mother), evidence (we'll go to bed at ten - specifics), feelings (the best evening). What about option A? Only “please” and sadness. One leg. Mom hears this ten times a day."
+      }
+    },
+    {
+      "step_id": "sc8_145",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вариант Б! У Саши — доверие (ты знаешь его маму), доказательства (ляжем к десяти — конкретика), чувства (лучший вечер). А вариант А? Только «пожааалуйста» и грусть. Одна ножка. Мама такое слышит десять раз в день.\n",
+        "uk": "Вариант Б! У Саши — доверие (ты знаешь его маму), доказательства (ляжем к десяти — конкретика), чувства (лучший вечер). А вариант А? Только «пожааалуйста» и грусть. Одна ножка. Мама такое слышит десять раз в день.",
+        "en": "Situation two. You need to convince the teacher not to assign homework."
+      }
+    },
+    {
+      "step_id": "sc8_146",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ситуация вторая. Нужно убедить учителя не задавать домашку.\n",
+        "uk": "Ситуация вторая. Нужно убедить учителя не задавать домашку.",
+        "en": "Option A: “We’re tired! It's so hard for us! Please don't!\" Option B: “We wrote the test perfectly, you know our class - give us an evening of rest, and tomorrow we will be even better!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Вариант А",
+            "uk": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вариант Б",
+            "uk": "Вариант Б",
+            "en": "Option B"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Option B! Evidence (excellent test), trust (you know our class), feelings (we will be even better - inspiration). And option A is just whining. The teacher hears this every day and no longer reacts."
+      }
+    },
+    {
+      "step_id": "sc8_148",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вариант А: «Мы устали! Нам так тяжело! Пожалуйста, не надо!» Вариант Б: «Мы написали контрольную на отлично, вы же знаете наш класс — дайте нам вечер отдыха, и завтра мы будем ещё лучше!»\n",
+        "uk": "Вариант А: «Мы устали! Нам так тяжело! Пожалуйста, не надо!» Вариант Б: «Мы написали контрольную на отлично, вы же знаете наш класс — дайте нам вечер отдыха, и завтра мы будем ещё лучше!»",
+        "en": "Situation three. You need to convince a friend to play your game."
+      }
+    },
+    {
+      "step_id": "sc8_149",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вариант Б! Доказательства (контрольная на отлично), доверие (вы знаете наш класс), чувства (будем ещё лучше — вдохновение). А вариант А — только нытьё. Учитель такое слышит каждый день и уже не реагирует.\n",
+        "uk": "Вариант Б! Доказательства (контрольная на отлично), доверие (вы знаете наш класс), чувства (будем ещё лучше — вдохновение). А вариант А — только нытьё. Учитель такое слышит каждый день и уже не реагирует.",
+        "en": "Option A: “This game is cool! Just trust me! You'll like it! Option B: “It has 50 levels and 3 modes, my older brother is also hooked - and you will be delighted!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Вариант А",
+            "uk": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вариант Б",
+            "uk": "Вариант Б",
+            "en": "Option B"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Option B! Evidence (50 levels, 3 modes), trust (big brother is playing), feelings (you will be delighted). And option A is “trust me” without a single argument. It's like a stool with a note saying \"I'm strong\" instead of legs."
+      }
+    },
+    {
+      "step_id": "sc8_151",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ситуация третья. Нужно убедить друга поиграть в твою игру.\n",
+        "uk": "Ситуация третья. Нужно убедить друга поиграть в твою игру.",
+        "en": "Situation four. We need to convince dad to buy a bike."
+      }
+    },
+    {
+      "step_id": "sc8_152",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вариант А: «Эта игра крутая! Просто поверь мне! Тебе понравится!» Вариант Б: «В ней 50 уровней и 3 режима, мой старший брат тоже залип — и ты будешь в восторге!»\n",
+        "uk": "Вариант А: «Эта игра крутая! Просто поверь мне! Тебе понравится!» Вариант Б: «В ней 50 уровней и 3 режима, мой старший брат тоже залип — и ты будешь в восторге!»",
+        "en": "Option A: “Pa, all the children already have! I'm embarrassed without a bike! Buy it!” Option B: “Pa, the coach said I need to move more, this bike costs 3000 and lasts 5 years - and I can ride with my friends!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Вариант А",
+            "uk": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вариант Б",
+            "uk": "Вариант Б",
+            "en": "Option B"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Option B! Trust (the coach said), evidence (3000, 5 years - numbers), feelings (riding with friends is a joy). And option A is only shame and “everyone has it.” Dad will say: “What if everyone jumps from the roof?”"
+      }
+    },
+    {
+      "step_id": "sc8_154",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вариант Б! Доказательства (50 уровней, 3 режима), доверие (старший брат играет), чувства (будешь в восторге). А вариант А — «поверь мне» без единого аргумента. Это как табуретка с запиской «я крепкая» вместо ножек.\n",
+        "uk": "Вариант Б! Доказательства (50 уровней, 3 режима), доверие (старший брат играет), чувства (будешь в восторге). А вариант А — «поверь мне» без единого аргумента. Это как табуретка с запиской «я крепкая» вместо ножек.",
+        "en": "Situation five. You need to convince your mother to allow you to have a trained poisonous snake."
+      }
+    },
+    {
+      "step_id": "sc8_155",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ситуация четвёртая. Нужно убедить папу купить велосипед.\n",
+        "uk": "Ситуация четвёртая. Нужно убедить папу купить велосипед.",
+        "en": "Option A: “Maaam! I want a snake so bad! She's so beautiful! Well please!” Option B: “Mom, the trainer from the zoo showed me how to handle her, her poisonous glands have been removed, and imagine - all my friends will be amazed!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Вариант А",
+            "uk": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вариант Б",
+            "uk": "Вариант Б",
+            "en": "Option B"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Option B! Trust (a trainer from the zoo), evidence (glands removed - a concrete fact of safety), feelings (friends will be stunned). What about option A? “Beautiful” and “please.” At the word “poisonous snake,” mom already ran away onto the closet. Without facts about safety, there is zero chance."
+      }
+    },
+    {
+      "step_id": "sc8_157",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вариант А: «Па, все дети уже имеют! Мне стыдно без велосипеда! Купи!» Вариант Б: «Па, тренер сказал мне нужно больше двигаться, этот велосипед стоит 3000 и служит 5 лет — и я смогу кататься с друзьями!»\n",
+        "uk": "Вариант А: «Па, все дети уже имеют! Мне стыдно без велосипеда! Купи!» Вариант Б: «Па, тренер сказал мне нужно больше двигаться, этот велосипед стоит 3000 и служит 5 лет — и я смогу кататься с друзьями!»",
+        "en": "Did you notice? Each time the winner was the one who used all three methods. It’s the same in life - do you want to convince your parents, friends, teachers? Don't whine - just cook three legs!"
+      }
+    },
+    {
+      "step_id": "sc9_158",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Хватит реклам! Теперь — настоящая жизнь. Друзья, семья, школа. Везде нас убеждают. Определяем способ!\n",
+        "uk": "Хватит реклам! Теперь — настоящая жизнь. Друзья, семья, школа. Везде нас убеждают. Определяем способ!",
+        "en": "Enough advertising! Now - real life. Friends, family, school. Everywhere we are convinced. Let's determine the method!"
+      }
+    },
+    {
+      "step_id": "sc9_159",
+      "scene_id": "sc9",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Как обычно: доверие, чувства или доказательства?\n",
+        "uk": "Как обычно: доверие, чувства или доказательства?",
+        "en": "As usual: trust, feelings or evidence?"
+      }
+    },
+    {
+      "step_id": "sc9_160",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я капитан команды, и я говорю — играем по моему плану!»\n",
+        "uk": "«Я капитан команды, и я говорю — играем по моему плану!»",
+        "en": "“I am the captain of the team, and I say - we play according to my plan!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trust! The captain presses with authority. “I’m in charge, so listen.” Is it a good plan? He did not specify this."
+      }
+    },
+    {
+      "step_id": "sc9_162",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Доверие! Капитан давит авторитетом. «Я главный — значит слушайте.» А план-то хороший? Это он не уточнил.\n",
+        "uk": "Доверие! Капитан давит авторитетом. «Я главный — значит слушайте.» А план-то хороший? Это он не уточнил.",
+        "en": "“Imagine how great it will be when we win!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Feelings! Joy from future victory. It was beautiful, but no one guaranteed victory. An emotion is not a plan."
+      }
+    },
+    {
+      "step_id": "sc9_164",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Представь, как классно будет, когда мы победим!»\n",
+        "uk": "«Представь, как классно будет, когда мы победим!»",
+        "en": "“In the last three matches, this plan worked.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! Three matches is a concrete experience. You can check, you can argue with the numbers. But this is a fact, not a dream."
+      }
+    },
+    {
+      "step_id": "sc9_166",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Чувства! Радость от будущей победы. Красиво, но победу никто не гарантировал. Эмоция — не план.\n",
+        "uk": "Чувства! Радость от будущей победы. Красиво, но победу никто не гарантировал. Эмоция — не план.",
+        "en": "“You don’t want everyone to laugh at you, do you?”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Feelings! Fear of ridicule. This pressure is not an argument. The scout will ask: “WHY should we do it your way? Where are the facts?"
+      }
+    },
+    {
+      "step_id": "sc9_168",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В последних трёх матчах этот план сработал.»\n",
+        "uk": "«В последних трёх матчах этот план сработал.»",
+        "en": "“My dad is an engineer, he said this structure is strong.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trust! Dad is an engineer - an expert in structures. The trust here is well deserved. But the scout will still ask: “Can I check?”"
+      }
+    },
+    {
+      "step_id": "sc9_170",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Доказательства! Три матча — конкретный опыт. Можно проверить, можно спорить с цифрами. Но это факт, а не мечта.\n",
+        "uk": "Доказательства! Три матча — конкретный опыт. Можно проверить, можно спорить с цифрами. Но это факт, а не мечта.",
+        "en": "“If we’re late, mom will be upset!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Feelings! Fear of upsetting mom. Effective - but this is not logic, but pressure on conscience. Will mom really be upset? Or is it just a trick?"
+      }
+    },
+    {
+      "step_id": "sc9_172",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты же не хочешь, чтобы все над тобой смеялись?»\n",
+        "uk": "«Ты же не хочешь, чтобы все над тобой смеялись?»",
+        "en": "“In our class, 18 out of 25 people have already submitted the project on time.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Proof! 18 out of 25 are pure statistics. A fact that can be verified in a magazine. No emotions - just numbers."
+      }
+    },
+    {
+      "step_id": "sc9_174",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Чувства! Страх насмешек. Это давление — не аргумент. Разведчик спросит: «А ПОЧЕМУ надо делать по-твоему? Где факты?»\n",
+        "uk": "Чувства! Страх насмешек. Это давление — не аргумент. Разведчик спросит: «А ПОЧЕМУ надо делать по-твоему? Где факты?»",
+        "en": "“Grandma always did this, and she succeeded!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (Этос)",
+            "uk": "Доверие (Этос)",
+            "en": "Trust (Ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Чувства (Пафос)",
+            "uk": "Чувства (Пафос)",
+            "en": "Feelings (Paphos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Доказательства (Логос)",
+            "uk": "Доказательства (Логос)",
+            "en": "Evidence (Logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trust! Grandmother's experience - authority through tradition. Works? Often yes. But the scout will clarify: “WHY did she succeed? Maybe times have changed?"
+      }
+    },
+    {
+      "step_id": "sc9_176",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мой папа — инженер, он сказал, что эта конструкция прочная.»\n",
+        "uk": "«Мой папа — инженер, он сказал, что эта конструкция прочная.»",
+        "en": "You see - persuasion is not only about advertising! Friends, parents, teachers, team captains all use the same three methods. Now you notice them everywhere."
+      }
+    },
+    {
+      "step_id": "sc10_177",
+      "scene_id": "sc10",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последняя игра! Я даю слабое убеждение — всего один способ. А вы выбираете лучший вариант, как его починить и сделать сильнее.\n",
+        "uk": "Последняя игра! Я даю слабое убеждение — всего один способ. А вы выбираете лучший вариант, как его починить и сделать сильнее.",
+        "en": "Last game! I give weak persuasion - just one way. And you choose the best option on how to fix it and make it stronger."
+      }
+    },
+    {
+      "step_id": "sc10_178",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Готовы? Чиним!\n",
+        "uk": "Готовы? Чиним!",
+        "en": "Are you ready? Let's fix it!"
+      }
+    },
+    {
+      "step_id": "sc10_179",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Фраза: «Купи эту игрушку! Она такая классная! Ты будешь счастлив!» Тут только чувства. Как починить?\n",
+        "uk": "Фраза: «Купи эту игрушку! Она такая классная! Ты будешь счастлив!» Тут только чувства. Как починить?",
+        "en": "Phrase: “Buy this toy! She's so cool! You will be happy! There are only feelings here. How to fix it?"
+      }
+    },
+    {
+      "step_id": "sc10_180",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какая добавка сделает убеждение сильнее?\n",
+        "uk": "Какая добавка сделает убеждение сильнее?",
+        "en": "What supplement will make your belief stronger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Мне мама разрешила!»",
+            "uk": "«Мне мама разрешила!»",
+            "en": "“My mother allowed me!”"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Она выдерживает 1000 бросков и сделана из дерева»",
+            "uk": "«Она выдерживает 1000 бросков и сделана из дерева»",
+            "en": "“It can withstand 1,000 throws and is made of wood.”"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ну купииии!»",
+            "uk": "«Ну купииии!»",
+            "en": "“Well, buy it!”"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Proof! 1000 throws, wood - specific facts. “Mom allowed” - this is trust, which is also not bad. And “well, buy it” is another portion of feelings. The stool needs a DIFFERENT leg, not the same longer one."
+      }
+    },
+    {
+      "step_id": "sc10_182",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Доказательства! 1000 бросков, дерево — конкретные факты. «Мама разрешила» — это доверие, тоже неплохо. А «ну купииии» — это ещё одна порция чувств. Табуретке нужна ДРУГАЯ ножка, а не та же самая подлиннее.\n",
+        "uk": "Доказательства! 1000 бросков, дерево — конкретные факты. «Мама разрешила» — это доверие, тоже неплохо. А «ну купииии» — это ещё одна порция чувств. Табуретке нужна ДРУГАЯ ножка, а не та же самая подлиннее.",
+        "en": "Phrase: “Scientists have proven that this vitamin is beneficial. It contains 12 microelements.” There's only evidence here. Boring! How to fix it?"
+      }
+    },
+    {
+      "step_id": "sc10_183",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Фраза: «Учёные доказали, что этот витамин полезен. В нём 12 микроэлементов.» Тут только доказательства. Скучно! Как починить?\n",
+        "uk": "Фраза: «Учёные доказали, что этот витамин полезен. В нём 12 микроэлементов.» Тут только доказательства. Скучно! Как починить?",
+        "en": "What supplement will make your belief stronger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«И ещё 5 витаминов группы B»",
+            "uk": "«И ещё 5 витаминов группы B»",
+            "en": "“And 5 more B vitamins”"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Его рекомендует доктор Пауковский — и ты будешь полон энергии!»",
+            "uk": "«Его рекомендует доктор Пауковский — и ты будешь полон энергии!»",
+            "en": "“Doctor Paukovsky recommends it - and you will be full of energy!”"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Вот ещё одно исследование»",
+            "uk": "«Вот ещё одно исследование»",
+            "en": "\"Here's another study\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Doctor Paukovsky - trust! “Full of energy” - feelings! With one stroke, two legs were added. And options A and B are just more facts. Three identical legs are not a stool, they are a fence."
+      }
+    },
+    {
+      "step_id": "sc10_185",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какая добавка сделает убеждение сильнее?\n",
+        "uk": "Какая добавка сделает убеждение сильнее?",
+        "en": "Phrase: “I’m your best friend, trust me, this book is good!” There's only trust here. How to fix it?"
+      }
+    },
+    {
+      "step_id": "sc10_186",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Доктор Пауковский — доверие! «Полон энергии» — чувства! Одним ударом добавили две ножки. А варианты А и В — это просто ещё больше фактов. Три одинаковые ножки — это не табуретка, это забор.\n",
+        "uk": "Доктор Пауковский — доверие! «Полон энергии» — чувства! Одним ударом добавили две ножки. А варианты А и В — это просто ещё больше фактов. Три одинаковые ножки — это не табуретка, это забор.",
+        "en": "What supplement will make your belief stronger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Я тебя когда-нибудь обманывал?»",
+            "uk": "«Я тебя когда-нибудь обманывал?»",
+            "en": "“Have I ever deceived you?”"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«В ней 200 страниц приключений — будешь читать и не оторвёшься!»",
+            "uk": "«В ней 200 страниц приключений — будешь читать и не оторвёшься!»",
+            "en": "“It has 200 pages of adventure - you’ll read it and won’t be able to put it down!”"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ну поверь, я серьёзно!»",
+            "uk": "«Ну поверь, я серьёзно!»",
+            "en": "“Well, believe me, I’m serious!”"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "200 pages - proof! “You can’t tear yourself away” - feelings! Again, two legs at a time. And “Have I ever cheated?” - this is trust again. And “believe me, I’m serious” is also trust. The same leg three times - the stool will not stand up."
+      }
+    },
+    {
+      "step_id": "sc10_188",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Фраза: «Я твой лучший друг, поверь мне — эта книга хорошая!» Тут только доверие. Как починить?\n",
+        "uk": "Фраза: «Я твой лучший друг, поверь мне — эта книга хорошая!» Тут только доверие. Как починить?",
+        "en": "Phrase: “If you don’t do your homework now, it will be too late!” You'll regret it!\" There are only feelings here - fear. How to fix it?"
+      }
+    },
+    {
+      "step_id": "sc10_189",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какая добавка сделает убеждение сильнее?\n",
+        "uk": "Какая добавка сделает убеждение сильнее?",
+        "en": "What supplement will make your belief stronger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Я тебя когда-нибудь обманывал?»",
+            "uk": "«Я тебя когда-нибудь обманывал?»",
+            "en": "“And in general it will be terrible!”"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«В ней 200 страниц приключений — будешь читать и не оторвёшься!»",
+            "uk": "«В ней 200 страниц приключений — будешь читать и не оторвёшься!»",
+            "en": "“The teacher is checking tomorrow, and you have already completed 5 out of 8 tasks - just a little left!”"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ну поверь, я серьёзно!»",
+            "uk": "«Ну поверь, я серьёзно!»",
+            "en": "“I’m scared for you!”"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Teacher - trust! 5 out of 8 - proof! “There’s just a little bit left”—even positive feelings instead of fear. What about options A and B? Even more horror. Fear upon fear is not a belief, it is a horror film."
+      }
+    },
+    {
+      "step_id": "sc10_191",
+      "scene_id": "sc10",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "200 страниц — доказательства! «Не оторвёшься» — чувства! Опять две ножки за раз. А «я когда-нибудь обманывал?» — это снова доверие. И «ну поверь, я серьёзно» — тоже доверие. Одна и та же ножка три раза — табуретка не встанет.\n",
+        "uk": "200 страниц — доказательства! «Не оторвёшься» — чувства! Опять две ножки за раз. А «я когда-нибудь обманывал?» — это снова доверие. И «ну поверь, я серьёзно» — тоже доверие. Одна и та же ножка три раза — табуретка не встанет.",
+        "en": "Phrase: “This scooter weighs 3 kg and folds in 2 seconds.” Only evidence. How to fix it?"
+      }
+    },
+    {
+      "step_id": "sc10_192",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Фраза: «Если не сделаешь уроки сейчас — потом будет поздно! Пожалеешь!» Тут только чувства — страх. Как починить?\n",
+        "uk": "Фраза: «Если не сделаешь уроки сейчас — потом будет поздно! Пожалеешь!» Тут только чувства — страх. Как починить?",
+        "en": "What supplement will make your belief stronger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«И у него алюминиевая рама»",
+            "uk": "«И у него алюминиевая рама»",
+            "en": "“And it has an aluminum frame.”"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Его выбирают чемпионы — и ты будешь гонять как ветер!»",
+            "uk": "«Его выбирают чемпионы — и ты будешь гонять как ветер!»",
+            "en": "“Champions choose him - and you will drive like the wind!”"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ширина руля 42 сантиметра»",
+            "uk": "«Ширина руля 42 сантиметра»",
+            "en": "“The width of the steering wheel is 42 centimeters”"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Champions - trust! “Drive like the wind” - feelings! And options A and B are still numbers. Aluminum, centimeters - dad will appreciate it, but the child has already fallen asleep. Facts without emotions are like soup without salt."
+      }
+    },
+    {
+      "step_id": "sc10_194",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какая добавка сделает убеждение сильнее?\n",
+        "uk": "Какая добавка сделает убеждение сильнее?",
+        "en": "That's it! You now know how to not only UNDERSTAND other people’s beliefs, but also REPAIR weak ones. Remember: when something is missing, add ANOTHER leg, and do not lengthen the same one!"
+      }
+    },
+    {
+      "step_id": "sc11_195",
+      "scene_id": "sc11",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот и подходит к концу наш четвёртый день. Два урока — и вы стали совсем другими. Давайте вспомним, что мы сегодня прошли, потому что это был очень важный день.\n",
+        "uk": "Вот и подходит к концу наш четвёртый день. Два урока — и вы стали совсем другими. Давайте вспомним, что мы сегодня прошли, потому что это был очень важный день.",
+        "en": "Our fourth day is coming to an end. Two lessons and you become completely different. Let's remember what we went through today, because it was a very important day."
+      }
+    },
+    {
+      "step_id": "sc11_196",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На первом уроке мы узнали про четвёртый инструмент разведчика — ГЛАЗ. Язык тела, жесты, мимика, голос и интонация. Вы научились видеть то, что человек НЕ говорит словами. Скрещённые руки, бегающий взгляд, дрожащий голос — всё это подсказки.\n",
+        "uk": "На первом уроке мы узнали про четвёртый инструмент разведчика — ГЛАЗ. Язык тела, жесты, мимика, голос и интонация. Вы научились видеть то, что человек НЕ говорит словами. Скрещённые руки, бегающий взгляд, дрожащий голос — всё это подсказки.",
+        "en": "In the first lesson, we learned about the fourth reconnaissance tool - the EYE. Body language, gestures, facial expressions, voice and intonation. You have learned to see what a person does NOT say in words. Crossed arms, a shifting gaze, a trembling voice - these are all clues."
+      }
+    },
+    {
+      "step_id": "sc11_197",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А на втором уроке мы разобрали, КАК люди убеждают. Три способа: доверие, чувства и доказательства. Как три ножки табуретки — если одной не хватает, что-то не так.\n",
+        "uk": "А на втором уроке мы разобрали, КАК люди убеждают. Три способа: доверие, чувства и доказательства. Как три ножки табуретки — если одной не хватает, что-то не так.",
+        "en": "And in the second lesson we looked at HOW people convince. Three ways: trust, feelings and evidence. Like three legs of a stool - if one is missing, something is wrong."
+      }
+    },
+    {
+      "step_id": "sc11_198",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Зачем это вместе? Потому что в жизни всё работает одновременно! Когда вас убеждают — вы слышите СЛОВА (три способа) и видите ТЕЛО (четвёртый инструмент). Человек говорит «поверь мне» — а сам отводит глаза? Разведчик заметит!\n",
+        "uk": "Зачем это вместе? Потому что в жизни всё работает одновременно! Когда вас убеждают — вы слышите СЛОВА (три способа) и видите ТЕЛО (четвёртый инструмент). Человек говорит «поверь мне» — а сам отводит глаза? Разведчик заметит!",
+        "en": "Why is this together? Because in life everything works at the same time! When you are convinced, you hear the WORDS (three ways) and see the BODY (the fourth tool). A person says “trust me” - but he averts his eyes? The scout will notice!"
+      }
+    },
+    {
+      "step_id": "sc11_199",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Продавец говорит «последний шанс, торопись!» — только чувства, ни одного факта. И при этом нервно потирает руки. Два сигнала сразу: табуретка кривая И тело выдаёт неуверенность. Двойная подсказка для разведчика.\n",
+        "uk": "Продавец говорит «последний шанс, торопись!» — только чувства, ни одного факта. И при этом нервно потирает руки. Два сигнала сразу: табуретка кривая И тело выдаёт неуверенность. Двойная подсказка для разведчика.",
+        "en": "The seller says “last chance, hurry up!” - only feelings, not a single fact. And at the same time he rubs his hands nervously. Two signals at once: the stool is crooked and the body betrays uncertainty. Double tip for the scout."
+      }
+    },
+    {
+      "step_id": "sc11_200",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь самое главное. Вы научились не только ЗАМЕЧАТЬ чужие приёмы — но и СТРОИТЬ свои. Хотите убедить маму, друга, учителя? Готовьте три ножки. Доверие (Этос) — почему вам можно верить. Доказательства (Логос) — конкретные факты. Чувства (Пафос) — почему это важно и здорово.\n",
+        "uk": "А теперь самое главное. Вы научились не только ЗАМЕЧАТЬ чужие приёмы — но и СТРОИТЬ свои. Хотите убедить маму, друга, учителя? Готовьте три ножки. Доверие (Этос) — почему вам можно верить. Доказательства (Логос) — конкретные факты. Чувства (Пафос) — почему это важно и здорово.",
+        "en": "And now the most important thing. You have learned not only to NOTICE other people’s techniques, but also to BUILD your own. Do you want to convince your mother, friend, teacher? Prepare three legs. Trust (Ethos) - why you can be trusted. Evidence (Logos) - specific facts. Feelings (Paphos) - why it is important and healthy."
+      }
+    },
+    {
+      "step_id": "sc11_201",
+      "scene_id": "sc11",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И помните правило разведчика: когда вас убеждают ТОЛЬКО через одну ножку — задумайтесь. Только чувства без фактов? Подозрительно. Только факты без экспертов? Проверяйте. Только «поверь мне» без доказательств? Спрашивайте «а почему?»\n",
+        "uk": "И помните правило разведчика: когда вас убеждают ТОЛЬКО через одну ножку — задумайтесь. Только чувства без фактов? Подозрительно. Только факты без экспертов? Проверяйте. Только «поверь мне» без доказательств? Спрашивайте «а почему?»",
+        "en": "And remember the intelligence officer’s rule: when you are being convinced through ONLY one leg, think about it. Just feelings without facts? Suspicious. Just facts without experts? Check. Just “trust me” without proof? Ask “why?”"
+      }
+    },
+    {
+      "step_id": "sc11_202",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Домашнее задание! До следующего урока замечайте убеждения вокруг вас. Реклама по телевизору, просьба друга, совет родителей — определите: какие способы используются? Есть все три ножки или чего-то не хватает? Запомните один самый интересный пример — расскажете на следующем уроке!\n",
+        "uk": "Домашнее задание! До следующего урока замечайте убеждения вокруг вас. Реклама по телевизору, просьба друга, совет родителей — определите: какие способы используются? Есть все три ножки или чего-то не хватает? Запомните один самый интересный пример — расскажете на следующем уроке!",
+        "en": "Homework! Until the next lesson, notice the beliefs around you. An advertisement on TV, a request from a friend, advice from parents - determine: what methods are used? Are all three legs present or is something missing? Remember one of the most interesting examples - tell us in the next lesson!"
+      }
+    },
+    {
+      "step_id": "sc11_203",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы сегодня были настоящими разведчиками. Молодцы! До встречи на следующем занятии!\n",
+        "uk": "Вы сегодня были настоящими разведчиками. Молодцы! До встречи на следующем занятии!",
+        "en": "You were real scouts today. Well done! See you at the next lesson!"
+      }
+    }
+  ]
+}

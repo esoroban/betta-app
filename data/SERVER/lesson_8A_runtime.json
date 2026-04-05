@@ -1,0 +1,2679 @@
+{
+  "lesson_id": "8A",
+  "title": {
+    "ru": "Искажение слов — «Пугало»",
+    "uk": "Спотворення слів — «Лячо»",
+    "en": "Distorting Words — \"Scarecrow\""
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "Разминка — повторение сложных тем",
+        "uk": "Розминка — повторення складних тем",
+        "en": "Warm-up — Reviewing Complex Topics"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_5",
+        "sc1_6",
+        "sc1_8",
+        "sc1_9",
+        "sc1_11",
+        "sc1_12",
+        "sc1_14",
+        "sc1_15",
+        "sc1_17",
+        "sc1_18",
+        "sc1_20",
+        "sc1_21",
+        "sc1_23",
+        "sc1_24",
+        "sc1_26"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "Открытие — новый нечестный приём",
+        "uk": "Вас люблять в школі, але вони не люблять вас особисто!",
+        "en": "People at school like you, but they don't like you personally!"
+      },
+      "step_ids": [
+        "sc2_27",
+        "sc2_28",
+        "sc2_29",
+        "sc2_30",
+        "sc2_31",
+        "sc2_32",
+        "sc2_33",
+        "sc2_34"
+      ],
+      "first_step_index": 18
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Сценка — спор о экскурсии",
+        "uk": "Лячо — спотворення",
+        "en": "Scarecrow — distortion"
+      },
+      "step_ids": [
+        "sc3_35",
+        "sc3_36",
+        "sc3_37",
+        "sc3_38",
+        "sc3_39",
+        "sc3_40",
+        "sc3_41",
+        "sc3_42",
+        "sc3_43",
+        "sc3_44",
+        "sc3_45"
+      ],
+      "first_step_index": 26
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "Как распознать пугало — 4 приёма искажения",
+        "uk": "Ти: «Постривай. Я сказав, що школу можна ПОЛІПШИТИ, а не скасувати. Правильно я розумієшся?»",
+        "en": "You: \"Wait. I said school could be IMPROVED, not abolished. Do you understand me correctly?\""
+      },
+      "step_ids": [
+        "sc4_46",
+        "sc4_47",
+        "sc4_48",
+        "sc4_49",
+        "sc4_50",
+        "sc4_51",
+        "sc4_52",
+        "sc4_53",
+        "sc4_54",
+        "sc4_55",
+        "sc4_56"
+      ],
+      "first_step_index": 37
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "Практика — пугало или нет",
+        "uk": "Першим — повернуло свої слова і показало подвійне спотворення. Другим — здав позиції. Коли відступаєш, Лячо перемагає. А ведь ти був правий — уточни і стоїй на своєму!",
+        "en": "First one — returns his words and shows double distortion. Second one — gives up. When you retreat, Scarecrow wins. But you were right—clarify and stand your ground!"
+      },
+      "step_ids": [
+        "sc5_57",
+        "sc5_58",
+        "sc5_59",
+        "sc5_61",
+        "sc5_62",
+        "sc5_64",
+        "sc5_65",
+        "sc5_67",
+        "sc5_68",
+        "sc5_70",
+        "sc5_71",
+        "sc5_73",
+        "sc5_74",
+        "sc5_76",
+        "sc5_77",
+        "sc5_79",
+        "sc5_80",
+        "sc5_82",
+        "sc5_83",
+        "sc5_85",
+        "sc5_86"
+      ],
+      "first_step_index": 48
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Практика 2 — какой вид пугала?",
+        "uk": "«Ти розширив мої слова. Я сказав про ОДНЕ, а ти про ВСЕ.»",
+        "en": "\"You expanded my words. I said about ONE, and you about ALL.\""
+      },
+      "step_ids": [
+        "sc6_88",
+        "sc6_89",
+        "sc6_90",
+        "sc6_92",
+        "sc6_93",
+        "sc6_95",
+        "sc6_96",
+        "sc6_98",
+        "sc6_99",
+        "sc6_101",
+        "sc6_102",
+        "sc6_104",
+        "sc6_105",
+        "sc6_107",
+        "sc6_108",
+        "sc6_110",
+        "sc6_111",
+        "sc6_113",
+        "sc6_114",
+        "sc6_116",
+        "sc6_117",
+        "sc6_119",
+        "sc6_120"
+      ],
+      "first_step_index": 69
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "Техника уточнения — защита от пугала",
+        "uk": "Перскажи перш ніж критикувати.",
+        "en": "Retell before criticizing."
+      },
+      "step_ids": [
+        "sc7_122",
+        "sc7_123",
+        "sc7_124",
+        "sc7_125",
+        "sc7_126",
+        "sc7_127",
+        "sc7_128",
+        "sc7_129",
+        "sc7_130",
+        "sc7_131",
+        "sc7_132",
+        "sc7_133",
+        "sc7_134",
+        "sc7_135",
+        "sc7_136",
+        "sc7_137",
+        "sc7_138"
+      ],
+      "first_step_index": 92
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "Возражай красиво!",
+        "uk": "Нижче — п'ять діалогів. Для кожного скажіть: це справжня критика чи Лячо?",
+        "en": "Below are five dialogues. For each, say: is it real criticism or Scarecrow?"
+      },
+      "step_ids": [
+        "sc8_139",
+        "sc8_140",
+        "sc8_141",
+        "sc8_143",
+        "sc8_144",
+        "sc8_146",
+        "sc8_147",
+        "sc8_149",
+        "sc8_150",
+        "sc8_152",
+        "sc8_153"
+      ],
+      "first_step_index": 109
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "Честный пересказ и закрытие",
+        "uk": "ПІДСУМОК ДНЯ",
+        "en": "TODAY'S SUMMARY"
+      },
+      "step_ids": [
+        "sc9_155",
+        "sc9_156",
+        "sc9_157",
+        "sc9_158",
+        "sc9_160",
+        "sc9_161",
+        "sc9_163",
+        "sc9_164",
+        "sc9_166",
+        "sc9_167",
+        "sc9_169",
+        "sc9_170"
+      ],
+      "first_step_index": 120
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Прежде чем начать новую тему — быстрая разминка! Восемь раундов по самым хитрым темам, которые мы уже прошли. Каждый раунд — из разного урока. Кто помнит всё — тот настоящий мастер слова. Поехали!\n",
+        "uk": "Перш ніж почати нову тему — швидка розминка! Вісім раундів по найхитрішим темам, які ми вже пройшли. Кожен раунд — з різного уроку. Хто пам'ятає все — той справжній майстер слова. Поїхали!",
+        "en": "Before we start the new topic—a quick warm-up! Eight rounds of the trickiest topics we've already covered. Each round is from a different lesson. Whoever remembers everything is a true master of words. Let's go!"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Шоколад лучше овощей, потому что он вкуснее.»\n",
+        "uk": "«Шоколад краще овочів, тому що він смачніший.»",
+        "en": "\"Chocolate is better than vegetables because it's tastier.\""
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Шоколад лучше овощей, потому что он вкуснее.»\n",
+        "uk": "«Шоколад краще овочів, тому що він смачніший.»",
+        "en": "\"Chocolate is better than vegetables because it's tastier.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "False"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Better\" and \"tastier\" are personal feelings. Some people think carrots taste better than chocolate. Seriously, such people exist."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мнение! «Лучше» и «вкуснее» — это личные ощущения. Кому-то морковка вкуснее шоколада. Серьёзно, такие люди существуют.\n",
+        "uk": "Думка! «Краще» і «смачніше» — це особисті відчуття. Комусь морквина смачніша за шоколад. Серйозно, такі люди існують.",
+        "en": "Lena put on new sneakers and ran faster than everyone. Lena says: \"These sneakers helped!\""
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Лена надела новые кроссовки — и пробежала быстрее всех. Лена говорит: «Это кроссовки помогли!»\n",
+        "uk": "Лена надягла нові кросівки — і побігла швидше за всіх. Лена говорить: «Це кросівки допомогли!»",
+        "en": "Are new sneakers the cause of Lena's fast running?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Нужно проверить",
+            "uk": "Потрібно перевірити",
+            "en": "Need to check"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Need to check! Maybe Lena had trained. Maybe the others ran slower. Once is not proof. Need to run in the old sneakers and compare."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Новые кроссовки — причина быстрого бега Лены?\n",
+        "uk": "Нові кросівки — причина швидкого бігу Лени?",
+        "en": "Advertisement: \"Famous footballer Marco eats this yogurt! Be like Marco!\""
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Нужно проверить! Может, Лена тренировалась. Может, другие бежали медленнее. Один раз — не доказательство. Надо пробежать в старых кроссовках и сравнить.\n",
+        "uk": "Потрібно перевірити! Може, Лена тренувалася. Може, інші біглиши повільніше. Один раз — не доказ. Треба побігти в старих кросівках і порівняти.",
+        "en": "Which persuasion technique does the advertisement use?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (этос)",
+            "uk": "Довіра (етос)",
+            "en": "Trust (ethos)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Эмоции (пафос)",
+            "uk": "Емоції (патос)",
+            "en": "Emotions (pathos)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Факты (логос)",
+            "uk": "Факти (логос)",
+            "en": "Facts (logos)"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trust! The advertisement uses a celebrity's authority. But Marco is an expert in football, not yogurt. His fame is not proof of quality."
+      }
+    },
+    {
+      "step_id": "sc1_11",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама: «Этот йогурт ест знаменитый футболист Марко! Будь как Марко!»\n",
+        "uk": "Реклама: «Цей йогурт їсть знаменитий футболіст Марко! Будь як Марко!»",
+        "en": "Mom says: \"You never clean your room!\""
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой способ убеждения использует реклама?\n",
+        "uk": "Який спосіб переконання використовує реклама?",
+        "en": "Is there a word trap here?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (этос)",
+            "uk": "Довіра (етос)",
+            "en": "Yes, trap"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Эмоции (пафос)",
+            "uk": "Емоції (патос)",
+            "en": "No, it's accurate"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trap! \"Never\" is an absolute word. Likely you do sometimes clean your room. More accurate would be: \"You rarely clean your room.\""
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Доверие! Реклама использует авторитет знаменитости. Но Марко — эксперт по футболу, а не по йогуртам. Его слава — не доказательство качества.\n",
+        "uk": "Довіра! Реклама використовує авторитет знаменитості. Але Марко — експерт по футболу, а не по йогуртам. Його слава — не доказ якості.",
+        "en": "School principal: \"We have democracy, everyone has a voice!\" Then: \"We won't consider the opinions of those who have ever been late.\""
+      }
+    },
+    {
+      "step_id": "sc1_15",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мама говорит: «Ты никогда не убираешь свою комнату!»\n",
+        "uk": "Мама говорить: «Ти ніколи не прибираєш свою кімнату!»",
+        "en": "Is there a contradiction?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, протиріччя",
+            "en": "Yes, contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "No, it's logical"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Contradiction! Democracy for everyone, but then \"except those who were late\". That's not democracy. Word trap."
+      }
+    },
+    {
+      "step_id": "sc1_17",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Есть ли тут ловушка слов?\n",
+        "uk": "Є тут пастка слів?",
+        "en": "Now we're moving to a new topic. Ready?"
+      }
+    },
+    {
+      "step_id": "sc1_18",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ловушка! «Никогда» — слово-абсолют. Скорее всего, иногда ты всё-таки убираешь. Точнее было бы: «Ты редко убираешь комнату.»\n",
+        "uk": "Пастка! «Ніколи» — слово-абсолют. Скоріше за все, іноді ти все ж таки прибираєш. Точніше було б: «Ти рідко прибираєш кімнату.»",
+        "en": "Scene 1: What is a \"Scarecrow\"?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Уявіть: ви сказали щось просте, а людина робить з цього щось страшне!",
+            "en": "Imagine: you say something simple, and someone turns it into something scary!"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Наприклад, ви кажете: «Мені подобається гуляти в парку.» А людина відповідає: «Ти хочеш цілий день сидіти в парку і забути про школу!»",
+            "en": "For example, you say: \"I like walking in the park.\" And someone responds: \"You want to spend all day in the park and forget about school!\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Це називається спотворенням — або в нашому курсі — «Лячо». Кожне слово змінилося і вийшло щось жахливе!",
+            "en": "This is called distortion—or in our course—\"Scarecrow\". Every word changed and something scary came out!"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Scene 2: First Type of Scarecrow — Exaggeration"
+      }
+    },
+    {
+      "step_id": "sc1_20",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Директор школы: «У нас демократия, каждый имеет право голоса!» Потом: «Мнение тех, кто хоть раз опоздал, учитывать не будем.»\n",
+        "uk": "Директор школи: «У нас демократія, кожен має право голосу!» Потім: «Думку тих, хто хоч раз спізнився, враховувати не будемо.»",
+        "en": "Maxim says: \"I think some school rules are weird.\" What does Scarecrow do?"
+      }
+    },
+    {
+      "step_id": "sc1_21",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть ли противоречие?\n",
+        "uk": "Є тут протиріччя?",
+        "en": "It says: \"You think ALL rules are weird! You're against school!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, протиріччя",
+            "en": "Maxim said SOME—but Scarecrow changed it to ALL. This is expansion distortion."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "Scene 3: Second Type of Scarecrow — Word Removal"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Natasha says: \"I think sometimes homework could be made shorter.\" What does Scarecrow do?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "It says: \"You want to abolish homework!\""
+      }
+    },
+    {
+      "step_id": "sc1_23",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Противоречие! «Каждый имеет право голоса» и «опоздавших не слушаем» — одно исключает другое. Опоздавшие — тоже «каждый».\n",
+        "uk": "Протиріччя! Демократія для всіх, а потім — «крім тих, хто спізнювся». Це вже не демократія. Пастка слів.",
+        "en": "Natasha said \"sometimes\" and \"could\"—but Scarecrow removed those words. Now it sounds extreme."
+      }
+    },
+    {
+      "step_id": "sc1_24",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Петя: «Нужно пить воду.» Обоснование: «Если организм теряет больше воды, чем получает, клетки хуже работают — и человек чувствует усталость.»\n",
+        "uk": "А тепер ми переходимо до нової теми. Готові?",
+        "en": "Scene 4: Third Type of Scarecrow — Adding Words"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Артур каже: «Я люблю комп'ютерні ігри.» Що робить Лячо?",
+            "en": "Arthur says: \"I like computer games.\" What does Scarecrow do?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ненадёжный источник",
+            "uk": "Він говорить: «Ти хочеш грати в ігри цілий день замість школи і забути про друзів!»",
+            "en": "It says: \"You want to play games all day instead of school and forget your friends!\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Нападение на человека",
+            "uk": "Артур тільки сказав, що любить ігри. А Лячо додало цілий сценарій катастрофи.",
+            "en": "Arthur just said he likes games. But Scarecrow added a whole disaster scenario."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Scene 5: Practicing Recognizing Scarecrow"
+      }
+    },
+    {
+      "step_id": "sc1_26",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какой тип обоснования?\n",
+        "uk": "Сцена 1: Що таке «Лячо»?",
+        "en": "Let's practice. I'll give an example—then you say if it's real criticism or Scarecrow."
+      }
+    },
+    {
+      "step_id": "sc2_27",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На прошлом уроке мы научились распознавать нападение на человека. Но есть ещё один нечестный приём. Он хитрее, потому что выглядит как нормальный спор. Послушайте историю — и попробуйте заметить подвох.\n",
+        "uk": "Таке може мати сенс у поганій розмові, але звучить занадто жорстко.",
+        "en": "This might make sense in a bad conversation, but it sounds too harsh."
+      }
+    },
+    {
+      "step_id": "sc2_28",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "В классе выбирали, куда поехать на экскурсию. Маша встала и сказала: «Думаю, иногда можно есть сладкое. Давайте поедем на шоколадную фабрику — там и вкусно, и интересно узнать, как делают конфеты.»\n",
+        "uk": "Це справжня критика чи Лячо?",
+        "en": "In class we chose where to go on an excursion. Masha stood up and said: “I think sometimes you can eat sweets. Let's go to a chocolate factory - it's delicious and interesting to learn how sweets are made.\""
+      }
+    },
+    {
+      "step_id": "sc2_29",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Микола вскочил: «Значит, ты хочешь, чтобы дети ели только конфеты и испортили себе зубы?!» Класс засмеялся. Маша покраснела и не знала что ответить. Вроде бы Микола ответил на её слова. Но что-то было не так.\n",
+        "uk": "Справжня критика",
+        "en": "Mikola jumped up: “So you want the children to eat only candy and ruin their teeth?!” The class laughed. Masha blushed and didn’t know what to answer. It seems that Mikola responded to her words. But something was wrong."
+      }
+    },
+    {
+      "step_id": "sc2_30",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что не так в ответе Миколы? Что Маша сказала на самом деле?\n",
+        "uk": "Лячо — спотворення",
+        "en": "Что не так в ответе Миколы? Что Маша сказала на самом деле?"
+      }
+    },
+    {
+      "step_id": "sc2_31",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша сказала «иногда можно». А Микола превратил это в «только конфеты и испортить зубы». Он не обзывал Машу — вроде бы спорил с идеей. Но с идеей, которую сам придумал. С версией, которую Маша никогда не произносила.\n",
+        "uk": "Лячо! Це дуже мала та невизначена фраза. Але вона немов говорить: «Всі діти в школі ненавидять саме тебе». Надто суро.",
+        "en": "Scarecrow! That's a very vague phrase. But it sounds like: \"All the kids at school hate you specifically\". Too harsh."
+      }
+    },
+    {
+      "step_id": "sc2_32",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Представьте: рыцарь вызывает вас на бой. Он сильный, в доспехах, с мечом. Вы боитесь. И тогда берёте солому, набиваете мешок, рисуете лицо, ставите шлем — получается пугало. Бьёте мечом — раз! Пугало падает. «Я победил рыцаря!» — кричите вы.\n",
+        "uk": "Вас змусили повторити відповідь на домашнє завдання, коли вас запитали.",
+        "en": "Представьте: рыцарь вызывает вас на бой. Он сильный, в доспехах, с мечом. Вы боитесь. И тогда берёте солому, набиваете мешок, рисуете лицо, ставите шлем — получается пугало. Бьёте мечом — раз! Пугало падает. «Я победил рыцаря!» — кричите вы."
+      }
+    },
+    {
+      "step_id": "sc2_33",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Но рыцарь стоит рядом и смотрит с удивлением. Он целый. Вы победили пугало, а не его. Так и в споре: изменил чужие слова, победил глупую версию — значит, победил пугало, а не настоящий аргумент.\n",
+        "uk": "Це справжня критика чи Лячо?",
+        "en": "But the knight stands nearby and looks in surprise. He's whole. You defeated the scarecrow, not him. It’s the same in an argument: if you changed someone else’s words and defeated the stupid version, that means you won the scarecrow, not the real argument."
+      }
+    },
+    {
+      "step_id": "sc2_34",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Этот приём называется «Пугало» — искажение слов. Он встречается везде: в школе, дома, в интернете, в новостях. Сегодня научимся его узнавать и защищаться.\n",
+        "uk": "Справжня критика",
+        "en": "This technique is called “Scarecrow” - distortion of words. It is found everywhere: at school, at home, on the Internet, in the news. Today we will learn to recognize it and defend ourselves."
+      }
+    },
+    {
+      "step_id": "sc3_35",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — история из жизни одного класса. Обычный вторник, последний урок. Учительница объявила: «Ребята, в пятницу у нас экскурсия. Но куда — решаете вы. У кого есть предложения?»\n",
+        "uk": "Справжня критика! Це дуже конкретно. Можна дізнатися, про що говоримо.",
+        "en": "Real criticism! That's very specific. You know exactly what it's about."
+      }
+    },
+    {
+      "step_id": "sc3_36",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первым руку поднял Витя. Он встал, поправил очки и сказал серьёзно, как учёный на конференции: «Предлагаю музей космонавтики. Там настоящий скафандр и кусок метеорита. Один раз — но зато какой!»\n",
+        "uk": "Сцена 6: Як захищатися від Лячо",
+        "en": "Первым руку поднял Витя. Он встал, поправил очки и сказал серьёзно, как учёный на конференции: «Предлагаю музей космонавтики. Там настоящий скафандр и кусок метеорита. Один раз — но зато какой!»"
+      }
+    },
+    {
+      "step_id": "sc3_37",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик даже не поднял руку. Он развалился на стуле и громко сказал: «О, началось! Витя хочет, чтобы мы целый год ходили только по музеям! Будем пыль нюхать вместо нормального отдыха. Отличный план, Витя!»\n",
+        "uk": "Коли хтось робить Лячо, не потрібно падати у паніку. Знайти спотворення та назвати його.",
+        "en": "When someone does Scarecrow, don't panic. Find the distortion and call it out."
+      }
+    },
+    {
+      "step_id": "sc3_38",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Класс захихикал. Витя растерялся: «Подожди, я сказал один раз...» Но Дмитрик уже продолжал: «Следующее предложение — экскурсия в библиотеку? А потом в архив? Может, сразу в музей скуки?»\n",
+        "uk": "Схема захисту:",
+        "en": "The class chuckled. Vitya was confused: “Wait, I said it once...” But Dmitrik already continued: “The next proposal is an excursion to the library? And then to the archive? Maybe we should go straight to the Museum of Boredom?”"
+      }
+    },
+    {
+      "step_id": "sc3_39",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Смех стал громче. Витя покраснел. Его идея про космос — настоящий скафандр, метеорит — утонула в карикатуре, которую нарисовал Дмитрик. Вместо одной экскурсии — «целый год по музеям».\n",
+        "uk": "1. Знайти, що змінилось (розширено, виключено, додано)",
+        "en": "Смех стал громче. Витя покраснел. Его идея про космос — настоящий скафандр, метеорит — утонула в карикатуре, которую нарисовал Дмитрик. Вместо одной экскурсии — «целый год по музеям»."
+      }
+    },
+    {
+      "step_id": "sc3_40",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И тут Оленка подняла руку. Она говорила тихо, но весь класс замолчал: «Дмитрик, Витя сказал — один раз. В музей космонавтики. Откуда взялся целый год и музей скуки? Ты споришь не с Витей, а с пугалом.»\n",
+        "uk": "2. Назвати спотворення: «Постривай, ти змінив...»",
+        "en": "И тут Оленка подняла руку. Она говорила тихо, но весь класс замолчал: «Дмитрик, Витя сказал — один раз. В музей космонавтики. Откуда взялся целый год и музей скуки? Ты споришь не с Витей, а с пугалом.»"
+      }
+    },
+    {
+      "step_id": "sc3_41",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Класс притих. Дмитрик открыл рот — и закрыл. Потому что Оленка была права. Он не ответил на настоящую идею Вити. Он придумал смешную, глупую версию — и победил её. Но идея Вити — целая.\n",
+        "uk": "3. Повернути правду: «Я сказав/а...»",
+        "en": "The class fell silent. Dmitry opened his mouth and closed it. Because Olenka was right. He did not respond to Vitya's real idea. He came up with a funny, stupid version - and won it. But Vitya’s idea is whole."
+      }
+    },
+    {
+      "step_id": "sc3_42",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Как именно Дмитрик изменил слова Вити? Что Витя сказал, и во что это превратилось?\n",
+        "uk": "4. Запитати: «Правильно я розуміюся?»",
+        "en": "4. Ask: \"Do you understand me correctly?\""
+      }
+    },
+    {
+      "step_id": "sc3_43",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Витя сказал «один раз в музей космонавтики». Дмитрик превратил это в «целый год только по музеям». Преувеличил количество, убрал деталь про космос — и получилось пугало, с которым легко спорить.\n",
+        "uk": "Сцена 7: Приклади захисту",
+        "en": "Vitya said “once to the cosmonautics museum.” Dmytrik turned this into “a whole year of just museums.” I exaggerated the number, removed the detail about space - and it turned out to be a scarecrow that is easy to argue with."
+      }
+    },
+    {
+      "step_id": "sc3_44",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Почему класс смеялся? И почему Вите было так сложно ответить?\n",
+        "uk": "Приклад 1: Розширення",
+        "en": "Example 1: Expansion"
+      }
+    },
+    {
+      "step_id": "sc3_45",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Потому что пугало выглядит смешно — «музей скуки», «пыль нюхать». Трудно защищать идею, которую уже превратили в карикатуру. Именно поэтому «пугало» — такой опасный приём. Оно бьёт не логикой, а смехом.\n",
+        "uk": "Ти: «Я мислю, що школу можна поліпшити.» Людина робить Лячо: «Ти хочеш скасувати школу!» Твоя відповідь?",
+        "en": "You: \"I think school could be improved.\" Person does Scarecrow: \"You want to abolish school!\" Your response?"
+      }
+    },
+    {
+      "step_id": "sc4_46",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак, «пугало» — это когда твои слова изменяют, чтобы легче с ними спорить. Но как именно изменяют? Есть четыре способа. Каждый — с историей. Слушайте внимательно, потому что потом будете ловить их сами.\n",
+        "uk": "Приклад 2: Усунення слів",
+        "en": "So, a “bogeyman” is when your words are changed to make it easier to argue with them. But how exactly do they change? There are four ways. Each one has a story. Listen carefully, because then you will catch them yourself."
+      }
+    },
+    {
+      "step_id": "sc4_47",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Способ первый — преувеличение. Берут «немножко» и раздувают до «всегда». Ира на семейном ужине говорит: «Мне бы хотелось иногда самой выбирать, что надеть в школу.» Мама всплёскивает руками: «Ты хочешь ходить в школу в пижаме?!»\n",
+        "uk": "Ти: «Іноді я люблю побути сам і почитати.» Людина робить Лячо: «Ти ненавидиш людей і не маєш друзів!» Твоя відповідь?",
+        "en": "You: \"Sometimes I like to be alone and read.\" Person does Scarecrow: \"You hate people and have no friends!\" Your response?"
+      }
+    },
+    {
+      "step_id": "sc4_48",
+      "scene_id": "sc4",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ира сказала «иногда выбирать» — может, жёлтую кофту вместо синей. А мама превратила это в пижаму. «Иногда выбирать» стало «ходить в чём попало». Маленькое желание раздули до абсурда.\n",
+        "uk": "Ти: «Не так. Я сказав ІНОДІ люблю побути самому. Я люблю друзів, але потребую часу для себе. Це звичайно.»",
+        "en": "You: \"That's not right. I said I SOMETIMES like to be alone. I love my friends, but I need time for myself. That's normal.\""
+      }
+    },
+    {
+      "step_id": "sc4_49",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Способ второй — упрощение. Убирают важную деталь — и смысл меняется. Богдан на классном совете: «Думаю, на контрольной по физике можно пользоваться калькулятором, когда задача не про счёт, а про понимание формулы.»\n",
+        "uk": "Приклад 3: Додавання слів",
+        "en": "The second method is simplification. They remove an important detail and the meaning changes. Bogdan on class council: “I think you can use a calculator on a physics test when the task is not about counting, but about understanding the formula.”"
+      }
+    },
+    {
+      "step_id": "sc4_50",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Учитель разводит руками: «Богдан предлагает убрать устный счёт из программы! Через год никто не сможет сложить в уме два трёхзначных числа. Отличная идея, Богдан!» Класс смеётся. Богдан сидит красный.\n",
+        "uk": "Ти: «Я не люблю це завдання.» Людина робить Лячо: «Ти ненавидиш уроки і хочеш нічого не робити!» Твоя відповідь?",
+        "en": "You: \"I don't like this assignment.\" Person does Scarecrow: \"You hate classes and want to do nothing!\" Your response?"
+      }
+    },
+    {
+      "step_id": "sc4_51",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Богдан сказал «калькулятор на задачах про формулы». Учитель убрал условие и раздул до «убрать устный счёт из программы». Деталь исчезла — осталось пугало, с которым легко спорить.\n",
+        "uk": "Ти: «Постривай. Я сказав, що не люблю ЦЕ ЗАВДАННЯ, а не УСІ уроки. І я не сказав, що не хочу нічого робити. Правильно розумієшся?»",
+        "en": "You: \"Wait. I said I don't like THIS ASSIGNMENT, not all classes. And I didn't say I want to do nothing. Do you get it?\""
+      }
+    },
+    {
+      "step_id": "sc4_52",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Способ третий — добавление. Приписывают то, чего человек вообще не говорил. Катя за обедом: «По-моему, суп сегодня пересолен.» Бабушка обиженно: «Значит, тебе не нравится моя еда? Я полдня у плиты стояла, а ты — неблагодарная!»\n",
+        "uk": "Приклад 4: Подвійне спотворення",
+        "en": "The third method is adding. They attribute something that the person did not say at all. Katya at lunch: “I think the soup is too salty today.” Grandmother offended: “So you don’t like my food? I stood at the stove for half a day, and you are ungrateful!”"
+      }
+    },
+    {
+      "step_id": "sc4_53",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Катя сказала только про соль. Только! А бабушка добавила «не нравится еда» и «неблагодарная» — ничего этого Катя не произносила. Пугало выросло из одного слова «пересолен» в целую обиду.\n",
+        "uk": "Іван сказав: «Я люблю читати книги.» Йому відповіли: «Ти думаєш, що всі повинні сидіти в бібліотеці і забути про спорт!»",
+        "en": "Ivan said: \"I like to read books.\" He was answered: \"You think everyone should sit in the library and forget about sports!\""
+      }
+    },
+    {
+      "step_id": "sc4_54",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Способ четвёртый — изменение смысла. Делают идею злой или глупой. Максим на перемене: «Может, стоит иногда играть в новые игры, не только в футбол.» Сергей: «А, ты ненавидишь футбол и хочешь, чтобы мы бросили команду!»\n",
+        "uk": "Яке заперечення Івана краще?",
+        "en": "The fourth method is changing the meaning. They make the idea evil or stupid. Maxim at recess: “Maybe we should sometimes play new games, not just football.” Sergei: “Oh, you hate football and want us to quit the team!”"
+      }
+    },
+    {
+      "step_id": "sc4_55",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Иногда в новые игры» превратилось в «ненавидишь футбол и бросить команду». Максим предложил разнообразие — а получил обвинение в предательстве. Смысл вывернули наизнанку.\n",
+        "uk": "«Дозволь уточнити: я сказав, що люблю читати, а не що всі обов'язані і спорт не потрібен»",
+        "en": "\"Let me clarify: I said I like to read, not that everyone must and sports aren't needed\""
+      }
+    },
+    {
+      "step_id": "sc4_56",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Четыре способа сделать пугало: раздуть, упростить, добавить, вывернуть. И главный сигнал: если после чьего-то ответа вам хочется крикнуть «Я этого не говорил!» — перед вами пугало. Запомните это ощущение.\n",
+        "uk": "«Добре, забудь, я нічого не говорив...»",
+        "en": "Четыре способа сделать пугало: раздуть, упростить, добавить, вывернуть. И главный сигнал: если после чьего-то ответа вам хочется крикнуть «Я этого не говорил!» — перед вами пугало. Запомните это ощущение."
+      }
+    },
+    {
+      "step_id": "sc5_57",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — ваша очередь. Десять раундов. Я читаю, что человек сказал, и что ему приписали. Вы голосуете: слова передали правильно — или это пугало?\n",
+        "uk": "Сцена 8: Чесний пересказ і закриття",
+        "en": "Теперь — ваша очередь. Десять раундов. Я читаю, что человек сказал, и что ему приписали. Вы голосуете: слова передали правильно — или это пугало?"
+      }
+    },
+    {
+      "step_id": "sc5_58",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Можно иногда играть в компьютер после уроков.» Приписали: «Ты хочешь сидеть в компьютере целый день и забросить учёбу!»\n",
+        "uk": "Ми навчилися захищатися від Лячо. Але є ще одне важливе правило — як самому НЕ робити Лячо. Перш ніж відповісти, повтори своїми словами, що сказав опонент, і запитай: «Правильно я розумію?»",
+        "en": "We learned to defend against Scarecrow. But there's one more important rule—how NOT to make Scarecrow yourself. Before answering, repeat in your own words what your opponent said and ask: \"Do I understand correctly?\""
+      }
+    },
+    {
+      "step_id": "sc5_59",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Слова передали правильно?\n",
+        "uk": "Якщо опонент скаже «Так» — відповідай. Якщо скаже «Ні, я мав на увазі інше» — уточни. Це правило чесного спору. Давайте потренуємось: я дам два пересказу — один чесний, один Лячо.",
+        "en": "If your opponent says \"Yes\"—answer. If they say \"No, I meant something else\"—clarify. This is the rule of honest debate. Let's practice: I'll give two retellings—one honest, one Scarecrow."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Оригінал: «Мені здається, домашніх завдань іноді буває багато.» Який пересказ чесний?",
+            "en": "Original: \"I think sometimes there's a lot of homework.\" Which retelling is honest?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Який пересказ чесний?",
+            "en": "Which retelling is honest?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"You think sometimes there's a lot of homework?\""
+      }
+    },
+    {
+      "step_id": "sc5_61",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! «Иногда после уроков» превратили в «целый день». Классическое преувеличение — способ номер один.\n",
+        "uk": "«Ти думаєш, що іноді домашок багато?»",
+        "en": "Сказали: «Мне нравятся кошки.» Приписали: «Тебе нравятся домашние животные, которые мяукают.»"
+      }
+    },
+    {
+      "step_id": "sc5_62",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «Мне нравятся кошки.» Приписали: «Тебе нравятся домашние животные, которые мяукают.»\n",
+        "uk": "«Ти проти домашніх завдань!»",
+        "en": "First! Kept \"sometimes\" and \"I think\". Second—removed both words and blew it up into a protest."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Оригінал: «Було б здорово, якби перерви були довшими.» Який пересказ чесний?",
+            "en": "Original: \"It would be great if breaks were longer.\" Which retelling is honest?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Який пересказ чесний?",
+            "en": "Which retelling is honest?"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "\"You want no classes at all!\""
+      }
+    },
+    {
+      "step_id": "sc5_64",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Слова передали правильно?\n",
+        "uk": "Перший! Зберіг «іноді» і «здається». Другий — викинув обидва слова і раздув до протесту.",
+        "en": "Сказали: «Думаю, можно позволить детям позже ложиться в выходные.» Приписали: «Ты считаешь, что дети вообще не должны спать!»"
+      }
+    },
+    {
+      "step_id": "sc5_65",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Правильно! Кошки — это и есть домашние животные, которые мяукают. Смысл сохранён, ничего не добавили.\n",
+        "uk": "«Ти хочеш, щоб уроків взагалі не було!»",
+        "en": "Second! Conveyed the idea without distortion. First—classic Scarecrow exaggeration."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Оригінал: «Я більше люблю літо, ніж зиму.» Який пересказ чесний?",
+            "en": "Original: \"I like summer more than winter.\" Which retelling is honest?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Який пересказ чесний?",
+            "en": "Which retelling is honest?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"Do you like summer more than winter?\""
+      }
+    },
+    {
+      "step_id": "sc5_67",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Думаю, можно позволить детям позже ложиться в выходные.» Приписали: «Ты считаешь, что дети вообще не должны спать!»\n",
+        "uk": "«Тобі б хотілось довших перерв?»",
+        "en": "They said: “It’s better to do cleaning on Saturdays - it’s more convenient.” They added: “So, on other days you can live in the dirt?!”"
+      }
+    },
+    {
+      "step_id": "sc5_68",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пугало или нет?\n",
+        "uk": "Другий! Передав думку без спотворень. Перший — класичне Лячо-перебільшення.",
+        "en": "First! \"Like more\" is not \"hate\". Honest retelling preserves the softness of the original."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Оригінал: «Я більше люблю літо, ніж зиму.» Який пересказ чесний?",
+            "en": "Original: \"I think toys could be allowed at school.\" Which retelling is honest?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Який пересказ чесний?",
+            "en": "Which retelling is honest?"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"You want to play instead of classes!\""
+      }
+    },
+    {
+      "step_id": "sc5_70",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! «Позже в выходные» — это лишний час, а не бессонница навсегда. Преувеличение до абсурда.\n",
+        "uk": "«Тобі літо подобається більше, ніж зима?»",
+        "en": "\"You think toys at school are normal?\""
+      }
+    },
+    {
+      "step_id": "sc5_71",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «Уборку лучше делать по субботам — так удобнее.» Приписали: «Значит, в остальные дни можно жить в грязи?!»\n",
+        "uk": "«Ти ненавидиш зиму!»",
+        "en": "Second! First—added \"instead of classes\", which wasn't there at all. Scarecrow."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Сьогодні ви дізналися про потужну техніку — «Лячо». Коли хтось спотворює ваші слова, ви тепер озброєні: знаходите спотворення, визначаєте вид і спокійно уточняєте. А коли спорите самі — спочатку чесно перескажіть і запитайте: «Правильно я розумію?»",
+            "en": "Today you learned a powerful technique—\"Scarecrow\". When someone distorts your words, you're now armed: find the distortion, identify the type, and calmly clarify. And when arguing yourself—first retell honestly and ask: \"Do I understand correctly?\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Справжній майстер спору не ставить Лячо — він сражається зі справжнім рицаром. Це складніше, але тільки так можна по-справжньому перемогти. А попереду у нас ще багато секретів — до зустрічі на наступному уроці!",
+            "en": "A true master of debate doesn't set up Scarecrows—they fight with a real knight. This is harder, but that's the only way to truly win. And there are many more secrets ahead—see you in the next lesson!"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Пугало! «Люблю больше» не значит «ненавижу остальные». Изменение смысла — способ четвёртый. Любить одно — не значит ненавидеть другое."
+      }
+    },
+    {
+      "step_id": "sc5_73",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало или нет?\n",
+        "uk": "Перший! «Більше люблю» — це не «ненавиджу». Чесний пересказ зберігає м'якість оригіналу.",
+        "en": "Imagine: you say something simple, and your opponent turns it into something scary. For example..."
+      }
+    },
+    {
+      "step_id": "sc5_74",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пугало! Добавили то, чего не было. «Лучше по субботам» не значит «в остальные дни — грязь». Способ третий — добавление.\n",
+        "uk": "«Ти хочеш грати замість уроків!»",
+        "en": "Scene 2: Three Types of Scarecrow"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Тип 1: Розширення — робить найменше велике",
+            "en": "Type 1: Expansion—makes the smallest big"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Ти: «Мені нравится соус на піцці.» Лячо: «Ти їш лише соус, ненавидиш піцу!»",
+            "en": "You: \"I like the sauce on pizza.\" Scarecrow: \"You only eat sauce, you hate pizza!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Scarecrow! Two tricks at once: exaggerating “sometimes” → “forbid” and adding “get wet in the rain.” Double strike."
+      }
+    },
+    {
+      "step_id": "sc5_76",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Я люблю яблоки больше других фруктов.» Приписали: «Ты ненавидишь все остальные фрукты!»\n",
+        "uk": "«Ти вважаєш, що іграшки в школі — це нормально?»",
+        "en": "They said: “Our class is noisy.” They wrote: “You think it’s too loud in our class.”"
+      }
+    },
+    {
+      "step_id": "sc5_77",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пугало или нет?\n",
+        "uk": "Другий! Перший — додав «замість уроків», якого і близько не було. Лячо.",
+        "en": "You: \"Traveling would be interesting.\" Scarecrow: \"You want to travel INSTEAD of school!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Сьогодні ви дізналися про потужну техніку — «Лячо». Коли хтось спотворює ваші слова, ви тепер озброєні: знаходите спотворення, визначаєте вид і спокійно уточняєте. А коли спорите самі — спочатку чесно перескажіть і запитайте: «Правильно я розумію?»",
+            "en": "Type 2: Removal—excludes important words"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Справжній майстер спору не ставить Лячо — він сражається зі справжнім рицаром. Це складніше, але тільки так можна по-справжньому перемогти. А попереду у нас ще багато секретів — до зустрічі на наступному уроці!",
+            "en": "You: \"SOMETIMES I like to listen to music.\" Scarecrow: \"You're ALWAYS in headphones, no work!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "You: \"I think there could be MORE time for creativity.\" Scarecrow: \"You want to abolish regular subjects!\""
+      }
+    },
+    {
+      "step_id": "sc5_79",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! «Люблю больше» не значит «ненавижу остальные». Изменение смысла — способ четвёртый. Любить одно — не значит ненавидеть другое.\n",
+        "uk": "Сцена 1: Що таке Лячо?",
+        "en": "Type 3: Addition—makes up what wasn't there"
+      }
+    },
+    {
+      "step_id": "sc5_80",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «Хорошо бы иногда ходить в школу пешком, а не на машине.» Приписали: «Ты хочешь запретить родителям возить детей! Пусть мокнут под дождём!»\n",
+        "uk": "Уявіть: ви сказали щось просте, а опонент робить з цього щось страшне. Наприклад...",
+        "en": "You: \"I like computer games.\" Scarecrow: \"You want to play ALL DAY INSTEAD OF SCHOOL!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Ти: «Спорт — це цікаво.» Лячо: «Ти НІКОЛИ не буєш, ЗАБУВ про книги!»",
+            "en": "You: \"Sports are interesting.\" Scarecrow: \"You NEVER read, FORGOT about books!\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Отже, три методи: розширення, усунення, додавання.",
+            "en": "So, three methods: expansion, removal, addition."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Scene 3: Recognizing Scarecrow in Real Conversations"
+      }
+    },
+    {
+      "step_id": "sc5_82",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало или нет?\n",
+        "uk": "Сцена 2: Три види Лячо",
+        "en": "When Scarecrow activates, you can often notice:"
+      }
+    },
+    {
+      "step_id": "sc5_83",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пугало! Сразу два приёма: преувеличение «иногда» → «запретить» и добавление «мокнут под дождём». Двойной удар.\n",
+        "uk": "Твоя позиція",
+        "en": "1. Extreme language (\"ALWAYS\", \"NEVER\", \"ALL\")"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "2. Різке розширення («замість школи», «забути про...»)",
+            "en": "2. Sudden expansion (\"instead of school\", \"forget about...\")"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "3. Додавання мотивів («ти хочеш», «ти ненавидиш»)",
+            "en": "3. Adding motives (\"you want\", \"you hate\")"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "4. Loss of important words (\"sometimes\", \"maybe\", \"I think\")"
+      }
+    },
+    {
+      "step_id": "sc5_85",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «В нашем классе шумно.» Приписали: «Ты думаешь, что в нашем классе слишком громко.»\n",
+        "uk": "Позиція Лячо",
+        "en": "Scene 4: How to Respond to Scarecrow"
+      }
+    },
+    {
+      "step_id": "sc5_86",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пугало или нет?\n",
+        "uk": "Ти: «Подорож було б цікаво.» Лячо: «Ти хочеш у подорож ЗАМІСТЬ школи!»",
+        "en": "Four-step scheme:"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Правильно",
+            "uk": "Тип 2: Усунення — виключає важливі слова",
+            "en": "1. NOTICE WHAT CHANGED"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Ти: «ІНОДІ я люблю наслуховуватися музики.» Лячо: «Ти ЗАВЖДИ в навушниках, ніякої роботи!»",
+            "en": "\"Wait, that's not what I said...\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Правильно! «Слишком много» и «многовато» — одна мысль, разными словами. Честный пересказ. Десять из десяти — вы теперь настоящие детективы пугал!"
+      }
+    },
+    {
+      "step_id": "sc6_88",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь сложнее. Вы уже знаете, что пугало бывает разным. Преувеличение — раздули. Упрощение — убрали важную деталь. Добавление — приписали лишнее. Ваша задача — определить, какой именно способ использовали.\n",
+        "uk": "3. ПОВТОРИ СПРАВЖНЮ ПОЗИЦІЮ",
+        "en": "Now it's more difficult. You already know that there are different types of scarecrows. Exaggeration - blown out of proportion. Simplification - removed an important detail. Addition - added extra. Your task is to determine which method was used."
+      }
+    },
+    {
+      "step_id": "sc6_89",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Иногда полезно делать перерывы во время учёбы.» Приписали: «Ты считаешь, что можно вообще не учиться!»\n",
+        "uk": "«Я сказав/а [оригінал], а не [спотворення].»",
+        "en": "\"I said [original], not [distortion].\""
+      }
+    },
+    {
+      "step_id": "sc6_90",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой способ пугала?\n",
+        "uk": "4. ЗАПИТАЙ, ЧИ РОЗУМУЮТЬ",
+        "en": "4. ASK IF THEY UNDERSTAND"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "«Правильно я розумію?» або «Тепер ясно?»",
+            "en": "\"Do you understand now?\" or \"Is it clear now?\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "Сцена 5: Три практичні приклади",
+            "en": "Scene 5: Three Practical Examples"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "ПРИКЛАД 1: Розширення",
+            "en": "EXAMPLE 1: Expansion"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "YOU: \"I like this movie.\""
+      }
+    },
+    {
+      "step_id": "sc6_92",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Преувеличение. «Иногда перерывы» превратили в «вообще не учиться». Раздули до крайности.\n",
+        "uk": "ТИ: «Мені подобається цей фільм.»",
+        "en": "SCARECROW: \"You want to watch movies instead of studying! You don't care about school!\""
+      }
+    },
+    {
+      "step_id": "sc6_93",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «Можно обсуждать правила школы.» Приписали: «Ты хочешь, чтобы дети сами устанавливали любые правила!»\n",
+        "uk": "ЛЯЧО: «Ти хочеш дивитися кіно замість навчання! Ти не цікавишся школою!»",
+        "en": "YOUR DEFENSE:"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "«Постривай. Я сказав, що мені подобається ЦЕЙ ФІЛЬМ, а не що я хочу дивитися кіно ЗАМІСТЬ школи. Правильно я розумію, як ти це почув?»",
+            "en": "\"Wait. I said I like THIS MOVIE, not that I want to watch movies INSTEAD of school. Did you hear me correctly?\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "ПРИКЛАД 2: Усунення",
+            "en": "EXAMPLE 2: Removal"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "ТИ: «МОЖЛИВО, було б цікаво спробувати інший підхід.»",
+            "en": "YOU: \"MAYBE it would be interesting to try a different approach.\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "SCARECROW: \"You want to change EVERYTHING! You're against tradition!\""
+      }
+    },
+    {
+      "step_id": "sc6_95",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какой способ пугала?\n",
+        "uk": "ТВІЙ ЗАХИСТ:",
+        "en": "They said: “I am against tests that are too difficult.” They wrote: “You are against all controls in general.”"
+      }
+    },
+    {
+      "step_id": "sc6_96",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Преувеличение. Обсуждать правила — не значит управлять всей школой. «Обсуждать» раздули до «устанавливать любые».\n",
+        "uk": "ЛЯЧО: «Ти хочеш змінити ВСЕ! Ти проти традицій!»",
+        "en": "\"You dropped the word MAYBE. I said MAYBE try, not CHANGE EVERYTHING. That's different.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "ПРИКЛАД 3: Додавання",
+            "en": "EXAMPLE 3: Addition"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "ТИ: «Мені подобаються комп'ютери.»",
+            "en": "YOU: \"I like computers.\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "ЛЯЧО: «Ти хочеш гуляти в інтернеті ЗАМІСТЬ УРОКІВ і ЗАБУТИ про ДРУЗІВ!»",
+            "en": "SCARECROW: \"You want to surf the internet INSTEAD OF CLASSES and FORGET about FRIENDS!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Simplification! The word “too” disappeared - and it was the word that changed the whole meaning. They removed the detail and the position became radical."
+      }
+    },
+    {
+      "step_id": "sc6_98",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Я против слишком сложных контрольных.» Приписали: «Ты против всех контрольных вообще.»\n",
+        "uk": "ТВІЙ ЗАХИСТ:",
+        "en": "\"Wait. I only said I like computers. I didn't say anything about instead of classes or friends. You added that yourself.\""
+      }
+    },
+    {
+      "step_id": "sc6_99",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой способ пугала?\n",
+        "uk": "«Ви выбросили слово МОЖЛИВО. Я сказав/а МОЖЛИВО спробувати, а не ЗМІНИТИ ВСЕ. Це інша пропозиція.»",
+        "en": "Scene 6: Group Practice"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "ПРИКЛАД 3: Додавання",
+            "en": "Dialogue 1:"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "ТИ: «Мені подобаються комп'ютери.»",
+            "en": "\"You said you want to go hiking\"—\"No, I said MAYBE go if it's sunny.\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "ЛЯЧО: «Ти хочеш гуляти в інтернеті ЗАМІСТЬ УРОКІВ і ЗАБУТИ про ДРУЗІВ!»",
+            "en": "Definition: SCARECROW—word removal (\"maybe\", \"if\")"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Defense: \"I said MAYBE, not definitely. And ONLY if the weather is good.\""
+      }
+    },
+    {
+      "step_id": "sc6_101",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Упрощение! Слово «слишком» исчезло — а именно оно меняло весь смысл. Убрали деталь — и позиция стала радикальной.\n",
+        "uk": "ТВІЙ ЗАХИСТ:",
+        "en": "They said, “I don’t like this movie.” They wrote: “You hate all modern cinema.”"
+      }
+    },
+    {
+      "step_id": "sc6_102",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «На перемене можно шуметь.» Приписали: «Ты считаешь, что на уроках тоже можно шуметь.»\n",
+        "uk": "«Постривай. Я сказав лише, що люблю комп'ютери. Я не сказав нічого про замість уроків або про друзів. Ти додав це сам/сама.»",
+        "en": "\"You don't like the teacher\"—\"No, I said this lesson doesn't interest me.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "Визначення: ЛЯЧО — розширення (от предмета до людини)",
+            "en": "Definition: SCARECROW—expansion (from subject to person)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "Защита: «Я казав про урок, а не про вчителя. Це різні речи.»",
+            "en": "Defense: \"I talked about the lesson, not the teacher. Those are different things.\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "Діалог 3:",
+            "en": "Dialogue 3:"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "\"You want to play games instead of classes\"—\"I NEVER said anything about classes. I said I like games.\""
+      }
+    },
+    {
+      "step_id": "sc6_104",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какой способ?\n",
+        "uk": "Сцена 6: Колективна практика",
+        "en": "Definition: SCARECROW—addition (\"instead of classes\" wasn't in the original)"
+      }
+    },
+    {
+      "step_id": "sc6_105",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Упрощение! Убрали ключевое — «на перемене». Без этой детали смысл совсем другой.\n",
+        "uk": "Защита: «Я сказав МОЖЛИВО, а не захотіть. І ТІЛЬКИ якщо буде погода.»",
+        "en": "Defense: \"You added 'instead of classes'. I didn't say that.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "Сцена 7: Як самому не робити Лячо",
+            "en": "Scene 7: How NOT to Make Scarecrow Yourself"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "Це найважливіше правило для СПРАВЕДЛИВОГО СПОРУ.",
+            "en": "This is the most important rule for a FAIR DEBATE."
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "ПРАВИЛО: Перш ніж виступати, ПЕРСКАЖИ СВОЇМИ СЛОВАМИ те, що сказав інший.",
+            "en": "RULE: Before you respond, RETELL IN YOUR OWN WORDS what the other person said."
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Example of wrong way:"
+      }
+    },
+    {
+      "step_id": "sc6_107",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Мне не нравится этот фильм.» Приписали: «Ты ненавидишь всё современное кино.»\n",
+        "uk": "Діалог 2:",
+        "en": "Ivan: \"I like spending time on the internet.\" You: \"You want to forget about friends!\" WRONG!"
+      }
+    },
+    {
+      "step_id": "sc6_108",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой способ?\n",
+        "uk": "«Ти не любиш учителя» — «Ні, я казав, що цей урок не цікавий мені.»",
+        "en": "Example of correct way:"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "Визначення: ЛЯЧО — розширення (от предмета до людини)",
+            "en": "Ivan: \"I like spending time on the internet.\" You: \"Wait, if I understand correctly, you're saying you like time on the internet?\" Ivan: \"Yes.\" You: \"OK, but that doesn't mean you forgot about friends, right?\" Ivan: \"Right, I love my friends.\" CORRECT!"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "Защита: «Я казав про урок, а не про вчителя. Це різні речи.»",
+            "en": "Scene 8: Three Defense Schemes Against Scarecrow"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "Діалог 3:",
+            "en": "If you're accused of expansion:"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "\"I said [ORIGINAL], not [EXPANSION]. These are different things.\""
+      }
+    },
+    {
+      "step_id": "sc6_110",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Добавление! «Всё современное кино» — это приписали. Человек говорил про один фильм, а не про целую эпоху.\n",
+        "uk": "«Ти хочеш грати в ігри замість уроків» — «Я ВЗАГАЛІ не казав про уроки. Я казав, що люблю ігри.»",
+        "en": "If you're accused of word removal:"
+      }
+    },
+    {
+      "step_id": "sc6_111",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «Некоторым детям нужно больше времени на задание.» Приписали: «Ты хочешь снизить требования ко всем.»\n",
+        "uk": "Визначення: ЛЯЧО — додавання (замість уроків не було в оригіналі)",
+        "en": "\"You removed the word [IMPORTANT WORD]. I said [WITH THE WORD], not [WITHOUT IT].\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "Якщо вас звинувачують в додаванні:",
+            "en": "If you're accused of addition:"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "«Я ВЗАГАЛІ це не казав/а. Ви придумали [ДОДАНЕ]. Я кажу лише про [ОРИГІНАЛ].»",
+            "en": "\"I NEVER said that. You made up [ADDITION]. I'm only talking about [ORIGINAL].\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "Сцена 9: Коли Лячо стає серйозним",
+            "en": "Scene 9: When Scarecrow Becomes Serious"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Sometimes Scarecrow is used to trick and hurt."
+      }
+    },
+    {
+      "step_id": "sc6_113",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какой способ?\n",
+        "uk": "Защита: «Ви додали «замість уроків». Я цього не казав.»",
+        "en": "For example, in court. In elections. In accusations."
+      }
+    },
+    {
+      "step_id": "sc6_114",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Преувеличение! «Некоторым» превратилось во «всем». Раздули масштаб — и предложение стало звучать нелепо.\n",
+        "uk": "Приклад неправильного способу:",
+        "en": "You need to recognize this and respond most clearly."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "Приклад серйозного Лячо:",
+            "en": "Example of serious Scarecrow:"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "Політик А каже: «Міста повинні розвиватися екологічно.» Політик Б каже: «Опонент каже, ми повинні знищити фабрики! Він нас придушить!» ЛЯЧО!",
+            "en": "Politician A says: \"Cities should develop ecologically.\" Politician B says: \"My opponent says we must destroy factories! He'll ruin us!\" SCARECROW!"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "Як відповісти:",
+            "en": "How to respond:"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "\"That's not true. I said about ECOLOGICAL DEVELOPMENT, not destruction. You distorted my words.\""
+      }
+    },
+    {
+      "step_id": "sc6_116",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сказали: «Лучше обсуждать проблемы спокойно.» Приписали: «Ты запрещаешь людям выражать эмоции.»\n",
+        "uk": "Вислав: «Я люблю проводити час в інтернеті.» Ти: «Ти хочеш забути про друзів!» НЕПРАВИЛЬНО!",
+        "en": "It's important that people hear the TRUTH, not distortions."
+      }
+    },
+    {
+      "step_id": "sc6_117",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой способ?\n",
+        "uk": "Приклад правильного способу:",
+        "en": "Scene 10: Consolidation"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "Іван: «Я люблю проводити час в інтернеті.» Ти: «Постривай, если я правильно розумію, ти говоришь, що тобі подобається час в інтернеті?» Іван: «Да.» Ти: «Добре, але це не означає, что ты забув про друзів, правда?» Іван: «Верно, друзів я люблю.» ПРАВИЛЬНО!",
+            "en": "You now know about Scarecrow. It's a powerful distortion technique."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "Сцена 8: Три схеми захисту від Лячо",
+            "en": "Three types:"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "Якщо вас звинувачують в розширенні:",
+            "en": "1. Expansion—makes small big"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Преувеличение! «Пересмотреть расписание» — это корректировка. «Работает ужасно» — приговор. Раздули до критики всей системы."
+      }
+    },
+    {
+      "step_id": "sc6_119",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Добавление! Про запрет никто не говорил. «Спокойно обсуждать» — это не «запретить эмоции». Приписали то, чего не было.\n",
+        "uk": "«Я сказав [ОРИГІНАЛ], а не [РОЗШИРЕННЯ]. Це інші речи.»",
+        "en": "And the final one is the trickiest. They said: “Some tasks can be made easier.” They wrote: “You want to cancel difficult tasks because children have a hard time thinking.”"
+      }
+    },
+    {
+      "step_id": "sc6_120",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказали: «Можно есть сладкое по праздникам.» Приписали: «Ты разрешаешь детям есть сколько угодно сладкого.»\n",
+        "uk": "Якщо вас звинувачують в усуненні слів:",
+        "en": "How to defend:"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Преувеличение",
+            "uk": "1. ЗАПИШИ, ЩО ЗМІНИЛОСЬ",
+            "en": "1. NOTICE WHAT CHANGED"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Упрощение",
+            "uk": "2. НАЗВИ ВИД",
+            "en": "2. NAME THE TYPE"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Добавление",
+            "uk": "3. ПОВТОРИ СПРАВЖНЮ ПОЗИЦІЮ",
+            "en": "3. REPEAT YOUR REAL POSITION"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Сразу два способа",
+            "uk": "4. ЗАПИТАЙ, ЧИ РОЗУМІЮТЬ",
+            "en": "4. ASK IF THEY UNDERSTAND"
+          }
+        }
+      ],
+      "correct_answer": "opt_4",
+      "explanation": {
+        "en": "Two at once! “Some” became “cancel all”—an exaggeration. And “because it’s hard to think” - they attributed a motive that did not exist. Addition. The double scarecrow is the most insidious species!"
+      }
+    },
+    {
+      "step_id": "sc7_122",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы научились находить пугало и определять его вид. Но в реальной жизни мало сказать «это пугало!» Нужно уметь ответить так, чтобы разговор вернулся к вашим настоящим словам. Для этого есть волшебная формула — уточнение.\n",
+        "uk": "«Правильно я розумію...?»",
+        "en": "You have learned to find a scarecrow and identify its type. But in real life it’s not enough to say “that’s a scarecrow!” You need to be able to respond in such a way that the conversation returns to your real words. There is a magic formula for this - clarification."
+      }
+    },
+    {
+      "step_id": "sc7_123",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Формула звучит так: «Позволь уточнить: я говорил, что... — а не то, что...» Первая часть — ваши настоящие слова. Вторая — то, что вам приписали. Просто, вежливо и точно. Давайте попробуем.\n",
+        "uk": "Це суть ЧЕСНОГО СПОРУ.",
+        "en": "The formula sounds like this: “Let me clarify: I said that ... - and not that ...” The first part is your real words. The second is what was attributed to you. Simple, polite and precise. Let's try it."
+      }
+    },
+    {
+      "step_id": "sc7_124",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы сказали: «Можно смотреть мультики после уроков.» Вам приписали: «Ты хочешь смотреть мультики вместо домашнего задания!» Как уточнить?\n",
+        "uk": "На наступному уроці ми говоритимемо про вище та нижче реальності — про те, як люди замість фактів розповідають казки. До зустрічі!",
+        "en": "In the next lesson, we'll talk about above and below reality—how people tell stories instead of facts. See you!"
+      }
+    },
+    {
+      "step_id": "sc7_125",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сформулируйте уточнение по формуле: «Позволь уточнить: я говорил, что... а не то, что...»\n",
+        "uk": "БОНУС: Словник Лячо",
+        "en": "Сформулируйте уточнение по формуле: «Позволь уточнить: я говорил, что... а не то, что...»"
+      }
+    },
+    {
+      "step_id": "sc7_126",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Позволь уточнить: я говорил — после уроков, а не вместо домашки. Это разные вещи.» Коротко и точно — пугало развалилось.\n",
+        "uk": "СЛОВА-СИГНАЛИ розширення:",
+        "en": "For example: “Let me clarify: I said after school, and not instead of homework. These are different things.\" Long story short, the scarecrow fell apart."
+      }
+    },
+    {
+      "step_id": "sc7_127",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй пример. Вы сказали: «Иногда полезно побыть одному.» Вам приписали: «Ты не любишь своих друзей!»\n",
+        "uk": "«Все», «Завжди», «Ніколи», «Повністю», «Взагалі»",
+        "en": "\"All\", \"Always\", \"Never\", \"Completely\", \"Entirely\""
+      }
+    },
+    {
+      "step_id": "sc7_128",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Как уточнить?\n",
+        "uk": "СЛОВА-СИГНАЛИ усунення:",
+        "en": "REMOVAL signal words:"
+      }
+    },
+    {
+      "step_id": "sc7_129",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Позволь уточнить: я сказал, что иногда полезно побыть одному — а не что я не люблю друзей. Одно другому не мешает.»\n",
+        "uk": "Коли важливі слова зникають: «Можливо» стає «Перемога». «Іноді» стає «Завжди».",
+        "en": "When important words disappear: \"Maybe\" becomes \"Will\". \"Sometimes\" becomes \"Always\"."
+      }
+    },
+    {
+      "step_id": "sc7_130",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий. Вы сказали: «Овощи полезнее, чем чипсы.» Вам приписали: «Значит, чипсы вообще нельзя есть?!»\n",
+        "uk": "СЛОВА-СИГНАЛИ додавання:",
+        "en": "Третий. Вы сказали: «Овощи полезнее, чем чипсы.» Вам приписали: «Значит, чипсы вообще нельзя есть?!»"
+      }
+    },
+    {
+      "step_id": "sc7_131",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Формулируем уточнение.\n",
+        "uk": "«Замість», «Замість того», «Вже не», «Забув про»",
+        "en": "\"Instead\", \"Instead of\", \"No longer\", \"Forgot about\""
+      }
+    },
+    {
+      "step_id": "sc7_132",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Позволь уточнить: я сказал, что овощи полезнее — а не что чипсы запрещены. Полезнее — не значит \"единственное разрешённое\".»\n",
+        "uk": "Вміти розпізнавати ці слова — значить розпізнати атаку Лячо.",
+        "en": "Recognizing these words means recognizing a Scarecrow attack."
+      }
+    },
+    {
+      "step_id": "sc7_133",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Четвёртый. Вы сказали: «Хорошо бы меньше сидеть в телефоне.» Вам приписали: «Ты хочешь, чтобы у детей отобрали телефоны!»\n",
+        "uk": "ВИСНОВОК УРОКУ",
+        "en": "Fourth. You said: “It would be nice to spend less time on the phone.” They wrote to you: “You want the children’s phones to be taken away!”"
+      }
+    },
+    {
+      "step_id": "sc7_134",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Уточняем!\n",
+        "uk": "Лячо — це спотворення через розширення, усунення або додавання слів.",
+        "en": "Scarecrow is distortion through expansion, removal, or addition of words."
+      }
+    },
+    {
+      "step_id": "sc7_135",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Позволь уточнить: я сказал — меньше сидеть, а не отобрать телефоны. Меньше — это не ноль.» Заметьте: каждый раз формула одна, а пугало — разное.\n",
+        "uk": "Коли ви розпізнаєте Лячо, ви отримуєте суперсилу ЯСНОСТІ.",
+        "en": "When you recognize Scarecrow, you get the superpower of CLARITY."
+      }
+    },
+    {
+      "step_id": "sc7_136",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последний, сложный. Вы сказали: «Думаю, не все традиции нужно сохранять.» Вам приписали: «Ты против всех традиций и хочешь, чтобы мы забыли свою культуру!»\n",
+        "uk": "Справедливий спір — це спір, де обидві сторони кажуть правду.",
+        "en": "A fair debate is one where both sides tell the truth."
+      }
+    },
+    {
+      "step_id": "sc7_137",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Как уточнить? Тут пугало двойное — и преувеличение, и добавление.\n",
+        "uk": "До наступного уроку, розвідники правди!",
+        "en": "Until the next lesson, truth detectives!"
+      }
+    },
+    {
+      "step_id": "sc7_138",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Позволь уточнить: я сказал — не все, а не никакие. И про забыть культуру я вообще не говорил — это ты добавил.» Два удара — два уточнения. Формула работает даже против двойного пугала.\n",
+        "uk": "Сцена 11: Практика розпізнавання — ЕКВІЗ",
+        "en": "“Let me clarify: I said not all, not none. And I didn’t talk about forgetting culture at all—you added that.” Two strikes - two clarifications. The formula even works against double bogeys."
+      }
+    },
+    {
+      "step_id": "sc8_139",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы знаем формулу уточнения. Но в жизни не все так отвечают. Сейчас — пять ситуаций. В каждой вам исказили слова. Голосуйте: какое возражение лучше?\n",
+        "uk": "ДІАЛОГ 1: Ти кажеш: «Мені подобається гуляти з друзями.» Лячо відповідає: «Ти НІКОЛИ не займаєшся будь-чим іншим!»",
+        "en": "DIALOGUE 1: You say: \"I like walking with friends.\" Scarecrow responds: \"You NEVER do anything else!\""
+      }
+    },
+    {
+      "step_id": "sc8_140",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Олег сказал: «Было бы здорово учить второй иностранный язык.» Ему ответили: «Ты считаешь, что наш язык плохой?!»\n",
+        "uk": "Відповідь: ЛЯЧО — розширення (від одного до НІКОЛИ)",
+        "en": "Answer: SCARECROW—expansion (from one to NEVER)"
+      }
+    },
+    {
+      "step_id": "sc8_141",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какое возражение Олега лучше?\n",
+        "uk": "ДІАЛОГ 2: Ти кажеш: «Я люблю їсти полуницю.» Людина відповідає: «Крутить! Я також люблю полуницю.»",
+        "en": "DIALOGUE 2: You say: \"I like eating strawberries.\" Person responds: \"Cool! I like strawberries too.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Позволь уточнить: я сказал — учить ещё один язык, а не что наш плохой»",
+            "uk": "Відповідь: НЕ ЛЯЧО — це згода, не спотворення",
+            "en": "Answer: NOT SCARECROW—this is agreement, not distortion"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Сам ты плохой! Я такого не говорил!»",
+            "uk": "ДІАЛОГ 3: Ти кажеш: «Було б добре, якби перерви були довшими.» Лячо відповідає: «Ти хочеш скасувати уроки!»",
+            "en": "DIALOGUE 3: You say: \"It would be good if breaks were longer.\" Scarecrow responds: \"You want to abolish classes!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Answer: SCARECROW—expansion + removal (removed \"would\" and \"longer\")"
+      }
+    },
+    {
+      "step_id": "sc8_143",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первое — чётко показало разницу: «учить ещё один» и «наш плохой» — разные вещи. Второе — перешло в атаку. Крик не возвращает разговор к сути!\n",
+        "uk": "Відповідь: ЛЯЧО — розширення + усунення (видалено «було б» і «довшими»)",
+        "en": "DIALOGUE 4: You say: \"I think this movie is long.\" Person responds: \"Yes, it's a long movie.\""
+      }
+    },
+    {
+      "step_id": "sc8_144",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ира сказала: «По-моему, на дне рождения весело танцевать.» Ей ответили: «Ты думаешь, кто не танцует — тот скучный!»\n",
+        "uk": "ДІАЛОГ 4: Ти кажеш: «Я думаю, цей фільм багато спійманий.» Людина відповідає: «Так, це довгий фільм.»",
+        "en": "Answer: NOT SCARECROW—this is normal conversation"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Ну и не танцуйте, мне всё равно!»",
+            "uk": "ДІАЛОГ 5: Ти кажеш: «Люблю читати.» Лячо відповідає: «Значить, ти ненавидиш спорт, музику і своїх друзів!»",
+            "en": "DIALOGUE 5: You say: \"I love reading.\" Scarecrow responds: \"So you hate sports, music, and your friends!\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Позволь уточнить: я сказала, что танцевать весело, а не что остальные скучные»",
+            "uk": "Відповідь: ЛЯЧО — додавання (все інше вигадано)",
+            "en": "Answer: SCARECROW—addition (everything else is made up)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Второе — спокойно отделило «мне весело» от «вы скучные». Первое — обиделось и махнуло рукой. Обида — не аргумент, а уточнение — да!"
+      }
+    },
+    {
+      "step_id": "sc8_146",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какое возражение Иры лучше?\n",
+        "uk": "Відповідь: НЕ ЛЯЧО — це нормальна розмова",
+        "en": "Тарас сказал: «Хорошо бы завтракать перед школой.» Ему ответили: «Ты хочешь заставить всех есть кашу каждое утро!»"
+      }
+    },
+    {
+      "step_id": "sc8_147",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Второе — спокойно отделило «мне весело» от «вы скучные». Первое — обиделось и махнуло рукой. Обида — не аргумент, а уточнение — да!\n",
+        "uk": "ДЯКУЄМО ЗА УВАГУ!",
+        "en": "This is important knowledge for fair conversation."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Позволь уточнить: я сказал — завтракать, а не есть именно кашу. И уж точно не заставлять»",
+            "uk": "До побачення на наступному уроці!",
+            "en": "See you in the next lesson!"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Нет! Ты всё перекрутил! Я вообще не это имел в виду!»",
+            "uk": "Сцена завершення",
+            "en": "Final Scene"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Honest debate is like chess. Both players follow the rules."
+      }
+    },
+    {
+      "step_id": "sc8_149",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тарас сказал: «Хорошо бы завтракать перед школой.» Ему ответили: «Ты хочешь заставить всех есть кашу каждое утро!»\n",
+        "uk": "Ви тепер розпізнаєте Лячо.",
+        "en": "Scarecrow is when someone moves chess pieces in the middle of the game."
+      }
+    },
+    {
+      "step_id": "sc8_150",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какое возражение Тараса лучше?\n",
+        "uk": "Це важливе знання для справедливої розмови.",
+        "en": "To be a true master, you need to recognize it and say: \"That's not the rule.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Позволь уточнить: я сказал — завтракать, а не есть именно кашу. И уж точно не заставлять»",
+            "uk": "До побачення на наступному уроці!",
+            "en": "And then—continue the game honestly."
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Нет! Ты всё перекрутил! Я вообще не это имел в виду!»",
+            "uk": "Сцена завершення",
+            "en": "Good luck in your debates!"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Second, he calmly said “I love sleds” and “I hate summer.” The first is to blame the interlocutor, and the argument would only get worse. Clarification extinguishes conflict!"
+      }
+    },
+    {
+      "step_id": "sc8_152",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первое — конкретно: вот мои слова, вот искажение. Второе — кричит «не это», но не объясняет, что именно. Без уточнения собеседник так и не поймёт.\n",
+        "uk": "Чесна дебата — це як гра в шахи. Обидва гравці слідують правилам.",
+        "en": "Daniel: \"I like to read books.\" He was answered: \"You think everyone should sit in the library and forget about sports!\""
+      }
+    },
+    {
+      "step_id": "sc8_153",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Марина сказала: «Зимой классно кататься на санках.» Ей ответили: «Ты ненавидишь лето и хочешь, чтобы всегда была зима!»\n",
+        "uk": "Лячо — це коли хтось рушає шахові фігури на середину гри.",
+        "en": "What's Daniel's better objection?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Позволь уточнить: я сказал, что люблю читать, а не что все обязаны и спорт не нужен»",
+            "uk": "«Дозволь уточнити: я сказав, що люблю читати, а не що всі обов'язані і спорт не потрібен»",
+            "en": "\"Let me clarify: I said I like to read, not that everyone must and sports aren't needed\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Ладно, забудь, я ничего не говорил…»",
+            "uk": "«Добре, забудь, я нічого не говорив...»",
+            "en": "\"OK, forget it, I didn't say anything...\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "First! Returns his words and shows double distortion. Second—gives up. When you retreat, Scarecrow wins. But you were right—clarify and stand your ground!"
+      }
+    },
+    {
+      "step_id": "sc9_155",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы научились защищаться от пугала. Но есть ещё одно важное правило — как самому НЕ делать пугало. Прежде чем ответить, повтори своими словами, что сказал собеседник, и спроси: «Правильно я понял?»\n",
+        "uk": "Три типи Лячо:",
+        "en": "We have learned to defend ourselves from the scarecrow. But there is one more important rule - how NOT to make a scarecrow yourself. Before answering, repeat in your own words what the other person said and ask: “Did I understand correctly?”"
+      }
+    },
+    {
+      "step_id": "sc9_156",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Если собеседник скажет «Да» — отвечай. Если скажет «Нет, я имел в виду другое» — уточни. Это правило честного спора. Давайте потренируемся: я дам два пересказа — один честный, один пугало.\n",
+        "uk": "1. Розширення",
+        "en": "If the interlocutor says “Yes,” answer. If he says, “No, I meant something else,” clarify. This is the rule of fair dispute. Let's practice: I'll give two retellings - one honest, one bogeyman."
+      }
+    },
+    {
+      "step_id": "sc9_157",
+      "scene_id": "sc9",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оригинал: «Мне кажется, домашних заданий иногда бывает много.» Какой пересказ честный?\n",
+        "uk": "2. Усунення слів",
+        "en": "Original: “I think sometimes there’s too much homework.” Which retelling is fair?"
+      }
+    },
+    {
+      "step_id": "sc9_158",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой пересказ честный?\n",
+        "uk": "3. Додавання",
+        "en": "3. Addition"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Ты думаешь, что иногда домашки много?»",
+            "uk": "Як захищатися:",
+            "en": "How to defend:"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Ты против домашних заданий!»",
+            "uk": "Чотири кроки",
+            "en": "Four steps"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "How not to do it yourself:"
+      }
+    },
+    {
+      "step_id": "sc9_160",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первый! Сохранил «иногда» и «кажется». Второй — выкинул оба слова и раздул до протеста.\n",
+        "uk": "Як не робити самому:",
+        "en": "Retell — ask — answer"
+      }
+    },
+    {
+      "step_id": "sc9_161",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Оригинал: «Было бы здорово, если бы перемены были длиннее.» Какой пересказ честный?\n",
+        "uk": "Перскажи — запитай — відповідай",
+        "en": "Next lesson: Presenting Facts and Tales"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Ты хочешь, чтобы уроков вообще не было!»",
+            "uk": "До скорого, розвідники логіки!",
+            "en": "See you soon, logic detectives!"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Тебе хотелось бы более длинных перемен?»",
+            "uk": "Бонус-сцена: Реальна програма гри",
+            "en": "Bonus Scene: Real Game Program"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Imagine you're playing with someone and they start doing Scarecrow. What do you do?"
+      }
+    },
+    {
+      "step_id": "sc9_163",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какой пересказ честный?\n",
+        "uk": "На уроці в наступний раз: Висовування фактів та казок",
+        "en": "1. STOP—don't panic"
+      }
+    },
+    {
+      "step_id": "sc9_164",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Второй! Передал мысль без искажений. Первый — классическое пугало-преувеличение.\n",
+        "uk": "Уявіть, ви грієте людину, і вона начинает робити Лячо. Що ви робите?",
+        "en": "2. LISTEN CAREFULLY—what exactly changed?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Тебе лето нравится больше, чем зима?»",
+            "uk": "3. РОЗПІЗНАЙТЕ ВИД — розширення? усунення? додавання?",
+            "en": "3. IDENTIFY THE TYPE—expansion? removal? addition?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Ты ненавидишь зиму!»",
+            "uk": "4. ВІДПОВІДАЙТЕ СПОКІЙНО — це не особисто",
+            "en": "4. RESPOND CALMLY—it's not personal"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "5. CLARIFY—repeat the truth"
+      }
+    },
+    {
+      "step_id": "sc9_166",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оригинал: «Я больше люблю лето, чем зиму.» Какой пересказ честный?\n",
+        "uk": "1. ЗУПИНИТЕСЯ — не паніків",
+        "en": "6. MOVE ON—don't dwell on Scarecrow"
+      }
+    },
+    {
+      "step_id": "sc9_167",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой пересказ честный?\n",
+        "uk": "2. СЛУХАЙТЕ УВАЖНО — що саме змінилось?",
+        "en": "Success in recognizing Scarecrow!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Тебе лето нравится больше, чем зима?»",
+            "uk": "3. РОЗПІЗНАЙТЕ ВИД — розширення? усунення? додавання?",
+            "en": "Below is the final scene"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Ты ненавидишь зиму!»",
+            "uk": "4. ВІДПОВІДАЙТЕ СПОКІЙНО — це не особисто",
+            "en": "Today you learned about Scarecrow—one of the most powerful tools of manipulation in language."
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "But you're now armed. You know how to recognize it and how to respond to it."
+      }
+    },
+    {
+      "step_id": "sc9_169",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первый! «Больше люблю» — это не «ненавижу». Честный пересказ сохраняет мягкость оригинала.\n",
+        "uk": "5. УТОЧНІТЬ — повторіть правду",
+        "en": "Сегодня вы узнали мощный приём — «пугало». Когда кто-то искажает ваши слова, вы теперь вооружены: находите искажение, определяете вид и спокойно уточняете. А когда спорите сами — сначала честно перескажите и спросите: «Правильно я понял?»"
+      }
+    },
+    {
+      "step_id": "sc9_170",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оригинал: «Думаю, можно разрешить приносить игрушки в школу.» Какой пересказ честный?\n",
+        "uk": "6. ЙДІТЬ ДАЛІ — не зупиняйтесь на Лячо",
+        "en": "Настоящий мастер спора не ставит пугал — он сражается с настоящим рыцарем. Это сложнее, но только так можно по-настоящему победить. А впереди у нас ещё много секретов — до встречи на следующем уроке!"
+      }
+    }
+  ]
+}

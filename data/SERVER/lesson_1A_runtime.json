@@ -1,0 +1,2907 @@
+{
+  "lesson_id": "1A",
+  "title": {
+    "ru": "Факт, мнение и неправда",
+    "en": "Fact, Opinion and Falsehood",
+    "uk": "Факт, думка та неправда"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "ОТКРЫТИЕ",
+        "en": "OPENING",
+        "uk": "ВІДКРИТТЯ"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_4",
+        "sc1_5",
+        "sc1_6",
+        "sc1_7",
+        "sc1_8",
+        "sc1_9",
+        "sc1_10",
+        "sc1_11",
+        "sc1_12"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "ИСТОРИЯ — СПОР О МОРОЖЕНОМ",
+        "en": "STORY - THE ICE CREAM ARGUMENT",
+        "uk": "ІСТОРІЯ — СУПЕРЕЧКА ПРО МОРОЗИВО"
+      },
+      "step_ids": [
+        "sc2_13",
+        "sc2_14",
+        "sc2_15",
+        "sc2_16",
+        "sc2_17",
+        "sc2_18",
+        "sc2_19",
+        "sc2_20",
+        "sc2_21",
+        "sc2_22",
+        "sc2_23",
+        "sc2_24",
+        "sc2_25",
+        "sc2_26"
+      ],
+      "first_step_index": 12
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "ЧТО ТАКОЕ ФАКТ",
+        "en": "WHAT IS A FACT",
+        "uk": "ЩО ТАКЕ ФАКТ"
+      },
+      "step_ids": [
+        "sc3_27",
+        "sc3_28",
+        "sc3_29",
+        "sc3_30"
+      ],
+      "first_step_index": 26
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "ПРАКТИКА: ФАКТЫ",
+        "en": "PRACTICE: FACTS",
+        "uk": "ПРАКТИКА: ФАКТИ"
+      },
+      "step_ids": [
+        "sc4_31",
+        "sc4_32",
+        "sc4_34",
+        "sc4_36",
+        "sc4_38"
+      ],
+      "first_step_index": 30
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "ЧТО ТАКОЕ МНЕНИЕ",
+        "en": "WHAT IS AN OPINION",
+        "uk": "ЩО ТАКЕ ДУМКА"
+      },
+      "step_ids": [
+        "sc5_39",
+        "sc5_40",
+        "sc5_41",
+        "sc5_42"
+      ],
+      "first_step_index": 35
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "ПРАКТИКА: МНЕНИЯ",
+        "en": "PRACTICE: OPINIONS",
+        "uk": "ПРАКТИКА: ДУМКИ"
+      },
+      "step_ids": [
+        "sc6_43",
+        "sc6_44",
+        "sc6_46",
+        "sc6_48",
+        "sc6_50",
+        "sc6_52",
+        "sc6_54",
+        "sc6_56",
+        "sc6_58",
+        "sc6_60",
+        "sc6_62",
+        "sc6_64"
+      ],
+      "first_step_index": 39
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "ЧТО ТАКОЕ НЕПРАВДА",
+        "en": "WHAT IS FALSEHOOD",
+        "uk": "ЩО ТАКЕ НЕПРАВДА"
+      },
+      "step_ids": [
+        "sc7_65",
+        "sc7_66",
+        "sc7_67",
+        "sc7_68",
+        "sc7_69",
+        "sc7_70"
+      ],
+      "first_step_index": 51
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "ПРАКТИКА: НЕПРАВДА",
+        "en": "PRACTICE: FALSEHOOD",
+        "uk": "ПРАКТИКА: НЕПРАВДА"
+      },
+      "step_ids": [
+        "sc8_71",
+        "sc8_72",
+        "sc8_74",
+        "sc8_76",
+        "sc8_78",
+        "sc8_80",
+        "sc8_82",
+        "sc8_84",
+        "sc8_86",
+        "sc8_88",
+        "sc8_90",
+        "sc8_92",
+        "sc8_93",
+        "sc8_94"
+      ],
+      "first_step_index": 57
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "СЛОЖНЫЕ СЛУЧАИ",
+        "en": "TRICKY CASES",
+        "uk": "ХІТРІ ВИПАДКИ"
+      },
+      "step_ids": [
+        "sc9_95",
+        "sc9_96",
+        "sc9_97",
+        "sc9_98",
+        "sc9_99",
+        "sc9_100",
+        "sc9_101",
+        "sc9_103",
+        "sc9_105",
+        "sc9_107"
+      ],
+      "first_step_index": 71
+    },
+    "sc10": {
+      "scene_id": "sc10",
+      "title": {
+        "ru": "ФИНАЛЬНАЯ ПРОВЕРКА",
+        "en": "FINAL CHECK",
+        "uk": "ФІНАЛЬНА ПЕРЕВІРКА"
+      },
+      "step_ids": [
+        "sc10_109",
+        "sc10_110",
+        "sc10_112",
+        "sc10_114",
+        "sc10_116",
+        "sc10_118",
+        "sc10_120",
+        "sc10_122",
+        "sc10_124",
+        "sc10_126",
+        "sc10_128",
+        "sc10_130",
+        "sc10_132",
+        "sc10_134",
+        "sc10_136",
+        "sc10_138",
+        "sc10_140",
+        "sc10_142",
+        "sc10_144",
+        "sc10_146",
+        "sc10_148",
+        "sc10_150"
+      ],
+      "first_step_index": 81
+    },
+    "sc11": {
+      "scene_id": "sc11",
+      "title": {
+        "ru": "ЗАКРЫТИЕ",
+        "en": "CLOSING",
+        "uk": "ЗАКРИТТЯ"
+      },
+      "step_ids": [
+        "sc11_151",
+        "sc11_152",
+        "sc11_153",
+        "sc11_154",
+        "sc11_155",
+        "sc11_156",
+        "sc11_157",
+        "sc11_158",
+        "sc11_159",
+        "sc11_160"
+      ],
+      "first_step_index": 103
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Привет! Представьте: друг говорит — «Завтра контрольная отменяется!» Вы обрадовались, не готовились. А утром приходите — а контрольная на месте. Бывало такое?\n",
+        "en": "Hi! Imagine: your friend says, \"Tomorrow's test is cancelled!\" You got excited and didn't study. But in the morning you come to class - and there's the test. Has that ever happened?",
+        "uk": "Привіт! Уявіть: друг каже — «Завтра контрольна скасовується!» Ви обрадувались, не готувались. А вранці приходите — а контрольна на місці. Траплялося таке?"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или на переменке спор: «Футбол лучше баскетбола!» — «Нет, баскетбол!» Голоса всё громче, уже почти ругаетесь. А потом непонятно — можно ли тут вообще быть правым? И как спорить, чтобы не поссориться?\n",
+        "en": "Or during break, an argument: \"Football is better than basketball!\" - \"No, basketball!\" Voices getting louder, you're almost fighting. And then it's unclear - can anyone even be right? How do you argue without falling out?",
+        "uk": "Або на перерві суперечка: «Футбол краще баскетболу!» — «Ні, баскетбол!» Голоси все гучніше, ви вже майже сваритися. А потім незрозуміло — чи можна вообще мати рацію? Як спорити, щоб не посваритися?"
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот для этого мы начинаем курс «Сила слова». Тринадцать занятий. После них вы будете разбираться в словах так, как сейчас разбираетесь в любимой игре. Давайте покажу, что нас ждёт.\n",
+        "en": "That's why we're starting the course \"The Power of Words.\" Thirteen lessons. After them, you'll understand words the way you now understand your favorite game. Let me show you what's ahead.",
+        "uk": "Тому ми починаємо курс «Сила слова». Тринадцять занять. Після них ви розумітимете слова так, як зараз розумієте вашу улюблену гру. Дозвольте мені показати, що вас чекає."
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первое. Мы научимся отличать три вещи: факт, мнение и неправду. «В классе двадцать парт» — это факт, можно посчитать. «Математика — скучный предмет» — это чьё-то мнение. «Школы закроют навсегда» — это неправда, кто-то придумал. Кто-то называет это грубо — ложь. Кто-то — выдумка. А мы объединим одним словом: неправда.\n",
+        "en": "First. We'll learn to tell three things apart: fact, opinion, and falsehood. \"There are twenty desks in the class\" - that's a fact, you can count them. \"Math is a boring subject\" - that's someone's opinion. \"Schools will close forever\" - that's falsehood, someone made it up. Some people call it a lie. Others call it a made-up story. We'll use one word for it: falsehood.",
+        "uk": "По-перше. Ми навчимося розрізняти три речі: факт, думку та неправду. «У класі двадцять парт» — це факт, можна порахувати. «Математика — нудний предмет» — це чиїсь думка. «Школи закриють назавжди» — це неправда, хтось це вигадав. Хтось називає це грубо — брехня. Хтось — вигадка. А ми об'єднаємо одним словом: неправда."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Потом — как проверять. Друг говорит: «Я бегаю быстрее всех!» Как проверить? Засечь время. Посмотреть своими глазами. Измерить. Заглянуть в справочник. Четыре способа — и вас уже сложно обмануть.\n",
+        "en": "Then - how to verify. Your friend says: \"I run faster than everyone!\" How do you check? Time it. See it with your own eyes. Measure it. Look it up in a reference book. Four ways - and you're hard to fool.",
+        "uk": "Потім — як перевіряти. Друг каже: «Я бігаю швидше за всіх!» Як перевірити? Засічи час. Подивися своїми очима. Виміряй. Поглянь у довідник. Чотири способи — і вас важко обдурити."
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дальше — ловушки слов. «Все мальчики любят футбол.» Все? Прямо все? А «никто не ест брокколи» — правда никто? Слова «все», «никто», «всегда», «никогда» — это ловушки. Мы научимся их замечать.\n",
+        "en": "Next - word traps. \"All boys love football.\" All of them? Every single one? And \"nobody eats broccoli\" - really nobody? Words like \"all,\" \"nobody,\" \"always,\" \"never\" - these are traps. We'll learn to spot them.",
+        "uk": "Далі — пастки слів. «Всі хлопці люблять футбол.» Усі? Прямо всі? А «ніхто не їсть броколі» — справді ніхто? Слова «всі», «ніхто», «завжди», «ніколи» — це пастки. Ми навчимося їх помічати."
+      }
+    },
+    {
+      "step_id": "sc1_7",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А ещё бывает: ты говоришь что-то умное, а тебе в ответ — «Ты ещё маленький, ничего не понимаешь!» Это не ответ. Это нападение на тебя, а не на твою идею. Мы научимся это различать.\n",
+        "en": "And sometimes: you say something smart, and the answer is - \"You're still too young, you don't understand anything!\" That's not an answer. That's attacking you, not your idea. We'll learn to tell the difference.",
+        "uk": "І ще траплялося: ти кажеш щось розумне, а у відповідь — «Ти ще маленький, нічого не розумієш!» Це не відповідь. Це напад на тебе, а не на твою ідею. Ми навчимося це розрізняти."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Или вот: «Если не съешь суп — заболеешь!» «Если не пойдёшь на вечеринку — все будут смеяться!» Это когда нас пугают, чтобы мы не думали, а просто слушались. Мы научимся включать голову, когда страшно.\n",
+        "en": "Or like this: \"If you don't eat your soup - you'll get sick!\" \"If you don't go to the party - everyone will laugh at you!\" That's when people scare us so we don't think, we just obey. We'll learn to think even when we're scared.",
+        "uk": "Або ось так: «Якщо не з'їш суп — захворієш!» «Якщо не пійдеш на вечірку — всі сміятимуться!» Це коли нас лякають, щоб ми не думали, а просто слухалися. Ми навчимося думати, навіть коли страшно."
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И самое крутое. Знаете, что такое манипуляция? «Если бы ты был настоящим другом, ты бы помог мне списать.» Это удар не по голове — а по чувствам. Мы научимся отвечать: «Это манипуляция. Давай по сути.»\n",
+        "en": "And the coolest part. Do you know what manipulation is? \"If you were a real friend, you'd help me cheat.\" That's not an attack on your brain - it's an attack on your feelings. We'll learn to answer: \"That's manipulation. Let's stick to the facts.\"",
+        "uk": "І найкраще. Знаєте, що таке маніпуляція? «Якби ти був справжнім другом, ти б мені допоміг списати.» Це удар не по голові — а по почуттям. Ми навчимося відповідати: «Це маніпуляція. Давай по суті.»"
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Кто хоть раз не знал, что ответить, когда на него так давили? Это нормально. Этому можно научиться. Для этого мы тут.\n",
+        "en": "Who hasn't felt stuck when someone pressures you like that? That's normal. You can learn this. That's why we're here.",
+        "uk": "Хто хоча б раз не знав, що відповісти, коли на нього так тиснули? Це нормально. Цьому можна навчитися. Тому ми тут."
+      }
+    },
+    {
+      "step_id": "sc1_11",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "После курса вы станете как детектив из кино — который видит то, чего не видят другие. Кто-то врёт — вы заметите. Кто-то давит на чувства — не сработает. Демагогия, манипуляция, фейки — вы будете читать людей как открытую книгу. Тринадцать занятий — и слова станут вашей суперсилой. Готовы?\n",
+        "en": "After this course, you'll be like a detective from a movie - who sees what others don't. Someone's lying - you'll notice. Someone's manipulating you - it won't work. Propaganda, manipulation, fake news - you'll read people like an open book. Thirteen lessons - and words will become your superpower. Ready?",
+        "uk": "Після курсу ви станете як детектив з кіно — той, хто бачить те, чого не бачать інші. Хтось бреше — ви помітите. Хтось тисне на почуття — не спрацює. Демагогія, маніпуляція, фейки — ви будете читати людей як відкриту книгу. Тринадцять занять — і слова станут вашою суперсилою. Готові?"
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь послушайте интересную историю о споре, который начался из-за мороженого.",
+        "en": "Now listen to an interesting story about an argument that started over ice cream.",
+        "uk": "А тепер послухайте цікаву історію про суперечку, яка почалася через морозиво."
+      }
+    },
+    {
+      "step_id": "sc2_13",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На перемене Микола и Маша стоят у ларька с мороженым. Микола берёт шоколадное и заявляет: «Шоколадное мороженое — лучше всех! И стоит всего двадцать пять гривень.»",
+        "en": "During break, Mykola and Masha stand at the ice cream kiosk. Mykola takes chocolate and announces: \"Chocolate ice cream is the best! And it costs only twenty-five hryvnias.\"",
+        "uk": "На перерві Микола і Маша стоять у ларька з морозивом. Микола бере шоколадне й заявляє: «Шоколадне морозиво — найкраще! І коштує всього двадцять пять гривень.»"
+      }
+    },
+    {
+      "step_id": "sc2_14",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша фыркает: «Ничего подобного! Клубничное в сто раз вкуснее!» Оба уверены. Оба не уступают. Спор в самом разгаре.",
+        "en": "Masha snorts: \"Nothing of the sort! Strawberry is a hundred times tastier!\" Both are sure. Both won't give in. The argument is in full swing.",
+        "uk": "Маша фиркає: «Нічого подібного! Полуничне в сто разів смачніше!» Обидва впевнені. Обидва не поступаються. Суперечка в розпалі."
+      }
+    },
+    {
+      "step_id": "sc2_15",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тут прибегает Дмитрик: «Ребята, новость! Завтра уроков не будет! Мне Петрик сказал, а ему — старший брат!» Микола и Маша забыли про мороженое.",
+        "en": "Then Dmitrik runs up: \"Guys, news! No lessons tomorrow! Petrik told me, and he heard from his older brother!\" Mykola and Masha forgot about ice cream.",
+        "uk": "Потім прибіжить Дмитрик: «Хлопці, новина! Завтра уроків не буде! Мені Петрик сказав, а йому — старший брат!» Микола і Маша забули про морозиво."
+      }
+    },
+    {
+      "step_id": "sc2_16",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дети обрадовались. Но Оленка нахмурилась: «Подождите… а откуда старший брат это знает?» Хороший вопрос.",
+        "en": "The kids got excited. But Olenka frowned: \"Wait... how does the older brother know that?\" Good question.",
+        "uk": "Діти обрадувались. Але Оленка нахмурилась: «Стійте… а звідки старший брат це знає?» Гарне питання."
+      }
+    },
+    {
+      "step_id": "sc2_17",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ого, столько всего! Давайте разбираться. Сначала — Микола и Маша. Микола говорит: «Шоколадное мороженое лучше!» Маша говорит: «Нет, клубничное!» Кто из них прав? Голосуем!\n",
+        "en": "Wow, so much going on! Let's sort it out. First - Mykola and Masha. Mykola says: \"Chocolate ice cream is better!\" Masha says: \"No, strawberry!\" Who's right? Let's vote!",
+        "uk": "Ого, скільки всього! Давайте розбиратися. Спочатку — Микола і Маша. Микола каже: «Шоколадне морозиво краще!» Маша каже: «Ні, полуничне!» Хто з них правий? Голосуємо!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Микола",
+            "en": "Mykola",
+            "uk": "Микола"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Маша",
+            "en": "Masha",
+            "uk": "Маша"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Не знаю",
+            "en": "I don't know",
+            "uk": "Не знаю"
+          }
+        }
+      ]
+    },
+    {
+      "step_id": "sc2_18",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Интересно! А можно ли вообще тут найти правильный ответ? Можно ли как-то доказать, что шоколадное ТОЧНО вкуснее клубничного? Измерить? Взвесить? Посмотреть в учебнике?\n",
+        "en": "Interesting! Can we even find the right answer here? Can we somehow prove that chocolate is DEFINITELY tastier than strawberry? Measure it? Weigh it? Look it up in a textbook?",
+        "uk": "Цікаво! Чи можна взагалі знайти правильну відповідь? Чи можна якось довести, що шоколадне ТОЧНО смачніше від полуничного? Виміряти? Зважити? Подивитися у підручнику?"
+      }
+    },
+    {
+      "step_id": "sc2_19",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! Потому что «вкуснее» — это кому как. Микола любит шоколадное. Маша — клубничное. И оба правы. И оба неправы. Это их личное ощущение. Запомните этот спор — мы к нему ещё вернёмся.\n",
+        "en": "No! Because \"tastier\" is a matter of opinion. Mykola likes chocolate. Masha likes strawberry. And both are right. And both are wrong. It's their personal feeling. Remember this argument - we'll come back to it.",
+        "uk": "Ні! Тому що «смачніше» — це для кожного своє. Микола любить шоколадне. Маша — полуничне. І обидва праві. І обидва неправі. Це їхнє особисте почуття. Запам'ятайте цю суперечку — ми до неї ще повернемося."
+      }
+    },
+    {
+      "step_id": "sc2_20",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — Дмитрик. Он сказал: завтра уроков не будет. Я думаю, он прав. Петрик же ему сказал, а Петрику — старший брат. Старший брат точно знает. Вы согласны?\n",
+        "en": "Now - Dmitrik. He said: no lessons tomorrow. I think he's right. Petrik told him, and Petrik heard from his older brother. The older brother definitely knows. Do you agree?",
+        "uk": "Тепер — Дмитрик. Він сказав: завтра уроків не буде. Я думаю, він правий. Петрику цей брат сказав, а Петрику — старший брат. Старший брат точно знає. Ви згодні?"
+      }
+    },
+    {
+      "step_id": "sc2_21",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Не согласны? А почему? Старший брат же СТАРШИЙ. Он большой, он больше знает. Или нет? А откуда старший брат узнал? Из интернета? Ну в интернете же всё правда, да? Голосуем!\n",
+        "en": "Disagree? Why? The older brother is OLDER. He's big, he knows more. Or does he? Where did the older brother find out? From the internet? Well, everything on the internet is true, right? Let's vote!",
+        "uk": "Не згодні? Чому? Старший брат же СТАРШИЙ. Він великий, він більше знає. Або ні? Звідки старший брат дізнався? З інтернету? Ну в інтернеті ж усе правда, так? Голосуємо!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Всегда правда",
+            "en": "Always true",
+            "uk": "Завжди правда"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Не всегда",
+            "en": "Not always",
+            "uk": "Не завжди"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc2_22",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Хорошо. А может, старший брат вообще не в интернете это прочитал. Может, ему друг сказал. А другу — его мама. А мама услышала от соседки. А соседка просто пошутила. Получается цепочка — как в игре «сломанный телефон». Каждый передал по-своему, и в конце уже непонятно что.\n",
+        "en": "Okay. But maybe the older brother didn't read it on the internet. Maybe a friend told him. And the friend's mom told him. And mom heard from a neighbor. And the neighbor was just joking. It's like a chain - like the game \"broken telephone.\" Everyone passed it on their own way, and by the end nobody knows what it is.",
+        "uk": "Гаразд. Але може, старший брат взагалі не в інтернеті це прочитав. Може, йому друг сказав. А другу — його мама. А мама чула від сусідки. А сусідка просто пошутила. Виходить ланцюжок — як у грі «зіпсований телефон». Кожен передав по-своєму, і в кінці вже незрозуміло що."
+      }
+    },
+    {
+      "step_id": "sc2_23",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ладно. А давайте я вам сейчас скажу: завтра вместо математики будет два урока физкультуры. Верите? Я же учитель! Учителям можно верить?\n",
+        "en": "Okay. And let me tell you right now: tomorrow instead of math, there will be two PE lessons. Do you believe me? I'm a teacher! Can you trust teachers?",
+        "uk": "Гаразд. А давайте я вам зараз скажу: завтра замість математики буде два уроки фізкультури. Вірите? Я ж учитель! Вчителям можна вірити?"
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Видите — вы даже мне не сразу поверили. И правильно! Потому что важно не КТО говорит, а МОЖНО ЛИ ПРОВЕРИТЬ. Даже если говорит учитель, друг, мама или президент.\n",
+        "en": "You see - you didn't believe me right away. And that's right! Because what matters is not WHO says it, but WHETHER YOU CAN CHECK IT. Even if it's a teacher, friend, mom, or president speaking.",
+        "uk": "Бачите — ви навіть мені не одразу повірили. І правильно! Тому що важливо не ХТО говорить, а ЧИ МОЖНА ПЕРЕВІРИТИ. Навіть якщо говорит учитель, друг, мама або президент."
+      }
+    },
+    {
+      "step_id": "sc2_25",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "А как бы Дмитрик мог проверить? Что бы вы сделали на его месте? Может, зайти в учительскую и спросить? Или посмотреть расписание на стенде? Вот это и есть — ПРОВЕРИТЬ.\n",
+        "en": "How could Dmitrik verify this? What would you do in his place? Maybe go to the teacher's room and ask? Or check the schedule on the bulletin board? That's what VERIFYING means.",
+        "uk": "Як би Дмитрик мог перевірити? Що б ви зробили на його місці? Може, зайти в учительську й запитати? Або подивитися розклад на дошці? Ось це й є — ПЕРЕВІРИТИ."
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили разницу? Спор про мороженое — там НЕЧЕГО проверять. Каждому нравится своё. А новость Дмитрика — можно пойти и узнать точно. Два совсем разных случая. Дмитрик не проверил — и попал впросак. Чтобы с нами такого не было, нам нужно разобраться: какие бывают фразы. Сейчас узнаем.\n",
+        "en": "See the difference? The ice cream argument - there's NOTHING to verify. Everyone likes their own thing. But Dmitrik's news - you can go and find out for sure. Two completely different cases. Dmitrik didn't verify - and got caught out. To keep this from happening to us, we need to understand what kinds of statements there are. Let's find out now.",
+        "uk": "Помітили різницю? Суперечка про морозиво — там НІЧОГО перевіряти. Кожному подобається своє. А новина Дмитрика — можна піти й дізнатися точно. Два зовсім різних випадки. Дмитрик не перевірив — і потрапив у халепу. Щоб з нами такого не було, нам потрібно розібратися: які бувають фрази. Зараз дізнаємося."
+      }
+    },
+    {
+      "step_id": "sc3_27",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак, мы сказали — есть фразы, которые можно проверить, и те, которые нельзя. Давайте начнём с тех, которые МОЖНО. Помните, Микола ещё кое-что сказал в истории? «Мороженое стоит двадцать пять гривень.» Можно ли это проверить?\n",
+        "en": "So we said - there are statements you can verify, and those you can't. Let's start with those you CAN. Remember, Mykola said something else in the story? \"Ice cream costs twenty-five hryvnias.\" Can you verify that?",
+        "uk": "Отже, ми сказали — є фрази, які можна перевірити, і ті, які не можна. Давайте почнемо з тих, які МОЖНА. Пам'ятаєте, Микола ще щось сказав у історії? «Морозиво коштує двадцять пять гривень.» Чи можна це перевірити?"
+      }
+    },
+    {
+      "step_id": "sc3_28",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Конечно! Пойти в магазин — посмотреть ценник. Спросить продавца. Залезть на сайт. Можно узнать точно. А если проверили и оказалось правдой — это называется ФАКТ.\n",
+        "en": "Of course! Go to a store - check the price tag. Ask a seller. Look it up online. You can find out for sure. And if you verify it and it turns out to be true - that's called a FACT.",
+        "uk": "Звичайно! Піди в магазин — подивися на цінник. Запитай продавця. Поглянь в інтернеті. Можна дізнатися точно. А якщо перевірити й виявиться, що це правда — це називається ФАКТ."
+      }
+    },
+    {
+      "step_id": "sc3_29",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Внимание — хитрое место. «На Земле восемь континентов.» Можно проверить? Да! Открыл карту — посчитал. Но когда проверил — оказалось, что континентов не восемь, а шесть. Значит, это НЕ факт. Проверить можно, но это неправда. А вот «На Земле шесть континентов» — проверили, подтвердилось — ЭТО факт.\n",
+        "en": "Attention - tricky part. \"There are eight continents on Earth.\" Can you verify that? Yes! Open a map - count them. But when you verify - it turns out there are six continents, not eight. So that's NOT a fact. You can verify it, but it's falsehood. But \"There are six continents on Earth\" - you verified it, it checks out - THAT'S a fact.",
+        "uk": "Увага — хитра частина. «На Землі восьмь континентів.» Можна перевірити? Так! Відкрив карту — порахував. Але коли перевірив — виявилось, що континентів не восьмь, а шість. Значить, це НЕ факт. Перевірити можна, але це неправда. А ось «На Землі шість континентів» — перевірили, підтвердилось — ЦЕ факт."
+      }
+    },
+    {
+      "step_id": "sc3_30",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А что делать с тем, что можно проверить, но оказалось неправдой? Это отдельная интересная история — мы разберём её на следующих занятиях. А пока запомним: факт — проверили и правда.\n",
+        "en": "And what do we do with something that can be verified but turns out to be false? That's a separate interesting story - we'll figure that out in the next lessons. For now, let's remember: a fact is something you verify and it's true.",
+        "uk": "А що робити з тим, що можна перевірити, але виявилось неправда? Це окрема цікава історія — ми розберемо її на наступних заняттях. А поки запам'ятаємо: факт — перевірили й правда."
+      }
+    },
+    {
+      "step_id": "sc4_31",
+      "scene_id": "sc4",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверяем себя! Я говорю фразу — а вы решаете. Готовы?\n",
+        "en": "Let's check ourselves! I say a phrase - and you decide. Ready?",
+        "uk": "Перевіряємо себе! Я кажу фразу — а ви вирішуєте. Готові?"
+      }
+    },
+    {
+      "step_id": "sc4_32",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В нашем классе есть окно.»\n",
+        "en": "\"There is a window in our class.\"",
+        "uk": "«У нашому класі є вікно.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нельзя проверить",
+            "en": "Can't verify",
+            "uk": "Не можна перевірити"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! You turned your head - verified - yes, it's there. The truth is confirmed."
+      }
+    },
+    {
+      "step_id": "sc4_34",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Повернули голову — проверили — есть. Правда подтвердилась.\n",
+        "en": "\"Math is a boring subject.\"",
+        "uk": "Факт! Повернули голову — перевірили — є. Правда підтвердилась."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нельзя проверить",
+            "en": "Can't verify",
+            "uk": "Не можна перевірити"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Can't verify! For some people it's boring, for others it's interesting. There's no way to know for sure. Sounds like the ice cream argument, doesn't it? We'll find out soon what this is called."
+      }
+    },
+    {
+      "step_id": "sc4_36",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Математика — скучный предмет.»\n",
+        "en": "\"Kyiv is the capital of Ukraine.\"",
+        "uk": "«Математика — нудний предмет.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нельзя проверить",
+            "en": "Can't verify",
+            "uk": "Не можна перевірити"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Open any map - you verified - confirmed."
+      }
+    },
+    {
+      "step_id": "sc4_38",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нельзя проверить! Кому-то скучно, кому-то интересно. Нет способа узнать точно. Похоже на спор про мороженое, да? Скоро узнаем, как это называется.\n",
+        "en": "You see - now you have a rule: if you can verify it and it's true - it's a fact. But if \"math is boring\" can't be verified at all - what is it then? Remember Mykola and Masha? Let's figure it out now.",
+        "uk": "Не можна перевірити! Для когось нудно, для когось цікаво. Немає способу дізнатися точно. Схоже на суперечку про морозиво, так? Скоро дізнаємося, як це називається."
+      }
+    },
+    {
+      "step_id": "sc5_39",
+      "scene_id": "sc5",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вернёмся к Миколе и Маше. Помните — они спорили, какое мороженое вкуснее. И мы решили, что проверить это нельзя. Каждому нравится своё. Так вот — у этого есть название.\n",
+        "en": "Let's go back to Mykola and Masha. Remember - they were arguing about which ice cream is tastier. And we decided that you can't verify this. Everyone likes their own thing. Well, this has a name.",
+        "uk": "Повернемося до Миколи і Маші. Пам'ятаєте — вони сперечалися, яке морозиво смачніше. І ми вирішили, що перевірити це не можна. Кожному подобається своє. Так ось — у цього є назва."
+      }
+    },
+    {
+      "step_id": "sc5_40",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Когда человек говорит, что ЕМУ нравится, что ОН чувствует, что ЕМУ кажется — это называется МНЕНИЕ. Мнение нельзя проверить. Нет прибора «вкусомер». Нет линейки для красоты. Нет весов для скуки.\n",
+        "en": "When a person says what THEY like, what THEY feel, what THEY think - that's called an OPINION. You can't verify an opinion. There's no \"taste meter.\" There's no ruler for beauty. There's no scale for boredom.",
+        "uk": "Коли людина каже, що ЇЙ подобається, що ВОНА відчуває, що ЇЙ здається — це називається ДУМКА. Думку не можна перевірити. Немає приладу «смакомер». Немає лінійки для краси. Немає ваг для нудьги."
+      }
+    },
+    {
+      "step_id": "sc5_41",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Слова-подсказки: «мне кажется», «я думаю», «по-моему», «самый лучший», «самый плохой», «красивый», «скучный», «вкусный». Услышали такое слово — скорее всего перед вами мнение.\n",
+        "en": "Clue words: \"I think,\" \"I believe,\" \"in my opinion,\" \"the best,\" \"the worst,\" \"beautiful,\" \"boring,\" \"tasty.\" If you hear such words - most likely it's an opinion.",
+        "uk": "Слова-підказки: «мені здається», «я думаю», «на мою думку», «найкращий», «найгірший», «красивий», «нудний», «смачний». Чули таке слово — скоріше за все перед вами думка."
+      }
+    },
+    {
+      "step_id": "sc5_42",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И вот что важно: мнение — это нормально. Микола любит шоколадное — отлично. Маша любит клубничное — тоже отлично. Никто не ошибается. Просто у каждого своё.\n",
+        "en": "And here's what's important: opinions are normal. Mykola likes chocolate - great. Masha likes strawberry - also great. Nobody is wrong. Everyone just has their own preference.",
+        "uk": "І ось що важливо: думка — це нормально. Микола любить шоколадне — чудово. Маша любить полуничне — теж чудово. Ніхто не помиляється. У кожного просто своє."
+      }
+    },
+    {
+      "step_id": "sc6_43",
+      "scene_id": "sc6",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Экспресс-голосование! Десять фраз подряд. Отвечаем быстро, не думаем долго. Поехали!\n",
+        "en": "Speed voting! Ten phrases in a row. Answer quickly, don't think too much. Let's go!",
+        "uk": "Експрес-голосування! Десять фраз поспіль. Відповідаємо швидко, не думаємо довго. Почали!"
+      }
+    },
+    {
+      "step_id": "sc6_44",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот фильм очень смешной.»\n",
+        "en": "\"This movie is very funny.\"",
+        "uk": "«Цей фільм дуже смішний.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Some people find it funny, others don't. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_46",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! Кому-то смешно, кому-то нет. Дальше!\n",
+        "en": "\"The movie is two hours long.\"",
+        "uk": "Думка! Кому-то смішно, кому-то ні. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! You can time it or check online. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_48",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Фильм идёт два часа.»\n",
+        "en": "\"Green is the most beautiful color.\"",
+        "uk": "«Фільм йде дві години.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Everyone has their favorite color. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_50",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Можно засечь время или посмотреть на сайте. Дальше!\n",
+        "en": "\"Grass is green.\"",
+        "uk": "Факт! Можна засічи час або подивитися на сайті. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! You went outside - looked - verified. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_52",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Зелёный — самый красивый цвет.»\n",
+        "en": "\"Dogs are better than cats.\"",
+        "uk": "«Зелений — найкрасивіший колір.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Everyone loves their own. There's no \"better meter.\" Next!"
+      }
+    },
+    {
+      "step_id": "sc6_54",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! У каждого свой любимый цвет. Дальше!\n",
+        "en": "\"Doing homework is boring.\"",
+        "uk": "Думка! У кожного своя улюблена колір. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! For some it's boring, for others they even like it. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_56",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Трава зелёного цвета.»\n",
+        "en": "\"There are twenty-four hours in a day.\"",
+        "uk": "«Трава зеленого кольору.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! We verified - confirmed. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_58",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Вышел на улицу — посмотрел — проверил. Дальше!\n",
+        "en": "\"Pizza is tastier than porridge.\"",
+        "uk": "Факт! Вийшов на вулицю — подивився — перевірив. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Someone loves porridge. You can't verify it. Next!"
+      }
+    },
+    {
+      "step_id": "sc6_60",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Собаки лучше кошек.»\n",
+        "en": "\"Water boils at one hundred degrees.\"",
+        "uk": "«Собаки краще за кішок.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Got a thermometer - measured - confirmed. Last one!"
+      }
+    },
+    {
+      "step_id": "sc6_62",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! Каждый любит своих. Нет прибора «лучшемер». Дальше!\n",
+        "en": "\"Our school is the best.\"",
+        "uk": "Думка! Кожен любить своїх. Немає приладу «краще-метр». Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"The best\" - that's a clue word. Everyone thinks theirs is the best."
+      }
+    },
+    {
+      "step_id": "sc6_64",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Делать уроки скучно.»\n",
+        "en": "Perfect! Ten out of ten. We have two words already - fact and opinion. One more left - the trickiest one.",
+        "uk": "«Робити уроки нудно.»"
+      }
+    },
+    {
+      "step_id": "sc7_65",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А что насчёт Дмитрика? Он сказал: «Завтра отменят занятия!» Откуда он это узнал? Петрик сказал, а ему брат, а ему кто-то в интернете. Мы уже разобрались — проверить можно было. Но когда проверили — оказалось, что это неправда. Кто-то придумал.\n",
+        "en": "What about Dmitrik? He said: \"Lessons are cancelled tomorrow!\" Where did he find out? Petrik told him, and Petrik heard from his brother, and his brother heard from someone on the internet. We've already figured this out - it could have been verified. But when checked - it turned out to be false. Someone made it up.",
+        "uk": "А що стосується Дмитрика? Він сказав: «Завтра скасують заняття!» Звідки він це дізнався? Петрик сказав, а йому брат, а йому хтось в інтернеті. Ми вже розібралися — перевірити можна було. Але коли перевірили — виявилось, що це неправда. Хтось вигадав."
+      }
+    },
+    {
+      "step_id": "sc7_66",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот это и есть третье слово — НЕПРАВДА. Это когда кто-то говорит то, что не соответствует реальности. Можно проверить — и окажется, что это не так.\n",
+        "en": "That's the third word - FALSEHOOD. It's when someone says something that doesn't match reality. You can verify it - and it turns out to be false.",
+        "uk": "Ось це й є третє слово — НЕПРАВДА. Це коли хтось каже щось, що не відповідає реальності. Можна перевірити — й виявиться, що це не так."
+      }
+    },
+    {
+      "step_id": "sc7_67",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Но неправда бывает РАЗНАЯ! Иногда человек знает, что говорит неправду — и делает это специально. А иногда — сам верит и просто ошибается. Дмитрик не врал — он сам поверил Петрику. Но информация всё равно оказалась неправдой.\n",
+        "en": "But falsehood comes in DIFFERENT types! Sometimes a person knows they're lying - and does it on purpose. But sometimes - they believe it themselves and are just wrong. Dmitrik wasn't lying - he believed Petrik. But the information turned out to be false anyway.",
+        "uk": "Але неправда буває РІЗНОЮ! Іноді людина знає, що каже неправду — й робить це спеціально. А іноді — вона сама вірить й просто помиляється. Дмитрик не брав — він сам повірив Петрику. Але інформація все одно виявилась неправдою."
+      }
+    },
+    {
+      "step_id": "sc7_68",
+      "scene_id": "sc7",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первый вид — ШУТКА. Друг говорит: «У тебя паук на плече!» Вы подпрыгнули — а он смеётся: «Я пошутил!» Он знал, что это неправда. Но хотел посмеяться, а не обмануть. Это нормально.\n",
+        "en": "The first type - JOKE. A friend says: \"There's a spider on your shoulder!\" You jump - and he laughs: \"I was joking!\" He knew it wasn't true. But he wanted to laugh, not fool you. That's fine.",
+        "uk": "Перший тип — ЖАРТ. Друг каже: «У тебе павук на плечі!» Ти стрибнув — а він сміється: «Я жартував!» Він знав, що це неправда. Але він хотів посмішити, а не обманути. Це нормально."
+      }
+    },
+    {
+      "step_id": "sc7_69",
+      "scene_id": "sc7",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй вид — СКАЗКА. «Жил-был дракон, который любил блинчики.» Все понимают, что это не на самом деле. Никто не обманывает — это для удовольствия. Тоже нормально.\n",
+        "en": "The second type - FAIRY TALE. \"Once there was a dragon who loved pancakes.\" Everyone understands this isn't real. No one is lying - it's for fun. That's fine too.",
+        "uk": "Другий тип — КАЗКА. «Жив-був дракон, який любив млинці.» Усі розуміють, що це не насправді. Ніхто не обманює — це для задоволення. Це теж нормально."
+      }
+    },
+    {
+      "step_id": "sc7_70",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А третий вид — ФЕЙК. Это когда кто-то СПЕЦИАЛЬНО придумывает неправду и хочет, чтобы вы поверили. «В интернете написали, что школы закроют навсегда.» Человек хочет, чтобы вы испугались, поделились, рассказали другим. Вот это — опасная неправда.\n",
+        "en": "And the third type - FAKE. That's when someone DELIBERATELY makes up false information and wants you to believe it. \"The internet says schools will close forever.\" The person wants you to get scared, share it, tell others. That's dangerous false information.",
+        "uk": "А третій тип — ФЕЙК. Це коли хтось СПЕЦІАЛЬНО вигадує неправду й хоче, щоб ви повірили. «В інтернеті написали, що школи закриють назавжди.» Людина хоче, щоб ви злякалися, поділилися, розповіли іншим. Ось це — небезпечна неправда."
+      }
+    },
+    {
+      "step_id": "sc8_71",
+      "scene_id": "sc8",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Экспресс-голосование! Я говорю фразу — а вы решаете, какая это неправда. Поехали!\n",
+        "en": "Speed voting! I say a phrase - and you decide what type of falsehood it is. Let's go!",
+        "uk": "Експрес-голосування! Я кажу фразу — а ви вирішуєте, яка це неправда. Почали!"
+      }
+    },
+    {
+      "step_id": "sc8_72",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«У тебя за спиной стоит инопланетянин!»\n",
+        "en": "\"There's an alien behind your back!\"",
+        "uk": "«За твоєю спиною стоїть інопланетянин!»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Joke! The person wants to laugh, not fool you. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_74",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шутка! Человек хочет посмеяться, а не обмануть. Дальше!\n",
+        "en": "\"The pancake (Kolobok) ran away from grandma and grandpa.\"",
+        "uk": "Жарт! Людина хоче посмішити, а не обмануті. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fairy tale! Everyone knows it's a story for fun. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_76",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Колобок убежал от бабушки и дедушки.»\n",
+        "en": "\"The internet says you can go blind from phones in a week.\"",
+        "uk": "«Колобок втік від бабусі та дідуся.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Fake! Someone wants you to get scared and share. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_78",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказка! Все знают, что это история для удовольствия. Дальше!\n",
+        "en": "\"On April 1st, a friend said lessons were cancelled.\"",
+        "uk": "Казка! Всі знають, що це історія для задоволення. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Joke! April 1st - the day of jokes. Everyone understands. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_80",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В интернете написали, что от телефона можно ослепнуть за неделю.»\n",
+        "en": "\"Puss in Boots helped his master become a marquis.\"",
+        "uk": "«В інтернеті написали, що від телефона можна ослабнути за тиждень.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fairy tale! Everyone knows cats don't wear boots. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_82",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Фейк! Кто-то хочет, чтобы вы испугались и поделились. Дальше!\n",
+        "en": "\"A boy told the school he saw a ghost at night. He swears it's true.\"",
+        "uk": "Фейк! Хтось хоче, щоб ви злякалися й поділилися. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "Неизвестно",
+            "en": "Unknown",
+            "uk": "Невідомо"
+          }
+        }
+      ],
+      "correct_answer": "opt_4",
+      "explanation": {
+        "en": "Tricky one! Maybe he even believes it himself. But ghosts don't exist - so it's false. But whether it's a fake or a mistake depends on whether he wants to fool you. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_84",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Первого апреля друг сказал, что уроки отменили.»\n",
+        "en": "\"A message was posted in the group chat: whoever doesn't forward this message will have bad luck.\"",
+        "uk": "«Першого квітня друг сказав, що уроки скасовані.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Fake! Classic scare chain. They want you to get scared and forward it. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_86",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шутка! Первое апреля — день шуток. Все понимают. Дальше!\n",
+        "en": "\"Baba Yaga lives in a house on chicken legs.\"",
+        "uk": "Жарт! Першого квітня — день жартів. Усі розуміють. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Fairy tale! Everyone understands it's a made-up world. Next!"
+      }
+    },
+    {
+      "step_id": "sc8_88",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Кот в сапогах помог хозяину стать маркизом.»\n",
+        "en": "\"A high school student said: if you press three buttons on the remote, the TV will show a secret channel.\"",
+        "uk": "«Кіт у чоботях допоміг господарю стати маркізом.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "en": "Unknown"
+          }
+        }
+      ],
+      "correct_answer": "opt_4",
+      "explanation": {
+        "en": "Joke or fake - it depends on whether he wants to make you laugh or fool you. But it's definitely false! Last one!"
+      }
+    },
+    {
+      "step_id": "sc8_90",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сказка! Все знают, что коты не носят сапоги. Дальше!\n",
+        "en": "\"The internet says free candy will be given away in the park.\"",
+        "uk": "Казка! Всі знають, що коти не носять чоботи. Далі!"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Шутка",
+            "en": "Joke",
+            "uk": "Жарт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сказка",
+            "en": "Fairy tale",
+            "uk": "Казка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Фейк",
+            "en": "Fake",
+            "uk": "Фейк"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Fake! Someone wants to lure people. Dangerous falsehood."
+      }
+    },
+    {
+      "step_id": "sc8_92",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мальчик в школе рассказал, что ночью видел привидение. Клянётся, что правда.»\n",
+        "en": "How to recognize them? Three questions. First: does everyone understand this isn't real? Then it's a fairy tale. Second: does the person admit they were joking? Then it's a joke. Third: does the person WANT you to believe them and doesn't say it's false? Then it's a fake. That's the most dangerous type.",
+        "uk": "«Хлопчик у школі розповів, що ночами бачив привида. Клянеться, що це правда.»"
+      }
+    },
+    {
+      "step_id": "sc8_93",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тут хитро! Может, он и сам верит. Но привидений не существует — значит, это неправда. А вот фейк это или ошибка — зависит от того, хочет ли он обмануть. Дальше!\n",
+        "en": "Remember: a fake usually scares you, rushes you, or promises something incredible. \"Urgent!\", \"Share with everyone!\", \"Only today!\" - warning signs. If you hear these - stop. Verify.",
+        "uk": "Тут хитро! Може, він сам вірить. Але привидів не існує — значить, це неправда. А от фейк це чи помилка — залежить від того, чи хоче він вас обманути. Далі!"
+      }
+    },
+    {
+      "step_id": "sc8_94",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«В группе в мессенджере написали: кто не перешлёт это сообщение — тому будет плохо.»\n",
+        "en": "So, three words: fact, opinion, falsehood. Now - let's check everything together!",
+        "uk": "«У групі в месенджері написали: хто не пересилає це повідомлення — тому буде погано.»"
+      }
+    },
+    {
+      "step_id": "sc9_95",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы уже отличаете факт, мнение и неправду. Но сейчас будет самое хитрое. Бывают фразы, которые ПОХОЖИ друг на друга — а на самом деле совсем разные. Сейчас покажу.\n",
+        "en": "You already know how to tell fact, opinion, and falsehood apart. But now comes the tricky part. There are phrases that LOOK similar - but are actually completely different. Let me show you.",
+        "uk": "Ви вже розрізняєте факт, думку й неправду. Але зараз буде найхітріше. Бувають фрази, які СХОЖІ одна на одну — а насправді зовсім різні. Зараз покажу."
+      }
+    },
+    {
+      "step_id": "sc9_96",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот две фразы. Первая: «Мой папа самый сильный.» Вторая: «Моя мама самая красивая.» Звучат одинаково, правда? «Самый-самая»… Но давайте подумаем — одинаковые ли они?\n",
+        "en": "Here are two phrases. First: \"My dad is the strongest.\" Second: \"My mom is the most beautiful.\" They sound the same, right? \"The strongest, the most beautiful...\" But let's think - are they really the same?",
+        "uk": "Ось дві фрази. Перша: «Мій тато найсильніший.» Друга: «Моя мама найкрасивіша.» Звучать однаково, так? «Найсильніший, найкрасивіша…» Але давайте подумаємо — вони одинакові?"
+      }
+    },
+    {
+      "step_id": "sc9_97",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мой папа самый сильный.» Можно ли проверить силу? Можно! Есть соревнования, есть тренажёры, есть килограммы, которые человек поднимает. Значит, «самый сильный» — это проверяемое утверждение. И скорее всего — неправда, потому что в мире миллиарды пап.\n",
+        "en": "\"My dad is the strongest.\" Can you verify strength? Yes! There are competitions, there are machines, there are kilos that people can lift. So \"the strongest\" is something you can verify. And it's probably false, because there are billions of dads in the world.",
+        "uk": "«Мій тато найсильніший.» Чи можна перевірити силу? Можна! Є змаганнями, є тренажери, є кілограми, які людина піднімає. Значить, «найсильніший» — це те, що можна перевірити. І скоріше за все — неправда, тому що у світі мільярди татів."
+      }
+    },
+    {
+      "step_id": "sc9_98",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А «моя мама самая красивая»? Можно ли проверить красоту? Нет! Нет прибора «красотомер». Каждый считает красивым своё. Значит, это — мнение. Два похожих предложения — а категории разные!\n",
+        "en": "And \"my mom is the most beautiful\"? Can you verify beauty? No! There's no \"beauty meter.\" Everyone thinks their own person is beautiful. So that's an opinion. Two similar sentences - but they're in different categories!",
+        "uk": "А «моя мама найкрасивіша»? Чи можна перевірити красу? Ні! Немає приладу «красо-метр». Кожен вважає красивою своюю. Значить, це — думка. Два схожі речення — а категорії різні!"
+      }
+    },
+    {
+      "step_id": "sc9_99",
+      "scene_id": "sc9",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Секрет вот в чём: спрашивайте себя — МОЖНО ли это измерить? Силу — можно. Красоту — нельзя. Скорость — можно. Доброту — нельзя. Вес — можно. Вкус — нельзя.\n",
+        "en": "Here's the secret: ask yourself - CAN you measure this? Strength - yes. Beauty - no. Speed - yes. Kindness - no. Weight - yes. Taste - no.",
+        "uk": "Ось секрет: запитайте себе — ЧИ МОЖНА це виміряти? Силу — можна. Красу — не можна. Швидкість — можна. Доброту — не можна. Вагу — можна. Смак — не можна."
+      }
+    },
+    {
+      "step_id": "sc9_100",
+      "scene_id": "sc9",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Проверим! Внимание — вопросы хитрые!\n",
+        "en": "Let's check! Attention - tricky questions!",
+        "uk": "Перевіримо! Увага — хитрі питання!"
+      }
+    },
+    {
+      "step_id": "sc9_101",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мой дедушка самый старый в нашем доме.»\n",
+        "en": "\"My grandfather is the oldest in our house.\"",
+        "uk": "«Мій дідусь найстарший у нашому будинку.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Can verify! Ask everyone's age. If it checks out - that's a fact. Age can be measured."
+      }
+    },
+    {
+      "step_id": "sc9_103",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Можно проверить! Спросить возраст у всех жильцов. Если подтвердится — факт. Возраст можно измерить.\n",
+        "en": "\"My grandfather is the best in the world.\"",
+        "uk": "Можна перевірити! Запитати вік у всіх мешканців. Якщо підтвердиться — факт. Вік можна виміряти."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Best\" - that's a feeling. Every grandchild will say theirs is the best. You can't measure it."
+      }
+    },
+    {
+      "step_id": "sc9_105",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мой дедушка самый лучший в мире.»\n",
+        "en": "\"Our class collected the most waste paper in school.\"",
+        "uk": "«Мій дідусь найкращий у світі.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Can verify! Weigh it, compare with other classes. If true - that's a fact."
+      }
+    },
+    {
+      "step_id": "sc9_107",
+      "scene_id": "sc9",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! «Лучший» — это чувство. Каждый внук скажет про своего. Нельзя измерить.\n",
+        "en": "\"Our class is the friendliest in school.\"",
+        "uk": "Думка! «Найкращий» — це почуття. Кожен внук скаже про свого. Не можна виміряти."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! You can't weigh friendliness on a scale. Every class thinks they're the friendliest."
+      }
+    },
+    {
+      "step_id": "sc10_109",
+      "scene_id": "sc10",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последнее задание — самое хитрое! Двадцать фраз подряд. Факт, мнение или неправда? Поехали!\n",
+        "en": "Last challenge - the trickiest one! Twenty phrases in a row. Fact, opinion, or falsehood? Let's go!",
+        "uk": "Останнє завдання — найхітріше! Двадцять фраз поспіль. Факт, думка чи неправда? Почали!"
+      }
+    },
+    {
+      "step_id": "sc10_110",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Луна больше Солнца.»\n",
+        "en": "\"The Moon is bigger than the Sun.\"",
+        "uk": "«Місяць більший за Сонце.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! Size can be measured - the Sun is much bigger."
+      }
+    },
+    {
+      "step_id": "sc10_112",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Размер можно измерить — Солнце намного больше.\n",
+        "en": "\"All students in our class are older than 20.\"",
+        "uk": "Неправда! Розмір можна виміряти — Сонце набагато більше."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! You can verify it - and it definitely won't check out."
+      }
+    },
+    {
+      "step_id": "sc10_114",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Все ученики нашего класса старше 20 лет.»\n",
+        "en": "\"This city is big.\"",
+        "uk": "«Всі учні нашого класу старші 20 років.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Big\" - that depends on what each person thinks. There's no exact measurement."
+      }
+    },
+    {
+      "step_id": "sc10_116",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Можно проверить — и точно не подтвердится.\n",
+        "en": "\"This city is bigger than the neighboring one.\"",
+        "uk": "Неправда! Можна перевірити — й точно не підтвердиться."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! You can measure and compare area."
+      }
+    },
+    {
+      "step_id": "sc10_118",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот город большой.»\n",
+        "en": "\"There are 25 hours in a day.\"",
+        "uk": "«Це місто велике.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! We checked - it's 24, not 25."
+      }
+    },
+    {
+      "step_id": "sc10_120",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! «Большой» — это кому как кажется. Нет точной мерки.\n",
+        "en": "\"This cake is sweet.\"",
+        "uk": "Думка! «Великий» — це для кожного своє. Немає точної мірки."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Sweet\" - that's taste, everyone has their own threshold."
+      }
+    },
+    {
+      "step_id": "sc10_122",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот город больше, чем соседний.»\n",
+        "en": "\"This cake has sugar in it.\"",
+        "uk": "«Це місто більше, ніж сусіднє.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! You can read the composition on the package and verify."
+      }
+    },
+    {
+      "step_id": "sc10_124",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Площадь можно измерить и сравнить.\n",
+        "en": "\"All triangles have four sides.\"",
+        "uk": "Факт! Площу можна виміряти й порівняти."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! A triangle has three sides - that's why it's called a triangle."
+      }
+    },
+    {
+      "step_id": "sc10_126",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В сутках 25 часов.»\n",
+        "en": "\"Some birds can't fly.\"",
+        "uk": "«У добі 25 годин.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Penguins, ostriches - checked, confirmed."
+      }
+    },
+    {
+      "step_id": "sc10_128",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Проверили — 24, не 25.\n",
+        "en": "\"All teenagers are lazy.\"",
+        "uk": "Неправда! Перевірили — 24, не 25."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! The word \"all\" is a trap. It takes just one non-lazy teenager to disprove it."
+      }
+    },
+    {
+      "step_id": "sc10_130",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот торт сладкий.»\n",
+        "en": "\"All people breathe air.\"",
+        "uk": "«Цей торт солодкий.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Tricky question - \"all\" is not always a trap. You can verify this - and it's true for every person."
+      }
+    },
+    {
+      "step_id": "sc10_132",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! «Сладкий» — это вкус, у каждого свой порог.\n",
+        "en": "\"A goldfish only remembers things for three seconds.\"",
+        "uk": "Думка! «Солодкий» — це смак, у кожного свій поріг."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! Everyone thinks that, but scientists checked - fish remember things for months. Even things that \"everyone knows\" - can be wrong!"
+      }
+    },
+    {
+      "step_id": "sc10_134",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В этом торте есть сахар.»\n",
+        "en": "\"This movie is boring.\"",
+        "uk": "«У цьому торті є цукор.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! For some it's boring, for others it's interesting."
+      }
+    },
+    {
+      "step_id": "sc10_136",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Можно прочитать состав на упаковке и проверить.\n",
+        "en": "\"There are fewer than 100 students in our class.\"",
+        "uk": "Факт! Можна прочитати склад на упаковці й перевірити."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! We counted - confirmed."
+      }
+    },
+    {
+      "step_id": "sc10_138",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Все треугольники имеют четыре стороны.»\n",
+        "en": "\"All months have 31 days.\"",
+        "uk": "«Всі трикутники мають чотири сторони.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! February has 28 or 29 days. Again, it's the \"all\" trap!"
+      }
+    },
+    {
+      "step_id": "sc10_140",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! У треугольника три стороны — на то он и треугольник.\n",
+        "en": "\"My cat is the smartest.\"",
+        "uk": "Неправда! У трикутника три сторони — тому він й трикутник."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Smart\" for a cat - that depends on who you ask. There's no \"cat-smartness meter.\""
+      }
+    },
+    {
+      "step_id": "sc10_142",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Некоторые птицы не умеют летать.»\n",
+        "en": "\"The Great Wall of China is visible from space.\"",
+        "uk": "«Деякі птахи не вміють літати.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! Astronauts checked - you can't see it. The wall is long, but too narrow. A famous myth!"
+      }
+    },
+    {
+      "step_id": "sc10_144",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Пингвины, страусы — проверили, подтвердилось.\n",
+        "en": "\"If a person made a mistake, it means they didn't try.\"",
+        "uk": "Факт! Пінгвіни, страуси — перевірили, підтвердилось."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! You can try really hard and still make a mistake. \"If... then...\" - it's often a trap!"
+      }
+    },
+    {
+      "step_id": "sc10_146",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Все подростки ленивые.»\n",
+        "en": "\"If you don't agree with me, then you're wrong.\"",
+        "uk": "«Всі підлітки ледачі.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "False! Remember Mykola and Masha? Disagreement is normal. And this phrase - that's manipulation."
+      }
+    },
+    {
+      "step_id": "sc10_148",
+      "scene_id": "sc10",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Слово «все» — ловушка. Достаточно одного неленивого подростка, чтобы это опровергнуть.\n",
+        "en": "\"Winter is the most boring season.\"",
+        "uk": "Неправда! Слово «всі» — ловушка. Достатньо одного ненедачного підлітка, щоб це спростувати."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Falsehood",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Someone loves winter - snow, vacation, New Year. \"Boring\" - that's a feeling, not a measurement."
+      }
+    },
+    {
+      "step_id": "sc10_150",
+      "scene_id": "sc10",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Все люди дышат воздухом.»\n",
+        "en": "Wow - twenty out of twenty! See - change one word and the sentence jumps from opinion to fact. And \"all\" and \"if... then...\" - those are the trickiest traps. Now you know them!",
+        "uk": "«Всі люди дихають повітрям.»"
+      }
+    },
+    {
+      "step_id": "sc11_151",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Так. Давайте подведём итог. Сегодня вы получили суперсилу. Не лазерный взгляд и не умение летать — кое-что поважнее.\n",
+        "en": "Okay. Let's wrap up. Today you got a superpower. Not laser vision and not the ability to fly - something more important.",
+        "uk": "Так. Давайте підведемо підсумок. Сьогодні ви отримали суперсилу. Не лазерний погляд і не вміння літати — щось важливіше."
+      }
+    },
+    {
+      "step_id": "sc11_152",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы теперь умеете разбирать любую фразу на части. Кто-то что-то сказал — а вы раз, и думаете: стоп, это факт, мнение или неправда?\n",
+        "en": "Now you know how to break down any phrase. Someone says something - and you stop and think: is this a fact, opinion, or falsehood?",
+        "uk": "Тепер ви вмієте розбирати будь-яку фразу на частини. Хтось щось сказав — а ви раз, і думаєте: стоп, це факт, думка чи неправда?"
+      }
+    },
+    {
+      "step_id": "sc11_153",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ФАКТ — это то, что можно проверить. Пошёл, посмотрел, измерил — и точно знаешь, правда это или нет. Земля вращается вокруг Солнца — проверили, подтвердилось. Факт.\n",
+        "en": "A FACT - is something you can verify. You go, look, measure - and you know for sure whether it's true or not. The Earth revolves around the Sun - we verified, it's confirmed. That's a fact.",
+        "uk": "ФАКТ — це те, що можна перевірити. Пішов, подивився, виміряв — й точно знаєш, правда це чи ні. Земля обертається навколо Сонця — перевірили, підтвердилось. Факт."
+      }
+    },
+    {
+      "step_id": "sc11_154",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "МНЕНИЕ — это чьи-то чувства и вкусы. «Борщ вкуснее пиццы» — это не правда и не ложь. Это просто чей-то вкус. У тебя свой, у соседа свой — и оба правы.\n",
+        "en": "OPINION - is someone's feelings and tastes. \"Borscht is tastier than pizza\" - that's not true and not false. It's just someone's taste. You have your own, your neighbor has theirs - and both are right.",
+        "uk": "ДУМКА — це чиїсь почуття й смаки. «Борщ смачніший за піцу» — це не правда й не брехня. Це просто чиїсь смак. У тебе свій, у сусіда свій — і обидва праві."
+      }
+    },
+    {
+      "step_id": "sc11_155",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "НЕПРАВДА — это когда кто-то говорит как будто факт, но проверка показывает: нет, это не так. Люди используют только десять процентов мозга? Звучит умно — но это неправда.\n",
+        "en": "FALSEHOOD - is when someone states something as if it's a fact, but when you check, it turns out to be false. People use only ten percent of their brain? It sounds smart - but it's false.",
+        "uk": "НЕПРАВДА — це коли хтось говорить щось як факт, але перевірка показує: ні, це не так. Люди використовують тільки десять відсотків мозку? Звучить розумно — але це неправда."
+      }
+    },
+    {
+      "step_id": "sc11_156",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — главный секрет, ради которого стоило прийти. Представьте: ваш друг говорит — «Ванилла лучше шоколада!» А вы такие — «Нет, шоколад лучше!» И вы спорите час, два, три… Кто победит?\n",
+        "en": "Now - here's the main secret that was worth coming for. Imagine: your friend says - \"Vanilla is better than chocolate!\" And you say - \"No, chocolate is better!\" And you argue for an hour, two, three... Who wins?",
+        "uk": "А тепер — головний секрет, заради якого варто було прийти. Уявіть: ваш друг каже — «Ванілін краще за шоколад!» А ви кажете — «Ні, шоколад краще!» І ви сперечаєтесь годину, дві, три… Хто переможе?"
+      }
+    },
+    {
+      "step_id": "sc11_157",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Никто! Потому что это мнение. А с мнением спорить — всё равно что доказывать, что зелёный цвет красивее синего. Можно хоть до вечера — результата не будет.\n",
+        "en": "Nobody! Because that's an opinion. And arguing about opinions is like trying to prove that green is more beautiful than blue. You could argue forever - there's no result.",
+        "uk": "Ніхто! Тому що це думка. А сперечатися про думку — все одно що доводити, що зелений колір красивіший за синій. Можна хоч до вечора — результату не буде."
+      }
+    },
+    {
+      "step_id": "sc11_158",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Зато если кто-то говорит неправду — вот тут стоит разобраться. Потому что неправду можно проверить, найти доказательства и показать: вот, смотри, на самом деле всё не так.\n",
+        "en": "But if someone is lying - that's where we need to figure it out. Because you can verify a lie, find evidence and show: look, it's not actually like that.",
+        "uk": "Зато якщо хтось каже неправду — ось тут варто розібратися. Тому що неправду можна перевірити, знайти докази й показати: ось, дивись, насправді все не так."
+      }
+    },
+    {
+      "step_id": "sc11_159",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Так что в следующий раз, когда кто-то с вами спорит — не спешите. Сначала подумайте: мы вообще спорим о факте? Или это просто мнение — и тогда можно просто сказать «окей, у тебя своё мнение» — и пойти есть мороженое.\n",
+        "en": "So next time someone argues with you - don't rush. First think: are we even arguing about a fact? Or is it just an opinion - and then you can just say \"okay, you have your opinion\" - and go eat ice cream.",
+        "uk": "Тому наступного разу, коли хтось із вами сперечається — не квапіться. Спочатку подумайте: ми взагалі сперечаємося про факт? Або це просто думка — й тоді можна просто сказати «гаразд, у тебе своя думка» — й піти їсти морозиво."
+      }
+    },
+    {
+      "step_id": "sc11_160",
+      "scene_id": "sc11",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы сегодня отлично поработали! Перерыв пять минут — и продолжим.\n",
+        "en": "You worked great today! Five minute break - and we'll continue.",
+        "uk": "Ви сьогодні чудово попрацювали! Перерва п'ять хвилин — і продовжимо."
+      }
+    }
+  ],
+  "step_image_map": {
+    "sc2_14": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc2_15": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc2_16": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc2_17": "../ASSETS/1A/1a_sc2_bg_two_icecreams.png",
+    "sc2_18": "../ASSETS/1A/1a_sc2_bg_two_icecreams.png",
+    "sc2_19": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc2_20": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc2_21": "../ASSETS/1A/1a_sc1_bg.png",
+    "sc2_22": "../ASSETS/1A/1a_sc2_bg_broken_phone.png",
+    "sc2_23": "../ASSETS/1A/1a_sc2_bg_teacher_board.png",
+    "sc2_24": "../ASSETS/1A/1a_sc2_bg_teacher_board.png",
+    "sc2_25": "../ASSETS/1A/1a_sc2_bg_teacher_board.png",
+    "sc2_26": "../ASSETS/1A/1a_sc2_bg_teacher_board.png",
+    "sc3_27": "../ASSETS/1A/1a_sc3_bg_shop_counter.png",
+    "sc3_28": "../ASSETS/1A/1a_sc3_bg_shop_counter.png",
+    "sc3_29": "../ASSETS/1A/1a_sc3_bg_world_map.png",
+    "sc3_30": "../ASSETS/1A/1a_sc3_bg_world_map.png",
+    "sc5_40": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc5_41": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc5_42": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc9_98": "../ASSETS/1A/1a_sc9_bg_mother.png",
+    "sc9_99": "../ASSETS/1A/1a_sc9_bg_mother.png",
+    "sc2_13": "../ASSETS/1A/1a_sc2_bg_children_icecream.png",
+    "sc4_32": "../ASSETS/1A/1a_sc1_bg.png",
+    "sc4_36": "../ASSETS/1A/1a_sc3_bg.png",
+    "sc4_38": "../ASSETS/1A/1a_sc3_bg.png",
+    "sc8_72": "../ASSETS/1A/1a_sc7_obj_alien.png",
+    "sc8_71": "../ASSETS/1A/1a_sc7_bg.png",
+    "sc8_74": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_76": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_78": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_80": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_82": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_84": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_86": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_88": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_90": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_92": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_93": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc8_94": "../ASSETS/1A/1a_sc6_bg_kids.png",
+    "sc9_101": "../ASSETS/1A/1a_sc4_bg.png",
+    "sc9_103": "../ASSETS/1A/1a_sc4_bg.png",
+    "sc9_105": "../ASSETS/1A/1a_sc4_bg.png",
+    "sc9_107": "../ASSETS/1A/1a_sc4_bg.png",
+    "sc1_5": "../ASSETS/1A/1a_sc1_bg_boy_telling.png"
+  }
+}

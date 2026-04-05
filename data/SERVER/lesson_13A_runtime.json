@@ -1,0 +1,2565 @@
+{
+  "lesson_id": "13A",
+  "title": {
+    "ru": "Спорить и не ругаться",
+    "uk": "Сперечатися й не лаятися",
+    "en": "Argue Without Fighting"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "БОЛЬШАЯ РАЗМИНКА ПО ВСЕМУ КУРСУ",
+        "uk": "ВЕЛИКА РОЗМИНКА ПО ВСЬОМУ КУРСУ",
+        "en": "Big Warm-Up for the Whole Course"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_4",
+        "sc1_6",
+        "sc1_8",
+        "sc1_10",
+        "sc1_12",
+        "sc1_14",
+        "sc1_16",
+        "sc1_18",
+        "sc1_20",
+        "sc1_22",
+        "sc1_24",
+        "sc1_26",
+        "sc1_28",
+        "sc1_30",
+        "sc1_32",
+        "sc1_34",
+        "sc1_36",
+        "sc1_38",
+        "sc1_40"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "СПОР VS ССОРА",
+        "uk": "СПІР VS ПОСВАРКА",
+        "en": "ARGUMENT VS FIGHT"
+      },
+      "step_ids": [
+        "sc2_41",
+        "sc2_42",
+        "sc2_43",
+        "sc2_45",
+        "sc2_46",
+        "sc2_47",
+        "sc2_48",
+        "sc2_50",
+        "sc2_52",
+        "sc2_54",
+        "sc2_56",
+        "sc2_58",
+        "sc2_59"
+      ],
+      "first_step_index": 21
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "ОБВИНЕНИЕ ИЛИ Я-ВЫСКАЗЫВАНИЕ?",
+        "uk": "ЗВИНУВАЧЕННЯ ЧИ Я-ВИСЛОВЛЮВАННЯ?",
+        "en": "ACCUSATION OR I-STATEMENT?"
+      },
+      "step_ids": [
+        "sc3_60",
+        "sc3_61",
+        "sc3_62",
+        "sc3_64",
+        "sc3_66",
+        "sc3_68",
+        "sc3_70",
+        "sc3_72",
+        "sc3_74",
+        "sc3_76"
+      ],
+      "first_step_index": 34
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "МИРНЫЙ ВЫХОД ИЗ СПОРА",
+        "uk": "МИРНИЙ ВИХІД ЗІ СПОРУ",
+        "en": "PEACEFUL WAY OUT OF AN ARGUMENT"
+      },
+      "step_ids": [
+        "sc4_78",
+        "sc4_79",
+        "sc4_80",
+        "sc4_81",
+        "sc4_83",
+        "sc4_85",
+        "sc4_87",
+        "sc4_89",
+        "sc4_91",
+        "sc4_93",
+        "sc4_95"
+      ],
+      "first_step_index": 44
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "КАК БЫ ТЫ ВЫШЕЛ ИЗ ЭТОГО СПОРА?",
+        "uk": "ЯК БИ ТИ ВИЙШОВ ЗІ ЦЬОГО СПОРУ?",
+        "en": "HOW WOULD YOU GET OUT OF THIS ARGUMENT?"
+      },
+      "step_ids": [
+        "sc5_97",
+        "sc5_98",
+        "sc5_99",
+        "sc5_100",
+        "sc5_101",
+        "sc5_102",
+        "sc5_103",
+        "sc5_104",
+        "sc5_105",
+        "sc5_106",
+        "sc5_107",
+        "sc5_108",
+        "sc5_109",
+        "sc5_110",
+        "sc5_111",
+        "sc5_112"
+      ],
+      "first_step_index": 55
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "ШПАРГАЛКА: ВСЁ, ЧЕМУ МЫ НАУЧИЛИСЬ",
+        "uk": "ШПАРГАЛКА: ВСЕ, ЧОМУ МИ НАВЧИЛИСЯ",
+        "en": "CHEAT SHEET: EVERYTHING WE LEARNED"
+      },
+      "step_ids": [
+        "sc6_113",
+        "sc6_114",
+        "sc6_115",
+        "sc6_116",
+        "sc6_117",
+        "sc6_118",
+        "sc6_119",
+        "sc6_120",
+        "sc6_121",
+        "sc6_122",
+        "sc6_123",
+        "sc6_124",
+        "sc6_125",
+        "sc6_126",
+        "sc6_127",
+        "sc6_128",
+        "sc6_129",
+        "sc6_130",
+        "sc6_131",
+        "sc6_132",
+        "sc6_133",
+        "sc6_134",
+        "sc6_135",
+        "sc6_136",
+        "sc6_137",
+        "sc6_138",
+        "sc6_139",
+        "sc6_140",
+        "sc6_141",
+        "sc6_142",
+        "sc6_143",
+        "sc6_144",
+        "sc6_145",
+        "sc6_146",
+        "sc6_147",
+        "sc6_148",
+        "sc6_149",
+        "sc6_150",
+        "sc6_151",
+        "sc6_152",
+        "sc6_153",
+        "sc6_154"
+      ],
+      "first_step_index": 71
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "НАПУТСТВИЕ",
+        "uk": "НАПУТСТВІЯ",
+        "en": "FAREWELL"
+      },
+      "step_ids": [
+        "sc7_155",
+        "sc7_156",
+        "sc7_157",
+        "sc7_158",
+        "sc7_159",
+        "sc7_160"
+      ],
+      "first_step_index": 113
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последний день курса! Прежде чем узнать новое — проверим, что помним. Двадцать вопросов по ВСЕМ темам. Готовы? Поехали!\n",
+        "uk": "Останній день курсу! Перш ніж дізнатися щось нове — перевіримо, що пам'ятаємо. Двадцять питань по ВСІМ темам. Готові? Поїхали!",
+        "en": "The last day of the course! Before learning something new, let's check what we remember. Twenty questions on ALL topics. Ready? Let's go!"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Все кошки любят рыбу.» У Ани кошка не ест рыбу. Достаточно ли одного примера, чтобы опровергнуть утверждение?\n",
+        "uk": "«Усі кішки люблять рибу.» У Ані кішка не їсть рибу. Чи достатньо одного прикладу, щоб спростувати твердження?",
+        "en": "\"All cats like fish.\" Ani's cat doesn't eat fish. Is one example enough to disprove this statement?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, достаточно",
+            "uk": "Так, достатньо",
+            "en": "Yes, that's enough"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, нужно больше",
+            "uk": "Ні, потрібно більше",
+            "en": "No, we need more"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "That's enough! To disprove \"all\" — one exception is enough. One cat that doesn't eat fish — and the statement is false."
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Достаточно! Чтобы опровергнуть «все» — хватит одного исключения. Одна кошка, которая не ест рыбу — и утверждение ложно.\n",
+        "uk": "Достатньо! Щоб спростувати «всі» — вистачить одного виключення. Одна кішка, яка не їсть рибу — і твердження хибне.",
+        "en": "Masha tried to ride a bicycle once, fell. \"I'll never learn!\" What's the error?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Поспешное обобщение",
+            "uk": "Поспішне узагальнення",
+            "en": "Hasty generalization"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ложная причина",
+            "uk": "Хибна причина",
+            "en": "False cause"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ложная дилемма",
+            "uk": "Хибна дилема",
+            "en": "False dilemma"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Hasty generalization! One fall — and \"never\"? Everyone falls at first. One try — not a reason to give up on life."
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Маша попробовала один раз сесть на велосипед — упала. «Я никогда не научусь!» Какая ошибка?\n",
+        "uk": "Маша спробувала один раз сісти на велосипед — впала. «Я ніколи не навчусь!» Яка помилка?",
+        "en": "\"Chocolate is good for your brain.\" How can we check this claim?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Поспешное обобщение",
+            "uk": "Поспішне узагальнення",
+            "en": "Ask mom"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ложная причина",
+            "uk": "Хибна причина",
+            "en": "Find a scientific study"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Ложная дилемма",
+            "uk": "Хибна дилема",
+            "en": "Try eating chocolate for a week"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "A scientific study! Mom's opinion isn't verification. And your own experiment without a control isn't proof. We need a reliable source."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Поспешное обобщение! Один раз упала — и «никогда»? Все падают поначалу. Одна попытка — не повод для вывода о жизни.\n",
+        "uk": "Поспішне узагальнення! Один раз впала — і «ніколи»? Всі падають спочатку. Одна спроба — не повід для висновку про життя.",
+        "en": "Sasha saw a wet umbrella in the park. \"So it rained!\" Is this an observation or a conclusion?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Наблюдение",
+            "uk": "Спостереження",
+            "en": "Observation"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вывод",
+            "uk": "Висновок",
+            "en": "Conclusion"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "A conclusion! The observation is \"the umbrella is wet.\" \"It rained\" is already an explanation. Maybe the umbrella fell in a puddle. Or someone washed it."
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Шоколад полезен для мозга.» Как проверить это утверждение?\n",
+        "uk": "«Шоколад корисний для мозку.» Як перевірити це твердження?",
+        "en": "Petya got sick after walking in the rain. Is rain the cause of his illness?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спросить маму",
+            "uk": "Запитати маму",
+            "en": "Yes, it's the cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Найти научное исследование",
+            "uk": "Знайти наукове дослідження",
+            "en": "Maybe it's a coincidence"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Попробовать есть шоколад неделю",
+            "uk": "Спробувати їсти шоколад тиждень",
+            "en": "Definitely a coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Maybe a coincidence! Viruses cause illness, not rain. \"After\" doesn't mean \"because of.\" Petya might have caught a virus before the walk."
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Научное исследование! Мамино мнение — не проверка. А собственный эксперимент без контроля — не доказательство. Нужен надёжный источник.\n",
+        "uk": "Наукове дослідження! Мамина думка — не перевірка. А власний експеримент без контролю — не доказ. Потрібне надійне джерело.",
+        "en": "Blogger: \"This phone is the best!\" Magazine: \"This phone is the best!\" Are these independent sources?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да",
+            "uk": "Так",
+            "en": "Yes"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет",
+            "uk": "Ні",
+            "en": "No"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Нужно проверить",
+            "uk": "Потрібно перевірити",
+            "en": "Need to check"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Need to check! If the blogger was paid by the manufacturer and the magazine got advertising — the sources are dependent. Independence = no shared interest."
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Саша увидел, что в парке лежит мокрый зонт. «Значит, был дождь!» Это наблюдение или вывод?\n",
+        "uk": "Саша побачив, що в парку лежит мокрий парасолька. «Значить, був дощ!» Це спостереження чи висновок?",
+        "en": "\"I love ice cream\" and \"Ice cream is the most nutritious food.\" Is there a contradiction?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Наблюдение",
+            "uk": "Спостереження",
+            "en": "Yes, there's a contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Вывод",
+            "uk": "Висновок",
+            "en": "No, these are different things"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No contradiction! The first is an opinion about taste. The second is a claim about nutrition. You can like something and think it's good for you."
+      }
+    },
+    {
+      "step_id": "sc1_16",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вывод! Наблюдение — «зонт мокрый». А «был дождь» — это уже объяснение. Может, зонт упал в лужу. Или кто-то его помыл.\n",
+        "uk": "Висновок! Спостереження — «парасолька мокра». А «був дощ» — це вже пояснення. Може, парасолька впала в калюжу. Або хтось її помив.",
+        "en": "Teacher: \"Why are you late?\" Student: \"But Masha was also late yesterday!\" What did the student do?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил на вопрос",
+            "uk": "Відповів на запитання",
+            "en": "Answered the question"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ушёл от темы",
+            "uk": "Пішов від теми",
+            "en": "Avoided the topic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Привёл аргумент",
+            "uk": "Навів аргумент",
+            "en": "Gave an argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Avoided the topic! Masha and her lateness yesterday aren't an answer to \"why are YOU late TODAY?\" Classic deflection."
+      }
+    },
+    {
+      "step_id": "sc1_18",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Петя заболел после того, как погулял под дождём. Дождь — причина болезни?\n",
+        "uk": "Петя захворів після того, як гуляв під дощем. Дощ — причина хвороби?",
+        "en": "\"If you don't learn the multiplication table, you'll fail the exam, won't get into university, become a janitor!\" What is this?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, причина",
+            "uk": "Так, причина",
+            "en": "Logical reasoning"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Возможно совпадение",
+            "uk": "Можливо збіг",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Точно совпадение",
+            "uk": "Точно збіг",
+            "en": "False authority"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Scary chain! From multiplication table to \"become a janitor\" — three jumps without proof. Each link needs to be checked separately."
+      }
+    },
+    {
+      "step_id": "sc1_20",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Возможно совпадение! Болезнь вызывают вирусы, а не дождь. «После» не значит «из-за». Может, Петя подхватил вирус ещё до прогулки.\n",
+        "uk": "Можливо збіг! Хворобу викликають віруси, а не дощ. «Після» не значить «через». Може, Петя підхопив вірус ще до прогулки.",
+        "en": "\"Either you go to art class or sit at home doing nothing.\" What if you want to go for a walk?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальный выбор",
+            "uk": "Нормальний вибір",
+            "en": "Normal choice"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ложная дилемма",
+            "uk": "Хибна дилема",
+            "en": "False dilemma"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "False dilemma! There are lots of options: go for a walk, read, play, robotics club. \"Either-or\" hides all other options."
+      }
+    },
+    {
+      "step_id": "sc1_22",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Блогер: «Этот телефон — лучший!» Журнал: «Этот телефон — лучший!» Это независимые источники?\n",
+        "uk": "Блогер: «Цей телефон — найкращий!» Журнал: «Цей телефон — найкращий!» Це незалежні джерела?",
+        "en": "\"Why don't you want to eat soup?\" — \"But you didn't eat porridge yesterday!\" What technique is this?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да",
+            "uk": "Так",
+            "en": "Valid objection"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет",
+            "uk": "Ні",
+            "en": "Personal attack"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Нужно проверить",
+            "uk": "Потрібно перевірити",
+            "en": "Trick question"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Personal attack! Instead of answering — an attack: \"But you yourself...\" Someone else's behavior isn't an argument. This isn't even an objection, it's avoiding the topic with an attack."
+      }
+    },
+    {
+      "step_id": "sc1_24",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Нужно проверить! Если блогеру заплатил производитель и журнал получил рекламу — источники зависимые. Независимость = нет общего интереса.\n",
+        "uk": "Потрібно перевірити! Якщо блогеру заплатив виробник і журнал отримав рекламу — джерела залежні. Незалежність = немає спільного інтересу.",
+        "en": "Ad: \"9 out of 10 dentists recommend!\" What should you ask?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Кто эти стоматологи?",
+            "uk": "Хто ці стоматологи?",
+            "en": "Who are these dentists?"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Сколько им заплатили?",
+            "uk": "Скільки їм заплатили?",
+            "en": "How much were they paid?"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Оба вопроса важны",
+            "uk": "Обидва запитання важливі",
+            "en": "Both questions matter"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Both! Who they are — maybe they're students. Whether they were paid — maybe it's an ad contract. Ads love numbers that look scientific but don't prove anything."
+      }
+    },
+    {
+      "step_id": "sc1_26",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я люблю мороженое» и «Мороженое — самая полезная еда». Есть ли тут противоречие?\n",
+        "uk": "«Я люблю морозиво» і «Морозиво — найкорисніша їжа». Є тут суперечність?",
+        "en": "\"You agree that our teacher is the best in the world, right?\" What's wrong with this question?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, суперечність",
+            "en": "Everything's fine"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, это разные вещи",
+            "uk": "Ні, це різні речі",
+            "en": "This is a trick question"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "This is an opinion"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Trick question! The answer is already built in: \"you agree.\" If you say \"no,\" it means you \"don't agree she's the best.\" Clever trick!"
+      }
+    },
+    {
+      "step_id": "sc1_28",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Нет противоречия! Первое — мнение о вкусе. Второе — утверждение о пользе. Любить что-то и считать это полезным — разные вещи.\n",
+        "uk": "Немає суперечності! Перше — думка про смак. Друге — твердження про користь. Любити щось і вважати його корисним — різні речі.",
+        "en": "\"I don't like your drawing — the proportions are wrong, look at the hands.\" Is this an objection or an attack?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Возражение",
+            "uk": "Заперечення",
+            "en": "Objection"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нападка",
+            "uk": "Напад",
+            "en": "Attack"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "An objection! Specific, on point, with examples: \"proportions,\" \"hands.\" Not \"you draw badly\" — but what exactly is wrong. That's how you should criticize."
+      }
+    },
+    {
+      "step_id": "sc1_30",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Учитель: «Почему опоздал?» Ученик: «А Маша вчера тоже опоздала!» Что сделал ученик?\n",
+        "uk": "Учитель: «Чому ти спізнився?» Учень: «А Маша вчора теж спізнилася!» Що зробив учень?",
+        "en": "\"This cream is recommended by Professor Ivanov!\" Professor Ivanov is a historian. The cream is cosmetic. What's wrong?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ответил на вопрос",
+            "uk": "Відповів на запитання",
+            "en": "Everything's fine"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ушёл от темы",
+            "uk": "Пішов від теми",
+            "en": "False authority"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Привёл аргумент",
+            "uk": "Навів аргумент",
+            "en": "Hasty generalization"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "False authority! A historian isn't an expert on cosmetics. His professor title has nothing to do with creams. Authority must be in the RIGHT field."
+      }
+    },
+    {
+      "step_id": "sc1_32",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ушёл от темы! Маша и её вчерашнее опоздание — не ответ на вопрос «почему ТЫ опоздал СЕГОДНЯ». Классическая подмена.\n",
+        "uk": "Пішов від теми! Маша й її вчорашнє спізнення — не відповідь на запитання «чому ТИ спізнився СЬОГОДНІ». Класична заміна.",
+        "en": "Three classmates independently said the movie was boring. One read a review, two watched it themselves. How many independent opinions are there?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Три",
+            "uk": "Три",
+            "en": "Three"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Два",
+            "uk": "Два",
+            "en": "Two"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Одно",
+            "uk": "Одна",
+            "en": "One"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Two! The one who read the review is repeating someone else's opinion, not their own. Only the two who watched it themselves have independent opinions."
+      }
+    },
+    {
+      "step_id": "sc1_34",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Если не выучишь таблицу умножения — не сдашь экзамен, не поступишь в университет, станешь дворником!» Что это?\n",
+        "uk": "«Якщо не вивчиш таблицю множення — не здашь іспит, не поступиш до університету, станеш дворником!» Що це?",
+        "en": "\"Kolya ate ice cream yesterday. He got sick today. So it's because of the ice cream!\" Are there enough examples for this conclusion?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Логичное рассуждение",
+            "uk": "Логічне міркування",
+            "en": "Yes"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Страшная цепочка",
+            "uk": "Страшний ланцюг",
+            "en": "No"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No! One case isn't proof. Maybe Kolya got sick from a virus. He ate ice cream every day before and didn't get sick. We need statistics, not one example."
+      }
+    },
+    {
+      "step_id": "sc1_36",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Страшная цепочка! От таблицы умножения до «станешь дворником» — три прыжка без доказательств. Каждое звено нужно проверять отдельно.\n",
+        "uk": "Страшний ланцюг! Від таблиці множення до «станеш дворником» — три стрибки без доказів. Кожну ланку потрібно перевірити окремо.",
+        "en": "\"Earth rotates around the Sun\" and \"The sun rises in the east.\" Is there a contradiction?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да",
+            "uk": "Так",
+            "en": "Yes"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет",
+            "uk": "Ні",
+            "en": "No"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No! \"Rises in the east\" is a simplified description of what we SEE. Earth rotates — and it looks like the Sun moves. Both statements are true."
+      }
+    },
+    {
+      "step_id": "sc1_38",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Либо ты идёшь на кружок рисования, либо сидишь дома без дела.» А если хочешь гулять?\n",
+        "uk": "«Або ти йдеш на кружок малювання, або сидиш дома без справи.» А якщо хочеш гуляти?",
+        "en": "Mom: \"When I was little, the snow was whiter!\" How can you check this?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальный выбор",
+            "uk": "Нормальний вибір",
+            "en": "Can't — it's a memory"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ложная дилемма",
+            "uk": "Хибна дилема",
+            "en": "Find data about snow composition"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Ask grandma"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Find data! Subjective memories are unreliable sources. But ecological measurements will show if snow composition changed. Check facts, not memory."
+      }
+    },
+    {
+      "step_id": "sc1_40",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ложная дилемма! Есть куча вариантов: гулять, читать, играть, кружок робототехники. «Либо-либо» прячет все остальные варианты.\n",
+        "uk": "Хибна дилема! Є купа варіантів: гуляти, читати, грати, кружок робототехніки. «Або-або» приховує всі інші варіанти.",
+        "en": "Twenty out of twenty! You remember EVERYTHING. Facts and opinions, causes and coincidences, tricks and generalizations. Now — on to a new topic!"
+      }
+    },
+    {
+      "step_id": "sc2_41",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Разминка позади — вы помните кучу приёмов! Но есть вопрос: а как спорить ЧЕСТНО? Без демагогии, без манипуляций — и при этом не поссориться?\n",
+        "uk": "Розминка позаду — ви пам'ятаєте купу прийомів! Але є запитання: а як сперечатися ЧЕСНО? Без демагогії, без маніпуляцій — і при цьому не посварюватися?",
+        "en": "The warm-up is over — you remember lots of tricks! But here's a question: how can you argue HONESTLY? Without demagoguery, without manipulation — and still not fight?"
+      }
+    },
+    {
+      "step_id": "sc2_42",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот ситуация. Лёша и Кира спорят, какой фильм лучше. Лёша говорит: «Твой фильм — скучный!» Кира отвечает: «А ты вообще ничего не понимаешь в кино!»\n",
+        "uk": "Ось ситуація. Льоша й Кіра сперечаються, який фільм кращий. Льоша говорить: «Твій фільм — нудний!» Кіра відповідає: «А ти взагалі нічого не розумієш в кіно!»",
+        "en": "Here's the situation. Losha and Kira are arguing about which movie is better. Losha says: \"Your movie is boring!\" Kira replies: \"You don't understand anything about movies!\""
+      }
+    },
+    {
+      "step_id": "sc2_43",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что происходит между Лёшей и Кирой?\n",
+        "uk": "Що відбувається між Льошею й Кірою?",
+        "en": "What's happening between Losha and Kira?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спор о фильмах",
+            "uk": "Спір про фільми",
+            "en": "Argument about movies"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ссора с оскорблениями",
+            "uk": "Посварка з образами",
+            "en": "Fight with insults"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Дискуссия",
+            "uk": "Дискусія",
+            "en": "Discussion"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "They started talking about movies and ended up attacking each other. Sound familiar? An argument is when we discuss a topic. A fight is when we attack a person."
+      }
+    },
+    {
+      "step_id": "sc2_45",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Они начали про фильмы, а закончили нападками друг на друга. Знакомо? Спор — это когда обсуждаем тему. Ссора — когда нападаем на человека.\n",
+        "uk": "Вони почали про фільми, а закінчили нападами одне на одного. Знайомо? Спір — це коли обговорюємо тему. Посварка — коли нападаємо на людину.",
+        "en": "Remember: an argument is normal! People can't agree on everything. But if instead of \"the movie is boring\" you say \"you're stupid\" — that's not an argument. That's a fight."
+      }
+    },
+    {
+      "step_id": "sc2_46",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Запомните: спор — это нормально! Люди не могут соглашаться во всём. Но если вместо «фильм скучный» вы говорите «ты глупый» — это уже не спор. Это ссора.\n",
+        "uk": "Запам'ятайте: спір — це нормально! Люди не можуть у всьому погоджуватися. Але якщо замість «фільм нудний» ви говорите «ти дурень» — це вже не спір. Це посварка.",
+        "en": "Good news: there's a simple trick that prevents an argument from turning into a fight. It's called the \"I-statement.\" Instead of \"YOU're wrong!\" we say \"I think differently.\" Feel the difference?"
+      }
+    },
+    {
+      "step_id": "sc2_47",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Хорошая новость: есть простой приём, который не даёт спору стать ссорой. Называется «Я-высказывание». Вместо «ТЫ неправ!» говорим «МНЕ кажется иначе». Чувствуете разницу?\n",
+        "uk": "Хороша новина: є простий прийом, який не дає спору стати посваркою. Називається «Я-висловлювання». Замість «ТИ неправий!» говоримо «МНЕ здається інакше». Почуваєте різницю?",
+        "en": "Let's practice! Someone makes an accusation — and you choose how to respond with an I-statement."
+      }
+    },
+    {
+      "step_id": "sc2_48",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Давайте потренируемся! Кто-то бросает обвинение — а вы выбираете, как лучше ответить Я-высказыванием.\n",
+        "uk": "Давайте потренуємося! Хтось кидає звинувачення — а ви вибираєте, як краще відповісти Я-висловлюванням.",
+        "en": "A friend shouts: \"You're always late!\" How should you respond?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«А ты вообще зануда!»",
+            "uk": "«А ти взагалі нудна!»",
+            "en": "\"You're boring!\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Мне неприятно, когда на меня кричат за опоздание»",
+            "uk": "«Мені неприємно, коли на мене кричать за спізнення»",
+            "en": "\"I don't like being yelled at for being late\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ну и что?»",
+            "uk": "«Ну й що?»",
+            "en": "\"So what?\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "The second option is about your feelings without attacking back. The first is a fight. The third is adding fuel to the fire."
+      }
+    },
+    {
+      "step_id": "sc2_50",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Друг кричит: «Ты всегда опаздываешь!» Как ответить?\n",
+        "uk": "Друг кричить: «Ти завжди спізнюєшся!» Як відповісти?",
+        "en": "A classmate says: \"You can't draw!\" How should you respond?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«А ты вообще зануда!»",
+            "uk": "«А ти взагалі нудна!»",
+            "en": "\"That hurts, I tried my best\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Мне неприятно, когда на меня кричат за опоздание»",
+            "uk": "«Мені неприємно, коли на мене кричать за спізнення»",
+            "en": "\"But you write crooked!\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ну и что?»",
+            "uk": "«Ну й що?»",
+            "en": "\"Then you draw!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "The first option is honest about your feelings. The other two are counterattacks. A fight is guaranteed."
+      }
+    },
+    {
+      "step_id": "sc2_52",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Второй вариант — про свои чувства, без нападки в ответ. Первый — это ссора. Третий — бензин в огонь.\n",
+        "uk": "Другий варіант — про свої почуття, без нападу в ответ. Перший — це посварка. Третій — бензин у вогонь.",
+        "en": "Your brother says: \"We lost because of you!\" How should you respond?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Сам виноват!»",
+            "uk": "«Сам винний!»",
+            "en": "\"You're to blame!\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Мне и так грустно, что мы проиграли»",
+            "uk": "«Мені й так сумно, що ми програли»",
+            "en": "\"I'm already sad that we lost\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Мне всё равно»",
+            "uk": "«Мені все одно»",
+            "en": "\"I don't care\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"I'm already sad\" — you're talking about yourself, and your brother understands: you're upset too. That brings you closer. \"You're to blame\" — and a minute later pillows are flying."
+      }
+    },
+    {
+      "step_id": "sc2_54",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Одноклассница говорит: «Ты ничего не умеешь рисовать!» Как ответить?\n",
+        "uk": "Однокласниця говорить: «Ти нічого не вмієш малювати!» Як відповісти?",
+        "en": "Your friend says: \"You don't listen to me at all!\" How should you respond?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Мне обидно это слышать, я старался»",
+            "uk": "«Мені образливо це чути, я намагався»",
+            "en": "\"You tell boring stories!\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Зато ты криво пишешь!»",
+            "uk": "«Зате ти криво пишеш!»",
+            "en": "\"That's not true!\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Ну рисуй сама тогда!»",
+            "uk": "«Ну малюй сама тоді!»",
+            "en": "\"Sorry, I was lost in thought. What you say matters to me\""
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "The third option is an apology and an I-statement combined. The first is an insult. The second is just denial and doesn't solve anything."
+      }
+    },
+    {
+      "step_id": "sc2_56",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Первый вариант — честно про свои чувства. Остальные два — нападка в ответ. Ссора гарантирована.\n",
+        "uk": "Перший варіант — чесно про свої почуття. Інші двоє — напад в ответ. Посварка гарантована.",
+        "en": "Your desk neighbor says: \"You're taking up all the table space!\" How should you respond?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "«Давай разделим — мне неудобно, когда тесно, и тебе тоже»",
+            "uk": "«Давай розділимо — мені незручно, коли тісно, і тобі теж»",
+            "en": "\"Let's share — I'm uncomfortable when it's crowded, and so are you\""
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "«Твои проблемы!»",
+            "uk": "«Твої проблеми!»",
+            "en": "\"Your problem!\""
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«А ты вообще толстый!»",
+            "uk": "«А ти взагалі товстий!»",
+            "en": "\"You're fat anyway!\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "The first option addresses both you and the other person. A real way out of conflict. The others are a ticket to the principal's office."
+      }
+    },
+    {
+      "step_id": "sc2_58",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Брат говорит: «Из-за тебя мы проиграли!» Как ответить?\n",
+        "uk": "Брат говорить: «Через тебе ми програли!» Як відповісти?",
+        "en": "The formula is simple: \"I feel [emotion] when [situation].\" Instead of \"You drive me crazy!\" — \"I don't like being yelled at.\" The first is an attack. The second is about you."
+      }
+    },
+    {
+      "step_id": "sc2_59",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мне и так грустно» — вы говорите про себя, и брат понимает: вы тоже расстроены. Это сближает. «Сам виноват» — и через минуту подушки летают.\n",
+        "uk": "«Мені й так сумно» — ви говорите про себе, і брат розуміє: ви теж розстроєні. Це зближує. «Сам винний» — і через хвилину подушки летять.",
+        "en": "What if your emotions are running high and the formula doesn't work? Three lifesaving tricks: pause, deep breath, count to ten. Sounds simple — but works better than yelling!"
+      }
+    },
+    {
+      "step_id": "sc3_60",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак, формула Я-высказывания: «Мне [чувство], когда [ситуация]». Вы говорите про СЕБЯ — свои чувства, свои ощущения. Не обвиняете другого. Не нападаете. Просто объясняете, что с вами происходит.\n",
+        "uk": "Отже, формула Я-висловлювання: «Мені [почуття], коли [ситуація]». Ви говорите про СЕБЕ — свої почуття, свої відчуття. Не звинувачуєте іншого. Не нападаєте. Просто пояснюєте, що з вами відбувається.",
+        "en": "So the I-statement formula is: \"I feel [emotion] when [situation].\" You talk about YOURSELF — your feelings, your sensations. You don't accuse the other person. You don't attack. You just explain what's happening with you."
+      }
+    },
+    {
+      "step_id": "sc3_61",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А обвинение — наоборот: «ТЫ всегда...», «ТЫ никогда...», «Из-за ТЕБЯ...». Всё направлено на другого. Это нападка — и начало ссоры. Сейчас проверим, отличаете ли вы одно от другого!\n",
+        "uk": "А звинувачення — навпаки: «ТИ завжди...», «ТИ ніколи...», «Через ТЕБЕ...». Все спрямовано на іншого. Це напад — і початок посварки. Тепер перевіримо, розрізняєте ви одне від іншого!",
+        "en": "An accusation is the opposite: \"YOU always...,\" \"YOU never...,\" \"Because of YOU...\" Everything is directed at the other person. It's an attack — and the start of a fight. Now let's see if you can tell the difference!"
+      }
+    },
+    {
+      "step_id": "sc3_62",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты всегда всё портишь!»\n",
+        "uk": "«Ти завжди все псуєш!»",
+        "en": "\"You always ruin everything!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Accusation! The words \"always\" + \"everything\" — a double blow. An attack on a person, not about feelings."
+      }
+    },
+    {
+      "step_id": "sc3_64",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Обвинение! Слово «всегда» + «всё» — двойной удар. Нападка на человека, а не про чувства.\n",
+        "uk": "Звинувачення! Слово «завжди» + «все» — подвійний удар. Напад на людину, а не про почуття.",
+        "en": "\"I don't like waiting a long time.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "I-statement! \"I don't like\" — about yourself. No \"you're late again\" — just your feelings."
+      }
+    },
+    {
+      "step_id": "sc3_66",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мне неприятно долго ждать.»\n",
+        "uk": "«Мені неприємно довго чекати.»",
+        "en": "\"You're the meanest person in the class!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Accusation! \"The meanest\" — that's not about behavior, that's a label on a person. Classic attack."
+      }
+    },
+    {
+      "step_id": "sc3_68",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Я-высказывание! «Мне неприятно» — про себя. Никаких «ты опять опоздал» — только про свои чувства.\n",
+        "uk": "Я-висловлювання! «Мені неприємно» — про себе. Ніяких «ти знову спізнився» — тільки про свої почуття.",
+        "en": "\"I get upset when we fight.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "I-statement! \"I get upset\" — about yourself. \"When we fight\" — the situation. The formula works perfectly."
+      }
+    },
+    {
+      "step_id": "sc3_70",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты самый вредный человек в классе!»\n",
+        "uk": "«Ти найшкідливіша людина в класі!»",
+        "en": "\"We can't do anything because of you!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Accusation! \"Because of you\" — all the blame on one person. Try this: \"I'm sad that it didn't work out.\" A completely different conversation!"
+      }
+    },
+    {
+      "step_id": "sc3_72",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Обвинение! «Самый вредный» — это уже не про поведение, это ярлык на человека. Классическая нападка.\n",
+        "uk": "Звинувачення! «Найшкідливіша» — це вже не про поведінку, це ярлик на людину. Класична напад.",
+        "en": "\"It's hard for me to concentrate when it's noisy.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "I-statement! Not \"you're all being noisy!\" but \"It's hard for me.\" About yourself — and it's clear that quiet is needed. Without fighting."
+      }
+    },
+    {
+      "step_id": "sc3_74",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я расстраиваюсь, когда мы ссоримся.»\n",
+        "uk": "«Я розстраююся, коли ми посварюємося.»",
+        "en": "\"You always take my things without asking!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Accusation! \"Always\" is an exaggeration, \"without asking\" is an attack. What about an I-statement? \"I want to be asked before you take my things.\""
+      }
+    },
+    {
+      "step_id": "sc3_76",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Я-высказывание! «Я расстраиваюсь» — про себя. «Когда мы ссоримся» — ситуация. Формула работает идеально.\n",
+        "uk": "Я-висловлювання! «Я розстраююся» — про себе. «Коли ми посварюємося» — ситуація. Формула працює ідеально.",
+        "en": "\"I think we didn't understand each other.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Я-высказывание",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обвинение",
+            "uk": "[UNTRANSLATED]",
+            "en": "[UNTRANSLATED]"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "I-statement! \"I think\" + \"we\" — nobody's at fault, we both misunderstood. Perfect way to defuse the situation."
+      }
+    },
+    {
+      "step_id": "sc4_78",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы умеете не нападать — это уже половина победы. Но иногда спор заходит в тупик: никто не уступает, эмоции растут. Что делать? Выйти из спора так, чтобы остаться друзьями.\n",
+        "uk": "Ви вмієте не нападати — це вже половина перемоги. Але іноді спір заходить в глухий кут: ніхто не поступається, емоції зростають. Що робити? Вийти зі спору так, щоб залишитися друзями.",
+        "en": "You know how not to attack — that's half the battle. But sometimes an argument reaches a deadlock: nobody gives in, emotions escalate. What do you do? Exit the argument while remaining friends."
+      }
+    },
+    {
+      "step_id": "sc4_79",
+      "scene_id": "sc4",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Четыре фразы-спасателя: «Давай вернёмся к этому позже.» «Мне нужно время подумать.» «У нас разные мнения — и это нормально.» «Давай сделаем паузу и поговорим спокойно.»\n",
+        "uk": "Чотири фрази-спасателі: «Давай повернемося до цього пізніше.» «Мені потрібен час подумати.» «У нас різні думки — і це нормально.» «Давай зробимо паузу й поговоримо спокійно.»",
+        "en": "Four lifesaving phrases: \"Let's come back to this later.\" \"I need time to think.\" \"We have different opinions — and that's okay.\" \"Let's take a break and talk calmly.\""
+      }
+    },
+    {
+      "step_id": "sc4_80",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Главное правило: СПОР — О ТЕМЕ, НЕ О ЧЕЛОВЕКЕ. Можно не согласиться с мнением друга — и при этом уважать самого друга. Теперь проверим — какие фразы спасают, а какие всё портят?\n",
+        "uk": "Головне правило: СПІР — ПРО ТЕМУ, НЕ ПРО ЛЮДИНУ. Можна не погодитися з думкою друга — і при цьому поважати самого друга. Тепер перевіримо — які фрази рятують, а які все псують?",
+        "en": "Main rule: ARGUMENT is ABOUT THE TOPIC, NOT THE PERSON. You can disagree with a friend's opinion — and still respect the friend. Now let's see — which phrases save the day, and which ruin everything?"
+      }
+    },
+    {
+      "step_id": "sc4_81",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Давай вернёмся к этому, когда оба успокоимся.»\n",
+        "uk": "«Давай повернемося до цього, коли обидва заспокоїмся.»",
+        "en": "\"Let's come back to this when we've both calmed down.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Will save it! Pause + respect. You're not giving up — you're taking a timeout. Like in basketball: a break to play better later."
+      }
+    },
+    {
+      "step_id": "sc4_83",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Спасёт! Пауза + уважение. Вы не сдаётесь — вы берёте тайм-аут. Как в баскетболе: перерыв, чтобы потом играть лучше.\n",
+        "uk": "Спасе! Пауза + повага. Ви не здаєтесь — ви беретеся тайм-аут. Як у баскетболі: перерва, щоб потім грати краще.",
+        "en": "\"Fine, you're right, I'm stupid!\" (sarcastically)"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Will make it worse! Sarcasm + self-insult. Sounds like agreement but is really anger. The other person senses the trap and gets even angrier."
+      }
+    },
+    {
+      "step_id": "sc4_85",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ладно, ты прав, я дурак!» (с сарказмом)\n",
+        "uk": "«Гаразд, ти правий, я дурень!» (з сарказмом)",
+        "en": "\"We think differently, and that's okay.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Will save it! You accept the difference. Not \"you're wrong,\" but \"we're different.\" That's a mature approach — and it works even with adults."
+      }
+    },
+    {
+      "step_id": "sc4_87",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ухудшит! Это сарказм + оскорбление себя. Звучит как согласие, а на самом деле — злость. Собеседник чувствует подвох и злится ещё больше.\n",
+        "uk": "Погіршить! Це сарказм + образа себе. Звучить як согласие, а насправді — злість. Співбесідник відчуває підвох і гніється ще більше.",
+        "en": "\"I don't care, do what you want!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Will make it worse! \"I don't care\" is not peace, it's a wall. You didn't solve the problem — you slammed the door. The person feels abandoned mid-conversation."
+      }
+    },
+    {
+      "step_id": "sc4_89",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мы думаем по-разному, и это нормально.»\n",
+        "uk": "«Ми думаємо по-іншому, і це нормально.»",
+        "en": "\"Let's change the subject — play something!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Will save it! Switching gears is a great trick. You're not running away, you're suggesting something fun together. In an hour, the argument will be forgotten."
+      }
+    },
+    {
+      "step_id": "sc4_91",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Спасёт! Вы принимаете различие. Не «ты неправ», а «мы разные». Это взрослый подход — и он работает даже среди взрослых.\n",
+        "uk": "Спасе! Ви приймаєте різницю. Не «ти неправий», а «ми різні». Це дорослий підхід — і він працює навіть серед дорослих.",
+        "en": "\"That's it, I'm not talking to you anymore!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Will make it worse! That's an ultimatum, not a solution. \"Not talking\" is the silent treatment. One of the nastiest things you can do to a friend."
+      }
+    },
+    {
+      "step_id": "sc4_93",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Да мне вообще всё равно, делай что хочешь!»\n",
+        "uk": "«Та мені взагалі все одно, роби як хочеш!»",
+        "en": "\"I disagree, but I understand your point.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Will save it! A golden phrase. You stick to your opinion — but show respect. That's how people who've been friends for years argue."
+      }
+    },
+    {
+      "step_id": "sc4_95",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ухудшит! «Всё равно» — это не мир, это стена. Вы не решили проблему — вы хлопнули дверью. Человек чувствует, что его бросили посреди разговора.\n",
+        "uk": "Погіршить! «Все одно» — це не мир, це стіна. Ви не вирішили проблему — ви хлопнули дверима. Людина відчуває, що її кинули посередині розмови.",
+        "en": "\"Ugh, enough!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спасёт отношения",
+            "uk": "Спасе стосунки",
+            "en": "Will save the relationship"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ухудшит ситуацию",
+            "uk": "Погіршить ситуацію",
+            "en": "Will make it worse"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Will make it worse! Two words — and so much frustration. That's not getting out of the argument, that's showing contempt. After \"ugh, enough\" a real fight usually starts."
+      }
+    },
+    {
+      "step_id": "sc5_97",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — без вариантов! Я рассказываю историю, а вы сами придумываете, что сказать. Подсказка: используйте Я-высказывание или одну из фраз-спасателей.\n",
+        "uk": "Тепер — без варіантів! Я розповідаю історію, а ви самі придумуєте, що сказати. Підказка: використовуйте Я-висловлювання або одну з фраз-спасателів.",
+        "en": "Now — no options! I tell you a story, and you come up with what to say yourself. Hint: use an I-statement or one of the lifesaving phrases."
+      }
+    },
+    {
+      "step_id": "sc5_98",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История первая. Лена и Вика делают проект. Лена хочет рисовать плакат, Вика хочет делать презентацию. Они спорят уже пять минут. Лена говорит: «Презентации — это скучно!» Вика краснеет.\n",
+        "uk": "Історія перша. Лена й Вика роблять проект. Лена хоче малювати плакат, Вика хоче робити презентацію. Вони сперечаються вже п'ять хвилин. Лена говорить: «Презентації — це нудно!» Вика червоніє.",
+        "en": "Story one. Lena and Vika are doing a project. Lena wants to draw a poster, Vika wants to make a presentation. They've been arguing for five minutes. Lena says: \"Presentations are boring!\" Vika blushes."
+      }
+    },
+    {
+      "step_id": "sc5_99",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вика чувствует, что сейчас скажет что-то обидное. Что ей сделать? Подсказка: пауза, Я-высказывание или фраза-спасатель.\n",
+        "uk": "Вика відчуває, що зараз скаже щось образливе. Що їй зробити? Підказка: пауза, Я-висловлювання або фраза-спасатель.",
+        "en": "Vika feels like she's about to say something hurtful. What should she do? Hint: pause, I-statement, or lifesaving phrase."
+      }
+    },
+    {
+      "step_id": "sc5_100",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Мне обидно, когда мою идею называют скучной. Давай подумаем — может, совместим плакат и презентацию?» И пауза, и Я-высказывание, и предложение компромисса!\n",
+        "uk": "Наприклад: «Мені образливо, коли мою ідею називають нудною. Давай подумаємо — може, змішаємо плакат і презентацію?» І пауза, і Я-висловлювання, і пропозиція компромісу!",
+        "en": "For example: \"I feel hurt when my idea is called boring. Let's think — maybe we can combine a poster and a presentation?\" Both a pause and an I-statement and a compromise offer!"
+      }
+    },
+    {
+      "step_id": "sc5_101",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История вторая. Костя и Артём играют в футбол. Костя не отдал пас — и команда проиграла. Артём кричит: «Из-за тебя мы продули!» Костя сжимает кулаки.\n",
+        "uk": "Історія друга. Костя й Артем грають у футбол. Костя не віддав пас — і команда програла. Артем кричить: «Через тебе ми програли!» Костя стискає кулаки.",
+        "en": "Story two. Kostya and Artem are playing football. Kostya didn't pass — and the team lost. Artem shouts: \"We lost because of you!\" Kostya clenches his fists."
+      }
+    },
+    {
+      "step_id": "sc5_102",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Костя злится. Что ему сделать прямо сейчас? Подсказка: сигналы тела уже кричат — пора остановиться.\n",
+        "uk": "Костя гніється. Що йому зробити прямо зараз? Підказка: сигнали тіла вже кричать — час зупинитися.",
+        "en": "Kostya is angry. What should he do right now? Hint: his body is already screaming — it's time to stop."
+      }
+    },
+    {
+      "step_id": "sc5_103",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сначала — пауза и счёт до десяти. Потом: «Мне и так плохо, что мы проиграли. Давай разберём игру спокойно.» Не нападка — а выход через чувства.\n",
+        "uk": "Спочатку — пауза й рахунок до десяти. Потім: «Мені й так погано, що ми програли. Давай розберемо гру спокійно.» Не напад — а вихід через почуття.",
+        "en": "First — pause and count to ten. Then: \"I feel bad that we lost. Let's analyze the game calmly.\" Not an attack — but exiting through feelings."
+      }
+    },
+    {
+      "step_id": "sc5_104",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История третья. Даша показывает подруге новую стрижку. Подруга говорит: «Тебе не идёт.» Даша чувствует обиду — хочется ответить: «А у тебя вообще причёска как из прошлого века!»\n",
+        "uk": "Історія третя. Даша показує подрузі нову стрижку. Подруга говорить: «Тобі не йде.» Даша відчуває образу — хочеться відповісти: «А у тебе взагалі причіска як із минулого століття!»",
+        "en": "Story three. Dasha shows her friend a new haircut. The friend says: \"That doesn't suit you.\" Dasha feels hurt — she wants to reply: \"Your hair looks like it's from the last century!\""
+      }
+    },
+    {
+      "step_id": "sc5_105",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Как Даше ответить, чтобы не начать ссору? Подсказка: Я-высказывание про свои чувства.\n",
+        "uk": "Як Даші відповісти, щоб не почати посварку? Підказка: Я-висловлювання про свої почуття.",
+        "en": "How should Dasha respond without starting a fight? Hint: I-statement about her feelings."
+      }
+    },
+    {
+      "step_id": "sc5_106",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Мне неприятно это слышать — я как раз радовалась новой стрижке.» Честно, про себя — и подруга сразу поймёт, что перегнула.\n",
+        "uk": "Наприклад: «Мені неприємно це чути — я як раз радувалася новій стрижці.» Чесно, про себе — і подруга відразу зрозуміє, що перегнула.",
+        "en": "For example: \"That hurts — I was just happy about my new haircut.\" Honestly, about yourself — and your friend will immediately understand she went too far."
+      }
+    },
+    {
+      "step_id": "sc5_107",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История четвёртая. Тимур и его сестра спорят, чей черёд мыть посуду. Оба уверены, что вчера мыли именно они. Голоса всё громче. Мама ещё не пришла.\n",
+        "uk": "Історія четверта. Тимур і його сестра сперечаються, чия черга мити посуду. Обидва впевнені, що вчера мили саме вони. Голоси все голосніші. Мама ще не прийшла.",
+        "en": "Story four. Timur and his sister are arguing about whose turn it is to wash dishes. Both are sure they did it yesterday. Voices are getting louder. Mom hasn't come home yet."
+      }
+    },
+    {
+      "step_id": "sc5_108",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Спор зашёл в тупик — никто не уступает. Как выйти? Подсказка: фраза-спасатель для тупиковых ситуаций.\n",
+        "uk": "Спір заходить в глухий кут — ніхто не поступається. Як вийти? Підказка: фраза-спасатель для ситуацій, що тупика.",
+        "en": "The argument is at a deadlock — nobody's giving in. How to get out? Hint: lifesaving phrase for deadlock situations."
+      }
+    },
+    {
+      "step_id": "sc5_109",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Давай сделаем так: сегодня моет один, завтра — другой. А кто первый — кинем монетку.» Компромисс! Или: «Давай спросим маму, когда придёт.» Выход через паузу.\n",
+        "uk": "«Давай зробимо так: сьогодні миє один, завтра — другий. А хто перший — кинемо монетку.» Компромісс! Або: «Давай запитаємо маму, коли прийде.» Вихід через паузу.",
+        "en": "\"How about this: one person washes today, the other tomorrow. Who goes first — flip a coin.\" Compromise! Or: \"Let's ask mom when she gets home.\" Getting out through a pause."
+      }
+    },
+    {
+      "step_id": "sc5_110",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История пятая. На перемене Миша случайно толкнул Егора. Егор уронил телефон. Егор разворачивается: «Ты специально! Ты всегда так делаешь!» Миша точно знает, что случайно.\n",
+        "uk": "Історія п'ята. На перемені Миша випадково штовхнув Егора. Егор упустив телефон. Егор розворотиться: «Ти спеціально! Ти завжди так робиш!» Миша точно знає, що випадково.",
+        "en": "Story five. During break, Misha accidentally bumped Egor. Egor dropped his phone. Egor whirls around: \"You did that on purpose! You always do that!\" Misha knows it was an accident."
+      }
+    },
+    {
+      "step_id": "sc5_111",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Миша не виноват, но Егор злится. Как Мише ответить? Подсказка: не оправдываться, а показать, что понимает чувства Егора.\n",
+        "uk": "Миша не винний, але Егор гніється. Як Миші відповісти? Підказка: не виправдовуватися, а показати, що розуміє почуття Егора.",
+        "en": "Misha isn't guilty, but Egor is angry. How should Misha respond? Hint: don't defend yourself, show that you understand Egor's feelings."
+      }
+    },
+    {
+      "step_id": "sc5_112",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Извини, я случайно! Понимаю, что ты переживаешь за телефон. Давай посмотрим — может, всё целое?» Извинение + понимание чувств + конкретное действие. Три в одном!\n",
+        "uk": "«Вибач, це було випадково! Розумію, що ти хвилюєшся за телефон. Давай подивимося — може, все ціле?» Вибачення + розуміння почуттів + конкретна дія. Три в одному!",
+        "en": "\"Sorry, it was an accident! I understand you're worried about your phone. Let's check — maybe it's okay?\" Apology + understanding feelings + concrete action. All three in one!"
+      }
+    },
+    {
+      "step_id": "sc6_113",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — ваша шпаргалка. Всё, что мы прошли за тринадцать дней. Каждый приём, каждый термин, каждый способ защиты. Запоминайте!\n",
+        "uk": "А тепер — ваша шпаргалка. Все, що ми пройшли за тринадцять днів. Кожен прийом, кожен термін, кожен спосіб захисту. Запам'ятовуйте!",
+        "en": "Now — your cheat sheet. Everything we covered over thirteen days. Every technique, every term, every way to defend yourself. Remember!"
+      }
+    },
+    {
+      "step_id": "sc6_114",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ФАКТ — утверждение, которое можно проверить. «Вода кипит при ста градусах» — проверяем термометром. Не важно, согласны вы или нет — факт существует сам по себе.\n",
+        "uk": "ФАКТ — твердження, яке можна перевірити. «Вода кипить при ста градусах» — перевіряємо термометром. Неважливо, згідні ви чи ні — факт існує сам по собі.",
+        "en": "FACT — a statement that can be verified. \"Water boils at 100 degrees\" — we check with a thermometer. It doesn't matter if you agree — the fact exists on its own."
+      }
+    },
+    {
+      "step_id": "sc6_115",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "МНЕНИЕ — утверждение, которое нельзя проверить. «Клубника вкуснее малины» — у каждого своё. Ни одно мнение не «правильнее» другого. Мнение нельзя опровергнуть.\n",
+        "uk": "ДУМКА — твердження, яке неможливо перевірити. «Полуниця смачніша за малину» — у кожного своя. Ні одна думка не «правильніша» за іншу. Думку неможливо спростувати.",
+        "en": "OPINION — a statement that can't be verified. \"Strawberries taste better than raspberries\" — everyone has their own. No opinion is \"more right\" than another. You can't disprove an opinion."
+      }
+    },
+    {
+      "step_id": "sc6_116",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "НЕПРАВДА — утверждение, которое выглядит как факт, но проверку не прошло. «Луна больше Солнца» — можно измерить и убедиться, что это не так.\n",
+        "uk": "НЕПРАВДА — твердження, яке виглядає як факт, але не пройшло перевірку. «Місяць більший за Сонце» — можна виміряти й переконатися, що це не так.",
+        "en": "FALSEHOOD — a statement that looks like a fact but doesn't pass verification. \"The Moon is bigger than the Sun\" — we can measure and see it's not true."
+      }
+    },
+    {
+      "step_id": "sc6_117",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "НАБЛЮДЕНИЕ — то, что вы видите, слышите, измеряете прямо сейчас. «На улице мокрый асфальт.» Никаких додумываний — только то, что перед глазами.\n",
+        "uk": "СПОСТЕРЕЖЕННЯ — те, що ви бачите, чуєте, вимірюєте прямо зараз. «На вулиці мокрий асфальт.» Ніяких додумувань — лише те, що перед очима.",
+        "en": "OBSERVATION — what you see, hear, measure right now. \"The pavement outside is wet.\" No guessing — just what's in front of your eyes."
+      }
+    },
+    {
+      "step_id": "sc6_118",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ВЫВОД — объяснение на основе наблюдения. «Был дождь» — вывод. Может быть верным, а может нет: может, дворник мыл улицу. Вывод всегда нужно проверять.\n",
+        "uk": "ВИСНОВОК — пояснення на основі спостереження. «Був дощ» — висновок. Може бути правильним, а може ні: може, дворник мив вулицю. Висновок завжди потрібно перевіряти.",
+        "en": "CONCLUSION — an explanation based on observation. \"It rained\" — a conclusion. It might be true or not: maybe the janitor was washing the street. You always need to verify conclusions."
+      }
+    },
+    {
+      "step_id": "sc6_119",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«ПОСЛЕ» НЕ ЗНАЧИТ «ИЗ-ЗА». Если одно случилось после другого — это не доказывает связь. Петя поел мороженое и заболел? Болезнь вызвал вирус, а не мороженое.\n",
+        "uk": "«ПІСЛЯ» НЕ ЗНАЧИТЬ «ЧЕРЕЗ». Якщо одне відбулося після іншого — це не доказує зв'язок. Петя поїв морозиво й захворів? Хворобу викликав вірус, а не морозиво.",
+        "en": "\"AFTER\" DOESN'T MEAN \"BECAUSE OF.\" If one thing happened after another — that doesn't prove a connection. Petya ate ice cream and got sick? A virus caused the illness, not the ice cream."
+      }
+    },
+    {
+      "step_id": "sc6_120",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ИСТОЧНИК — откуда пришла информация. Три вопроса: кто говорит? Откуда он это знает? Есть ли причина врать? Если хоть один ответ настораживает — ищем другой источник.\n",
+        "uk": "ДЖЕРЕЛО — звідки прийшла інформація. Три запитання: хто говорить? Звідки він це знає? Є причина брехати? Якщо хоч один ответ настороженає — шукаємо інше джерело.",
+        "en": "SOURCE — where the information came from. Three questions: who is speaking? How do they know? Is there a reason to lie? If any answer raises concern — find another source."
+      }
+    },
+    {
+      "step_id": "sc6_121",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЧЕТЫРЕ СПОСОБА ПРОВЕРКИ: посмотреть самому, провести эксперимент, найти надёжный источник, применить логическое рассуждение. Чем больше способов совпало — тем надёжнее вывод.\n",
+        "uk": "ЧОТИРИ СПОСОБИ ПЕРЕВІРКИ: подивитися самому, провести експеримент, знайти надійне джерело, застосувати логічне міркування. Чим більше способів збіглося — тим надійніший висновок.",
+        "en": "FOUR WAYS TO VERIFY: look yourself, conduct an experiment, find a reliable source, use logical reasoning. The more methods that match — the more reliable the conclusion."
+      }
+    },
+    {
+      "step_id": "sc6_122",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ДОСТАТОЧНО ЛИ ПРИМЕРОВ? Один случай — не доказательство. Нужно много примеров. «Мой кот любит огурцы» не значит, что все коты любят огурцы.\n",
+        "uk": "ДОСТАТНЬО ЛИ ПРИКЛАДІВ? Один випадок — не доказ. Потрібно багато прикладів. «Мій кіт любить огірки» не значить, що всі коти люблять огірки.",
+        "en": "ARE THERE ENOUGH EXAMPLES? One case isn't proof. You need many examples. \"My cat likes cucumbers\" doesn't mean all cats like cucumbers."
+      }
+    },
+    {
+      "step_id": "sc6_123",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "НЕЗАВИСИМЫЕ ИСТОЧНИКИ — те, кто пришёл к выводу сам, без общего интереса. Два блогера с оплатой от одной компании — зависимые. Учёный и журналист, работавшие отдельно — независимые.\n",
+        "uk": "[UNTRANSLATED]",
+        "en": "INDEPENDENT SOURCES - those who came to a conclusion on their own, without general interest. Two bloggers paid by the same company are addicts. A scientist and a journalist working separately are independent."
+      }
+    },
+    {
+      "step_id": "sc6_124",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ПРОТИВОРЕЧИЕ — когда два утверждения не могут быть правдой одновременно. «Я не ем сладкое» и «Я съел три конфеты» — противоречие. Кто-то ошибается.\n",
+        "uk": "СУПЕРЕЧНІСТЬ — коли два твердження не можуть бути правдою одночасно. «Я не їм солодке» і «Я з'їв три цукерки» — суперечність. Хтось помиляється.",
+        "en": "CONTRADICTION — when two statements can't both be true. \"I don't eat sweets\" and \"I ate three candies\" — contradiction. Someone is wrong."
+      }
+    },
+    {
+      "step_id": "sc6_125",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ТРИ ТИПА ОБОСНОВАНИЯ — чем подкрепить утверждение. Факт: «Измерили — температура 38». Логика: «Если лёд тает — значит, выше нуля». Надёжный источник: «Так говорит учебник физики».\n",
+        "uk": "ТРИ ТИПИ ОБҐРУНТУВАННЯ — чим підкріпити твердження. Факт: «Виміряли — температура 38». Логіка: «Якщо лід тає — значить, вище нуля». Надійне джерело: «Так говорить підручник фізики».",
+        "en": "THREE TYPES OF JUSTIFICATION — how to support a claim. Fact: \"We measured — temperature is 38°.\" Logic: \"If ice melts — it means above zero.\" Reliable source: \"That's what the physics textbook says.\""
+      }
+    },
+    {
+      "step_id": "sc6_126",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "СЛОВА-ЛОВУШКИ — «все», «всегда», «никогда», «точно», «каждый». Если слышите абсолютное слово — это сигнал проверить. Почти всегда за ним прячется преувеличение или обобщение.\n",
+        "uk": "СЛОВЕЧКА-ПАСТКИ — «усі», «завжди», «ніколи», «точно», «кожен». Якщо чуєте абсолютне слово — це сигнал перевірити. Майже завжди за ним ховається перебільшення або узагальнення.",
+        "en": "TRAP WORDS — \"all,\" \"always,\" \"never,\" \"definitely,\" \"everyone.\" If you hear an absolute word — it's a signal to check. Almost always there's exaggeration or generalization behind it."
+      }
+    },
+    {
+      "step_id": "sc6_127",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "СТЕРЕОТИПЫ — готовые шаблоны: «все [группа] такие». Мальчики не плачут. Отличники — зануды. Стереотип заменяет мышление ярлыком. Борьба: «Это про конкретного человека или про ярлык?»\n",
+        "uk": "СТЕРЕОТИПИ — готові шаблони: «усі [група] такі». Хлопці не плачуть. Відмінники — нудні. Стереотип замінює мислення ярликом. Боротьба: «Це про конкретну людину або про ярлик?»",
+        "en": "STEREOTYPES — ready-made templates: \"all [group] are like that.\" Boys don't cry. Top students are boring. Stereotypes replace thinking with labels. Defense: \"Is this about a specific person or a stereotype?\""
+      }
+    },
+    {
+      "step_id": "sc6_128",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "СЛУХИ И ПОВТОРЕНИЕ — если что-то повторяют сто раз, это не делает это правдой. «Все говорят» — не доказательство. Борьба: «Кто именно говорит? И откуда он знает?»\n",
+        "uk": "ЧУТКИ Й ПОВТОРЕННЯ — якщо щось повторюють сто разів, це не робить це правдою. «Всі говорять» — не доказ. Боротьба: «Хто саме говорить? І звідки він це знає?»",
+        "en": "RUMORS AND REPETITION — repeating something a hundred times doesn't make it true. \"Everyone says\" — not proof. Defense: \"Who exactly says it? And how do they know?\""
+      }
+    },
+    {
+      "step_id": "sc6_129",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ВОЗРАЖЕНИЕ — критика по существу: что не так и почему. НАПАДКА — критика человека: «ты глупый». Возражение помогает, нападка ранит.\n",
+        "uk": "ЗАПЕРЕЧЕННЯ — критика по суті: що не так і чому. НАПАД — критика людини: «ти дурень». Заперечення допомагає, напад ранить.",
+        "en": "OBJECTION — criticism on the merits: what's wrong and why. ATTACK — criticism of a person: \"you're stupid.\" Objections help, attacks hurt."
+      }
+    },
+    {
+      "step_id": "sc6_130",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ТРИ ЗАКОНА АРИСТОТЕЛЯ — фундамент логики. Три правила, без которых рассуждение рассыпается.\n",
+        "uk": "ТРИ ЗАКОНИ АРИСТОТЕЛЯ — фундамент логіки. Три правила, без яких міркування розсипається.",
+        "en": "THREE LAWS OF ARISTOTLE — foundation of logic. Three rules without which reasoning falls apart."
+      }
+    },
+    {
+      "step_id": "sc6_131",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЗАКОН ТОЖДЕСТВА — одно слово должно значить одно и то же на протяжении всего разговора. Если кто-то начал про «свободу» как независимость, а закончил как «делай что хочешь» — это подмена понятий. Борьба: «Ты про что именно?»\n",
+        "uk": "ЗАКОН ТОТОЖНОСТІ — одне слово повинно значити одне й те саме протягом всієї розмови. Якщо хтось почав про «свободу» як незалежність, а закінчив як «роби як хочеш» — це підміна понять. Боротьба: «Ти про що саме?»",
+        "en": "LAW OF IDENTITY — one word must mean the same thing throughout the conversation. If someone starts talking about \"freedom\" as independence and ends with \"do whatever you want\" — that's a substitution of concepts. Defense: \"What exactly are you talking about?\""
+      }
+    },
+    {
+      "step_id": "sc6_132",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЗАКОН НЕПРОТИВОРЕЧИЯ — одно и то же не может быть правдой и неправдой одновременно. Лампа не бывает включена и выключена в один момент. Борьба: «Ты только что сказал наоборот».\n",
+        "uk": "ЗАКОН НЕСУПЕРЕЧНОСТІ — одне й те саме не може бути правдою й неправдою одночасно. Лампа не бувает включена й вимкнена в один момент. Боротьба: «Ти щойно сказав навпаки».",
+        "en": "LAW OF NON-CONTRADICTION — the same thing can't be true and false at the same time. A light can't be on and off at the same moment. Defense: \"You just said the opposite.\""
+      }
+    },
+    {
+      "step_id": "sc6_133",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЗАКОН ИСКЛЮЧЁННОГО ТРЕТЬЕГО — для простых вещей только два варианта: да или нет. Число чётное или нечётное. Но для жизни — не работает! «Либо со мной, либо против» — ложная дилемма. Борьба: «А какие ещё варианты?»\n",
+        "uk": "ЗАКОН ВИКЛЮЧЕНОГО ТРЕТЬОГО — для простих речей тільки два варіанти: так або ні. Число парне або непарне. Але для життя — не працює! «Або зі мною, або проти» — хибна дилема. Боротьба: «А які ще варіанти?»",
+        "en": "LAW OF EXCLUDED MIDDLE — for simple things only two options: yes or no. A number is even or odd. But for life — it doesn't work! \"Either with me or against me\" — false dilemma. Defense: \"What other options?\""
+      }
+    },
+    {
+      "step_id": "sc6_134",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — ДЕМАГОГИЯ. Двенадцать приёмов, которые атакуют ваш разум. На все один ответ: «Где факты?»\n",
+        "uk": "Тепер — ДЕМАГОГІЯ. Дванадцять прийомів, які атакують ваш розум. На все один ответ: «Де факти?»",
+        "en": "Now — DEMAGOGUERY. Twelve techniques that attack your mind. One answer to all: \"Where are the facts?\""
+      }
+    },
+    {
+      "step_id": "sc6_135",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЛОЖНАЯ ПРИЧИНА — связывают два события без доказательств. «Надел красные носки — и мы выиграли!» Носки ни при чём. Борьба: «Где доказательство связи?»\n",
+        "uk": "ХИБНА ПРИЧИНА — пов'язують дві події без доказів. «Надів червоні шкарпетки — і ми виграли!» Шкарпетки ні при чому. Боротьба: «Де доказ зв'язку?»",
+        "en": "FALSE CAUSE — linking two events without proof. \"Wore red socks — and we won!\" The socks have nothing to do with it. Defense: \"Where's the proof of the link?\""
+      }
+    },
+    {
+      "step_id": "sc6_136",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ПОСПЕШНОЕ ОБОБЩЕНИЕ — из одного случая вывод обо всех. «Один раз опоздал — значит, всегда опаздывает!» Борьба: «Одного примера мало, нужна статистика».\n",
+        "uk": "ПОСПІШНЕ УЗАГАЛЬНЕННЯ — з одного випадку висновок про всіх. «Один раз спізнився — значить, завжди спізнюється!» Боротьба: «Одного прикладу мало, потрібна статистика».",
+        "en": "HASTY GENERALIZATION — from one case, a conclusion about all. \"Late once — so always late!\" Defense: \"One example isn't enough, we need statistics.\""
+      }
+    },
+    {
+      "step_id": "sc6_137",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "УКЛОНЕНИЕ ОТ ОТВЕТА — вместо ответа говорят о другом. «Почему опоздал?» — «А Маша тоже опоздала!» Борьба: «Мы сейчас не про Машу».\n",
+        "uk": "УНИКНЕННЯ ВІД ВІДПОВІДІ — замість відповіді говорять про іншу. «Чому спізнився?» — «А Маша теж спізнилася!» Боротьба: «Ми зараз не про Машу».",
+        "en": "EVASION — instead of answering, they talk about something else. \"Why are you late?\" — \"But Masha was late too!\" Defense: \"We're not talking about Masha.\""
+      }
+    },
+    {
+      "step_id": "sc6_138",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ПОДМЕНА ПОНЯТИЙ — незаметно меняют значение слова посреди разговора. Нарушение закона тождества. Борьба: «Что именно ты имеешь в виду?»\n",
+        "uk": "ПІДМІНА ПОНЯТЬ — непомітно змінюють значення слова посередині розмови. Порушення закону тотожності. Боротьба: «Що саме ти маєш на увазі?»",
+        "en": "SUBSTITUTION OF CONCEPTS — subtly changing a word's meaning mid-conversation. Violates the law of identity. Defense: \"What exactly do you mean?\""
+      }
+    },
+    {
+      "step_id": "sc6_139",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "НАПАДКА НА ЧЕЛОВЕКА — вместо аргументов критикуют того, кто говорит. «Ты маленький — что ты понимаешь?» Борьба: «Это про меня или про тему?»\n",
+        "uk": "НАПАД НА ЛЮДИНУ — замість аргументів критикують того, хто говорить. «Ти маленький — що ти розумієш?» Боротьба: «Це про мене або про тему?»",
+        "en": "PERSONAL ATTACK — criticizing the speaker instead of offering arguments. \"You're little — what do you know?\" Defense: \"Is this about me or the topic?\""
+      }
+    },
+    {
+      "step_id": "sc6_140",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ПУГАЛО — переврать чужие слова и спорить с тем, чего не говорили. «Ты хочешь отменить все правила!» — хотя предложил изменить одно. Борьба: «Я такого не говорил».\n",
+        "uk": "ЛЯЛЬКА — передирають чужі слова й сперечаються з тим, чого не говорили. «Ти хочеш скасувати всі правила!» — хоча запропонував змінити одне. Боротьба: «Я такого не говорив».",
+        "en": "STRAW MAN — distorting someone's words and arguing against what they didn't say. \"You want to cancel all rules!\" — even though they only suggested changing one. Defense: \"I didn't say that.\""
+      }
+    },
+    {
+      "step_id": "sc6_141",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "СТРАШНАЯ ЦЕПОЧКА — раздувают последствия без доказательств. Не выучишь таблицу — станешь дворником! Борьба: «Проверим каждое звено отдельно».\n",
+        "uk": "СТРАШНИЙ ЛАНЦЮГ — раздувають наслідки без доказів. Не вивчиш таблицю — станеш дворником! Боротьба: «Перевіримо кожну ланку окремо».",
+        "en": "SCARY CHAIN — exaggerating consequences without proof. Won't learn the table — become a janitor! Defense: \"Let's check each link separately.\""
+      }
+    },
+    {
+      "step_id": "sc6_142",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЛОЖНЫЙ АВТОРИТЕТ — ссылаются на эксперта не в той области. Историк рекламирует крем. Борьба: «Он эксперт именно в этом?»\n",
+        "uk": "ХИБНИЙ АВТОРИТЕТ — посилаються на експерта не в тій галузі. Історик рекламує крем. Боротьба: «Він експерт саме в цьому?»",
+        "en": "FALSE AUTHORITY — citing an expert in the wrong field. A historian advertising cream. Defense: \"Is he an expert in this field?\""
+      }
+    },
+    {
+      "step_id": "sc6_143",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ЛОЖНАЯ ДИЛЕММА — предлагают два варианта, хотя их больше. Нарушение закона исключённого третьего в жизни. Борьба: «А какие ещё варианты?»\n",
+        "uk": "ХИБНА ДИЛЕМА — пропонують два варіанти, хоча їх більше. Порушення закону виключеного третього в житті. Боротьба: «А які ще варіанти?»",
+        "en": "FALSE DILEMMA — offering two options when there are more. Violating the law of excluded middle in life. Defense: \"What other options?\""
+      }
+    },
+    {
+      "step_id": "sc6_144",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ВОПРОС-ЛОВУШКА — вопрос, в который встроен ответ. «Ты же согласен, что это лучший фильм?» Борьба: «Я не согласен с формулировкой вопроса».\n",
+        "uk": "ЗАПИТАННЯ-ПАСТКА — запитання, в яке вбудований ответ. «Ти ж згідний, що це найкращий фільм?» Боротьба: «Я не згідний з формулюванням запитання».",
+        "en": "TRICK QUESTION — a question with the answer built in. \"You agree this is the best movie, right?\" Defense: \"I disagree with how you phrased it.\""
+      }
+    },
+    {
+      "step_id": "sc6_145",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "КРАСИВЫЕ СЛОВА БЕЗ ФАКТОВ — много эмоций, ноль доказательств. «Этот продукт изменит жизнь!» Борьба: «Звучит красиво, а факты где?»\n",
+        "uk": "КРАСИВІ СЛОВА БЕЗ ФАКТІВ — багато емоцій, нуль доказів. «Цей продукт змінить життя!» Боротьба: «Звучить красиво, а факти де?»",
+        "en": "BEAUTIFUL WORDS WITHOUT FACTS — lots of emotion, zero proof. \"This product will change your life!\" Defense: \"Sounds nice, but where are the facts?\""
+      }
+    },
+    {
+      "step_id": "sc6_146",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Я НЕ ГОВОРЮ, ЧТО...» — говорят именно то, что якобы не говорят. «Я не говорю, что он врёт, но...» — и все думают, что врёт. Борьба: «Ты только что это и сказал».\n",
+        "uk": "«Я НЕ ГОВОРЮ, ЩО...» — говорять саме те, що якобы не говорять. «Я не говорю, що він бреше, але...» — і всі думають, що бреше. Боротьба: «Ти щойно це й сказав».",
+        "en": "\"I'M NOT SAYING THAT...\" — saying exactly what they claim not to say. \"I'm not saying he's lying, but...\" — and everyone thinks he is. Defense: \"You just said that.\""
+      }
+    },
+    {
+      "step_id": "sc6_147",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — МАНИПУЛЯЦИЯ. Четыре кнопки, которые давят на чувства. На все один ответ: «Давай по существу».\n",
+        "uk": "Тепер — МАНІПУЛЯЦІЯ. Чотири кнопки, які давять на почуття. На все один ответ: «Давай по суті».",
+        "en": "Now — MANIPULATION. Four buttons that press on your feelings. One answer to all: \"Let's talk about what matters.\""
+      }
+    },
+    {
+      "step_id": "sc6_148",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "КНОПКА ВИНЫ — «Из-за тебя мне плохо.» Цель — заставить чувствовать себя виноватым. Борьба: «Мне жаль, но это не повод делать то, с чем я не согласен».\n",
+        "uk": "КНОПКА ВИНИ — «Через тебе мені погано.» Мета — заставити відчувати себе винним. Боротьба: «Мені шкода, але це не повід робити те, з чим я не згідний».",
+        "en": "GUILT BUTTON — \"I feel bad because of you.\" Goal: make you feel guilty. Defense: \"I'm sorry, but that's not a reason to do something I disagree with.\""
+      }
+    },
+    {
+      "step_id": "sc6_149",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "КНОПКА СТРАХА — «Если не сделаешь — случится ужасное!» Цель — напугать. Борьба: «Это реальная угроза или ты меня пугаешь?»\n",
+        "uk": "КНОПКА СТРАХУ — «Якщо не зробиш — станеться жахливе!» Мета — напугати. Боротьба: «Це реальна загроза або ти мене пугаєш?»",
+        "en": "FEAR BUTTON — \"If you don't do it, something awful will happen!\" Goal: scare you. Defense: \"Is this a real threat or are you scaring me?\""
+      }
+    },
+    {
+      "step_id": "sc6_150",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "КНОПКА СТЫДА — «Тебе не стыдно?» Цель — заставить стыдиться. Борьба: «Мне не стыдно. Объясни, почему я должен это сделать».\n",
+        "uk": "КНОПКА СОРОМУ — «Тобі не соромно?» Мета — заставити соромитися. Боротьба: «Мені не соромно. Поясни, чому я повинен це зробити».",
+        "en": "SHAME BUTTON — \"Aren't you ashamed?\" Goal: make you feel ashamed. Defense: \"I'm not ashamed. Explain why I should do this.\""
+      }
+    },
+    {
+      "step_id": "sc6_151",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ШАНТАЖ ДРУЖБОЙ — «Настоящий друг бы помог!» Цель — использовать отношения. Борьба: «Я твой друг, но это не значит, что я обязан соглашаться».\n",
+        "uk": "ШАНТАЖ ДРУЖБОЮ — «Справжній друг би допоміг!» Мета — використати стосунки. Боротьба: «Я твій друг, але це не значить, що я повинен погоджуватися».",
+        "en": "FRIENDSHIP BLACKMAIL — \"A real friend would help!\" Goal: exploit the relationship. Defense: \"I'm your friend, but that doesn't mean I have to agree.\""
+      }
+    },
+    {
+      "step_id": "sc6_152",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Я-ВЫСКАЗЫВАНИЕ — способ сказать о чувствах, не нападая. Формула: «Мне [чувство], когда [ситуация]». Вместо «Ты меня бесишь!» — «Мне неприятно, когда на меня кричат».\n",
+        "uk": "Я-ВИСЛОВЛЮВАННЯ — спосіб сказати про почуття, не нападаючи. Формула: «Мені [почуття], коли [ситуація]». Замість «Ти мене дратуєш!» — «Мені неприємно, коли на мене кричать».",
+        "en": "I-STATEMENT — a way to express feelings without attacking. Formula: \"I feel [emotion] when [situation].\" Instead of \"You drive me crazy!\" — \"I don't like being yelled at.\""
+      }
+    },
+    {
+      "step_id": "sc6_153",
+      "scene_id": "sc6",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "ФРАЗЫ-СПАСАТЕЛИ: «Давай вернёмся позже.» «Мне нужно подумать.» «У нас разные мнения — и это нормально.» «Давай сделаем паузу.»\n",
+        "uk": "ФРАЗИ-СПАСАТЕЛІ: «Давай повернемося пізніше.» «Мені потрібно подумати.» «У нас різні думки — і це нормально.» «Давай зробимо паузу.»",
+        "en": "LIFESAVING PHRASES: \"Let's come back to this later.\" \"I need to think.\" \"We have different opinions — and that's okay.\" \"Let's take a break.\""
+      }
+    },
+    {
+      "step_id": "sc6_154",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И главное правило всего курса: СПОР — О ТЕМЕ, НЕ О ЧЕЛОВЕКЕ. Можно не согласиться с мнением друга и при этом уважать самого друга. Вот и вся «Сила слова»!\n",
+        "uk": "І головне правило всього курсу: СПІР — ПРО ТЕМУ, НЕ ПРО ЛЮДИНУ. Можна не погодитися з думкою друга й при цьому поважати самого друга. Ось і вся «Сила слова»!",
+        "en": "And the main rule of the entire course: ARGUMENT is ABOUT THE TOPIC, NOT THE PERSON. You can disagree with a friend's opinion and still respect the friend. That's all the \"Power of Words\" is!"
+      }
+    },
+    {
+      "step_id": "sc7_155",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "До начала курса вы не знали, чем факт отличается от мнения. Не замечали, когда вас пытаются обмануть красивыми словами. Не понимали, почему после спора с другом становится грустно. А сейчас — знаете.\n",
+        "uk": "До початку курсу ви не знали, чим факт відрізняється від думки. Не помічали, коли вас намагаються обманути красивими словами. Не розуміли, чому після спору з другом стає сумно. А зараз — знаєте.",
+        "en": "Before the course, you didn't know the difference between a fact and an opinion. You didn't notice when people tried to trick you with pretty words. You didn't understand why you felt sad after arguing with a friend. But now — you do."
+      }
+    },
+    {
+      "step_id": "sc7_156",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы умеете замечать демагогию — все двенадцать хитростей, которые путают голову. Кто-то говорит «все так думают» — а вы уже слышите: поспешное обобщение. Кто-то пугает страшными последствиями — а вы проверяете каждое звено цепочки.\n",
+        "uk": "Ви вмієте помічати демагогію — усі дванадцять хитростей, які плутають голову. Хтось говорить «все так думають» — а ви вже чуєте: поспішне узагальнення. Хтось пугає страшними наслідками — а ви перевіряєте кожну ланку ланцюга.",
+        "en": "You can spot demagoguery — all twelve tricks that confuse your mind. Someone says \"everyone thinks so\" — and you already hear: hasty generalization. Someone scares you with awful consequences — and you check each link of the chain."
+      }
+    },
+    {
+      "step_id": "sc7_157",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы умеете не поддаваться на манипуляции. Когда кто-то давит на вину, страх или стыд — вы чувствуете кнопку и говорите: «Давай по существу». Это не грубость. Это защита. Как шлем на велосипеде — не мешает кататься, но спасает голову.\n",
+        "uk": "Ви вмієте не піддаватися маніпуляціям. Коли хтось давить на вину, страх або сором — ви відчуваєте кнопку й говорите: «Давай по суті». Це не грубість. Це захист. Як шолом на велосипеді — не заважає їхати, але спасає голову.",
+        "en": "You know how to resist manipulation. When someone presses the guilt, fear, or shame button — you feel it and say: \"Let's talk about what matters.\" That's not rudeness. It's self-defense. Like a helmet on a bike — doesn't get in the way of riding, but protects your head."
+      }
+    },
+    {
+      "step_id": "sc7_158",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы умеете спорить и не ссориться. Говорить «мне обидно» вместо «ты плохой». Брать паузу, когда эмоции зашкаливают. Выходить из спора так, чтобы потом не было стыдно за свои слова.\n",
+        "uk": "Ви вмієте сперечатися й не посварюватися. Говорити «мені образливо» замість «ти поганий». Брати паузу, коли емоції зашкалюють. Виходити зі спору так, щоб потім не було соромно за свої слова.",
+        "en": "You can argue without fighting. Say \"I feel hurt\" instead of \"You're bad.\" Take a break when emotions run high. Exit an argument without regretting your words afterward."
+      }
+    },
+    {
+      "step_id": "sc7_159",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И самое главное — вы умеете думать сами. Не верить на слово. Не бояться спрашивать «а откуда ты знаешь?» Не соглашаться только потому, что кто-то говорит громче. Это и есть критическое мышление — и оно теперь ваше.\n",
+        "uk": "І найголовніше — ви вмієте думати самі. Не вірити на слово. Не бояться запитувати «а звідки ти це знаєш?» Не погоджуватися лише тому, що хтось говорить голосніше. Це й есть критичне мислення — і воно тепер ваше.",
+        "en": "And most importantly — you know how to think for yourself. Not trust blindly. Not fear asking \"How do you know?\" Not agree just because someone talks louder. That's critical thinking — and it's yours now."
+      }
+    },
+    {
+      "step_id": "sc7_160",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы гордимся вами. Курс «Сила слова» закончился — но сила осталась с вами. Пользуйтесь ею с умом, с добротой и с юмором. Удачи!\n",
+        "uk": "Ми гордимося вами. Курс «Сила слова» закінчився — але сила залишилася з вами. Користуйтеся нею з розумом, з добротою й з гумором. Удачи!",
+        "en": "We're proud of you. The \"Power of Words\" course has ended — but the power stays with you. Use it wisely, with kindness and humor. Good luck!"
+      }
+    }
+  ]
+}

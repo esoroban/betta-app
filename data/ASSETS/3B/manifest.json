@@ -1,0 +1,93 @@
+{
+  "generated": {
+    "3b_sc1_bg": {
+      "filename": "3b_sc1_bg.png",
+      "path": "ASSETS/3B/3b_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T23:04:27.036345+00:00",
+      "prompt_key": "3b_sc1_bg"
+    },
+    "3b_sc2_bg": {
+      "filename": "3b_sc2_bg.png",
+      "path": "ASSETS/3B/3b_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T23:04:38.499131+00:00",
+      "prompt_key": "3b_sc2_bg"
+    },
+    "3b_sc3_bg": {
+      "filename": "3b_sc3_bg.png",
+      "path": "ASSETS/3B/3b_sc3_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-25T23:05:29.494839+00:00",
+      "prompt_key": "3b_sc3_bg"
+    },
+    "3b_sc4_bg": {
+      "filename": "3b_sc4_bg.png",
+      "path": "ASSETS/3B/3b_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T23:05:41.348900+00:00",
+      "prompt_key": "3b_sc4_bg"
+    },
+    "3b_sc5_bg": {
+      "filename": "3b_sc5_bg.png",
+      "path": "ASSETS/3B/3b_sc5_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-25T23:21:12.087611+00:00",
+      "prompt_key": "3b_sc5_bg"
+    },
+    "3b_sc6_bg": {
+      "filename": "3b_sc6_bg.png",
+      "path": "ASSETS/3B/3b_sc6_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T23:21:25.646305+00:00",
+      "prompt_key": "3b_sc6_bg"
+    },
+    "3b_sc1_obj_scout_workshop": {
+      "filename": "3b_sc1_obj_scout_workshop.png",
+      "raw_filename": "3b_sc1_obj_scout_workshop_raw.png",
+      "path": "ASSETS/3B/3b_sc1_obj_scout_workshop.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T23:39:21.523662+00:00",
+      "prompt_key": "3b_sc1_obj_scout_workshop"
+    },
+    "3b_sc2_obj_brake_icon": {
+      "filename": "3b_sc2_obj_brake_icon.png",
+      "raw_filename": "3b_sc2_obj_brake_icon_raw.png",
+      "path": "ASSETS/3B/3b_sc2_obj_brake_icon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T23:39:30.880560+00:00",
+      "prompt_key": "3b_sc2_obj_brake_icon"
+    },
+    "3b_sc3_obj_mirror_icon": {
+      "filename": "3b_sc3_obj_mirror_icon.png",
+      "raw_filename": "3b_sc3_obj_mirror_icon_raw.png",
+      "path": "ASSETS/3B/3b_sc3_obj_mirror_icon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T23:39:40.728172+00:00",
+      "prompt_key": "3b_sc3_obj_mirror_icon"
+    },
+    "3b_sc4_obj_map_icon": {
+      "filename": "3b_sc4_obj_map_icon.png",
+      "raw_filename": "3b_sc4_obj_map_icon_raw.png",
+      "path": "ASSETS/3B/3b_sc4_obj_map_icon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T23:48:40.632144+00:00",
+      "prompt_key": "3b_sc4_obj_map_icon"
+    }
+  },
+  "errors": {}
+}

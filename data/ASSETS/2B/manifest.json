@@ -1,0 +1,181 @@
+{
+  "generated": {
+    "2b_sc1_bg": {
+      "filename": "2b_sc1_bg.png",
+      "path": "ASSETS/2B/2b_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:44:37.330820+00:00",
+      "prompt_key": "2b_sc1_bg"
+    },
+    "2b_sc2_bg": {
+      "filename": "2b_sc2_bg.png",
+      "path": "ASSETS/2B/2b_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:44:48.675288+00:00",
+      "prompt_key": "2b_sc2_bg"
+    },
+    "2b_sc3_bg": {
+      "filename": "2b_sc3_bg.png",
+      "path": "ASSETS/2B/2b_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:45:00.792821+00:00",
+      "prompt_key": "2b_sc3_bg"
+    },
+    "2b_sc4_bg": {
+      "filename": "2b_sc4_bg.png",
+      "path": "ASSETS/2B/2b_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:45:12.908163+00:00",
+      "prompt_key": "2b_sc4_bg"
+    },
+    "2b_sc5_bg": {
+      "filename": "2b_sc5_bg.png",
+      "path": "ASSETS/2B/2b_sc5_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:45:23.946477+00:00",
+      "prompt_key": "2b_sc5_bg"
+    },
+    "2b_sc6_bg": {
+      "filename": "2b_sc6_bg.png",
+      "path": "ASSETS/2B/2b_sc6_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:45:34.679573+00:00",
+      "prompt_key": "2b_sc6_bg"
+    },
+    "2b_sc7_bg": {
+      "filename": "2b_sc7_bg.png",
+      "path": "ASSETS/2B/2b_sc7_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T13:45:46.723096+00:00",
+      "prompt_key": "2b_sc7_bg"
+    },
+    "2b_sc1_obj_icecream": {
+      "filename": "2b_sc1_obj_icecream.png",
+      "raw_filename": "2b_sc1_obj_icecream_raw.png",
+      "path": "ASSETS/2B/2b_sc1_obj_icecream.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:45:58.938290+00:00",
+      "prompt_key": "2b_sc1_obj_icecream"
+    },
+    "2b_sc1_obj_rain": {
+      "filename": "2b_sc1_obj_rain.png",
+      "raw_filename": "2b_sc1_obj_rain_raw.png",
+      "path": "ASSETS/2B/2b_sc1_obj_rain.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:46:09.597059+00:00",
+      "prompt_key": "2b_sc1_obj_rain"
+    },
+    "2b_sc1_obj_pen": {
+      "filename": "2b_sc1_obj_pen.png",
+      "raw_filename": "2b_sc1_obj_pen_raw.png",
+      "path": "ASSETS/2B/2b_sc1_obj_pen.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:46:19.191579+00:00",
+      "prompt_key": "2b_sc1_obj_pen"
+    },
+    "2b_sc2_obj_rope": {
+      "filename": "2b_sc2_obj_rope.png",
+      "raw_filename": "2b_sc2_obj_rope_raw.png",
+      "path": "ASSETS/2B/2b_sc2_obj_rope.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:46:29.328377+00:00",
+      "prompt_key": "2b_sc2_obj_rope"
+    },
+    "2b_sc2_obj_rooster": {
+      "filename": "2b_sc2_obj_rooster.png",
+      "raw_filename": "2b_sc2_obj_rooster_raw.png",
+      "path": "ASSETS/2B/2b_sc2_obj_rooster.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:46:43.779223+00:00",
+      "prompt_key": "2b_sc2_obj_rooster"
+    },
+    "2b_sc4_obj_puppet_strings": {
+      "filename": "2b_sc4_obj_puppet_strings.png",
+      "raw_filename": "2b_sc4_obj_puppet_strings_raw.png",
+      "path": "ASSETS/2B/2b_sc4_obj_puppet_strings.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:46:55.203036+00:00",
+      "prompt_key": "2b_sc4_obj_puppet_strings"
+    },
+    "2b_sc4_obj_swallows": {
+      "filename": "2b_sc4_obj_swallows.png",
+      "raw_filename": "2b_sc4_obj_swallows_raw.png",
+      "path": "ASSETS/2B/2b_sc4_obj_swallows.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:47:09.069671+00:00",
+      "prompt_key": "2b_sc4_obj_swallows"
+    },
+    "2b_sc5_obj_ad_trap": {
+      "filename": "2b_sc5_obj_ad_trap.png",
+      "raw_filename": "2b_sc5_obj_ad_trap_raw.png",
+      "path": "ASSETS/2B/2b_sc5_obj_ad_trap.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:47:20.086362+00:00",
+      "prompt_key": "2b_sc5_obj_ad_trap"
+    },
+    "2b_sc6_obj_arrow": {
+      "filename": "2b_sc6_obj_arrow.png",
+      "raw_filename": "2b_sc6_obj_arrow_raw.png",
+      "path": "ASSETS/2B/2b_sc6_obj_arrow.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:47:31.187442+00:00",
+      "prompt_key": "2b_sc6_obj_arrow"
+    },
+    "2b_sc6_obj_question": {
+      "filename": "2b_sc6_obj_question.png",
+      "raw_filename": "2b_sc6_obj_question_raw.png",
+      "path": "ASSETS/2B/2b_sc6_obj_question.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:47:42.473259+00:00",
+      "prompt_key": "2b_sc6_obj_question"
+    },
+    "2b_sc6_obj_strings": {
+      "filename": "2b_sc6_obj_strings.png",
+      "raw_filename": "2b_sc6_obj_strings_raw.png",
+      "path": "ASSETS/2B/2b_sc6_obj_strings.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:47:53.402736+00:00",
+      "prompt_key": "2b_sc6_obj_strings"
+    },
+    "2b_sc7_obj_toolkit": {
+      "filename": "2b_sc7_obj_toolkit.png",
+      "raw_filename": "2b_sc7_obj_toolkit_raw.png",
+      "path": "ASSETS/2B/2b_sc7_obj_toolkit.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T13:48:03.669469+00:00",
+      "prompt_key": "2b_sc7_obj_toolkit"
+    }
+  },
+  "errors": {}
+}

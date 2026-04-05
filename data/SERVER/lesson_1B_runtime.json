@@ -1,0 +1,4159 @@
+{
+  "lesson_id": "1B",
+  "title": {
+    "ru": "Можно ли это проверить?",
+    "en": "Can It Be Verified?",
+    "uk": "Чи можна це перевірити?"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "ОТКРЫТИЕ",
+        "en": "INTRODUCTION",
+        "uk": "ВСТУП"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_5",
+        "sc1_7",
+        "sc1_9",
+        "sc1_11",
+        "sc1_13",
+        "sc1_15",
+        "sc1_16"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "ИСТОРИЯ — ВИТЯ И ВОЛШЕБНЫЙ КАМЕНЬ",
+        "en": "THE STORY — VITYA AND THE MAGIC STONE",
+        "uk": "ІСТОРІЯ — ВІТЯ І ЧАРІВНИЙ КАМІНЬ"
+      },
+      "step_ids": [
+        "sc2_17",
+        "sc2_18",
+        "sc2_19",
+        "sc2_20",
+        "sc2_21",
+        "sc2_22",
+        "sc2_23",
+        "sc2_24",
+        "sc2_25",
+        "sc2_26",
+        "sc2_27",
+        "sc2_28"
+      ],
+      "first_step_index": 10
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "ОТГОВОРКИ",
+        "en": "EXCUSES",
+        "uk": "ВІДМОВКИ"
+      },
+      "step_ids": [
+        "sc3_29",
+        "sc3_30",
+        "sc3_32",
+        "sc3_34",
+        "sc3_36",
+        "sc3_38",
+        "sc3_40",
+        "sc3_42",
+        "sc3_44",
+        "sc3_46",
+        "sc3_48",
+        "sc3_50",
+        "sc3_51",
+        "sc3_52",
+        "sc3_53"
+      ],
+      "first_step_index": 22
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "ЧЕМ ПРОВЕРИТЬ",
+        "en": "HOW TO VERIFY",
+        "uk": "ЧИМ ПЕРЕВІРИТИ"
+      },
+      "step_ids": [
+        "sc4_54",
+        "sc4_55",
+        "sc4_56",
+        "sc4_57",
+        "sc4_58",
+        "sc4_60",
+        "sc4_62",
+        "sc4_64",
+        "sc4_66",
+        "sc4_68",
+        "sc4_70",
+        "sc4_72",
+        "sc4_74",
+        "sc4_75"
+      ],
+      "first_step_index": 37
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "ДЕТЕКТИВ ПРАВДЫ",
+        "en": "TRUTH DETECTIVE",
+        "uk": "ДЕТЕКТИВ ПРАВДИ"
+      },
+      "step_ids": [
+        "sc5_76",
+        "sc5_77",
+        "sc5_78",
+        "sc5_79",
+        "sc5_80",
+        "sc5_81",
+        "sc5_83",
+        "sc5_85",
+        "sc5_87",
+        "sc5_89",
+        "sc5_91",
+        "sc5_93"
+      ],
+      "first_step_index": 51
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "ОБРАТНАЯ ПРАКТИКА",
+        "en": "REVERSE PRACTICE",
+        "uk": "ЗВОРОТНА ПРАКТИКА"
+      },
+      "step_ids": [
+        "sc6_95",
+        "sc6_96",
+        "sc6_98",
+        "sc6_100",
+        "sc6_102",
+        "sc6_104",
+        "sc6_106",
+        "sc6_108",
+        "sc6_110",
+        "sc6_112",
+        "sc6_114",
+        "sc6_116",
+        "sc6_118"
+      ],
+      "first_step_index": 63
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "ЗАКРЫТИЕ",
+        "en": "CONCLUSION",
+        "uk": "ЗАВЕРШЕННЯ"
+      },
+      "step_ids": [
+        "sc7_119",
+        "sc7_120",
+        "sc7_121",
+        "sc7_122",
+        "sc7_123"
+      ],
+      "first_step_index": 76
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "ДОПОЛНИТЕЛЬНАЯ ПРАКТИКА",
+        "en": "EXTRA PRACTICE",
+        "uk": "ДОДАТКОВА ПРАКТИКА"
+      },
+      "step_ids": [
+        "sc8_124",
+        "sc8_125",
+        "sc8_126",
+        "sc8_127",
+        "sc8_128",
+        "sc8_129",
+        "sc8_130",
+        "sc8_131",
+        "sc8_132",
+        "sc8_133",
+        "sc8_134",
+        "sc8_135",
+        "sc8_136",
+        "sc8_137",
+        "sc8_138",
+        "sc8_139",
+        "sc8_140",
+        "sc8_141",
+        "sc8_142",
+        "sc8_143",
+        "sc8_144",
+        "sc8_145",
+        "sc8_146",
+        "sc8_147",
+        "sc8_148",
+        "sc8_149",
+        "sc8_150",
+        "sc8_151",
+        "sc8_152",
+        "sc8_153",
+        "sc8_154",
+        "sc8_155",
+        "sc8_156",
+        "sc8_157",
+        "sc8_158",
+        "sc8_159",
+        "sc8_160",
+        "sc8_161",
+        "sc8_162",
+        "sc8_163",
+        "sc8_164",
+        "sc8_165",
+        "sc8_166",
+        "sc8_167",
+        "sc8_168",
+        "sc8_169",
+        "sc8_170",
+        "sc8_171",
+        "sc8_172",
+        "sc8_173"
+      ],
+      "first_step_index": 81
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Продолжаем! В прошлый раз мы узнали три слова. Кто помнит? Факт, мнение, неправда. Давайте проверим, не забыли ли.\n",
+        "en": "Let's continue! Last time we learned three words. Who remembers? Fact, opinion, lie. Let's see if we forgot.",
+        "uk": "Продовжуємо! Минулого разу ми дізналися три слова. Хто пам'ятає? Факт, думка, неправда. Давайте перевіримо, чи не забули."
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Быстрый тест!\n",
+        "en": "Quick test!",
+        "uk": "Швидка перевірка!"
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Земля вращается вокруг Солнца.»\n",
+        "en": "\"The Earth revolves around the Sun.\"",
+        "uk": "«Земля обертається навколо Сонця.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! We checked — it's confirmed."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Проверили — подтвердилось.\n",
+        "en": "\"Cats are better than dogs.\"",
+        "uk": "Факт! Перевірили — підтвердилось."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Some like cats, some like dogs — it can't be verified."
+      }
+    },
+    {
+      "step_id": "sc1_7",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Кошки лучше собак.»\n",
+        "en": "\"A person can live without water for a month.\"",
+        "uk": "«Кішки краще собак.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Lie! Doctors checked — without water, maximum a few days."
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! Кто-то любит кошек, кто-то собак — нельзя проверить.\n",
+        "en": "\"Pizza is the most popular food.\"",
+        "uk": "Думка! Кому подобаються кішки, кому собаки — неможливо перевірити."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Most popular\" — it depends. In Japan they like sushi, in India they like curry. There's no single answer."
+      }
+    },
+    {
+      "step_id": "sc1_11",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Человек может прожить без воды месяц.»\n",
+        "en": "\"An elephant has four legs.\"",
+        "uk": "«Людина може прожити без води місяць.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Look at an elephant — count. Four."
+      }
+    },
+    {
+      "step_id": "sc1_13",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Неправда! Врачи проверяли — без воды максимум несколько дней.\n",
+        "en": "\"Monday is the hardest day of the week.\"",
+        "uk": "Неправда! Лікарі перевіряли — без води максимум кілька днів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! For some, Monday is hard; for others, Friday is. It's a feeling, not a fact."
+      }
+    },
+    {
+      "step_id": "sc1_15",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Пицца — самая популярная еда.»\n",
+        "en": "Great! You didn't forget. But here's the question: when we say \"verify\" — what does that mean exactly? How exactly do people verify? Can everything be verified? Or does it sometimes happen that you want to verify something but can't? Today we'll figure it out.",
+        "uk": "«Піца — найпопулярніша їжа.»"
+      }
+    },
+    {
+      "step_id": "sc1_16",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мнение! «Самая популярная» — кому как. В Японии любят суши, в Индии — карри. Нет одного ответа.\n",
+        "en": "Now listen to an interesting story about a boy named Vitya and his unusual discovery.",
+        "uk": "Думка! «Найпопулярніша» — це залежить від точки зору. У Японії люблять суші, в Індії — каррі. Однієї відповіді немає."
+      }
+    },
+    {
+      "step_id": "sc2_17",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Витя прибежал к Оленке с сияющими глазами: «Смотри, что я нашёл! Камень! Он волшебный — исполняет желания! Хочешь проверить?»",
+        "en": "Vitya ran to Olenka with shining eyes: \"Look what I found! A stone! It's magic — it grants wishes! Want to test it?\"",
+        "uk": "Вітя прибіг до Оленки з сяючими очима: «Дивись, що я знайшов! Камінь! Він чарівний — виконує бажання! Хочеш перевірити?»"
+      }
+    },
+    {
+      "step_id": "sc2_18",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка загадала желание. Ждёт… Ничего. «Желание слишком большое!» — объясняет Витя. Загадала маленькое — опять ничего. «Камень отдыхал!»",
+        "en": "Olenka made a wish. She waits... Nothing. \"The wish was too big!\" explains Vitya. She makes a small wish — nothing again. \"The stone was resting!\"",
+        "uk": "Оленка загадала бажання. Чекає… Нічого. «Бажання було занадто велике!» — пояснює Вітя. Загадала маленьке — знову нічого. «Камінь відпочивав!»"
+      }
+    },
+    {
+      "step_id": "sc2_19",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третья попытка — снова ноль. «Он работает только когда никто не смотрит!» — не сдаётся Витя. У него на всё готов ответ.",
+        "en": "Third attempt — nothing again. \"It only works when nobody's looking!\" — Vitya won't give up. He has an answer for everything.",
+        "uk": "Третя спроба — знову нічого. «Він працює тільки коли ніхто не дивиться!» — не здається Вітя. У нього на все є готова відповідь."
+      }
+    },
+    {
+      "step_id": "sc2_20",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка вздохнула. Что бы ни случилось — Витя никогда не скажет: «Ладно, камень не волшебный.» Всегда найдётся новая отговорка.",
+        "en": "Olenka sighed. No matter what happens — Vitya will never say: \"Okay, the stone isn't magic.\" There's always a new excuse.",
+        "uk": "Оленка зітхнула. Якщо б не сталося — Вітя ніколи не скаже: «Ладно, камінь не чарівний.» Завжди знайдеться нова відмовка."
+      }
+    },
+    {
+      "step_id": "sc2_21",
+      "scene_id": "sc2",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак, Витя говорит — камень волшебный. Оленка попробовала загадать желание. Сбылось?\n",
+        "en": "So, Vitya says — the stone is magic. Olenka tried to make a wish. Did it come true?",
+        "uk": "Отже, Вітя говорить — камінь чарівний. Оленка спробувала загадати бажання. Збулось?"
+      }
+    },
+    {
+      "step_id": "sc2_22",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Не сбылось! А Витя что ответил? «Желание слишком большое!» Ладно, загадали маленькое — опять не сработало. «Камень отдыхал!» Ещё раз — ничего. «Он работает только когда никто не смотрит!»\n",
+        "en": "It didn't come true! What did Vitya say? \"The wish was too big!\" Okay, they made a small wish — it didn't work again. \"The stone was resting!\" One more time — nothing. \"It only works when nobody's looking!\"",
+        "uk": "Не збулось! Що відповів Вітя? «Бажання було занадто велике!» Ладно, загадали маленьке — знову не спрацювало. «Камінь відпочивав!» Ще раз — нічого. «Він працює тільки коли ніхто не дивиться!»"
+      }
+    },
+    {
+      "step_id": "sc2_23",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили? У Вити на КАЖДЫЙ случай есть отговорка. Что бы ни случилось — он никогда не скажет: «Ладно, камень не волшебный.» Всегда найдётся новая причина, почему не сработало.\n",
+        "en": "See? Vitya has an excuse for EVERY situation. No matter what happens — he'll never say: \"Okay, the stone isn't magic.\" There's always a new reason why it didn't work.",
+        "uk": "Помітили? У Вітя на КОЖЕН випадок є відмовка. Якщо б не сталося — він ніколи не скаже: «Ладно, камінь не чарівний.» Завжди знайдеться нова причина, чому не спрацювало."
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "А теперь важный вопрос. Витя — врун? Он специально обманывает?\n",
+        "en": "Now an important question. Is Vitya a liar? Is he deliberately deceiving?",
+        "uk": "Тепер важливе питання. Вітя — брехун? Він навмисне обманює?"
+      }
+    },
+    {
+      "step_id": "sc2_25",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет! Витя сам верит в свой камень. Он не хочет обмануть Оленку. Но проблема в том, что его утверждение НЕЛЬЗЯ проверить — потому что на любую проверку у него есть отговорка.\n",
+        "en": "No! Vitya believes in his stone himself. He doesn't want to deceive Olenka. But the problem is that his claim CANNOT be verified — because he has an excuse for any attempt to verify it.",
+        "uk": "Ні! Вітя сам вірить у свій камінь. Він не хоче обдурити Оленку. Але проблема в тому, що його твердження НЕМОЖЛИВО перевірити — тому що на будь-яку перевірку у нього є відмовка."
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот смотрите. «Мороженое стоит двадцать пять гривень» — если в магазине другая цена, мы скажем: «Ну значит, неправда.» И всё. А Витя с камнем — НИКОГДА не согласится, что неправ. Потому что всегда придумает новую отговорку.\n",
+        "en": "Here's the thing. \"Ice cream costs twenty-five hryvnia\" — if the store has a different price, we'll say: \"Well, that's a lie.\" That's it. But Vitya with his stone — will NEVER admit he's wrong. Because he'll always come up with a new excuse.",
+        "uk": "Ось що. «Морозиво коштує двадцять п'ять гривень» — якщо в магазині інша ціна, ми скажемо: «Ну значить, неправда.» І все. А Вітя з камінцем — НІКОЛИ не визнає, що він неправий. Тому що завжди придумає нову відмовку."
+      }
+    },
+    {
+      "step_id": "sc2_27",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Такие утверждения называются ХИТРЫЕ. Их нельзя опровергнуть — потому что человек заранее придумал ответ на любой вопрос. И это не значит, что он злой. Просто его слова невозможно проверить.\n",
+        "en": "Such claims are called TRICKY. They cannot be refuted — because the person has already thought up an answer to any question. This doesn't mean he's evil. It just means his words cannot be verified.",
+        "uk": "Такі твердження називаються ХИТРІ. Їх неможливо спростувати — тому що людина вже заздалегідь придумала відповідь на будь-яке питання. Це не означає, що він злий. Просто його слова неможливо перевірити."
+      }
+    },
+    {
+      "step_id": "sc2_28",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Но как именно мы проверяем обычные утверждения? Какие есть способы? Сейчас разберёмся.\n",
+        "en": "But how exactly do we verify ordinary claims? What are the methods? Let's figure it out now.",
+        "uk": "Але як саме ми перевіряємо звичайні твердження? Які є способи? Розберемось зараз."
+      }
+    },
+    {
+      "step_id": "sc3_29",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Отговорки бывают не только у Вити с камнем. Они встречаются каждый день — в школе, во дворе, дома. Сейчас я буду говорить ситуацию, а вы голосуете!\n",
+        "en": "Excuses aren't just for Vitya with his stone. They happen every day — at school, in the yard, at home. Now I'll describe situations and you vote!",
+        "uk": "Відмовки бувають не тільки у Вітя з камінцем. Вони трапляються кожен день — у школі, на подвір'ї, дома. Зараз я буду говорити ситуацію, а ви голосуєте!"
+      }
+    },
+    {
+      "step_id": "sc3_30",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Одноклассник говорит: «Я умею делать сальто, но сегодня не могу — нога болит.»»\n",
+        "en": "\"A classmate says: \"I can do a somersault, but I can't today — my leg hurts.\"\"",
+        "uk": "«Одноклассник говорить: «Я умію робити сальто, але сьогодні не можу — нога болить.»»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "For now, a normal explanation! A leg can really hurt. But if he EVERY time finds a new reason — leg, head, slippery floor, wrong day — then those are excuses."
+      }
+    },
+    {
+      "step_id": "sc3_32",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пока нормальное объяснение! Нога правда может болеть. Но если он КАЖДЫЙ раз находит новую причину — нога, голова, скользкий пол, не тот день — тогда это уже отговорки.\n",
+        "en": "\"A friend brags: \"I have a tame raven at home, but it hides when guests come.\"\"",
+        "uk": "Поки нормальне пояснення! Нога дійсно може болити. Але якщо він КОЖНОГО разу знаходить нову причину — нога, голова, ковзкий пол, неправильний день — то це вже відмовки."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Excuse! Convenient — nobody will ever be able to see this raven. Just like Vitya's stone."
+      }
+    },
+    {
+      "step_id": "sc3_34",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Друг хвастается: «У меня дома живёт ручная ворона, но она прячется, когда приходят гости.»»\n",
+        "en": "\"Brother says: \"I cleaned up the room, but then the cat scattered everything again.\"\"",
+        "uk": "«Друг хвастається: «У мене дома живе прирученний ворон, але він ховається, коли приходять гості.»»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Tricky! Once — maybe. But if the cat \"scatters things\" every time right before inspection — that's an excuse."
+      }
+    },
+    {
+      "step_id": "sc3_36",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Отговорка! Удобно — никто никогда не сможет увидеть эту ворону. Прямо как камень Вити.\n",
+        "en": "\"A classmate: \"I solved all the problems, but my notebook stayed home. And the dog ate it at home.\"\"",
+        "uk": "Відмовка! Зручно — ніхто ніколи не зможе побачити цього ворона. Прямо як камінь Вітя."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Excuse on top of excuse! First she forgot, then the dog ate it. The more excuses in a row — the more suspicious."
+      }
+    },
+    {
+      "step_id": "sc3_38",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Брат говорит: «Я убрал комнату, но потом кот всё разбросал обратно.»»\n",
+        "en": "\"A boy in the yard: \"I saw a UFO last night! But I didn't have time to take a photo — my phone died.\"\"",
+        "uk": "«Брат говорить: «Я прибрав кімнату, але потім кіт все розкидав назад.»»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Excuse! There's always something preventing proof. No photo, no video, nobody else saw it."
+      }
+    },
+    {
+      "step_id": "sc3_40",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Хитро! Один раз — может быть. Но если кот «разбрасывает» каждый раз ровно перед проверкой — это отговорка.\n",
+        "en": "\"A friend: \"I sent you a message, but it didn't reach you. Then I sent it again — it didn't reach again. Probably the internet broke.\"\"",
+        "uk": "Хитро! Один раз — може бути. Але якщо кіт «розкидає» кожен раз прямо перед перевіркою — це відмовка."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Once — maybe. But twice in a row, and always to you specifically? Looks like an excuse."
+      }
+    },
+    {
+      "step_id": "sc3_42",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Одноклассница: «Я решила все задачи, но тетрадка осталась дома. А дома её съела собака.»»\n",
+        "en": "\"A boy: \"I run faster than everyone, just today my sneakers are uncomfortable.\"\"",
+        "uk": "«Однокласниця: «Я розв'язала всі задачі, але зошит залишився дома. А дома його з'їла собака.»»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "If tomorrow there are \"uncomfortable pants,\" the day after \"slippery track\" — those are excuses. A real runner will eventually show his speed."
+      }
+    },
+    {
+      "step_id": "sc3_44",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Отговорка на отговорке! Сначала забыла, потом собака съела. Чем больше отговорок подряд — тем подозрительнее.\n",
+        "en": "\"Sister: \"I didn't break the cup! It fell by itself. And if it didn't — it was the cat. And if it wasn't the cat — it was already cracked.\"\"",
+        "uk": "Відмовка на відмовці! Спочатку забула, потім собака з'їла. Чим більше відмовок підряд — тим підозріліше."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Three versions in a row! When a person changes their explanation each time — that's a sure sign of an excuse."
+      }
+    },
+    {
+      "step_id": "sc3_46",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мальчик во дворе: «Я видел НЛО прошлой ночью! Но фото не успел сделать — телефон разрядился.»»\n",
+        "en": "\"A friend: \"My grandfather saw a real bear in the city, but it was a long time ago and there are no photos left, and grandpa doesn't remember exactly where.\"\"",
+        "uk": "«Хлопчик на подвір'ї: «Я бачив НЛО минулої ночі! Але фото не встиг зробити — телефон розрядився.»»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Excuse! Long ago, no photos, doesn't remember. All verification paths are closed. Like Vitya's stone."
+      }
+    },
+    {
+      "step_id": "sc3_48",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Отговорка! Всегда что-то мешает доказать. Нет фото, нет видео, никто другой не видел.\n",
+        "en": "\"A classmate: \"I can hold my breath for three minutes, but only when I'm alone — I get nervous around people.\"\"",
+        "uk": "Відмовка! Завжди щось заважає довести. Немає фото, немає відео, ніхто інший не бачив."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Нормальное объяснение",
+            "en": "Normal explanation",
+            "uk": "Нормальне пояснення"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Отговорка",
+            "en": "Excuse",
+            "uk": "Відмовка"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Excuse! \"Only when alone\" — means it can't be verified. Convenient, right?"
+      }
+    },
+    {
+      "step_id": "sc3_50",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Подруга: «Я тебе отправила сообщение, но оно не дошло. Потом ещё раз отправила — опять не дошло. Наверное, интернет сломался.»»\n",
+        "en": "Notice the pattern? Excuses work the same way: they BLOCK the way to checking. \"Not in front of people,\" \"not today,\" \"it didn't save,\" \"the dog ate it.\" If someone has a new excuse for every check — that's a signal: stop, something's not right here.",
+        "uk": "«Подруга: «Я тобі відправила повідомлення, але воно не дійшло. Потім ще раз відправила — знову не дійшло. Напевне, інтернет зламався.»»"
+      }
+    },
+    {
+      "step_id": "sc3_51",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Один раз — бывает. Но два раза подряд, и всегда именно тебе? Похоже на отговорку.\n",
+        "en": "What to do? What question can we ask to uncover an excuse?",
+        "uk": "Один раз — буває. Але два рази підряд, і завжди саме тобі? Схоже на відмовку."
+      }
+    },
+    {
+      "step_id": "sc3_52",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мальчик: «Я бегаю быстрее всех, просто сегодня кроссовки неудобные.»»\n",
+        "en": "Ask the question: \"How can we check this?\" If the person can suggest a way — great. If they have an excuse for every possible way — you're looking at a tricky statement.",
+        "uk": "«Хлопчик: «Я бігаю швидше всіх, просто сьогодні кросівки неручні.»»"
+      }
+    },
+    {
+      "step_id": "sc3_53",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Если завтра будут «неудобные штаны», послезавтра «скользкая дорожка» — это отговорки. Настоящий бегун рано или поздно покажет результат.\n",
+        "en": "And remember — this doesn't mean the person is bad. Vitya himself believed in the stone. His sister might really not remember who broke the cup. But if you CAN'T check — you don't have to believe just on their word.",
+        "uk": "Якщо завтра будуть «неручні штани», послизавтра «ковзка доріжка» — то це відмовки. Справжній бігун рано чи пізно покаже результат."
+      }
+    },
+    {
+      "step_id": "sc4_54",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы научились замечать отговорки. Но если отговорок нет — КАК именно проверить? Голыми руками? Нет! У нас есть инструменты.\n",
+        "en": "We've learned to spot excuses. But if there are no excuses — HOW exactly can we check? With our bare hands? No! We have tools.",
+        "uk": "Ми навчилися помічати відмовки. Але якщо відмовок нема — ЯК саме перевірити? Голими руками? Ні! У нас є інструменти.\n"
+      }
+    },
+    {
+      "step_id": "sc4_55",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот пять помощников. ВЕСЫ — проверяют вес. ЛИНЕЙКА или рулетка — длину, высоту, расстояние. ЧАСЫ или секундомер — время и скорость. ТЕРМОМЕТР — температуру. И СЧЁТ — просто посчитать: сколько штук, сколько человек, сколько этажей.\n",
+        "en": "Here are five helpers. SCALES — check weight. RULER or tape measure — length, height, distance. CLOCK or stopwatch — time and speed. THERMOMETER — temperature. And COUNTING — just count: how many things, how many people, how many floors.",
+        "uk": "Ось п'ять помічників. ВАГИ — перевіряють вагу. ЛІНІЙКА або рулетка — довжину, висоту, відстань. ГОДИННИК або секундомер — час і швидкість. ТЕРМОМЕТР — температуру. І ЛІЧБА — просто порахувати: скільки речей, скільки людей, скільки поверхів.\n"
+      }
+    },
+    {
+      "step_id": "sc4_56",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Если для утверждения есть хотя бы ОДИН подходящий инструмент — его можно проверить. А если ни один не подходит? Тогда, скорее всего, перед вами мнение или хитрое утверждение.\n",
+        "en": "If there's at least ONE suitable tool for a statement — you can check it. But if no tool works? Then, most likely, you're looking at an opinion or a tricky statement.",
+        "uk": "Якщо для твердження є хоча б ОДИН підходящий інструмент — його можна перевірити. А якщо жоден не підходить? Тоді, швидше за все, перед вами думка або хитре твердження.\n"
+      }
+    },
+    {
+      "step_id": "sc4_57",
+      "scene_id": "sc4",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тренируемся! Я говорю фразу — вы решаете: есть инструмент или нет?\n",
+        "en": "Let's practice! I say a phrase — you decide: is there a tool or not?",
+        "uk": "Тренуємось! Я говорю фразу — ви вирішуєте: є інструмент чи ні?"
+      }
+    },
+    {
+      "step_id": "sc4_58",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Эта книжка весит пятьсот граммов.»\n",
+        "en": "\"This book weighs five hundred grams.\"",
+        "uk": "«Ця книжка важить п'ятсот грамів.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Yes! Which one? Scales! Put on scales — check the number."
+      }
+    },
+    {
+      "step_id": "sc4_60",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть! Какой? Весы! Положил на весы — посмотрел число.\n",
+        "en": "\"The water in the kettle is hot.\"",
+        "uk": "Так! Який? Ваги! Положив на ваги — подивився число."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Yes! Thermometer. Dipped in water — saw degrees."
+      }
+    },
+    {
+      "step_id": "sc4_62",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Вода в чайнике горячая.»\n",
+        "en": "\"This movie is the best.\"",
+        "uk": "«Вода в чайнику гаряча.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No tool! There's no \"better-meter.\" Some like it, some don't. Opinion."
+      }
+    },
+    {
+      "step_id": "sc4_64",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть! Термометр. Опустил в воду — увидел градусы.\n",
+        "en": "\"I ran 100 meters in fifteen seconds.\"",
+        "uk": "Так! Термометр. Опустив у воду — побачив градуси."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Yes! Stopwatch. Timed it — verified."
+      }
+    },
+    {
+      "step_id": "sc4_66",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот фильм — самый лучший.»\n",
+        "en": "\"Our class is the friendliest.\"",
+        "uk": "«Цей фільм — найкращий.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No tool! You can't measure friendliness. Every class thinks it's friendly. Opinion."
+      }
+    },
+    {
+      "step_id": "sc4_68",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Нет инструмента! Нет «лучшемера». Кому-то нравится, кому-то нет. Мнение.\n",
+        "en": "\"There are twelve pencils in this box.\"",
+        "uk": "Немає інструменту! Немає «кращемера». Комусь подобається, комусь ні. Думка."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Yes! Counting. Opened — counted — twelve or not."
+      }
+    },
+    {
+      "step_id": "sc4_70",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я пробежал стометровку за пятнадцать секунд.»\n",
+        "en": "\"This room is longer than the hallway.\"",
+        "uk": "«Я пробіг стометровку за п'ятнадцять секунд.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Yes! Tape measure. Measured the room, measured the hallway — compared meters."
+      }
+    },
+    {
+      "step_id": "sc4_72",
+      "scene_id": "sc4",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть! Секундомер. Засекли время — проверили.\n",
+        "en": "\"Doing homework is boring.\"",
+        "uk": "Так! Секундомер. Засекли час — перевірили."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Есть инструмент",
+            "en": "There is a tool",
+            "uk": "Є інструмент"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет инструмента",
+            "en": "No tool",
+            "uk": "Немає інструменту"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No tool! You can't measure boredom. It's boring for some, not for others. Opinion."
+      }
+    },
+    {
+      "step_id": "sc4_74",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Наш класс — самый дружный.»\n",
+        "en": "Remember: if you can get a tool and get a NUMBER — the statement is checkable. Kilograms, degrees, seconds, meters, things. Numbers don't lie. But \"best,\" \"boring,\" \"beautiful\" — those are about feelings, and there are no tools for those.",
+        "uk": "«Наш клас — найдружніший.»"
+      }
+    },
+    {
+      "step_id": "sc4_75",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нет инструмента! Дружность не измерить. Каждый класс считает себя дружным. Мнение.\n",
+        "en": "Great! We have the tools. Now let's put it all together and become real truth detectives!",
+        "uk": "Немає інструменту! Дружність не можна виміряти. Кожен клас вважає себе дружним. Думка."
+      }
+    },
+    {
+      "step_id": "sc5_76",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь у вас есть всё: вы знаете три слова, знаете про отговорки и знаете пять инструментов. Пора стать детективами правды!\n",
+        "en": "Now you have everything: you know three words, you know about excuses, and you know five tools. It's time to become truth detectives!",
+        "uk": "Тепер у вас все є: ви знаєте три слова, знаєте про відмовки і знаєте п'ять інструментів. Час стати детективами правди!\n"
+      }
+    },
+    {
+      "step_id": "sc5_77",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Детектив правды задаёт три вопроса. Первый: есть ли ИНСТРУМЕНТ, чтобы проверить? Весы, термометр, часы, линейка, счёт? Если да — утверждение проверяемое. Если нет — может быть мнение.\n",
+        "en": "A truth detective asks three questions. First: is there a TOOL to check? Scales, thermometer, clock, ruler, counting? If yes — the statement is checkable. If no — it might be an opinion.",
+        "uk": "Детектив правди задає три питання. Перше: є ли ІНСТРУМЕНТ, щоб перевірити? Ваги, термометр, годинник, лінійка, лічба? Якщо так — твердження перевіряємо. Якщо ні — це може бути думка.\n"
+      }
+    },
+    {
+      "step_id": "sc5_78",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй вопрос: если инструмент есть — человек СОГЛАСЕН проверить? Или на каждую проверку у него отговорка? Если отговорка — хитрое утверждение.\n",
+        "en": "Second question: if there's a tool — is the person WILLING to check? Or do they have an excuse for every check? If they have an excuse — it's a tricky statement.",
+        "uk": "Друге питання: якщо інструмент є — людина ГОТОВА перевірити? Чи у неї на кожну перевірку є відмовка? Якщо відмовка — хитре твердження.\n"
+      }
+    },
+    {
+      "step_id": "sc5_79",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий вопрос: проверили — и ЧТО получилось? Подтвердилось — факт. Не подтвердилось — неправда. Вот и вся система!\n",
+        "en": "Third question: we checked — what was the result? It checked out — fact. It didn't check out — lie. That's the whole system!",
+        "uk": "Третє питання: перевірили — а ЩО вийшло? Підтвердилось — факт. Не підтвердилось — неправда. Ось і вся система!\n"
+      }
+    },
+    {
+      "step_id": "sc5_80",
+      "scene_id": "sc5",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Финальная тренировка! Три категории: проверяемое, мнение, хитрое утверждение. Поехали!\n",
+        "en": "Final practice! Three categories: verifiable, opinion, tricky statement. Let's go!",
+        "uk": "Остаточна тренування! Три категорії: перевірюване, думка, хитре твердження. Поїхали!\n"
+      }
+    },
+    {
+      "step_id": "sc5_81",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Эта собака весит десять килограммов.»\n",
+        "en": "\"This dog weighs ten kilograms.\"",
+        "uk": "«Цей собака важить десять кілограмів.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Verifiable! Tool — scales. Put the dog on scales — got a number."
+      }
+    },
+    {
+      "step_id": "sc5_83",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Проверяемое! Инструмент — весы. Поставил собаку на весы — получил число.\n",
+        "en": "\"This dog is the best in the world!\"",
+        "uk": "Перевірюване! Інструмент — ваги. Поставив собаку на ваги — отримав число."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! There's no \"better-meter\" for dogs. Every owner thinks theirs is the best."
+      }
+    },
+    {
+      "step_id": "sc5_85",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Эта собака — самая лучшая в мире!»\n",
+        "en": "\"This dog can talk, but only when nobody's home.\"",
+        "uk": "«Цей собака — найкраща у світі!»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Tricky statement! \"Only when no one's there\" — an excuse. Can't verify. Just like Vitya's stone."
+      }
+    },
+    {
+      "step_id": "sc5_87",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мнение! Нет «лучшемера» для собак. Каждый хозяин считает свою лучшей.\n",
+        "en": "\"Tomorrow it will be plus twenty degrees.\"",
+        "uk": "Думка! Немає «кращемера» для собак. Кожен господар вважає свою найкращою.\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Verifiable! Tool — thermometer. We'll check tomorrow and find out."
+      }
+    },
+    {
+      "step_id": "sc5_89",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Эта собака умеет разговаривать, но только когда никого нет дома.»\n",
+        "en": "\"Tomorrow will be a good day.\"",
+        "uk": "«Цей собака вміє розмовляти, але тільки коли ніхто немає дома.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! \"Good\" — it's different for everyone. There's no device for that."
+      }
+    },
+    {
+      "step_id": "sc5_91",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Хитрое утверждение! «Только когда никого нет» — отговорка. Нельзя проверить. Прямо как камень Вити.\n",
+        "en": "\"I can do twenty pull-ups, but only at home when nobody's watching.\"",
+        "uk": "Хитре твердження! «Тільки коли ніхто не тут» — відмовка. Неможливо перевірити. Прямо як камінь Вітя.\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Tricky! The tool exists — counting. But \"only when nobody's looking\" — an excuse. They won't let you verify!"
+      }
+    },
+    {
+      "step_id": "sc5_93",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Завтра будет плюс двадцать градусов.»\n",
+        "en": "\"My grandfather once saw an alien, but he didn't tell anyone and there's no proof.\"",
+        "uk": "«Завтра буде плюс двадцять градусів.»"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Проверяемое",
+            "en": "Verifiable",
+            "uk": "Перевірюване"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Хитрое утверждение",
+            "en": "Tricky statement",
+            "uk": "Хитре твердження"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Tricky statement! No evidence, no witnesses, can't verify."
+      }
+    },
+    {
+      "step_id": "sc6_95",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Усложняем! Теперь наоборот. Я говорю фразу и сразу говорю, что это — факт, мнение или хитрое утверждение. А ваша задача — объяснить ПОЧЕМУ.\n",
+        "en": "Let's make it harder! Now the opposite. I say a phrase and immediately say it's a fact, opinion, or tricky statement. Your job is to explain WHY.",
+        "uk": "Ускладнюємо! Тепер навпаки. Я кажу фразу і відразу кажу, що це — факт, думка або хитре твердження. А ваше завдання — пояснити ЧОМУ.\n"
+      }
+    },
+    {
+      "step_id": "sc6_96",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В классе двадцать три ученика.» Это — факт. Почему?\n",
+        "en": "\"There are twenty-three students in the class.\" This is — a fact. Why?",
+        "uk": "«У класі двадцять три учня.» Це — факт. Чому?\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что учительница так сказала",
+            "en": "Because the teacher said so.",
+            "uk": "Тому що учителька так сказала"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что в классах обычно столько учеников",
+            "en": "Because that's usually how many students are in classes.",
+            "uk": "Тому що в класах зазвичай стільки учнів"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что можно пересчитать",
+            "en": "Because you can count them.",
+            "uk": "Тому що можна перерахувати"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "You can count! The tool is counting. Stand up and count the heads."
+      }
+    },
+    {
+      "step_id": "sc6_98",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Можно пересчитать! Инструмент — счёт. Встал и посчитал головы.\n",
+        "en": "\"Our teacher is kind.\" This is — an opinion. Why?",
+        "uk": "Можна перерахувати! Інструмент — лічення. Встав і порахував голови.\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что все так говорят",
+            "en": "Because everyone says that.",
+            "uk": "Тому що всі так говорять"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что доброту нельзя измерить прибором",
+            "en": "Because you can't measure kindness with a device.",
+            "uk": "Тому що доброту неможливо виміряти приладом"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что она не кричиит и не ругается",
+            "en": "Because she doesn't yell or scold.",
+            "uk": "Тому що вона не кричить і не лаєтся"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "No kindness meter! Some think it's kind, others think it's strict. It's a feeling."
+      }
+    },
+    {
+      "step_id": "sc6_100",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Наша учительница добрая.» Это — мнение. Почему?\n",
+        "en": "\"My cat understands everything I say, but only talks to me when nobody's around.\" This is — a tricky statement. Why?",
+        "uk": "«Наша учителька добра.» Це — думка. Чому?\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что все так говорят",
+            "en": "Because cats can't talk.",
+            "uk": "Тому що всі так говорять"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что доброту нельзя измерить прибором",
+            "en": "Because it's about animals.",
+            "uk": "Тому що доброту неможливо виміряти приладом"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что она не кричиит и не ругается",
+            "en": "Because the excuse blocks verification.",
+            "uk": "Тому що вона не кричить і не лаєтся"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "\"Only when nobody's there\" — an excuse! Can't verify because there's always a reason for every attempt."
+      }
+    },
+    {
+      "step_id": "sc6_102",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Нет прибора для доброты! Кто-то считает добрым, кто-то строгим. Это ощущение.\n",
+        "en": "\"From school to the bus stop is five hundred meters.\" This is — a fact. Why?",
+        "uk": "Немає приладу для доброти! Хтось вважає добрим, хтось суворим. Це відчуття."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что взрослые так говорят",
+            "en": "Because that's what adults say.",
+            "uk": "Тому що дорослі так говорять"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что можно измерить рулеткой",
+            "en": "Because you can measure it with a tape measure.",
+            "uk": "Тому що можна виміряти рулеткою"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что пятьсот — это точное число",
+            "en": "Because five hundred is an exact number.",
+            "uk": "Тому що п'ятсот — це точне число"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Tape measure! Go out, measure — get meters. Numbers don't lie."
+      }
+    },
+    {
+      "step_id": "sc6_104",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мой кот понимает всё, что я говорю, но отвечает только мне, когда никого нет.» Это — хитрое утверждение. Почему?\n",
+        "en": "\"Five hundred meters — that's far.\" This is — an opinion. Why?",
+        "uk": "«Мій кіт розуміє все, що я говорю, але відповідає тільки мені, коли ніхто немає.» Це — хитре твердження. Чому?\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что коты не умеют говорить",
+            "en": "Because five hundred meters is not much.",
+            "uk": "Тому що коти не вміють розмовляти"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что это про животных",
+            "en": "Because \"far\" is a feeling, and everyone has their own.",
+            "uk": "Тому що це про тварин"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что отговорка не даёт проверить",
+            "en": "Because nobody measured it.",
+            "uk": "Тому що відмовка не дозволяє перевірити"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"Far\" is different for everyone! For a runner, five hundred meters is nothing. For a little kid — it's a whole journey. There's no tool to measure \"far.\""
+      }
+    },
+    {
+      "step_id": "sc6_106",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Только когда никого нет» — отговорка! Нельзя проверить, потому что на каждую попытку есть причина.\n",
+        "en": "\"This watermelon weighs eight kilograms.\" This is — a fact. Why?",
+        "uk": "«Тільки коли ніхто не тут» — відмовка! Неможливо перевірити, тому що на кожну спробу є причина.\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что арбузы всегда тяжёлые",
+            "en": "Because watermelons are always heavy.",
+            "uk": "Тому що кавуни завжди важкі"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что продавец написал на ценнике",
+            "en": "Because the seller wrote it on the price tag.",
+            "uk": "Тому що продавець написав на цінниці"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что можно положить на весы и проверить",
+            "en": "Because you can put it on scales and check.",
+            "uk": "Тому що можна положити на ваги і перевірити"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Scales! Put it on — see the number. Eight or not eight — the scales will show."
+      }
+    },
+    {
+      "step_id": "sc6_108",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«От школы до остановки пятьсот метров.» Это — факт. Почему?\n",
+        "en": "\"This watermelon is sweet.\" This is — an opinion. Why?",
+        "uk": "«Від школи до зупинки п'ятсот метрів.» Це — факт. Чому?\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что взрослые так говорят",
+            "en": "Because watermelons are always sweet.",
+            "uk": "Тому що дорослі так говорять"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что можно измерить рулеткой",
+            "en": "Because sweetness is a feeling, and everyone has their own taste.",
+            "uk": "Тому що можна виміряти рулеткою"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что пятьсот — это точное число",
+            "en": "Because the watermelon hasn't been cut yet.",
+            "uk": "Тому що п'ятсот — це точне число"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Taste is a feeling! It's sweet to some, not to others. There's no \"sweetness-meter.\""
+      }
+    },
+    {
+      "step_id": "sc6_110",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Рулетка! Вышел, измерил — получил метры. Число не обманет.\n",
+        "en": "\"It's plus fifteen outside.\" This is — a fact. Why?",
+        "uk": "Рулетка! Вийшов, виміряв — отримав метри. Число не збреше."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что по прогнозу погоды так сказали",
+            "en": "Because the weather forecast said so.",
+            "uk": "Тому що за прогнозом погоди так сказали"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что на улице прохладно",
+            "en": "Because it's cool outside.",
+            "uk": "Тому що на вулиці прохолодно"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что можно проверить термометром",
+            "en": "Because you can verify with a thermometer.",
+            "uk": "Тому що можна перевірити термометром"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Thermometer! Go outside, check degrees — verified."
+      }
+    },
+    {
+      "step_id": "sc6_112",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Пятьсот метров — это далеко.» Это — мнение. Почему?\n",
+        "en": "\"It's warm outside.\" This is — an opinion. Why?",
+        "uk": "«П'ятсот метрів — це далеко.» Це — думка. Чому?\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что пятьсот метров — это мало",
+            "en": "Because the thermometer is broken.",
+            "uk": "Тому що п'ятсот метрів — це мало"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что «далеко» — ощущение, у каждого своё",
+            "en": "Because \"warm\" is a feeling, and everyone has their own.",
+            "uk": "Тому що «далеко» — це відчуття, у кожного своє"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что никто не измерял",
+            "en": "Because the weather is always changing.",
+            "uk": "Тому що ніхто не вимірював"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "\"Warm\" is different for everyone! For some, plus fifteen is warm; for others, it's cold. It's a feeling, not a number."
+      }
+    },
+    {
+      "step_id": "sc6_114",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Далеко» — для каждого своё! Спортсмену пятьсот метров — ерунда. Малышу — целое путешествие. Нет прибора для «далеко».\n",
+        "en": "\"I ran a lap in forty seconds.\" This is — a fact. Why?",
+        "uk": "«Далеко» — для кожного своє! Спортсмену п'ятсот метрів — дрібниця. Малюку — ціла подорож. Немає приладу для «далеко».\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что я сам засекал",
+            "en": "Because I timed it myself.",
+            "uk": "Тому що я сам засекав"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что бегать полезно",
+            "en": "Because running is good for you.",
+            "uk": "Тому що бігати корисно"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что можно проверить секундомером",
+            "en": "Because you can verify with a stopwatch.",
+            "uk": "Тому що можна перевірити секундомером"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Stopwatch! Start timing — get a number. Forty seconds or not — the device will show."
+      }
+    },
+    {
+      "step_id": "sc6_116",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Этот арбуз весит восемь килограммов.» Это — факт. Почему?\n",
+        "en": "\"I run faster than everyone, but only when I train alone.\" This is — a tricky statement. Why?",
+        "uk": "«Цей кавун важить вісім кілограмів.» Це — факт. Чому?\n"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Потому что арбузы всегда тяжёлые",
+            "en": "Because you can't run faster than everyone.",
+            "uk": "Тому що кавуни завжди важкі"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Потому что продавец написал на ценнике",
+            "en": "Because the excuse \"only when alone\" blocks verification.",
+            "uk": "Тому що продавець написав на цінниці"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Потому что можно положить на весы и проверить",
+            "en": "Because it's bragging.",
+            "uk": "Тому що можна положити на ваги і перевірити"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "An excuse! The tool exists — a stopwatch. But \"only when alone\" — blocks the way to checking. Like Vitya's stone!"
+      }
+    },
+    {
+      "step_id": "sc6_118",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Весы! Положил — увидел число. Восемь или не восемь — весы покажут.\n",
+        "en": "See — it's the same thing! A watermelon, the street, running — you can say facts and opinions about all of them. The difference is: is there a tool and a number? If yes — checkable. If no — opinion. If the tool exists but they won't let you check — tricky!",
+        "uk": "Ваги! Положив — побачив число. Вісім чи не вісім — ваги покажуть."
+      }
+    },
+    {
+      "step_id": "sc7_119",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Знаете, что вы сегодня сделали? Вы научились задавать самый важный вопрос: «А как это проверить?» Звучит просто — но большинство взрослых его не задают. Серьёзно.\n",
+        "en": "You know what you did today? You learned to ask the most important question: \"How can we check this?\" It sounds simple — but most adults don't ask it. Seriously.",
+        "uk": "Знаєте, що ви зробили сьогодні? Ви навчилися задавати найважливіше питання: «А як це перевірити?» Звучить просто — але більшість дорослих його не задають. Серйозно.\n"
+      }
+    },
+    {
+      "step_id": "sc7_120",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Кто-то говорит: «Этот крем лечит всё!» — и люди верят. Кто-то говорит: «Я видел привидение, но оно появляется только в темноте, когда никто не смотрит» — и люди кивают. А вы теперь знаете: если нельзя проверить — верить необязательно.\n",
+        "en": "Someone says: \"This cream heals everything!\" — and people believe it. Someone says: \"I saw a ghost, but it only appears in the dark when nobody's looking\" — and people nod. But now you know: if you can't check it — you don't have to believe it.",
+        "uk": "Хтось говорить: «Цей крем лікує все!» — і люди вірять. Хтось говорить: «Я бачив привида, але він з'являється тільки в темряві, коли ніхто не дивиться» — і люди киваютьь. А ви тепер знаєте: якщо неможливо перевірити — вірити необов'язково.\n"
+      }
+    },
+    {
+      "step_id": "sc7_121",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "У вас есть пять инструментов — весы, линейка, часы, термометр и счёт. И ещё один, самый главный — вопрос: «Каким прибором это проверить?» Если ответ есть — отлично. Если на каждый ответ новая отговорка — вы знаете, что делать.\n",
+        "en": "You have five tools — scales, ruler, clock, thermometer, and counting. And one more, the most important — the question: \"What tool can we use to check this?\" If there's an answer — great. If there's a new excuse for every answer — you know what to do.",
+        "uk": "У вас є п'ять інструментів — ваги, лінійка, годинник, термометр і лічба. І ще один, найголовніший — питання: «Яким приладом це перевірити?» Якщо відповідь є — чудово. Якщо на кожну відповідь нова відмовка — ви знаєте, що робити.\n"
+      }
+    },
+    {
+      "step_id": "sc7_122",
+      "scene_id": "sc7",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Попробуйте дома! Послушайте, что говорят по телевизору, в интернете, во дворе. И спросите себя: это можно проверить? Каким инструментом? Или тут отговорка? Вы удивитесь, как часто это работает.\n",
+        "en": "Try it at home! Listen to what people say on TV, on the internet, at the playground. And ask yourself: can this be checked? With what tool? Or is there an excuse? You'll be surprised how often this works.",
+        "uk": "Спробуйте вдома! Послухайте, що говорять по телевізору, в інтернеті, на вулиці. І запитайте себе: це можна перевірити? Яким інструментом? Чи тут відмовка? Ви здивуєтесь, як часто це працює.\n"
+      }
+    },
+    {
+      "step_id": "sc7_123",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На сегодня всё! Вы — настоящие детективы правды. Мне с вами было здорово. До следующего занятия — и пусть ни одна отговорка от вас не ускользнёт!\n",
+        "en": "That's all for today! You're real truth detectives. It was awesome with you. Until next time — and may no excuse get past you!",
+        "uk": "На сьогодні все! Ви — справжні детективи правди. Мені з вами було чудово. До наступного заняття — і нехай жодна відмовка від вас не ускользне!\n"
+      }
+    },
+    {
+      "step_id": "sc8_124",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У жирафа длинная шея.",
+        "en": "A giraffe has a long neck.",
+        "uk": "У жирафа довга шия."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_125",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Жираф — самое красивое животное.",
+        "en": "A giraffe is the most beautiful animal.",
+        "uk": "Жираф — найкрасивіша тварина."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_126",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Жирафы живут под водой.",
+        "en": "Giraffes live under water.",
+        "uk": "Жирафи живуть під водою."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_127",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В килограмме тысяча граммов.",
+        "en": "There are one thousand grams in a kilogram.",
+        "uk": "У кілограмі тисяча грамів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_128",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Тысяча граммов — это очень много.",
+        "en": "One thousand grams — that's a lot.",
+        "uk": "Тисяча грамів — це багато."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_129",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В килограмме сто граммов.",
+        "en": "There are one hundred grams in a kilogram.",
+        "uk": "У кілограмі сто грамів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_130",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У человека пять пальцев на одной руке.",
+        "en": "A person has five fingers on one hand.",
+        "uk": "У людини п'ять пальців на одній руці."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_131",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пять пальцев — это мало.",
+        "en": "Five fingers — that's not much.",
+        "uk": "П'ять пальців — це мало."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_132",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У человека семь пальцев на каждой руке.",
+        "en": "A person has seven fingers on each hand.",
+        "uk": "У людини сім пальців на кожній руці."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_133",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В одном часе шестьдесят минут.",
+        "en": "There are sixty minutes in an hour.",
+        "uk": "В одній годині шістдесят хвилин."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_134",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шестьдесят минут — это долго.",
+        "en": "Sixty minutes — that's a long time.",
+        "uk": "Шістдесят хвилин — це довго."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_135",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В одном часе сто минут.",
+        "en": "There are one hundred minutes in an hour.",
+        "uk": "В одній годині сто хвилин."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_136",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Молоко бывает белым.",
+        "en": "Milk can be white.",
+        "uk": "Молоко буває білим."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_137",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Белый цвет — самый красивый.",
+        "en": "White is the most beautiful color.",
+        "uk": "Біла — найкрасивіша колір."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_138",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Молоко синего цвета.",
+        "en": "Milk is blue.",
+        "uk": "Молоко синього кольору."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_139",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В треугольнике три угла.",
+        "en": "A triangle has three angles.",
+        "uk": "У трикутнику три кути."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_140",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Треугольники скучные.",
+        "en": "Triangles are boring.",
+        "uk": "Трикутники нудні."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_141",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У треугольника пять углов.",
+        "en": "A triangle has five angles.",
+        "uk": "У трикутнику п'ять кутів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_142",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Зимой в Европе бывает снег.",
+        "en": "It snows in Europe in winter.",
+        "uk": "Взимку в Європі буває сніг."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_143",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Холод — это неприятно.",
+        "en": "Cold is unpleasant.",
+        "uk": "Холод — це неприємно."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_144",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Лёд тает при нагревании выше нуля.",
+        "en": "Ice melts when heated above zero.",
+        "uk": "Лід тає при нагріванні вище нуля."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_145",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Тает — это красиво.",
+        "en": "Melting is beautiful.",
+        "uk": "Таяння — це гарно."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_146",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Лёд горит как бумага.",
+        "en": "Ice burns like paper.",
+        "uk": "Лід горить як папір."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_147",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У рыбы есть жабры.",
+        "en": "A fish has gills.",
+        "uk": "У рибу є зябра."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_148",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Рыбы противные.",
+        "en": "Fish are disgusting.",
+        "uk": "Рибу гидкі."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_149",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Рыбы летают по небу.",
+        "en": "Fish fly in the sky.",
+        "uk": "Рибу літають по небу."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_150",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В метре сто сантиметров.",
+        "en": "There are one hundred centimeters in a meter.",
+        "uk": "У метрі сто сантиметрів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_151",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Сто сантиметров — это мало.",
+        "en": "One hundred centimeters — that's not much.",
+        "uk": "Сто сантиметрів — це мало."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_152",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В метре десять сантиметров.",
+        "en": "There are ten centimeters in a meter.",
+        "uk": "У метрі десять сантиметрів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_153",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Солнце светит.",
+        "en": "The sun shines.",
+        "uk": "Сонце світить."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_154",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Солнце слишком яркое.",
+        "en": "The sun is too bright.",
+        "uk": "Сонце надто яскраве."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_155",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Солнце холодное как лёд.",
+        "en": "The sun is cold as ice.",
+        "uk": "Сонце холодне як лід."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_156",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У паука восемь ног.",
+        "en": "A spider has eight legs.",
+        "uk": "У павука вісім ніг."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_157",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Пауки страшные.",
+        "en": "Spiders are scary.",
+        "uk": "Павуки страшні."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_158",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У паука две ноги.",
+        "en": "A spider has two legs.",
+        "uk": "У павука дві ноги."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_159",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В неделе семь дней.",
+        "en": "There are seven days in a week.",
+        "uk": "У тижні сім днів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_160",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Семь дней — это быстро проходит.",
+        "en": "Seven days pass quickly.",
+        "uk": "Сім днів проходять швидко."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_161",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В неделе девять дней.",
+        "en": "There are nine days in a week.",
+        "uk": "У тижні дев'ять днів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_162",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У кошки есть хвост.",
+        "en": "A cat has a tail.",
+        "uk": "У кішки є хвіст."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_163",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Кошки хитрые.",
+        "en": "Cats are cunning.",
+        "uk": "Кішки хитрі."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_164",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У всех кошек три хвоста.",
+        "en": "All cats have three tails.",
+        "uk": "У всіх кішок три хвости."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_165",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Человек дышит воздухом.",
+        "en": "A person breathes air.",
+        "uk": "Людина дихає повітрям."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_166",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Дышать приятно.",
+        "en": "Breathing is pleasant.",
+        "uk": "Дихати приємно."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_167",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Человек может жить без воздуха неделю.",
+        "en": "A person can live without air for a week.",
+        "uk": "Людина може жити без повітря тиждень."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_168",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В литре тысяча миллилитров.",
+        "en": "There are one thousand milliliters in a liter.",
+        "uk": "У літрі тисяча мілілітрів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_169",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Тысяча миллилитров — это много воды.",
+        "en": "One thousand milliliters — that's a lot of water.",
+        "uk": "Тисяча мілілітрів — це багато води."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_170",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В литре сто миллилитров.",
+        "en": "There are one hundred milliliters in a liter.",
+        "uk": "У літрі сто мілілітрів."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    },
+    {
+      "step_id": "sc8_171",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "У птицы есть крылья.",
+        "en": "A bird has wings.",
+        "uk": "У птахи є крила."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_1"
+    },
+    {
+      "step_id": "sc8_172",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Птицы милые.",
+        "en": "Birds are cute.",
+        "uk": "Птахи милі."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_2"
+    },
+    {
+      "step_id": "sc8_173",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Все птицы умеют летать.",
+        "en": "All birds can fly.",
+        "uk": "Усі птахи вміють літати."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "en": "Fact",
+            "uk": "Факт"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "en": "Opinion",
+            "uk": "Думка"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "en": "Lie",
+            "uk": "Неправда"
+          }
+        }
+      ],
+      "correct_answer": "opt_3"
+    }
+  ],
+  "step_image_map": {
+    "sc6_95": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_96": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_98": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_100": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_102": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_104": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_106": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_108": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_110": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_112": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_114": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_116": "../ASSETS/1B/1b_sc1_bg.png",
+    "sc6_118": "../ASSETS/1B/1b_sc1_bg.png"
+  }
+}

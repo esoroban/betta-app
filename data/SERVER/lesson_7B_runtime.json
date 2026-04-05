@@ -1,0 +1,2369 @@
+{
+  "lesson_id": "7B",
+  "title": {
+    "ru": "Достаточное основание и нападение на человека",
+    "uk": "Достатня основа та напад на людину",
+    "en": "Sufficient Ground and Personal Attack"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "Обоснование — понятие",
+        "uk": "Обоснование — понятие",
+        "en": "Justification - concept"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_4",
+        "sc1_5",
+        "sc1_6",
+        "sc1_7",
+        "sc1_8",
+        "sc1_9"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "Практика: какой тип обоснования?",
+        "uk": "Практика: какой тип обоснования?",
+        "en": "Practice: what type of justification?"
+      },
+      "step_ids": [
+        "sc2_10",
+        "sc2_11",
+        "sc2_12",
+        "sc2_13",
+        "sc2_14",
+        "sc2_15",
+        "sc2_16",
+        "sc2_17",
+        "sc2_18",
+        "sc2_19",
+        "sc2_20",
+        "sc2_21",
+        "sc2_22",
+        "sc2_23",
+        "sc2_24",
+        "sc2_25",
+        "sc2_26"
+      ],
+      "first_step_index": 9
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Практика: что это за обоснование?",
+        "uk": "Практика: что это за обґрунтування?",
+        "en": "Practice: what is the rationale?"
+      },
+      "step_ids": [
+        "sc3_27",
+        "sc3_28",
+        "sc3_30",
+        "sc3_32",
+        "sc3_34",
+        "sc3_36",
+        "sc3_38",
+        "sc3_40",
+        "sc3_42",
+        "sc3_44",
+        "sc3_46",
+        "sc3_48"
+      ],
+      "first_step_index": 26
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "ИСТОРИЯ — СПОР О НОВОЙ ИГРЕ",
+        "uk": "ИСТОРИЯ — СПОР О НОВОЙ ИГРЕ",
+        "en": "HISTORY - DISPUTE ABOUT A NEW GAME"
+      },
+      "step_ids": [
+        "sc4_49",
+        "sc4_50",
+        "sc4_51",
+        "sc4_52",
+        "sc4_53",
+        "sc4_54",
+        "sc4_55",
+        "sc4_56",
+        "sc4_57"
+      ],
+      "first_step_index": 38
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "Три вида нападения + практика",
+        "uk": "Три вида нападів + практика",
+        "en": "Three types of attack + practice"
+      },
+      "step_ids": [
+        "sc5_58",
+        "sc5_59",
+        "sc5_60",
+        "sc5_61",
+        "sc5_62",
+        "sc5_63",
+        "sc5_64",
+        "sc5_65",
+        "sc5_66",
+        "sc5_67",
+        "sc5_68",
+        "sc5_69",
+        "sc5_70",
+        "sc5_71",
+        "sc5_72",
+        "sc5_73",
+        "sc5_74",
+        "sc5_75",
+        "sc5_76",
+        "sc5_77",
+        "sc5_78",
+        "sc5_79",
+        "sc5_80",
+        "sc5_81",
+        "sc5_82",
+        "sc5_83",
+        "sc5_85",
+        "sc5_87"
+      ],
+      "first_step_index": 47
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Защита от нападения — тренажёр",
+        "uk": "Защита от нападів — тренажёр",
+        "en": "Defense against attack - simulator"
+      },
+      "step_ids": [
+        "sc6_89",
+        "sc6_90",
+        "sc6_91",
+        "sc6_92",
+        "sc6_93",
+        "sc6_94",
+        "sc6_95",
+        "sc6_96",
+        "sc6_97",
+        "sc6_98",
+        "sc6_99",
+        "sc6_100",
+        "sc6_101",
+        "sc6_102",
+        "sc6_103",
+        "sc6_104",
+        "sc6_105",
+        "sc6_106",
+        "sc6_107",
+        "sc6_108",
+        "sc6_109",
+        "sc6_110",
+        "sc6_111"
+      ],
+      "first_step_index": 75
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "Практика — повторение 7A (противоречия)",
+        "uk": "Практика — повторение 7A (суперечності)",
+        "en": "Practice - Review 7A (Contradictions)"
+      },
+      "step_ids": [
+        "sc7_112",
+        "sc7_113",
+        "sc7_114",
+        "sc7_116",
+        "sc7_117",
+        "sc7_118",
+        "sc7_119",
+        "sc7_121",
+        "sc7_122",
+        "sc7_123",
+        "sc7_124",
+        "sc7_126",
+        "sc7_127",
+        "sc7_129",
+        "sc7_130",
+        "sc7_132",
+        "sc7_133"
+      ],
+      "first_step_index": 98
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "Практика — повторение 7B (обоснование + нападение)",
+        "uk": "Практика — повторение 7B (обґрунтування + напад)",
+        "en": "Practice - Review 7B (Rationale + Attack)"
+      },
+      "step_ids": [
+        "sc8_134",
+        "sc8_135",
+        "sc8_136",
+        "sc8_138",
+        "sc8_139",
+        "sc8_141",
+        "sc8_142",
+        "sc8_144",
+        "sc8_145",
+        "sc8_147",
+        "sc8_148",
+        "sc8_150"
+      ],
+      "first_step_index": 115
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "Закрытие",
+        "uk": "Закриття",
+        "en": "Closing"
+      },
+      "step_ids": [
+        "sc9_151",
+        "sc9_152",
+        "sc9_153",
+        "sc9_154"
+      ],
+      "first_step_index": 127
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Перед перерывом я обещал — мы научимся задавать самый мощный вопрос в мире. Готовы? Вот он: «Почему ты так думаешь?»\n",
+        "uk": "Перед перерывом я обещал — мы научимся задавать самый мощный вопрос в мире. Готовы? Вот он: «Почему ты так думаешь?»",
+        "en": "Before the break, I promised that we would learn to ask the most powerful question in the world. Are you ready? Here it is: “Why do you think that?”"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Звучит просто, правда? Но этот вопрос — как рентген. Он просвечивает любое утверждение насквозь. Если за словами стоит что-то настоящее — человек объяснит. А если нет — станет ясно, что утверждение пустое.\n",
+        "uk": "Звучит просто, правда? Но этот вопрос — как рентген. Он просвечивает любое утверждение насквозь. Если за словами стоит что-то настоящее — человек объяснит. А если нет — станет ясно, что утверждение пустое.",
+        "en": "Sounds simple, right? But this question is like an x-ray. It shines through any statement. If there is something real behind the words, the person will explain. And if not, it will become clear that the statement is empty."
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот пример. Кто-то говорит: «Витамины полезные.» Окей. Почему ты так думаешь? «Потому что мой старший брат так сказал.» Хм... А брат — врач? Учёный? Или просто так решил? Видите, один вопрос — и мы уже понимаем, стоит ли верить.\n",
+        "uk": "Вот пример. Кто-то говорит: «Витамины полезные.» Окей. Почему ты так думаешь? «Потому что мой старший брат так сказал.» Хм... А брат — врач? Учёный? Или просто так решил? Видите, один вопрос — и мы уже понимаем, стоит ли верить.",
+        "en": "Here's an example. Someone says: “Vitamins are healthy.” OK. Why do you think so? \"Because my older brother said so.\" Hmm... Is your brother a doctor? Scientist? Or did you just decide that? You see, one question and we already understand whether it’s worth believing."
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Каждое утверждение должно быть обоснованным. Это значит: если ты что-то говоришь — объясни, почему ты так думаешь. Это не грубость и не наезд. Это уважение к разговору.\n",
+        "uk": "Каждое утверждение должно быть обоснованным. Это значит: если ты что-то говоришь — объясни, почему ты так думаешь. Это не грубость и не наезд. Это уважение к разговору.",
+        "en": "Each statement must be substantiated. This means: if you say something, explain why you think so. This is not rudeness or hitting. This is respect for the conversation."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И у обоснований есть три типа — три причины, которые делают утверждение сильным. Сейчас разберём каждый.\n",
+        "uk": "И у обоснований есть три типа — три причины, которые делают утверждение сильным. Сейчас разберём каждый.",
+        "en": "And justifications have three types - three reasons that make a statement strong. Now let's look at each one."
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Первый тип — факты. То, что можно проверить. «В Киеве живут несколько миллионов людей» — это факт, можно посмотреть в статистике. «Вода кипит при ста градусах» — факт, можно измерить.\n",
+        "uk": "Первый тип — факты. То, что можно проверить. «В Киеве живут несколько миллионов людей» — это факт, можно посмотреть в статистике. «Вода кипит при ста градусах» — факт, можно измерить.",
+        "en": "The first type is facts. Something that can be verified. “Several million people live in Kyiv” - this is a fact, you can see it in the statistics. “Water boils at one hundred degrees” is a fact that can be measured."
+      }
+    },
+    {
+      "step_id": "sc1_7",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй тип — логика. Размышление, которое следует одно из другого. «Если идёт дождь, то на улице мокро.» Тут не нужна статистика — достаточно подумать.\n",
+        "uk": "Второй тип — логика. Размышление, которое следует одно из другого. «Если идёт дощ, то на улице мокро.» Тут не нужна статистика — достаточно подумать.",
+        "en": "The second type is logic. A reflection that follows one from the other. “If it rains, it’s wet outside.” You don't need statistics here - just think."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий тип — надёжный источник. Эксперт или проверенная информация. «Врач сказал, что нужно мыть руки» — врач разбирается в здоровье, это надёжный источник. «Учебник географии пишет, что Земля круглая» — тоже надёжный.\n",
+        "uk": "Третий тип — надёжный источник. Эксперт или проверенная информация. «Врач сказал, что нужно мыть руки» — врач разбирается в здоровье, это надёжный источник. «Учебник географии пишет, что Земля круглая» — тоже надёжный.",
+        "en": "The third type is a reliable source. Expert or verified information. “The doctor said you need to wash your hands” - the doctor knows about health, this is a reliable source. “The geography textbook says that the Earth is round” is also reliable."
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А вот «просто потому что», «все так говорят», «мне кажется» — это не обоснование. Это пустота, обёрнутая в слова.\n",
+        "uk": "А вот «просто потому что», «все так говорят», «мне кажется» — это не обґрунтування. Это пустота, обёрнутая в слова.",
+        "en": "But “just because,” “everyone says so,” “it seems to me” is not a justification. This is emptiness wrapped in words."
+      }
+    },
+    {
+      "step_id": "sc2_10",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сейчас я читаю утверждение и три разных объяснения. Все звучат убедительно. Ваша задача — определить, какое из них факт, какое логика, а какое надёжный источник. Иногда они смешиваются — будьте внимательны.\n",
+        "uk": "Сейчас я читаю утверждение и три разных объяснения. Все звучат убедительно. Ваша задача — определить, какое из них факт, какое логика, а какое надёжный источник. Иногда они смешиваются — будьте внимательны.",
+        "en": "Now I'm reading a statement and three different explanations. Everyone sounds convincing. Your job is to determine which is fact, which is logic, and which is a reliable source. Sometimes they mix - be careful."
+      }
+    },
+    {
+      "step_id": "sc2_11",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Утверждение: «Нужно пристёгиваться в машине.» А: «Потому что при аварии ремень удерживает человека.» Б: «В статистике показано, что пристёгнутые пассажиры реже получают травмы.» В: «Инструктор по вождению так учит.»\n",
+        "uk": "Утверждение: «Нужно пристёгиваться в машине.» А: «Потому что при аварии ремень удерживает людину.» Б: «В статистике показано, что пристёгнутые пассажиры реже получают травмы.» В: «Инструктор по вождению так учит.»",
+        "en": "Statement: “You need to wear a seat belt in the car.” A: “Because in an accident, the belt holds the person.” B: “Statistics show that belted passengers are less likely to be injured.” Q: “The driving instructor teaches this way.”"
+      }
+    },
+    {
+      "step_id": "sc2_12",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какое объяснение — факт, какое — логика, какое — источник?\n",
+        "uk": "Какое объяснение — факт, какое — логика, какое — источник?",
+        "en": "Which explanation is fact, which is logic, which is source?"
+      }
+    },
+    {
+      "step_id": "sc2_13",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Разбор: А — логика, одно следует из другого: если авария, то без ремня опаснее. Б — факт, есть проверяемые данные. В — надёжный источник, инструктор — специалист.\n",
+        "uk": "Разбор: А — логика, одно следует из другого: если авария, то без ремня опаснее. Б — факт, есть проверяемые данные. В — надёжный источник, инструктор — специалист.",
+        "en": "Analysis: A - logic, one follows from the other: if there is an accident, then without a belt it is more dangerous. B - fact, there is verifiable data. B is a reliable source, the instructor is a specialist."
+      }
+    },
+    {
+      "step_id": "sc2_14",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Утверждение: «Нужно чистить зубы два раза в день.» А: «Стоматологи это рекомендуют.» Б: «Если не чистить, может появиться кариес.» В: «Исследования показывают рост кариеса при плохой гигиене.»\n",
+        "uk": "Утверждение: «Нужно чистить зубы два раза в день.» А: «Стоматологи это рекомендуют.» Б: «Если не чистить, может появиться кариес.» В: «Исследования показывают рост кариеса при плохой гигиене.»",
+        "en": "Statement: “You should brush your teeth twice a day.” A: “Dentists recommend this.” B: “If you don’t brush, caries may appear.” Q: “Studies show an increase in tooth decay with poor hygiene.”"
+      }
+    },
+    {
+      "step_id": "sc2_15",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Распределяйте: факт, логика, источник.\n",
+        "uk": "Распределяйте: факт, логика, источник.",
+        "en": "Distribute: fact, logic, source."
+      }
+    },
+    {
+      "step_id": "sc2_16",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А — источник, стоматологи — специалисты. Б — логика, причина ведёт к следствию. В — факт, ссылка на исследования, можно проверить.\n",
+        "uk": "А — источник, стоматологи — специалисты. Б — логика, причина ведёт к следствию. В — факт, ссылка на исследования, можно проверить.",
+        "en": "A is the source, dentists are specialists. B - logic, cause leads to effect. B - fact, link to research, can be verified."
+      }
+    },
+    {
+      "step_id": "sc2_17",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Утверждение: «Нельзя бегать по мокрому полу.» А: «Можно поскользнуться.» Б: «В правилах школы это написано.» В: «На мокром полу коэффициент трения ниже.»\n",
+        "uk": "Утверждение: «Нельзя бегать по мокрому полу.» А: «Можно поскользнуться.» Б: «В правилах школы это написано.» В: «На мокром полу коэффициент трения ниже.»",
+        "en": "Statement: “You can’t run on a wet floor.” A: “You could slip.” B: “It’s written in the school rules.” Q: “The coefficient of friction is lower on a wet floor.”"
+      }
+    },
+    {
+      "step_id": "sc2_18",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Где тут что?\n",
+        "uk": "Где тут что?",
+        "en": "Where is what?"
+      }
+    },
+    {
+      "step_id": "sc2_19",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А — логика, мокро — значит скользко. Б — источник, школьные правила. В — факт, физическое свойство поверхности — можно измерить.\n",
+        "uk": "А — логика, мокро — значит скользко. Б — источник, школьные правила. В — факт, физическое свойство поверхности — можно измерить.",
+        "en": "A - logic, wet means slippery. B - source, school rules. B is a fact, a physical property of a surface, that can be measured."
+      }
+    },
+    {
+      "step_id": "sc2_20",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Утверждение: «Нужно делать домашнее задание.» А: «Учитель сказал, что это важно.» Б: «Если тренироваться, знания запоминаются лучше.» В: «Ученики, которые делают домашку, чаще получают высокие оценки.»\n",
+        "uk": "Утверждение: «Нужно делать домашнее задание.» А: «Учитель сказал, что это важно.» Б: «Если тренироваться, знания запоминаются краще.» В: «Ученики, которые делают домашку, чаще получают высокие оценки.»",
+        "en": "Statement: “You need to do your homework.” A: “The teacher said it was important.” B: “If you practice, knowledge is remembered better.” Q: “Students who do their homework are more likely to get high grades.”"
+      }
+    },
+    {
+      "step_id": "sc2_21",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Распределяйте!\n",
+        "uk": "Распределяйте!",
+        "en": "Distribute!"
+      }
+    },
+    {
+      "step_id": "sc2_22",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А — источник, учитель — специалист в обучении. Б — логика, тренировка ведёт к результату. В — факт, можно проверить статистикой.\n",
+        "uk": "А — источник, учитель — специалист в обучении. Б — логика, тренировка ведёт к результату. В — факт, можно проверить статистикой.",
+        "en": "A - source, teacher - specialist in teaching. B - logic, training leads to results. B is a fact that can be verified by statistics."
+      }
+    },
+    {
+      "step_id": "sc2_23",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Утверждение: «Нужно надевать шапку зимой.» А: «Потому что холодно.» Б: «При низкой температуре тело теряет тепло быстрее.» В: «Врач сказал, что переохлаждение вредно.»\n",
+        "uk": "Утверждение: «Нужно надевать шапку зимой.» А: «Потому что холодно.» Б: «При низкой температуре тело теряет тепло быстрее.» В: «Врач сказал, что переохлаждение вредно.»",
+        "en": "Statement: “You need to wear a hat in winter.” A: “Because it’s cold.” B: “At low temperatures, the body loses heat faster.” Q: “The doctor said that hypothermia is harmful.”"
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Последний раунд — какой тип у каждого?\n",
+        "uk": "Последний раунд — какой тип у каждого?",
+        "en": "Last round - what type is everyone?"
+      }
+    },
+    {
+      "step_id": "sc2_25",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А — логика, но слабая и неполная, просто «холодно» без объяснения механизма. Б — факт, физиология, можно измерить. В — источник, врач — специалист.\n",
+        "uk": "А — логика, но слабая и неполная, просто «холодно» без объяснения механизма. Б — факт, физиология, можно измерить. В — источник, врач — специалист.",
+        "en": "A - logic, but weak and incomplete, just “cold” without explaining the mechanism. B - fact, physiology, can be measured. B is the source, the doctor is a specialist."
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили закономерность? Факт — можно проверить цифрами или измерить. Логика — одно объясняет другое. Источник — человек или книга, которым есть основания доверять. А сильное обоснование часто использует два или три типа сразу.\n",
+        "uk": "Заметили закономерность? Факт — можно проверить цифрами или измерить. Логіка — одно объясняет другое. Джерело — человек или книга, которым есть основания доверять. А сильное обґрунтування часто использует два или три типа сразу.",
+        "en": "Notice a pattern? Fact - can be verified by numbers or measured. Logic - one thing explains another. A source is a person or book that you have reason to trust. And a strong rationale often uses two or three types at once."
+      }
+    },
+    {
+      "step_id": "sc3_27",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь формат другой. Одно утверждение — одно обоснование. Голосуете: это факт, логика или надёжный источник?\n",
+        "uk": "Теперь формат другой. Одно утверждение — одно обґрунтування. Голосуете: это факт, логика или надёжный источник?",
+        "en": "Now the format is different. One statement - one justification. Vote: is this fact, logic or a reliable source?"
+      }
+    },
+    {
+      "step_id": "sc3_28",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Лёд скользкий.» — «Потому что у него гладкая поверхность, и обувь хуже цепляется.»\n",
+        "uk": "«Лёд скользкий.» — «Потому что у него гладкая поверхность, и обувь хуже цепляется.»",
+        "en": "\"Ice is slippery.\" - “Because it has a smooth surface, and shoes grip worse.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Logics! We explain the reason: smooth - worse grip - slippery. Chain of reasoning."
+      }
+    },
+    {
+      "step_id": "sc3_30",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Логика! Мы объясняем причину: гладко — хуже сцепление — скользко. Цепочка рассуждений.\n",
+        "uk": "Логіка! Мы объясняем причину: гладко — хуже сцепление — скользко. Цепочка рассуждений.",
+        "en": "“More than a million people live in our city.” - “This is how the data from the latest population census is shown.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Specific verifiable data - the census can be found and viewed."
+      }
+    },
+    {
+      "step_id": "sc3_32",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В нашем городе живёт больше миллиона человек.» — «Так показаны данные последней переписи населения.»\n",
+        "uk": "«В нашем городе живёт больше миллиона человек.» — «Так показаны данные последней переписи населения.»",
+        "en": "“You need to drink more water.” — “The pediatrician explained at the appointment that it is important for children to maintain water balance.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Source! The doctor is a specialist; there is reason to trust him in matters of health."
+      }
+    },
+    {
+      "step_id": "sc3_34",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Конкретные проверяемые данные — перепись можно найти и посмотреть.\n",
+        "uk": "Факт! Конкретные проверяемые данные — перепись можно найти и посмотреть.",
+        "en": "“If you don’t charge your phone, it will turn off.” - “The battery is draining, and without energy the device does not work.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Logics! No energy - no work. One follows from the other."
+      }
+    },
+    {
+      "step_id": "sc3_36",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Нужно пить больше воды.» — «Педиатр на приёме объяснил, что детям важно поддерживать водный баланс.»\n",
+        "uk": "«Нужно пить больше воды.» — «Педиатр на приёме объяснил, что детям важно поддерживать водный баланс.»",
+        "en": "“People blink several thousand times a day.” “This has been measured in scientific studies.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Link to measurements - you can check, calculate, repeat the experiment."
+      }
+    },
+    {
+      "step_id": "sc3_38",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Источник! Врач — специалист, ему есть основания доверять в вопросах здоровья.\n",
+        "uk": "Джерело! Врач — специалист, ему есть основания доверять в вопросах здоровья.",
+        "en": "“You need to warm up before training.” — “The trainer explains that the muscles need to be prepared for the load.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Source! The coach is a load specialist. His recommendations are based on experience."
+      }
+    },
+    {
+      "step_id": "sc3_40",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Если не зарядить телефон, он выключится.» — «Батарея разряжается, и без энергии устройство не работает.»\n",
+        "uk": "«Если не зарядить телефон, он выключится.» — «Батарея разряжается, и без энергии устройство не работает.»",
+        "en": "“If you close the window in winter, the room will become warmer.” - “Warm air escapes through the open window.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Logics! Open - the heat leaves - it gets colder. Closed - the heat remains."
+      }
+    },
+    {
+      "step_id": "sc3_42",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Логика! Нет энергии — нет работы. Одно следует из другого.\n",
+        "uk": "Логіка! Ні энергии — нет работы. Одно следует из другого.",
+        "en": "\"The planets revolve around the sun.\" - “This is confirmed by astronomical observations.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Observations, measurements, data - everything can be verified through science."
+      }
+    },
+    {
+      "step_id": "sc3_44",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Люди моргают несколько тысяч раз в день.» — «Это измеряли в научных исследованиях.»\n",
+        "uk": "«Люди моргают несколько тысяч раз в день.» — «Это измеряли в научных исследованиях.»",
+        "en": "“You need to learn the multiplication tables.” — “Math teachers say it’s difficult to solve problems without it.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Source! Mathematics teachers are experts in teaching numeracy."
+      }
+    },
+    {
+      "step_id": "sc3_46",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Факт! Ссылка на измерения — можно проверить, посчитать, повторить эксперимент.\n",
+        "uk": "Факт! Ссылка на измерения — можно проверить, посчитать, повторить эксперимент.",
+        "en": "“If you sit for a long time without moving, your body gets tired.” - “The muscles become stiff because they are in one position for a long time.”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Логика",
+            "uk": "Логіка",
+            "en": "Logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Источник",
+            "uk": "Джерело",
+            "en": "Source"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Logics! There is an explanation for the reason: in one position for a long time, the muscles become numb."
+      }
+    },
+    {
+      "step_id": "sc3_48",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Нужно разминаться перед тренировкой.» — «Тренер объясняет, что мышцы нужно подготовить к нагрузке.»\n",
+        "uk": "«Нужно разминаться перед тренировкой.» — «Тренер объясняет, что мышцы нужно подготовить к нагрузке.»",
+        "en": "Note that a fact is data and measurement. Logic is the explanation of “why this happens.” The source is an expert who has reason to trust. In a real dispute, the combination of all three works most powerfully."
+      }
+    },
+    {
+      "step_id": "sc4_49",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы теперь знаете, что каждое утверждение должно быть обоснованным. Факт, логика или надёжный источник. Но что делают люди, когда у них нет хорошего обоснования? Послушайте историю!",
+        "uk": "Вы теперь знаете, что каждое утверждение должно быть обоснованным. Факт, логика или надёжный источник. Но что делают люди, когда у них нет хорошего обоснования? Послушайте историю!",
+        "en": "You now know that every statement must be substantiated. Fact, logic or reliable source. But what do people do when they don't have a good rationale? Listen to the story!"
+      }
+    },
+    {
+      "step_id": "sc4_50",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На перемене Дмитрик предложил: «Давайте играть в футбол!» А Маша возразила: «Лучше в бадминтон — в футбол мы играли три дня подряд!»",
+        "uk": "На перемене Дмитрик предложил: «Таквайте играть в футбол!» А Маша возразила: «Лучше в бадминтон — в футбол мы играли три дня подряд!»",
+        "en": "At recess, Dmitry suggested: “Let's play football!” And Masha objected: “It’s better to play badminton - we played football for three days in a row!”"
+      }
+    },
+    {
+      "step_id": "sc4_51",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик не стал объяснять, чем футбол лучше. Вместо этого он выпалил: «Ты просто плохо играешь в футбол, вот и не хочешь!» Маша обиделась: «А ты в бадминтон вообще ракетку держать не умеешь!»",
+        "uk": "Дмитрик не стал объяснять, чем футбол краще. Вместо этого он выпалил: «Ты просто плохо играешь в футбол, вот и не хочешь!» Маша обиделась: «А ты в бадминтон вообще ракетку держать не умеешь!»",
+        "en": "Dmitry did not explain why football is better. Instead, he blurted out: “You’re just bad at playing football, that’s why you don’t want to!” Masha was offended: “You don’t even know how to hold a badminton racket!”"
+      }
+    },
+    {
+      "step_id": "sc4_52",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тут Микола добавил: «Маша, ты же девочка — что ты понимаешь в спорте?» А Оленка остановила всех: «Стоп! Вы уже пять минут спорите, но ни слова не сказали про сами игры!»",
+        "uk": "Тут Микола добавил: «Маша, ты же девочка — что ты понимаешь в спорте?» А Оленка остановила всех: «Стоп! Вы уже пять минут спорите, но ни слова не сказали про сами игры!»",
+        "en": "Then Mikola added: “Masha, you’re a girl - what do you understand about sports?” And Olenka stopped everyone: “Stop! You’ve been arguing for five minutes now, but you haven’t said a word about the games themselves!”"
+      }
+    },
+    {
+      "step_id": "sc4_53",
+      "scene_id": "sc4",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что произошло в истории? Как дети спорили о выборе игры?\n",
+        "uk": "Что произошло в истории? Как дети спорили о выборе игры?",
+        "en": "What happened in history? How did the children argue about the choice of game?"
+      }
+    },
+    {
+      "step_id": "sc4_54",
+      "scene_id": "sc4",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Кто-нибудь заметил — дети обсуждали сами игры или что-то другое?\n",
+        "uk": "Кто-нибудь заметил — дети обсуждали сами игры или что-то другое?",
+        "en": "Did anyone notice whether the children were discussing the games themselves or something else?"
+      }
+    },
+    {
+      "step_id": "sc4_55",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вот что случилось: вместо того чтобы обсуждать игры — их плюсы и минусы — дети начали нападать друг на друга. Не на аргумент, а на человека. Это очень распространённый приём нечестного спора.\n",
+        "uk": "Вот что случилось: вместо того чтобы обсуждать игры — их плюсы и минусы — дети начали нападать друг на друга. Не на аргумент, а на людину. Это очень распространённый приём нечестного спора.",
+        "en": "Here's what happened: instead of discussing the games - their pros and cons - the children began to attack each other. Not on the argument, but on the person. This is a very common method of dishonest argument."
+      }
+    },
+    {
+      "step_id": "sc4_56",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Когда у человека нет хорошего обоснования — факта, логики или источника — он иногда переключается на самого человека. «Ты маленький!», «Ты глупый!», «На себя посмотри!» Это называется нападение на человека.\n",
+        "uk": "Когда у людину нет хорошего обоснования — факта, логики или источника — он иногда переключается на самого людину. «Ты маленький!», «Ты глупый!», «На себя посмотри!» Это называется напад на людину.",
+        "en": "When a person doesn't have a good rationale - fact, logic, or source - it sometimes turns to the person themselves. “You’re small!”, “You’re stupid!”, “Look at yourself!” This is called an attack on a person."
+      }
+    },
+    {
+      "step_id": "sc4_57",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И вот почему это важно: нападение на человека — это не ответ на аргумент. Идея может быть правильной, кто бы её ни сказал! Если маленький ребёнок скажет «огонь горячий» — это правда. Если профессор скажет «огонь холодный» — это неправда. Возраст и звание не делают идею правильной.\n",
+        "uk": "И вот почему это важно: напад на людину — это не ответ на аргумент. Идея может быть правильной, кто бы её ни сказал! Если маленький ребёнок скажет «огонь горячий» — это правда. Если профессор скажет «огонь холодный» — это неправда. Возраст и звание не делают идею правильной.",
+        "en": "And here's why this is important: attacking a person is not a response to an argument. The idea may be right, no matter who says it! If a small child says “the fire is hot,” it’s true. If a professor says “the fire is cold,” it’s not true. Age and rank do not make an idea right."
+      }
+    },
+    {
+      "step_id": "sc5_58",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нападение на человека бывает трёх видов. Разберём каждый — с примерами, чтобы вы узнавали их моментально.\n",
+        "uk": "Нападение на людину бывает трёх видов. Разберём каждый — с примерами, чтобы вы узнавали их моментально.",
+        "en": "There are three types of attacks on a person. Let's look at each one with examples so you can recognize them instantly."
+      }
+    },
+    {
+      "step_id": "sc5_59",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вид первый — прямое оскорбление. Человек не отвечает на аргумент, а просто обзывается. Давайте послушаем, как это звучит.\n",
+        "uk": "Вид первый — прямое образа. Человек не отвечает на аргумент, а просто обзывается. Таквайте послушаем, как это звучит.",
+        "en": "The first type is a direct insult. The person does not respond to the argument, but simply calls him names. Let's hear how it sounds."
+      }
+    },
+    {
+      "step_id": "sc5_60",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша говорит: «Думаю, нам нужно больше времени на перемене — детям важно отдыхать.» Микола отвечает: «Ты просто ленивая и не хочешь учиться!»\n",
+        "uk": "Маша говорит: «Думаю, нам нужно больше времени на перемене — детям важно отдыхать.» Микола отвечает: «Ты просто ленивая и не хочешь учиться!»",
+        "en": "Masha says: “I think we need more time during recess - it’s important for children to rest.” Mikola replies: “You’re just lazy and don’t want to learn!”"
+      }
+    },
+    {
+      "step_id": "sc5_61",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили? Микола ни слова не сказал про перемену. Не объяснил, почему отдых не нужен. Просто назвал Машу ленивой.\n",
+        "uk": "Заметили? Микола ни слова не сказал про перемену. Не объяснил, почему отдых не нужен. Просто назвал Машу ленивой.",
+        "en": "Did you notice? Mikola didn’t say a word about the change. Didn't explain why rest was not needed. I just called Masha lazy."
+      }
+    },
+    {
+      "step_id": "sc5_62",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ещё пример. Анна: «Домашнее задание лучше делать сразу после школы.» Богдан: «Ты просто зубрилка!»\n",
+        "uk": "Ещё пример. Анна: «Домашнее задание краще делать сразу после школы.» Богдан: «Ты просто зубрилка!»",
+        "en": "Another example. Anna: “It’s better to do your homework right after school.” Bogdan: “You’re just a crammer!”"
+      }
+    },
+    {
+      "step_id": "sc5_63",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Опять — вместо обсуждения идеи Богдан навесил ярлык. Аргумент Анны никуда не делся, но разговор уже не о домашке, а о том, зубрилка она или нет.\n",
+        "uk": "Опять — вместо обсуждения идеи Богдан навесил ярлык. Аргумент Анны никуда не делся, но разговор уже не о домашке, а о том, зубрилка она или нет.",
+        "en": "Again, instead of discussing the idea, Bogdan applied a label. Anna’s argument hasn’t gone away, but the conversation is no longer about homework, but about whether she’s a crammer or not."
+      }
+    },
+    {
+      "step_id": "sc5_64",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И третий. Женя: «Думаю, стоит убирать за собой в столовой.» Кирилл: «Ты вообще зануда, с тобой скучно разговаривать!»\n",
+        "uk": "И третий. Женя: «Думаю, стоит убирать за собой в столовой.» Кирилл: «Ты вообще зануда, с тобой скучно разговаривать!»",
+        "en": "And the third. Zhenya: “I think you should clean up after yourself in the dining room.” Kirill: “You’re generally boring, it’s boring to talk to you!”"
+      }
+    },
+    {
+      "step_id": "sc5_65",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Видите паттерн? Оскорбление всегда уводит от темы. Вместо «почему ты не прав» — «какой ты плохой». Это не аргумент. Это капитуляция, замаскированная под атаку.\n",
+        "uk": "Видите паттерн? Оскорбление всегда уводит от темы. Вместо «почему ты не прав» — «какой ты плохой». Это не аргумент. Это капитуляция, замаскированная под атаку.",
+        "en": "See the pattern? Insults always lead away from the topic. Instead of “why are you wrong” - “how bad you are.” This is not an argument. This is surrender disguised as an attack."
+      }
+    },
+    {
+      "step_id": "sc5_66",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вид второй — указание на обстоятельства. Тут не обзывают, но говорят, что ты не можешь быть прав из-за возраста, пола, места или чего-то ещё.\n",
+        "uk": "Вид второй — указание на обставини. Тут не обзывают, но говорят, что ты не можешь быть прав из-за возраста, пола, места или чего-то ещё.",
+        "en": "The second type is an indication of circumstances. There's no name-calling here, but they're saying that you can't be right because of your age, gender, location, or anything else."
+      }
+    },
+    {
+      "step_id": "sc5_67",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Василь: «Нужно выключать свет, когда выходишь.» Григорий: «Тебе всего девять лет, что ты понимаешь в экономии!»\n",
+        "uk": "Василь: «Нужно выключать свет, когда выходишь.» Григорий: «Тебе всего девять лет, что ты понимаешь в экономии!»",
+        "en": "Vasil: “You need to turn off the lights when you go out.” Grigory: “You are only nine years old, what do you understand about saving!”"
+      }
+    },
+    {
+      "step_id": "sc5_68",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Возраст Василя не имеет никакого отношения к тому, нужно ли выключать свет. Свет тратит электричество независимо от того, сколько лет тому, кто об этом говорит.\n",
+        "uk": "Возраст Василя не имеет никакого отношения к тому, нужно ли выключать свет. Свет тратит электричество независимо от того, сколько лет тому, кто об этом говорит.",
+        "en": "Vasil's age has nothing to do with whether the lights need to be turned off. Light wastes electricity no matter how old the person talking about it is."
+      }
+    },
+    {
+      "step_id": "sc5_69",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй пример. Оля: «Мне кажется, нужно больше читать.» Зина: «Ты живёшь в другом районе, откуда тебе знать наши проблемы!»\n",
+        "uk": "Второй пример. Оля: «Мне кажется, нужно больше читать.» Зина: «Ты живёшь в другом районе, откуда тебе знать наши проблемы!»",
+        "en": "Second example. Olya: “I think I need to read more.” Zina: “You live in another area, how do you know our problems!”"
+      }
+    },
+    {
+      "step_id": "sc5_70",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Район проживания и польза чтения — вещи из разных вселенных. Но звучит убедительно, правда? В этом и хитрость.\n",
+        "uk": "Район проживания и польза чтения — вещи из разных вселенных. Но звучит убедительно, правда? В этом и хитрость.",
+        "en": "The area where you live and the benefits of reading are things from different universes. But it sounds convincing, right? This is the trick."
+      }
+    },
+    {
+      "step_id": "sc5_71",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий. Петя: «На контрольной лучше сначала делать лёгкие задания.» Даша: «Ты же троечник, какие советы ты можешь давать?»\n",
+        "uk": "Третий. Петя: «На контрольной краще сначала делать лёгкие задания.» Такша: «Ты же троечник, какие советы ты можешь давать?»",
+        "en": "Third. Petya: “On a test, it’s better to do the easy tasks first.” Dasha: “You’re a C student, what advice can you give?”"
+      }
+    },
+    {
+      "step_id": "sc5_72",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оценки Пети не делают его совет неправильным. Стратегия «сначала лёгкие» работает для всех — это логика, а не мнение троечника.\n",
+        "uk": "Оценки Пети не делают его совет неправильным. Стратегия «сначала лёгкие» работает для всех — это логика, а не мнение троечника.",
+        "en": "Petit's assessments do not make his advice wrong. The “easy first” strategy works for everyone - this is logic, not the opinion of a C student."
+      }
+    },
+    {
+      "step_id": "sc5_73",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили? Обстоятельства — это более хитрый приём, чем оскорбление. Он не обзывает, а как бы «дисквалифицирует» человека. Но правильность идеи не зависит от того, кто её говорит.\n",
+        "uk": "Заметили? Обстоятельства — это более хитрый приём, чем образа. Он не обзывает, а как бы «дисквалифицирует» людину. Но правильность идеи не зависит от того, кто её говорит.",
+        "en": "Did you notice? Circumstances are a more cunning technique than insult. He does not call names, but rather “disqualifies” the person. But the correctness of an idea does not depend on who says it."
+      }
+    },
+    {
+      "step_id": "sc5_74",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вид третий — «Сам такой!» Вместо ответа на аргумент — перевод стрелок. «На себя посмотри!», «А ты сам так делаешь!»\n",
+        "uk": "Вид третий — «Сам такой!» Вместо ответа на аргумент — перевод стрелок. «На себя посмотри!», «А ты сам так делаешь!»",
+        "en": "Type three - “Like this!” Instead of answering the argument, we translate the arrows. “Look at yourself!”, “And you’re doing this yourself!”"
+      }
+    },
+    {
+      "step_id": "sc5_75",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Даринка: «Нельзя кричать в библиотеке.» Евгений: «А ты вчера громко смеялась в коридоре!»\n",
+        "uk": "Такринка: «Нельзя кричать в библиотеке.» Евгений: «А ты вчера громко смеялась в коридоре!»",
+        "en": "Darinka: “You can’t shout in the library.” Evgeniy: “Yesterday you laughed loudly in the corridor!”"
+      }
+    },
+    {
+      "step_id": "sc5_76",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Даже если Даринка смеялась — это не отменяет правило тишины в библиотеке. Евгений не ответил на аргумент. Он сменил тему на саму Даринку.\n",
+        "uk": "Также если Такринка смеялась — это не отменяет правило тишины в библиотеке. Евгений не ответил на аргумент. Он сменил тему на саму Такринку.",
+        "en": "Even if Darinka laughed, this does not cancel the rule of silence in the library. Evgeniy did not respond to the argument. He changed the subject to Darinka herself."
+      }
+    },
+    {
+      "step_id": "sc5_77",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Второй. Игорь: «Важно мыть руки перед едой.» Катя: «Ты сам вчера забыл помыть!»\n",
+        "uk": "Второй. Игорь: «Важно мыть руки перед едой.» Катя: «Ты сам вчера забыл помыть!»",
+        "en": "Second. Igor: “It is important to wash your hands before eating.” Katya: “You forgot to wash yourself yesterday!”"
+      }
+    },
+    {
+      "step_id": "sc5_78",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Руки всё равно нужно мыть. Забывчивость Игоря не делает микробы менее опасными.\n",
+        "uk": "Руки всё равно нужно мыть. Забывчивость Игоря не делает микробы менее опасными.",
+        "en": "You still need to wash your hands. Igor's forgetfulness does not make germs any less dangerous."
+      }
+    },
+    {
+      "step_id": "sc5_79",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третий. Настя: «Нельзя списывать на контрольной.» Артём: «А ты сама у меня ответ подсматривала на прошлой неделе!»\n",
+        "uk": "Третий. Настя: «Нельзя списывать на контрольной.» Артём: «А ты сама у меня ответ подсматривала на прошлой неделе!»",
+        "en": "Third. Nastya: “You can’t cheat on a test.” Artyom: “And you yourself spied the answer from me last week!”"
+      }
+    },
+    {
+      "step_id": "sc5_80",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Классический «сам такой». Даже если Настя подсматривала — это не делает списывание правильным. Артём не защитил списывание, он просто напал на Настю.\n",
+        "uk": "Классический «сам такой». Также если Настя подсматривала — это не делает списывание правильным. Артём не защитил списывание, он просто напал на Настю.",
+        "en": "Classic “just like that.” Even if Nastya was spying, this does not make the cheating correct. Artyom did not defend the cheating, he simply attacked Nastya."
+      }
+    },
+    {
+      "step_id": "sc5_81",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак, три вида: оскорбление — «ты плохой», обстоятельства — «ты не можешь знать», «сам такой» — «на себя посмотри». Все три — не ответ на аргумент. Все три — попытка сбежать от обсуждения.\n",
+        "uk": "Итак, три види: образа — «ты плохой», обставини — «ты не можешь знать», «сам такой» — «на себя посмотри». Все три — не ответ на аргумент. Все три — попытка сбежать от обсуждения.",
+        "en": "So, three types: insult - “you are bad”, circumstances - “you can’t know”, “you are like that” - “look at yourself”. All three are not a response to the argument. All three are an attempt to escape the discussion."
+      }
+    },
+    {
+      "step_id": "sc5_82",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сейчас проверим — сможете ли вы их различить. Голосуем!\n",
+        "uk": "Сейчас проверим — сможете ли вы их различить. Голосуем!",
+        "en": "Now let's see if you can distinguish them. Let's vote!"
+      }
+    },
+    {
+      "step_id": "sc5_83",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Анна: «Полезно гулять после школы.» Борис: «Ты сама сидишь дома и играешь в телефон!»\n",
+        "uk": "Анна: «Полезно гулять после школы.» Борис: «Ты сама сидишь дома и играешь в телефон!»",
+        "en": "Anna: “It’s good to go for a walk after school.” Boris: “You sit at home and play on the phone!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Insult"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Circumstances"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Сам такой»",
+            "uk": "«Сам такой»",
+            "en": "\"I'm like that myself\""
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "“That’s how I am!” Boris turned his attention to Anna instead of discussing the benefits of walking."
+      }
+    },
+    {
+      "step_id": "sc5_85",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Сам такой!» Борис перевёл стрелки на Анну вместо того, чтобы обсудить пользу прогулок.\n",
+        "uk": "«Сам такой!» Борис перевёл стрелки на Анну вместо того, чтобы обсудить пользу прогулок.",
+        "en": "Vika: “We need to save water.” Gleb: “You’re still small, adults will figure it out themselves!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Insult"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Circumstances"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Сам такой»",
+            "uk": "«Сам такой»",
+            "en": "\"I'm like that myself\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Circumstances! Vicky's age does not affect whether you need to save water."
+      }
+    },
+    {
+      "step_id": "sc5_87",
+      "scene_id": "sc5",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Вика: «Нужно экономить воду.» Глеб: «Ты ещё маленькая, взрослые сами разберутся!»\n",
+        "uk": "Вика: «Нужно экономить воду.» Глеб: «Ты ещё маленькая, взрослые сами разберутся!»",
+        "en": "Dima: “It’s better to play outside than sit at the computer.” Eva: “You’re just slow and don’t know how to play normal games!”"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Insult"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Circumstances"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "«Сам такой»",
+            "uk": "«Сам такой»",
+            "en": "\"I'm like that myself\""
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Insult! “Brake” is a label, not an argument in favor of computer games."
+      }
+    },
+    {
+      "step_id": "sc6_89",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мы узнали три вида нападения. Теперь — самое важное: как защищаться. Три шага. Первый — назови приём: скажи вслух, что это нападение, а не ответ. Второй — вернись к теме: напомни, о чём был разговор. Третий — спроси прямо: «Что не так с моим аргументом?» Тренируем на трёх примерах — каждый шаг отдельно.\n",
+        "uk": "Мы узнали три види нападів. Теперь — самое важное: как защищаться. Три шага. Первый — назови приём: скажи вслух, что это напад, а не ответ. Второй — вернись к теме: напомни, о чём был разговор. Третий — спроси прямо: «Что не так с моим аргументом?» Тренируем на трёх примерах — каждый шаг отдельно.",
+        "en": "We learned three types of attack. Now - the most important thing: how to defend yourself. Three steps. First, name the technique: say out loud that this is an attack, not a response. Second, return to the topic: remind what the conversation was about. Third, ask directly: “What’s wrong with my argument?” We train using three examples - each step separately."
+      }
+    },
+    {
+      "step_id": "sc6_90",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример первый. Ваш аргумент: «Думаю, нам стоит помочь новенькому в классе.» Нападение: «Ты просто подлиза!»\n",
+        "uk": "Пример первый. Ваш аргумент: «Думаю, нам стоит помочь новенькому в классе.» Нападение: «Ты просто подлиза!»",
+        "en": "Example one. Your argument: “I think we should help the new kid in class.” Attack: “You’re just a suck-up!”"
+      }
+    },
+    {
+      "step_id": "sc6_91",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг первый — назовите приём. Какой это вид нападения?\n",
+        "uk": "Шаг первый — назовите приём. Какой это вид нападів?",
+        "en": "Step one - name the technique. What type of attack is this?"
+      }
+    },
+    {
+      "step_id": "sc6_92",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Прямое оскорбление! «Подлиза» — ярлык, а не аргумент.\n",
+        "uk": "Прямое образа! «Подлиза» — ярлык, а не аргумент.",
+        "en": "Direct insult! “Suck-up” is a label, not an argument."
+      }
+    },
+    {
+      "step_id": "sc6_93",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг второй — верните разговор к теме. Что скажете?\n",
+        "uk": "Шаг второй — верните разговор к теме. Что скажете?",
+        "en": "Step two is to bring the conversation back to the topic. What do you say?"
+      }
+    },
+    {
+      "step_id": "sc6_94",
+      "scene_id": "sc6",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Мы говорили не обо мне, а о новеньком. Ему одиноко, и помощь — это нормально.»\n",
+        "uk": "Например: «Мы говорили не обо мне, а о новеньком. Ему одиноко, и помощь — это нормально.»",
+        "en": "For example: “We weren’t talking about me, but about the new guy. He's lonely and it's okay to get help.\""
+      }
+    },
+    {
+      "step_id": "sc6_95",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг третий — спросите прямо: что не так с аргументом?\n",
+        "uk": "Шаг третий — спросите прямо: что не так с аргументом?",
+        "en": "Step three - ask directly: what's wrong with the argument?"
+      }
+    },
+    {
+      "step_id": "sc6_96",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Объясни, почему новенькому не нужна помощь?» Три шага — и нападение разбито.\n",
+        "uk": "Например: «Объясни, почему новенькому не нужна помощь?» Три шага — и напад разбито.",
+        "en": "For example: “Explain why the new guy doesn’t need help?” Three steps and the attack is defeated."
+      }
+    },
+    {
+      "step_id": "sc6_97",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример второй. Ваш аргумент: «Нужно выключать телефон на уроке.» Нападение: «Ты сам постоянно сидишь в телефоне дома!»\n",
+        "uk": "Пример второй. Ваш аргумент: «Нужно выключать телефон на уроке.» Нападение: «Ты сам постоянно сидишь в телефоне дома!»",
+        "en": "Example two. Your argument: “You need to turn off your phone during class.” Attack: “You yourself are constantly on your phone at home!”"
+      }
+    },
+    {
+      "step_id": "sc6_98",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг первый — какой приём?\n",
+        "uk": "Шаг первый — какой приём?",
+        "en": "Step one - what technique?"
+      }
+    },
+    {
+      "step_id": "sc6_99",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Сам такой!» Вместо ответа — перевод стрелок на вас.\n",
+        "uk": "«Сам такой!» Вместо ответа — перевод стрелок на вас.",
+        "en": "“That’s how I am!” Instead of an answer, the arrows are turned towards you."
+      }
+    },
+    {
+      "step_id": "sc6_100",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг второй — вернитесь к теме.\n",
+        "uk": "Шаг второй — вернитесь к теме.",
+        "en": "Step two is to return to the topic."
+      }
+    },
+    {
+      "step_id": "sc6_101",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Мы говорим об уроках, а не о доме. На уроке телефон мешает всем.»\n",
+        "uk": "Например: «Мы говорим об уроках, а не о доме. На уроке телефон мешает всем.»",
+        "en": "For example: “We are talking about lessons, not about home. During class, the phone bothers everyone.”"
+      }
+    },
+    {
+      "step_id": "sc6_102",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг третий — задайте прямой вопрос.\n",
+        "uk": "Шаг третий — задайте прямой вопрос.",
+        "en": "Step three - ask a direct question."
+      }
+    },
+    {
+      "step_id": "sc6_103",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Почему ты думаешь, что телефон на уроке — это нормально?» Снова три шага — и вы в теме.\n",
+        "uk": "Например: «Почему ты думаешь, что телефон на уроке — это нормально?» Снова три шага — и вы в теме.",
+        "en": "For example: “Why do you think it’s okay to have a phone in class?” Three steps again - and you're in."
+      }
+    },
+    {
+      "step_id": "sc6_104",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример третий. Ваш аргумент: «Лучше есть овощи, чем чипсы.» Нападение: «Тебе девять лет, что ты понимаешь в питании!»\n",
+        "uk": "Пример третий. Ваш аргумент: «Лучше есть овощи, чем чипсы.» Нападение: «Тебе девять лет, что ты понимаешь в питании!»",
+        "en": "Example three. Your argument: “It’s better to eat vegetables than chips.” Attack: “You are nine years old, what do you understand about nutrition!”"
+      }
+    },
+    {
+      "step_id": "sc6_105",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг первый — называем приём.\n",
+        "uk": "Шаг первый — называем приём.",
+        "en": "Step one - we call it a reception."
+      }
+    },
+    {
+      "step_id": "sc6_106",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Указание на обстоятельства! Возраст — это не аргумент против овощей.\n",
+        "uk": "Указание на обставини! Возраст — это не аргумент против овощей.",
+        "en": "Indication of circumstances! Age is not an argument against vegetables."
+      }
+    },
+    {
+      "step_id": "sc6_107",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг второй — возврат к теме.\n",
+        "uk": "Шаг второй — возврат к теме.",
+        "en": "Step two is returning to the topic."
+      }
+    },
+    {
+      "step_id": "sc6_108",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Мой возраст не меняет того, что овощи полезнее чипсов. Давай обсудим саму еду.»\n",
+        "uk": "Например: «Мой возраст не меняет того, что овощи полезнее чипсов. Таквай обсудим саму еду.»",
+        "en": "For example: “My age does not change the fact that vegetables are healthier than chips. Let's discuss the food itself.\""
+      }
+    },
+    {
+      "step_id": "sc6_109",
+      "scene_id": "sc6",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Шаг третий — прямой вопрос.\n",
+        "uk": "Шаг третий — прямой вопрос.",
+        "en": "Step three is a direct question."
+      }
+    },
+    {
+      "step_id": "sc6_110",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Можешь объяснить, чем чипсы полезнее овощей?» Спойлер: не может.\n",
+        "uk": "Например: «Можешь объяснить, чем чипсы полезнее овощей?» Спойлер: не может.",
+        "en": "For example: “Can you explain why chips are healthier than vegetables?” Spoiler: it can't."
+      }
+    },
+    {
+      "step_id": "sc6_111",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Три примера — три вида — один рецепт. Назови приём, вернись к теме, спроси «что не так с аргументом?» Запомните эти три шага — и вас не собьёт никакое нападение.\n",
+        "uk": "Три примера — три види — один рецепт. Назови приём, вернись к теме, спроси «что не так с аргументом?» Запомните эти три шага — и вас не собьёт никакое напад.",
+        "en": "Three examples - three types - one recipe. Name the technique, return to the topic, ask “what’s wrong with the argument?” Remember these three steps - and no attack will bring you down."
+      }
+    },
+    {
+      "step_id": "sc7_112",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сейчас — большая практика за весь день. Начнём с того, что учили до перемены. Закон непротиворечия: нельзя одновременно утверждать одно и противоположное. Пять историй — ищем противоречие и тренируем вежливое напоминание.\n",
+        "uk": "Сейчас — большая практика за весь день. Начнём с того, что учили до перемены. Закон несуперечності: нельзя одновременно утверждать одно и противоположное. Пять историй — ищем суперечність и тренируем вежливое напоминание.",
+        "en": "Now - a lot of practice for the whole day. Let's start with what we taught before the break. Law of non-contradiction: you cannot say one thing and the opposite at the same time. Five stories - looking for a contradiction and training a polite reminder."
+      }
+    },
+    {
+      "step_id": "sc7_113",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История первая. Катя говорит: «Я всегда держу обещания. Можете на меня положиться!» А через час: «Ну да, я обещала помочь, но мне лень. Подумаешь, всего одно обещание.»\n",
+        "uk": "Історія первая. Катя говорит: «Я всегда держу обещания. Можете на меня положиться!» А через час: «Ну да, я обещала помочь, но мне лень. Подумаешь, всего одно обещание.»",
+        "en": "Story one. Katya says: “I always keep my promises. You can rely on me!” And an hour later: “Well, yes, I promised to help, but I’m too lazy. Just think, just one promise.”"
+      }
+    },
+    {
+      "step_id": "sc7_114",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть ли противоречие в словах Кати?\n",
+        "uk": "Есть ли суперечність в словах Кати?",
+        "en": "Is there a contradiction in Katya's words?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, суперечність",
+            "en": "Yes, contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "No, it's logical"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Eat! “I always keep my promises” and “just think, one promise” - one excludes the other. Either always or not always."
+      }
+    },
+    {
+      "step_id": "sc7_116",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть! «Всегда держу обещания» и «подумаешь, одно обещание» — одно исключает другое. Либо всегда, либо не всегда.\n",
+        "uk": "Есть! «Всегда держу обещания» и «подумаешь, одно обещание» — одно исключает другое. Либо всегда, либо не всегда.",
+        "en": "How to politely remind Katya about the contradiction?"
+      }
+    },
+    {
+      "step_id": "sc7_117",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Как вежливо напомнить Кате о противоречии?\n",
+        "uk": "Как вежливо напомнить Кате о противоречии?",
+        "en": "For example: “Katya, you said that you always keep your promises. That means today too, no?”"
+      }
+    },
+    {
+      "step_id": "sc7_118",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Например: «Катя, ты говорила, что всегда держишь обещания. Это значит — и сегодня тоже, нет?»\n",
+        "uk": "Например: «Катя, ты говорила, что всегда держишь обещания. Это значит — и сегодня тоже, нет?»",
+        "en": "The second story. Coach: “Everyone on our team is equal, we don’t have favorites!” And then: “Mikola, you don’t need to run cross-country, you’re already doing great.”"
+      }
+    },
+    {
+      "step_id": "sc7_119",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "История вторая. Тренер: «В нашей команде все равны, у нас нет любимчиков!» А потом: «Микола, тебе не нужно бегать кросс, ты и так молодец.»\n",
+        "uk": "Історія вторая. Тренер: «В нашей команде все равны, у нас нет любимчиков!» А потом: «Микола, тебе не нужно бегать кросс, ты и так молодец.»",
+        "en": "Is there a contradiction?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, суперечність",
+            "en": "Yes, contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "No, it's logical"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Certainly! If everyone is equal, the rules are the same for everyone. Mikola's release from cross-country is a favorite."
+      }
+    },
+    {
+      "step_id": "sc7_121",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть ли противоречие?\n",
+        "uk": "Есть ли суперечність?",
+        "en": "How to politely point out a contradiction to a coach?"
+      }
+    },
+    {
+      "step_id": "sc7_122",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Конечно! Если все равны — правила одинаковые для всех. Освобождение Миколы от кросса — это и есть любимчик.\n",
+        "uk": "Конечно! Если все равны — правила одинаковые для всех. Освобождение Миколы от кросса — это и есть любимчик.",
+        "en": "For example: “You said that everyone is equal. So, is cross-country for everyone or not for everyone? Calm and to the point."
+      }
+    },
+    {
+      "step_id": "sc7_123",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Как вежливо указать тренеру на противоречие?\n",
+        "uk": "Как вежливо указать тренеру на суперечність?",
+        "en": "Story three. Grandmother: “I never spoil my grandchildren. Discipline is the main thing!” Five minutes later: “Here, take some more candy, but don’t tell mom.”"
+      }
+    },
+    {
+      "step_id": "sc7_124",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Например: «Вы говорили, что все равны. Значит, кросс — для всех или не для всех?» Спокойно и по делу.\n",
+        "uk": "Например: «Вы говорили, что все равны. Значит, кросс — для всех или не для всех?» Спокойно и по делу.",
+        "en": "Is there a contradiction?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, суперечність",
+            "en": "Yes, contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "No, it's logical"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "The secret candy “just don’t tell your mom” is a classic example of that same pampering. Grandma herself broke her own rule."
+      }
+    },
+    {
+      "step_id": "sc7_126",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История третья. Бабушка: «Я никогда не балую внуков. Дисциплина — это главное!» Через пять минут: «На вот, возьми ещё конфету, только маме не говори.»\n",
+        "uk": "Історія третья. Бабушка: «Я никогда не балую внуков. Дисциплина — это главное!» Через пять минут: «На вот, возьми ещё конфету, только маме не говори.»",
+        "en": "Story four. Vasya: “I am for healthy eating! Fast food is evil! The next day Vasya eats a burger. A friend asks. Vasya: “That’s once a month, it doesn’t count.”"
+      }
+    },
+    {
+      "step_id": "sc7_127",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть ли противоречие?\n",
+        "uk": "Есть ли суперечність?",
+        "en": "Is there a contradiction in Vasya’s words?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, суперечність",
+            "en": "Yes, contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "No, it's logical"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Ambiguous"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Tricky case! “For healthy eating” does not necessarily mean “never eat a burger in your life.” Vasya could mean “mostly.” Here you need to clarify - and not take them at their word."
+      }
+    },
+    {
+      "step_id": "sc7_129",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Тайная конфета «только маме не говори» — это классический пример того самого баловства. Бабушка сама нарушила своё же правило.\n",
+        "uk": "Тайная конфета «только маме не говори» — это классический пример того самого баловства. Бабушка сама нарушила своё же правило.",
+        "en": "Story five. Maxim: “Copying off is dishonest. I never cheat.\" Later: “Let me quickly see the answer to the third problem - I’m not cheating, I’m just checking.”"
+      }
+    },
+    {
+      "step_id": "sc7_130",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "История четвёртая. Вася: «Я за здоровое питание! Фаст-фуд — это зло!» На следующий день Вася ест бургер. Друг спрашивает. Вася: «Это же раз в месяц, не считается.»\n",
+        "uk": "Історія четвёртая. Вася: «Я за здоровое питание! Фаст-фуд — это зло!» На следующий день Вася ест бургер. Друг спрашивает. Вася: «Это же раз в месяц, не считается.»",
+        "en": "Is there a contradiction?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Да, противоречие",
+            "uk": "Так, суперечність",
+            "en": "Yes, contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нет, всё логично",
+            "uk": "Ні, все логічно",
+            "en": "No, it's logical"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "“Just checking” is a renamed cheating. Same action, different name. The law of non-contradiction cannot be deceived by words."
+      }
+    },
+    {
+      "step_id": "sc7_132",
+      "scene_id": "sc7",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Есть ли противоречие в словах Васи?\n",
+        "uk": "Есть ли суперечність в словах Васи?",
+        "en": "How to politely tell Maxim?"
+      }
+    },
+    {
+      "step_id": "sc7_133",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Хитрый случай! «За здоровое питание» не обязательно значит «никогда в жизни ни одного бургера». Вася мог иметь в виду «в основном». Тут нужно уточнить — а не ловить на слове.\n",
+        "uk": "Хитрый случай! «За здоровое питание» не обязательно значит «никогда в жизни ни одного бургера». Вася мог иметь в виду «в основном». Тут нужно уточнить — а не ловить на слове.",
+        "en": "For example: “Max, if you look at someone else’s answer before you decide for yourself, how is that different from cheating?” A question is stronger than an accusation."
+      }
+    },
+    {
+      "step_id": "sc8_134",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — вторая половина дня. Обоснование и нападение на человека. Пять диалогов. В каждом кто-то отвечает на аргумент. Ваша задача — определить: это хорошее обоснование или нападение на человека?\n",
+        "uk": "Теперь — вторая половина дня. Обоснование и напад на людину. Пять диалогов. В каждом кто-то отвечает на аргумент. Ваша задача — определить: это хорошее обґрунтування или напад на людину?",
+        "en": "Now it’s the second half of the day. Justification and attack on a person. Five dialogues. In each, someone responds to an argument. Your job is to determine: is this a good rationale or an attack on a person?"
+      }
+    },
+    {
+      "step_id": "sc8_135",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Диалог первый. Лена: «Нужно спать не меньше девяти часов.» Тарас: «Врачи из детской больницы говорят, что детям 9–12 лет нужно 9–11 часов сна. Ты права.»\n",
+        "uk": "Диалог первый. Лена: «Нужно спать не меньше девяти часов.» Тарас: «Врачи из детской больницы говорят, что детям 9–12 лет нужно 9–11 часов сна. Ты права.»",
+        "en": "Dialogue one. Lena: “You need to sleep at least nine hours.” Taras: “Doctors from the children’s hospital say that children 9–12 years old need 9–11 hours of sleep. You're right.\""
+      }
+    },
+    {
+      "step_id": "sc8_136",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что использовал Тарас?\n",
+        "uk": "Что использовал Тарас?",
+        "en": "What did Taras use?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Обоснование — факт",
+            "uk": "Обоснование — факт",
+            "en": "Justification - fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Обоснование — источник",
+            "uk": "Обоснование — источник",
+            "en": "Rationale - source"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Нападение на человека",
+            "uk": "Нападение на людину",
+            "en": "Assault on a person"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Source! Taras referred to doctors who specialize in child health. This is a strong rationale, not an attack."
+      }
+    },
+    {
+      "step_id": "sc8_138",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Источник! Тарас сослался на врачей — специалистов по детскому здоровью. Это сильное обоснование, не нападение.\n",
+        "uk": "Джерело! Тарас сослался на врачей — специалистов по детскому здоровью. Это сильное обґрунтування, не напад.",
+        "en": "Dialogue two. Oleg: “It’s better to do your homework right after school.” Marina: “Yesterday you did your homework at ten in the evening, what right do you have to advise!”"
+      }
+    },
+    {
+      "step_id": "sc8_139",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Диалог второй. Олег: «Лучше делать домашку сразу после школы.» Марина: «Ты сам вчера делал уроки в десять вечера, какое право ты имеешь советовать!»\n",
+        "uk": "Диалог второй. Олег: «Лучше делать домашку сразу после школы.» Марина: «Ты сам вчера делал уроки в десять вечера, какое право ты имеешь советовать!»",
+        "en": "What did Marina use?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Обоснование",
+            "uk": "Обоснование",
+            "en": "Rationale"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Insult"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Circumstances"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "«Сам такой»",
+            "uk": "«Сам такой»",
+            "en": "\"I'm like that myself\""
+          }
+        }
+      ],
+      "correct_answer": "opt_4",
+      "explanation": {
+        "en": "“That’s how I am!” Marina turned her attention to Oleg instead of discussing when it is better to do her homework. Oleg’s advice may be correct, even if he himself did not follow it yesterday."
+      }
+    },
+    {
+      "step_id": "sc8_141",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Что использовала Марина?\n",
+        "uk": "Что использовала Марина?",
+        "en": "Dialogue three. Ira: “Dogs are the best pets.” Zhenya: “You live in a small apartment, what do you know about dogs!”"
+      }
+    },
+    {
+      "step_id": "sc8_142",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Сам такой!» Марина перевела стрелки на Олега вместо обсуждения, когда лучше делать домашку. Совет Олега может быть правильным, даже если сам он вчера его не выполнил.\n",
+        "uk": "«Сам такой!» Марина перевела стрелки на Олега вместо обсуждения, когда краще делать домашку. Совет Олега может быть правильным, даже если сам он вчера его не выполнил.",
+        "en": "What did Zhenya use?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Обоснование",
+            "uk": "Обоснование",
+            "en": "Rationale"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Insult"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Circumstances"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "«Сам такой»",
+            "uk": "«Сам такой»",
+            "en": "\"I'm like that myself\""
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "Circumstances! The size of Ira’s apartment is not an argument against dogs in general. Zhenya “disqualified” Ira instead of discussing pets."
+      }
+    },
+    {
+      "step_id": "sc8_144",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Диалог третий. Ира: «Собаки — лучшие домашние животные.» Женя: «Ты живёшь в маленькой квартире, что ты знаешь о собаках!»\n",
+        "uk": "Диалог третий. Ира: «Собаки — лучшие домашние животные.» Женя: «Ты живёшь в маленькой квартире, что ты знаешь о собаках!»",
+        "en": "Dialogue four. Kostya: “Reading books is more useful than watching videos.” Dasha: “When you read, your brain builds pictures on its own—this trains your imagination. And the video gives ready-made pictures.”"
+      }
+    },
+    {
+      "step_id": "sc8_145",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что использовал Женя?\n",
+        "uk": "Что использовал Женя?",
+        "en": "What did Dasha use?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Обоснование",
+            "uk": "Обоснование",
+            "en": "Justification - fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Rationale - logic"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Assault on a person"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Logics! Dasha explained why reading is more useful - there is cause and effect. No attack - pure argument."
+      }
+    },
+    {
+      "step_id": "sc8_147",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Обстоятельства! Размер квартиры Иры — это не аргумент против собак вообще. Женя «дисквалифицировал» Иру вместо того, чтобы обсудить питомцев.\n",
+        "uk": "Обстоятельства! Размер квартиры Иры — это не аргумент против собак вообще. Женя «дисквалифицировал» Иру вместо того, чтобы обсудить питомцев.",
+        "en": "Dialogue five. Natasha: “School requires a uniform.” Andrey: “You’re just a fashionista and you’re afraid that without a uniform your outfits will fail!”"
+      }
+    },
+    {
+      "step_id": "sc8_148",
+      "scene_id": "sc8",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Диалог четвёртый. Костя: «Читать книги полезнее, чем смотреть видео.» Даша: «Когда читаешь, мозг строит картинки сам — это тренирует воображение. А видео даёт готовые картинки.»\n",
+        "uk": "Диалог четвёртый. Костя: «Читать книги полезнее, чем смотреть видео.» Такша: «Когда читаешь, мозг строит картинки сам — это тренирует воображение. А видео даёт готовые картинки.»",
+        "en": "What did Andrey use?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Обоснование",
+            "uk": "Обоснование",
+            "en": "Rationale"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Оскорбление",
+            "uk": "Оскорбление",
+            "en": "Insult"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Обстоятельства",
+            "uk": "Обстоятельства",
+            "en": "Circumstances"
+          }
+        },
+        {
+          "id": "opt_4",
+          "text": {
+            "ru": "«Сам такой»",
+            "uk": "«Сам такой»",
+            "en": "\"I'm like that myself\""
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Insult! “Fashionista” is a label. Andrey did not explain why the form was not needed. He simply came up with a motive for Natasha and hung it up like a tag."
+      }
+    },
+    {
+      "step_id": "sc8_150",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Что использовала Даша?\n",
+        "uk": "Что использовала Такша?",
+        "en": "Five out of five! You already perfectly distinguish between justification and attack. The main rule: if a person talks about a topic, it’s an argument. If it's about the interlocutor, it's an attack."
+      }
+    },
+    {
+      "step_id": "sc9_151",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ребята, сегодня был мощный день. До перемены мы выучили второй закон Аристотеля — закон непротиворечия. Нельзя одновременно утверждать одно и противоположное. А после перемены — научились требовать обоснование и распознавать нападение на человека.\n",
+        "uk": "Ребята, сегодня был мощный день. До перемены мы выучили второй закон Аристотеля — закон несуперечності. Нельзя одновременно утверждать одно и противоположное. А после перемены — научились требовать обґрунтування и распознавать напад на людину.",
+        "en": "Guys, today was a powerful day. Before the break, we learned Aristotle's second law - the law of non-contradiction. You cannot say one thing and the opposite at the same time. And after the change, we learned to demand justification and recognize an attack on a person."
+      }
+    },
+    {
+      "step_id": "sc9_152",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь у вас есть три суперсилы. Первая — замечать противоречия. Вторая — спрашивать «почему ты так думаешь?» и отличать факт, логику и источник. Третья — узнавать нападение на человека и защищаться в три шага.\n",
+        "uk": "Теперь у вас есть три суперсилы. Первая — замечать суперечності. Вторая — спрашивать «почему ты так думаешь?» и отличать факт, логику и источник. Третья — узнавать напад на людину и защищаться в три шага.",
+        "en": "You now have three superpowers. The first is to notice contradictions. The second is to ask “why do you think that?” and distinguish between fact, logic and source. The third is to recognize an attack on a person and defend yourself in three steps."
+      }
+    },
+    {
+      "step_id": "sc9_153",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И знаете что? Два закона Аристотеля из трёх — уже ваши. Закон тождества и закон непротиворечия. Третий ждёт вас впереди. Но не торопитесь — два из трёх это уже больше, чем знает большинство взрослых. Серьёзно.\n",
+        "uk": "И знаете что? Два закона Аристотеля из трёх — уже ваши. Закон тождества и закон несуперечності. Третий ждёт вас впереди. Но не торопитесь — два из трёх это уже больше, чем знает большинство взрослых. Серьёзно.",
+        "en": "And guess what? Two of Aristotle's three laws are already yours. The law of identity and the law of non-contradiction. The third one is waiting for you ahead. But take your time - two out of three is already more than most adults know. Seriously."
+      }
+    },
+    {
+      "step_id": "sc9_154",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Домашнее задание: сегодня вечером послушайте любой разговор — дома, в видео, где угодно. Попробуйте найти хотя бы одно утверждение без обоснования. Или одно противоречие. Кто найдёт — расскажете завтра. До встречи!\n",
+        "uk": "Домашнее задание: сегодня вечером послушайте любой разговор — дома, в видео, где угодно. Попробуйте найти хотя бы одно утверждение без обоснования. Или одно суперечність. Кто найдёт — расскажете завтра. До встречи!",
+        "en": "Homework: Listen to any conversation tonight - at home, on video, anywhere. Try to find at least one statement without justification. Or one contradiction. If you find it, tell me tomorrow. See you!"
+      }
+    }
+  ]
+}

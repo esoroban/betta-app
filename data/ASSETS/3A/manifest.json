@@ -1,0 +1,81 @@
+{
+  "generated": {
+    "3a_sc1_bg": {
+      "filename": "3a_sc1_bg.png",
+      "path": "ASSETS/3A/3a_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T16:44:58.807963+00:00",
+      "prompt_key": "3a_sc1_bg"
+    },
+    "3a_sc2_bg": {
+      "filename": "3a_sc2_bg.png",
+      "path": "ASSETS/3A/3a_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T16:45:09.919797+00:00",
+      "prompt_key": "3a_sc2_bg"
+    },
+    "3a_sc3_bg": {
+      "filename": "3a_sc3_bg.png",
+      "path": "ASSETS/3A/3a_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T16:45:20.133695+00:00",
+      "prompt_key": "3a_sc3_bg"
+    },
+    "3a_sc4_bg": {
+      "filename": "3a_sc4_bg.png",
+      "path": "ASSETS/3A/3a_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-28T18:37:09.408171+00:00",
+      "prompt_key": "3a_sc4_bg"
+    },
+    "3a_sc5_bg": {
+      "filename": "3a_sc5_bg.png",
+      "path": "ASSETS/3A/3a_sc5_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T16:45:43.245208+00:00",
+      "prompt_key": "3a_sc5_bg"
+    },
+    "3a_sc6_bg": {
+      "filename": "3a_sc6_bg.png",
+      "path": "ASSETS/3A/3a_sc6_bg.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-28T18:37:15.842002+00:00",
+      "prompt_key": "3a_sc6_bg"
+    },
+    "3a_sc7_bg": {
+      "filename": "3a_sc7_bg.png",
+      "path": "ASSETS/3A/3a_sc7_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T16:46:03.120747+00:00",
+      "prompt_key": "3a_sc7_bg"
+    },
+    "3a_sc5_obj_soldier": {
+      "filename": "3a_sc5_obj_soldier.png",
+      "raw_filename": "3a_sc5_obj_soldier_raw.png",
+      "path": "ASSETS/3A/3a_sc5_obj_soldier.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T16:46:18.101823+00:00",
+      "prompt_key": "3a_sc5_obj_soldier"
+    },
+    "3a_sc5_obj_scout": {
+      "filename": "3a_sc5_obj_scout.png",
+      "raw_filename": "3a_sc5_obj_scout_raw.png",
+      "path": "ASSETS/3A/3a_sc5_obj_scout.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T16:46:31.382117+00:00",
+      "prompt_key": "3a_sc5_obj_scout"
+    }
+  },
+  "errors": {}
+}

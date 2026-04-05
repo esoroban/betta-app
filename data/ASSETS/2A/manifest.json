@@ -1,0 +1,193 @@
+{
+  "generated": {
+    "2a_sc1_bg": {
+      "filename": "2a_sc1_bg.png",
+      "path": "ASSETS/2A/2a_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T09:45:09.488899+00:00",
+      "prompt_key": "2a_sc1_bg"
+    },
+    "2a_sc2_bg": {
+      "filename": "2a_sc2_bg.png",
+      "path": "ASSETS/2A/2a_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T09:45:22.122937+00:00",
+      "prompt_key": "2a_sc2_bg"
+    },
+    "2a_sc3_bg": {
+      "filename": "2a_sc3_bg.png",
+      "path": "ASSETS/2A/2a_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T09:45:34.916766+00:00",
+      "prompt_key": "2a_sc3_bg"
+    },
+    "2a_sc4_bg": {
+      "filename": "2a_sc4_bg.png",
+      "path": "ASSETS/2A/2a_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T09:45:48.997540+00:00",
+      "prompt_key": "2a_sc4_bg"
+    },
+    "2a_sc5_bg": {
+      "filename": "2a_sc5_bg.png",
+      "path": "ASSETS/2A/2a_sc5_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T09:46:00.299363+00:00",
+      "prompt_key": "2a_sc5_bg"
+    },
+    "2a_sc6_bg": {
+      "filename": "2a_sc6_bg.png",
+      "path": "ASSETS/2A/2a_sc6_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-25T09:46:13.904843+00:00",
+      "prompt_key": "2a_sc6_bg"
+    },
+    "2a_sc1_obj_scales": {
+      "filename": "2a_sc1_obj_scales.png",
+      "raw_filename": "2a_sc1_obj_scales_raw.png",
+      "path": "ASSETS/2A/2a_sc1_obj_scales.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:46:24.839412+00:00",
+      "prompt_key": "2a_sc1_obj_scales"
+    },
+    "2a_sc1_obj_ruler": {
+      "filename": "2a_sc1_obj_ruler.png",
+      "raw_filename": "2a_sc1_obj_ruler_raw.png",
+      "path": "ASSETS/2A/2a_sc1_obj_ruler.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:46:35.472831+00:00",
+      "prompt_key": "2a_sc1_obj_ruler"
+    },
+    "2a_sc1_obj_stopwatch": {
+      "filename": "2a_sc1_obj_stopwatch.png",
+      "raw_filename": "2a_sc1_obj_stopwatch_raw.png",
+      "path": "ASSETS/2A/2a_sc1_obj_stopwatch.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:46:49.129700+00:00",
+      "prompt_key": "2a_sc1_obj_stopwatch"
+    },
+    "2a_sc1_obj_thermometer": {
+      "filename": "2a_sc1_obj_thermometer.png",
+      "raw_filename": "2a_sc1_obj_thermometer_raw.png",
+      "path": "ASSETS/2A/2a_sc1_obj_thermometer.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:46:59.215729+00:00",
+      "prompt_key": "2a_sc1_obj_thermometer"
+    },
+    "2a_sc2_obj_running_boys": {
+      "filename": "2a_sc2_obj_running_boys.png",
+      "raw_filename": "2a_sc2_obj_running_boys_raw.png",
+      "path": "ASSETS/2A/2a_sc2_obj_running_boys.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:47:09.981485+00:00",
+      "prompt_key": "2a_sc2_obj_running_boys"
+    },
+    "2a_sc3_obj_ball_drop": {
+      "filename": "2a_sc3_obj_ball_drop.png",
+      "raw_filename": "2a_sc3_obj_ball_drop_raw.png",
+      "path": "ASSETS/2A/2a_sc3_obj_ball_drop.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:47:20.290959+00:00",
+      "prompt_key": "2a_sc3_obj_ball_drop"
+    },
+    "2a_sc3_obj_lucky_shirt": {
+      "filename": "2a_sc3_obj_lucky_shirt.png",
+      "raw_filename": "2a_sc3_obj_lucky_shirt_raw.png",
+      "path": "ASSETS/2A/2a_sc3_obj_lucky_shirt.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:47:31.172954+00:00",
+      "prompt_key": "2a_sc3_obj_lucky_shirt"
+    },
+    "2a_sc4_obj_traffic_light_red": {
+      "filename": "2a_sc4_obj_tl_red.png",
+      "raw_filename": "2a_sc4_obj_tl_red_raw.png",
+      "path": "ASSETS/2A/2a_sc4_obj_tl_red.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:47:41.644928+00:00",
+      "prompt_key": "2a_sc4_obj_traffic_light_red"
+    },
+    "2a_sc4_obj_traffic_light_yellow": {
+      "filename": "2a_sc4_obj_tl_yellow.png",
+      "raw_filename": "2a_sc4_obj_tl_yellow_raw.png",
+      "path": "ASSETS/2A/2a_sc4_obj_tl_yellow.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:47:52.427731+00:00",
+      "prompt_key": "2a_sc4_obj_traffic_light_yellow"
+    },
+    "2a_sc4_obj_traffic_light_green": {
+      "filename": "2a_sc4_obj_tl_green.png",
+      "raw_filename": "2a_sc4_obj_tl_green_raw.png",
+      "path": "ASSETS/2A/2a_sc4_obj_tl_green.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:48:03.235738+00:00",
+      "prompt_key": "2a_sc4_obj_traffic_light_green"
+    },
+    "2a_sc4_obj_coin": {
+      "filename": "2a_sc4_obj_coin.png",
+      "raw_filename": "2a_sc4_obj_coin_raw.png",
+      "path": "ASSETS/2A/2a_sc4_obj_coin.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:48:13.322822+00:00",
+      "prompt_key": "2a_sc4_obj_coin"
+    },
+    "2a_sc5_obj_gear": {
+      "filename": "2a_sc5_obj_gear.png",
+      "raw_filename": "2a_sc5_obj_gear_raw.png",
+      "path": "ASSETS/2A/2a_sc5_obj_gear.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:48:24.843499+00:00",
+      "prompt_key": "2a_sc5_obj_gear"
+    },
+    "2a_sc5_obj_scattered_stars": {
+      "filename": "2a_sc5_obj_stars.png",
+      "raw_filename": "2a_sc5_obj_stars_raw.png",
+      "path": "ASSETS/2A/2a_sc5_obj_stars.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:48:35.220748+00:00",
+      "prompt_key": "2a_sc5_obj_scattered_stars"
+    },
+    "2a_sc6_obj_toolkit": {
+      "filename": "2a_sc6_obj_toolkit.png",
+      "raw_filename": "2a_sc6_obj_toolkit_raw.png",
+      "path": "ASSETS/2A/2a_sc6_obj_toolkit.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-25T09:48:48.666043+00:00",
+      "prompt_key": "2a_sc6_obj_toolkit"
+    }
+  },
+  "errors": {}
+}

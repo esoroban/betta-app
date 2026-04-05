@@ -1,0 +1,1831 @@
+{
+  "lesson_id": "9A",
+  "title": {
+    "ru": "Страшные цепочки",
+    "uk": "Страшні ланцюги",
+    "en": "Scary Chains"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "Разминка — повторение Дня 8",
+        "uk": "Розминка — повторення Дня 8",
+        "en": "Warm-up — Day 8 Review"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_3",
+        "sc1_5",
+        "sc1_6",
+        "sc1_8",
+        "sc1_9",
+        "sc1_11",
+        "sc1_12",
+        "sc1_14",
+        "sc1_15",
+        "sc1_17"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "Практика — как ответить на пугало и страх",
+        "uk": "Практика — как ответить на пугало и страх",
+        "en": "Practice - how to respond to scarecrows and fears"
+      },
+      "step_ids": [
+        "sc2_18",
+        "sc2_19",
+        "sc2_20",
+        "sc2_21",
+        "sc2_22",
+        "sc2_23",
+        "sc2_24",
+        "sc2_25",
+        "sc2_26",
+        "sc2_27",
+        "sc2_28",
+        "sc2_29",
+        "sc2_30"
+      ],
+      "first_step_index": 12
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "Открытие темы — страшные цепочки",
+        "uk": "Открытие темы — страшные цепочки",
+        "en": "Opening topic - scary chains"
+      },
+      "step_ids": [
+        "sc3_31",
+        "sc3_32",
+        "sc3_33",
+        "sc3_34",
+        "sc3_35",
+        "sc3_36",
+        "sc3_37",
+        "sc3_39"
+      ],
+      "first_step_index": 25
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "История — «Конец света из-за плохой оценки»",
+        "uk": "История — Конец света из-за плохой оценки",
+        "en": "Story - \"The end of the world due to a bad grade\""
+      },
+      "step_ids": [
+        "sc4_40",
+        "sc4_41",
+        "sc4_42",
+        "sc4_43",
+        "sc4_44",
+        "sc4_45",
+        "sc4_46",
+        "sc4_47",
+        "sc4_48"
+      ],
+      "first_step_index": 33
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "Как работают страшные цепочки",
+        "uk": "Как работают страшные цепочки",
+        "en": "How do scary chains work?"
+      },
+      "step_ids": [
+        "sc5_49",
+        "sc5_50",
+        "sc5_51",
+        "sc5_52"
+      ],
+      "first_step_index": 42
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "Практика — цепочка или реальность?",
+        "uk": "Практика — цепочка или реальность?",
+        "en": "Practice - a chain or reality?"
+      },
+      "step_ids": [
+        "sc6_53",
+        "sc6_54",
+        "sc6_55",
+        "sc6_57",
+        "sc6_58",
+        "sc6_60",
+        "sc6_61",
+        "sc6_63",
+        "sc6_64",
+        "sc6_66",
+        "sc6_67"
+      ],
+      "first_step_index": 46
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "Проверяем каждое звено",
+        "uk": "Проверяем каждое звено",
+        "en": "We check every link"
+      },
+      "step_ids": [
+        "sc7_69",
+        "sc7_70",
+        "sc7_71",
+        "sc7_72",
+        "sc7_73",
+        "sc7_74",
+        "sc7_75",
+        "sc7_76",
+        "sc7_78",
+        "sc7_79",
+        "sc7_81",
+        "sc7_82",
+        "sc7_84",
+        "sc7_85"
+      ],
+      "first_step_index": 57
+    },
+    "sc8": {
+      "scene_id": "sc8",
+      "title": {
+        "ru": "Построй свою страшную цепочку",
+        "uk": "Построй свою страшную цепочку",
+        "en": "Build your scary chain"
+      },
+      "step_ids": [
+        "sc8_87",
+        "sc8_88",
+        "sc8_89",
+        "sc8_90",
+        "sc8_91",
+        "sc8_92",
+        "sc8_93",
+        "sc8_94",
+        "sc8_95",
+        "sc8_96",
+        "sc8_97",
+        "sc8_98",
+        "sc8_99",
+        "sc8_100",
+        "sc8_101",
+        "sc8_102",
+        "sc8_103",
+        "sc8_104",
+        "sc8_105",
+        "sc8_106",
+        "sc8_107",
+        "sc8_108",
+        "sc8_109",
+        "sc8_110",
+        "sc8_111",
+        "sc8_112",
+        "sc8_113",
+        "sc8_114",
+        "sc8_115",
+        "sc8_116",
+        "sc8_117",
+        "sc8_118"
+      ],
+      "first_step_index": 71
+    },
+    "sc9": {
+      "scene_id": "sc9",
+      "title": {
+        "ru": "Зачем нам это",
+        "uk": "Зачем нам это",
+        "en": "Why do we need this"
+      },
+      "step_ids": [
+        "sc9_119",
+        "sc9_120",
+        "sc9_121",
+        "sc9_122",
+        "sc9_123",
+        "sc9_124",
+        "sc9_125"
+      ],
+      "first_step_index": 103
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Новый день — и сразу разминка! На прошлом занятии мы прошли две ловушки: «пугало» — когда искажают чужие слова, и манипуляцию страхом — когда пугают, чтобы управлять. Пять раундов — проверим, кто всё помнит!\n",
+        "uk": "Новий день — і відразу розминка! На попередньому занятті ми пройшли дві пастки: «лякало» — коли спотворюють чужі слова, й маніпуляцію страхом — коли лякають, щоб керувати. П'ять раундів — перевіримо, хто все пам'ятає!",
+        "en": "New day — warm-up time! Last session we covered two traps: \"scarecrow\" — when someone distorts your words, and fear manipulation — when they scare you to control you. Five rounds — let's see who remembers!"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Катя говорит: «Мне не нравится этот фильм.» Одноклассник отвечает: «А, так ты вообще ненавидишь кино и считаешь всех, кому нравится, глупыми?»\n",
+        "uk": "Катя говорить: «Мені не подобається цей фільм.» Однокласник відповідає: «А, так ти взагалі ненавидиш кіно й вважаєш усіх, кому подобається, глупими?»",
+        "en": "Katya says: \"I don't like this movie.\" A classmate responds: \"So you hate all movies and think everyone who likes them is stupid?\""
+      }
+    },
+    {
+      "step_id": "sc1_3",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что сделал одноклассник?\n",
+        "uk": "Що зробив однокласник?",
+        "en": "What did the classmate do?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Исказил слова Кати (пугало)",
+            "uk": "Спотворив слова Кати (лякало)",
+            "en": "Distorted Katya's words (scarecrow)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Привёл контраргумент",
+            "uk": "Привів контраргумент",
+            "en": "Provided a counter-argument"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Согласился с Катей",
+            "uk": "Погодився з Катею",
+            "en": "Agreed with Katya"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Scarecrow! Katya said one movie — they blew it up to \"you hate all movies.\" Classic distortion."
+      }
+    },
+    {
+      "step_id": "sc1_5",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! Катя сказала про один фильм — а из этого раздули «ненавидишь всё кино». Классическое искажение.\n",
+        "uk": "Лякало! Катя сказала про один фільм — а з цього раздули «ненавидиш все кіно». Класичне спотворення.",
+        "en": "An internet ad: \"If you don't buy our backpack — everyone in class will laugh at your old one!\""
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Реклама в интернете: «Если ты не купишь наш рюкзак — все в классе будут смеяться над твоим старым!»\n",
+        "uk": "Реклама в інтернеті: «Якщо ти не купиш наш рюкзак — все в класі будуть сміятися над твоїм старим!»",
+        "en": "Is this a real warning or fear manipulation?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Реальное предупреждение",
+            "uk": "Реальне попередження",
+            "en": "Real warning"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Манипуляция страхом",
+            "uk": "Маніпуляція страхом",
+            "en": "Fear manipulation"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Manipulation! The ad wants you scared. But really, no one looks at other people's backpacks. Well, almost no one."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Это реальное предупреждение или манипуляция страхом?\n",
+        "uk": "Це реальне попередження чи маніпуляція страхом?",
+        "en": "Andrey says: \"I think we should have fewer tests.\" Teacher responds: \"So you don't want to learn anything at all?\""
+      }
+    },
+    {
+      "step_id": "sc1_9",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Манипуляция! Рекламе выгодно, чтобы вы боялись. А на самом деле никто не разглядывает чужие рюкзаки. Ну, почти никто.\n",
+        "uk": "Маніпуляція! Рекламі вигідно, щоб ви боялися. А насправді ніхто не розглядає чужі рюкзаки. Ну, майже ніхто.",
+        "en": "What did the teacher do?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Исказил слова Андрея (пугало)",
+            "uk": "Спотворив слова Андрія (лякало)",
+            "en": "Distorted Andrey's words (scarecrow)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Задал уточняющий вопрос",
+            "uk": "Задав уточнюючий вопрос",
+            "en": "Asked a clarifying question"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Согласился",
+            "uk": "Погодився",
+            "en": "Agreed"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Scarecrow! \"Less often\" doesn't mean \"never.\" The teacher turned a modest request into total rejection of learning. Powerful trick!"
+      }
+    },
+    {
+      "step_id": "sc1_11",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Андрей говорит: «Я думаю, контрольные нужно проводить реже.» Учитель отвечает: «То есть ты хочешь вообще ничего не учить?»\n",
+        "uk": "Андрій говорить: «Я думаю, контрольні потрібно проводити рідше.» Вчитель відповідає: «Тобто ти хочеш взагалі нічого не вчити?»",
+        "en": "\"Don't ride a bike without a helmet — you can hit your head hard if you fall.\""
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что сделал учитель?\n",
+        "uk": "Що зробив вчитель?",
+        "en": "Real warning or manipulation?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Исказил слова Андрея (пугало)",
+            "uk": "Спотворив слова Андрія (лякало)",
+            "en": "Real warning"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Задал уточняющий вопрос",
+            "uk": "Задав уточнюючий вопрос",
+            "en": "Fear manipulation"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Real! Short connection: no helmet — head injury. No tricks, just a safety fact."
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! «Реже» не значит «никогда». Учитель превратил скромную просьбу в полный отказ от учёбы. Мощный приём!\n",
+        "uk": "Лякало! «Рідше» не означає «ніколи». Вчитель перетворив скромну просьбу на повний відмову від навчання. Потужний прийом!",
+        "en": "A friend says: \"I like drawing more than playing soccer.\" Someone responds: \"You're just lazy and don't want to exercise!\""
+      }
+    },
+    {
+      "step_id": "sc1_15",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Не катайся на велосипеде без шлема — можешь сильно удариться головой при падении.»\n",
+        "uk": "«Не катайся на велосипеді без шолома — можеш сильно вдаритися головою при падінні.»",
+        "en": "What trick is used?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Пугало (искажение слов)",
+            "uk": "Лякало (спотворення слів)",
+            "en": "Scarecrow (word distortion)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Манипуляция страхом",
+            "uk": "Маніпуляція страхом",
+            "en": "Fear manipulation"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Никакого приёма",
+            "uk": "Ніякого прийому",
+            "en": "No trick"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Scarecrow again! “I like to draw” was turned into “lazy.” Preference is not laziness. You can love to draw and run marathons!"
+      }
+    },
+    {
+      "step_id": "sc1_17",
+      "scene_id": "sc1",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реальное предупреждение или манипуляция?\n",
+        "uk": "Реальне попередження чи маніпуляція?",
+        "en": "Great workout! Today is a new trap. It's called the \"scary chain\". Are you ready?"
+      }
+    },
+    {
+      "step_id": "sc2_18",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Размялись — теперь тренируемся отвечать! Четыре ситуации. Обсуждайте вслух: что сказать в ответ и какой приём использован?\n",
+        "uk": "Размялись — теперь тренируемся отвечать! Четыре ситуации. Об",
+        "en": "We've warmed up - now we're practicing answering! Four situations. Discuss out loud: what to say in response and what technique was used?"
+      }
+    },
+    {
+      "step_id": "sc2_19",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ситуация первая. Вы говорите: «Я не хочу сегодня пиццу.» Одноклассник возмущается: «Ты что, ненавидишь всё, что мы любим?! Тебе вообще ничего не нравится?!»\n",
+        "uk": "Ситуация первая. Вы говорите: Я не хочу сегодня пиццу. Одн",
+        "en": "Situation one. You say, “I don’t want pizza today.” A classmate is indignant: “Do you hate everything we love?! Don’t you like anything at all?!”"
+      }
+    },
+    {
+      "step_id": "sc2_20",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой приём использован и как ответить?\n",
+        "uk": "Какой приём использован и как ответить?",
+        "en": "What technique was used and how to respond?"
+      }
+    },
+    {
+      "step_id": "sc2_21",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! «Не хочу пиццу» превратили в «ненавижу всё». Ответ: «Позволь уточнить — я сказал про пиццу сегодня, а не про всю еду на планете. Завтра, может, сам попрошу двойную.»\n",
+        "uk": "Пугало! Не хочу пиццу превратили в ненавижу всё. Ответ: ",
+        "en": "Scarecrow! “I don’t want pizza” turned into “I hate everything.” Answer: “Let me clarify - I said about pizza today, and not about all the food on the planet. Tomorrow, maybe I’ll ask for a double.”"
+      }
+    },
+    {
+      "step_id": "sc2_22",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ситуация вторая. В школе объявили конкурс талантов. Вы пока не записались. Подруга шепчет: «Если не запишешься — все подумают, что ты ничего не умеешь! Будешь единственный, кто сидит в зале как зритель!»\n",
+        "uk": "Ситуация вторая. В школе объявили конкурс талантов. Вы пока ",
+        "en": "Situation two. The school announced a talent competition. You haven't signed up yet. A friend whispers: “If you don’t sign up, everyone will think that you don’t know how to do anything!” You will be the only one sitting in the hall as a spectator!”"
+      }
+    },
+    {
+      "step_id": "sc2_23",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Манипуляция или реальное? Как ответить, используя три вопроса-фильтра?\n",
+        "uk": "Манипуляция или реальное? Как ответить, используя три вопрос",
+        "en": "Manipulation or real? How to answer using three filter questions?"
+      }
+    },
+    {
+      "step_id": "sc2_24",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Манипуляция страхом! Одиночество плюс неудача. Ответ: «Точно ли ВСЕ так подумают? Вряд ли. И зрители — тоже важные люди. Без зрителей конкурс — это репетиция перед пустым залом.»\n",
+        "uk": "Манипуляция страхом! Одиночество плюс неудача. Ответ: Точно",
+        "en": "Manipulation by fear! Loneliness plus failure. Answer: “Is that really what EVERYONE will think? Hardly. And the audience is important people too. Without spectators, a competition is a rehearsal in front of an empty hall.”"
+      }
+    },
+    {
+      "step_id": "sc2_25",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ситуация третья. На уроке вы сказали: «Мне кажется, домашки задают многовато.» Учитель отвечает: «То есть ты считаешь, что учиться вообще не нужно и можно весь день играть в телефон?»\n",
+        "uk": "Ситуация третья. На уроке вы сказали: Мне кажется, домашки ",
+        "en": "Situation three. In class you said: “I think they give too much homework.” The teacher answers: “So you think that there is no need to study at all and you can play on the phone all day?”"
+      }
+    },
+    {
+      "step_id": "sc2_26",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что за приём? Как уточнить свои слова?\n",
+        "uk": "Что за приём? Как уточнить свои слова?",
+        "en": "What kind of reception? How can you clarify your words?"
+      }
+    },
+    {
+      "step_id": "sc2_27",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало! «Многовато домашки» раздули до «учиться не нужно». Ответ: «Позволь уточнить — я говорил, что домашки много, а не что учиться не надо. Я хочу учиться, но и погулять иногда тоже хочу. Одно другому не мешает.»\n",
+        "uk": "Пугало! Многовато домашки раздули до учиться не нужно. О",
+        "en": "Scarecrow! “Too much homework” has been inflated into “no need to study.” Answer: “Let me clarify - I said that there is a lot of homework, and not that there is no need to study. I want to study, but sometimes I also want to go for a walk. One does not interfere with the other.”"
+      }
+    },
+    {
+      "step_id": "sc2_28",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последняя! Вы не хотите идти на день рождения к однокласснику, потому что у вас тренировка. Он обижается: «Если не придёшь — я вычеркну тебя из друзей! И все узнают, что ты предатель! Никто больше не позовёт тебя никуда!»\n",
+        "uk": "Последняя! Вы не хотите идти на день рождения к одноклассник",
+        "en": "The last one! You don't want to go to your classmate's birthday party because you have training. He gets offended: “If you don’t come, I’ll cross you out of my friends!” And everyone will know that you are a traitor! No one will invite you anywhere else!”"
+      }
+    },
+    {
+      "step_id": "sc2_29",
+      "scene_id": "sc2",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какой вид запугивания? Какой мотив? Как ответить?\n",
+        "uk": "Какой вид запугивания? Какой мотив? Как ответить?",
+        "en": "What type of bullying? What is the motive? How to answer?"
+      }
+    },
+    {
+      "step_id": "sc2_30",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Манипуляция страхом — одиночество! Мотив — обида. Ответ: «Точно ли никто никогда не позовёт? Из-за одной тренировки? Настоящие друзья понимают, что бывают дела. Давай я приду после тренировки — если торт останется, конечно!»\n",
+        "uk": "Манипуляция страхом — одиночество! Мотив — обида. Ответ: То",
+        "en": "Manipulation by fear - loneliness! The motive is resentment. Answer: “Are you sure no one will ever call? Because of one workout? True friends understand that things happen. Let me come after training - if there is cake left, of course!”"
+      }
+    },
+    {
+      "step_id": "sc3_31",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Послушайте три истории и подумайте — что у них общего? История первая. Старшая сестра говорит брату: «Если не уберёшь игрушки — споткнёшься, сломаешь ногу, не сможешь ходить в школу, не закончишь класс и будешь жить на улице!»\n",
+        "uk": "Послушайте три истории и подумайте — что у них общего? Истор",
+        "en": "Listen to three stories and think - what do they have in common? Story one. The older sister tells her brother: “If you don’t put away the toys, you’ll trip, break your leg, won’t be able to go to school, won’t graduate, and will live on the street!”"
+      }
+    },
+    {
+      "step_id": "sc3_32",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "",
+        "uk": "",
+        "en": ""
+      }
+    },
+    {
+      "step_id": "sc3_33",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "История вторая. Старший брат пугает: «Если не выучишь стих — получишь плохую оценку, потом ещё одну, тебя оставят на второй год, выгонят из школы, и ты станешь дворником!»\n",
+        "uk": "История вторая. Старший брат пугает: Если не выучишь стих —",
+        "en": "The second story. The older brother is frightening: “If you don’t memorize the verse, you will get a bad grade, then another one, you will be kept in the second year, kicked out of school, and you will become a janitor!”"
+      }
+    },
+    {
+      "step_id": "sc3_34",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "",
+        "uk": "",
+        "en": ""
+      }
+    },
+    {
+      "step_id": "sc3_35",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И третья! Подруга говорит: «Если не поделишься конфетой — я обижусь, расскажу всем, с тобой никто не будет дружить, ты останешься совсем одна и будешь плакать каждый день до конца жизни!»\n",
+        "uk": "И третья! Подруга говорит: Если не поделишься конфетой — я ",
+        "en": "And the third! A friend says: “If you don’t share the candy, I’ll be offended, I’ll tell everyone, no one will be friends with you, you’ll be left completely alone and cry every day for the rest of your life!”"
+      }
+    },
+    {
+      "step_id": "sc3_36",
+      "scene_id": "sc3",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "",
+        "uk": "",
+        "en": ""
+      }
+    },
+    {
+      "step_id": "sc3_37",
+      "scene_id": "sc3",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Что объединяет все три истории?\n",
+        "uk": "Что объединяет все три истории?",
+        "en": "What do all three stories have in common?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Все строят длинную цепочку ужасов из мелочи",
+            "uk": "Все строят длинную цепочку ужасов из мелочи",
+            "en": "Everyone builds a long chain of horrors out of little things"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Все говорят правду",
+            "uk": "Все говорят правду",
+            "en": "Everyone is telling the truth"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Все дают полезный совет",
+            "uk": "Все дают полезный совет",
+            "en": "Everyone gives useful advice"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Right! In all three, someone takes a small event and builds a long road to disaster out of it. Toy → street. Verse → janitor. Candy → loneliness for life. It's called the \"scary chain\"!"
+      }
+    },
+    {
+      "step_id": "sc3_39",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Верно! Во всех трёх кто-то берёт маленькое событие и строит из него длинную дорогу к катастрофе. Игрушка → улица. Стих → дворник. Конфета → одиночество на всю жизнь. Это называется «страшная цепочка»!\n",
+        "uk": "Верно! Во всех трёх кто-то берёт маленькое событие и строит ",
+        "en": "This is similar to fear manipulation, but there is a difference. Fear manipulation is one frightening consequence. And a scary chain is when the scarecrow is a whole staircase, and each step is scarier than the previous one."
+      }
+    },
+    {
+      "step_id": "sc4_40",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — история. Дмитрик прибегает к друзьям бледный, с дневником в руках. «Ребята! Мне конец! Я получил плохую оценку по математике!»\n",
+        "uk": "А теперь — история. Дмитрик прибегает к друзьям бледный, с д",
+        "en": "And now - history. Dmitry comes running to his friends, pale, with a diary in his hands. \"Guys! I'm finished! I got a bad grade in math!”"
+      }
+    },
+    {
+      "step_id": "sc4_41",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша: «Ну, бывает. Исправишь.» Дмитрик машет руками: «Ты не понимаешь! Из-за этого у меня будет плохая четверть!»\n",
+        "uk": "Маша: Ну, бывает. Исправишь. Дмитрик машет руками: Ты не ",
+        "en": "Masha: “Well, it happens. You will fix it.\" Dmitry waves his hands: “You don’t understand! This will make me have a bad quarter!”"
+      }
+    },
+    {
+      "step_id": "sc4_42",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«А из-за плохой четверти — плохой год! А из-за плохого года меня оставят на второй год! А потом — выгонят из школы! А без школы — кому я нужен?! Буду жить под мостом!»\n",
+        "uk": "А из-за плохой четверти — плохой год! А из-за плохого года ",
+        "en": "“And because of a bad quarter, a bad year! And because of a bad year, they will keep me for a second year! And then they’ll kick you out of school! And without school - who needs me?! I’ll live under the bridge!”"
+      }
+    },
+    {
+      "step_id": "sc4_43",
+      "scene_id": "sc4",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "",
+        "uk": "",
+        "en": ""
+      }
+    },
+    {
+      "step_id": "sc4_44",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка спокойно закрывает книгу: «Дмитрик, давай медленно. Одна плохая оценка — это плохая четверть? У тебя все остальные оценки какие?» — «Ну… хорошие и отличные.» — «Тогда одна плохая четверть не испортит. Дальше.»\n",
+        "uk": "Оленка спокойно закрывает книгу: Дмитрик, давай медленно. О",
+        "en": "Olenka calmly closes the book: “Dmitrik, let’s go slowly. One bad grade is a bad quarter? What are your other grades?\" - “Well... good and excellent.” “Then one bad quarter won’t ruin it. Further.\""
+      }
+    },
+    {
+      "step_id": "sc4_45",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Допустим, четверть плохая. Это значит — плохой год?» — «Ну… не обязательно. Три другие четверти нормальные.» — «Ага. А плохой год — это второй год?» — «Ну, это вообще редко бывает…» — «А со второго года — сразу под мост?» Дмитрик замолкает.\n",
+        "uk": "Допустим, четверть плохая. Это значит — плохой год? — Ну…",
+        "en": "“Let’s say a quarter is bad. Does this mean a bad year? - “Well... not necessarily. The other three quarters are normal.\" - “Yeah. Is the bad year the second year?” - “Well, this rarely happens at all...” - “And from the second year - right under the bridge?” Dmitry falls silent."
+      }
+    },
+    {
+      "step_id": "sc4_46",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Маша смеётся: «Дмитрик, ты построил лестницу из пяти ступенек, и каждая следующая — в десять раз менее вероятная! Плохая оценка → плохая четверть — маловероятно. Плохая четверть → плохой год — ещё меньше. Плохой год → второй год — почти никогда!»\n",
+        "uk": "Маша смеётся: Дмитрик, ты построил лестницу из пяти ступене",
+        "en": "Masha laughs: “Dmitrik, you built a staircase of five steps, and each next one is ten times less likely! Bad grade → bad quarter - unlikely. Bad quarter → bad year - even less. Bad year → second year - almost never!”"
+      }
+    },
+    {
+      "step_id": "sc4_47",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Оленка добавляет: «И главное — на каждой ступеньке можно что-то изменить! Исправить оценку, подтянуть четверть, попросить помощи. Ты же не стоишь на месте и не ждёшь, пока мост приедет за тобой!»\n",
+        "uk": "Оленка добавляет: И главное — на каждой ступеньке можно что",
+        "en": "Olenka adds: “And the main thing is that at every step you can change something! Correct your grade, improve a quarter, ask for help. You don’t stand still and wait for the bridge to come for you!”"
+      }
+    },
+    {
+      "step_id": "sc4_48",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дмитрик чешет затылок: «То есть… я построил страшную цепочку?» Оленка: «Именно! Взял маленькую проблему — и раздул до катастрофы. А на самом деле вся цепочка разваливается на первом же звене.»\n",
+        "uk": "Дмитрик чешет затылок: То есть… я построил страшную цепочку",
+        "en": "Dmitry scratches the back of his head: “So... I built a terrible chain?” Olenka: “Exactly! He took a small problem and inflated it into a disaster. But in fact, the whole chain falls apart at the very first link.”"
+      }
+    },
+    {
+      "step_id": "sc5_49",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Что же такого хитрого в страшной цепочке? Давайте разберём. Схема простая: «Если произойдёт А, то потом Б, потом В, потом Г — и будет УЖАС!» Выглядит логично. Но есть подвох!\n",
+        "uk": "Что же такого хитрого в страшной цепочке? Давайте разберём. ",
+        "en": "What's so cunning about the scary chain? Let's figure it out. The scheme is simple: “If A happens, then B, then C, then D - and it will be HORROR!” Looks logical. But there is a catch!"
+      }
+    },
+    {
+      "step_id": "sc5_50",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Хитрость вот в чём: каждое следующее звено — менее вероятно, чем предыдущее. Представьте: шанс, что А произойдёт — половина. Шанс, что после А случится Б — ещё меньше. После Б — В? Совсем мало. Вся цепочка вместе — почти невозможна!\n",
+        "uk": "Хитрость вот в чём: каждое следующее звено — менее вероятно,",
+        "en": "The trick is this: each next link is less likely than the previous one. Imagine: the chance that A will happen is half. The chance that B will happen after A is even less. After B - C? Not much at all. The whole chain together is almost impossible!"
+      }
+    },
+    {
+      "step_id": "sc5_51",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример. «Если я не позавтракаю — буду голодным. Если голодный — не смогу думать. Не смогу думать — провалю контрольную. Провалю — отчислят…» Стоп! Можно перекусить яблоком на перемене. Цепочка рассыпается на первом же звене!\n",
+        "uk": "Пример. Если я не позавтракаю — буду голодным. Если голодны",
+        "en": "Example. “If I don’t have breakfast, I’ll be hungry. If I'm hungry, I won't be able to think. If I can’t think, I’ll fail the test. If I fail, I’ll be expelled...” Stop! You can snack on an apple during recess. The chain falls apart on the first link!"
+      }
+    },
+    {
+      "step_id": "sc5_52",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И вот главное правило: в страшных цепочках забывают, что на каждом шаге можно что-то изменить! Не позавтракал — перекусил. Плохая оценка — исправил. Поссорился — помирился. Цепочка работает, только если стоять столбом и ничего не делать.\n",
+        "uk": "И вот главное правило: в страшных цепочках забывают, что на ",
+        "en": "And here is the main rule: in terrible chains they forget that at every step something can be changed! I didn’t have breakfast - I had a snack. Bad rating - corrected. I quarreled and made peace. The chain only works if you stand there and do nothing."
+      }
+    },
+    {
+      "step_id": "sc6_53",
+      "scene_id": "sc6",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Время проверить! Я рассказываю историю — вы голосуете: это страшная цепочка (преувеличение) или реальная опасность, которой правда стоит бояться?\n",
+        "uk": "Время проверить! Я рассказываю историю — вы голосуете: это с",
+        "en": "Time to check! I tell a story - you vote: is this a scary chain (exaggeration) or a real danger that you really should be afraid of?"
+      }
+    },
+    {
+      "step_id": "sc6_54",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Утро. Вы проспали и опаздываете в школу. На пороге старшая сестра драматично хватает вас за рукав: «Если опоздаешь на минуту — тебя не пустят! Исключат! И жизнь будет разрушена!»\n",
+        "uk": "Утро. Вы проспали и опаздываете в школу. На пороге старшая с",
+        "en": "Morning. You overslept and are late for school. On the threshold, the older sister dramatically grabs your sleeve: “If you’re a minute late, they won’t let you in!” They'll expel you! And life will be destroyed!”"
+      }
+    },
+    {
+      "step_id": "sc6_55",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Страшная цепочка или реальная опасность?\n",
+        "uk": "Страшная цепочка или реальная опасность?",
+        "en": "Scary chain or real danger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Страшная цепочка",
+            "uk": "Страшная цепочка",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Реальная опасность",
+            "uk": "Реальная опасность",
+            "en": "Real danger"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Chain! One minute late will not be excluded. Except from the queue to the cafeteria. And even then, they’ll move."
+      }
+    },
+    {
+      "step_id": "sc6_57",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Цепочка! За минуту опоздания не исключают. Разве что из очереди в столовую. Да и то — подвинутся.\n",
+        "uk": "Цепочка! За минуту опоздания не исключают. Разве что из очер",
+        "en": "Crossroads. Lights up red. A friend pulls his hand: “Let’s run, there are no cars!” You answer: “No, let’s wait! A car may suddenly leave. We will run - she will not have time to react. It will hit you. It will break all our bones. We will be in the hospital for six months. We’ll miss the whole summer of vacation!”"
+      }
+    },
+    {
+      "step_id": "sc6_58",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Перекрёсток. Горит красный. Друг дёргает за руку: «Побежали, машин нет!» Вы отвечаете: «Нет, подождём! Может неожиданно выехать машина. Мы будем бежать — она не успеет среагировать. Собьёт. Нам переломает все кости. Будем лежать полгода в больнице. Пропустим целое лето каникул!»\n",
+        "uk": "Перекрёсток. Горит красный. Друг дёргает за руку: Побежали,",
+        "en": "Scary chain or real danger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Страшная цепочка",
+            "uk": "Страшная цепочка",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Реальная опасность",
+            "uk": "Реальная опасность",
+            "en": "Real danger"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Real danger! Yes, it sounds dramatic. But a car running at a red light is not a fantasy. Each link here is quite probable: didn’t see → didn’t brake → impact → hospital. Short chain, high chance. We stand and wait for the green light!"
+      }
+    },
+    {
+      "step_id": "sc6_60",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Страшная цепочка или реальная опасность?\n",
+        "uk": "Страшная цепочка или реальная опасность?",
+        "en": "Birthday. Cake. You take one candy. The older brother rolls his eyes theatrically: “Eat one, you’ll want more!” Then more! Then you'll get diabetes! And - the finale - all the teeth will fall out! He even shows with his hands how his teeth fall out."
+      }
+    },
+    {
+      "step_id": "sc6_61",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Реальная опасность! Да, звучит драматично. Но машина на красном свете — это не фантазия. Каждое звено тут вполне вероятно: не увидел → не затормозил → удар → больница. Короткая цепочка, высокий шанс. Стоим и ждём зелёный!\n",
+        "uk": "Реальная опасность! Да, звучит драматично. Но машина на крас",
+        "en": "Scary chain or real danger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Страшная цепочка",
+            "uk": "Страшная цепочка",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Реальная опасность",
+            "uk": "Реальная опасность",
+            "en": "Real danger"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Chain! One candy does not cause diabetes. Otherwise, all the confectioners in the world would have been left without teeth long ago. And by the way, they smile in the photographs."
+      }
+    },
+    {
+      "step_id": "sc6_63",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "День рождения. Торт. Вы берёте одну конфету. Старший брат театрально закатывает глаза: «Одну съешь — захочешь ещё! Потом ещё! Потом заболеешь диабетом! И — финал — выпадут все зубы!» Он даже руками показывает, как зубы выпадают.\n",
+        "uk": "День рождения. Торт. Вы берёте одну конфету. Старший брат те",
+        "en": "Lunch at school. A friend doesn’t want to wash his hands: “Okay, that’ll do!” You say: “If you don’t wash it, you’ll accidentally ingest bacteria with your food. It will multiply in the body, illness will begin, and you won’t get out of the toilet for three days!”"
+      }
+    },
+    {
+      "step_id": "sc6_64",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Страшная цепочка или реальная опасность?\n",
+        "uk": "Страшная цепочка или реальная опасность?",
+        "en": "Scary chain or real danger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Страшная цепочка",
+            "uk": "Страшная цепочка",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Реальная опасность",
+            "uk": "Реальная опасность",
+            "en": "Real danger"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Real! The chain is short: bacteria → disease → toilet. Each link is quite probable. Three days - maybe not three, but a day or two easily. Wash your hands, guys. Bacteria don't joke."
+      }
+    },
+    {
+      "step_id": "sc6_66",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Цепочка! Одна конфета не вызывает диабет. Иначе все кондитеры мира давно бы остались без зубов. А они, между прочим, улыбаются на фотографиях.\n",
+        "uk": "Цепочка! Одна конфета не вызывает диабет. Иначе все кондитер",
+        "en": "Drawing lesson. You accidentally broke your pencil. The neighbor on the desk grabs his head: “That’s it! You can't draw without a pencil! You'll get a bad grade! They'll kick you out of school! You will become the only person on Earth without education!”"
+      }
+    },
+    {
+      "step_id": "sc6_67",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Обед в школе. Друг не хочет мыть руки: «Да ладно, и так сойдёт!» Вы говорите: «Если не помоешь — с едой случайно проглотишь бактерию. Она размножится в организме, начнётся болезнь, и три дня не вылезешь из туалета!»\n",
+        "uk": "Обед в школе. Друг не хочет мыть руки: Да ладно, и так сойд",
+        "en": "Scary chain or real danger?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Страшная цепочка",
+            "uk": "Страшная цепочка",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Реальная опасность",
+            "uk": "Реальная опасность",
+            "en": "Real danger"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Chain! You can ask for another pencil. Or a pen. Or a felt-tip pen. Or draw with your finger - artists do this too, by the way, and don’t kick anyone out."
+      }
+    },
+    {
+      "step_id": "sc7_69",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Отлично отличаете цепочку от реальности! Но как разобрать цепочку по косточкам? Три вопроса — как три рентгеновских луча. Направляете на звено — и сразу видно, крепкое оно или бумажное.\n",
+        "uk": "Отлично отличаете цепочку от реальности! Но как разобрать це",
+        "en": "You distinguish the chain from reality perfectly! But how to take the chain apart? Three questions are like three x-rays. You point it at a link and you can immediately see whether it is strong or paper."
+      }
+    },
+    {
+      "step_id": "sc7_70",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос первый: «Это ТОЧНО произойдёт или только МОЖЕТ?» «Может» — это не «точно». Может — это «один шанс из ста». А звучит как «сто из ста». Хитрая подмена!\n",
+        "uk": "Вопрос первый: Это ТОЧНО произойдёт или только МОЖЕТ? Мож",
+        "en": "Question one: “Will this DEFINITELY happen or just MAYBE?” “Maybe” is not “definitely.” Maybe it’s “one chance in a hundred.” And it sounds like “one hundred out of a hundred.” Cunning substitution!"
+      }
+    },
+    {
+      "step_id": "sc7_71",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос второй: «Какой ШАНС, что это произойдёт?» Большой, средний, маленький, крошечный? Если на каждом шаге шанс маленький — вся цепочка становится микроскопической.\n",
+        "uk": "Вопрос второй: Какой ШАНС, что это произойдёт? Большой, ср",
+        "en": "Question two: “What is the CHANCE that this will happen?” Large, medium, small, tiny? If at each step the chance is small, the whole chain becomes microscopic."
+      }
+    },
+    {
+      "step_id": "sc7_72",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос третий: «Можно ли что-то ИЗМЕНИТЬ на этом шаге?» Почти всегда — да! Не выучил — доучил. Опоздал — позвонил. Поссорился — помирился. Цепочка держится, только если ты стоишь и ничего не делаешь.\n",
+        "uk": "Вопрос третий: Можно ли что-то ИЗМЕНИТЬ на этом шаге? Почт",
+        "en": "Question three: “Can anything be CHANGED at this step?” Almost always - yes! If you haven’t learned it, you’ve finished learning it. I was late and called. I quarreled and made peace. The chain only holds if you stand and do nothing."
+      }
+    },
+    {
+      "step_id": "sc7_73",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пример! «Если не сделаешь домашку — учитель расстроится, поставит плохую оценку, ты начнёшь плохо учиться и не поступишь туда, куда хочешь.» Проверяем: не сделал → учитель расстроится? Возможно, но можно доделать. Плохая оценка → плохая учёба? Нет, это один случай. Плохая учёба → не поступишь? Совсем не факт. Каждое звено — бумажное!\n",
+        "uk": "Пример! Если не сделаешь домашку — учитель расстроится, пос",
+        "en": "Example! “If you don’t do your homework, the teacher will be upset, give you a bad grade, you’ll start to study poorly and won’t go where you want.” Let’s check: didn’t do it → will the teacher be upset? Perhaps, but it can be completed. Bad grade → bad studies? No, this is one case. Bad studies → won't get in? Not at all a fact. Every link is paper!"
+      }
+    },
+    {
+      "step_id": "sc7_74",
+      "scene_id": "sc7",
+      "step_type": "instruction",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Попробуем вместе! Я даю цепочку — вы голосуете, какое звено самое слабое: первое, среднее или последнее.\n",
+        "uk": "Попробуем вместе! Я даю цепочку — вы голосуете, какое звено ",
+        "en": "Let's try it together! I give a chain - you vote which link is the weakest: first, middle or last."
+      }
+    },
+    {
+      "step_id": "sc7_75",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Не доешь суп → останешься голодным → не вырастешь → будешь самым маленьким в классе → никто не возьмёт тебя в баскетбольную команду → никогда не станешь спортсменом!»\n",
+        "uk": "Не доешь суп → останешься голодным → не вырастешь → будешь ",
+        "en": "“If you don’t finish your soup → you’ll remain hungry → you won’t grow up → you’ll be the smallest in your class → no one will take you on the basketball team → you’ll never become an athlete!”"
+      }
+    },
+    {
+      "step_id": "sc7_76",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какое звено самое слабое?\n",
+        "uk": "Какое звено самое слабое?",
+        "en": "Which link is the weakest?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Первое (не доешь → голодный)",
+            "uk": "Первое (не доешь → голодный)",
+            "en": "First (you don’t finish → hungry)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Среднее (не вырастешь → самый маленький)",
+            "uk": "Среднее (не вырастешь → самый маленький)",
+            "en": "Average (you won't grow → the smallest)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Последнее (не возьмут → никогда не станешь)",
+            "uk": "Последнее (не возьмут → никогда не станешь)",
+            "en": "The last one (they won’t take it → you’ll never become)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "The last one! One missed soup does not decide a sports career. And growth does not depend on the soup, but on genes. Ask any basketball player - he ate more than just soup."
+      }
+    },
+    {
+      "step_id": "sc7_78",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последнее! Один пропущенный суп не решает спортивную карьеру. Да и рост зависит не от супа, а от генов. Спросите любого баскетболиста — он ел не только суп.\n",
+        "uk": "Последнее! Один пропущенный суп не решает спортивную карьеру",
+        "en": "“Lost your phone → you can’t call your friends → they will forget about you → you will be left without friends → you will be alone for the rest of your life!”"
+      }
+    },
+    {
+      "step_id": "sc7_79",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Потерял телефон → не можешь позвонить друзьям → они забудут о тебе → останешься без друзей → будешь одинок до конца жизни!»\n",
+        "uk": "Потерял телефон → не можешь позвонить друзьям → они забудут",
+        "en": "Which link is the weakest?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Первое (потерял → не позвонишь)",
+            "uk": "Первое (потерял → не позвонишь)",
+            "en": "First (lost → won’t call)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Среднее (не позвонишь → забудут)",
+            "uk": "Среднее (не позвонишь → забудут)",
+            "en": "Average (if you don’t call → they will forget)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Последнее (без друзей → одинок навсегда)",
+            "uk": "Последнее (без друзей → одинок навсегда)",
+            "en": "Last (no friends → alone forever)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Average! Friends don't forget because of one missed call. There is a school, a yard, and general affairs. And you can find a phone or buy a new one. Friendship will be stronger than the telephone."
+      }
+    },
+    {
+      "step_id": "sc7_81",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Какое звено самое слабое?\n",
+        "uk": "Какое звено самое слабое?",
+        "en": "“If you don’t clean the room → there will be cockroaches → they will eat your homework → the teacher won’t believe you → he’ll give you a bad grade → your parents will take the computer away forever!”"
+      }
+    },
+    {
+      "step_id": "sc7_82",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Среднее! Друзья не забывают из-за одного пропущенного звонка. Есть школа, двор, общие дела. А телефон — можно найти или купить новый. Дружба покрепче телефона будет.\n",
+        "uk": "Среднее! Друзья не забывают из-за одного пропущенного звонка",
+        "en": "Which link is the weakest?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Первое (не уберёшь → тараканы)",
+            "uk": "Первое (не уберёшь → тараканы)",
+            "en": "First (you can’t remove → cockroaches)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Среднее (тараканы съедят домашку)",
+            "uk": "Среднее (тараканы съедят домашку)",
+            "en": "Average (cockroaches will eat your homework)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Последнее (плохая оценка → компьютер навсегда)",
+            "uk": "Последнее (плохая оценка → компьютер навсегда)",
+            "en": "Last (bad rating → computer forever)"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Average! Cockroaches eat crumbs, not notebooks. They don't sit around at night with a fork and knife over your homework. Although the picture is funny, I admit it."
+      }
+    },
+    {
+      "step_id": "sc7_84",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Не уберёшь комнату → заведутся тараканы → они съедят твою домашку → учитель не поверит → поставит плохую оценку → родители заберут компьютер навсегда!»\n",
+        "uk": "Не уберёшь комнату → заведутся тараканы → они съедят твою д",
+        "en": "“If you don’t go to bed on time → you fall asleep in class → the teacher will call your parents → your parents will take away the tablet → you won’t learn programming → you won’t find a job → you’ll live in a box!”"
+      }
+    },
+    {
+      "step_id": "sc7_85",
+      "scene_id": "sc7",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Какое звено самое слабое?\n",
+        "uk": "Какое звено самое слабое?",
+        "en": "Which link is the weakest?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Первое (не уберёшь → тараканы)",
+            "uk": "Первое (не уберёшь → тараканы)",
+            "en": "First (if you don’t lie down → fall asleep)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Среднее (тараканы съедят домашку)",
+            "uk": "Среднее (тараканы съедят домашку)",
+            "en": "Average (they take away the tablet → you won’t learn)"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Последнее (плохая оценка → компьютер навсегда)",
+            "uk": "Последнее (плохая оценка → компьютер навсегда)",
+            "en": "Last (you can’t find a job → box)"
+          }
+        }
+      ],
+      "correct_answer": "opt_3",
+      "explanation": {
+        "en": "The last one! Programming is taught not only on a tablet. There are books, school, courses. And from one sleepless night to living in a box there are about a million steps, each of which can be changed."
+      }
+    },
+    {
+      "step_id": "sc8_87",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — задание наоборот! Я даю начало и конец цепочки. Ваша задача — придумать, что посередине. Чем длиннее и абсурднее — тем лучше! После вас — мой вариант. Посмотрим, чья цепочка смешнее!\n",
+        "uk": "А теперь — задание наоборот! Я даю начало и конец цепочки. В",
+        "en": "And now - the task is the opposite! I give the beginning and the end of the chain. Your job is to figure out what's in the middle. The longer and more absurd, the better! After you - my option. Let's see whose chain is funnier!"
+      }
+    },
+    {
+      "step_id": "sc8_88",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Забыл зонтик дома.» Конец: «Никогда не поедешь на море.» Стройте!\n",
+        "uk": "Начало: Забыл зонтик дома. Конец: Никогда не поедешь на м",
+        "en": "Beginning: “Forgot my umbrella at home.” End: “You will never go to the sea.” Build!"
+      }
+    },
+    {
+      "step_id": "sc8_89",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Постройте цепочку от забытого зонтика до моря!\n",
+        "uk": "Постройте цепочку от забытого зонтика до моря!",
+        "en": "Build a chain from a forgotten umbrella to the sea!"
+      }
+    },
+    {
+      "step_id": "sc8_90",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой вариант: забыл зонтик → промок → заболел → пропустил школу → не сдал контрольную → родители расстроились → отменили поездку на море. Шесть звеньев — и каждое бумажное!\n",
+        "uk": "Мой вариант: забыл зонтик → промок → заболел → пропустил шко",
+        "en": "My version: forgot my umbrella → got wet → got sick → missed school → didn’t pass the test → parents were upset → canceled the trip to the seaside. Six links - and each one is made of paper!"
+      }
+    },
+    {
+      "step_id": "sc8_91",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Пролил сок на тетрадку.» Конец: «Останешься без профессии.»\n",
+        "uk": "Начало: Пролил сок на тетрадку. Конец: Останешься без про",
+        "en": "Beginning: “I spilled juice on my notebook.” End: “You will be left without a profession.”"
+      }
+    },
+    {
+      "step_id": "sc8_92",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_93",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: пролил сок → тетрадка промокла → не сдал домашку → плохая оценка → плохой аттестат → не возьмут никуда → без профессии! А ведь можно просто переписать в другую тетрадку.\n",
+        "uk": "Мой: пролил сок → тетрадка промокла → не сдал домашку → плох",
+        "en": "Mine: spilled juice → notebook got wet → didn’t pass homework → bad grade → bad certificate → won’t take you anywhere → no profession! But you can simply copy it into another notebook."
+      }
+    },
+    {
+      "step_id": "sc8_94",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Опоздал на автобус.» Конец: «Потеряешь всех друзей.»\n",
+        "uk": "Начало: Опоздал на автобус. Конец: Потеряешь всех друзей.",
+        "en": "Beginning: “I was late for the bus.” End: \"You'll lose all your friends.\""
+      }
+    },
+    {
+      "step_id": "sc8_95",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_96",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: опоздал на автобус → опоздал в школу → друзья ушли на экскурсию без тебя → обиделись → перестали звать → потерял всех друзей! Из-за одного автобуса. Драма!\n",
+        "uk": "Мой: опоздал на автобус → опоздал в школу → друзья ушли на э",
+        "en": "Mine: missed the bus → late for school → friends went on an excursion without you → got offended → stopped calling → lost all my friends! Because of one bus. Drama!"
+      }
+    },
+    {
+      "step_id": "sc8_97",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Забыл покормить кота.» Конец: «Вымрут все животные на планете.»\n",
+        "uk": "Начало: Забыл покормить кота. Конец: Вымрут все животные ",
+        "en": "Beginning: “Forgot to feed the cat.” End: “Every animal on the planet will become extinct.”"
+      }
+    },
+    {
+      "step_id": "sc8_98",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_99",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: забыл покормить → кот обиделся → ушёл из дома → соседские коты тоже ушли → все коты мира объявили забастовку → мыши захватили планету → остальные животные в панике! Признаю — это шедевр абсурда.\n",
+        "uk": "Мой: забыл покормить → кот обиделся → ушёл из дома → соседск",
+        "en": "Mine: I forgot to feed → the cat got offended → left home → the neighbor’s cats also left → all the cats in the world went on strike → mice took over the planet → the rest of the animals are in panic! I admit, this is a masterpiece of the absurd."
+      }
+    },
+    {
+      "step_id": "sc8_100",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Не полил цветок.» Конец: «Уничтожишь экологию Земли.»\n",
+        "uk": "Начало: Не полил цветок. Конец: Уничтожишь экологию Земли",
+        "en": "Beginning: “I didn’t water the flower.” End: “You will destroy the ecology of the Earth.”"
+      }
+    },
+    {
+      "step_id": "sc8_101",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_102",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: не полил → цветок засох → пчела не нашла нектар → не опылила сад → деревья не дали плодов → лес исчез → экология Земли погибла. Один цветочек — и планете конец!\n",
+        "uk": "Мой: не полил → цветок засох → пчела не нашла нектар → не оп",
+        "en": "Mine: I didn’t water it → the flower dried up → the bee didn’t find nectar → didn’t pollinate the garden → the trees didn’t bear fruit → the forest disappeared → the Earth’s ecology perished. One flower - and the planet is finished!"
+      }
+    },
+    {
+      "step_id": "sc8_103",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Потерял ключ от дома.» Конец: «Будешь жить в палатке.»\n",
+        "uk": "Начало: Потерял ключ от дома. Конец: Будешь жить в палатк",
+        "en": "Beginning: “I lost my house key.” End: “You will live in a tent.”"
+      }
+    },
+    {
+      "step_id": "sc8_104",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_105",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: потерял ключ → не попал домой → ждал на улице → привык к улице → купил палатку → решил, что так удобнее → живёшь в палатке. Карьера от ключа до туриста!\n",
+        "uk": "Мой: потерял ключ → не попал домой → ждал на улице → привык ",
+        "en": "Mine: lost the key → didn’t get home → waited outside → got used to the street → bought a tent → decided it was more convenient → live in a tent. Career from key to tourist!"
+      }
+    },
+    {
+      "step_id": "sc8_106",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Наступил на жвачку.» Конец: «Не попадёшь на выпускной.»\n",
+        "uk": "Начало: Наступил на жвачку. Конец: Не попадёшь на выпускн",
+        "en": "Beginning: “Stepped on chewing gum.” End: “You won’t make it to prom.”"
+      }
+    },
+    {
+      "step_id": "sc8_107",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_108",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: наступил → жвачка на ботинке → испортил ботинки → нет обуви → не пошёл в школу → пропустил месяц → не допустили к выпускному. Из-за жвачки! Обидно.\n",
+        "uk": "Мой: наступил → жвачка на ботинке → испортил ботинки → нет о",
+        "en": "Mine: stepped on → chewing gum on shoe → ruined shoes → no shoes → didn’t go to school → missed a month → wasn’t allowed to go to graduation. Because of the gum! It's a shame."
+      }
+    },
+    {
+      "step_id": "sc8_109",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Разбил тарелку.» Конец: «Никогда не пустят в ресторан.»\n",
+        "uk": "Начало: Разбил тарелку. Конец: Никогда не пустят в рестор",
+        "en": "Beginning: “I broke a plate.” End: “They will never let you into the restaurant.”"
+      }
+    },
+    {
+      "step_id": "sc8_110",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_111",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: разбил тарелку → запретили трогать посуду → не научился есть из тарелки → ешь руками → ресторан в ужасе → не пускают! Вот так один осколок решает судьбу.\n",
+        "uk": "Мой: разбил тарелку → запретили трогать посуду → не научился",
+        "en": "Mine: broke a plate → forbidden to touch the dishes → didn’t learn to eat from a plate → eat with your hands → the restaurant is terrified → they don’t let you in! This is how one fragment decides fate."
+      }
+    },
+    {
+      "step_id": "sc8_112",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Начало: «Забыл выключить свет.» Конец: «Останешься без электричества навсегда.»\n",
+        "uk": "Начало: Забыл выключить свет. Конец: Останешься без элект",
+        "en": "Beginning: “Forgot to turn off the light.” End: “You will be without electricity forever.”"
+      }
+    },
+    {
+      "step_id": "sc8_113",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте цепочку!\n",
+        "uk": "Стройте цепочку!",
+        "en": "Build a chain!"
+      }
+    },
+    {
+      "step_id": "sc8_114",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: забыл свет → огромный счёт → родители в шоке → отключили электричество → соседи тоже отключили → весь район без света → навсегда! Один выключатель — и цивилизация пала.\n",
+        "uk": "Мой: забыл свет → огромный счёт → родители в шоке → отключил",
+        "en": "Mine: I forgot the light → huge bill → parents in shock → the electricity was turned off → the neighbors also turned off → the whole area without electricity → forever! One switch and civilization fell."
+      }
+    },
+    {
+      "step_id": "sc8_115",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И последняя — самая безумная! Начало: «Чихнул на уроке.» Конец: «Запретят ходить в школу во всей стране.»\n",
+        "uk": "И последняя — самая безумная! Начало: Чихнул на уроке. Кон",
+        "en": "And the last one is the craziest! Beginning: “I sneezed in class.” End: “They will ban going to school throughout the country.”"
+      }
+    },
+    {
+      "step_id": "sc8_116",
+      "scene_id": "sc8",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Стройте самую длинную и смешную цепочку!\n",
+        "uk": "Стройте самую длинную и смешную цепочку!",
+        "en": "Build the longest and funniest chain!"
+      }
+    },
+    {
+      "step_id": "sc8_117",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мой: чихнул → учитель испугался → отправил домой → директор написал жалобу → министерство образования запаниковало → запретили школы по всей стране! Один «апчхи» — и дети ликуют. Хотя нет, без школы скучно.\n",
+        "uk": "Мой: чихнул → учитель испугался → отправил домой → директор ",
+        "en": "Mine: sneezed → the teacher got scared → sent home → the director wrote a complaint → the Ministry of Education panicked → schools were banned throughout the country! One “apchhi” - and the children rejoice. Although no, it’s boring without school."
+      }
+    },
+    {
+      "step_id": "sc8_118",
+      "scene_id": "sc8",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Заметили? Чем длиннее цепочка — тем смешнее и абсурднее она звучит. Потому что каждое новое звено всё менее вероятно. Когда кто-то пугает вас цепочкой — представьте, как строите её сами. Сразу станет не страшно, а смешно!\n",
+        "uk": "Заметили? Чем длиннее цепочка — тем смешнее и абсурднее она ",
+        "en": "Did you notice? The longer the chain, the funnier and more absurd it sounds. Because each new link is less and less likely. When someone scares you with a chain, imagine building it yourself. It will immediately become not scary, but funny!"
+      }
+    },
+    {
+      "step_id": "sc9_119",
+      "scene_id": "sc9",
+      "step_type": "reflection",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Итак — мы научились строить, разбирать и смеяться над страшными цепочками. Но зачем вообще это уметь? Не для контрольной же. Давайте подумаем, где в реальной жизни вас могут пугать цепочками.\n",
+        "uk": "Итак — мы научились строить, разбирать и смеяться над страшн",
+        "en": "So - we learned how to build, disassemble and laugh at scary chains. But why do you need to know this at all? Not for a test. Let's think about where in real life you might be scared by chains."
+      }
+    },
+    {
+      "step_id": "sc9_120",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама. «Если не купишь наш йогурт — не получишь витаминов, ослабнет иммунитет, будешь болеть каждый месяц, пропустишь всё на свете!» Знакомо? Теперь вы знаете: это цепочка. Йогурт — не единственный источник витаминов на планете.\n",
+        "uk": "Реклама. Если не купишь наш йогурт — не получишь витаминов,",
+        "en": "Advertising. “If you don’t buy our yogurt, you won’t get vitamins, your immune system will weaken, you’ll get sick every month, you’ll miss everything in the world!” Sound familiar? Now you know: this is a chain. Yogurt is not the only source of vitamins on the planet."
+      }
+    },
+    {
+      "step_id": "sc9_121",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Новости. «Если не запретить телефоны в школах — дети перестанут учиться, потеряют социальные навыки, вырастут несамостоятельными и не смогут работать!» Звучит страшно. Но сколько звеньев? Какой шанс каждого? Вот и ответ.\n",
+        "uk": "Новости. Если не запретить телефоны в школах — дети переста",
+        "en": "News. “If you don’t ban phones in schools, children will stop learning, lose social skills, grow up dependent and won’t be able to work!” Sounds scary. But how many links? What's everyone's chance? Here is the answer."
+      }
+    },
+    {
+      "step_id": "sc9_122",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Споры. Старший брат говорит: «Если не послушаешь меня — пожалеешь, потом будешь просить прощения, а я не прощу, и вообще мы больше не друзья!» Это не аргумент. Это цепочка, которая давит на страх. Теперь вы умеете её разбирать.\n",
+        "uk": "Споры. Старший брат говорит: Если не послушаешь меня — пожа",
+        "en": "Controversy. The older brother says: “If you don’t listen to me, you will regret it, then you will ask for forgiveness, but I will not forgive, and in general we are no longer friends!” This is not an argument. This is a chain that puts pressure on fear. Now you know how to take it apart."
+      }
+    },
+    {
+      "step_id": "sc9_123",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "И самое главное — мы сами строим страшные цепочки. В собственной голове! «Не подготовился — провалю — все будут смеяться — никогда не смогу…» Стоп. Проверяем каждое звено. Дышим. И понимаем: мир не рушится от одной ошибки.\n",
+        "uk": "И самое главное — мы сами строим страшные цепочки. В собстве",
+        "en": "And most importantly, we ourselves build terrible chains. In your own head! “I’m not prepared - I’ll fail - everyone will laugh - I’ll never be able to...” Stop. We check every link. Let's breathe. And we understand: the world does not collapse from one mistake."
+      }
+    },
+    {
+      "step_id": "sc9_124",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Запомните три рентгеновских вопроса: это ТОЧНО произойдёт или только может? Какой шанс? Можно ли что-то изменить? Если хоть один ответ — «не точно», «маленький» или «да» — цепочка уже не работает.\n",
+        "uk": "Запомните три рентгеновских вопроса: это ТОЧНО произойдёт ил",
+        "en": "Remember three X-ray questions: will this DEFINITELY happen or just maybe? What's the chance? Can anything be changed? If at least one answer is “not exactly”, “small” or “yes” - the chain no longer works."
+      }
+    },
+    {
+      "step_id": "sc9_125",
+      "scene_id": "sc9",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы теперь — мастера-разбиратели цепочек. Пусть никакие страшилки не управляют вашими решениями. Перерыв — а после него продолжим!\n",
+        "uk": "Вы теперь — мастера-разбиратели цепочек. Пусть никакие страш",
+        "en": "You are now master chain breakers. Don't let any scary stories guide your decisions. Break - and after that we will continue!"
+      }
+    }
+  ]
+}

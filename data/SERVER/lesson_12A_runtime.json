@@ -1,0 +1,2447 @@
+{
+  "lesson_id": "12A",
+  "title": {
+    "ru": "Карта демагогии",
+    "uk": "Карта демагогії",
+    "en": "Map of Demagoguery"
+  },
+  "default_lang": "ru",
+  "supported_langs": [
+    "en",
+    "ru",
+    "uk"
+  ],
+  "scenes": {
+    "sc1": {
+      "scene_id": "sc1",
+      "title": {
+        "ru": "БОЛЬШАЯ РАЗМИНКА ПО КУРСУ",
+        "uk": "ВЕЛИКА РОЗМИНКА ПО КУРСУ",
+        "en": "BIG WARM-UP: REVIEW OF THE COURSE"
+      },
+      "step_ids": [
+        "sc1_1",
+        "sc1_2",
+        "sc1_4",
+        "sc1_6",
+        "sc1_8",
+        "sc1_10",
+        "sc1_12",
+        "sc1_14",
+        "sc1_16",
+        "sc1_18",
+        "sc1_20",
+        "sc1_22",
+        "sc1_24",
+        "sc1_26",
+        "sc1_28",
+        "sc1_30"
+      ],
+      "first_step_index": 0
+    },
+    "sc2": {
+      "scene_id": "sc2",
+      "title": {
+        "ru": "ДЕМАГОГИЯ ИЛИ НЕТ?",
+        "uk": "ДЕМАГОГІЯ ЧИ НІ?",
+        "en": "DEMAGOGUERY OR NOT?"
+      },
+      "step_ids": [
+        "sc2_32",
+        "sc2_33",
+        "sc2_35",
+        "sc2_37",
+        "sc2_39",
+        "sc2_41",
+        "sc2_43",
+        "sc2_45",
+        "sc2_47",
+        "sc2_49",
+        "sc2_51"
+      ],
+      "first_step_index": 16
+    },
+    "sc3": {
+      "scene_id": "sc3",
+      "title": {
+        "ru": "МЫ — ДЕМАГОГИ",
+        "uk": "«Ти сказав \"не люблю манку\" — значить ти взагалі нічого їсти не хочеш?!»",
+        "en": "\"You said 'I don't like semolina' - so you don't want to eat ANYTHING?!\""
+      },
+      "step_ids": [
+        "sc3_53",
+        "sc3_54",
+        "sc3_55",
+        "sc3_56",
+        "sc3_57",
+        "sc3_58",
+        "sc3_59",
+        "sc3_60",
+        "sc3_61",
+        "sc3_62",
+        "sc3_63",
+        "sc3_64",
+        "sc3_65",
+        "sc3_66",
+        "sc3_67",
+        "sc3_68",
+        "sc3_69",
+        "sc3_70",
+        "sc3_71",
+        "sc3_72",
+        "sc3_73",
+        "sc3_74",
+        "sc3_75",
+        "sc3_76",
+        "sc3_77",
+        "sc3_78",
+        "sc3_79",
+        "sc3_80",
+        "sc3_81",
+        "sc3_82",
+        "sc3_83",
+        "sc3_84",
+        "sc3_85",
+        "sc3_86",
+        "sc3_87",
+        "sc3_88",
+        "sc3_89",
+        "sc3_90",
+        "sc3_91",
+        "sc3_92",
+        "sc3_93",
+        "sc3_94"
+      ],
+      "first_step_index": 27
+    },
+    "sc4": {
+      "scene_id": "sc4",
+      "title": {
+        "ru": "ВСЕ 12 ВИДОВ ДЕМАГОГИИ — ИСТОРИЯ + РАЗБОР",
+        "uk": "Дома спробуйте знайти демагогію в рекламі, в мультиках, в розмовах. Вона скрізь — коли знаєш, куди дивитися. А на наступному уроці ми познайомимося з ще більш хитрою штукою — маніпуляцією!",
+        "en": "At home, try to find demagoguery in ads, cartoons, conversations. It's everywhere - when you know where to look. And in the next lesson, we'll meet something even trickier - manipulation!"
+      },
+      "step_ids": [
+        "sc4_95",
+        "sc4_96",
+        "sc4_97",
+        "sc4_98",
+        "sc4_99",
+        "sc4_100",
+        "sc4_101",
+        "sc4_102",
+        "sc4_103",
+        "sc4_104",
+        "sc4_105",
+        "sc4_106",
+        "sc4_107",
+        "sc4_108",
+        "sc4_109",
+        "sc4_110",
+        "sc4_111",
+        "sc4_112",
+        "sc4_113",
+        "sc4_114",
+        "sc4_115",
+        "sc4_116",
+        "sc4_117",
+        "sc4_118",
+        "sc4_119",
+        "sc4_120"
+      ],
+      "first_step_index": 69
+    },
+    "sc5": {
+      "scene_id": "sc5",
+      "title": {
+        "ru": "ПОЧЕМУ НЕ СТОИТ ИСПОЛЬЗОВАТЬ ДЕМАГОГИЮ",
+        "uk": "ЧОМУ НЕ ВАРТО ВИКОРИСТОВУВАТИ ДЕМАГОГІЮ",
+        "en": "WHY YOU SHOULDN'T USE DEMAGOGUERY"
+      },
+      "step_ids": [
+        "sc5_121",
+        "sc5_122",
+        "sc5_123",
+        "sc5_124",
+        "sc5_125",
+        "sc5_126",
+        "sc5_127",
+        "sc5_128",
+        "sc5_129",
+        "sc5_130",
+        "sc5_131",
+        "sc5_132",
+        "sc5_133"
+      ],
+      "first_step_index": 95
+    },
+    "sc6": {
+      "scene_id": "sc6",
+      "title": {
+        "ru": "ФИНАЛЬНЫЙ БЛИЦ: ВСЕ 12 ТИПОВ",
+        "uk": "ФІНАЛЬНИЙ БЛІЦ: УСІ 12 ТИПІВ",
+        "en": "FINAL BLITZ: ALL 12 TYPES"
+      },
+      "step_ids": [
+        "sc6_134",
+        "sc6_135",
+        "sc6_137",
+        "sc6_139",
+        "sc6_141",
+        "sc6_143",
+        "sc6_145",
+        "sc6_147",
+        "sc6_149",
+        "sc6_151",
+        "sc6_153",
+        "sc6_155",
+        "sc6_157"
+      ],
+      "first_step_index": 108
+    },
+    "sc7": {
+      "scene_id": "sc7",
+      "title": {
+        "ru": "ФИЛОСОФСКОЕ ЗАКРЫТИЕ",
+        "uk": "ФІЛОСОФСЬКЕ ЗАКРИТТЯ",
+        "en": "PHILOSOPHICAL CLOSING"
+      },
+      "step_ids": [
+        "sc7_159",
+        "sc7_160",
+        "sc7_161",
+        "sc7_162"
+      ],
+      "first_step_index": 121
+    }
+  },
+  "steps": [
+    {
+      "step_id": "sc1_1",
+      "scene_id": "sc1",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Разминка! Сегодня проверим, что осталось в голове за весь курс. Темы вперемешку, будьте начеку — тут и факты, и проверка, и ловушки, и всё-всё-всё!\n",
+        "uk": "Розминка! Сьогодні перевіримо, що залишилося в голові за весь курс. Теми вперемішку, будьте уважні — тут і факти, й перевірка, й пастки, й все-все-все!",
+        "en": "Warm-up! Today we'll check what stuck in your heads throughout the course. Mixed topics, be careful - there are facts and checks and traps and everything!"
+      }
+    },
+    {
+      "step_id": "sc1_2",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Друг говорит: «Я прыгаю дальше всех в классе!» Как проверить?\n",
+        "uk": "Друг говорить: «Я стрибаю дальше всіх у класі!» Як перевірити?",
+        "en": "A friend says: 'I jump farther than anyone in class!' How do you check?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Спросить учителя",
+            "uk": "Запитати учителя",
+            "en": "Ask the teacher"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Измерить рулеткой",
+            "uk": "Виміряти рулеткою",
+            "en": "Measure with a ruler"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Поверить на слово",
+            "uk": "Повірити на слово",
+            "en": "Believe them"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Measure! Measurement is one of four ways to check. A ruler doesn't lie, unlike friends at break."
+      }
+    },
+    {
+      "step_id": "sc1_4",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Измерить! Один из четырёх способов проверки — измерение. Рулетка не врёт, в отличие от друзей на перемене.\n",
+        "uk": "Виміряти! Один з чотирьох способів перевірки — вимірювання. Рулетка не брехає, на відміну від друзів на перерві.",
+        "en": "\"Our cafeteria has the tastiest cutlets in the city!\" What verification method fits?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Своими глазами (попробовать)",
+            "uk": "Своїми очима (спробувати)",
+            "en": "Your own eyes (taste it)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Эксперимент",
+            "uk": "Експеримент",
+            "en": "Experiment"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Справочник",
+            "uk": "Довідник",
+            "en": "Reference"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Taste it yourself - checking 'with your own eyes!' True, for experimental purity you'd need to visit every cafeteria in the city. Good luck."
+      }
+    },
+    {
+      "step_id": "sc1_6",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«В нашей столовой самые вкусные котлеты в городе!» Какой способ проверки подойдёт?\n",
+        "uk": "«У нашій їдальні найсмачніші котлети в місті!» Який спосіб перевірки підійде?",
+        "en": "\"I put on new sneakers - and ran faster than everyone!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Своими глазами (попробовать)",
+            "uk": "Своїми очима (спробувати)",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Эксперимент",
+            "uk": "Експеримент",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Coincidence! Sneakers don't give superhuman speed. Maybe she slept well. Or everyone else was off."
+      }
+    },
+    {
+      "step_id": "sc1_8",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Попробовать самому — проверка «своими глазами»! Правда, для чистоты эксперимента нужно объехать все столовые города. Удачи.\n",
+        "uk": "Спробувати самому — перевірка «своїми очима»! Правда, для чистоти експерименту потрібно об'їхати всі їдальні міста. Удачі.",
+        "en": "\"We watered the plant - and it grew.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Cause"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Coincidence"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Cause! Water is needed for growth - this is proven by science, not superstition."
+      }
+    },
+    {
+      "step_id": "sc1_10",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я надела новые кроссовки — и пробежала быстрее всех!»\n",
+        "uk": "«Я наділа нові кросівки — й пробігла швидше за всіх!»",
+        "en": "Argument about turns. Masha: 'It's your turn to clean the board.' Petya: 'But you were late to PE yesterday!'"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "On topic"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Dodging the topic"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Classic dodge! Instead of answering about the board - attacking Masha for something else. The board stays dirty."
+      }
+    },
+    {
+      "step_id": "sc1_12",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Совпадение! Кроссовки не дают суперскорость. Может, она просто хорошо выспалась. Или все остальные плохо.\n",
+        "uk": "Збіг! Кросівки не дають надлюдської швидкості. Може, вона просто добре виспалася. Або всі інші погано.",
+        "en": "\"NOBODY in our class likes reading!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ловушка слов",
+            "uk": "Пастка слів",
+            "en": "Word trap"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нормальное утверждение",
+            "uk": "Нормальне твердження",
+            "en": "Normal statement"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trap! The word 'nobody' is absolute. One book lover is enough to disprove it."
+      }
+    },
+    {
+      "step_id": "sc1_14",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Полили цветок — он вырос.»\n",
+        "uk": "«Полили квітку — вона виросла.»",
+        "en": "Coach yells: 'I never arrive late!' - but showed up 20 minutes late."
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Причина",
+            "uk": "Причина",
+            "en": "Contradiction"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Совпадение",
+            "uk": "Збіг",
+            "en": "Everything's fine"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Contradiction! Words say one thing, feet do another. Believe actions - they can't lie."
+      }
+    },
+    {
+      "step_id": "sc1_16",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Причина! Вода нужна для роста — это доказано наукой, а не приметами.\n",
+        "uk": "Причина! Вода потрібна для росту — це доведено наукою, а не приметами.",
+        "en": "You: 'I don't want to eat soup.' Grandma: 'So you don't want to eat ANYTHING?!'"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Опудало",
+            "en": "Scarecrow"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нормальный вопрос",
+            "uk": "Нормальне питання",
+            "en": "Normal question"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Scarecrow! 'Don't want soup' turned into 'don't want to eat.' Grandma is a master dramatist."
+      }
+    },
+    {
+      "step_id": "sc1_18",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Спор о дежурстве. Маша: «Сегодня твоя очередь мыть доску.» Петя: «А ты вчера опоздала на физру!»\n",
+        "uk": "Спір про чергування. Маша: «Сьогодні твоя черга мити дошку.» Петя: «А ти вчора спізнилася на фізру!»",
+        "en": "\"If you don't clean your room - mom will be upset, then she'll get sick, then everything will be terrible!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "По теме",
+            "uk": "По темі",
+            "en": "Scary chain"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Уход от темы",
+            "uk": "Ухилення від теми",
+            "en": "Real threat"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Scary chain! One messy room - and the world collapses. Disaster film writers are jealous."
+      }
+    },
+    {
+      "step_id": "sc1_20",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Классический уход! Вместо ответа про доску — нападение на Машу по другому поводу. Доска так и стоит грязная.\n",
+        "uk": "Класичне ухилення! Замість ответу про дошку — напад на Машу з іншої підстави. Дошка так й стоїть брудна.",
+        "en": "\"Buy these vitamins - a famous actor recommends them!\" What's the method of persuasion?"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Доверие (авторитет)",
+            "uk": "Довіра (авторитет)",
+            "en": "Trust (authority)"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Эмоции",
+            "uk": "Емоції",
+            "en": "Emotions"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Факты",
+            "uk": "Факти",
+            "en": "Facts"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Trust! Bet on authority. But an actor isn't a doctor. Trust goes to someone who knows the subject."
+      }
+    },
+    {
+      "step_id": "sc1_22",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«НИКТО в нашем классе не любит читать!»\n",
+        "uk": "«НІХТО в нашому класі не любить читати!»",
+        "en": "\"Have you stopped copying from your neighbor?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Ловушка слов",
+            "uk": "Пастка слів",
+            "en": "Normal question"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нормальное утверждение",
+            "uk": "Нормальне твердження",
+            "en": "Trap question"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Trap! Hidden inside is the claim 'you copied.' Any answer is a trap. Right response: 'There's a false assumption in that question!'"
+      }
+    },
+    {
+      "step_id": "sc1_24",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ловушка! Слово «никто» — абсолютное. Достаточно одного книголюба, и утверждение рассыпается.\n",
+        "uk": "Пастка! Слово «ніхто» — абсолютне. Достатньо одного книголюба, й твердження розпалось.",
+        "en": "\"A famous football player says this diet works!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Настоящий авторитет",
+            "uk": "Справжній авторитет",
+            "en": "Real authority"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Ложный авторитет",
+            "uk": "Хибний авторитет",
+            "en": "False authority"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "False! A football player is an expert in the ball, not dietetics. Ask the ball about him - it's definitely in shape."
+      }
+    },
+    {
+      "step_id": "sc1_26",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Тренер кричит: «Я никогда не опаздываю!» — а сам пришёл на 20 минут позже.\n",
+        "uk": "Тренер кричить: «Я ніколи не спізнююся!» — а сам прийшов на 20 хвилин пізніше.",
+        "en": "\"We have free time - so we can do WHATEVER!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Противоречие",
+            "uk": "Суперечність",
+            "en": "Substituting concepts"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Всё нормально",
+            "uk": "Все нормально",
+            "en": "Normal logic"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Substitution! 'Free' was replaced with 'no rules.' Free time isn't a jungle. Rules still apply."
+      }
+    },
+    {
+      "step_id": "sc1_28",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Противоречие! Слова говорят одно, ноги делают другое. Верим действиям — они не умеют врать.\n",
+        "uk": "Суперечність! Слова говорять одне, ноги роблять інше. Вірмо діям — вони не вміють брехати.",
+        "en": "\"Chocolate ice cream tastes better than vanilla.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Факт",
+            "uk": "Факт",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Мнение",
+            "uk": "Думка",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "ru": "Неправда",
+            "uk": "Неправда",
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Opinion! Taste is subjective. Vanilla fans would disagree."
+      }
+    },
+    {
+      "step_id": "sc1_30",
+      "scene_id": "sc1",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты: «Не хочу есть суп.» Бабушка: «Ты хочешь ВООБЩЕ НИЧЕГО не есть?!»\n",
+        "uk": "Ти: «Не хочу їсти суп.» Бабуся: «Ти хочеш ВЗАГАЛІ НІЧОГО не їсти?!»",
+        "en": "\"The Moon orbits the Earth.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Пугало",
+            "uk": "Опудало",
+            "en": "Fact"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Нормальный вопрос",
+            "uk": "Нормальне питання",
+            "en": "Opinion"
+          }
+        },
+        {
+          "id": "opt_3",
+          "text": {
+            "en": "Falsehood"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Fact! Verifiable, proven, with formulas and telescopes. The Moon doesn't deny it."
+      }
+    },
+    {
+      "step_id": "sc2_32",
+      "scene_id": "sc2",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Теперь — быстрый блиц! Я говорю фразу, вы решаете: это демагогия или честный аргумент? Только два варианта — никаких подвохов!\n",
+        "uk": "Тепер — швидкий блиц! Я кажу фразу, ви вирішуєте: це демагогія чи чесний аргумент? Тільки два варіанти — ніяких підвохів!",
+        "en": "Now - quick blitz! I say a phrase, you decide: demagoguery or honest argument? Only two options - no tricks!"
+      }
+    },
+    {
+      "step_id": "sc2_33",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Все нормальные дети уже это посмотрели!»\n",
+        "uk": "«Усі нормальні діти вже це переглянули!»",
+        "en": "\"All normal kids have already watched this!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - hasty generalization! Who is 'all'? Did you count everyone?"
+      }
+    },
+    {
+      "step_id": "sc2_35",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — поспешное обобщение! Кто эти «все»? Перепись проводили?\n",
+        "uk": "Демагогія — поспішне узагальнення! Хто ці «всі»? Перепис проводили?",
+        "en": "\"I think it's better to start with math - it's harder and needs a fresh mind.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Honest argument! There's a reason, there's logic, no tricks."
+      }
+    },
+    {
+      "step_id": "sc2_37",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Мне кажется, лучше начать с математики — она сложнее и требует свежей головы.»\n",
+        "uk": "«Мені здається, краще почати з математики — вона складніша й потребує свіжої голови.»",
+        "en": "\"You're too young to understand this!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - attack on the person! Age doesn't determine understanding. Small children catch things adults miss."
+      }
+    },
+    {
+      "step_id": "sc2_39",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Честный аргумент! Есть причина, есть логика, нет хитростей.\n",
+        "uk": "Чесний аргумент! Є причина, є логіка, немає хитрощей.",
+        "en": "\"I don't like talking about myself - because weird people misunderstand.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Honest argument! Reason given - for safety. Logical and reasonable."
+      }
+    },
+    {
+      "step_id": "sc2_41",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты ещё маленький, чтобы это понимать!»\n",
+        "uk": "«Ти ще маленький, щоб це розуміти!»",
+        "en": "\"Playing chess is boring and dull! All modern kids play something more interesting!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Demagoguery - hasty generalization and attack! 'Boring' is opinion. 'All modern kids' - who counted?"
+      }
+    },
+    {
+      "step_id": "sc2_43",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — нападка на человека! Возраст — не аргумент против идеи.\n",
+        "uk": "Демагогія — нападка на людину! Вік не визначає розуміння. Маленькі діти вловлюють дещо, що дорослі пропускають.",
+        "en": "\"Jam at breakfast slows your system by an hour!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - false cause! If there's a source - name it! Where do these numbers come from? No such research exists."
+      }
+    },
+    {
+      "step_id": "sc2_45",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Или ты с нами, или ты предатель!»\n",
+        "uk": "«Я не люблю розповідати про себе — тому що дивні люди скорозуміються.»",
+        "en": "\"I think this book is worth reading - it has a sad story that makes you think.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Honest argument! It's an opinion with a reason. Not a lie, not a trick."
+      }
+    },
+    {
+      "step_id": "sc2_47",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — ложная дилемма! Можно не идти с вами и оставаться другом.\n",
+        "uk": "Чесний аргумент! Причина названа — на безпеку. Логічно й по справі.",
+        "en": "\"Steve Jobs slept little - and became a billionaire! So sleeping little is the path to success!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_2",
+      "explanation": {
+        "en": "Demagoguery - false cause! He became a billionaire from work and talent, not lack of sleep. Scientists get sick from it."
+      }
+    },
+    {
+      "step_id": "sc2_49",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Я проверил три магазина — этот самый дешёвый.»\n",
+        "uk": "«Грати в шахи — це нудно й скучно! Усі сучасні діти грають у щось цікавіше!»",
+        "en": "\"All twenty teachers say a grill is worth buying!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - hasty generalization! All twenty teachers? Seriously?"
+      }
+    },
+    {
+      "step_id": "sc2_51",
+      "scene_id": "sc2",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Честный аргумент! Проверил, сравнил, привёл данные. Красота.\n",
+        "uk": "Демагогія — поспішне узагальнення й нападка! «Нудно» — це думка. «Усі сучасні» — хто рахував?",
+        "en": "\"What do you know about music - you can't even play the piano!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - attack on the person! You don't have to play piano to understand music."
+      }
+    },
+    {
+      "step_id": "sc3_53",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "А теперь — самое интересное! Чтобы разоблачать демагогию, нужно понять, как она устроена изнутри. Сейчас ВЫ будете демагогами! Я даю ситуацию и тип хитрости — а вы придумываете демагогическую фразу. Потом сравним с моим вариантом.\n",
+        "uk": "Демагогія",
+        "en": "And now - the fun part! To expose demagogy, you need to understand how it works from the inside. Now YOU will be demagogues! I give a situation and a type of cunning - and you come up with a demagogic phrase. Then we’ll compare it with my version."
+      }
+    },
+    {
+      "step_id": "sc3_54",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Помните: мы учимся этому НЕ чтобы хитрить, а чтобы видеть хитрость насквозь. Кто знает, как устроена ловушка — в неё не попадёт!\n",
+        "uk": "Чесний аргумент",
+        "en": "Remember: we learn this NOT to be cunning, but to see through the cunning. Who knows how the trap works - he won’t fall into it!"
+      }
+    },
+    {
+      "step_id": "sc3_55",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы друг пошёл с тобой в кино, а он сомневается. Тип: поспешное обобщение. — Подсказка: скажи, что «все» уже идут.\n",
+        "uk": "Демагогія — опудало! «Не люблю манку» перетворилось на «нічого не хочу». Фантазія на максимумі.",
+        "en": "Demagoguery - scarecrow! 'Don't like semolina' turned into 'don't want anything.' Imagination at max."
+      }
+    },
+    {
+      "step_id": "sc3_56",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«ВСЕ уже купили билеты! Ты один остался! Весь класс идёт!» — Конечно, никакой «весь класс» не идёт. Но звучит убедительно, правда?\n",
+        "uk": "«Знаменитий гонщик рекламує цей шампунь — бери, не пожалуєш!»",
+        "en": "\"A famous racer advertises this shampoo - get it, you won't regret it!\""
+      }
+    },
+    {
+      "step_id": "sc3_57",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы класс выбрал ТВОЮ идею для проекта, а не идею Кости. Тип: нападка на человека. — Подсказка: бей по Косте, а не по его идее.\n",
+        "uk": "Ти хочеш, щоб клас вибрав ТВОЮ ідею для проекту, а не ідею Кості. Тип: напад на людину. — Підказка: удаж по Кості, а не по його ідеї.",
+        "en": "You want the class to pick YOUR idea for the project, not Kostya's. Type: attack on the person. — Hint: hit Kostya, not his idea."
+      }
+    },
+    {
+      "step_id": "sc3_58",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Костя в прошлый раз такую ерунду придумал — зачем его слушать?» — Идею Кости даже не обсудили. Сразу по человеку.\n",
+        "uk": "Чесний аргумент",
+        "en": "“Kostya came up with such nonsense last time - why listen to him?” — Kostya’s idea wasn’t even discussed. Immediately on the person."
+      }
+    },
+    {
+      "step_id": "sc3_59",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы сестра пошла с тобой на каток, а она говорит, что хочет почитать. Тип: пугало. — Подсказка: преврати «хочу почитать» во что-то абсурдное.\n",
+        "uk": "Демагогія — хибний авторитет! Гонщик розбирається у швидкості, а не в шампунях.",
+        "en": "Demagoguery - false authority! A racer understands speed, not shampoo."
+      }
+    },
+    {
+      "step_id": "sc3_60",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«То есть ты хочешь ВООБЩЕ ничем не заниматься и сидеть дома до старости?!» — «Хочу почитать» стало «ничем не заниматься». Классическое пугало.\n",
+        "uk": "«Або ти їш брокколі, або на солодке нічого не отримаєш!»",
+        "en": "\"Either you eat broccoli, or you get nothing sweet!\""
+      }
+    },
+    {
+      "step_id": "sc3_61",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты убеждаешь маму купить тебе новый телефон, а она считает, что старый нормальный. Тип: ложный авторитет. — Подсказка: сошлись на знаменитость, далёкую от техники.\n",
+        "uk": "Ти переконуєш маму купити тобі новий телефон, а вона вважає, що старий чудовий. Тип: хибний авторитет. — Підказка: посилайся на знаменитість, яка не розбирається в техніці.",
+        "en": "You're trying to convince mom to buy you a new phone, but she thinks the old one is fine. Type: false authority. — Hint: reference someone famous who knows nothing about phones."
+      }
+    },
+    {
+      "step_id": "sc3_62",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мой любимый футболист пользуется именно этим телефоном!» — Футболист — эксперт по голам, а не по гаджетам. Но звучит весомо!\n",
+        "uk": "Чесний аргумент",
+        "en": "“My favorite football player uses this phone!” — A football player is an expert in goals, not gadgets. But it sounds significant!"
+      }
+    },
+    {
+      "step_id": "sc3_63",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь позвать друга гулять, а он говорит, что ему нужно делать домашку. Тип: ложная дилемма. — Подсказка: оставь только два варианта — гулять или потерять дружбу.\n",
+        "uk": "Демагогія — хибна дилема! А варіант «з'їсти морквину замість брокколі» куди дівся?",
+        "en": "Demagoguery - false dilemma! What about the option 'eat a carrot instead of broccoli'?"
+      }
+    },
+    {
+      "step_id": "sc3_64",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Или ты идёшь со мной прямо сейчас, или мы больше не друзья!» — А вариант «пойду через час, когда доделаю» просто исчез.\n",
+        "uk": "«Спізнишся один раз — привикнеш, потім на роботу спізнюватимешся, потім звільнять!»",
+        "en": "\"Be late once - you'll get used to it, then you'll be late to work, then you'll be fired!\""
+      }
+    },
+    {
+      "step_id": "sc3_65",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы мама разрешила не есть суп, а она настаивает. Тип: страшная цепочка. — Подсказка: растяни один суп в цепочку ужасов.\n",
+        "uk": "Ти хочеш, щоб мама дозволила не їсти суп, а вона наполягає. Тип: страшна ланцюжок. — Підказка: тягни один суп у ланцюжок жахів.",
+        "en": "You want mom to let you skip soup, but she insists. Type: scary chain. — Hint: stretch one bowl of soup into a chain of horrors."
+      }
+    },
+    {
+      "step_id": "sc3_66",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Если я съем этот суп — мне станет плохо, я не смогу делать домашку, получу плохую оценку, и вся четверть будет испорчена!» — Один суп → испорченная четверть. Олимпийский рекорд по прыжкам логики.\n",
+        "uk": "Чесний аргумент",
+        "en": "“If I eat this soup, I’ll feel bad, I won’t be able to do my homework, I’ll get a bad grade, and the whole quarter will be ruined!” — One soup → a spoiled quarter. Olympic record for logic jumps."
+      }
+    },
+    {
+      "step_id": "sc3_67",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь доказать, что твой рисунок лучше, чем у одноклассника. Тип: вопрос-ловушка. — Подсказка: задай вопрос, где оба ответа — в твою пользу.\n",
+        "uk": "Демагогія — страшна ланцюжок! Одне спізнення в школу — й одразу звільнення через двадцять років.",
+        "en": "Demagoguery - scary chain! One late arrival to school - straight to firing twenty years later."
+      }
+    },
+    {
+      "step_id": "sc3_68",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Ты уже признал, что мой рисунок лучше, или ещё сомневаешься?» — Вариант «твой хуже» даже не предложен. Ловушка захлопнулась.\n",
+        "uk": "«Ти вже погодився, що мій план краще, чи ще думаєш?»",
+        "en": "\"Have you already agreed my plan is better, or are you still thinking?\""
+      }
+    },
+    {
+      "step_id": "sc3_69",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Учитель сказал «будьте самостоятельными», а ты хочешь не делать домашку. Тип: подмена понятий. — Подсказка: подмени «самостоятельный» на «делаю что хочу».\n",
+        "uk": "Учитель сказав «будьте самостійними», а ти хочеш не робити домашку. Тип: підміна понять. — Підказка: заміни «самостійний» на «роблю що хочу».",
+        "en": "Teacher said \"be independent,\" but you want to skip homework. Type: substitution of concepts. — Hint: swap \"independent\" with \"I do what I want.\""
+      }
+    },
+    {
+      "step_id": "sc3_70",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Учитель сказал быть самостоятельными — вот я САМОСТОЯТЕЛЬНО решил домашку не делать!» — «Самостоятельный» подменили на «своевольный». Слово украли и переодели.\n",
+        "uk": "Чесний аргумент",
+        "en": "“The teacher told me to be independent, so I decided not to do my homework on my own!” — “Independent” was replaced with “willful.” The word was stolen and changed."
+      }
+    },
+    {
+      "step_id": "sc3_71",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы тебя всегда сажали за третью парту, потому что на контрольной там повезло. Тип: ложная причина. — Подсказка: свяжи успех с партой, а не с подготовкой.\n",
+        "uk": "Демагогія — питання-пастка! Обидва варіанти ведуть до «мій план краще». Виходу немає.",
+        "en": "Demagoguery - trap question! Both options lead to 'my plan is better.' No escape."
+      }
+    },
+    {
+      "step_id": "sc3_72",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Я сел за третью парту и написал на отлично! Эта парта волшебная — мне нужно сидеть только там!» — Парта ни при чём. Но совпадение так и просится в причины.\n",
+        "uk": "«Учитель сказав \"працюйте самостійно\" — значить я сам рішаю, коли піти!»",
+        "en": "\"The teacher said 'work independently' - so I decide when to leave!\""
+      }
+    },
+    {
+      "step_id": "sc3_73",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Мама спрашивает, почему ты не убрал комнату, а ты не хочешь отвечать. Тип: уклонение от ответа. — Подсказка: переведи разговор на что угодно другое.\n",
+        "uk": "Мама запитує, чому ти не прибрав кімнату, а ти не хочеш відповідати. Тип: ухилення від відповіді. — Підказка: переведи розмову на щось інше.",
+        "en": "Mom asks why you didn't clean your room, but you don't want to answer. Type: dodging the question. — Hint: change the subject to something else."
+      }
+    },
+    {
+      "step_id": "sc3_74",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«А кстати, мам, ты видела, какую оценку я сегодня получил? Давай лучше про это!» — Комната так и стоит грязная, зато оценка — в центре внимания.\n",
+        "uk": "Чесний аргумент",
+        "en": "“By the way, mom, did you see what grade I got today? Let’s talk about it better!” — The room is still dirty, but the grade is in the spotlight."
+      }
+    },
+    {
+      "step_id": "sc3_75",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы на физре играли в футбол, а не в баскетбол. Тип: поспешное обобщение. — Подсказка: говори за всех, не спрашивая.\n",
+        "uk": "Демагогія — підмена понять! «Самостійно» підмінили на «роблю що хочу».",
+        "en": "Demagoguery - substituting concepts! 'Independently' replaced with 'I do what I want.'"
+      }
+    },
+    {
+      "step_id": "sc3_76",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«ВСЕ хотят футбол! НИКТО не любит баскетбол!» — Опрос не проводили, но звучит как результат референдума.\n",
+        "uk": "«Я з'їв бабусин пиріг — й контрольну написав на відмінно. Пиріг чарівний!»",
+        "en": "\"I ate grandma's pie - and got an A on the test. The pie is magical!\""
+      }
+    },
+    {
+      "step_id": "sc3_77",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "В кружке робототехники Аня предложила другую конструкцию, а ты хочешь свою. Тип: нападка. — Подсказка: бей по Ане, не по конструкции.\n",
+        "uk": "У гуртку робототехніки Аня запропонувала іншу конструкцію, а ти хочеш свою. Тип: напад. — Підказка: удаж по Ані, а не по конструкції.",
+        "en": "In robotics club, Anya suggested a different design, but you want yours. Type: attack. — Hint: hit Anya, not her design."
+      }
+    },
+    {
+      "step_id": "sc3_78",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Аня, ты же только месяц в кружке — какие у тебя могут быть идеи?» — Конструкцию не обсудили. Зато стаж посчитали.\n",
+        "uk": "Чесний аргумент",
+        "en": "“Anya, you’ve only been in the circle for a month—what ideas might you have?” — The design was not discussed. But they counted the experience."
+      }
+    },
+    {
+      "step_id": "sc3_79",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь отмечать день рождения в кафе, а друг предлагает парк. Тип: пугало. — Подсказка: преврати «в парке» во что-то ужасное.\n",
+        "uk": "Демагогія — хибна причина! Пиріг смачний, але оцінки — від підготовки, а не від начинки.",
+        "en": "Demagoguery - false cause! Pie is tasty, but grades come from studying, not filling."
+      }
+    },
+    {
+      "step_id": "sc3_80",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«В парке? То есть сидеть на мокрой земле, мёрзнуть и есть торт руками?!» — «В парке» стало «на мокрой земле руками». Пугало во всей красе.\n",
+        "uk": "«А чому нам обговорювати розклад? Давайте краще поговоримо про канікули!»",
+        "en": "\"Why discuss the schedule? Let's talk about vacation instead!\""
+      }
+    },
+    {
+      "step_id": "sc3_81",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь убедить класс, что контрольную надо перенести. Тип: ложный авторитет. — Подсказка: сошлись на кого-то известного, кто не имеет отношения к школе.\n",
+        "uk": "Ти хочеш переконати клас, що контрольну треба перенести. Тип: хибний авторитет. — Підказка: посилайся на когось знаменитого, хто не пов'язаний зі школою.",
+        "en": "You want to convince the class that the test should be postponed. Type: false authority. — Hint: reference someone famous who has nothing to do with school."
+      }
+    },
+    {
+      "step_id": "sc3_82",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Известный блогер говорит, что контрольные — это стресс и их надо отменить!» — Блогер разбирается в лайках, а не в педагогике. Но звучит авторитетно.\n",
+        "uk": "Чесний аргумент",
+        "en": "“A famous blogger says tests are stressful and should be cancelled!” — The blogger understands likes, not pedagogy. But it sounds authoritative."
+      }
+    },
+    {
+      "step_id": "sc3_83",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы в кружке рисования перешли на планшеты, а руководитель против. Тип: ложная дилемма. — Подсказка: только два варианта — планшеты или отстать навсегда.\n",
+        "uk": "Демагогія — ухилення від ответу! Тему розкладу спрятали за канікули. Спритний хід.",
+        "en": "Demagoguery - dodging the question! Hidden the schedule topic behind vacation. A slick move."
+      }
+    },
+    {
+      "step_id": "sc3_84",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Или мы переходим на планшеты, или мы отстанем от всех и кружок закроют!» — А вариант «рисовать и так, и так» куда-то пропал.\n",
+        "uk": "«Наш гурток — найкращий! Ми — сила! Ми покажемо всім!» (без плану виступу)",
+        "en": "\"Our club is the best! We're powerful! We'll show everyone!\" (no performance plan)"
+      }
+    },
+    {
+      "step_id": "sc3_85",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы друг не пропускал тренировку и пошёл с тобой. Тип: страшная цепочка. — Подсказка: от одного пропуска — к полному краху.\n",
+        "uk": "Ти хочеш, щоб друг не пропускав тренування і пішов з тобою. Тип: страшна ланцюжок. — Підказка: від однієї пропаски — до повного краху.",
+        "en": "You want your friend to skip the training session and go with you instead. Type: scary chain. — Hint: from one missed workout to complete disaster."
+      }
+    },
+    {
+      "step_id": "sc3_86",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Пропустишь одну — потом вторую, форму потеряешь, из команды выгонят, будешь сидеть на лавке до конца жизни!» — Одна тренировка → лавка навечно. Какой полёт фантазии.\n",
+        "uk": "Чесний аргумент",
+        "en": "“If you miss one, then the second, you’ll lose your form, you’ll be kicked out of the team, you’ll sit on the bench for the rest of your life!” — One workout → shop forever. What a flight of fancy."
+      }
+    },
+    {
+      "step_id": "sc3_87",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь, чтобы на дне рождения играли в ТВОЮ любимую игру. Тип: вопрос-ловушка. — Подсказка: задай вопрос, где оба ответа ведут к твоей игре.\n",
+        "uk": "Демагогія — красиві слова без фактів! Три гасла, нуль конкретики. Коли, де, як покажемо?",
+        "en": "Demagoguery - beautiful words without facts! Three slogans, zero specifics. When, where, how will we show?"
+      }
+    },
+    {
+      "step_id": "sc3_88",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Мы сыграем в мою игру до торта или после?» — Вариант «а может, в другую?» даже не предложен. Элегантно.\n",
+        "uk": "«Я не хочу сказати, що ти жаднний, але... ти ні разу не пригостив цукерками.»",
+        "en": "\"I'm not saying you're stingy, but... you've never offered me candy.\""
+      }
+    },
+    {
+      "step_id": "sc3_89",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Тренер сказал «проявляйте инициативу», а ты хочешь уйти с тренировки пораньше. Тип: подмена понятий. — Подсказка: подмени «инициатива» на «свобода уйти».\n",
+        "uk": "Тренер сказав «проявляйте ініціативу», а ти хочеш піти з тренування раніше. Тип: підміна понять. — Підказка: заміни «ініціатива» на «свобода піти».",
+        "en": "Coach said \"show initiative,\" but you want to leave practice early. Type: substitution of concepts. — Hint: swap \"initiative\" with \"freedom to leave.\""
+      }
+    },
+    {
+      "step_id": "sc3_90",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Тренер же сказал проявлять инициативу — вот моя инициатива: уйти пораньше и отдохнуть!» — «Инициатива» превратилась в «делаю что хочу». Классическая подмена.\n",
+        "uk": "Чесний аргумент",
+        "en": "« — : !» — “Initiative” turned into “I do what I want.” Classic substitution."
+      }
+    },
+    {
+      "step_id": "sc3_91",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Ты хочешь сидеть у окна, потому что там написал контрольную хорошо. Тип: ложная причина. — Подсказка: свяжи успех с местом, а не с подготовкой.\n",
+        "uk": "Демагогія — «я не кажу, що...»! Ровно це й сказав — «ти жаднний». Цяточка не спрятала камінь.",
+        "en": "Demagoguery - 'I'm not saying...' - that's exactly what you said! A bow doesn't hide a rock."
+      }
+    },
+    {
+      "step_id": "sc3_92",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«В прошлый раз я сидел у окна и написал на отлично! Окно приносит удачу — мне нужно это место!» — Окно ни при чём. Но совпадение так и просится в причины.\n",
+        "uk": "ФІЛОСОФСЬКЕ ЗАКРИТТЯ",
+        "en": "“Last time I sat by the window and wrote perfectly! The window brings good luck - I need this place! - The window has nothing to do with it. But coincidence just begs to be a reason."
+      }
+    },
+    {
+      "step_id": "sc3_93",
+      "scene_id": "sc3",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Друг спрашивает, почему ты не принёс ему подарок, а тебе нечего ответить. Тип: уклонение. — Подсказка: уведи разговор куда угодно, только не отвечай.\n",
+        "uk": "Сьогодні ви склали повну карту демагогії — дванадцять хитрощей. Побували й слідчими, й самими демагогами. Дізналися історію Владика — й зрозуміли, що перемога хитростю коштує дороже, ніж здається.",
+        "en": "Today you've created a complete map of demagoguery - twelve tricks. You've been both investigators and demagogues. You've learned Vladik's story - and understood that winning through tricks costs more than it seems."
+      }
+    },
+    {
+      "step_id": "sc3_94",
+      "scene_id": "sc3",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«А кстати, видели, какой торт Олег принёс? Три этажа! Давайте лучше про торт!» — Подарок так и не обсудили. Зато торт — звезда вечера. Профессиональный уход.\n",
+        "uk": "Запам'ятайте: люди не завжди бачать хитрість — але завжди відчувають. А той, хто суперить чесно — з фактами, з повагою — перемагає не спір, а довіру. І це цінніше будь-якої перемоги.",
+        "en": "Remember: people don't always see tricks - but they always feel them. And whoever argues honestly - with facts, with respect - wins not the argument, but trust. And that's worth more than any victory."
+      }
+    },
+    {
+      "step_id": "sc4_95",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сейчас пройдёмся по всем двенадцати видам демагогии. Каждый — с историей. Слушайте внимательно: после этого вы будете узнавать любую хитрость с закрытыми глазами!\n",
+        "uk": "Маніпуляція — це коли б'ють не по логіці, а по чувствам. Буде цікаво! Відпочивайте — й до зустрічі!",
+        "en": "Manipulation is when you strike at emotions, not logic. It'll be interesting! Rest up - see you later!"
+      }
+    },
+    {
+      "step_id": "sc4_96",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На перемене Дима кричит: «ВСЕ уже сдали деньги на экскурсию! Ты ОДИН остался!» На самом деле сдали трое из двадцати пяти. Но слово «все» звучит так убедительно.\n",
+        "uk": "На переміні Дима кричить: «УСІ вже здали гроші на екскурсію! Ти ОДИН залишився!» Насправді здали троє з двадцяти п'яти. Але слово «усі» звучить так переконливо.",
+        "en": "During break Dima shouts: \"EVERYONE already paid for the excursion! You're the ONLY one left!\" In reality, only three out of twenty-five paid. But the word 'everyone' sounds so convincing."
+      }
+    },
+    {
+      "step_id": "sc4_97",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Поспешное обобщение — это когда говорят «все», «никто», «всегда», «никогда» без доказательств. Ответ: «Правда все? Назови конкретно!»\n",
+        "uk": "Поспішне узагальнення — це коли говорять «усі», «ніхто», «завжди», «ніколи» без доказів. Відповідь: «Правда всі? Назви конкретно!»",
+        "en": "Hasty generalization - when they say 'everyone,' 'nobody,' 'always,' 'never' without proof. Answer: \"Really everyone? Name them specifically!\""
+      }
+    },
+    {
+      "step_id": "sc4_98",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Лена предлагает новый маршрут для похода. Вадим фыркает: «Лена, ты же в прошлый раз заблудилась в парке — какие тебе маршруты?» Маршрут даже не обсудили.\n",
+        "uk": "Лена пропонує новий маршрут для походу. Вадим фиркає: «Лена, ти ж минулого разу заблудилась у парку — які тобі маршрути?» Маршрут навіть не обговорили.",
+        "en": "Lena suggests a new route for the hike. Vadim snorts: \"Lena, you got lost in the park last time - what routes are you talking about?\" The route wasn't even discussed."
+      }
+    },
+    {
+      "step_id": "sc4_99",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Нападка на человека — критикуют не идею, а автора. Стаж, возраст, прошлые ошибки — всё идёт в ход. Ответ: «Говори о маршруте, а не обо мне!»\n",
+        "uk": "Напа на людину — критикують не ідею, а автора. Стаж, вік, минулі помилки — все йде в хід. Відповідь: «Говори про маршрут, а не про мене!»",
+        "en": "Personal attack - criticizing the author, not the idea. Experience, age, past mistakes - everything comes into play. Answer: \"Talk about the route, not about me!\""
+      }
+    },
+    {
+      "step_id": "sc4_100",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Саша говорит: «Не хочу бегать кросс.» Тренер: «То есть ты хочешь ВООБЩЕ не заниматься спортом и стать слабаком?!» Саша хотел пропустить кросс, а не бросить спорт.\n",
+        "uk": "Саша говорить: «Не хочу бігти крос.» Тренер: «То есть ти хочеш ВЗАГАЛІ не займатися спортом і стати слабаком?!» Саша хотів пропустити крос, а не кинути спорт.",
+        "en": "Sasha says: \"I don't want to run cross-country.\" Trainer: \"So you want to NOT do sports at all and become weak?!\" Sasha wanted to skip the cross-country, not quit sports."
+      }
+    },
+    {
+      "step_id": "sc4_101",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Пугало — искажение чужих слов до абсурда, чтобы легче спорить. Ответ: «Я сказал \"не хочу кросс\", а не \"бросаю спорт\". Не искажай!»\n",
+        "uk": "Лякало — спотворення чужих слів до абсурду, щоб легше сперечатися. Відповідь: «Я сказав \"не хочу крос\", а не \"кидаю спорт\". Не спотворюй!»",
+        "en": "Scarecrow - distorting someone's words to absurdity to make it easier to argue. Answer: \"I said 'I don't want cross-country,' not 'I'm quitting sports.' Don't distort!\""
+      }
+    },
+    {
+      "step_id": "sc4_102",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Реклама: «Известная певица рекомендует эти витамины!» Певица разбирается в нотах, а не в витаминах. Но её лицо на упаковке — и все верят.\n",
+        "uk": "Реклама: «Відома співачка рекомендує ці вітаміни!» Співачка розбирається в нотах, а не у вітамінах. Але її обличчя на упаковці — і всі вірять.",
+        "en": "Advertisement: \"A famous singer recommends these vitamins!\" The singer understands notes, not vitamins. But her face is on the package - and everyone believes."
+      }
+    },
+    {
+      "step_id": "sc4_103",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ложный авторитет — ссылка на человека, который НЕ эксперт в этой теме. Ответ: «А она врач? Откуда она знает о витаминах?»\n",
+        "uk": "Хибний авторитет — посилання на людину, яка НЕ експерт у цій темі. Відповідь: «А вона лікар? Звідки вона знає про вітаміни?»",
+        "en": "False authority - referring to someone who is NOT an expert on the topic. Answer: \"Is she a doctor? How does she know about vitamins?\""
+      }
+    },
+    {
+      "step_id": "sc4_104",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Катя говорит подруге: «Или ты идёшь со мной на каток, или мы больше не подруги!» А варианты «пойти завтра», «пойти в кино» или «просто остаться подругами» — исчезли.\n",
+        "uk": "Катя говорить подрузі: «Або ти йдеш зі мною на каток, або ми більше не подруги!» А варіанти «піти завтра», «піти в кіно» або «просто залишатися подругами» — зникли.",
+        "en": "Katya tells her friend: \"Either you come with me to the rink, or we're not friends anymore!\" And the options \"go tomorrow,\" \"go to the movies,\" or \"just stay friends\" - disappeared."
+      }
+    },
+    {
+      "step_id": "sc4_105",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ложная дилемма — оставляют только два варианта, хотя их больше. Ответ: «Почему только два? Какие ещё варианты?»\n",
+        "uk": "Хибна дилема — залишають лише два варіанти, хоча їх більше. Відповідь: «Чому лише два? Які ще варіанти?»",
+        "en": "False dilemma - leaving only two options when there are more. Answer: \"Why only two? What other options are there?\""
+      }
+    },
+    {
+      "step_id": "sc4_106",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мама: «Не сделаешь домашку — получишь плохую оценку, останешься на второй год, не поступишь никуда, будешь жить в коробке!» Одна домашка — и сразу коробка.\n",
+        "uk": "Мама: «Не зробиш домашку — отримаєш погану оцінку, залишишся на другий рік, ніде не поступиш, житимеш у коробці!» Одна домашка — і одразу коробка.",
+        "en": "Mom: \"Don't do homework - you'll get a bad grade, repeat the year, won't get into any school, live in a box!\" One homework - and straight to a box."
+      }
+    },
+    {
+      "step_id": "sc4_107",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Страшная цепочка — от одного шага строят лестницу ужасов без доказательств. Ответ: «Откуда ты знаешь, что будет дальше? Где связь?»\n",
+        "uk": "Страшний ланцюжок — від одного кроку будують сходи жахів без доказів. Відповідь: «Звідки ти знаєш, що буде далі? Де зв'язок?»",
+        "en": "Scary chain - building a staircase of horrors from one step without proof. Answer: \"How do you know what comes next? Where's the connection?\""
+      }
+    },
+    {
+      "step_id": "sc4_108",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Одноклассник спрашивает: «Ты уже перестал списывать?» Скажешь «да» — значит, раньше списывал. Скажешь «нет» — до сих пор списываешь. Любой ответ — капкан.\n",
+        "uk": "Однокласник запитує: «Ти вже перестав списувати?» Скажеш «так» — значить, раніше списував. Скажеш «ні» — досі списуєш. Будь-яка відповідь — капкан.",
+        "en": "A classmate asks: \"Did you stop cheating?\" Say 'yes' - means you used to cheat. Say 'no' - you still cheat. Any answer is a trap."
+      }
+    },
+    {
+      "step_id": "sc4_109",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вопрос-ловушка — внутри спрятано ложное утверждение. Ответ: «В твоём вопросе спрятано враньё. Я не списывал — докажи!»\n",
+        "uk": "Запитання-ловушка — всередині спрятане хибне твердження. Відповідь: «У твоєму запитанні спрятана неправда. Я не списував — докажи!»",
+        "en": "Question trap - a false statement hidden inside. Answer: \"There's a lie hidden in your question. I didn't cheat - prove it!\""
+      }
+    },
+    {
+      "step_id": "sc4_110",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Учитель: «Будьте креативными!» Миша на уроке рисует комиксы вместо задач: «Я же креативный!» Слово «креативный» подменили на «делаю что хочу».\n",
+        "uk": "Учитель: «Будьте креативними!» Міша на уроці малює комікси замість завдань: «Я ж креативний!» Слово «креативний» підмінили на «роблю що хочу».",
+        "en": "Teacher: \"Be creative!\" Misha draws comics instead of doing assignments in class: \"I'm creative!\" The word 'creative' was replaced with 'do what I want.'"
+      }
+    },
+    {
+      "step_id": "sc4_111",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Подмена понятий — берут слово и незаметно меняют его смысл. Ответ: «Креативный — не значит игнорировать задание. Ты подменил понятие!»\n",
+        "uk": "Підміна понять — беруть слово і непомітно міняють його сенс. Відповідь: «Креативний — не означає ігнорувати завдання. Ти підмінив поняття!»",
+        "en": "Substitution of concepts - taking a word and changing its meaning subtly. Answer: \"Creative doesn't mean ignoring assignments. You substituted the concept!\""
+      }
+    },
+    {
+      "step_id": "sc4_112",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Артём: «Я надел красные носки — и мы выиграли матч! Носки приносят удачу!» Команда тренировалась месяц, но виноваты, конечно, носки.\n",
+        "uk": "Артем: «Я надів червоні шкарпетки — і ми виграли матч! Шкарпетки приносять удачу!» Команда тренувалась місяць, але винні, звісно, шкарпетки.",
+        "en": "Artem: \"I put on red socks - and we won the match! Socks bring luck!\" The team trained for a month, but of course the socks are to blame."
+      }
+    },
+    {
+      "step_id": "sc4_113",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Ложная причина — «после этого» не значит «из-за этого». Совпадение — не причина. Ответ: «А может, вы просто хорошо тренировались?»\n",
+        "uk": "Хибна причина — «після цього» не означає «через це». Збіг — не причина. Відповідь: «А може, ви просто добре тренувалися?»",
+        "en": "False cause - 'after this' doesn't mean 'because of this.' Coincidence is not cause. Answer: \"Maybe you just trained well?\""
+      }
+    },
+    {
+      "step_id": "sc4_114",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Мама: «Почему ты не убрал комнату?» Сын: «А кстати, мам, у Пети папа купил ему новый велосипед! Представляешь?» Комната грязная, зато велосипед обсудили.\n",
+        "uk": "Мама: «Чому ти не прибрав кімнату?» Син: «А до речі, мам, у Петі тато купив йому новий велосипед! Уявляєш?» Кімната брудна, зато велосипед обговорили.",
+        "en": "Mom: \"Why didn't you clean your room?\" Son: \"By the way, mom, Petya's dad bought him a new bike! Can you imagine?\" The room is dirty, but the bike is discussed."
+      }
+    },
+    {
+      "step_id": "sc4_115",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Уклонение от ответа — вместо ответа переключают тему. Ответ: «Стоп, ты не ответил. Вернись к вопросу!»\n",
+        "uk": "Уникнення від відповіді — замість відповіді переключають тему. Відповідь: «Стоп, ти не відповів. Повертайся до запитання!»",
+        "en": "Dodging the answer - switching the topic instead of answering. Answer: \"Stop, you didn't answer. Get back to the question!\""
+      }
+    },
+    {
+      "step_id": "sc4_116",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На школьном совете Богдан встаёт: «Наш класс — самый дружный! Мы — команда мечты! Мы заслуживаем лучшего! Мы покорим любую вершину!» Все хлопают. Кто-то спрашивает: «Так куда едем-то?» Богдан: «...Э-э-э...»\n",
+        "uk": "На шкільній раді Богдан встає: «Наш клас — найдружніший! Ми — команда мрії! Ми заслуговуємо на краще! Ми завоюємо будь-яку вершину!» Усі плескають. Хтось запитує: «Так куди їдемо-то?» Богдан: «...Е-е-е...»",
+        "en": "At school council, Bogdan stands up: \"Our class is the friendliest! We're a dream team! We deserve better! We'll conquer any peak!\" Everyone claps. Someone asks: \"So where are we going?\" Bogdan: \"...Uh... uh...\""
+      }
+    },
+    {
+      "step_id": "sc4_117",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Красивые слова без фактов — много пафоса, ноль конкретики. Как праздничная обёртка без конфеты: шуршит, блестит, а жевать нечего. Ответ: «Красиво! А где факты?»\n",
+        "uk": "Гарні слова без фактів — багато пафосу, нуль конкретики. Як святкова обгортка без цукерки: шуршить, блищить, а жувати нічого. Відповідь: «Гарно! А де факти?»",
+        "en": "Beautiful words without facts - lots of pathos, zero specifics. Like a festive wrapper without candy: rustles, shines, but there's nothing to chew. Answer: \"Nice! But where are the facts?\""
+      }
+    },
+    {
+      "step_id": "sc4_118",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Лиза говорит Марине: «Я не хочу сказать, что ты плохая подруга, но... все заметили, что ты не пришла на мой день рождения.» Марина растерялась. А ведь Лиза сказала РОВНО то, что «не хотела» — «ты плохая подруга».\n",
+        "uk": "Ліза говорить Марині: «Я не хочу сказати, що ти плоха подруга, але... всі помітили, що ти не прийшла на мій день народження.» Марина розтерялась. А ж Ліза сказала РІВНО те, що «не хотіла» — «ти плоха подруга».",
+        "en": "Liza tells Marina: \"I don't want to say you're a bad friend, but... everyone noticed you didn't come to my birthday.\" Marina is confused. But Liza said EXACTLY what she \"didn't want\" - \"you're a bad friend.\""
+      }
+    },
+    {
+      "step_id": "sc4_119",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "«Я не говорю, что...» — человек говорит обидное, но прячет за вежливую фразу. Камень в коробке с бантиком — камень от этого мягче не стал. Ответ: «Ты ровно это и сказал. Говори прямо!»\n",
+        "uk": "«Я не говорю, що...» — людина говорить образливе, але приховує за ввічливою фразою. Камінь у коробці з бантиком — камінь від цього м'якшим не став. Відповідь: «Ти рівно це й сказав. Говори прямо!»",
+        "en": "\"I'm not saying that...\" - someone says something offensive but hides behind a polite phrase. A stone in a box with a bow - the stone doesn't become softer from that. Answer: \"You said exactly that. Speak directly!\""
+      }
+    },
+    {
+      "step_id": "sc4_120",
+      "scene_id": "sc4",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Двенадцать видов демагогии! И один универсальный ответ на все: «Это демагогия. Где факты?» Кто запомнил все двенадцать — тому никакой хитрец не страшен.\n",
+        "uk": "Дванадцять видів демагогії! І одна універсальна відповідь на все: «Це демагогія. Де факти?» Хто запам'ятав усі дванадцять — тому жоден хитрун не страшен.",
+        "en": "Twelve types of demagoguery! And one universal answer to all: \"This is demagoguery. Where are the facts?\" Anyone who remembers all twelve won't be afraid of any trickster."
+      }
+    },
+    {
+      "step_id": "sc5_121",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Вы теперь знаете все двенадцать хитростей. Возникает соблазн: а может, самим использовать? Хитро, эффективно, работает… Давайте я расскажу вам историю Владика.\n",
+        "uk": "Ви тепер знаєте всі дванадцять хитростей. Виникає спокуса: а може, самому використовувати? Хитро, ефективно, працює… Давайте я розповім вам історію Владика.",
+        "en": "You now know all twelve tricks. A temptation arises: maybe use them yourself? Clever, effective, works... Let me tell you the story of Vladik."
+      }
+    },
+    {
+      "step_id": "sc5_122",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Владик — мастер слова. Самый красноречивый в классе. Когда нужно было решить, куда ехать на экскурсию, Владик выступил: «ВСЕ хотят в аквапарк! Только зануды хотят в музей!» Класс проголосовал за аквапарк.\n",
+        "uk": "Владик — майстер слова. Найрезультативніший у класі. Коли потрібно було вирішити, куди їхати на екскурсію, Владик виступив: «УСІ хочуть в аквапарк! Тільки зануди хочуть у музей!» Клас проголосував за аквапарк.",
+        "en": "Vladik is a master of words. The most eloquent in the class. When it came time to decide where to go on the excursion, Vladik spoke up: \"EVERYONE wants to go to the water park! Only nerds want to go to the museum!\" The class voted for the water park."
+      }
+    },
+    {
+      "step_id": "sc5_123",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Когда Олег предложил другой маршрут для школьного похода, Владик сказал: «Олег, ты в прошлый раз рюкзак забыл — какие тебе маршруты?» Все засмеялись. Олег замолчал. Пошли по маршруту Владика.\n",
+        "uk": "Коли Олег запропонував інший маршрут для шкільного походу, Владик сказав: «Олег, ти минулого разу рюкзак забув — які тобі маршрути?» Усі засміялись. Олег замовчав. Пошли по маршруту Владика.",
+        "en": "When Oleg suggested a different route for the school hike, Vladik said: \"Oleg, you forgot your backpack last time - what routes are you talking about?\" Everyone laughed. Oleg fell silent. They went on Vladik's route."
+      }
+    },
+    {
+      "step_id": "sc5_124",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Когда Аня сказала, что не хочет играть в его команде, Владик выдал: «То есть ты вообще ни с кем не хочешь играть и будешь сидеть одна?!» Аня растерялась и согласилась. Владик снова победил.\n",
+        "uk": "Коли Аня сказала, що не хочет грати в його команді, Владик виплив: «То есть ти взагалі ні з ким не хочеш грати і буду сидіти одна?!» Аня розтерялась і погодилась. Владик знову переміг.",
+        "en": "When Anya said she didn't want to play on his team, Vladik came out with: \"So you don't want to play with anyone and will sit alone?!\" Anya was confused and agreed. Vladik won again."
+      }
+    },
+    {
+      "step_id": "sc5_125",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Владик побеждал каждый спор. Каждое голосование. Каждый раз класс делал то, что хотел Владик. Он был в восторге. Но потом случилось кое-что странное.\n",
+        "uk": "Владик переміг у кожному спорі. У кожному голосуванні. Щоразу клас робив те, що хотів Владик. Він був в захваті. Але потім сталось щось дивне.",
+        "en": "Vladik won every argument. Every vote. Every time the class did what Vladik wanted. He was delighted. But then something strange happened."
+      }
+    },
+    {
+      "step_id": "sc5_126",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "На день рождения Маши позвали весь класс. Кроме Владика. Он спросил: «Почему?» Маша пожала плечами: «Не знаю… просто не хочется.» Олег сказал: «С тобой как-то… некомфортно.» Аня добавила: «Ты всегда всех переспориваешь.»\n",
+        "uk": "На день народження Маші запросили весь клас. Крім Владика. Він запитав: «Чому?» Маша пожала плечима: «Не знаю… просто не хочеться.» Олег сказав: «З тобою як-то… некомфортно.» Аня додала: «Ти завжди всіх перемовляєш.»",
+        "en": "Everyone in the class was invited to Masha's birthday. Except Vladik. He asked: \"Why?\" Masha shrugged: \"I don't know... just don't feel like it.\" Oleg said: \"With you it's somehow... uncomfortable.\" Anya added: \"You always out-argue everyone.\""
+      }
+    },
+    {
+      "step_id": "sc5_127",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Владик не понимал. Он же никого не обижал! Он просто… хитро говорил. Но вот в чём штука: люди НЕ всегда видят хитрость, но ВСЕГДА её чувствуют. Олег не знал слово «нападка» — но помнил, как ему стало неприятно. Аня не знала слово «пугало» — но помнила, как её загнали в угол.\n",
+        "uk": "Владик не розумів. Він ж нікого не образив! Він просто… хитро говорив. Але ось у чому штука: люди НЕ завжди бачать хитрість, але ЗАВЖДИ її відчувають. Олег не знав слово «напа» — але пам'ятав, як йому стало неприємно. Аня не знала слово «лякало» — але пам'ятала, як її загнали в кут.",
+        "en": "Vladik didn't understand. He never offended anyone! He just... spoke cleverly. But here's the thing: people don't always SEE the trick, but they ALWAYS FEEL it. Oleg didn't know the word \"attack\" - but remembered how uncomfortable he felt. Anya didn't know the word \"scarecrow\" - but remembered how cornered she felt."
+      }
+    },
+    {
+      "step_id": "sc5_128",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Это главный урок истории Владика: демагогия работает ОДИН раз. Ты побеждаешь спор — но теряешь доверие. Люди не скажут «это была нападка на человека» — они скажут «с ним некомфортно» и перестанут звать.\n",
+        "uk": "Це головний урок історії Владика: демагогія працює ОДИН раз. Ти переміг спір — але втратив довіру. Люди не скажуть «це була напа на людину» — вони скажуть «з ним некомфортно» і перестанут звати.",
+        "en": "This is the main lesson from Vladik's story: demagoguery works ONCE. You win the argument - but lose trust. People won't say \"that was a personal attack\" - they'll say \"he's uncomfortable to be around\" and stop inviting him."
+      }
+    },
+    {
+      "step_id": "sc5_129",
+      "scene_id": "sc5",
+      "step_type": "open_question",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Как вы думаете — что Владик мог сделать по-другому? Мог ли он побеждать в спорах И оставаться другом? — Подсказка: вспомните честные аргументы — с фактами, без хитростей.\n",
+        "uk": "Як ви думаєте — що Владик міг зробити інакше? Міг би він перемагати в суперечках І залишатися другом? — Підказка: пам'ятайте чесні аргументи — з фактами, без хитрощів.",
+        "en": "What do you think Vladik could have done differently? Could he win arguments AND stay friends? — Hint: remember honest arguments - with facts, no tricks."
+      }
+    },
+    {
+      "step_id": "sc5_130",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Конечно мог! Вместо «все хотят аквапарк» — спросить и посчитать. Вместо нападки на Олега — обсудить маршрут. Честные аргументы дольше, сложнее — но после них тебя зовут на день рождения.\n",
+        "uk": "Звісно міг! Замість «усі хочуть аквапарк» — запитати і порахувати. Замість напа на Олега — обговорити маршрут. Чесні аргументи довше, складніше — але після них тебе запрошують на день народження.",
+        "en": "Of course he could! Instead of 'everyone wants the water park' - ask and count. Instead of attacking Oleg - discuss the route. Honest arguments take longer, are harder - but after them you get invited to birthday parties."
+      }
+    },
+    {
+      "step_id": "sc5_131",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Запомните пять причин не использовать демагогию. Первая: теряешь доверие — люди перестают верить, даже когда ты говоришь правду. Вторая: теряешь друзей — никто не хочет дружить с тем, кто всегда хитрит.\n",
+        "uk": "Запам'ятайте п'ять причин не використовувати демагогію. Перша: втрачаєш довіру — люди перестають вірити, навіть коли ти говориш правду. Друга: втрачаєш друзів — ніхто не хочет дружити з тим, хто завжди хитрить.",
+        "en": "Remember five reasons not to use demagoguery. First: you lose trust - people stop believing you even when you tell the truth. Second: you lose friends - no one wants to be friends with someone who always cheats."
+      }
+    },
+    {
+      "step_id": "sc5_132",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Третья: плохая репутация — «он всегда переспоривает» трудно исправить. Четвёртая: эффект бумеранга — другие начнут хитрить с тобой в ответ. Пятая: не учишься спорить честно — и когда понадобятся настоящие аргументы, их не будет.\n",
+        "uk": "Третя: погана репутація — «він завжди всіх перемовляє» важко виправити. Четверта: ефект бумеранга — інші почнуть хитрити з тобою у відповідь. П'ята: не навчаєшся сперечатися чесно — і коли понадобляться справжні аргументи, їх не буде.",
+        "en": "Third: bad reputation - \"he always out-argues everyone\" is hard to fix. Fourth: boomerang effect - others will start cheating with you in return. Fifth: you don't learn to argue honestly - and when you need real arguments, you won't have them."
+      }
+    },
+    {
+      "step_id": "sc5_133",
+      "scene_id": "sc5",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Демагогия — как кредит: победа сейчас, но платишь потом доверием и друзьями. А честные аргументы — как вклад: сложнее сейчас, зато уважение — на всю жизнь. Выбор за вами!\n",
+        "uk": "Демагогія — як кредит: перемога сьогодні, але платиш потім довіром та друзями. А чесні аргументи — як вклад: складніше сьогодні, зато повага — на все життя. Вибір за вами!",
+        "en": "Demagoguery is like a loan: victory today, but you pay later with trust and friends. And honest arguments are like an investment: harder now, but respect for life. The choice is yours!"
+      }
+    },
+    {
+      "step_id": "sc6_134",
+      "scene_id": "sc6",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Последний блиц! По одному вопросу на каждый из двенадцати типов — включая два новых. Демагогия или честный аргумент?\n",
+        "uk": "Останній бліц! По одному запитанню на кожен із дванадцяти типів — включаючи два нових. Демагогія чи чесний аргумент?",
+        "en": "Final blitz! One question for each of the twelve types - including two new ones. Demagoguery or honest argument?"
+      }
+    },
+    {
+      "step_id": "sc6_135",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Абсолютно ВСЕ учителя задают слишком много домашки!»\n",
+        "uk": "«Абсолютно УСІ учителі задають надто багато домашки!»",
+        "en": "\"Absolutely EVERY teacher assigns too much homework!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - hasty generalization! All twenty teachers? Really?"
+      }
+    },
+    {
+      "step_id": "sc6_137",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — поспешное обобщение! Все двадцать учителей? Серьёзно?\n",
+        "uk": "Демагогія — поспішне узагальнення! Усі двадцять учителів? Серйозно?",
+        "en": "\"What do you know about music - you can't even play piano!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - personal attack! You don't have to play piano to understand music."
+      }
+    },
+    {
+      "step_id": "sc6_139",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Что ты понимаешь в музыке — ты даже на пианино играть не умеешь!»\n",
+        "uk": "«Що ти розумієш в музиці — ти навіть на піаніно грати не вмієш!»",
+        "en": "\"You said 'I don't like semolina' - so you don't want to eat anything at all?!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - scarecrow! 'Don't like semolina' turned into 'don't want anything.' Imagination at maximum."
+      }
+    },
+    {
+      "step_id": "sc6_141",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — нападка на человека! Чтобы разбираться в музыке, не обязательно играть на пианино.\n",
+        "uk": "Демагогія — напа на людину! Щоб розбиратися в музиці, не обов'язково грати на піаніно.",
+        "en": "\"A famous racer advertises this shampoo - buy it, you won't regret it!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - false authority! A racer understands speed, not shampoos."
+      }
+    },
+    {
+      "step_id": "sc6_143",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Ты сказал \"не люблю манку\" — значит, ты вообще ничего есть не хочешь?!»\n",
+        "uk": "«Ти сказав \"не люблю манку\" — значить, ти взагалі нічого їсти не хочеш?!»",
+        "en": "\"Either you eat broccoli, or you get no dessert!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - false dilemma! What happened to the option \"eat a carrot instead of broccoli\"?"
+      }
+    },
+    {
+      "step_id": "sc6_145",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — пугало! «Не люблю манку» превратили в «ничего не хочу». Фантазия на максимуме.\n",
+        "uk": "Демагогія — лякало! «Не люблю манку» перетворили в «нічого не хочу». Фантазія на максимумі.",
+        "en": "\"Be late once - you'll get used to it, then you'll be late to work, then you'll get fired!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - scary chain! One school tardiness - and straight to firing in twenty years."
+      }
+    },
+    {
+      "step_id": "sc6_147",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Знаменитый гонщик рекламирует этот шампунь — бери, не пожалеешь!»\n",
+        "uk": "«Відомий гонщик рекламує цей шампунь — беріть, не пожалієте!»",
+        "en": "\"Did you already agree that my plan is better, or are you still thinking?\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - question trap! Both options lead to \"my plan is better.\" No way out."
+      }
+    },
+    {
+      "step_id": "sc6_149",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — ложный авторитет! Гонщик разбирается в скорости, а не в шампунях.\n",
+        "uk": "Демагогія — хибний авторитет! Гонщик розбирається в швидкості, а не в шампунях.",
+        "en": "\"The teacher said 'work independently' - so I decide when to leave!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - substitution of concepts! 'Independently' was replaced with 'do what I want.'"
+      }
+    },
+    {
+      "step_id": "sc6_151",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Или ты ешь брокколи, или на сладкое ничего не получишь!»\n",
+        "uk": "«Або ти їси брокколі, або на солодке нічого не отримаєш!»",
+        "en": "\"I ate grandma's pie - and aced the test. The pie is magical!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - false cause! The pie is delicious, but grades come from studying, not from the filling."
+      }
+    },
+    {
+      "step_id": "sc6_153",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — ложная дилемма! А вариант «съесть морковку вместо брокколи» куда делся?\n",
+        "uk": "Демагогія — хибна дилема! А варіант «з'їсти морквину замість брокколі» куди поділся?",
+        "en": "\"Why do we need to discuss the schedule? Let's talk about vacation instead!\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - dodging the answer! The schedule topic was hidden behind vacation. A clever move."
+      }
+    },
+    {
+      "step_id": "sc6_155",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "«Опоздаешь один раз — привыкнешь, потом на работу будешь опаздывать, потом уволят!»\n",
+        "uk": "«Спізнишся один раз — звикнеш, потім на роботу будеш спізнюватися, потім звільнять!»",
+        "en": "\"Our club is the best! We're a force! We'll show everyone!\" (with no performance plan)"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - beautiful words without facts! Three slogans, zero specifics. When, where, how do we show?"
+      }
+    },
+    {
+      "step_id": "sc6_157",
+      "scene_id": "sc6",
+      "step_type": "single_choice",
+      "text_audience": "shared",
+      "prompt": {
+        "ru": "Демагогия — страшная цепочка! Одно опоздание в школу — и сразу увольнение через двадцать лет.\n",
+        "uk": "Демагогія — страшний ланцюжок! Одне спізнення в школі — і одразу звільнення через двадцять років.",
+        "en": "\"I don't want to say you're stingy, but... you never treated anyone to candy.\""
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "text": {
+            "ru": "Демагогия",
+            "uk": "Демагогія",
+            "en": "Demagoguery"
+          }
+        },
+        {
+          "id": "opt_2",
+          "text": {
+            "ru": "Честный аргумент",
+            "uk": "Чесний аргумент",
+            "en": "Honest argument"
+          }
+        }
+      ],
+      "correct_answer": "opt_1",
+      "explanation": {
+        "en": "Demagoguery - \"I'm not saying...\"! You said exactly that - \"you're stingy.\" The bow didn't hide the stone."
+      }
+    },
+    {
+      "step_id": "sc7_159",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Сегодня вы составили полную карту демагогии — двенадцать хитростей. Побывали и следователями, и самими демагогами. Узнали историю Владика — и поняли, что победа хитростью стоит дороже, чем кажется.\n",
+        "uk": "Сьогодні ви склали повну карту демагогії — дванадцять хитростей. Побували й слідчими, й самими демагогами. Дізналися історію Владика — і зрозуміли, що перемога хитростю коштує дорожче, ніж здається.",
+        "en": "Today you created a complete map of demagoguery - twelve tricks. You were both investigators and demagogues yourselves. You learned Vladik's story - and understood that winning through trickery costs more than it seems."
+      }
+    },
+    {
+      "step_id": "sc7_160",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Запомните: люди не всегда видят хитрость — но всегда чувствуют. А тот, кто спорит честно — с фактами, с уважением — выигрывает не спор, а доверие. И это ценнее любой победы.\n",
+        "uk": "Запам'ятайте: люди не завжди бачать хитрість — але завжди її чувствують. А той, хто спорить чесно — з фактами, з повагою — виграє не спір, а довіру. І це ціннріше будь-якої перемоги.",
+        "en": "Remember: people don't always see the trick - but they always feel it. And whoever argues honestly - with facts, with respect - wins not the argument but trust. And that's worth more than any victory."
+      }
+    },
+    {
+      "step_id": "sc7_161",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Дома попробуйте найти демагогию в рекламе, в мультиках, в разговорах. Она повсюду — когда знаешь, куда смотреть. А на следующем уроке мы познакомимся с ещё более хитрой штукой — манипуляцией!\n",
+        "uk": "Дома спробуйте знайти демагогію в рекламі, в мультиках, в розмовах. Вона повсюди — коли знаєш, куди дивитися. А на наступному уроці ми познайомимось з ще більш хитрою штукою — маніпуляцією!",
+        "en": "At home try to find demagoguery in ads, cartoons, conversations. It's everywhere - when you know where to look. And in the next lesson we'll learn about something even more clever - manipulation!"
+      }
+    },
+    {
+      "step_id": "sc7_162",
+      "scene_id": "sc7",
+      "step_type": "theory",
+      "text_audience": "teacher",
+      "prompt": {
+        "ru": "Манипуляция — это когда бьют не по логике, а по чувствам. Будет интересно! Отдыхайте — и до встречи!\n",
+        "uk": "Маніпуляція — це коли бють не по логіці, а по почуттям. Буде цікаво! Відпочивайте — і до зустрічі!",
+        "en": "Manipulation is when you hit emotions instead of logic. It will be interesting! Rest and see you soon!"
+      }
+    }
+  ]
+}

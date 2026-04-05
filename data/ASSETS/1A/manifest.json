@@ -1,0 +1,481 @@
+{
+  "generated": {
+    "1a_sc1_bg": {
+      "filename": "1a_sc1_bg.png",
+      "path": "ASSETS/1A/1a_sc1_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-27T15:48:06.476163+00:00",
+      "prompt_key": "1a_sc1_bg"
+    },
+    "1a_sc2_obj_icecream_choc": {
+      "filename": "1a_sc2_obj_icecream_choc.png",
+      "raw_filename": "1a_sc2_obj_icecream_choc_raw.png",
+      "path": "ASSETS/1A/1a_sc2_obj_icecream_choc.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:09:58.870924+00:00",
+      "prompt_key": "1a_sc2_obj_icecream_choc"
+    },
+    "1a_sc2_bg": {
+      "filename": "1a_sc2_bg.png",
+      "path": "ASSETS/1A/1a_sc2_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-27T15:48:21.342703+00:00",
+      "prompt_key": "1a_sc2_bg"
+    },
+    "1a_sc3_bg": {
+      "filename": "1a_sc3_bg.png",
+      "path": "ASSETS/1A/1a_sc3_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T10:15:25.946349+00:00",
+      "prompt_key": "1a_sc3_bg"
+    },
+    "1a_sc4_bg": {
+      "filename": "1a_sc4_bg.png",
+      "path": "ASSETS/1A/1a_sc4_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T10:15:39.418874+00:00",
+      "prompt_key": "1a_sc4_bg"
+    },
+    "1a_sc5_bg": {
+      "filename": "1a_sc5_bg.png",
+      "path": "ASSETS/1A/1a_sc5_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T10:15:51.428550+00:00",
+      "prompt_key": "1a_sc5_bg"
+    },
+    "1a_sc7_bg": {
+      "filename": "1a_sc7_bg.png",
+      "path": "ASSETS/1A/1a_sc7_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-24T10:16:05.986154+00:00",
+      "prompt_key": "1a_sc7_bg"
+    },
+    "1a_sc8_bg": {
+      "filename": "1a_sc8_bg.png",
+      "path": "ASSETS/1A/1a_sc8_bg.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-27T15:49:04.100115+00:00",
+      "prompt_key": "1a_sc8_bg"
+    },
+    "1a_sc2_obj_icecream_straw": {
+      "filename": "1a_sc2_obj_icecream_straw.png",
+      "raw_filename": "1a_sc2_obj_icecream_straw_raw.png",
+      "path": "ASSETS/1A/1a_sc2_obj_icecream_straw.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:16:29.277722+00:00",
+      "prompt_key": "1a_sc2_obj_icecream_straw"
+    },
+    "1a_sc2_obj_rumor_bubble": {
+      "filename": "1a_sc2_obj_rumor_bubble.png",
+      "raw_filename": "1a_sc2_obj_rumor_bubble_raw.png",
+      "path": "ASSETS/1A/1a_sc2_obj_rumor_bubble.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:16:40.084728+00:00",
+      "prompt_key": "1a_sc2_obj_rumor_bubble"
+    },
+    "1a_sc2_obj_price_tag": {
+      "filename": "1a_sc2_obj_price_tag.png",
+      "raw_filename": "1a_sc2_obj_price_tag_raw.png",
+      "path": "ASSETS/1A/1a_sc2_obj_price_tag.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:16:53.057922+00:00",
+      "prompt_key": "1a_sc2_obj_price_tag"
+    },
+    "1a_sc7_obj_alien": {
+      "filename": "1a_sc7_obj_alien.png",
+      "raw_filename": "1a_sc7_obj_alien_raw.png",
+      "path": "ASSETS/1A/1a_sc7_obj_alien.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:17:03.148019+00:00",
+      "prompt_key": "1a_sc7_obj_alien"
+    },
+    "1a_sc7_obj_dragon": {
+      "filename": "1a_sc7_obj_dragon.png",
+      "raw_filename": "1a_sc7_obj_dragon_raw.png",
+      "path": "ASSETS/1A/1a_sc7_obj_dragon.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:17:14.213570+00:00",
+      "prompt_key": "1a_sc7_obj_dragon"
+    },
+    "1a_sc9_obj_magnifier": {
+      "filename": "1a_sc9_obj_magnifier.png",
+      "raw_filename": "1a_sc9_obj_magnifier_raw.png",
+      "path": "ASSETS/1A/1a_sc9_obj_magnifier.png",
+      "type": "object",
+      "model": "imagen-4.0-generate-001",
+      "chroma_cleaned": true,
+      "timestamp": "2026-03-24T10:17:24.178353+00:00",
+      "prompt_key": "1a_sc9_obj_magnifier"
+    },
+    "1a_sc1_bg_boy_telling": {
+      "filename": "1a_sc1_bg_boy_telling.png",
+      "path": "ASSETS/1A/1a_sc1_bg_boy_telling.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:27:25.770221+00:00",
+      "prompt_key": "1a_sc1_bg_boy_telling"
+    },
+    "1a_sc2_bg_children_icecream": {
+      "filename": "1a_sc2_bg_children_icecream.png",
+      "path": "ASSETS/1A/1a_sc2_bg_children_icecream.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:46:09.810525+00:00",
+      "prompt_key": "1a_sc2_bg_children_icecream"
+    },
+    "1a_sc2_bg_two_icecreams": {
+      "filename": "1a_sc2_bg_two_icecreams.png",
+      "path": "ASSETS/1A/1a_sc2_bg_two_icecreams.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:27:54.096103+00:00",
+      "prompt_key": "1a_sc2_bg_two_icecreams"
+    },
+    "1a_sc2_bg_broken_phone": {
+      "filename": "1a_sc2_bg_broken_phone.png",
+      "path": "ASSETS/1A/1a_sc2_bg_broken_phone.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:28:08.102981+00:00",
+      "prompt_key": "1a_sc2_bg_broken_phone"
+    },
+    "1a_sc2_bg_teacher_board": {
+      "filename": "1a_sc2_bg_teacher_board.png",
+      "path": "ASSETS/1A/1a_sc2_bg_teacher_board.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:28:20.591928+00:00",
+      "prompt_key": "1a_sc2_bg_teacher_board"
+    },
+    "1a_sc3_bg_shop_counter": {
+      "filename": "1a_sc3_bg_shop_counter.png",
+      "path": "ASSETS/1A/1a_sc3_bg_shop_counter.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:28:35.909628+00:00",
+      "prompt_key": "1a_sc3_bg_shop_counter"
+    },
+    "1a_sc3_bg_world_map": {
+      "filename": "1a_sc3_bg_world_map.png",
+      "path": "ASSETS/1A/1a_sc3_bg_world_map.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:28:44.684243+00:00",
+      "prompt_key": "1a_sc3_bg_world_map"
+    },
+    "1a_sc9_bg_weightlifting": {
+      "filename": "1a_sc9_bg_weightlifting.png",
+      "path": "ASSETS/1A/1a_sc9_bg_weightlifting.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:28:53.165951+00:00",
+      "prompt_key": "1a_sc9_bg_weightlifting"
+    },
+    "1a_sc9_bg_mother": {
+      "filename": "1a_sc9_bg_mother.png",
+      "path": "ASSETS/1A/1a_sc9_bg_mother.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-26T04:29:01.741935+00:00",
+      "prompt_key": "1a_sc9_bg_mother"
+    },
+    "1a_sc4_bg_worldmap": {
+      "filename": "1a_sc4_bg_worldmap.png",
+      "path": "ASSETS/1A/1a_sc4_bg_worldmap.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-27T15:48:36.594696+00:00",
+      "prompt_key": "1a_sc4_bg_worldmap"
+    },
+    "1a_sc6_bg_kids": {
+      "filename": "1a_sc6_bg_kids.png",
+      "path": "ASSETS/1A/1a_sc6_bg_kids.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-27T15:48:50.053688+00:00",
+      "prompt_key": "1a_sc6_bg_kids"
+    },
+    "1a_sc9_bg_combined": {
+      "filename": "1a_sc9_bg_combined.png",
+      "path": "ASSETS/1A/1a_sc9_bg_combined.png",
+      "type": "background",
+      "model": "imagen-4.0-generate-001",
+      "timestamp": "2026-03-27T15:49:21.758175+00:00",
+      "prompt_key": "1a_sc9_bg_combined"
+    },
+    "1a_sc1_gen_20260329_180221": {
+      "filename": "1a_sc1_gen_20260329_180221.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_180221.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-29T18:02:21.510049+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает"
+    },
+    "1a_sc1_gen_20260329_180246": {
+      "filename": "1a_sc1_gen_20260329_180246.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_180246.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-29T18:02:46.954954+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает"
+    },
+    "1a_sc1_gen_20260329_180354": {
+      "filename": "1a_sc1_gen_20260329_180354.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_180354.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-29T18:03:54.881025+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает"
+    },
+    "1a_sc1_gen_20260329_180414": {
+      "filename": "1a_sc1_gen_20260329_180414.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_180414.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-29T18:04:14.865308+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает"
+    },
+    "1a_sc1_gen_20260329_180544": {
+      "filename": "1a_sc1_gen_20260329_180544.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_180544.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-29T18:05:44.945551+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает"
+    },
+    "1a_sc1_gen_20260329_180607": {
+      "filename": "1a_sc1_gen_20260329_180607.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_180607.png",
+      "type": "background",
+      "model": "gemini-2.5-flash-image",
+      "timestamp": "2026-03-29T18:06:07.978631+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает"
+    },
+    "1a_sc1_gen_20260329_181600": {
+      "filename": "1a_sc1_gen_20260329_181600.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_181600.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T18:16:00.513179+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_181638": {
+      "filename": "1a_sc1_gen_20260329_181638.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_181638.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T18:16:38.699728+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_181711": {
+      "filename": "1a_sc1_gen_20260329_181711.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_181711.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T18:17:11.733872+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает",
+      "fallback": false
+    },
+    "1a_sc4_gen_20260329_181752": {
+      "filename": "1a_sc4_gen_20260329_181752.png",
+      "path": "ASSETS/1A/1a_sc4_gen_20260329_181752.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T18:17:52.182228+00:00",
+      "source": "inline_review",
+      "brief_ru": "Карта Мира",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_190030": {
+      "filename": "1a_sc1_gen_20260329_190030.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_190030.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:00:30.625922+00:00",
+      "source": "inline_review",
+      "brief_ru": "уютный школьный класс, тёплый, приветливый.  Парты одиночные, Учитель у доски что-то рассказывает",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_190430": {
+      "filename": "1a_sc1_gen_20260329_190430.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_190430.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:04:30.666009+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_190530": {
+      "filename": "1a_sc1_gen_20260329_190530.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_190530.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:05:30.202273+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_190603": {
+      "filename": "1a_sc1_gen_20260329_190603.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_190603.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:06:03.312842+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_192402": {
+      "filename": "1a_sc1_gen_20260329_192402.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_192402.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:24:02.179919+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_192514": {
+      "filename": "1a_sc1_gen_20260329_192514.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_192514.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:25:14.904684+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_193053": {
+      "filename": "1a_sc1_gen_20260329_193053.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_193053.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:30:53.447222+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_193129": {
+      "filename": "1a_sc1_gen_20260329_193129.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_193129.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:31:29.834147+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_193207": {
+      "filename": "1a_sc1_gen_20260329_193207.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_193207.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:32:07.334802+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_193312": {
+      "filename": "1a_sc1_gen_20260329_193312.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_193312.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:33:12.930145+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_194324": {
+      "filename": "1a_sc1_gen_20260329_194324.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_194324.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:43:24.703357+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_194437": {
+      "filename": "1a_sc1_gen_20260329_194437.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_194437.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:44:37.861032+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_194530": {
+      "filename": "1a_sc1_gen_20260329_194530.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_194530.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:45:30.123570+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_194557": {
+      "filename": "1a_sc1_gen_20260329_194557.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_194557.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:45:57.884256+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_195202": {
+      "filename": "1a_sc1_gen_20260329_195202.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_195202.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:52:02.471206+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    },
+    "1a_sc1_gen_20260329_195235": {
+      "filename": "1a_sc1_gen_20260329_195235.png",
+      "path": "ASSETS/1A/1a_sc1_gen_20260329_195235.png",
+      "type": "background",
+      "model": "gemini-3.1-flash-image-preview",
+      "timestamp": "2026-03-29T19:52:35.719490+00:00",
+      "source": "inline_review",
+      "brief_ru": "",
+      "fallback": false
+    }
+  },
+  "errors": {}
+}
