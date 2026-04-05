@@ -2,15 +2,18 @@ import { cookies } from "next/headers";
 import { prisma } from "./prisma";
 
 const SESSION_COOKIE = "betta_session";
-const SESSION_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+const SHORT_SESSION_MS = 24 * 60 * 60 * 1000;      // 1 day (browser session)
+const LONG_SESSION_MS = 30 * 24 * 60 * 60 * 1000;   // 30 days (remember me)
 
-export async function createSession(userId: string, baseRole: string) {
+export async function createSession(userId: string, baseRole: string, rememberMe = false) {
+  const maxAge = rememberMe ? LONG_SESSION_MS : SHORT_SESSION_MS;
+
   const session = await prisma.appSession.create({
     data: {
       userId,
       baseRole: baseRole as never,
       activeRoleMode: baseRole as never,
-      expiresAt: new Date(Date.now() + SESSION_MAX_AGE_MS),
+      expiresAt: new Date(Date.now() + maxAge),
     },
   });
 
@@ -20,7 +23,8 @@ export async function createSession(userId: string, baseRole: string) {
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
     path: "/",
-    maxAge: SESSION_MAX_AGE_MS / 1000,
+    ...(rememberMe ? { maxAge: maxAge / 1000 } : {}),
+    // No maxAge = session cookie (dies when browser closes)
   });
 
   return session;
