@@ -523,7 +523,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                       const res = await fetch(`/api/candidates/${c.id}`, {
                         method: "PATCH",
                         headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ action: "reject", reviewNote: "Rejected by admin" }),
+                        body: JSON.stringify({ action: "reject", note: "Rejected by admin" }),
                       });
                       if (res.ok) {
                         const data = await res.json();
