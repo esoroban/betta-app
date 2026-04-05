@@ -103,23 +103,6 @@ export default function LoginPage() {
       <form onSubmit={handleSubmit} style={styles.form} data-testid="login-form">
         <h1 style={styles.title}>SylaSlova Beta</h1>
 
-        {/* Dev quick login */}
-        <div style={styles.devSection}>
-          <div style={styles.devLabel}>Quick login</div>
-          <div style={styles.devGrid}>
-            {DEV_ACCOUNTS.map(acc => (
-              <button key={acc.email} type="button" style={styles.devBtn}
-                onClick={() => quickLogin(acc)} disabled={loading}
-                data-testid={`quick-${acc.role}`}>
-                <span style={{ ...styles.devDot, background: ROLE_COLORS[acc.role] }} />
-                <span style={styles.devName}>{acc.label}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div style={styles.divider}><span style={styles.dividerText}>or enter credentials</span></div>
-
         <label style={styles.label}>
           Email
           <input
@@ -154,26 +137,6 @@ export default function LoginPage() {
             </button>
           </div>
         </label>
-
-        {savedAccounts.length > 0 && (
-          <div style={styles.savedSection}>
-            <div style={styles.savedLabel}>Quick login</div>
-            <div style={styles.savedList}>
-              {savedAccounts.map((acc) => (
-                <button
-                  key={acc.email}
-                  type="button"
-                  style={styles.savedBtn}
-                  onClick={() => { setEmail(acc.email); setPassword(acc.password); }}
-                  data-testid={`quick-login-${acc.email}`}
-                >
-                  <span style={styles.savedName}>{acc.displayName || acc.email}</span>
-                  {acc.role && <span style={styles.savedRole}>{acc.role}</span>}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
 
         {error && (
           <div style={styles.error} data-testid="login-error">
