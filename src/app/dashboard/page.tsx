@@ -26,8 +26,8 @@ const ROLE_OPTIONS: Record<string, string[]> = {
 };
 
 const NAV_ITEMS: Record<string, string[]> = {
-  owner: ["Lessons", "Admin"],
-  administrator: ["Lessons", "Admin"],
+  owner: ["Lessons", "Review", "Admin"],
+  administrator: ["Lessons", "Review", "Admin"],
   revisioner: ["Lessons"],
   teacher: ["Lessons"],
   student: ["Lessons"],
@@ -192,6 +192,7 @@ export default function DashboardPage() {
         </main>
       )}
 
+      {activeTab === "Review" && <ReviewPanel />}
       {activeTab === "Admin" && <AdminPanel session={session} />}
     </div>
   );
@@ -298,6 +299,131 @@ function AdminPanel({ session }: { session: Session }) {
     </main>
   );
 }
+
+/* ═══════════ REVIEW PANEL ═══════════ */
+
+function ReviewPanel() {
+  const [candidates, setCandidates] = useState<any[]>([]);
+  const [filterStatus, setFilterStatus] = useState("pending");
+  const [actionLoading, setActionLoading] = useState<string | null>(null);
+  const [rejectNote, setRejectNote] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    loadCandidates();
+  }, [filterStatus]);
+
+  async function loadCandidates() {
+    const res = await fetch(`/api/candidates?status=${filterStatus}`);
+    if (res.ok) {
+      const data = await res.json();
+      setCandidates(data.candidates || []);
+    }
+  }
+
+  async function handleAction(candidateId: string, action: string, note?: string) {
+    setActionLoading(candidateId);
+    const res = await fetch(`/api/candidates/${candidateId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action, note }),
+    });
+    if (res.ok) {
+      await loadCandidates();
+    }
+    setActionLoading(null);
+  }
+
+  const statusFilters = ["pending", "accepted", "rejected", "withdrawn"];
+
+  return (
+    <main style={S.main}>
+      <h1 style={S.pageTitle}>Review Revisions</h1>
+
+      <div style={{ display: "flex", gap: 6, marginBottom: 16 }}>
+        {statusFilters.map(s => (
+          <button key={s} onClick={() => setFilterStatus(s)}
+            style={filterStatus === s ? S.navActive : S.navBtn}
+            data-testid={`review-filter-${s}`}>{s} </button>
+        ))}
+      </div>
+
+      {candidates.length === 0 && (
+        <div style={{ padding: 20, color: "rgba(240,242,245,0.3)", fontSize: 14 }}>
+          No {filterStatus} revisions.
+        </div>
+      )}
+
+      {candidates.map(c => (
+        <div key={c.id} style={S2.reviewCard} data-testid={`review-card-${c.id}`}>
+          <div style={S2.reviewHeader}>
+            <div>
+              <span style={{ fontWeight: 700, fontSize: 14 }}>{c.field}</span>
+              <span style={{ color: "rgba(240,242,245,0.4)", fontSize: 12, marginLeft: 8 }}>
+                {c.candidateType} · Lesson {c.lessonId} · {c.sceneId || "—"}
+              </span>
+            </div>
+            <span style={{
+              padding: "2px 10px", borderRadius: 999, fontSize: 11, fontWeight: 700,
+              background: c.status === "pending" ? "rgba(255,165,0,0.15)" : c.status === "accepted" ? "rgba(46,125,50,0.15)" : c.status === "rejected" ? "rgba(200,40,40,0.15)" : "rgba(120,120,120,0.15)",
+              color: c.status === "pending" ? "#ffa500" : c.status === "accepted" ? "#66bb6a" : c.status === "rejected" ? "#ef5350" : "#888",
+            }} data-testid={`review-status-${c.id}`}>{c.status}</span>
+          </div>
+
+          <div style={{ fontSize: 12, color: "rgba(240,242,245,0.4)", marginBottom: 8 }}>
+            By <strong>{c.author?.displayName || "Unknown"}</strong> · {new Date(c.createdAt).toLocaleString()}
+            {c.languageCode && <span> · lang: {c.languageCode}</span>}
+          </div>
+
+          {c.originalValue && (
+            <div style={S2.diffOld}>
+              <div style={{ fontSize: 10, fontWeight: 700, marginBottom: 4, color: "rgba(255,140,120,0.6)" }}>ORIGINAL</div>
+              {c.originalValue}
+            </div>
+          )}
+          <div style={S2.diffNew}>
+            <div style={{ fontSize: 10, fontWeight: 700, marginBottom: 4, color: "rgba(102,187,106,0.6)" }}>PROPOSED</div>
+            {c.proposedValue}
+          </div>
+
+          {c.reviewNote && (
+            <div style={{ fontSize: 12, color: "#ef5350", marginTop: 6, padding: "6px 10px", background: "rgba(200,40,40,0.1)", borderRadius: 8 }}>
+              Review note: {c.reviewNote}
+            </div>
+          )}
+
+          {c.status === "pending" && (
+            <div style={{ display: "flex", gap: 8, marginTop: 10, alignItems: "center" }}>
+              <button style={S2.approveBtn} disabled={actionLoading === c.id}
+                onClick={() => handleAction(c.id, "approve")}
+                data-testid={`approve-btn-${c.id}`}>
+                {actionLoading === c.id ? "..." : "✓ Approve"}
+              </button>
+              <input style={S2.noteInput} placeholder="Rejection reason..."
+                value={rejectNote[c.id] || ""}
+                onChange={e => setRejectNote(prev => ({ ...prev, [c.id]: e.target.value }))}
+                data-testid={`reject-note-${c.id}`} />
+              <button style={S2.rejectBtn} disabled={actionLoading === c.id || !rejectNote[c.id]}
+                onClick={() => handleAction(c.id, "reject", rejectNote[c.id])}
+                data-testid={`reject-btn-${c.id}`}>
+                {actionLoading === c.id ? "..." : "✗ Reject"}
+              </button>
+            </div>
+          )}
+        </div>
+      ))}
+    </main>
+  );
+}
+
+const S2: Record<string, React.CSSProperties> = {
+  reviewCard: { padding: 16, marginBottom: 12, borderRadius: 12, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" },
+  reviewHeader: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 },
+  diffOld: { padding: "8px 12px", borderRadius: 8, background: "rgba(200,60,40,0.1)", border: "1px solid rgba(200,60,40,0.2)", fontSize: 13, color: "rgba(255,160,140,0.8)", marginBottom: 6, textDecoration: "line-through" },
+  diffNew: { padding: "8px 12px", borderRadius: 8, background: "rgba(46,125,50,0.1)", border: "1px solid rgba(46,125,50,0.2)", fontSize: 13, color: "rgba(140,220,140,0.9)" },
+  approveBtn: { padding: "6px 14px", borderRadius: 8, border: "none", background: "rgba(46,125,50,0.8)", color: "white", fontSize: 12, fontWeight: 700, cursor: "pointer" },
+  rejectBtn: { padding: "6px 14px", borderRadius: 8, border: "none", background: "rgba(200,40,40,0.8)", color: "white", fontSize: 12, fontWeight: 700, cursor: "pointer" },
+  noteInput: { flex: 1, padding: "6px 10px", borderRadius: 8, border: "1px solid rgba(255,255,255,0.12)", background: "rgba(255,255,255,0.06)", color: "#f0f2f5", fontSize: 12, outline: "none" },
+};
 
 /* ═══════════ STYLES ═══════════ */
 

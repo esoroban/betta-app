@@ -322,6 +322,21 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                   Note: {c.reviewNote}
                 </div>
               )}
+              {(c.status === "pending" || c.status === "rejected") && (
+                <button style={{ marginTop: 6, padding: "3px 10px", borderRadius: 6, border: "1px solid rgba(255,255,255,0.12)", background: "transparent", color: "rgba(240,242,245,0.5)", fontSize: 11, cursor: "pointer" }}
+                  data-testid={`withdraw-btn-${c.id}`}
+                  onClick={async () => {
+                    const res = await fetch(`/api/candidates/${c.id}`, {
+                      method: "PATCH",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ action: "withdraw" }),
+                    });
+                    if (res.ok) {
+                      const data = await res.json();
+                      setCandidates(prev => prev.map(x => x.id === c.id ? data.candidate : x));
+                    }
+                  }}>Withdraw</button>
+              )}
             </div>
           ))}
         </div>
