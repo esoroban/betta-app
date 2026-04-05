@@ -52,6 +52,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const [candidates, setCandidates] = useState<any[]>([]);
   const [showCandidates, setShowCandidates] = useState(false);
   const [sourceLang, setSourceLang] = useState("en");
+  const [imagePrompt, setImagePrompt] = useState("");
+  const [imageGenerating, setImageGenerating] = useState(false);
+  const [generatedImage, setGeneratedImage] = useState<{
+    tempId: string; filename: string; previewUrl: string;
+    originalPrompt: string; englishPrompt: string; improvedPrompt: string;
+  } | null>(null);
+  const [imageError, setImageError] = useState("");
   const router = useRouter();
 
   useEffect(() => {
@@ -204,6 +211,71 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     }
   }
 
+  async function handleGenerateImage() {
+    if (!imagePrompt.trim() || imageGenerating) return;
+    setImageGenerating(true);
+    setImageError("");
+    setGeneratedImage(null);
+    try {
+      const res = await fetch("/api/candidates/generate-image", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prompt: imagePrompt,
+          sourceLang: lang,
+          lessonId: id,
+          sceneId: scene.scene_id,
+          stepId: step?.step_id,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setImageError(data.error || "Generation failed");
+      } else {
+        setGeneratedImage(data);
+      }
+    } catch {
+      setImageError("Network error — try again");
+    } finally {
+      setImageGenerating(false);
+    }
+  }
+
+  async function handleSaveImageCandidate() {
+    if (!generatedImage || saving) return;
+    setSaving(true);
+    setSaveMsg("");
+    try {
+      const res = await fetch("/api/candidates", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          lessonId: id,
+          sceneId: scene.scene_id,
+          stepId: step?.step_id,
+          field: "image",
+          candidateType: "image",
+          originalValue: bgPath,
+          proposedValue: generatedImage.filename,
+          languageCode: null,
+          sourceLanguage: null,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setSaveMsg(`Error: ${data.error}`);
+      } else {
+        setSaveMsg("Image candidate created — pending review");
+        setCandidates(prev => [data.candidate, ...prev]);
+        setTimeout(() => { closeEditor(); setGeneratedImage(null); }, 1500);
+      }
+    } catch {
+      setSaveMsg("Network error — try again");
+    } finally {
+      setSaving(false);
+    }
+  }
+
   // Editor title map
   const editorTitles: Record<string, string> = {
     teacher: "Edit Teacher Text",
@@ -321,6 +393,18 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                 {c.candidateType} · {c.sceneId || "—"} · {new Date(c.createdAt).toLocaleString()}
                 {c.sourceLanguage && <> · src: <strong>{c.sourceLanguage.toUpperCase()}</strong></>}
               </div>
+              {c.candidateType === "image" && (
+                <div style={{ display: "flex", gap: 6, marginTop: 6 }}>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: 9, color: "rgba(240,242,245,0.3)", marginBottom: 2 }}>OLD</div>
+                    <div style={{ height: 48, borderRadius: 6, backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "#1a2030", backgroundImage: c.originalValue ? `url(${c.originalValue})` : "none" }} />
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: 9, color: "rgba(240,242,245,0.3)", marginBottom: 2 }}>NEW</div>
+                    <div style={{ height: 48, borderRadius: 6, backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "#1a2030", backgroundImage: `url(/api/candidates/generate-image?file=${c.proposedValue})` }} />
+                  </div>
+                </div>
+              )}
               {c.status === "accepted" && c.translatedValues && (
                 <div style={{ fontSize: 11, marginTop: 4, display: "flex", gap: 4, flexWrap: "wrap" as const }}>
                   {Object.entries(c.translatedValues as Record<string, any>)
@@ -484,7 +568,42 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             {editor === "image" && (
               <div style={S.imageEditorGrid}>
                 <div style={S.editorBody}>
-                  <div style={S.fieldLabel}>1. This lesson&apos;s images</div>
+                  <div style={S.fieldLabel}>1. Describe the image (any language)</div>
+                  <textarea style={S.textarea} rows={3} value={imagePrompt}
+                    onChange={e => setImagePrompt(e.target.value)}
+                    placeholder="Describe the image you need..."
+                    data-testid="image-prompt-input" />
+                  <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+                    <button style={S.primaryBtn}
+                      onClick={handleGenerateImage}
+                      disabled={imageGenerating || !imagePrompt.trim()}
+                      data-testid="btn-generate-image">
+                      {imageGenerating ? "Generating..." : "Translate & Generate"}
+                    </button>
+                    {generatedImage && (
+                      <button style={S.ghostBtn}
+                        onClick={handleGenerateImage}
+                        disabled={imageGenerating}
+                        data-testid="btn-regenerate-image">
+                        Regenerate
+                      </button>
+                    )}
+                  </div>
+                  {imageError && (
+                    <div style={{ padding: "8px 12px", borderRadius: 8, background: "rgba(200,40,40,0.15)", border: "1px solid rgba(200,40,40,0.3)", color: "#ef5350", fontSize: 12 }}
+                      data-testid="image-error">{imageError}</div>
+                  )}
+                  {generatedImage && (
+                    <div style={S.editorBody} data-testid="image-generation-result">
+                      <div style={S.fieldLabel}>Prompt pipeline</div>
+                      <div style={{ fontSize: 11, color: "rgba(240,242,245,0.4)", lineHeight: 1.5 }}>
+                        <div><strong>Original:</strong> {generatedImage.originalPrompt}</div>
+                        <div><strong>English:</strong> {generatedImage.englishPrompt}</div>
+                        <div><strong>Improved:</strong> {generatedImage.improvedPrompt}</div>
+                      </div>
+                    </div>
+                  )}
+                  <div style={S.fieldLabel}>This lesson&apos;s images</div>
                   <div style={S.thumbRow}>
                     {sceneIds.slice(0, 8).map(sid => (
                       <div key={sid} style={{
@@ -494,37 +613,42 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                       }} />
                     ))}
                   </div>
-                  <div style={S.fieldLabel}>2. Browse other lessons</div>
-                  <div style={S.browserScroll}>
-                    {["1A","2A","3A","4A","5A"].map(lid => (
-                      <div key={lid} style={S.browserLesson}>
-                        <div style={S.browserTitle}>Lesson {lid}</div>
-                        <div style={S.thumbRow}>
-                          {["sc1","sc2","sc3"].map(sc => (
-                            <div key={sc} style={{
-                              ...S.thumbSmall,
-                              backgroundImage: `url(/api/assets/${lid}/${lid.toLowerCase()}_${sc}_bg.png)`,
-                            }} />
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div style={S.fieldLabel}>3. Generate (fallback)</div>
-                  <textarea style={S.textarea} rows={3} placeholder="Describe the image you need..." />
-                  <button style={S.ghostBtn} data-testid="btn-generate-image">Translate &amp; Generate</button>
                 </div>
                 <div style={S.editorBody}>
-                  <div style={S.fieldLabel}>Current</div>
+                  <div style={S.fieldLabel}>Current image</div>
                   <div style={{ ...S.heroPreview, backgroundImage: `url(${bgPath})` }} />
-                  <div style={S.fieldLabel}>Candidates</div>
+                  {generatedImage && (
+                    <>
+                      <div style={S.fieldLabel}>Generated preview</div>
+                      <div style={{ ...S.heroPreview, backgroundImage: `url(${generatedImage.previewUrl})` }}
+                        data-testid="generated-image-preview" />
+                      <button style={S.primaryBtn}
+                        onClick={handleSaveImageCandidate}
+                        disabled={saving}
+                        data-testid="btn-save-image-candidate">
+                        {saving ? "Saving..." : "Save as candidate"}
+                      </button>
+                    </>
+                  )}
+                  <div style={S.fieldLabel}>Image candidates</div>
                   <div style={S.candidateGrid}>
-                    {sceneIds.slice(0, 4).map(sid => (
-                      <div key={sid} style={{
-                        ...S.thumbCard,
-                        backgroundImage: `url(/api/assets/${id}/${id.toLowerCase()}_${sid}_bg.png)`,
-                      }} />
-                    ))}
+                    {candidates
+                      .filter(c => c.candidateType === "image" && c.sceneId === scene.scene_id)
+                      .slice(0, 4)
+                      .map(c => (
+                        <div key={c.id} style={{
+                          ...S.thumbCard,
+                          backgroundImage: `url(/api/candidates/generate-image?file=${c.proposedValue})`,
+                          border: c.status === "accepted" ? "2px solid #66bb6a" : c.status === "rejected" ? "2px solid #ef5350" : "2px solid rgba(255,255,255,0.12)",
+                        }}>
+                          <span style={{
+                            ...S.statusBadge,
+                            position: "absolute" as never, top: 2, right: 2,
+                            background: c.status === "pending" ? "rgba(255,165,0,0.8)" : c.status === "accepted" ? "rgba(46,125,50,0.8)" : "rgba(200,40,40,0.8)",
+                            color: "white",
+                          }}>{c.status}</span>
+                        </div>
+                      ))}
                   </div>
                 </div>
               </div>
@@ -533,10 +657,12 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             {/* ── Save / Cancel ── */}
             {saveMsg && <div style={S.saveMsg} data-testid="save-msg">{saveMsg}</div>}
             <div style={S.editorActions}>
-              <button style={S.ghostBtn} onClick={closeEditor} data-testid="editor-cancel">Cancel</button>
-              <button style={S.primaryBtn} onClick={handleSave} disabled={saving} data-testid="editor-save">
-                {saving ? "Saving..." : "Save draft"}
-              </button>
+              <button style={S.ghostBtn} onClick={() => { closeEditor(); setGeneratedImage(null); setImageError(""); }} data-testid="editor-cancel">Cancel</button>
+              {editor !== "image" && (
+                <button style={S.primaryBtn} onClick={handleSave} disabled={saving} data-testid="editor-save">
+                  {saving ? "Saving..." : "Save draft"}
+                </button>
+              )}
             </div>
           </div>
         </>
