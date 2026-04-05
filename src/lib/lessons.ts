@@ -31,15 +31,22 @@ const LESSON_ORDER = [
   "11A","11B","12A","12B","13A",
 ];
 
-// Docker: /app/data/  Dev: ../../ (up from betta-app root to SylaSlova repo)
-function dataRoot(): string {
-  const dockerPath = path.join(process.cwd(), "data", "SERVER");
-  if (fs.existsSync(dockerPath)) return path.join(process.cwd(), "data");
-  return path.resolve(process.cwd(), "../..");
+// Priority: persistent storage → Docker bundled data → dev repo
+function serverDir(): string {
+  const storage = path.join(process.env.STORAGE_PATH || "/app/storage", "SERVER");
+  if (fs.existsSync(storage)) return storage;
+  const docker = path.join(process.cwd(), "data", "SERVER");
+  if (fs.existsSync(docker)) return docker;
+  return path.join(path.resolve(process.cwd(), "../.."), "SERVER");
 }
 
-function serverDir(): string { return path.join(dataRoot(), "SERVER"); }
-function assetsDir(): string { return path.join(dataRoot(), "ASSETS"); }
+function assetsDir(): string {
+  const storage = path.join(process.env.STORAGE_PATH || "/app/storage", "ASSETS");
+  if (fs.existsSync(storage)) return storage;
+  const docker = path.join(process.cwd(), "data", "ASSETS");
+  if (fs.existsSync(docker)) return docker;
+  return path.join(path.resolve(process.cwd(), "../.."), "ASSETS");
+}
 
 export async function listLessons(): Promise<LessonSummary[]> {
   const dir = serverDir();
