@@ -502,7 +502,37 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                   Note: {c.reviewNote}
                 </div>
               )}
-              {(c.status === "pending" || c.status === "rejected") && (
+              {c.status === "pending" && canReviewRole && (
+                <div style={{ display: "flex", gap: 6, marginTop: 6 }}>
+                  <button style={{ padding: "3px 10px", borderRadius: 6, border: "1px solid rgba(46,125,50,0.4)", background: "rgba(46,125,50,0.15)", color: "#66bb6a", fontSize: 11, cursor: "pointer", fontWeight: 700 }}
+                    data-testid={`approve-btn-${c.id}`}
+                    onClick={async () => {
+                      const res = await fetch(`/api/candidates/${c.id}`, {
+                        method: "PATCH",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ action: "approve" }),
+                      });
+                      if (res.ok) {
+                        const data = await res.json();
+                        setCandidates(prev => prev.map(x => x.id === c.id ? data.candidate : x));
+                      }
+                    }}>Approve</button>
+                  <button style={{ padding: "3px 10px", borderRadius: 6, border: "1px solid rgba(200,40,40,0.4)", background: "rgba(200,40,40,0.15)", color: "#ef5350", fontSize: 11, cursor: "pointer", fontWeight: 700 }}
+                    data-testid={`reject-btn-${c.id}`}
+                    onClick={async () => {
+                      const res = await fetch(`/api/candidates/${c.id}`, {
+                        method: "PATCH",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ action: "reject", reviewNote: "Rejected by admin" }),
+                      });
+                      if (res.ok) {
+                        const data = await res.json();
+                        setCandidates(prev => prev.map(x => x.id === c.id ? data.candidate : x));
+                      }
+                    }}>Reject</button>
+                </div>
+              )}
+              {(c.status === "pending" || c.status === "rejected") && c.authorUserId === session?.user?.id && (
                 <button style={{ marginTop: 6, padding: "3px 10px", borderRadius: 6, border: "1px solid rgba(255,255,255,0.12)", background: "transparent", color: "rgba(240,242,245,0.5)", fontSize: 11, cursor: "pointer" }}
                   data-testid={`withdraw-btn-${c.id}`}
                   onClick={async () => {
