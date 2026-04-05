@@ -48,6 +48,9 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const [editor, setEditor] = useState<EditorType>(null);
   const [editorDraft, setEditorDraft] = useState("");
   const [saveMsg, setSaveMsg] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [candidates, setCandidates] = useState<any[]>([]);
+  const [showCandidates, setShowCandidates] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -62,6 +65,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
         setLesson(l);
         const sceneIds = Object.keys(l.scenes);
         if (sceneIds.length > 0) setActiveSceneId(sceneIds[0]);
+      }
+      // Load my candidates for this lesson
+      if (sess && !sess.error) {
+        fetch(`/api/candidates?lessonId=${id}`).then(r => r.ok ? r.json() : null)
+          .then(d => { if (d?.candidates) setCandidates(d.candidates); });
       }
     }).finally(() => setLoading(false));
   }, [id, router]);
@@ -149,10 +157,48 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     setSaveMsg("");
   }
 
-  function handleSave() {
-    // TODO: POST /api/candidates when backend is ready
-    setSaveMsg("Draft saved! (Will create EditCandidate when API is connected)");
-    setTimeout(() => { closeEditor(); }, 1200);
+  async function handleSave() {
+    if (!editor || !step || saving) return;
+    setSaving(true);
+    setSaveMsg("");
+
+    const candidateType = editor === "image" ? "image" : "text";
+    const originalValue = editor === "teacher"
+      ? (step.step_type === "single_choice" && step.explanation ? t(step.explanation) : t(step.prompt))
+      : editor === "poll" ? t(step.prompt)
+      : editor === "brief" ? ""
+      : editor === "overlay" ? ""
+      : "";
+
+    try {
+      const res = await fetch("/api/candidates", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          lessonId: id,
+          sceneId: scene.scene_id,
+          stepId: step.step_id,
+          field: editor,
+          candidateType,
+          originalValue,
+          proposedValue: editorDraft,
+          languageCode: lang,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setSaveMsg(`Error: ${data.error}`);
+        setSaving(false);
+        return;
+      }
+      setSaveMsg("Revision created — pending review");
+      setCandidates(prev => [data.candidate, ...prev]);
+      setTimeout(() => closeEditor(), 1500);
+    } catch {
+      setSaveMsg("Network error — try again");
+    } finally {
+      setSaving(false);
+    }
   }
 
   // Editor title map
@@ -171,26 +217,26 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   return (
     <div style={S.page}>
       {/* ═══ TOPBAR ═══ */}
-      <header style={S.topbar}>
+      <header style={S.topbar} data-testid="lesson-topbar">
         <div style={S.topLeft}>
-          <button style={S.backBtn} onClick={() => router.push("/dashboard")}>←</button>
-          <button style={S.hamburger} onClick={() => setSceneDrawerOpen(true)}>
+          <button style={S.backBtn} onClick={() => router.push("/dashboard")} data-testid="lesson-back-btn">←</button>
+          <button style={S.hamburger} onClick={() => setSceneDrawerOpen(true)} data-testid="lesson-hamburger">
             <span style={S.bar} /><span style={S.bar} /><span style={S.bar} />
           </button>
-          <span style={S.lessonId}>{lesson.lesson_id}</span>
-          <span style={S.sceneTitle}>{t(scene.title)}</span>
+          <span style={S.lessonId} data-testid="lesson-id">{lesson.lesson_id}</span>
+          <span style={S.sceneTitle} data-testid="lesson-scene-title">{t(scene.title)}</span>
         </div>
         <div style={S.topRight}>
           {["en", "ru", "uk"].map(l => (
             <button key={l} style={lang === l ? S.langActive : S.langBtn}
-              onClick={() => setLang(l)}>{l.toUpperCase()}</button>
+              onClick={() => setLang(l)} data-testid={`lesson-lang-${l}`}>{l.toUpperCase()}</button>
           ))}
         </div>
       </header>
 
       {/* ═══ ACTION STRIP ═══ */}
       {canEdit && (
-        <div style={S.actionStrip}>
+        <div style={S.actionStrip} data-testid="action-strip">
           {([
             ["image", "Image"],
             ["brief", "Brief"],
@@ -199,13 +245,18 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             ["teacher", "Teacher Text"],
           ] as [EditorType, string][]).map(([type, label]) => (
             <button key={type} style={editor === type ? S.actionBtnActive : S.actionBtn}
-              onClick={() => openEditor(type)}>{label}</button>
+              onClick={() => openEditor(type)} data-testid={`editor-btn-${type}`}>{label}</button>
           ))}
+          <button style={showCandidates ? S.actionBtnActive : S.actionBtn}
+            onClick={() => setShowCandidates(!showCandidates)}
+            data-testid="btn-my-revisions">
+            Revisions{candidates.length > 0 ? ` (${candidates.length})` : ""}
+          </button>
         </div>
       )}
 
       {/* ═══ HERO IMAGE ═══ */}
-      <div style={{ ...S.stage, backgroundImage: `url(${bgPath})` }}>
+      <div style={{ ...S.stage, backgroundImage: `url(${bgPath})` }} data-testid="lesson-stage">
         {step && step.step_type === "single_choice" && step.options && (
           <div style={S.pollWrap}>
             <div style={S.pollQ}>{t(step.prompt)}</div>
@@ -222,28 +273,65 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       </div>
 
       {/* ═══ TEACHER TEXT ═══ */}
-      <div style={S.teacherPanel}>{teacherText}</div>
+      <div style={S.teacherPanel} data-testid="teacher-panel">{teacherText}</div>
 
       {/* ═══ CONTROLS ═══ */}
-      <div style={S.controls}>
+      <div style={S.controls} data-testid="lesson-controls">
         <button style={S.ctrlBtn} disabled={stepIndex === 0 && currentSceneIndex === 0}
-          onClick={handleBack}>← Back</button>
-        <span style={S.stepInfo}>
+          onClick={handleBack} data-testid="btn-back">← Back</button>
+        <span style={S.stepInfo} data-testid="step-info">
           {scene.scene_id} · Step {stepIndex + 1}/{sceneSteps.length}
           {' · '}Scene {currentSceneIndex + 1}/{sceneIds.length}
         </span>
-        <button style={S.ctrlBtn}>Reveal</button>
+        <button style={S.ctrlBtn} data-testid="btn-reveal">Reveal</button>
         <button style={S.ctrlBtnPrimary} disabled={isLastStep && isLastScene}
-          onClick={handleNext}>
+          onClick={handleNext} data-testid="btn-next">
           {isLastStep && !isLastScene ? "Next Scene →" : "Next →"}
         </button>
       </div>
+
+      {/* ═══ CANDIDATES PANEL ═══ */}
+      {showCandidates && (
+        <div style={S.candidatesPanel} data-testid="candidates-panel">
+          <div style={S.candidatesPanelHead}>
+            <span style={{ fontSize: 12, fontWeight: 700, color: "rgba(240,242,245,0.5)" }}>
+              My Revisions ({candidates.length})
+            </span>
+            <button style={S.xBtn} onClick={() => setShowCandidates(false)}>×</button>
+          </div>
+          {candidates.length === 0 && (
+            <div style={{ padding: "12px 16px", fontSize: 12, color: "rgba(240,242,245,0.3)" }}>
+              No revisions yet. Open an editor and save a draft to create one.
+            </div>
+          )}
+          {candidates.map((c: any) => (
+            <div key={c.id} style={S.candidateRow} data-testid={`candidate-row-${c.id}`}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <span style={{ fontSize: 12, fontWeight: 700 }}>{c.field}</span>
+                <span style={{
+                  ...S.statusBadge,
+                  background: c.status === "pending" ? "rgba(255,165,0,0.15)" : c.status === "accepted" ? "rgba(46,125,50,0.15)" : c.status === "rejected" ? "rgba(200,40,40,0.15)" : "rgba(120,120,120,0.15)",
+                  color: c.status === "pending" ? "#ffa500" : c.status === "accepted" ? "#66bb6a" : c.status === "rejected" ? "#ef5350" : "#888",
+                }} data-testid={`candidate-status-${c.id}`}>{c.status}</span>
+              </div>
+              <div style={{ fontSize: 11, color: "rgba(240,242,245,0.4)", marginTop: 2 }}>
+                {c.candidateType} · {c.sceneId || "—"} · {new Date(c.createdAt).toLocaleString()}
+              </div>
+              {c.reviewNote && (
+                <div style={{ fontSize: 11, color: "#ef5350", marginTop: 4 }}>
+                  Note: {c.reviewNote}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* ═══ SCENE DRAWER ═══ */}
       {sceneDrawerOpen && (
         <>
           <div style={S.backdrop} onClick={() => setSceneDrawerOpen(false)} />
-          <div style={S.sceneDrawer}>
+          <div style={S.sceneDrawer} data-testid="scene-drawer">
             <div style={S.drawerHead}>
               <h2 style={{ margin: 0, fontSize: 14 }}>Scenes</h2>
               <button style={S.xBtn} onClick={() => setSceneDrawerOpen(false)}>×</button>
@@ -266,7 +354,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       {editor && (
         <>
           <div style={S.backdrop} onClick={closeEditor} />
-          <div style={editor === "image" ? S.editorWide : S.editorDrawer}>
+          <div style={editor === "image" ? S.editorWide : S.editorDrawer} data-testid={`editor-drawer-${editor}`}>
             <div style={S.drawerHead}>
               <div>
                 <div style={S.eyebrow}>Edit Mode · {session.activeRoleMode}</div>
@@ -282,7 +370,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                 <div style={S.oldText}>{t(step.prompt)}</div>
                 <div style={S.fieldLabel}>New text</div>
                 <textarea style={S.textarea} rows={6} value={editorDraft}
-                  onChange={e => setEditorDraft(e.target.value)} />
+                  onChange={e => setEditorDraft(e.target.value)} data-testid="editor-textarea" />
               </div>
             )}
 
@@ -370,7 +458,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                   </div>
                   <div style={S.fieldLabel}>3. Generate (fallback)</div>
                   <textarea style={S.textarea} rows={3} placeholder="Describe the image you need..." />
-                  <button style={S.ghostBtn}>Translate &amp; Generate</button>
+                  <button style={S.ghostBtn} data-testid="btn-generate-image">Translate &amp; Generate</button>
                 </div>
                 <div style={S.editorBody}>
                   <div style={S.fieldLabel}>Current</div>
@@ -389,10 +477,12 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             )}
 
             {/* ── Save / Cancel ── */}
-            {saveMsg && <div style={S.saveMsg}>{saveMsg}</div>}
+            {saveMsg && <div style={S.saveMsg} data-testid="save-msg">{saveMsg}</div>}
             <div style={S.editorActions}>
-              <button style={S.ghostBtn} onClick={closeEditor}>Cancel</button>
-              <button style={S.primaryBtn} onClick={handleSave}>Save draft</button>
+              <button style={S.ghostBtn} onClick={closeEditor} data-testid="editor-cancel">Cancel</button>
+              <button style={S.primaryBtn} onClick={handleSave} disabled={saving} data-testid="editor-save">
+                {saving ? "Saving..." : "Save draft"}
+              </button>
             </div>
           </div>
         </>
@@ -474,4 +564,10 @@ const S: Record<string, React.CSSProperties> = {
   browserTitle: { fontSize: 11, fontWeight: 800, color: "rgba(240,242,245,0.4)", marginBottom: 6 },
   heroPreview: { height: 180, borderRadius: 10, backgroundSize: "cover", backgroundPosition: "center" },
   candidateGrid: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6 },
+
+  // Candidates panel
+  candidatesPanel: { position: "fixed" as const, top: 0, right: 0, width: "min(400px, 100vw)", height: "100vh", background: "rgba(16,22,36,0.98)", backdropFilter: "blur(20px)", borderLeft: "1px solid rgba(255,255,255,0.08)", zIndex: 350, display: "flex", flexDirection: "column" as const, overflowY: "auto" as const },
+  candidatesPanelHead: { display: "flex", justifyContent: "space-between", alignItems: "center", padding: "14px 16px", borderBottom: "1px solid rgba(255,255,255,0.06)" },
+  candidateRow: { padding: "10px 16px", borderBottom: "1px solid rgba(255,255,255,0.04)" },
+  statusBadge: { padding: "2px 8px", borderRadius: 999, fontSize: 10, fontWeight: 700 },
 };
