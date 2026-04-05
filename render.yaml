@@ -13,16 +13,6 @@ services:
         generateValue: true
       - key: NODE_ENV
         value: production
-      - key: S3_ENDPOINT
-        sync: false
-      - key: S3_ACCESS_KEY
-        sync: false
-      - key: S3_SECRET_KEY
-        sync: false
-      - key: S3_BUCKET
-        value: betta-assets
-      - key: S3_PUBLIC_URL
-        sync: false
     healthCheckPath: /api/health
 
 databases:

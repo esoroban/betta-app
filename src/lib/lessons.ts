@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import { getJsonFile, getPublicUrl, isRemoteStorage } from "./storage";
 
 export interface LessonSummary {
   lessonId: string;
@@ -32,85 +31,43 @@ const LESSON_ORDER = [
   "11A","11B","12A","12B","13A",
 ];
 
-function getLocalServerDir(): string {
-  return path.join(path.resolve(process.cwd(), "../.."), "SERVER");
+// Docker: /app/data/  Dev: ../../ (up from betta-app root to SylaSlova repo)
+function dataRoot(): string {
+  const dockerPath = path.join(process.cwd(), "data", "SERVER");
+  if (fs.existsSync(dockerPath)) return path.join(process.cwd(), "data");
+  return path.resolve(process.cwd(), "../..");
 }
 
-function getLocalAssetsDir(): string {
-  return path.join(path.resolve(process.cwd(), "../.."), "ASSETS");
-}
+function serverDir(): string { return path.join(dataRoot(), "SERVER"); }
+function assetsDir(): string { return path.join(dataRoot(), "ASSETS"); }
 
 export async function listLessons(): Promise<LessonSummary[]> {
+  const dir = serverDir();
+  if (!fs.existsSync(dir)) return [];
+
   const lessons: LessonSummary[] = [];
-
   for (const id of LESSON_ORDER) {
+    const file = path.join(dir, `lesson_${id}_runtime.json`);
+    if (!fs.existsSync(file)) continue;
     try {
-      let data: LessonDetail | null = null;
-
-      if (isRemoteStorage()) {
-        data = await getJsonFile<LessonDetail>(`SERVER/lesson_${id}_runtime.json`);
-      } else {
-        const filePath = path.join(getLocalServerDir(), `lesson_${id}_runtime.json`);
-        if (fs.existsSync(filePath)) {
-          data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-        }
-      }
-
-      if (!data) continue;
-
+      const data = JSON.parse(fs.readFileSync(file, "utf-8"));
       const thumbFile = `${id.toLowerCase()}_thumbnail.png`;
-      let thumbnailPath: string | null = null;
-
-      if (isRemoteStorage()) {
-        thumbnailPath = getPublicUrl(`ASSETS/${id}/${thumbFile}`);
-      } else {
-        const thumbFullPath = path.join(getLocalAssetsDir(), id, thumbFile);
-        if (fs.existsSync(thumbFullPath)) {
-          thumbnailPath = `/api/assets/${id}/${thumbFile}`;
-        }
-      }
-
+      const hasThumb = fs.existsSync(path.join(assetsDir(), id, thumbFile));
       lessons.push({
         lessonId: id,
         title: data.title || {},
         supportedLangs: data.supported_langs || [],
         sceneCount: Object.keys(data.scenes || {}).length,
         stepCount: Array.isArray(data.steps) ? data.steps.length : 0,
-        thumbnailPath,
+        thumbnailPath: hasThumb ? `/api/assets/${id}/${thumbFile}` : null,
       });
-    } catch {
-      // skip
-    }
+    } catch { /* skip */ }
   }
-
   return lessons;
 }
 
 export async function getLesson(lessonId: string): Promise<LessonDetail | null> {
-  if (isRemoteStorage()) {
-    return getJsonFile<LessonDetail>(`SERVER/lesson_${lessonId}_runtime.json`);
-  }
-
-  const file = path.join(getLocalServerDir(), `lesson_${lessonId}_runtime.json`);
+  const file = path.join(serverDir(), `lesson_${lessonId}_runtime.json`);
   if (!fs.existsSync(file)) return null;
   return JSON.parse(fs.readFileSync(file, "utf-8"));
-}
-
-export function resolveStepImage(
-  lessonId: string,
-  sceneId: string,
-  stepId: string,
-  stepImageMap?: Record<string, string>
-): string {
-  if (stepImageMap?.[stepId]) {
-    const mapped = stepImageMap[stepId];
-    const match = mapped.match(/ASSETS\/(.+)/);
-    if (match) {
-      if (isRemoteStorage()) return getPublicUrl(`ASSETS/${match[1]}`);
-      return `/api/assets/${match[1]}`;
-    }
-  }
-  const bgFile = `${lessonId.toLowerCase()}_${sceneId}_bg.png`;
-  if (isRemoteStorage()) return getPublicUrl(`ASSETS/${lessonId}/${bgFile}`);
-  return `/api/assets/${lessonId}/${bgFile}`;
 }

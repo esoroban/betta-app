@@ -31,11 +31,15 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
-# Prisma + all node_modules (for migrate deploy + S3 SDK)
+# Prisma: schema, migrations, CLI + all deps
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=builder /app/node_modules/.prisma ./node_modules/.prisma
+
+# Lesson data (bundled for MVP — will move to R2/S3 later)
+COPY --chown=nextjs:nodejs data/SERVER ./data/SERVER
+COPY --chown=nextjs:nodejs data/ASSETS ./data/ASSETS
 
 # Seed + entrypoint
 COPY seed-docker.js ./
