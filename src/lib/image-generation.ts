@@ -82,7 +82,8 @@ Return ONLY the improved prompt, nothing else.`
 }
 
 /**
- * Generate an image using Gemini Imagen API.
+ * Generate an image using Gemini native image generation (Nano Banana 2 / Gemini 2.0 Flash).
+ * Uses generateContent with responseModalities: ["IMAGE"] instead of the legacy Imagen predict API.
  */
 async function generateWithGemini(prompt: string): Promise<{ buffer: Buffer; mimeType: string }> {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -90,36 +91,41 @@ async function generateWithGemini(prompt: string): Promise<{ buffer: Buffer; mim
     throw new Error("GEMINI_API_KEY is not set. Image generation requires a Gemini API key.");
   }
 
-  // Use Imagen 3 via Gemini API
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${apiKey}`;
 
   const res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      instances: [{ prompt }],
-      parameters: {
-        sampleCount: 1,
-        aspectRatio: "16:9",
-        safetyFilterLevel: "block_few",
+      contents: [{
+        parts: [{ text: prompt }],
+      }],
+      generationConfig: {
+        responseModalities: ["IMAGE", "TEXT"],
+        temperature: 0.4,
       },
     }),
   });
 
   if (!res.ok) {
     const errBody = await res.text();
-    throw new Error(`Gemini Imagen API error ${res.status}: ${errBody}`);
+    throw new Error(`Gemini image generation error ${res.status}: ${errBody}`);
   }
 
   const data = await res.json();
-  const prediction = data?.predictions?.[0];
-  if (!prediction?.bytesBase64Encoded) {
+  const parts = data?.candidates?.[0]?.content?.parts;
+  if (!parts) {
+    throw new Error("No content in Gemini response");
+  }
+
+  const imagePart = parts.find((p: { inlineData?: { mimeType: string; data: string } }) => p.inlineData);
+  if (!imagePart?.inlineData?.data) {
     throw new Error("No image data in Gemini response");
   }
 
   return {
-    buffer: Buffer.from(prediction.bytesBase64Encoded, "base64"),
-    mimeType: prediction.mimeType || "image/png",
+    buffer: Buffer.from(imagePart.inlineData.data, "base64"),
+    mimeType: imagePart.inlineData.mimeType || "image/png",
   };
 }
 
