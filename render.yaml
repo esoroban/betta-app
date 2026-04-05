@@ -4,11 +4,6 @@ services:
     runtime: docker
     dockerContext: .
     dockerfilePath: ./Dockerfile
-    plan: starter
-    disk:
-      name: betta-storage
-      mountPath: /app/storage
-      sizeGB: 1
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -18,12 +13,10 @@ services:
         generateValue: true
       - key: NODE_ENV
         value: production
-      - key: STORAGE_PATH
-        value: /app/storage
     healthCheckPath: /api/health
 
 databases:
   - name: betta-db
-    plan: starter
+    plan: free
     databaseName: betta
     user: beta
