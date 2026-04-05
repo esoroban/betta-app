@@ -1,4 +1,5 @@
 import { prisma } from "./prisma";
+import { Prisma } from "@prisma/client";
 
 export async function createAuditEvent(
   actorUserId: string,
@@ -13,7 +14,7 @@ export async function createAuditEvent(
       actionType,
       targetType,
       targetId,
-      metadata: metadata ?? undefined,
+      metadata: metadata ? (metadata as Prisma.InputJsonValue) : undefined,
     },
   });
 }
