@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: beta
+      POSTGRES_PASSWORD: beta
+      POSTGRES_DB: betta
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U beta -d betta"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://beta:beta@postgres:5432/betta?schema=public
+      SESSION_SECRET: docker-dev-secret-change-in-production
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:

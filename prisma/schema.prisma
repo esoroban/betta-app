@@ -1,0 +1,112 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  owner
+  administrator
+  revisioner
+  teacher
+  student
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  passwordHash  String
+  displayName   String
+  baseRole      Role
+  status        String    @default("active")
+  preferredLang String    @default("en")
+  createdAt     DateTime  @default(now())
+  createdBy     String?
+  deactivatedAt DateTime?
+
+  sessions       AppSession[]
+  editCandidates EditCandidate[]
+  auditEvents    AuditEvent[]
+
+  @@map("users")
+}
+
+model AppSession {
+  id             String   @id @default(cuid())
+  userId         String
+  baseRole       Role
+  activeRoleMode Role
+  createdAt      DateTime @default(now())
+  lastSeenAt     DateTime @updatedAt
+  expiresAt      DateTime
+  isRevoked      Boolean  @default(false)
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@map("app_sessions")
+}
+
+model EditCandidate {
+  id               String    @id @default(cuid())
+  lessonId         String
+  sceneId          String?
+  stepId           String?
+  locationKey      String
+  field            String
+  candidateType    String
+  originalValue    String    @db.Text
+  proposedValue    String    @db.Text
+  languageCode     String?
+  status           String    @default("pending")
+  authorUserId     String
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  reviewedBy       String?
+  reviewedAt       DateTime?
+  reviewNote       String?
+  withdrawnAt      DateTime?
+  publishVersionId String?
+
+  author         User            @relation(fields: [authorUserId], references: [id])
+  publishVersion PublishVersion? @relation(fields: [publishVersionId], references: [id])
+
+  @@index([lessonId, status])
+  @@index([authorUserId])
+  @@map("edit_candidates")
+}
+
+model PublishVersion {
+  id            String   @id @default(cuid())
+  lessonId      String
+  versionNumber Int
+  snapshot      Json
+  description   String?
+  isActive      Boolean  @default(false)
+  publishedBy   String
+  publishedAt   DateTime @default(now())
+
+  candidates EditCandidate[]
+
+  @@index([lessonId, isActive])
+  @@map("publish_versions")
+}
+
+model AuditEvent {
+  id          String   @id @default(cuid())
+  actorUserId String
+  actionType  String
+  targetType  String
+  targetId    String
+  metadata    Json?
+  createdAt   DateTime @default(now())
+
+  actor User @relation(fields: [actorUserId], references: [id])
+
+  @@index([actorUserId])
+  @@index([targetType, targetId])
+  @@map("audit_events")
+}
