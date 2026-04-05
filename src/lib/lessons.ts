@@ -31,20 +31,18 @@ const LESSON_ORDER = [
   "11A","11B","12A","12B","13A",
 ];
 
-// Priority: persistent storage → Docker bundled data → dev repo
+// Production: persistent storage /app/storage/
+// Dev: ../../ (up from betta-app root to SylaSlova repo)
+// No fallback to data/ — single source of truth, no duplicates
 function serverDir(): string {
   const storage = path.join(process.env.STORAGE_PATH || "/app/storage", "SERVER");
   if (fs.existsSync(storage)) return storage;
-  const docker = path.join(process.cwd(), "data", "SERVER");
-  if (fs.existsSync(docker)) return docker;
   return path.join(path.resolve(process.cwd(), "../.."), "SERVER");
 }
 
 function assetsDir(): string {
   const storage = path.join(process.env.STORAGE_PATH || "/app/storage", "ASSETS");
   if (fs.existsSync(storage)) return storage;
-  const docker = path.join(process.cwd(), "data", "ASSETS");
-  if (fs.existsSync(docker)) return docker;
   return path.join(path.resolve(process.cwd(), "../.."), "ASSETS");
 }
 

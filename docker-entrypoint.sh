@@ -7,18 +7,18 @@ node ./node_modules/prisma/build/index.js migrate deploy
 echo "Running seed (if DB is empty)..."
 node ./seed-docker.js || echo "Seed skipped or already seeded."
 
-# Copy baseline assets to persistent storage on first run
-STORAGE="/app/storage"
+# Move baseline assets to persistent storage (one-time)
+STORAGE="${STORAGE_PATH:-/app/storage}"
 if [ -d "$STORAGE" ] && [ -d "./data/ASSETS" ]; then
-  if [ ! -f "$STORAGE/.assets-copied" ]; then
-    echo "Copying baseline assets to persistent storage..."
-    mkdir -p "$STORAGE/ASSETS" "$STORAGE/SERVER"
-    cp -rn ./data/ASSETS/* "$STORAGE/ASSETS/" 2>/dev/null || true
-    cp -n ./data/SERVER/*.json "$STORAGE/SERVER/" 2>/dev/null || true
-    touch "$STORAGE/.assets-copied"
-    echo "Done: $(du -sh $STORAGE/ASSETS | cut -f1) of assets copied."
+  if [ ! -f "$STORAGE/.initialized" ]; then
+    echo "Initializing persistent storage with baseline assets..."
+    mkdir -p "$STORAGE/ASSETS" "$STORAGE/SERVER" "$STORAGE/candidates" "$STORAGE/published"
+    cp -r ./data/ASSETS/* "$STORAGE/ASSETS/"
+    cp ./data/SERVER/*.json "$STORAGE/SERVER/"
+    touch "$STORAGE/.initialized"
+    echo "Done: $(du -sh $STORAGE/ASSETS 2>/dev/null | cut -f1) of assets on persistent disk."
   else
-    echo "Assets already on persistent storage, skipping copy."
+    echo "Persistent storage already initialized."
   fi
 fi
 

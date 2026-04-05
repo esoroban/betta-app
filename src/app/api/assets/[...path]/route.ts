@@ -5,8 +5,6 @@ import path from "path";
 function assetsDir(): string {
   const storage = path.join(process.env.STORAGE_PATH || "/app/storage", "ASSETS");
   if (fs.existsSync(storage)) return storage;
-  const docker = path.join(process.cwd(), "data", "ASSETS");
-  if (fs.existsSync(docker)) return docker;
   return path.join(path.resolve(process.cwd(), "../.."), "ASSETS");
 }
 

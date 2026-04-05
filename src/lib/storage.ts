@@ -42,13 +42,15 @@ export function getCandidateImagePath(filename: string): string | null {
   return filePath;
 }
 
-export function getStorageInfo(): { root: string; exists: boolean; candidateCount: number } {
+export function getStorageInfo() {
   const root = getStorageRoot();
   const exists = fs.existsSync(root);
+  const initialized = fs.existsSync(path.join(root, ".initialized"));
   let candidateCount = 0;
+  let lessonCount = 0;
   const candDir = path.join(root, "candidates");
-  if (fs.existsSync(candDir)) {
-    candidateCount = fs.readdirSync(candDir).length;
-  }
-  return { root, exists, candidateCount };
+  if (fs.existsSync(candDir)) candidateCount = fs.readdirSync(candDir).length;
+  const assetsDir = path.join(root, "ASSETS");
+  if (fs.existsSync(assetsDir)) lessonCount = fs.readdirSync(assetsDir).filter(d => fs.statSync(path.join(assetsDir, d)).isDirectory()).length;
+  return { root, exists, initialized, lessonCount, candidateCount };
 }
