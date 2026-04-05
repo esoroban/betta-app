@@ -1,73 +1,26 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useEffect, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 
-const SAVED_ACCOUNTS_KEY = "betta_saved_accounts";
-
-interface SavedAccount {
-  email: string;
-  password: string;
-  displayName?: string;
-  role?: string;
-}
-
-function getSavedAccounts(): SavedAccount[] {
-  try {
-    return JSON.parse(localStorage.getItem(SAVED_ACCOUNTS_KEY) || "[]");
-  } catch { return []; }
-}
-
-function saveAccount(email: string, password: string, displayName?: string, role?: string) {
-  const accounts = getSavedAccounts().filter(a => a.email !== email);
-  accounts.unshift({ email, password, displayName, role });
-  localStorage.setItem(SAVED_ACCOUNTS_KEY, JSON.stringify(accounts));
-}
-
-const DEV_ACCOUNTS = [
-  { email: "owner@sylaslova.com", password: "owner123", label: "Owner", role: "owner" },
-  { email: "admin@sylaslova.com", password: "admin123", label: "Administrator", role: "administrator" },
-  { email: "revisioner@sylaslova.com", password: "rev123", label: "Revisioner", role: "revisioner" },
-  { email: "teacher1@sylaslova.com", password: "teach123", label: "Teacher", role: "teacher" },
-  { email: "student1@sylaslova.com", password: "stud123", label: "Student", role: "student" },
-];
-
-const ROLE_COLORS: Record<string, string> = {
-  owner: "#ffd700", administrator: "#4f7df9", revisioner: "#00c896", teacher: "#ffa500", student: "#aaa",
-};
+const REMEMBERED_EMAIL_KEY = "betta_remembered_email";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const [rememberMe, setRememberMe] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const [savedAccounts, setSavedAccounts] = useState<SavedAccount[]>([]);
   const router = useRouter();
 
-  // Load saved accounts on mount
-  useState(() => {
-    setSavedAccounts(getSavedAccounts());
-  });
-
-  async function quickLogin(acc: typeof DEV_ACCOUNTS[0]) {
-    setEmail(acc.email);
-    setPassword(acc.password);
-    setError("");
-    setLoading(true);
-    try {
-      const res = await fetch("/api/auth/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: acc.email, password: acc.password }),
-      });
-      const data = await res.json();
-      if (!res.ok) { setError(data.error || "Login failed"); return; }
-      saveAccount(acc.email, acc.password, data.user?.displayName, data.user?.baseRole);
-      router.push("/dashboard");
-    } catch { setError("Network error"); }
-    finally { setLoading(false); }
-  }
+  useEffect(() => {
+    const saved = localStorage.getItem(REMEMBERED_EMAIL_KEY);
+    if (saved) {
+      setEmail(saved);
+      setRememberMe(true);
+    }
+  }, []);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -88,8 +41,12 @@ export default function LoginPage() {
         return;
       }
 
-      saveAccount(email, password, data.user?.displayName, data.user?.baseRole);
-      setSavedAccounts(getSavedAccounts());
+      if (rememberMe) {
+        localStorage.setItem(REMEMBERED_EMAIL_KEY, email);
+      } else {
+        localStorage.removeItem(REMEMBERED_EMAIL_KEY);
+      }
+
       router.push("/dashboard");
     } catch {
       setError("Network error");
@@ -98,12 +55,28 @@ export default function LoginPage() {
     }
   }
 
-  return (
-    <div style={styles.page}>
-      <form onSubmit={handleSubmit} style={styles.form} data-testid="login-form">
-        <h1 style={styles.title}>SylaSlova Beta</h1>
+  const EyeOpen = () => (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
 
-        <label style={styles.label}>
+  const EyeClosed = () => (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94" />
+      <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19" />
+      <line x1="1" y1="1" x2="23" y2="23" />
+      <path d="M14.12 14.12a3 3 0 1 1-4.24-4.24" />
+    </svg>
+  );
+
+  return (
+    <div style={S.page}>
+      <form onSubmit={handleSubmit} style={S.form} data-testid="login-form">
+        <h1 style={S.title}>SylaSlova Beta</h1>
+
+        <label style={S.label}>
           Email
           <input
             type="email"
@@ -111,35 +84,49 @@ export default function LoginPage() {
             onChange={(e) => setEmail(e.target.value)}
             required
             autoFocus
-            style={styles.input}
+            autoComplete="email"
+            style={S.input}
             data-testid="login-email"
           />
         </label>
 
-        <label style={styles.label}>
+        <label style={S.label}>
           Password
-          <div style={styles.passwordWrap}>
+          <div style={S.passwordWrap}>
             <input
               type={showPassword ? "text" : "password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              style={{ ...styles.input, paddingRight: 48 }}
+              autoComplete="current-password"
+              style={{ ...S.input, paddingRight: 44 }}
               data-testid="login-password"
             />
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              style={styles.toggle}
+              style={S.eyeBtn}
               data-testid="login-password-toggle"
+              aria-label={showPassword ? "Hide password" : "Show password"}
             >
-              {showPassword ? "Hide" : "Show"}
+              {showPassword ? <EyeClosed /> : <EyeOpen />}
             </button>
           </div>
         </label>
 
+        <label style={S.rememberRow}>
+          <input
+            type="checkbox"
+            checked={rememberMe}
+            onChange={(e) => setRememberMe(e.target.checked)}
+            style={S.checkbox}
+            data-testid="login-remember"
+          />
+          <span>Remember me</span>
+        </label>
+
         {error && (
-          <div style={styles.error} data-testid="login-error">
+          <div style={S.error} data-testid="login-error">
             {error}
           </div>
         )}
@@ -147,7 +134,7 @@ export default function LoginPage() {
         <button
           type="submit"
           disabled={loading}
-          style={{ ...styles.submit, opacity: loading ? 0.6 : 1 }}
+          style={{ ...S.submit, opacity: loading ? 0.6 : 1 }}
           data-testid="login-submit"
         >
           {loading ? "Logging in..." : "Login"}
@@ -157,7 +144,7 @@ export default function LoginPage() {
   );
 }
 
-const styles: Record<string, React.CSSProperties> = {
+const S: Record<string, React.CSSProperties> = {
   page: {
     display: "flex",
     alignItems: "center",
@@ -199,111 +186,39 @@ const styles: Record<string, React.CSSProperties> = {
     color: "#f0f2f5",
     fontSize: 14,
     outline: "none",
+    width: "100%",
   },
   passwordWrap: {
     position: "relative" as const,
   },
-  toggle: {
+  eyeBtn: {
     position: "absolute" as const,
     right: 8,
     top: "50%",
     transform: "translateY(-50%)",
     background: "none",
     border: "none",
-    color: "rgba(240,242,245,0.5)",
-    fontSize: 12,
+    color: "rgba(240,242,245,0.4)",
     cursor: "pointer",
-    fontWeight: 700,
-  },
-  devSection: {
+    padding: 4,
     display: "flex",
-    flexDirection: "column" as const,
-    gap: 6,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 4,
   },
-  devLabel: {
-    fontSize: 10,
-    fontWeight: 700,
-    color: "rgba(240,242,245,0.3)",
-    textTransform: "uppercase" as const,
-    letterSpacing: "0.06em",
-  },
-  devGrid: {
-    display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    gap: 6,
-  },
-  devBtn: {
+  rememberRow: {
     display: "flex",
     alignItems: "center",
     gap: 8,
-    padding: "8px 12px",
-    borderRadius: 8,
-    border: "1px solid rgba(255,255,255,0.08)",
-    background: "rgba(255,255,255,0.03)",
-    color: "#f0f2f5",
     fontSize: 13,
-    fontWeight: 600,
+    color: "rgba(240,242,245,0.5)",
     cursor: "pointer",
-    textAlign: "left" as const,
-    transition: "background 0.15s",
   },
-  devDot: {
-    width: 8,
-    height: 8,
-    borderRadius: "50%",
-    flexShrink: 0,
-  },
-  devName: {},
-  divider: {
-    display: "flex",
-    alignItems: "center",
-    gap: 10,
-  },
-  dividerText: {
-    fontSize: 11,
-    color: "rgba(240,242,245,0.2)",
-    whiteSpace: "nowrap" as const,
-  },
-  savedSection: {
-    display: "flex",
-    flexDirection: "column" as const,
-    gap: 6,
-  },
-  savedLabel: {
-    fontSize: 11,
-    fontWeight: 700,
-    color: "rgba(240,242,245,0.4)",
-    textTransform: "uppercase" as const,
-    letterSpacing: "0.06em",
-  },
-  savedList: {
-    display: "flex",
-    flexDirection: "column" as const,
-    gap: 4,
-  },
-  savedBtn: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    padding: "8px 12px",
-    borderRadius: 8,
-    border: "1px solid rgba(255,255,255,0.1)",
-    background: "rgba(255,255,255,0.04)",
-    color: "#f0f2f5",
-    fontSize: 13,
+  checkbox: {
+    width: 16,
+    height: 16,
+    accentColor: "#4f7df9",
     cursor: "pointer",
-    textAlign: "left" as const,
-  },
-  savedName: {
-    fontWeight: 600,
-  },
-  savedRole: {
-    fontSize: 11,
-    fontWeight: 700,
-    color: "#4f7df9",
-    padding: "2px 8px",
-    borderRadius: 999,
-    background: "rgba(79,125,249,0.15)",
   },
   error: {
     padding: "8px 12px",
