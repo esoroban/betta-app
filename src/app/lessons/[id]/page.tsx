@@ -59,6 +59,10 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     originalPrompt: string; englishPrompt: string; improvedPrompt: string;
   } | null>(null);
   const [imageError, setImageError] = useState("");
+  const [showPublish, setShowPublish] = useState(false);
+  const [publishVersions, setPublishVersions] = useState<any[]>([]);
+  const [publishing, setPublishing] = useState(false);
+  const [publishMsg, setPublishMsg] = useState("");
   const router = useRouter();
 
   useEffect(() => {
@@ -97,6 +101,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const sceneSteps = lesson.steps.filter(s => s.scene_id === scene.scene_id);
   const step = sceneSteps[stepIndex] || sceneSteps[0];
   const canEdit = ["owner", "administrator", "revisioner"].includes(session.activeRoleMode);
+  const canReviewRole = ["owner", "administrator"].includes(session.activeRoleMode);
 
   // Resolve background: step_image_map → scene default
   function getStepBg(): string {
@@ -276,6 +281,71 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     }
   }
 
+  async function loadPublishVersions() {
+    const res = await fetch(`/api/lessons/${id}/publish`);
+    if (res.ok) {
+      const data = await res.json();
+      setPublishVersions(data.versions || []);
+    }
+  }
+
+  async function handlePublish() {
+    if (publishing) return;
+    setPublishing(true);
+    setPublishMsg("");
+    try {
+      const acceptedCount = candidates.filter(c => c.status === "accepted" && !c.publishVersionId).length;
+      const res = await fetch(`/api/lessons/${id}/publish`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          description: `Publish ${acceptedCount} accepted revisions`,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setPublishMsg(`Error: ${data.error}`);
+      } else {
+        setPublishMsg(`Published version ${data.version.versionNumber} (${data.version.candidateCount} changes)`);
+        await loadPublishVersions();
+        // Refresh candidates
+        const cRes = await fetch(`/api/candidates?lessonId=${id}`);
+        if (cRes.ok) {
+          const cData = await cRes.json();
+          if (cData.candidates) setCandidates(cData.candidates);
+        }
+      }
+    } catch {
+      setPublishMsg("Network error");
+    } finally {
+      setPublishing(false);
+    }
+  }
+
+  async function handleRollback(versionId: string) {
+    if (publishing) return;
+    setPublishing(true);
+    setPublishMsg("");
+    try {
+      const res = await fetch(`/api/lessons/${id}/publish`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "rollback", versionId }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setPublishMsg(`Error: ${data.error}`);
+      } else {
+        setPublishMsg(data.message);
+        await loadPublishVersions();
+      }
+    } catch {
+      setPublishMsg("Network error");
+    } finally {
+      setPublishing(false);
+    }
+  }
+
   // Editor title map
   const editorTitles: Record<string, string> = {
     teacher: "Edit Teacher Text",
@@ -327,6 +397,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             data-testid="btn-my-revisions">
             Revisions{candidates.length > 0 ? ` (${candidates.length})` : ""}
           </button>
+          {canReviewRole && (
+            <button style={showPublish ? S.publishBtnActive : S.publishBtn}
+              onClick={() => { setShowPublish(!showPublish); if (!showPublish) loadPublishVersions(); }}
+              data-testid="btn-publish-panel">
+              Publish
+            </button>
+          )}
         </div>
       )}
 
@@ -442,6 +519,83 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
               )}
             </div>
           ))}
+        </div>
+      )}
+
+      {/* ═══ PUBLISH PANEL ═══ */}
+      {showPublish && canReviewRole && (
+        <div style={S.publishPanel} data-testid="publish-panel">
+          <div style={S.candidatesPanelHead}>
+            <span style={{ fontSize: 12, fontWeight: 700, color: "rgba(240,242,245,0.5)" }}>
+              Publish & Versions
+            </span>
+            <button style={S.xBtn} onClick={() => setShowPublish(false)}>x</button>
+          </div>
+
+          {/* Publish action */}
+          <div style={{ padding: "12px 16px", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
+            {(() => {
+              const unpub = candidates.filter(c => c.status === "accepted" && !c.publishVersionId);
+              return (
+                <>
+                  <div style={{ fontSize: 12, color: "rgba(240,242,245,0.5)", marginBottom: 8 }}>
+                    {unpub.length} accepted revision{unpub.length !== 1 ? "s" : ""} ready to publish
+                  </div>
+                  <button style={unpub.length > 0 ? S.primaryBtn : S.ghostBtn}
+                    disabled={unpub.length === 0 || publishing}
+                    onClick={handlePublish}
+                    data-testid="btn-publish-now">
+                    {publishing ? "Publishing..." : `Publish ${unpub.length} revision${unpub.length !== 1 ? "s" : ""}`}
+                  </button>
+                </>
+              );
+            })()}
+            {publishMsg && (
+              <div style={{ marginTop: 8, padding: "6px 10px", borderRadius: 6, background: publishMsg.startsWith("Error") ? "rgba(200,40,40,0.15)" : "rgba(46,125,50,0.15)", color: publishMsg.startsWith("Error") ? "#ef5350" : "#66bb6a", fontSize: 12 }}
+                data-testid="publish-msg">{publishMsg}</div>
+            )}
+          </div>
+
+          {/* Version history */}
+          <div style={{ padding: "8px 0" }}>
+            <div style={{ padding: "4px 16px", fontSize: 10, fontWeight: 800, color: "rgba(240,242,245,0.3)", textTransform: "uppercase" as const }}>
+              Version History
+            </div>
+            {publishVersions.length === 0 && (
+              <div style={{ padding: "8px 16px", fontSize: 12, color: "rgba(240,242,245,0.3)" }}>
+                No versions published yet
+              </div>
+            )}
+            {publishVersions.map((v: any) => (
+              <div key={v.id} style={{ padding: "10px 16px", borderBottom: "1px solid rgba(255,255,255,0.04)" }}
+                data-testid={`version-row-${v.id}`}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <span style={{ fontSize: 12, fontWeight: 700 }}>
+                    v{v.versionNumber}
+                    {v.isActive && (
+                      <span style={{ marginLeft: 6, padding: "1px 6px", borderRadius: 4, fontSize: 9, fontWeight: 700, background: "rgba(46,125,50,0.2)", color: "#66bb6a" }}>
+                        ACTIVE
+                      </span>
+                    )}
+                  </span>
+                  <span style={{ fontSize: 10, color: "rgba(240,242,245,0.3)" }}>
+                    {new Date(v.publishedAt).toLocaleDateString()}
+                  </span>
+                </div>
+                <div style={{ fontSize: 11, color: "rgba(240,242,245,0.4)", marginTop: 2 }}>
+                  {v.description || `${v.candidates?.length || 0} changes`}
+                </div>
+                {!v.isActive && (
+                  <button style={{ marginTop: 6, padding: "3px 10px", borderRadius: 6, border: "1px solid rgba(255,152,0,0.3)", background: "rgba(255,152,0,0.1)", color: "#ff9800", fontSize: 11, fontWeight: 600, cursor: "pointer" }}
+                    onClick={() => handleRollback(v.id)}
+                    disabled={publishing}
+                    data-testid={`rollback-btn-${v.id}`}>
+                    Rollback to v{v.versionNumber}
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
@@ -750,6 +904,11 @@ const S: Record<string, React.CSSProperties> = {
   candidatesPanelHead: { display: "flex", justifyContent: "space-between", alignItems: "center", padding: "14px 16px", borderBottom: "1px solid rgba(255,255,255,0.06)" },
   candidateRow: { padding: "10px 16px", borderBottom: "1px solid rgba(255,255,255,0.04)" },
   statusBadge: { padding: "2px 8px", borderRadius: 999, fontSize: 10, fontWeight: 700 },
+
+  // Publish button
+  publishBtn: { padding: "5px 12px", borderRadius: 6, border: "1px solid rgba(46,125,50,0.3)", background: "rgba(46,125,50,0.1)", color: "#66bb6a", fontSize: 12, fontWeight: 700, cursor: "pointer", transition: "all 0.15s" },
+  publishBtnActive: { padding: "5px 12px", borderRadius: 6, border: "1px solid #66bb6a", background: "rgba(46,125,50,0.25)", color: "#66bb6a", fontSize: 12, fontWeight: 700, cursor: "pointer" },
+  publishPanel: { position: "fixed" as const, top: 0, right: 0, width: "min(400px, 100vw)", height: "100vh", background: "rgba(16,22,36,0.98)", backdropFilter: "blur(20px)", borderLeft: "1px solid rgba(255,255,255,0.08)", zIndex: 350, display: "flex", flexDirection: "column" as const, overflowY: "auto" as const },
 
   // Source language selector
   sourceLangRow: { display: "flex", alignItems: "center", gap: 10, padding: "8px 0", flexWrap: "wrap" as const },
