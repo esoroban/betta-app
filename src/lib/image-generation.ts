@@ -91,7 +91,7 @@ async function generateWithGemini(prompt: string): Promise<{ buffer: Buffer; mim
     throw new Error("GEMINI_API_KEY is not set. Image generation requires a Gemini API key.");
   }
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent?key=${apiKey}`;
 
   const res = await fetch(url, {
     method: "POST",
