@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { requireAuth } from "@/lib/auth";
 import { canReview } from "@/lib/roles";
 import { createAuditEvent } from "@/lib/audit";
-import { translateToAllLangs } from "@/lib/translation";
+import { translateToAllLangs, translatePollToAllLangs, translateOverlayToAllLangs } from "@/lib/translation";
 import { Role, Prisma } from "@prisma/client";
 
 // GET /api/candidates/:id
@@ -62,15 +62,31 @@ export async function PATCH(
       return Response.json({ error: `Cannot approve candidate with status '${candidate.status}'` }, { status: 409 });
     }
 
-    // Translation fan-out for text candidates with a source language
+    // Translation fan-out for text/poll/overlay candidates with a source language
     let translatedValues: Record<string, unknown> | null = null;
-    if (candidate.candidateType === "text" && candidate.sourceLanguage && candidate.proposedValue) {
+    if (candidate.sourceLanguage && candidate.proposedValue) {
       try {
-        const translations = await translateToAllLangs(
-          candidate.proposedValue,
-          candidate.sourceLanguage
-        );
-        translatedValues = translations as Record<string, unknown>;
+        if (candidate.candidateType === "text") {
+          translatedValues = await translateToAllLangs(
+            candidate.proposedValue,
+            candidate.sourceLanguage
+          ) as Record<string, unknown>;
+        } else if (candidate.candidateType === "poll") {
+          // Parse structured poll JSON and translate question, options, explanation
+          const pollData = JSON.parse(candidate.proposedValue);
+          translatedValues = await translatePollToAllLangs(
+            { question: pollData.question, options: pollData.options || [], explanation: pollData.explanation },
+            candidate.sourceLanguage
+          ) as Record<string, unknown>;
+        } else if (candidate.candidateType === "overlay") {
+          // Parse overlay JSON, translate only the text field
+          const overlayData = JSON.parse(candidate.proposedValue);
+          translatedValues = await translateOverlayToAllLangs(
+            overlayData.text || candidate.proposedValue,
+            candidate.sourceLanguage
+          ) as Record<string, unknown>;
+        }
+        // image candidates: no translation needed
       } catch (err) {
         // Translation failure is non-blocking; approve still proceeds
         translatedValues = {

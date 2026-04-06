@@ -102,6 +102,62 @@ export async function translateToAllLangs(
 }
 
 /**
+ * Translate structured poll data: question, options[], explanation.
+ * Returns a map of { lang: { question, options, explanation } } for all languages.
+ */
+export async function translatePollToAllLangs(
+  pollData: { question: string; options: string[]; explanation?: string },
+  sourceLang: string
+): Promise<Record<string, { question: TranslationResult; options: TranslationResult[]; explanation?: TranslationResult }>> {
+  const langs = SUPPORTED_LANGS;
+  const results: Record<string, { question: TranslationResult; options: TranslationResult[]; explanation?: TranslationResult }> = {};
+
+  // Source language gets original
+  results[sourceLang] = {
+    question: { lang: sourceLang, text: pollData.question, success: true },
+    options: pollData.options.map(o => ({ lang: sourceLang, text: o, success: true })),
+    ...(pollData.explanation ? { explanation: { lang: sourceLang, text: pollData.explanation, success: true } } : {}),
+  };
+
+  const otherLangs = langs.filter(l => l !== sourceLang);
+  for (const lang of otherLangs) {
+    try {
+      const q = await translateText(pollData.question, sourceLang, lang);
+      const opts = await Promise.all(
+        pollData.options.map(async o => {
+          const t = await translateText(o, sourceLang, lang);
+          return { lang, text: t, success: true } as TranslationResult;
+        })
+      );
+      let expl: TranslationResult | undefined;
+      if (pollData.explanation) {
+        const e = await translateText(pollData.explanation, sourceLang, lang);
+        expl = { lang, text: e, success: true };
+      }
+      results[lang] = { question: { lang, text: q, success: true }, options: opts, ...(expl ? { explanation: expl } : {}) };
+    } catch (err) {
+      results[lang] = {
+        question: { lang, text: "", success: false, error: String(err) },
+        options: pollData.options.map(() => ({ lang, text: "", success: false, error: String(err) })),
+      };
+    }
+  }
+
+  return results;
+}
+
+/**
+ * Translate overlay text to all supported languages.
+ * Only the text field is translated; style params stay the same.
+ */
+export async function translateOverlayToAllLangs(
+  overlayText: string,
+  sourceLang: string
+): Promise<Record<string, TranslationResult>> {
+  return translateToAllLangs(overlayText, sourceLang);
+}
+
+/**
  * Get the list of supported languages.
  */
 export function getSupportedLangs(): string[] {

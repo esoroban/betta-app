@@ -63,6 +63,19 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const [publishVersions, setPublishVersions] = useState<any[]>([]);
   const [publishing, setPublishing] = useState(false);
   const [publishMsg, setPublishMsg] = useState("");
+  const [otherLessons, setOtherLessons] = useState<{ lesson_id: string; title: Record<string, string>; scenes: string[] }[]>([]);
+  // Poll editor state
+  const [pollOptions, setPollOptions] = useState<string[]>([]);
+  const [pollCorrect, setPollCorrect] = useState("");
+  const [pollExplanation, setPollExplanation] = useState("");
+  // Overlay editor state
+  const [overlayOpacity, setOverlayOpacity] = useState(80);
+  const [overlayFontSize, setOverlayFontSize] = useState(20);
+  const [overlayColor, setOverlayColor] = useState("#ffffff");
+  const [overlayBgColor, setOverlayBgColor] = useState("#0d1524");
+  // Image selection state (for picking from other lessons / drafts)
+  const [selectedImageUrl, setSelectedImageUrl] = useState<string | null>(null);
+  const [selectedImageSource, setSelectedImageSource] = useState<string>(""); // description of where image came from
   const router = useRouter();
 
   useEffect(() => {
@@ -153,15 +166,40 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     setSaveMsg("");
     setSourceLang(lang);
     if (type === "teacher") {
-      setEditorDraft(step ? t(step.prompt) : "");
+      setEditorDraft(step ? (step.prompt?.[lang] || t(step.prompt)) : "");
     } else if (type === "poll") {
-      setEditorDraft(step ? t(step.prompt) : "");
+      setEditorDraft(step ? (step.prompt?.[lang] || t(step.prompt)) : "");
+      // Initialize poll options from step data
+      if (step?.options) {
+        setPollOptions(step.options.map(o => o.text?.[lang] || t(o.text)));
+      } else {
+        setPollOptions(["", ""]); // Default: 2 empty options for new poll
+      }
+      setPollCorrect(step?.correct_answer || "");
+      setPollExplanation(step?.explanation ? (step.explanation[lang] || t(step.explanation)) : "");
     } else if (type === "brief") {
       setEditorDraft(`Scene ${scene.scene_id} brief`);
     } else if (type === "overlay") {
       setEditorDraft("Overlay text");
     } else if (type === "image") {
       setEditorDraft("");
+      // Load other lessons for browsing their images
+      if (otherLessons.length === 0) {
+        fetch("/api/lessons").then(r => r.ok ? r.json() : null).then(data => {
+          if (data?.lessons) {
+            setOtherLessons(
+              data.lessons
+                .filter((l: { lessonId: string }) => l.lessonId !== id)
+                .slice(0, 10)
+                .map((l: { lessonId: string; title: Record<string, string>; sceneCount?: number }) => ({
+                  lesson_id: l.lessonId,
+                  title: l.title || {},
+                  scenes: Array.from({ length: l.sceneCount || 4 }, (_, i) => `sc${i + 1}`),
+                }))
+            );
+          }
+        });
+      }
     }
     setEditor(type);
   }
@@ -176,13 +214,38 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     setSaving(true);
     setSaveMsg("");
 
-    const candidateType = editor === "image" ? "image" : "text";
+    const candidateType = editor === "image" ? "image"
+      : editor === "poll" ? "poll"
+      : editor === "overlay" ? "overlay"
+      : "text";
+
     const originalValue = editor === "teacher"
       ? (step.step_type === "single_choice" && step.explanation ? t(step.explanation) : t(step.prompt))
       : editor === "poll" ? t(step.prompt)
       : editor === "brief" ? ""
       : editor === "overlay" ? ""
       : "";
+
+    // Build proposedValue based on editor type
+    let proposedValue: string;
+    if (editor === "poll") {
+      proposedValue = JSON.stringify({
+        question: editorDraft,
+        options: pollOptions.filter(o => o.trim()),
+        correctAnswer: pollCorrect,
+        explanation: pollExplanation,
+      });
+    } else if (editor === "overlay") {
+      proposedValue = JSON.stringify({
+        text: editorDraft,
+        opacity: overlayOpacity,
+        fontSize: overlayFontSize,
+        color: overlayColor,
+        backgroundColor: overlayBgColor,
+      });
+    } else {
+      proposedValue = editorDraft;
+    }
 
     try {
       const res = await fetch("/api/candidates", {
@@ -195,7 +258,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
           field: editor,
           candidateType,
           originalValue,
-          proposedValue: editorDraft,
+          proposedValue,
           languageCode: lang,
           sourceLanguage: sourceLang,
         }),
@@ -209,6 +272,41 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       setSaveMsg("Revision created — pending review");
       setCandidates(prev => [data.candidate, ...prev]);
       setTimeout(() => closeEditor(), 1500);
+    } catch {
+      setSaveMsg("Network error — try again");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function handleSaveSelectedImage() {
+    if (!selectedImageUrl || saving) return;
+    setSaving(true);
+    setSaveMsg("");
+    try {
+      const res = await fetch("/api/candidates", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          lessonId: id,
+          sceneId: scene.scene_id,
+          stepId: step?.step_id,
+          field: "image",
+          candidateType: "image",
+          originalValue: bgPath,
+          proposedValue: selectedImageUrl,
+          languageCode: null,
+          sourceLanguage: null,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setSaveMsg(`Error: ${data.error}`);
+      } else {
+        setSaveMsg(`Image candidate created from ${selectedImageSource} — pending review`);
+        setCandidates(prev => [data.candidate, ...prev]);
+        setTimeout(() => { closeEditor(); setSelectedImageUrl(null); setSelectedImageSource(""); }, 1500);
+      }
     } catch {
       setSaveMsg("Network error — try again");
     } finally {
@@ -673,7 +771,23 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                   {["en", "ru", "uk"].map(l => (
                     <button key={l}
                       style={sourceLang === l ? S.sourceLangActive : S.sourceLangBtn}
-                      onClick={() => setSourceLang(l)}
+                      onClick={() => {
+                        setSourceLang(l);
+                        // Update editorDraft with text for the selected language
+                        if (step && (editor === "teacher" || editor === "poll")) {
+                          const val = step.prompt?.[l] || "";
+                          setEditorDraft(val);
+                        }
+                        // Update poll options/explanation for the selected language
+                        if (step && editor === "poll") {
+                          if (step.options) {
+                            setPollOptions(step.options.map(o => o.text?.[l] || ""));
+                          }
+                          if (step.explanation) {
+                            setPollExplanation(step.explanation[l] || "");
+                          }
+                        }
+                      }}
                       data-testid={`source-lang-${l}`}>
                       {l.toUpperCase()}
                     </button>
@@ -688,8 +802,8 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             {/* ── Teacher Text Editor ── */}
             {editor === "teacher" && step && (
               <div style={S.editorBody}>
-                <div style={S.fieldLabel}>Current</div>
-                <div style={S.oldText}>{t(step.prompt)}</div>
+                <div style={S.fieldLabel}>Current ({sourceLang.toUpperCase()})</div>
+                <div style={S.oldText} data-testid="editor-current-text">{step.prompt?.[sourceLang] || t(step.prompt)}</div>
                 <div style={S.fieldLabel}>New text ({sourceLang.toUpperCase()})</div>
                 <textarea style={S.textarea} rows={6} value={editorDraft}
                   onChange={e => setEditorDraft(e.target.value)} data-testid="editor-textarea" />
@@ -697,28 +811,53 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             )}
 
             {/* ── Poll Editor ── */}
-            {editor === "poll" && step && (
-              <div style={S.editorBody}>
-                <div style={S.fieldLabel}>Current question</div>
-                <div style={S.oldText}>{t(step.prompt)}</div>
+            {editor === "poll" && (
+              <div style={S.editorBody} data-testid="poll-editor-body">
+                {step && (
+                  <>
+                    <div style={S.fieldLabel}>Current question ({sourceLang.toUpperCase()})</div>
+                    <div style={S.oldText}>{step.prompt?.[sourceLang] || t(step.prompt)}</div>
+                  </>
+                )}
                 <div style={S.fieldLabel}>New question</div>
-                <textarea style={S.textarea} rows={4} value={editorDraft}
-                  onChange={e => setEditorDraft(e.target.value)} />
-                {step.options && (
-                  <>
-                    <div style={S.fieldLabel}>Options</div>
-                    {step.options.map((o, i) => (
-                      <input key={o.id} style={S.input} defaultValue={t(o.text)}
-                        placeholder={`Option ${i + 1}`} />
-                    ))}
-                  </>
-                )}
-                {step.explanation && (
-                  <>
-                    <div style={S.fieldLabel}>Explanation</div>
-                    <textarea style={S.textarea} rows={3} defaultValue={t(step.explanation)} />
-                  </>
-                )}
+                <textarea style={S.textarea} rows={3} value={editorDraft}
+                  onChange={e => setEditorDraft(e.target.value)}
+                  data-testid="poll-question-input"
+                  placeholder="Enter the poll question..." />
+
+                <div style={S.fieldLabel}>Options</div>
+                {pollOptions.map((opt, i) => (
+                  <div key={i} style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 4 }}>
+                    <input
+                      type="radio"
+                      name="pollCorrect"
+                      checked={pollCorrect === `opt_${i}`}
+                      onChange={() => setPollCorrect(`opt_${i}`)}
+                      data-testid={`poll-correct-${i}`}
+                      style={{ accentColor: "#66bb6a" }}
+                    />
+                    <input style={{ ...S.input, flex: 1, marginBottom: 0 }}
+                      value={opt}
+                      onChange={e => {
+                        const next = [...pollOptions];
+                        next[i] = e.target.value;
+                        setPollOptions(next);
+                      }}
+                      placeholder={`Option ${i + 1}`}
+                      data-testid={`poll-option-${i}`} />
+                  </div>
+                ))}
+                <button style={S.ghostBtn}
+                  onClick={() => setPollOptions([...pollOptions, ""])}
+                  data-testid="poll-add-option">
+                  + Add option
+                </button>
+
+                <div style={S.fieldLabel}>Explanation (shown after answer)</div>
+                <textarea style={S.textarea} rows={2} value={pollExplanation}
+                  onChange={e => setPollExplanation(e.target.value)}
+                  data-testid="poll-explanation-input"
+                  placeholder="Why this answer is correct..." />
               </div>
             )}
 
@@ -734,16 +873,44 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
 
             {/* ── Overlay Editor ── */}
             {editor === "overlay" && (
-              <div style={S.editorBody}>
+              <div style={S.editorBody} data-testid="overlay-editor-body">
                 <div style={S.fieldLabel}>Overlay text</div>
                 <textarea style={S.textarea} rows={3} value={editorDraft}
-                  onChange={e => setEditorDraft(e.target.value)} />
+                  onChange={e => setEditorDraft(e.target.value)}
+                  data-testid="overlay-text-input"
+                  placeholder="Enter overlay text..." />
                 <div style={S.fieldLabel}>Position &amp; Style</div>
                 <div style={S.rangeGrid}>
-                  <label style={S.rangeLabel}>Opacity <input type="range" min="10" max="100" defaultValue="80" /></label>
-                  <label style={S.rangeLabel}>Font size <input type="range" min="12" max="42" defaultValue="20" /></label>
-                  <label style={S.rangeLabel}>Color <input type="color" defaultValue="#ffffff" style={S.colorInput} /></label>
-                  <label style={S.rangeLabel}>Background <input type="color" defaultValue="#0d1524" style={S.colorInput} /></label>
+                  <label style={S.rangeLabel}>Opacity: {overlayOpacity}%
+                    <input type="range" min="10" max="100" value={overlayOpacity}
+                      onChange={e => setOverlayOpacity(Number(e.target.value))}
+                      data-testid="overlay-opacity" />
+                  </label>
+                  <label style={S.rangeLabel}>Font size: {overlayFontSize}px
+                    <input type="range" min="12" max="42" value={overlayFontSize}
+                      onChange={e => setOverlayFontSize(Number(e.target.value))}
+                      data-testid="overlay-fontsize" />
+                  </label>
+                  <label style={S.rangeLabel}>Color
+                    <input type="color" value={overlayColor}
+                      onChange={e => setOverlayColor(e.target.value)}
+                      style={S.colorInput} data-testid="overlay-color" />
+                  </label>
+                  <label style={S.rangeLabel}>Background
+                    <input type="color" value={overlayBgColor}
+                      onChange={e => setOverlayBgColor(e.target.value)}
+                      style={S.colorInput} data-testid="overlay-bgcolor" />
+                  </label>
+                </div>
+                {/* Preview */}
+                <div style={S.fieldLabel}>Preview</div>
+                <div style={{
+                  padding: "10px 14px", borderRadius: 8,
+                  background: overlayBgColor, color: overlayColor,
+                  opacity: overlayOpacity / 100, fontSize: overlayFontSize,
+                  minHeight: 40, border: "1px solid rgba(255,255,255,0.12)",
+                }} data-testid="overlay-preview">
+                  {editorDraft || "Preview text..."}
                 </div>
               </div>
             )}
@@ -787,20 +954,102 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                       </div>
                     </div>
                   )}
-                  <div style={S.fieldLabel}>This lesson&apos;s images</div>
-                  <div style={S.thumbRow}>
-                    {sceneIds.slice(0, 8).map(sid => (
-                      <div key={sid} style={{
-                        ...S.thumbCard,
-                        backgroundImage: `url(/api/assets/${id}/${id.toLowerCase()}_${sid}_bg.png)`,
-                        ...(sid === activeSceneId ? { borderColor: "#4f7df9" } : {}),
-                      }} />
+                  <div style={S.fieldLabel}>This lesson&apos;s images (click to select)</div>
+                  <div style={S.thumbRow} data-testid="current-lesson-images">
+                    {sceneIds.slice(0, 8).map(sid => {
+                      const url = `/api/assets/${id}/${id.toLowerCase()}_${sid}_bg.png`;
+                      return (
+                        <div key={sid} style={{
+                          ...S.thumbCard,
+                          backgroundImage: `url(${url})`,
+                          borderColor: selectedImageUrl === url ? "#ff9800" : sid === activeSceneId ? "#4f7df9" : "transparent",
+                        }}
+                        onClick={() => { setSelectedImageUrl(url); setSelectedImageSource(`lesson ${id} ${sid}`); }}
+                        data-testid={`select-image-${id}-${sid}`} />
+                      );
+                    })}
+                  </div>
+
+                  {/* Other lessons' images */}
+                  <div style={S.fieldLabel}>Browse other lessons</div>
+                  <div style={S.browserScroll} data-testid="other-lesson-images">
+                    {otherLessons.length === 0 && (
+                      <div style={{ fontSize: 11, color: "rgba(240,242,245,0.3)" }}>Loading...</div>
+                    )}
+                    {otherLessons.map(ol => (
+                      <div key={ol.lesson_id} style={S.browserLesson} data-testid={`other-lesson-${ol.lesson_id}`}>
+                        <div style={S.browserTitle}>{ol.lesson_id} — {ol.title?.en || ol.title?.ru || ""}</div>
+                        <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
+                          {ol.scenes.slice(0, 4).map(sid => {
+                            const url = `/api/assets/${ol.lesson_id}/${ol.lesson_id.toLowerCase()}_${sid}_bg.png`;
+                            return (
+                              <div key={sid} style={{
+                                ...S.thumbSmall,
+                                width: 64,
+                                backgroundImage: `url(${url})`,
+                                border: selectedImageUrl === url ? "2px solid #ff9800" : "none",
+                              }}
+                              onClick={() => { setSelectedImageUrl(url); setSelectedImageSource(`lesson ${ol.lesson_id} ${sid}`); }}
+                              data-testid={`select-image-${ol.lesson_id}-${sid}`} />
+                            );
+                          })}
+                        </div>
+                      </div>
                     ))}
                   </div>
+
+                  {/* Generated draft / candidate images */}
+                  {candidates.filter(c => c.candidateType === "image").length > 0 && (
+                    <>
+                      <div style={S.fieldLabel}>Generated drafts &amp; candidates</div>
+                      <div style={S.thumbRow} data-testid="draft-candidate-images">
+                        {candidates
+                          .filter(c => c.candidateType === "image")
+                          .slice(0, 8)
+                          .map(c => {
+                            const draftUrl = `/api/candidates/generate-image?file=${c.proposedValue}`;
+                            return (
+                              <div key={c.id} style={{
+                                ...S.thumbCard,
+                                position: "relative" as never,
+                                backgroundImage: `url(${draftUrl})`,
+                                border: selectedImageUrl === draftUrl ? "2px solid #ff9800"
+                                  : c.status === "accepted" ? "2px solid #66bb6a"
+                                  : c.status === "rejected" ? "2px solid #ef5350"
+                                  : "2px solid rgba(255,152,0,0.4)",
+                              }}
+                              onClick={() => { setSelectedImageUrl(c.proposedValue); setSelectedImageSource(`draft candidate ${c.id.slice(0, 8)}`); }}
+                              data-testid={`select-draft-${c.id}`}>
+                                <span style={{
+                                  position: "absolute" as never, top: 2, right: 2,
+                                  padding: "1px 5px", borderRadius: 4, fontSize: 8, fontWeight: 700,
+                                  background: c.status === "pending" ? "rgba(255,165,0,0.8)" : c.status === "accepted" ? "rgba(46,125,50,0.8)" : "rgba(200,40,40,0.8)",
+                                  color: "white",
+                                }}>{c.status}</span>
+                              </div>
+                            );
+                          })}
+                      </div>
+                    </>
+                  )}
                 </div>
                 <div style={S.editorBody}>
                   <div style={S.fieldLabel}>Current image</div>
                   <div style={{ ...S.heroPreview, backgroundImage: `url(${bgPath})` }} />
+                  {/* Save selected image from gallery */}
+                  {selectedImageUrl && !generatedImage && (
+                    <>
+                      <div style={S.fieldLabel}>Selected: {selectedImageSource}</div>
+                      <div style={{ ...S.heroPreview, backgroundImage: `url(${selectedImageUrl})`, border: "2px solid #ff9800" }}
+                        data-testid="selected-image-preview" />
+                      <button style={S.primaryBtn}
+                        onClick={handleSaveSelectedImage}
+                        disabled={saving}
+                        data-testid="btn-save-selected-image">
+                        {saving ? "Saving..." : "Save selected as candidate"}
+                      </button>
+                    </>
+                  )}
                   {generatedImage && (
                     <>
                       <div style={S.fieldLabel}>Generated preview</div>
