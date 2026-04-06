@@ -541,20 +541,24 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       </div>
 
       {/* ═══ CANDIDATES PANEL ═══ */}
-      {showCandidates && (
+      {showCandidates && (() => {
+        // Show: pending + rejected (author can withdraw rejected). Hide: accepted + withdrawn.
+        const actionable = candidates.filter(c => c.status === "pending" || c.status === "rejected");
+        const hidden = candidates.filter(c => c.status === "accepted" || c.status === "withdrawn");
+        return (
         <div style={S.candidatesPanel} data-testid="candidates-panel">
           <div style={S.candidatesPanelHead}>
             <span style={{ fontSize: 12, fontWeight: 700, color: "rgba(240,242,245,0.5)" }}>
-              My Revisions ({candidates.length})
+              Revisions ({actionable.length}){hidden.length > 0 ? ` · ${hidden.length} done` : ""}
             </span>
             <button style={S.xBtn} onClick={() => setShowCandidates(false)}>×</button>
           </div>
-          {candidates.length === 0 && (
+          {actionable.length === 0 && (
             <div style={{ padding: "12px 16px", fontSize: 12, color: "rgba(240,242,245,0.3)" }}>
-              No revisions yet. Open an editor and save a draft to create one.
+              No actionable revisions. {hidden.length > 0 ? `${hidden.length} completed — hidden.` : "Open an editor and save a draft to create one."}
             </div>
           )}
-          {candidates.map((c: any) => (
+          {actionable.map((c: any) => (
             <div key={c.id} style={S.candidateRow} data-testid={`candidate-row-${c.id}`}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span style={{ fontSize: 12, fontWeight: 700 }}>{c.field}</span>
@@ -648,7 +652,8 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             </div>
           ))}
         </div>
-      )}
+        );
+      })()}
 
       {/* ═══ PUBLISH PANEL ═══ */}
       {showPublish && canReviewRole && (

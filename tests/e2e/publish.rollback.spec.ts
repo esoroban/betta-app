@@ -57,8 +57,13 @@ test.describe.serial("Publish / rollback workflow", () => {
     const approveBtn = page.locator(`[data-testid="approve-btn-${pending.id}"]`);
     await expect(approveBtn).toBeVisible({ timeout: 10000 });
     await approveBtn.click();
-    await expect(page.locator(`[data-testid="candidate-status-${pending.id}"]`))
-      .toHaveText("accepted", { timeout: 15000 });
+    // After approve → vanishes from panel
+    await expect(page.locator(`[data-testid="candidate-row-${pending.id}"]`))
+      .toHaveCount(0, { timeout: 15000 });
+    // API verify
+    const resp2 = await page.request.get(`/api/candidates`);
+    const data2 = await resp2.json();
+    expect(data2.candidates?.find((c: { id: string }) => c.id === pending.id)?.status).toBe("accepted");
   });
 
   test("admin can publish accepted candidates", async ({ page }) => {
@@ -134,8 +139,8 @@ test.describe.serial("Publish / rollback workflow", () => {
     await page.locator('[data-testid="btn-my-revisions"]').click();
     await expect(page.locator('[data-testid="candidates-panel"]')).toBeVisible({ timeout: 10000 });
     await page.locator(`[data-testid="approve-btn-${pending.id}"]`).click();
-    await expect(page.locator(`[data-testid="candidate-status-${pending.id}"]`))
-      .toHaveText("accepted", { timeout: 15000 });
+    await expect(page.locator(`[data-testid="candidate-row-${pending.id}"]`))
+      .toHaveCount(0, { timeout: 15000 });
 
     // Publish v2
     await openPublishPanel(page);

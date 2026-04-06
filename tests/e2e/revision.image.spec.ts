@@ -158,18 +158,14 @@ test.describe.serial("Image generation pipeline", () => {
     const row = page.locator(`[data-testid="candidate-row-${imageCandidateId}"]`);
     await expect(row).toBeVisible({ timeout: 10000 });
 
-    // UI: status should be "pending" before approve
-    const statusBefore = page.locator(`[data-testid="candidate-status-${imageCandidateId}"]`);
-    await expect(statusBefore).toHaveText("pending", { timeout: 5000 });
-
-    // Click approve
+    // UI: pending candidate visible with approve button
     const approveBtn = page.locator(`[data-testid="approve-btn-${imageCandidateId}"]`);
     await expect(approveBtn).toBeVisible({ timeout: 5000 });
     await approveBtn.click();
 
-    // UI: status changes to accepted
-    await expect(page.locator(`[data-testid="candidate-status-${imageCandidateId}"]`))
-      .toHaveText("accepted", { timeout: 15000 });
+    // After approve → row vanishes from panel (accepted = hidden)
+    await expect(page.locator(`[data-testid="candidate-row-${imageCandidateId}"]`))
+      .toHaveCount(0, { timeout: 15000 });
 
     // API verification: image approve should NOT trigger text translation fan-out
     const resp = await page.request.get(`/api/candidates`);

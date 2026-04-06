@@ -209,9 +209,9 @@ test.describe.serial("Bug 3: Poll editor full workflow", () => {
     await expect(approveBtn).toBeVisible({ timeout: 5000 });
     await approveBtn.click();
 
-    // Status → accepted
-    await expect(page.locator(`[data-testid="candidate-status-${pollCandidateId}"]`))
-      .toHaveText("accepted", { timeout: 15000 });
+    // After approve → vanishes from panel (accepted = hidden)
+    await expect(page.locator(`[data-testid="candidate-row-${pollCandidateId}"]`))
+      .toHaveCount(0, { timeout: 15000 });
 
     // API: verify translations exist
     const resp = await page.request.get(`/api/candidates`);
@@ -307,9 +307,9 @@ test.describe.serial("Bug 4: Overlay editor full workflow", () => {
     await expect(approveBtn).toBeVisible({ timeout: 5000 });
     await approveBtn.click();
 
-    // Status → accepted
-    await expect(page.locator(`[data-testid="candidate-status-${overlayCandidateId}"]`))
-      .toHaveText("accepted", { timeout: 15000 });
+    // After approve → vanishes from panel
+    await expect(page.locator(`[data-testid="candidate-row-${overlayCandidateId}"]`))
+      .toHaveCount(0, { timeout: 15000 });
 
     // API: verify translations exist
     const resp = await page.request.get(`/api/candidates`);
