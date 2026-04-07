@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { requireAuth } from "@/lib/auth";
 import { canReview } from "@/lib/roles";
 import { createAuditEvent } from "@/lib/audit";
-import { getLesson } from "@/lib/lessons";
+import { getLesson, applyChangesToLesson } from "@/lib/lessons";
 import { Role, Prisma } from "@prisma/client";
 
 /**
@@ -57,7 +57,7 @@ export async function POST(
   const { id } = await params;
   const body = await request.json().catch(() => ({}));
 
-  // Get current lesson data as base snapshot
+  // Get current lesson state (published-first, or baseline)
   const currentLesson = await getLesson(id);
   if (!currentLesson) {
     return Response.json({ error: "Lesson not found" }, { status: 404 });
@@ -82,22 +82,28 @@ export async function POST(
     );
   }
 
-  // Build snapshot: current lesson data + list of applied changes
+  // Build applied changes metadata
+  const appliedChanges = unpublishedCandidates.map(c => ({
+    id: c.id,
+    field: c.field,
+    candidateType: c.candidateType,
+    sceneId: c.sceneId,
+    stepId: c.stepId,
+    originalValue: c.originalValue,
+    proposedValue: c.proposedValue,
+    sourceLanguage: c.sourceLanguage,
+    translatedValues: c.translatedValues as Record<string, { lang: string; text: string; success: boolean }> | null,
+    authorId: c.authorUserId,
+    authorName: c.author.displayName,
+  }));
+
+  // Materialize: apply accepted changes to lesson data
+  const materializedLesson = applyChangesToLesson(currentLesson, appliedChanges);
+
   const snapshot = {
-    lessonData: currentLesson,
-    appliedChanges: unpublishedCandidates.map(c => ({
-      id: c.id,
-      field: c.field,
-      candidateType: c.candidateType,
-      sceneId: c.sceneId,
-      stepId: c.stepId,
-      originalValue: c.originalValue,
-      proposedValue: c.proposedValue,
-      sourceLanguage: c.sourceLanguage,
-      translatedValues: c.translatedValues,
-      authorId: c.authorUserId,
-      authorName: c.author.displayName,
-    })),
+    lessonData: materializedLesson,
+    baselineLessonId: id,
+    appliedChanges,
     publishedAt: new Date().toISOString(),
   };
 
