@@ -17,12 +17,15 @@ interface Step {
   options?: { id: string; text: Record<string, string> }[];
   correct_answer?: string;
   explanation?: Record<string, string>;
+  teacher_text?: Record<string, string>;
+  overlay?: { text: string; opacity: number; fontSize: number; color: string; backgroundColor: string } | null;
 }
 
 interface Scene {
   scene_id: string;
   title: Record<string, string>;
   step_ids: string[];
+  brief?: Record<string, string>;
 }
 
 interface LessonData {
@@ -121,7 +124,9 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     if (step && lesson?.step_image_map) {
       const mapped = lesson.step_image_map[step.step_id];
       if (mapped) {
-        // mapped is like "../ASSETS/1A/1a_sc2_bg_children_icecream.png"
+        // Already an API or absolute URL (e.g. /api/assets/1A/... from UI picker)
+        if (mapped.startsWith("/api/") || mapped.startsWith("http")) return mapped;
+        // Pipeline path like "../ASSETS/1A/1a_sc2_bg.png" — convert to API path
         const match = mapped.match(/ASSETS\/(.+)/);
         if (match) return `/api/assets/${match[1]}`;
       }
@@ -166,7 +171,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     setSaveMsg("");
     setSourceLang(lang);
     if (type === "teacher") {
-      setEditorDraft(step ? (step.prompt?.[lang] || t(step.prompt)) : "");
+      // single_choice/poll: teacher_text field; theory/instruction: prompt
+      const src = isPollStep
+        ? (step?.teacher_text?.[lang] || t(step?.teacher_text))
+        : (step?.prompt?.[lang] || t(step?.prompt ?? {}));
+      setEditorDraft(step ? (src || "") : "");
     } else if (type === "poll") {
       setEditorDraft(step ? (step.prompt?.[lang] || t(step.prompt)) : "");
       // Initialize poll options from step data
@@ -178,9 +187,15 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       setPollCorrect(step?.correct_answer || "");
       setPollExplanation(step?.explanation ? (step.explanation[lang] || t(step.explanation)) : "");
     } else if (type === "brief") {
-      setEditorDraft(`Scene ${scene.scene_id} brief`);
+      const b = scene?.brief;
+      setEditorDraft(b ? (typeof b === "string" ? b : (b[lang] || t(b))) : "");
     } else if (type === "overlay") {
-      setEditorDraft("Overlay text");
+      const ov = step?.overlay;
+      setEditorDraft(ov?.text || "");
+      setOverlayOpacity(ov?.opacity ?? 80);
+      setOverlayFontSize(ov?.fontSize ?? 20);
+      setOverlayColor(ov?.color ?? "#ffffff");
+      setOverlayBgColor(ov?.backgroundColor ?? "#0d1524");
     } else if (type === "image") {
       setEditorDraft("");
       // Load other lessons for browsing their images
@@ -220,7 +235,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       : "text";
 
     const originalValue = editor === "teacher"
-      ? (step.step_type === "single_choice" && step.explanation ? t(step.explanation) : t(step.prompt))
+      ? (isPollStep ? t(step.teacher_text) : t(step.prompt))
       : editor === "poll" ? t(step.prompt)
       : editor === "brief" ? ""
       : editor === "overlay" ? ""
@@ -412,6 +427,12 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
           const cData = await cRes.json();
           if (cData.candidates) setCandidates(cData.candidates);
         }
+        // Reload lesson data to reflect published snapshot
+        const lRes = await fetch(`/api/lessons/${id}`);
+        if (lRes.ok) {
+          const lData = await lRes.json();
+          if (lData?.lesson) setLesson(lData.lesson);
+        }
       }
     } catch {
       setPublishMsg("Network error");
@@ -436,6 +457,12 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       } else {
         setPublishMsg(data.message);
         await loadPublishVersions();
+        // Reload lesson data to reflect rolled-back snapshot
+        const lRes = await fetch(`/api/lessons/${id}`);
+        if (lRes.ok) {
+          const lData = await lRes.json();
+          if (lData?.lesson) setLesson(lData.lesson);
+        }
       }
     } catch {
       setPublishMsg("Network error");
@@ -453,8 +480,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     image: "Edit Image",
   };
 
+  const isPollStep = step?.step_type === "single_choice" || (step?.options && step.options.length > 0);
   const teacherText = step
-    ? (step.step_type === "single_choice" && step.explanation ? t(step.explanation) : t(step.prompt))
+    ? isPollStep
+      ? t(step.teacher_text)  // single_choice: teacher_text is separate field
+      : t(step.prompt)        // theory/instruction: prompt is teacher text
     : "";
 
   return (
@@ -483,7 +513,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
           {([
             ["image", "Image"],
             ["brief", "Brief"],
-            ["poll", "Poll"],
+            ...(step?.step_type === "single_choice" || step?.options?.length ? [["poll", "Poll"]] : []),
             ["overlay", "Overlay"],
             ["teacher", "Teacher Text"],
           ] as [EditorType, string][]).map(([type, label]) => (
@@ -507,7 +537,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
 
       {/* ═══ HERO IMAGE ═══ */}
       <div style={{ ...S.stage, backgroundImage: `url(${bgPath})` }} data-testid="lesson-stage">
-        {step && step.step_type === "single_choice" && step.options && (
+        {step && step.options && step.options.length > 0 && (
           <div style={S.pollWrap}>
             <div style={S.pollQ}>{t(step.prompt)}</div>
             <div style={S.pollOpts}>
@@ -520,10 +550,35 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             </div>
           </div>
         )}
+        {step?.overlay && step.overlay.text && (
+          <div data-testid="overlay-display" style={{
+            position: "absolute", bottom: 16, left: 16, right: 16,
+            padding: "10px 14px", borderRadius: 8, zIndex: 4,
+            background: step.overlay.backgroundColor,
+            color: step.overlay.color,
+            opacity: step.overlay.opacity / 100,
+            fontSize: step.overlay.fontSize,
+            pointerEvents: "none",
+          }}>
+            {step.overlay.text}
+          </div>
+        )}
       </div>
 
       {/* ═══ TEACHER TEXT ═══ */}
       <div style={S.teacherPanel} data-testid="teacher-panel">{teacherText}</div>
+
+      {/* ═══ SCENE BRIEF ═══ */}
+      {scene?.brief && (typeof scene.brief === "string" ? scene.brief : t(scene.brief)) && (
+        <div data-testid="scene-brief" style={{
+          padding: "8px 16px", fontSize: 12,
+          color: "rgba(240,242,245,0.5)",
+          borderTop: "1px solid rgba(255,255,255,0.06)",
+          fontStyle: "italic",
+        }}>
+          Brief: {typeof scene.brief === "string" ? scene.brief : t(scene.brief)}
+        </div>
+      )}
 
       {/* ═══ CONTROLS ═══ */}
       <div style={S.controls} data-testid="lesson-controls">
@@ -779,9 +834,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                       onClick={() => {
                         setSourceLang(l);
                         // Update editorDraft with text for the selected language
-                        if (step && (editor === "teacher" || editor === "poll")) {
-                          const val = step.prompt?.[l] || "";
+                        if (step && editor === "teacher") {
+                          const val = isPollStep
+                            ? (step.teacher_text?.[l] || "")
+                            : (step.prompt?.[l] || "");
                           setEditorDraft(val);
+                        } else if (step && editor === "poll") {
+                          setEditorDraft(step.prompt?.[l] || "");
                         }
                         // Update poll options/explanation for the selected language
                         if (step && editor === "poll") {
@@ -808,7 +867,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             {editor === "teacher" && step && (
               <div style={S.editorBody}>
                 <div style={S.fieldLabel}>Current ({sourceLang.toUpperCase()})</div>
-                <div style={S.oldText} data-testid="editor-current-text">{step.prompt?.[sourceLang] || t(step.prompt)}</div>
+                <div style={S.oldText} data-testid="editor-current-text">
+                  {isPollStep
+                    ? (step.teacher_text?.[sourceLang] || t(step.teacher_text) || "—")
+                    : (step.prompt?.[sourceLang] || t(step.prompt))}
+                </div>
                 <div style={S.fieldLabel}>New text ({sourceLang.toUpperCase()})</div>
                 <textarea style={S.textarea} rows={6} value={editorDraft}
                   onChange={e => setEditorDraft(e.target.value)} data-testid="editor-textarea" />

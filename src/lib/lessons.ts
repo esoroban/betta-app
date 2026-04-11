@@ -15,13 +15,15 @@ export interface LessonDetail {
   lesson_id: string;
   title: Record<string, string>;
   supported_langs: string[];
-  scenes: Record<string, { scene_id: string; title: Record<string, string>; step_ids: string[] }>;
+  scenes: Record<string, { scene_id: string; title: Record<string, string>; step_ids: string[]; brief?: Record<string, string> }>;
   steps: {
     step_id: string; scene_id: string; step_type: string; text_audience: string;
     prompt: Record<string, string>;
     options?: { id: string; text: Record<string, string> }[];
     correct_answer?: string;
     explanation?: Record<string, string>;
+    teacher_text?: Record<string, string>;
+    overlay?: { text: string; opacity: number; fontSize: number; color: string; backgroundColor: string } | null;
   }[];
   step_image_map?: Record<string, string>;
 }
@@ -138,8 +140,11 @@ export function applyChangesToLesson(
       applyPollChange(lesson, change);
     } else if (change.candidateType === "image" && change.field === "image") {
       applyImageChange(lesson, change);
+    } else if (change.candidateType === "text" && change.field === "brief" && change.sceneId) {
+      applyBriefChange(lesson, change);
+    } else if (change.candidateType === "overlay" && change.field === "overlay" && change.stepId) {
+      applyOverlayChange(lesson, change);
     }
-    // overlay and brief: no direct lesson data mutation yet
   }
 
   return lesson;
@@ -152,20 +157,29 @@ function applyTextChange(lesson: LessonDetail, change: AppliedChange): void {
   const translations = change.translatedValues;
   const sourceLang = change.sourceLanguage || "en";
 
-  // Determine target: explanation for single_choice steps, prompt otherwise
-  const target = (step.step_type === "single_choice" && step.explanation)
-    ? step.explanation
-    : step.prompt;
+  const isPollStep = step.step_type === "single_choice" || (step.options && step.options.length > 0);
 
-  // Apply source language directly
-  target[sourceLang] = change.proposedValue;
-
-  // Apply translations
-  if (translations) {
-    for (const [lang, val] of Object.entries(translations)) {
-      if (lang === "_error") continue;
-      if (val && typeof val === "object" && "text" in val && val.success) {
-        target[lang] = val.text;
+  if (isPollStep) {
+    // single_choice/poll: teacher text → teacher_text field
+    if (!step.teacher_text) step.teacher_text = {};
+    step.teacher_text[sourceLang] = change.proposedValue;
+    if (translations) {
+      for (const [lang, val] of Object.entries(translations)) {
+        if (lang === "_error") continue;
+        if (val && typeof val === "object" && "text" in val && val.success) {
+          step.teacher_text[lang] = val.text;
+        }
+      }
+    }
+  } else {
+    // theory/instruction: teacher text → prompt
+    step.prompt[sourceLang] = change.proposedValue;
+    if (translations) {
+      for (const [lang, val] of Object.entries(translations)) {
+        if (lang === "_error") continue;
+        if (val && typeof val === "object" && "text" in val && val.success) {
+          step.prompt[lang] = val.text;
+        }
       }
     }
   }
@@ -180,20 +194,28 @@ function applyPollChange(lesson: LessonDetail, change: AppliedChange): void {
     const translations = change.translatedValues;
     const sourceLang = change.sourceLanguage || "en";
 
-    // Apply question
+    // Apply question — always update prompt (poll editor is only shown on single_choice steps)
     if (pollData.question) {
       step.prompt[sourceLang] = pollData.question;
     }
 
-    // Apply options
-    if (pollData.options && step.options) {
-      for (let i = 0; i < pollData.options.length && i < step.options.length; i++) {
-        step.options[i].text[sourceLang] = pollData.options[i];
+    // Apply options — create if step doesn't have them yet
+    if (pollData.options && Array.isArray(pollData.options) && pollData.options.length > 0) {
+      if (!step.options) {
+        step.options = (pollData.options as string[]).map((text: string, i: number) => ({
+          id: `opt_${i}`,
+          text: { [sourceLang]: text },
+        }));
+      } else {
+        for (let i = 0; i < pollData.options.length && i < step.options.length; i++) {
+          step.options[i].text[sourceLang] = pollData.options[i];
+        }
       }
     }
 
-    // Apply explanation
-    if (pollData.explanation && step.explanation) {
+    // Apply explanation — create if doesn't exist yet
+    if (pollData.explanation) {
+      if (!step.explanation) step.explanation = {};
       step.explanation[sourceLang] = pollData.explanation;
     }
 
@@ -203,22 +225,28 @@ function applyPollChange(lesson: LessonDetail, change: AppliedChange): void {
     }
 
     // Apply translations for poll
+    // translatePollToAllLangs returns: { lang: { question: {text,success}, options: [{text,success}], explanation?: {text,success} } }
     if (translations) {
       for (const [lang, val] of Object.entries(translations)) {
         if (lang === "_error" || !val || typeof val !== "object") continue;
         const tval = val as Record<string, unknown>;
-        if (!tval.success) continue;
 
-        if (tval.question && typeof tval.question === "string") {
-          step.prompt[lang] = tval.question;
+        const q = tval.question as { text?: string; success?: boolean } | undefined;
+        if (q?.success && q.text) {
+          step.prompt[lang] = q.text;
         }
         if (Array.isArray(tval.options) && step.options) {
           for (let i = 0; i < tval.options.length && i < step.options.length; i++) {
-            step.options[i].text[lang] = tval.options[i] as string;
+            const opt = tval.options[i] as { text?: string; success?: boolean };
+            if (opt?.success && opt.text) {
+              step.options[i].text[lang] = opt.text;
+            }
           }
         }
-        if (tval.explanation && typeof tval.explanation === "string" && step.explanation) {
-          step.explanation[lang] = tval.explanation;
+        const expl = tval.explanation as { text?: string; success?: boolean } | undefined;
+        if (expl?.success && expl.text) {
+          if (!step.explanation) step.explanation = {};
+          step.explanation[lang] = expl.text;
         }
       }
     }
@@ -236,4 +264,37 @@ function applyImageChange(lesson: LessonDetail, change: AppliedChange): void {
 
   // proposedValue is the new image URL/path
   lesson.step_image_map[change.stepId] = change.proposedValue;
+}
+
+function applyBriefChange(lesson: LessonDetail, change: AppliedChange): void {
+  const scene = lesson.scenes[change.sceneId!];
+  if (!scene) return;
+  const sourceLang = change.sourceLanguage || "en";
+  // Migrate: old snapshots may have brief as a plain string
+  if (!scene.brief || typeof (scene.brief as unknown) === "string") {
+    const old = typeof (scene.brief as unknown) === "string" ? (scene.brief as unknown as string) : "";
+    scene.brief = old ? { en: old, ru: old, uk: old } : {};
+  }
+  scene.brief[sourceLang] = change.proposedValue;
+  // Apply translations
+  if (change.translatedValues) {
+    for (const [lang, val] of Object.entries(change.translatedValues)) {
+      if (lang === "_error") continue;
+      if (val && typeof val === "object" && "text" in val && val.success) {
+        scene.brief[lang] = val.text;
+      }
+    }
+  }
+}
+
+function applyOverlayChange(lesson: LessonDetail, change: AppliedChange): void {
+  const step = lesson.steps.find(s => s.step_id === change.stepId);
+  if (!step) return;
+  try {
+    const data = JSON.parse(change.proposedValue);
+    // Empty text means remove overlay
+    step.overlay = data.text?.trim() ? data : null;
+  } catch {
+    // Malformed JSON — skip
+  }
 }
