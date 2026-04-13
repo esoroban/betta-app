@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, use } from "react";
+import { useEffect, useState, use, useRef } from "react";
 import { useRouter } from "next/navigation";
 
 interface Session {
@@ -18,7 +18,7 @@ interface Step {
   correct_answer?: string;
   explanation?: Record<string, string>;
   teacher_text?: Record<string, string>;
-  overlay?: { text: string; opacity: number; fontSize: number; color: string; backgroundColor: string } | null;
+  overlay?: { text: Record<string, string> | string; opacity: number; fontSize: number; color: string; backgroundColor: string; x?: number; y?: number } | null;
 }
 
 interface Scene {
@@ -76,6 +76,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const [overlayFontSize, setOverlayFontSize] = useState(20);
   const [overlayColor, setOverlayColor] = useState("#ffffff");
   const [overlayBgColor, setOverlayBgColor] = useState("#0d1524");
+  const [overlayX, setOverlayX] = useState(50);
+  const [overlayY, setOverlayY] = useState(85);
+  const [overlayPositioning, setOverlayPositioning] = useState(false);
+  const stageRef = useRef<HTMLDivElement>(null);
+  const overlayDragRef = useRef<HTMLDivElement>(null);
   // Image selection state (for picking from other lessons / drafts)
   const [selectedImageUrl, setSelectedImageUrl] = useState<string | null>(null);
   const [selectedImageSource, setSelectedImageSource] = useState<string>(""); // description of where image came from
@@ -191,11 +196,14 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       setEditorDraft(b ? (typeof b === "string" ? b : (b[lang] || t(b))) : "");
     } else if (type === "overlay") {
       const ov = step?.overlay;
-      setEditorDraft(ov?.text || "");
+      const ovText = ov?.text;
+      setEditorDraft(ovText ? (typeof ovText === "string" ? ovText : (ovText[lang] || ovText.en || ovText.ru || "")) : "");
       setOverlayOpacity(ov?.opacity ?? 80);
       setOverlayFontSize(ov?.fontSize ?? 20);
       setOverlayColor(ov?.color ?? "#ffffff");
       setOverlayBgColor(ov?.backgroundColor ?? "#0d1524");
+      setOverlayX(ov?.x ?? 50);
+      setOverlayY(ov?.y ?? 85);
     } else if (type === "image") {
       setEditorDraft("");
       // Load other lessons for browsing their images
@@ -222,6 +230,37 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   function closeEditor() {
     setEditor(null);
     setSaveMsg("");
+    setOverlayPositioning(false);
+  }
+
+  function handleOverlayDragStart(e: React.MouseEvent) {
+    e.preventDefault();
+    const startMouseX = e.clientX;
+    const startMouseY = e.clientY;
+    const startX = overlayX;
+    const startY = overlayY;
+
+    function onMouseMove(ev: MouseEvent) {
+      const stage = stageRef.current;
+      const overlay = overlayDragRef.current;
+      if (!stage) return;
+      const stageRect = stage.getBoundingClientRect();
+      const dx = ((ev.clientX - startMouseX) / stageRect.width) * 100;
+      const dy = ((ev.clientY - startMouseY) / stageRect.height) * 100;
+      // Clamp so element stays fully within stage using actual element size
+      const halfW = overlay ? (overlay.offsetWidth / stageRect.width) * 50 : 0;
+      const halfH = overlay ? (overlay.offsetHeight / stageRect.height) * 50 : 0;
+      setOverlayX(Math.min(100 - halfW, Math.max(halfW, startX + dx)));
+      setOverlayY(Math.min(100 - halfH, Math.max(halfH, startY + dy)));
+    }
+
+    function onMouseUp() {
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    }
+
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
   }
 
   async function handleSave() {
@@ -257,6 +296,8 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
         fontSize: overlayFontSize,
         color: overlayColor,
         backgroundColor: overlayBgColor,
+        x: overlayX,
+        y: overlayY,
       });
     } else {
       proposedValue = editorDraft;
@@ -536,7 +577,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       )}
 
       {/* ═══ HERO IMAGE ═══ */}
-      <div style={{ ...S.stage, backgroundImage: `url(${bgPath})` }} data-testid="lesson-stage">
+      <div ref={stageRef} style={{ ...S.stage, backgroundImage: `url(${bgPath})` }} data-testid="lesson-stage">
         {step && step.options && step.options.length > 0 && (
           <div style={S.pollWrap}>
             <div style={S.pollQ}>{t(step.prompt)}</div>
@@ -550,18 +591,60 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             </div>
           </div>
         )}
-        {step?.overlay && step.overlay.text && (
-          <div data-testid="overlay-display" style={{
-            position: "absolute", bottom: 16, left: 16, right: 16,
-            padding: "10px 14px", borderRadius: 8, zIndex: 4,
-            background: step.overlay.backgroundColor,
-            color: step.overlay.color,
-            opacity: step.overlay.opacity / 100,
-            fontSize: step.overlay.fontSize,
-            pointerEvents: "none",
-          }}>
-            {step.overlay.text}
+        {/* Done button while positioning */}
+        {overlayPositioning && (
+          <button
+            onClick={() => setOverlayPositioning(false)}
+            style={{
+              position: "absolute", top: 12, left: "50%", transform: "translateX(-50%)",
+              zIndex: 10, padding: "6px 18px", borderRadius: 20,
+              border: "none", background: "#4f7df9", color: "white",
+              fontSize: 13, fontWeight: 700, cursor: "pointer",
+            }}
+          >
+            ✓ Done positioning
+          </button>
+        )}
+        {/* Overlay: draggable preview while editing, published overlay otherwise */}
+        {editor === "overlay" ? (
+          <div
+            ref={overlayDragRef}
+            data-testid="overlay-display"
+            onMouseDown={handleOverlayDragStart}
+            style={{
+              position: "absolute",
+              left: `${overlayX}%`, top: `${overlayY}%`,
+              transform: "translate(-50%, -50%)",
+              padding: "10px 14px", borderRadius: 8, zIndex: 4,
+              background: overlayBgColor, color: overlayColor,
+              opacity: overlayOpacity / 100, fontSize: overlayFontSize,
+              cursor: "grab", userSelect: "none",
+              outline: "2px dashed rgba(255,255,255,0.5)",
+            }}
+          >
+            {editorDraft || <span style={{ opacity: 0.4 }}>Preview text...</span>}
           </div>
+        ) : (
+          step?.overlay && (() => {
+            const overlayTxt = typeof step.overlay!.text === "string" ? step.overlay!.text : t(step.overlay!.text);
+            // Don't show if text is empty or was accidentally stored as a JSON string
+            if (!overlayTxt || overlayTxt.trimStart().startsWith("{")) return null;
+            return (
+              <div data-testid="overlay-display" style={{
+                position: "absolute",
+                left: `${step.overlay!.x ?? 50}%`, top: `${step.overlay!.y ?? 85}%`,
+                transform: "translate(-50%, -50%)",
+                padding: "10px 14px", borderRadius: 8, zIndex: 4,
+                background: step.overlay!.backgroundColor,
+                color: step.overlay!.color,
+                opacity: step.overlay!.opacity / 100,
+                fontSize: step.overlay!.fontSize,
+                pointerEvents: "none",
+              }}>
+                {overlayTxt}
+              </div>
+            );
+          })()
         )}
       </div>
 
@@ -811,7 +894,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       )}
 
       {/* ═══ EDITOR DRAWER ═══ */}
-      {editor && (
+      {editor && !overlayPositioning && (
         <>
           <div style={S.backdrop} onClick={closeEditor} />
           <div style={editor === "image" ? S.editorWide : S.editorDrawer} data-testid={`editor-drawer-${editor}`}>
@@ -970,16 +1053,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                       style={S.colorInput} data-testid="overlay-bgcolor" />
                   </label>
                 </div>
-                {/* Preview */}
-                <div style={S.fieldLabel}>Preview</div>
-                <div style={{
-                  padding: "10px 14px", borderRadius: 8,
-                  background: overlayBgColor, color: overlayColor,
-                  opacity: overlayOpacity / 100, fontSize: overlayFontSize,
-                  minHeight: 40, border: "1px solid rgba(255,255,255,0.12)",
-                }} data-testid="overlay-preview">
-                  {editorDraft || "Preview text..."}
-                </div>
+                {/* Position on image */}
+                <button
+                  style={{ ...S.ghostBtn, marginTop: 8, width: "100%", textAlign: "center" as const }}
+                  onClick={() => setOverlayPositioning(true)}
+                >
+                  ↕ Position on image — {Math.round(overlayX)}% / {Math.round(overlayY)}%
+                </button>
               </div>
             )}
 

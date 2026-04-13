@@ -23,7 +23,7 @@ export interface LessonDetail {
     correct_answer?: string;
     explanation?: Record<string, string>;
     teacher_text?: Record<string, string>;
-    overlay?: { text: string; opacity: number; fontSize: number; color: string; backgroundColor: string } | null;
+    overlay?: { text: Record<string, string>; opacity: number; fontSize: number; color: string; backgroundColor: string; x?: number; y?: number } | null;
   }[];
   step_image_map?: Record<string, string>;
 }
@@ -157,30 +157,51 @@ function applyTextChange(lesson: LessonDetail, change: AppliedChange): void {
   const translations = change.translatedValues;
   const sourceLang = change.sourceLanguage || "en";
 
+  // Track which languages received a successful translation
+  const translated = new Set<string>([sourceLang]);
+  if (translations) {
+    for (const [lang, val] of Object.entries(translations)) {
+      if (lang === "_error") continue;
+      if (val && typeof val === "object" && "text" in val && val.success && val.text) {
+        translated.add(lang);
+      }
+    }
+  }
+
   const isPollStep = step.step_type === "single_choice" || (step.options && step.options.length > 0);
 
   if (isPollStep) {
-    // single_choice/poll: teacher text → teacher_text field
     if (!step.teacher_text) step.teacher_text = {};
+    // Apply source
     step.teacher_text[sourceLang] = change.proposedValue;
+    // Apply successful translations
     if (translations) {
       for (const [lang, val] of Object.entries(translations)) {
         if (lang === "_error") continue;
-        if (val && typeof val === "object" && "text" in val && val.success) {
-          step.teacher_text[lang] = val.text;
+        if (val && typeof val === "object" && "text" in val && val.success && val.text) {
+          step.teacher_text[lang] = val.text as string;
         }
       }
     }
+    // Fallback: languages without translation get source text so new content always propagates
+    for (const lang of ["en", "ru", "uk"]) {
+      if (!translated.has(lang)) step.teacher_text[lang] = change.proposedValue;
+    }
   } else {
-    // theory/instruction: teacher text → prompt
+    // Apply source
     step.prompt[sourceLang] = change.proposedValue;
+    // Apply successful translations
     if (translations) {
       for (const [lang, val] of Object.entries(translations)) {
         if (lang === "_error") continue;
-        if (val && typeof val === "object" && "text" in val && val.success) {
-          step.prompt[lang] = val.text;
+        if (val && typeof val === "object" && "text" in val && val.success && val.text) {
+          step.prompt[lang] = val.text as string;
         }
       }
+    }
+    // Fallback: languages without translation get source text so new content always propagates
+    for (const lang of ["en", "ru", "uk"]) {
+      if (!translated.has(lang)) step.prompt[lang] = change.proposedValue;
     }
   }
 }
@@ -292,8 +313,20 @@ function applyOverlayChange(lesson: LessonDetail, change: AppliedChange): void {
   if (!step) return;
   try {
     const data = JSON.parse(change.proposedValue);
-    // Empty text means remove overlay
-    step.overlay = data.text?.trim() ? data : null;
+    const sourceLang = change.sourceLanguage || "en";
+    const sourceText: string = data.text || "";
+    // Build multilingual text map from source + translations
+    const text: Record<string, string> = {};
+    if (sourceText) text[sourceLang] = sourceText;
+    if (change.translatedValues) {
+      for (const [lang, val] of Object.entries(change.translatedValues)) {
+        if (lang === "_error") continue;
+        if (val && typeof val === "object" && "text" in val && val.success) {
+          text[lang] = val.text as string;
+        }
+      }
+    }
+    step.overlay = { ...data, text };
   } catch {
     // Malformed JSON — skip
   }
