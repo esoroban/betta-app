@@ -513,7 +513,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
           {([
             ["image", "Image"],
             ["brief", "Brief"],
-            ...(step?.step_type === "single_choice" || step?.options?.length ? [["poll", "Poll"]] : []),
+            ["poll", "Poll"],
             ["overlay", "Overlay"],
             ["teacher", "Teacher Text"],
           ] as [EditorType, string][]).map(([type, label]) => (
