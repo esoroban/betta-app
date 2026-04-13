@@ -79,12 +79,15 @@ export async function PATCH(
             candidate.sourceLanguage
           ) as Record<string, unknown>;
         } else if (candidate.candidateType === "overlay") {
-          // Parse overlay JSON, translate only the text field
+          // Parse overlay JSON, translate only the text field (skip if empty)
           const overlayData = JSON.parse(candidate.proposedValue);
-          translatedValues = await translateOverlayToAllLangs(
-            overlayData.text || candidate.proposedValue,
-            candidate.sourceLanguage
-          ) as Record<string, unknown>;
+          const overlayText: string = overlayData.text || "";
+          if (overlayText) {
+            translatedValues = await translateOverlayToAllLangs(
+              overlayText,
+              candidate.sourceLanguage
+            ) as Record<string, unknown>;
+          }
         }
         // image candidates: no translation needed
       } catch (err) {
