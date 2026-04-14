@@ -37,7 +37,7 @@ interface LessonData {
   step_image_map?: Record<string, string>;
 }
 
-type EditorType = "teacher" | "poll" | "brief" | "overlay" | "image" | null;
+type EditorType = "teacher" | "poll" | "brief" | "overlay" | "image" | "delete_step" | null;
 
 export default function LessonDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -69,6 +69,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const [otherLessons, setOtherLessons] = useState<{ lesson_id: string; title: Record<string, string>; scenes: string[] }[]>([]);
   // Poll editor state
   const [pollOptions, setPollOptions] = useState<string[]>([]);
+  const [pollOptionIds, setPollOptionIds] = useState<string[]>([]);
   const [pollCorrect, setPollCorrect] = useState("");
   const [pollExplanation, setPollExplanation] = useState("");
   // Overlay editor state
@@ -186,8 +187,10 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
       // Initialize poll options from step data
       if (step?.options) {
         setPollOptions(step.options.map(o => o.text?.[lang] || t(o.text)));
+        setPollOptionIds(step.options.map(o => o.id));
       } else {
         setPollOptions(["", ""]); // Default: 2 empty options for new poll
+        setPollOptionIds(["opt_0", "opt_1"]);
       }
       setPollCorrect(step?.correct_answer || "");
       setPollExplanation(step?.explanation ? (step.explanation[lang] || t(step.explanation)) : "");
@@ -265,27 +268,34 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
 
   async function handleSave() {
     if (!editor || !step || saving) return;
+
+    if (editor === "poll" && !pollCorrect) {
+      setSaveMsg("Выберите правильный вариант ответа");
+      return;
+    }
+
     setSaving(true);
     setSaveMsg("");
 
     const candidateType = editor === "image" ? "image"
       : editor === "poll" ? "poll"
       : editor === "overlay" ? "overlay"
+      : editor === "delete_step" ? "delete_step"
       : "text";
 
     const originalValue = editor === "teacher"
       ? (isPollStep ? t(step.teacher_text) : t(step.prompt))
       : editor === "poll" ? t(step.prompt)
-      : editor === "brief" ? ""
-      : editor === "overlay" ? ""
       : "";
 
     // Build proposedValue based on editor type
     let proposedValue: string;
     if (editor === "poll") {
+      const filteredIndices = pollOptions.map((o, i) => ({ o, i })).filter(({ o }) => o.trim()).map(({ i }) => i);
       proposedValue = JSON.stringify({
         question: editorDraft,
-        options: pollOptions.filter(o => o.trim()),
+        options: filteredIndices.map(i => pollOptions[i]),
+        optionIds: filteredIndices.map(i => pollOptionIds[i]),
         correctAnswer: pollCorrect,
         explanation: pollExplanation,
       });
@@ -299,6 +309,8 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
         x: overlayX,
         y: overlayY,
       });
+    } else if (editor === "delete_step") {
+      proposedValue = step.step_id;
     } else {
       proposedValue = editorDraft;
     }
@@ -472,7 +484,20 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
         const lRes = await fetch(`/api/lessons/${id}`);
         if (lRes.ok) {
           const lData = await lRes.json();
-          if (lData?.lesson) setLesson(lData.lesson);
+          if (lData?.lesson) {
+            const newLesson = lData.lesson;
+            setLesson(newLesson);
+            // If current step was deleted, navigate to the previous step
+            const currentStepId = step?.step_id;
+            if (currentStepId) {
+              const newSceneSteps = (newLesson.steps as { step_id: string; scene_id: string }[])
+                .filter((s) => s.scene_id === activeSceneId);
+              const stillExists = newSceneSteps.some(s => s.step_id === currentStepId);
+              if (!stillExists) {
+                setStepIndex(Math.max(0, stepIndex - 1));
+              }
+            }
+          }
         }
       }
     } catch {
@@ -519,6 +544,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
     brief: "Edit Brief",
     overlay: "Edit Overlay",
     image: "Edit Image",
+    delete_step: "Delete Step",
   };
 
   const isPollStep = step?.step_type === "single_choice" || (step?.options && step.options.length > 0);
@@ -561,6 +587,14 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             <button key={type} style={editor === type ? S.actionBtnActive : S.actionBtn}
               onClick={() => openEditor(type)} data-testid={`editor-btn-${type}`}>{label}</button>
           ))}
+          <button
+            style={editor === "delete_step"
+              ? { ...S.actionBtn, background: "#b71c1c", borderColor: "#b71c1c", color: "#fff" }
+              : { ...S.actionBtn, color: "#ef5350", borderColor: "#ef5350" }}
+            onClick={() => openEditor("delete_step")}
+            data-testid="editor-btn-delete_step">
+            Delete Step
+          </button>
           <button style={showCandidates ? S.actionBtnActive : S.actionBtn}
             onClick={() => setShowCandidates(!showCandidates)}
             data-testid="btn-my-revisions">
@@ -978,12 +1012,12 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
 
                 <div style={S.fieldLabel}>Options</div>
                 {pollOptions.map((opt, i) => (
-                  <div key={i} style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 4 }}>
+                  <div key={pollOptionIds[i] ?? i} style={{ display: "flex", gap: 6, alignItems: "center", marginBottom: 4 }}>
                     <input
                       type="radio"
                       name="pollCorrect"
-                      checked={pollCorrect === `opt_${i}`}
-                      onChange={() => setPollCorrect(`opt_${i}`)}
+                      checked={pollCorrect === pollOptionIds[i]}
+                      onChange={() => setPollCorrect(pollOptionIds[i])}
                       data-testid={`poll-correct-${i}`}
                       style={{ accentColor: "#66bb6a" }}
                     />
@@ -996,10 +1030,32 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                       }}
                       placeholder={`Option ${i + 1}`}
                       data-testid={`poll-option-${i}`} />
+                    {pollOptions.length > 2 && (
+                      <button
+                        onClick={() => {
+                          const removedId = pollOptionIds[i];
+                          setPollOptions(pollOptions.filter((_, j) => j !== i));
+                          setPollOptionIds(pollOptionIds.filter((_, j) => j !== i));
+                          if (pollCorrect === removedId) setPollCorrect("");
+                        }}
+                        data-testid={`poll-remove-option-${i}`}
+                        style={{ background: "transparent", border: "none", color: "#ef5350", fontSize: 18, lineHeight: 1, cursor: "pointer", padding: "0 2px", flexShrink: 0 }}
+                        title="Remove option">
+                        ×
+                      </button>
+                    )}
                   </div>
                 ))}
+                {!pollCorrect && (
+                  <div style={{ fontSize: 12, color: "#ef5350", marginBottom: 6 }}>
+                    Select the correct answer
+                  </div>
+                )}
                 <button style={S.ghostBtn}
-                  onClick={() => setPollOptions([...pollOptions, ""])}
+                  onClick={() => {
+                    setPollOptions([...pollOptions, ""]);
+                    setPollOptionIds([...pollOptionIds, `opt_new_${Date.now()}`]);
+                  }}
                   data-testid="poll-add-option">
                   + Add option
                 </button>
@@ -1009,6 +1065,30 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
                   onChange={e => setPollExplanation(e.target.value)}
                   data-testid="poll-explanation-input"
                   placeholder="Why this answer is correct..." />
+              </div>
+            )}
+
+            {/* ── Delete Step ── */}
+            {editor === "delete_step" && (
+              <div style={S.editorBody}>
+                <div style={{
+                  background: "rgba(183,28,28,0.12)",
+                  border: "1px solid rgba(239,83,80,0.4)",
+                  borderRadius: 8,
+                  padding: "16px 20px",
+                  marginBottom: 8,
+                }}>
+                  <div style={{ color: "#ef5350", fontWeight: 700, fontSize: 15, marginBottom: 8 }}>⚠ Warning</div>
+                  <div style={{ fontSize: 14, lineHeight: 1.6, color: "#f0f2f5" }}>
+                    Are you sure you want to delete this step?
+                  </div>
+                  <div style={{ fontSize: 12, color: "rgba(240,242,245,0.6)", marginTop: 8 }}>
+                    Step: <b>{step?.step_id}</b> · Scene: <b>{scene?.scene_id}</b>
+                  </div>
+                  <div style={{ fontSize: 12, color: "rgba(240,242,245,0.5)", marginTop: 4 }}>
+                    This will be submitted for review. The step will only be removed after approval and publishing.
+                  </div>
+                </div>
               </div>
             )}
 
@@ -1240,8 +1320,16 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
             <div style={S.editorActions}>
               <button style={S.ghostBtn} onClick={() => { closeEditor(); setGeneratedImage(null); setImageError(""); }} data-testid="editor-cancel">Cancel</button>
               {editor !== "image" && (
-                <button style={S.primaryBtn} onClick={handleSave} disabled={saving} data-testid="editor-save">
-                  {saving ? "Saving..." : "Save draft"}
+                <button
+                  style={{
+                    ...S.primaryBtn,
+                    ...(editor === "poll" && !pollCorrect ? { opacity: 0.4, cursor: "not-allowed" } : {}),
+                    ...(editor === "delete_step" ? { background: "#b71c1c", borderColor: "#b71c1c" } : {}),
+                  }}
+                  onClick={handleSave}
+                  disabled={saving || (editor === "poll" && !pollCorrect)}
+                  data-testid="editor-save">
+                  {saving ? "Saving..." : editor === "delete_step" ? "Submit for review" : "Save draft"}
                 </button>
               )}
             </div>
