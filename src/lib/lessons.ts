@@ -144,6 +144,8 @@ export function applyChangesToLesson(
       applyBriefChange(lesson, change);
     } else if (change.candidateType === "overlay" && change.field === "overlay" && change.stepId) {
       applyOverlayChange(lesson, change);
+    } else if (change.candidateType === "delete_step" && change.field === "delete_step" && change.stepId) {
+      applyDeleteStep(lesson, change);
     }
   }
 
@@ -220,18 +222,17 @@ function applyPollChange(lesson: LessonDetail, change: AppliedChange): void {
       step.prompt[sourceLang] = pollData.question;
     }
 
-    // Apply options — create if step doesn't have them yet
+    // Apply options — rebuild by matching on ID to preserve multilingual text correctly
     if (pollData.options && Array.isArray(pollData.options) && pollData.options.length > 0) {
-      if (!step.options) {
-        step.options = (pollData.options as string[]).map((text: string, i: number) => ({
-          id: `opt_${i}`,
-          text: { [sourceLang]: text },
-        }));
-      } else {
-        for (let i = 0; i < pollData.options.length && i < step.options.length; i++) {
-          step.options[i].text[sourceLang] = pollData.options[i];
-        }
-      }
+      const optionIds: string[] = Array.isArray(pollData.optionIds) ? pollData.optionIds : [];
+      const existingById = new Map((step.options ?? []).map(o => [o.id, o]));
+      step.options = (pollData.options as string[]).map((text: string, i: number) => {
+        const id = optionIds[i] ?? `opt_${i}`;
+        const existing = existingById.get(id);
+        return existing
+          ? { ...existing, text: { ...existing.text, [sourceLang]: text } }
+          : { id, text: { [sourceLang]: text } };
+      });
     }
 
     // Apply explanation — create if doesn't exist yet
@@ -329,5 +330,19 @@ function applyOverlayChange(lesson: LessonDetail, change: AppliedChange): void {
     step.overlay = { ...data, text };
   } catch {
     // Malformed JSON — skip
+  }
+}
+
+function applyDeleteStep(lesson: LessonDetail, change: AppliedChange): void {
+  const stepId = change.stepId!;
+  // Remove from steps array
+  lesson.steps = lesson.steps.filter(s => s.step_id !== stepId);
+  // Remove from scene's step_ids list
+  for (const scene of Object.values(lesson.scenes)) {
+    scene.step_ids = scene.step_ids.filter(id => id !== stepId);
+  }
+  // Remove from step_image_map if present
+  if (lesson.step_image_map) {
+    delete lesson.step_image_map[stepId];
   }
 }

@@ -60,7 +60,7 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  if (!["text", "image", "poll", "overlay", "brief"].includes(candidateType)) {
+  if (!["text", "image", "poll", "overlay", "brief", "delete_step"].includes(candidateType)) {
     return Response.json({ error: "Invalid candidateType" }, { status: 400 });
   }
 
