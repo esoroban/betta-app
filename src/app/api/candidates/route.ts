@@ -64,7 +64,8 @@ export async function POST(request: NextRequest) {
     return Response.json({ error: "Invalid candidateType" }, { status: 400 });
   }
 
-  if (typeof proposedValue !== "string" || proposedValue.trim() === "") {
+  const allowEmpty = field === "teacher" || field === "teacher_text";
+  if (typeof proposedValue !== "string" || (!allowEmpty && proposedValue.trim() === "")) {
     return Response.json({ error: "proposedValue is required and cannot be empty" }, { status: 400 });
   }
 
